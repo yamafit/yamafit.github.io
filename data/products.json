@@ -1,0 +1,257 @@
+{
+  "_note": "brand/name/price/affiliate は実商品を登録するとき埋める。空欄のものは表示時に[...]のまま。",
+  "products": [
+    {
+      "id": "boots-mid-stiff",
+      "category": "boots",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "ミッドカット／硬めのソール",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "mid",
+        "hut",
+        "tent"
+      ],
+      "concerns": [
+        "knee"
+      ],
+      "reasons": {
+        "knee": "足首を支えて着地が安定するので、下りの膝への負担を抑えたい人に向きます。"
+      },
+      "default_reason": "岩場や急登のあるコースで、足首を支えて着地が安定する一足です。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "boots-low-light",
+      "category": "boots",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "ローカット／軽量",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "low"
+      ],
+      "concerns": [
+        "light",
+        "budget"
+      ],
+      "reasons": {
+        "light": "軽さを優先でき、整備された道を歩く日帰りに向きます。",
+        "budget": "低山の日帰りから始めたい人が、まず選びやすいタイプです。"
+      },
+      "default_reason": "整備された道を歩く低山向けの、軽快な一足です。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "boots-mid-cold",
+      "category": "boots",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "ミッドカット／保温重視",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "hut",
+        "tent"
+      ],
+      "concerns": [
+        "cold"
+      ],
+      "reasons": {
+        "cold": "足元が冷えやすい人や、朝晩が冷える山行に向きます。"
+      },
+      "default_reason": "荷物が重くなる泊まり山行で、足を守る一足です。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "poles-lever",
+      "category": "poles",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "2本組／レバー式",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "low",
+        "mid",
+        "hut",
+        "tent"
+      ],
+      "concerns": [
+        "knee"
+      ],
+      "reasons": {
+        "knee": "下りで膝にかかる負担を腕に分散できます。長さをすぐ変えられるレバー式です。"
+      },
+      "default_reason": "登りと下りで長さを変えやすい、2本組のポールです。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "poles-light-fold",
+      "category": "poles",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "2本組／折りたたみ・軽量",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "low",
+        "mid",
+        "hut"
+      ],
+      "concerns": [
+        "light",
+        "budget"
+      ],
+      "reasons": {
+        "light": "畳むと小さくなり、ザックに付けて持ち歩きやすいタイプです。"
+      },
+      "default_reason": "コンパクトに持ち運べる、軽量なポールです。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "pack-day-mesh",
+      "category": "pack",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "日帰り向け／背面メッシュ",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "low",
+        "mid"
+      ],
+      "concerns": [
+        "sweat"
+      ],
+      "reasons": {
+        "sweat": "背中が蒸れにくい作りで、汗をかきやすい人に向きます。"
+      },
+      "default_reason": "雨具・防寒着・水が収まる、日帰り向けの容量です。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "pack-hut",
+      "category": "pack",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "山小屋泊向け／中容量",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "hut"
+      ],
+      "concerns": [
+        "light"
+      ],
+      "reasons": {
+        "light": "1泊分の荷物を、できるだけ軽くまとめたい人向けです。"
+      },
+      "default_reason": "山小屋泊の縦走に合う容量のザックです。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    },
+    {
+      "id": "pack-tent",
+      "category": "pack",
+      "brand": "[ブランド名]",
+      "name": "[商品名]",
+      "spec": "テント泊向け／大容量",
+      "price": null,
+      "weight_g": null,
+      "material": "",
+      "waterproof": "",
+      "season": [],
+      "features": [],
+      "for_whom": "",
+      "terrain": [
+        "tent"
+      ],
+      "concerns": [
+        "cold"
+      ],
+      "reasons": {
+        "cold": "防寒着や寝具が増える季節でも、荷物を収めやすい容量です。"
+      },
+      "default_reason": "寝具と食事を背負うテント泊向けの、大容量ザックです。",
+      "related": [],
+      "affiliate": {
+        "amazon": "",
+        "rakuten": "",
+        "yahoo": ""
+      }
+    }
+  ]
+}

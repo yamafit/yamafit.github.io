@@ -1,0 +1,137 @@
+{
+  "_note": "name = 表示名、aliases = 最新記事の対象にする別名、site = 公式サイト（メニューからここへ飛ぶ）。ブランドを足す・消すのは運営者がこのファイルを編集する。",
+  "brands": [
+    {
+      "name": "パタゴニア",
+      "aliases": [
+        "Patagonia"
+      ],
+      "site": "https://www.patagonia.jp/"
+    },
+    {
+      "name": "ザ・ノース・フェイス",
+      "aliases": [
+        "THE NORTH FACE",
+        "ノースフェイス",
+        "ザ・ノース・フェイス"
+      ],
+      "site": "https://www.thenorthface.jp/"
+    },
+    {
+      "name": "アークテリクス",
+      "aliases": [
+        "Arc'teryx",
+        "ARC’TERYX",
+        "アークテリクス"
+      ],
+      "site": "https://arcteryx.com/"
+    },
+    {
+      "name": "モンベル",
+      "aliases": [
+        "mont-bell",
+        "montbell",
+        "モンベル"
+      ],
+      "site": "https://www.montbell.jp/"
+    },
+    {
+      "name": "スノーピーク",
+      "aliases": [
+        "Snow Peak",
+        "スノーピーク"
+      ],
+      "site": "https://www.snowpeak.co.jp/"
+    },
+    {
+      "name": "コロンビア",
+      "aliases": [
+        "Columbia Sportswear",
+        "コロンビア"
+      ],
+      "site": "https://www.columbia.co.jp/"
+    },
+    {
+      "name": "マムート",
+      "aliases": [
+        "MAMMUT",
+        "マムート"
+      ],
+      "site": "https://www.mammut.jp/"
+    },
+    {
+      "name": "マーモット",
+      "aliases": [
+        "Marmot",
+        "マーモット"
+      ],
+      "site": "https://marmot.jp/"
+    },
+    {
+      "name": "マウンテンハードウェア",
+      "aliases": [
+        "Mountain Hardwear",
+        "マウンテンハードウェア"
+      ],
+      "site": "https://www.mountainhardwear.jp/"
+    },
+    {
+      "name": "ホグロフス",
+      "aliases": [
+        "Haglofs",
+        "Haglöfs",
+        "ホグロフス"
+      ],
+      "site": "https://www.haglofs.com/"
+    },
+    {
+      "name": "サロモン",
+      "aliases": [
+        "SALOMON",
+        "サロモン"
+      ],
+      "site": "https://salomon.jp/"
+    },
+    {
+      "name": "メレル",
+      "aliases": [
+        "MERRELL",
+        "メレル"
+      ],
+      "site": "https://merrell.jp/"
+    },
+    {
+      "name": "モンテイン",
+      "aliases": [
+        "Montane",
+        "モンテイン"
+      ],
+      "site": "https://montane.com/"
+    },
+    {
+      "name": "ブラックダイヤモンド",
+      "aliases": [
+        "Black Diamond",
+        "ブラックダイヤモンド"
+      ],
+      "site": "https://blackdiamondequipment.com/"
+    },
+    {
+      "name": "ゴールドウイン",
+      "aliases": [
+        "GOLDWIN",
+        "ゴールドウイン"
+      ],
+      "site": "https://www.goldwin.co.jp/"
+    },
+    {
+      "name": "山と道",
+      "aliases": [
+        "山と道",
+        "YAMATOMICHI"
+      ],
+      "site": "https://www.yamatomichi.com/"
+    }
+  ],
+  "extra_feeds": []
+}

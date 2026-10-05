@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ヤマフィット｜登山装備の選び方とAI診断</title>
+<link rel="stylesheet" href="css/style.css?v=202610052326">
+</head>
+<body>
+<div class="page">
+
+<header class="header" id="top">
+  <a class="logo" href="index.html"><b>ヤマフィット</b><span>YAMAFIT</span></a>
+  <div class="header-actions">
+    <a class="icon-btn" href="#item-q" aria-label="アイテムを検索">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+    </a>
+    <button class="icon-btn" type="button" aria-label="メニューを開く">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<form class="item-search" id="item-search" role="search">
+  <label for="item-q" style="position:absolute; left:-9999px">探したいアイテムを検索</label>
+  <input class="input" id="item-q" type="search" placeholder="探したいアイテム（例：登山靴、ザック）" autocomplete="off">
+  <button type="submit" aria-label="検索">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+  </button>
+</form>
+<div id="item-results" class="item-results" hidden aria-live="polite"></div>
+
+<nav class="cats" aria-label="カテゴリ">
+  <a class="cat cat--primary" href="question.html">AI診断</a>
+  <a class="cat" href="category.html?c=boots">登山靴</a>
+  <a class="cat" href="category.html?c=pack">ザック</a>
+  <a class="cat" href="category.html?c=rain">レインウェア</a>
+  <a class="cat" href="category.html?c=wear">ウェア</a>
+  <a class="cat" href="category.html?c=tent">テント泊</a>
+</nav>
+
+<section style="padding: 20px 20px 0">
+  <div class="feature">
+    <img class="photo photo--hero" src="img/hero.jpg" alt="山の稜線を歩く2人と、街を歩く3人が並ぶ、ヤマフィットのメインビジュアル" width="1376" height="768">
+  </div>
+</section>
+
+<section class="promo">
+  <svg width="260" height="250" viewBox="0 0 260 250" fill="none" aria-hidden="true">
+    <path d="M210 80C230 76 248 92 244 112C240 132 218 140 200 132C182 124 178 100 190 88C196 82 202 81 210 80Z" stroke="#2F5B47"/>
+    <path d="M210 56C244 48 276 76 270 114C264 150 226 166 192 154C160 142 148 104 166 76C176 62 192 58 210 56Z" stroke="#2F5B47" stroke-width="1.6"/>
+    <path d="M208 30C258 18 306 62 298 118C290 170 236 196 184 180C136 164 114 108 140 64C156 40 180 34 208 30Z" stroke="#2F5B47"/>
+  </svg>
+  <div class="promo-inner">
+    <div>
+      <div class="eyebrow eyebrow--dark">AI装備診断</div>
+      <h2 style="margin-top: 8px">どれを選ぶか迷ったら、<br>AIに聞く。</h2>
+      <p>行き先・季節・経験に答えると、合う装備を選んで提案します。</p>
+    </div>
+    <a class="btn" href="question.html">
+      <span>診断をはじめる</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<section class="section" style="gap: 12px">
+  <div class="row-between">
+    <h2 class="h-section">最新記事</h2>
+    <a class="link-more" href="news.html"><span>すべて見る</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+  <div id="news-latest" class="stack" style="gap: 12px">
+  <a class="item" href="article.html">
+    <div class="photo photo--thumb">写真</div>
+    <div class="item-body"><div class="eyebrow">レインウェア</div><div class="item-title">レインウェアは、耐水圧の前に「蒸れにくさ」を見る</div></div>
+  </a>
+  <a class="item" href="article.html">
+    <div class="photo photo--thumb">写真</div>
+    <div class="item-body"><div class="eyebrow">ザック</div><div class="item-title">日帰りザックは何リットルを選べばいいか</div></div>
+  </a>
+  <a class="item" href="article.html">
+    <div class="photo photo--thumb">写真</div>
+    <div class="item-body"><div class="eyebrow">ウェア</div><div class="item-title">夏の低山、重ね着は3枚で考える</div></div>
+  </a>
+  </div>
+</section>
+
+<section class="section" style="gap: 10px" id="ranking">
+  <h2 class="h-section">ランキング</h2>
+  <div class="tabs" role="tablist" aria-label="ランキングの種類">
+    <button class="tab" type="button" role="tab" id="tab-access" aria-selected="true" aria-controls="rank-list">アクセス</button>
+    <button class="tab" type="button" role="tab" id="tab-purchase" aria-selected="false" aria-controls="rank-list">購入</button>
+  </div>
+  <div class="sub" id="rank-note"></div>
+  <ol id="rank-list" role="tabpanel">
+    <li class="rank"><a href="article.html"><span class="rank-no">1</span><span class="item-body"><span class="eyebrow">トレッキングポール</span><span class="item-title">トレッキングポールは1本か、2本か</span></span></a></li>
+    <li class="rank"><a href="article.html"><span class="rank-no">2</span><span class="item-body"><span class="eyebrow">ヘッドランプ</span><span class="item-title">ヘッドランプの明るさは、どこまで必要か</span></span></a></li>
+    <li class="rank"><a href="article.html"><span class="rank-no">3</span><span class="item-body"><span class="eyebrow">小物</span><span class="item-title">水筒とハイドレーション、山での使い分け</span></span></a></li>
+  </ol>
+</section>
+
+<div class="notice">
+  <div class="notice-head"><span class="pr-badge">PR</span><span>広告について</span></div>
+  <p>当サイトはアフィリエイト広告を利用しています。記事はすべて運営編集部が執筆し、掲載する装備を選んでいます。リンク先での購入により当サイトが報酬を受け取る場合があります。</p>
+</div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <nav aria-label="フッター"><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
+    <div class="mono">YAMAFIT</div>
+  </div>
+</footer>
+<script src="js/app.js?v=202610052326"></script>
+<script src="js/menu.js?v=202610052326"></script>
+<script src="js/ranking.js?v=202610052326"></script>
+<script src="js/news.js?v=202610052326"></script>
+<script src="js/items.js?v=202610052326"></script>
+</body>
+</html>

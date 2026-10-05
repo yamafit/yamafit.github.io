@@ -1,0 +1,13 @@
+{
+  "_note": "売れそうな商品の候補。数値はキーワードツール・ASPの管理画面で調べて入れる。",
+  "items": [
+    {
+      "id": "boots-mid-stiff",
+      "monthly_search": 0,
+      "competition": 3,
+      "price": 0,
+      "commission_rate": 0.03,
+      "intent": 4
+    }
+  ]
+}

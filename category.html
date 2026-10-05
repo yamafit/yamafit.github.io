@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>カテゴリ｜ヤマフィット</title>
+<link rel="stylesheet" href="css/style.css?v=202610052326">
+</head>
+<body>
+<div class="page">
+
+<header class="header header--line" id="top">
+  <a class="logo" href="index.html"><b>ヤマフィット</b><span>YAMAFIT</span></a>
+  <a class="icon-btn" href="index.html" aria-label="ホームにもどる">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+  </a>
+</header>
+
+<nav class="cats" id="cat-nav" aria-label="カテゴリ" style="padding-top: 12px"></nav>
+
+<main class="doc" style="gap: 24px">
+  <div class="stack" style="gap: 8px">
+    <div class="crumb"><a href="index.html">ホーム</a> ／ <span id="crumb"></span></div>
+    <h1 id="cat-title"></h1>
+    <p class="doc-lead" id="cat-lead"></p>
+  </div>
+
+  <section>
+    <h2 class="h-section" style="margin-bottom: 4px">購入ランキング</h2>
+    <div class="sub" id="cat-rank-note"></div>
+    <ol id="cat-rank"></ol>
+  </section>
+
+  <section>
+    <h2 class="h-section" style="margin-bottom: 8px">アイテム</h2>
+    <div id="cat-items"></div>
+    <a class="btn" href="question.html" style="margin-top: 14px"><span>AI診断で選ぶ</span></a>
+  </section>
+
+  <section>
+    <div class="row-between"><h2 class="h-section">最新記事</h2><a class="link-more" id="cat-news-all" href="news.html"><span>すべて見る</span></a></div>
+    <div class="news" id="cat-news"><div class="empty">読み込み中…</div></div>
+  </section>
+</main>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <nav aria-label="フッター"><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
+    <div class="mono">YAMAFIT</div>
+  </div>
+</footer>
+<script src="js/app.js?v=202610052326"></script>
+<script src="js/category.js?v=202610052326"></script>
+</body>
+</html>
