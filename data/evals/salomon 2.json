@@ -1,0 +1,645 @@
+[
+ {
+  "key": "/products/x-ultra-360-gore-tex-l474532",
+  "id": "x-ultra-360-gtx-m",
+  "name": "X ULTRA 360 GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "全地形対応のグリップとGORE-TEXの防水性を備えた、ハイキングシューズです。",
+   "pros": [
+    "全地形対応のContagripアウトソール",
+    "GORE-TEXによる防水性",
+    "登山やあらゆるアドベンチャーに使えると記載"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "日帰りハイキングを始めたい人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/x-ultra-360-gore-tex-l479823",
+  "id": "x-ultra-360-gtx-w",
+  "name": "X ULTRA 360 GORE-TEX",
+  "gender": "womens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "長距離向けにアレンジされた、GORE-TEXのハイキングシューズです。",
+   "pros": [
+    "クッション性のよいミッドソール",
+    "GORE-TEXによる防水性",
+    "リサイクル素材を使った丈夫なテキスタイルのアッパー"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "距離のあるハイキングをする人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/x-ultra-360-mid-gore-tex-l478650",
+  "id": "x-ultra-360-mid-gtx-w",
+  "name": "X ULTRA 360 MID GORE-TEX",
+  "gender": "womens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "足首の保護を高めるミディアムカットの、GORE-TEXハイキングシューズです。",
+   "pros": [
+    "足首の保護を高めるミディアムカット",
+    "GORE-TEXによる防水性",
+    "クッション性のよいミッドソール"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "足首の安定感がほしい人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {
+    "knee": "足首の保護を高めるミディアムカットと記載され、下りの不安を減らしたい人に向きます。"
+   }
+  }
+ },
+ {
+  "key": "/products/x-ultra-5-gore-tex-l491028",
+  "id": "x-ultra-5-gtx-m",
+  "name": "X ULTRA 5 GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "軽量でありながら安定性に優れ、上りでも下りでも使える、GORE-TEXのトレッキングシューズです。",
+   "pros": [
+    "軽量と記載",
+    "耐久性に優れたMatryxアッパー",
+    "グリップのあるContagripアウトソール",
+    "足首まわりの快適性が持続すると記載"
+   ],
+   "cons": [
+    "重量の数値は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "軽さと安定性を両立したい人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {
+    "light": "軽量でありながら安定性に優れると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/x-ultra-5-wide-gore-tex-l477274",
+  "id": "x-ultra-5-wide-gtx-m",
+  "name": "X ULTRA 5 WIDE GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "X Ultra 5 GORE-TEX のワイド（幅広）モデルです。",
+   "pros": [
+    "幅広の足に合わせたワイドモデル",
+    "軽量と記載",
+    "耐久性に優れたMatryxアッパー"
+   ],
+   "cons": [
+    "重量の数値は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "幅広・甲高の人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {
+    "light": "軽量でありながら安定性に優れると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/x-ultra-5-mid-gore-tex-l477543",
+  "id": "x-ultra-5-mid-gtx-m",
+  "name": "X ULTRA 5 MID GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "軽量で安定性に優れた、ミッドカットのGORE-TEXトレッキングシューズです。",
+   "pros": [
+    "ミッドカットで足首を守る",
+    "軽量と記載",
+    "上りでも下りでも威力を発揮すると記載"
+   ],
+   "cons": [
+    "重量の数値は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "縦走や下りの多い山を歩く人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {
+    "knee": "上りでも下りでも威力を発揮し、足首まわりの快適性が持続すると記載されています。",
+    "light": "軽量でありながら安定性に優れると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/quest-5-gore-tex-l479571",
+  "id": "quest-5-gtx-m",
+  "name": "QUEST 5 GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "頑丈で防水性に優れた、マルチデイハイキング向けのブーツです。",
+   "pros": [
+    "4D Advanced Chassisで安定した動きができると記載",
+    "防水性に優れたGORE-TEX",
+    "軽量設計と記載"
+   ],
+   "cons": [
+    "価格が31,900円と高め",
+    "重量の数値は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "数日間のハイキングをする人"
+   ],
+   "not_for": [
+    "日帰りの低山だけの人"
+   ],
+   "concern_reasons": {
+    "knee": "4D Advanced Chassisが安定した動きを可能にすると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/quest-echo-gore-tex-l491464",
+  "id": "quest-echo-gtx-m",
+  "name": "QUEST ECHO GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "頑丈で軽く、防水性に優れた、マルチデイハイキング向けのブーツです。",
+   "pros": [
+    "Advanced Chassisで安定した動きができると記載",
+    "軽いと記載",
+    "GORE-TEXによる防水性"
+   ],
+   "cons": [
+    "重量の数値は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "数日間のハイキングを軽快に歩きたい人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {
+    "knee": "Advanced Chassisが安定した俊敏な動きを可能にすると記載されています。",
+    "light": "頑丈で軽いブーツと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/xt-quest-gore-tex-l491488",
+  "id": "xt-quest-gtx",
+  "name": "XT-QUEST GORE-TEX",
+  "gender": "unisex",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ハイブリッドなパフォーマンスと都市対応の快適性をうたう、GORE-TEXのシューズです。",
+   "pros": [
+    "GORE-TEXの防水透湿性",
+    "あらゆる地形・状況での安定性とグリップをうたう",
+    "街でも使える快適性"
+   ],
+   "cons": [
+    "価格が34,100円と高め",
+    "山岳向けの機能は記載が少ない"
+   ],
+   "good_for": [
+    "街と軽いハイクを兼ねたい人"
+   ],
+   "not_for": [
+    "本格的な縦走をする人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/xa-pro-3d-v9-gore-tex-l472701",
+  "id": "xa-pro-3d-v9-gtx",
+  "name": "XA PRO 3D V9 GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "安定性・耐久性・サポート力を備えた、トレイルランニングシューズの代表作のGORE-TEXモデルです。",
+   "pros": [
+    "ラグパターンを最適化したグリップ",
+    "防水メンブレンで長時間の保護性能が向上と記載",
+    "価格が22,000円"
+   ],
+   "cons": [
+    "トレイルランニング用で、重い荷物の登山には向かない"
+   ],
+   "good_for": [
+    "トレイルを軽快に歩きたい人"
+   ],
+   "not_for": [
+    "重い荷物を背負う縦走をする人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aerotrek-20-lc24671",
+  "id": "aerotrek-20",
+  "name": "AEROTREK 20",
+  "gender": "mens",
+  "category": "pack",
+  "capacity_l": 20,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "日帰りハイキングに必要なものが収まる、サスペンションバックパネルのバックパックです。",
+   "pros": [
+    "サスペンションバックパネルとランバーサポート（Advanced airCHASSIS）",
+    "背負い心地と安定性を追求と記載",
+    "日帰りハイキングに必要なものが収まると記載"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "日帰りハイキングの人"
+   ],
+   "not_for": [
+    "泊まり山行の人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aerotrek-30-lc24669",
+  "id": "aerotrek-30",
+  "name": "AEROTREK 30",
+  "gender": "mens",
+  "category": "pack",
+  "capacity_l": 30,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "2日間のハイキングに必要なものが収まる、30Lのバックパックです。",
+   "pros": [
+    "サスペンションバックパネルとランバーサポート（Advanced airCHASSIS）",
+    "多彩な収納スペース",
+    "2日間のハイキングに必要なものが収まると記載"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "1泊程度のハイキングの人"
+   ],
+   "not_for": [
+    "テント泊の人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aerotrek-40-lc24668",
+  "id": "aerotrek-40",
+  "name": "AEROTREK 40",
+  "gender": "mens",
+  "category": "pack",
+  "capacity_l": 40,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "2、3日間のハイキングに必要なものが収まる、40Lのバックパックです。",
+   "pros": [
+    "サスペンションバックパネルとランバーサポート（Advanced airCHASSIS）",
+    "2、3日間のハイキングに必要なものが収まると記載",
+    "多彩な収納スペース"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "数日間のハイキングをする人"
+   ],
+   "not_for": [
+    "日帰りだけの人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aerotrek-50-lc27101",
+  "id": "aerotrek-50",
+  "name": "AEROTREK 50",
+  "gender": "mens",
+  "category": "pack",
+  "capacity_l": 50,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "最大7日間のハイキングに必要なものが収まる、50Lのバックパックです。",
+   "pros": [
+    "最大7日間のハイキングに必要なものが収まると記載",
+    "サスペンションバックパネルとランバーサポート（Advanced airCHASSIS）",
+    "多彩な収納スペース"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）",
+    "価格が29,700円"
+   ],
+   "good_for": [
+    "長期のハイキングをする人"
+   ],
+   "not_for": [
+    "日帰りの人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/trailblazer-20-lc24628",
+  "id": "trailblazer-20",
+  "name": "TRAILBLAZER 20",
+  "gender": "womens",
+  "category": "pack",
+  "capacity_l": 20,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "日帰りハイキングやシティーユースに向く、20Lのバックパックです。",
+   "pros": [
+    "ハーネスとバックパネルを改良し、快適さと通気性を高めたと記載",
+    "価格が11,550円と手頃",
+    "日帰りハイキングと街の両方で使える"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "日帰りハイキングと普段使いを兼ねたい人"
+   ],
+   "not_for": [
+    "泊まり山行の人"
+   ],
+   "concern_reasons": {
+    "budget": "11,550円で、日帰りハイキングと街の両方で使えるバックパックです。"
+   }
+  }
+ },
+ {
+  "key": "/products/trailblazer-30-lc24630",
+  "id": "trailblazer-30",
+  "name": "TRAILBLAZER 30",
+  "gender": "unisex",
+  "category": "pack",
+  "capacity_l": 30,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "town"
+   ],
+   "concerns": [
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "日帰りハイキングやシティーユースに向く、30Lのバックパックです。",
+   "pros": [
+    "容量とポケットを増やしたと記載",
+    "快適さと通気性を高めたと記載",
+    "価格が12,650円と手頃"
+   ],
+   "cons": [
+    "重量は公式ページに記載なし（不明）"
+   ],
+   "good_for": [
+    "日帰りハイキングと普段使いを兼ねたい人"
+   ],
+   "not_for": [
+    "泊まり山行の人"
+   ],
+   "concern_reasons": {
+    "budget": "12,650円で、日帰りハイキングと街の両方で使える30Lバックパックです。"
+   }
+  }
+ }
+]

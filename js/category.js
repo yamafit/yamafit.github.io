@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("cat-lead").textContent = cat.lead;
   document.getElementById("crumb").textContent = cat.label;
   document.getElementById("cat-nav").innerHTML =
-    '<a class="cat cat--primary" href="question.html">装備診断</a>' +
+    '<span class="cat cat--off" aria-disabled="true">装備診断（実施予定）</span>' +
     Object.entries(CATS).map(([id, c]) => `<a class="cat" href="category.html?c=${id}"${id === k ? ' aria-current="page" style="border-color: var(--green); background: var(--green-tint); font-weight: 700"' : ""}>${c.label}</a>`).join("");
 
   // おすすめ（季節・クリック・購入の傾向から、最大3つ）

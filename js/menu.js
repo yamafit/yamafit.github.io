@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <h2>カテゴリから探す</h2>
       <a href="${SITE_BASE}category.html?c=boots">登山靴</a><a href="${SITE_BASE}category.html?c=pack">ザック</a><a href="${SITE_BASE}category.html?c=poles">ポール</a><a href="${SITE_BASE}category.html?c=gtx">ゴアテックス</a><a href="${SITE_BASE}category.html?c=rain">レインウェア</a><a href="${SITE_BASE}category.html?c=wear">ウェア</a><a href="${SITE_BASE}category.html?c=pants">パンツ</a><a href="${SITE_BASE}category.html?c=tent">テント泊</a>
       <h2>サイト</h2>
-      <a href="${SITE_BASE}question.html">装備診断</a><a href="${SITE_BASE}articles.html">記事</a><a href="${SITE_BASE}news.html">最新記事</a><a href="${SITE_BASE}about.html">運営者情報</a><a href="${SITE_BASE}privacy.html">プライバシーポリシー</a><a href="${SITE_BASE}contact.html">お問い合わせ</a>
+      <span class="menu-off" aria-disabled="true">装備診断（実施予定）</span><a href="${SITE_BASE}articles.html">記事</a><a href="${SITE_BASE}news.html">最新記事</a><a href="${SITE_BASE}about.html">運営者情報</a><a href="${SITE_BASE}privacy.html">プライバシーポリシー</a><a href="${SITE_BASE}contact.html">お問い合わせ</a>
     </nav></div>`;
   document.body.appendChild(overlay);
 

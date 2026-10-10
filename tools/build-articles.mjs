@@ -98,7 +98,7 @@ ${c.bottom}`);
 fs.writeFileSync("data/articles.json", JSON.stringify(ARTICLES.map(({ slug, title, category, date, desc }) => ({ slug, title, category, date, desc })), null, 1));
 
 // sitemap / robots
-const pages = ["index.html", "articles.html", "news.html", "about.html", "contact.html", "privacy.html", "question.html", ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
+const pages = ["index.html", "articles.html", "news.html", "about.html", "contact.html", "privacy.html", ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
 if (SITE_URL) {
   fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map((p) => `  <url><loc>${SITE_URL}${p === "index.html" ? "" : p}</loc></url>`).join("\n")}\n</urlset>\n`);
   fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}sitemap.xml\n`);

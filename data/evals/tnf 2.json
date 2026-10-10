@@ -1,0 +1,803 @@
+[
+ {
+  "key": "/ap/item/i/m/NF02512",
+  "id": "offtrail-hike-gtx",
+  "name": "オフトレイル ハイク ゴアテックス",
+  "gender": "mens",
+  "category": "boots",
+  "weight_g": 415,
+  "weight_note": "約415g（9インチ/片足）",
+  "material": "前足部アッパー：CORDURAリップストップナイロン／防水透湿：GORE-TEX／アウトソール：SurfaceCTRL（10％天然ラバー配合）",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "3シーズンの縦走から岩稜帯の登山まで対応する、GORE-TEX搭載のローカットのトレッキングシューズです。",
+   "pros": [
+    "前足部はCORDURAリップストップナイロンとラバーラップ構造で耐久性が高いと記載",
+    "GORE-TEXで雨天やぬかるみでも行動しやすい",
+    "岩場でつま先を守るラバートゥキャップ"
+   ],
+   "cons": [
+    "ローカットのため、足首の保護はミッドカットより少ない",
+    "冬の積雪期用ではない"
+   ],
+   "good_for": [
+    "縦走や岩場のある山を3シーズン歩く人"
+   ],
+   "not_for": [
+    "冬の雪山に行く人"
+   ],
+   "concern_reasons": {
+    "knee": "高い耐久性と安定感を備えると記載され、岩場のある下りでも足元を安定させたい人に向きます。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NF02511",
+  "id": "offtrail-hike-mid-gtx",
+  "name": "オフトレイル ハイク ミッド ゴアテックス",
+  "gender": "mens",
+  "category": "boots",
+  "weight_g": 475,
+  "weight_note": "約475g（9インチ/片足）",
+  "material": "前足部アッパー：CORDURAリップストップナイロン／防水透湿：GORE-TEX／アウトソール：SurfaceCTRL（10％天然ラバー配合）",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "3シーズンの縦走から岩稜帯の登山まで対応する、GORE-TEX搭載のミッドカットのトレッキングシューズです。",
+   "pros": [
+    "ミッドカットで足首まわりまで覆う",
+    "前足部の耐久性が高い（CORDURAリップストップナイロン）",
+    "GORE-TEXで雨天やぬかるみでも安心"
+   ],
+   "cons": [
+    "ローカット版より重い（片足約475g）",
+    "冬の積雪期用ではない"
+   ],
+   "good_for": [
+    "岩場や悪路の多い山を歩く人",
+    "初めての登山靴にミッドカットを選びたい人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {
+    "knee": "ミッドカットで安定感が高いと記載され、下りの足首の不安を減らしたい人に向きます。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NF52612",
+  "id": "creston-neo-mid-gtx",
+  "name": "クレストン ネオ ミッド ゴアテックス",
+  "gender": "unisex",
+  "category": "boots",
+  "weight_g": 570,
+  "weight_note": "約570g（9インチ/片足）",
+  "material": "アッパー：人工皮革×リサイクルポリエステル／爪先：プロテクトラバー／防水透湿：GORE-TEX／アウトソール：Vibram XS-TREK",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "日帰りハイキングから縦走登山まで幅広く対応する、3シーズン向けのGORE-TEXミッドカットシューズです。",
+   "pros": [
+    "日帰りから縦走まで幅広く使えると記載",
+    "柔らかな履き心地で長期間の縦走にも適応と記載",
+    "Vibramソールでグリップ力が高いと記載"
+   ],
+   "cons": [
+    "片足約570gで、軽量モデルより重い"
+   ],
+   "good_for": [
+    "1足で日帰りから縦走までこなしたい人"
+   ],
+   "not_for": [
+    "冬山に行く人"
+   ],
+   "concern_reasons": {
+    "knee": "柔らかな履き心地で長期間の縦走にも適応すると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NF02519",
+  "id": "fastpack-ultra-gtx",
+  "name": "ファストパック ウルトラ ゴアテックス",
+  "gender": "mens",
+  "category": "boots",
+  "weight_g": 445,
+  "weight_note": "約445g（9インチ/片足）",
+  "material": "アッパー：リップストップ／防水透湿：GORE-TEX（3層）／ミッドソール：DREAMフォーム＋EVAシャーシ／アウトソール：Vibram XS TREK EVO",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light",
+    "knee"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "軽量ながら安定感が高い、ファストハイクなどスピード重視の登山者向けのGORE-TEXシューズです。",
+   "pros": [
+    "片足約445gと軽量",
+    "DREAMフォームのクッション性と、EVAシャーシで横ブレを抑える構造と記載",
+    "3層のGORE-TEXで防水"
+   ],
+   "cons": [
+    "スピード重視のため、重い荷物の縦走には別の選択肢もある"
+   ],
+   "good_for": [
+    "速く軽く歩きたい人"
+   ],
+   "not_for": [
+    "重い荷物を背負う縦走をする人"
+   ],
+   "concern_reasons": {
+    "light": "片足約445gの軽量モデルで、スピード重視の登山向けと記載されています。",
+    "knee": "クッション性の高いミッドソールで、エネルギーロスを軽減する構造と記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NF02517",
+  "id": "summit-fastpack-gtx",
+  "name": "サミット ファストパック ゴアテックス",
+  "gender": "mens",
+  "category": "boots",
+  "weight_g": 455,
+  "weight_note": "約455g（9インチ/片足）",
+  "material": "アッパー：Spectraリップストップ／防水透湿：GORE-TEX（3層）／ミッドソール：DREAMフォーム＋EVAシャーシ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウルトラディスタンスに挑戦するアスリート向けに設計された、軽量・高耐久のテクニカルトレッキングシューズです。",
+   "pros": [
+    "軽量で高耐久のSpectraリップストップを使用と記載",
+    "クッション性の高いミッドソールと、横ブレを抑えるEVAシャーシの2層構造",
+    "3層GORE-TEXで透湿防水"
+   ],
+   "cons": [
+    "価格が35,200円と高め"
+   ],
+   "good_for": [
+    "長距離を軽快に歩きたい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "light": "軽量・高耐久をうたうテクニカルトレッキングシューズ（片足約455g）です。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NF02515",
+  "id": "summit-verte-sa-gtx",
+  "name": "サミット ヴェルト SA ゴアテックス",
+  "gender": "unisex",
+  "category": "boots",
+  "weight_g": 635,
+  "weight_note": "約635g（9インチ/片足）",
+  "material": "ゲイターアッパー：dyneemaリップストップ／インナーブーツ：GORE-TEXメンブレン／フィット調整：BOAシステム／アウトソール：Vibram MONT",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "winter"
+   ],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（BOAダイヤルで調整）",
+   "summary": "軽量性と耐久性を両立した、ゲイター一体型の冬季用テクニカルマウンテンブーツです。",
+   "pros": [
+    "ゲイター一体型",
+    "BOAシステムで長時間でも緩みにくいと記載",
+    "低温下でも機能するVibram MONTソール"
+   ],
+   "cons": [
+    "価格が74,800円と高い",
+    "冬季用のため、春から秋の山には不向き"
+   ],
+   "good_for": [
+    "冬季の登山をする人"
+   ],
+   "not_for": [
+    "日帰りの低山だけ歩く人"
+   ],
+   "concern_reasons": {
+    "cold": "低温下でも機能を発揮するソールを備えた、冬季用のブーツと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NM62368",
+  "id": "tellus-35",
+  "name": "テルス35",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1470,
+  "weight_note": "Mサイズ約1,470g（WM 約1,410g／L 約1,570g）",
+  "capacity_l": 35,
+  "size_note": "WM・M・L",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "WM・M・Lの3サイズ",
+   "summary": "日帰りから小屋泊まで対応する、THE NORTH FACE定番の中型トレッキングパックです。",
+   "pros": [
+    "EVAフォームとメッシュの背面パネルで通気性とフィット感を向上と記載",
+    "成形ショルダーで背負い心地を高めると記載",
+    "レインカバー内蔵、ハイドレーション対応"
+   ],
+   "cons": [
+    "Mサイズで約1,470gと、軽量パックより重い"
+   ],
+   "good_for": [
+    "日帰りから小屋泊まで1つで使いたい人"
+   ],
+   "not_for": [
+    "テント泊の装備を運ぶ人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NM62367",
+  "id": "tellus-45",
+  "name": "テルス45",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1650,
+  "weight_note": "Mサイズ約1,650g（WM 約1,570g／L 約1,770g）",
+  "capacity_l": 45,
+  "size_note": "WM・M・L",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "WM・M・Lの3サイズ",
+   "summary": "小屋泊から1泊程度のテント泊まで対応する、THE NORTH FACE定番の中型トレッキングパックです。",
+   "pros": [
+    "小屋泊から1泊程度のテント泊まで対応と記載",
+    "EVAフォームとメッシュの背面パネルと成形ショルダー",
+    "左右一体型のウエストハーネスで荷重バランスを取りやすいと記載"
+   ],
+   "cons": [
+    "Mサイズで約1,650gと重め"
+   ],
+   "good_for": [
+    "小屋泊や1泊のテント泊をする人"
+   ],
+   "not_for": [
+    "日帰りだけの人（容量が大きい）"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NM62369",
+  "id": "tellus-25",
+  "name": "テルス25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 910,
+  "weight_note": "約910g",
+  "capacity_l": 25,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明",
+   "summary": "日帰りハイキングから、寝袋を持たない山小屋泊、旅行や普段使いまで幅広く使えるパネルローディング型のトレッキングパックです。",
+   "pros": [
+    "約910gと、同シリーズの35L・45Lより軽い",
+    "日帰りから山小屋泊（寝袋なし）まで対応と記載",
+    "EVAフォームとメッシュの背面パネル"
+   ],
+   "cons": [
+    "容量が25Lのため、荷物が多いと入りきらない"
+   ],
+   "good_for": [
+    "日帰りハイキングが中心の人",
+    "普段使いも兼ねたい人"
+   ],
+   "not_for": [
+    "寝袋を持つ泊まり山行の人"
+   ],
+   "concern_reasons": {
+    "light": "約910gで、テルスシリーズの中では軽量な25Lです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NP12501",
+  "id": "climb-light-jacket-m",
+  "name": "クライムライトジャケット",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 285,
+  "weight_note": "約285g（Lサイズ）",
+  "material": "表地：20デニールのリサイクルナイロン（リサイクル原料率100%）／GORE-TEX PRODUCTS 3層（ePEメンブレン）",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "S〜XXL（公式ページに記載のサイズ展開）",
+   "summary": "軽量で柔らかなePEメンブレンを使った、GORE-TEX PRODUCTS 3層構造のシェルジャケットです。",
+   "pros": [
+    "約285g（L）と軽量",
+    "脇下にベンチレーションを配置",
+    "フロントファスナーとポケットは止水ファスナー",
+    "パックハーネスと干渉しにくいスランティングポケット"
+   ],
+   "cons": [
+    "価格が50,600円と高め"
+   ],
+   "good_for": [
+    "軽さと防水性を両立したい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "sweat": "脇下のベンチレーションで蒸れを逃がせると記載されています。",
+    "light": "約285g（Lサイズ）の軽量シェルジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NPW12501",
+  "id": "climb-light-jacket-w",
+  "name": "クライムライトジャケット",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": 265,
+  "weight_note": "約265g（Lサイズ）",
+  "material": "表地：20デニールのリサイクルナイロン（リサイクル原料率100%）／GORE-TEX PRODUCTS 3層（ePEメンブレン）",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明",
+   "summary": "軽量で柔らかなePEメンブレンを使った、GORE-TEX PRODUCTS 3層構造のレディースシェルジャケットです。",
+   "pros": [
+    "約265g（L）と軽量",
+    "脇下にベンチレーションを配置",
+    "止水ファスナー仕様"
+   ],
+   "cons": [
+    "価格が50,600円と高め"
+   ],
+   "good_for": [
+    "軽さと防水性を両立したい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "sweat": "脇下のベンチレーションで蒸れを逃がせると記載されています。",
+    "light": "約265g（Lサイズ）の軽量シェルジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NP12665",
+  "id": "gar-light-rain-jacket",
+  "name": "GAR ライトレインジャケット",
+  "gender": "unisex",
+  "category": "rain",
+  "weight_g": 230,
+  "weight_note": "約230g（Lサイズ）",
+  "material": "20デニールナイロン（2.5層）／ポリウレタンを使わずにストレッチ性を実現／肌面にドライタッチ加工",
+  "waterproof": "防水透湿性素材（2.5層）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "小型バックパックの上から着用できるゆとりと記載",
+   "summary": "ストレッチ性に優れた、マットな風合いのレインジャケットです。",
+   "pros": [
+    "約230g（L）と軽量",
+    "ストレッチ性に優れる",
+    "メッシュのポケットがベンチレーションとして機能",
+    "肌面のドライタッチ加工で汗によるべたつきを軽減と記載"
+   ],
+   "cons": [
+    "2.5層構造で、3層のGORE-TEXモデルとは仕様が異なる"
+   ],
+   "good_for": [
+    "急な天候の変化に備えて軽いレインを持ちたい人"
+   ],
+   "not_for": [
+    "荒天の稜線を歩く人"
+   ],
+   "concern_reasons": {
+    "sweat": "メッシュのポケットがベンチレーションとして機能し、汗によるべたつきを軽減する加工と記載されています。",
+    "light": "約230g（Lサイズ）と軽量です。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NP62510",
+  "id": "mountain-jacket",
+  "name": "マウンテンジャケット",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 810,
+  "weight_note": "約810g（Lサイズ）",
+  "material": "表地：150デニールのGORE-TEX PRODUCTS 2層（ePEメンブレン）／スノーカフ取り外し可",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [],
+   "uses": [
+    "mid",
+    "hut",
+    "tent",
+    "winter"
+   ],
+   "concerns": [],
+   "fit": "不明",
+   "summary": "1985年登場の、THE NORTH FACEを代表する山岳用アウターシェルです。",
+   "pros": [
+    "表地150デニールのGORE-TEX 2層で、重厚感としなやかさを両立と記載",
+    "取り外し可能なスノーカフ",
+    "専用ファスナーでインナーを連結できるZIP IN"
+   ],
+   "cons": [
+    "約810gと重め",
+    "価格が66,000円と高い"
+   ],
+   "good_for": [
+    "雪山や厳しい環境で使う、丈夫なシェルを求める人"
+   ],
+   "not_for": [
+    "軽さを重視する人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NP12503",
+  "id": "mountain-rounder-jacket",
+  "name": "マウンテンラウンダージャケット",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 410,
+  "weight_note": "約410g（Lサイズ）",
+  "material": "表地：50デニールのリサイクルポリエステル／GORE-TEX PRODUCTS 3層（ePEメンブレン）",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明",
+   "summary": "防水透湿性と耐久性のバランスがよい、GORE-TEX PRODUCTS 3層構造のシェルジャケットです。",
+   "pros": [
+    "表地50デニールで、防水透湿性と耐久性のバランスがよいと記載",
+    "フロントはダブルフラップで防水性を高める",
+    "ヘルメットの上からかぶれるフード"
+   ],
+   "cons": [
+    "約410g（L）で、軽量モデルより重い"
+   ],
+   "good_for": [
+    "丈夫なシェルがほしい人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92555",
+  "id": "nuptse-jacket",
+  "name": "ヌプシジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 760,
+  "weight_note": "約760g（Lサイズ）",
+  "material": "表地：40デニールのリップストップナイロン（はっ水加工）／中わた：リサイクルダウンを一部使用",
+  "waterproof": "はっ水加工",
+  "waterproof_level": "water_repellent",
+  "warmth": "ダウン（中わたの一部にリサイクルダウンを使用）",
+  "eval": {
+   "season": [
+    "winter"
+   ],
+   "uses": [
+    "town",
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "当時の仕様そのままに、バランスのよいサイズ感にアップデートと記載",
+   "summary": "1992年のエクスペディション向けモデルをもとにした、アウトドアからタウンユースまで使えるダウンジャケットです。",
+   "pros": [
+    "中わたにダウンを使用",
+    "表地にはっ水加工",
+    "パックに干渉する肩部分はナイロンで補強"
+   ],
+   "cons": [
+    "約760gと重め",
+    "価格が4万円台"
+   ],
+   "good_for": [
+    "冬の街着にも山にも使いたい人"
+   ],
+   "not_for": [
+    "軽さと携帯性を重視する人"
+   ],
+   "concern_reasons": {
+    "cold": "中わたにダウンを使った、冬向けのジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NL22621",
+  "id": "expedition-grid-fleece-light-crew",
+  "name": "エクスペディショングリッドフリースライトクルー",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 90,
+  "weight_note": "約90g（Lサイズ）／75g（WLサイズ）",
+  "material": "毛足の短いグリッド構造フリース／リサイクル中空繊維（同じ直径のポリエステル繊維の約1/2の軽さと記載）",
+  "warmth": "特殊断面糸がデッドエアーを保持しやすく、保温性を確保と記載",
+  "eval": {
+   "season": [
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "重ね着しやすいフィットと記載",
+   "summary": "夏山の寒暖差に対応する、高通気のグリッドフリースです。",
+   "pros": [
+    "約90g（L）と非常に軽い",
+    "メッシュ構造で通気性が高い",
+    "サムループ付き"
+   ],
+   "cons": [
+    "夏山向けで、冬の主な防寒着には薄い"
+   ],
+   "good_for": [
+    "夏山の朝晩の冷えに備えたい人",
+    "荷物を軽くしたい人"
+   ],
+   "not_for": [
+    "冬山の防寒を探す人"
+   ],
+   "concern_reasons": {
+    "sweat": "毛足の短いグリッド構造とメッシュ構造で高い通気性と記載されています。",
+    "light": "Lサイズで約90gの軽さです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NB82501",
+  "id": "alpine-light-pants",
+  "name": "アルパインライトパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": 370,
+  "weight_note": "約370g（Lサイズ）",
+  "material": "ポリウレタンとリサイクルナイロンを一部使用した混用生地",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "テーパードシルエット、サイズS〜XXL",
+   "summary": "1年を通して山岳エリアでの行動を支える、ストレッチ性の高いパンツです。",
+   "pros": [
+    "ニットのような高いストレッチ性と記載",
+    "立体的なパターンで脚上げがスムーズ",
+    "ハーネス使用を想定した、バックルのないウエスト"
+   ],
+   "cons": [
+    "価格が18,700円"
+   ],
+   "good_for": [
+    "季節を問わず1本で山に行きたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NB32510",
+  "id": "mountain-color-pants",
+  "name": "マウンテンカラーパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": 330,
+  "weight_note": "約330g（Lサイズ）",
+  "material": "ストレッチナイロン（一部リサイクルナイロン）のリップストップ生地／はっ水加工／UVカット（UPF15-30、紫外線カット率85％以上）",
+  "waterproof": "はっ水加工",
+  "waterproof_level": "water_repellent",
+  "eval": {
+   "season": [],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "テーパードシルエット／ウエストはスピンドル仕様",
+   "summary": "ストレッチ性とはっ水性を備えた、シンプルなデザインのトレッキングパンツです。",
+   "pros": [
+    "ストレッチ性と適度なハリ感",
+    "はっ水加工で多少の雨は弾くと記載",
+    "左サイドに地図が入る縦長ポケット",
+    "UVケア機能（UPF15-30）"
+   ],
+   "cons": [
+    "防水ではなく、はっ水加工"
+   ],
+   "good_for": [
+    "低山から縦走まで使えるトレッキングパンツを探す人"
+   ],
+   "not_for": [
+    "本格的な雨具を探す人"
+   ],
+   "concern_reasons": {}
+  }
+ }
+]
