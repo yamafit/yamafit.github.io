@@ -1,0 +1,1248 @@
+{
+ "brand": "コロンビア",
+ "products": [
+  {
+   "id": "columbia-peakfreak-titanium-mid-outdry-m",
+   "brand": "コロンビア",
+   "name": "ピークフリーク タイタニアム ミッド アウトドライ",
+   "category": "boots",
+   "gender": "mens",
+   "price": 25300,
+   "weight_g": 473,
+   "weight_note": "27.0cm",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gBM4910442----7000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_BM4910_442_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gBM4910442----7000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gBM4910442----7000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "高い防水性と安定感で、悪路でも軽快に踏み出せる、ミッドカットのハイキングシューズです。",
+    "pros": [
+     "高い防水性と安定感と記載",
+     "ミッドカットで足首まわりを覆う",
+     "アウトドライの防水"
+    ],
+    "cons": [
+     "重量が約473g（27.0cm）で、軽量モデルより重め"
+    ],
+    "good_for": [
+     "悪路や岩の多い山を歩く人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "高い防水性と安定感で、悪路でも踏み出せると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-conos-trs-outdry-m",
+   "brand": "コロンビア",
+   "name": "コノス ティーアールエス アウトドライ",
+   "category": "boots",
+   "gender": "mens",
+   "price": 16500,
+   "weight_g": 336,
+   "weight_note": "27.0cm",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gBM6246010----7000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/S26_BM6246_010_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gBM6246010----7000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gBM6246010----7000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "knee",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "肉厚クッションで、ハイクを軽快にするローカットの防水シューズです。",
+    "pros": [
+     "約336g（27.0cm）と軽い",
+     "肉厚クッションと記載",
+     "16,500円と手頃",
+     "アウトドライの防水"
+    ],
+    "cons": [
+     "ローカットのため、足首の保護は少ない"
+    ],
+    "good_for": [
+     "日帰りハイクを軽快に歩きたい人"
+    ],
+    "not_for": [
+     "重い荷物の縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約336g（27.0cm）の軽量シューズです。",
+     "knee": "肉厚クッションと記載されています。",
+     "budget": "防水シューズとして16,500円と手頃です。"
+    }
+   }
+  },
+  {
+   "id": "columbia-conos-trs-outdry-w",
+   "brand": "コロンビア",
+   "name": "コノス ティーアールエス アウトドライ",
+   "category": "boots",
+   "gender": "womens",
+   "price": 16500,
+   "weight_g": 269,
+   "weight_note": "24.0cm",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gBL6246342--5-5000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_BL6246_342_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gBL6246342--5-5000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gBL6246342--5-5000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "knee",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "肉厚クッションで、防水ハイクを軽快にするローカットのシューズ（ウィメンズ）です。",
+    "pros": [
+     "約269g（24.0cm）と軽い",
+     "肉厚クッションと記載",
+     "16,500円と手頃",
+     "アウトドライの防水"
+    ],
+    "cons": [
+     "ローカットのため、足首の保護は少ない"
+    ],
+    "good_for": [
+     "日帰りハイクを軽快に歩きたい人"
+    ],
+    "not_for": [
+     "重い荷物の縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約269g（24.0cm）の軽量シューズです。",
+     "knee": "肉厚クッションと記載されています。",
+     "budget": "防水シューズとして16,500円と手頃です。"
+    }
+   }
+  },
+  {
+   "id": "columbia-steens-peak-2-outdry-m",
+   "brand": "コロンビア",
+   "name": "スティーンズピーク ツー アウトドライ",
+   "category": "boots",
+   "gender": "mens",
+   "price": 18920,
+   "weight_g": 515,
+   "weight_note": "27.0cm",
+   "capacity_l": null,
+   "material": "ウォータープルーフシンセティックレザー、ポリエステルメッシュ、リップストップ素材",
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gYM8575231----7000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/S26_YM8575_231_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gYM8575231----7000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gYM8575231----7000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "防水と高グリップで、濡れた山道を安定して歩けるハイキングシューズです。",
+    "pros": [
+     "防水と高グリップで濡れた山道を安定歩行と記載",
+     "耐久性に優れたリップストップ素材",
+     "ウォータープルーフシンセティックレザーとポリエステルメッシュ"
+    ],
+    "cons": [
+     "約515g（27.0cm）と重め"
+    ],
+    "good_for": [
+     "雨の後の山道も歩く人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "防水と高グリップで、濡れた山道を安定歩行できると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-steens-peak-2-outdry-w",
+   "brand": "コロンビア",
+   "name": "スティーンズピーク ツー アウトドライ",
+   "category": "boots",
+   "gender": "womens",
+   "price": 18920,
+   "weight_g": 431,
+   "weight_note": "24.0cm",
+   "capacity_l": null,
+   "material": "ウォータープルーフシンセティックレザー、ポリエステルメッシュ、リップストップ素材",
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gYL8515286--5-5000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/S26_YL8515_286_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gYL8515286--5-5000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gYL8515286--5-5000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "防水と高グリップで、山道を力強く歩けるハイキングシューズ（ウィメンズ）です。",
+    "pros": [
+     "防水と高グリップと記載",
+     "耐久性に優れたリップストップ素材",
+     "ウォータープルーフシンセティックレザーとポリエステルメッシュ"
+    ],
+    "cons": [
+     "約431g（24.0cm）"
+    ],
+    "good_for": [
+     "雨の後の山道も歩く人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "防水と高グリップで、山道を力強く歩けると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-hawthorn-rain-mid-wp",
+   "brand": "コロンビア",
+   "name": "ホーソンレイン ミッド ウォータープルーフ",
+   "category": "boots",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 321,
+   "weight_note": "27.0cm（24.0cmは268g）",
+   "capacity_l": null,
+   "material": "はっ水加工を施したポリエステル素材",
+   "waterproof": "商品名に「ウォータープルーフ」と記載",
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gYU7030500----5000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_YU7030_500_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gYU7030500----5000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gYU7030500----5000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ミッドカットで、雨の日もきれいに歩ける、はっ水ポリエステルのシューズです。",
+    "pros": [
+     "約321g（27.0cm）／268g（24.0cm）と軽い",
+     "13,200円と手頃",
+     "はっ水加工を施したポリエステル素材と記載"
+    ],
+    "cons": [
+     "本格的な登山靴ではなく、街や軽いハイク向けの位置づけ"
+    ],
+    "good_for": [
+     "街と軽いハイクを兼ねたい人"
+    ],
+    "not_for": [
+     "本格的な縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約321g（27.0cm）／268g（24.0cm）と軽量です。",
+     "budget": "13,200円と手頃です。"
+    }
+   }
+  },
+  {
+   "id": "columbia-peakfreak-3-mid-outdry-wide",
+   "brand": "コロンビア",
+   "name": "ピークフリーク スリー ミッド アウトドライ ワイド",
+   "category": "boots",
+   "gender": "mens",
+   "price": 19800,
+   "weight_g": 422,
+   "weight_note": "27.0cm",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "アウトドライ（コロンビアの防水透湿）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gBI1051383----7000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_BI1051_383_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gBI1051383----7000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gBI1051383----7000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "3Dケージで悪路の足運びを安定させる、ワイド（幅広）のミッドカットの防水シューズです。",
+    "pros": [
+     "3Dケージで悪路の足運びを安定と記載",
+     "ワイド（幅広）モデル",
+     "アウトドライの防水"
+    ],
+    "cons": [
+     "重量は約422g（27.0cm）"
+    ],
+    "good_for": [
+     "幅広・甲高の人",
+     "悪路を歩く人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "3Dケージで悪路の足運びを安定させると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-trailborne-25l-shell-m",
+   "brand": "コロンビア",
+   "name": "トレイルボーン2.5Lシェル",
+   "category": "rain",
+   "gender": "mens",
+   "price": 22000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（2.5層）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE3548464----S000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_WE3548_464_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gWE3548464----S000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE3548464----S000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat",
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "軽量2.5層で、雨のハイクでもムレにくいシェルジャケットです。",
+    "pros": [
+     "軽量2.5層と記載",
+     "雨のハイクでもムレにくいと記載",
+     "リサイクルポリエステル素材"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）",
+     "2.5層構造で、3層モデルとは仕様が異なる"
+    ],
+    "good_for": [
+     "軽いレインを手頃に探す人"
+    ],
+    "not_for": [
+     "荒天の稜線を歩く人"
+    ],
+    "concern_reasons": {
+     "sweat": "軽量2.5層で、雨のハイクでもムレにくいと記載されています。",
+     "light": "軽量2.5層と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-sentrilium-2-jacket",
+   "brand": "コロンビア",
+   "name": "セントリリアムIIジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水透湿（3層）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gXE9920462---XS000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_XE9920_462_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gXE9920462---XS000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gXE9920462---XS000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "3層構造の防水透湿素材で、雨のハイクでもムレにくいジャケットです。",
+    "pros": [
+     "3層構造の防水透湿素材で、雨の侵入を抑えつつ衣服内のムレを軽減と記載",
+     "リップストップ素材"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "蒸れが気になる人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "3層構造の防水透湿素材が衣服内のムレを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-sauda-pro-3l-shell",
+   "brand": "コロンビア",
+   "name": "サウダンプロ3Lシェル",
+   "category": "rain",
+   "gender": "mens",
+   "price": 49500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（3層）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE7462278----S000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_WE7462_278_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gWE7462278----S000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE7462278----S000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "3層防水で、雨の山をしなやかに歩ける、上位のシェルジャケットです。",
+    "pros": [
+     "3層防水と記載",
+     "しなやかな着心地と記載"
+    ],
+    "cons": [
+     "価格が49,500円と高め",
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "雨の山をしっかり歩く人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "columbia-whistler-peak-shell",
+   "brand": "コロンビア",
+   "name": "ウィスラーピークシェル",
+   "category": "rain",
+   "gender": "mens",
+   "price": 39600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "アウトドライ エクストリーム",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE5225397----S000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_WE5225_397_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gWE5225397----S000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gWE5225397----S000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "防水メンブレンを表使いにした、次世代型のレインジャケットです。",
+    "pros": [
+     "サスティナブルな素材で高レベルな防水透湿性（アウトドライエクストリーム）と記載",
+     "耐摩耗性に優れたオーバーレイ素材"
+    ],
+    "cons": [
+     "価格が39,600円",
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "防水透湿性を重視する人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "アウトドライエクストリームで高レベルな防水透湿性と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-orange-forest-3-jacket-w",
+   "brand": "コロンビア",
+   "name": "オレンジフォレストIIIジャケット",
+   "category": "rain",
+   "gender": "womens",
+   "price": 26400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水透湿（2.75層）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPL7212272----S000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_PL7212_272_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPL7212272----S000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPL7212272----S000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "防水2.75層で、雨の山道に備えられる、ウィメンズのジャケットです。",
+    "pros": [
+     "防水透湿のある2.75レイヤー素材と記載",
+     "2ウェイストレッチナイロンリップストップ"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "雨の山道に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "防水透湿のある2.75レイヤー素材が、衣服内のムレを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "columbia-castle-rock-20l-2",
+   "brand": "コロンビア",
+   "name": "キャッスルロック20Lバックパック II",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 8800,
+   "weight_g": 650,
+   "weight_note": "本体",
+   "capacity_l": 20,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU8663536--OZS000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_PU8663_536_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPU8663536--OZS000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU8663536--OZS000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "20Lと通気背面で、軽めのハイクを快適にするバックパックです。",
+    "pros": [
+     "通気背面と記載",
+     "650gと軽い",
+     "8,800円と手頃"
+    ],
+    "cons": [
+     "容量が20L"
+    ],
+    "good_for": [
+     "軽めの日帰りハイクの人"
+    ],
+    "not_for": [
+     "泊まり山行の人"
+    ],
+    "concern_reasons": {
+     "light": "650gと軽量です。",
+     "budget": "8,800円と手頃です。"
+    }
+   }
+  },
+  {
+   "id": "columbia-castle-rock-25l-2",
+   "brand": "コロンビア",
+   "name": "キャッスルロック25LバックパックII",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 9900,
+   "weight_g": 720,
+   "weight_note": "本体",
+   "capacity_l": 25,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU8662536--OZS000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_PU8662_536_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPU8662536--OZS000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU8662536--OZS000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "town"
+    ],
+    "concerns": [
+     "light",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "25Lと通気背面で、日帰りハイクを快適にするバックパックです。",
+    "pros": [
+     "通気背面と記載",
+     "720gと軽い",
+     "9,900円と手頃"
+    ],
+    "cons": [
+     "容量が25L"
+    ],
+    "good_for": [
+     "日帰りハイクの人"
+    ],
+    "not_for": [
+     "泊まり山行の人"
+    ],
+    "concern_reasons": {
+     "light": "720gと軽量です。",
+     "budget": "9,900円と手頃です。"
+    }
+   }
+  },
+  {
+   "id": "columbia-pepper-rock-30l",
+   "brand": "コロンビア",
+   "name": "ペッパーロック30Lバックパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 15950,
+   "weight_g": 980,
+   "weight_note": "本体",
+   "capacity_l": 30,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7254340--OZS000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_PU7254_340_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPU7254340--OZS000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7254340--OZS000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "town"
+    ],
+    "concerns": [
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "30Lの容量で、街もアウトドアもシームレスに使えるバックパックです。",
+    "pros": [
+     "30L",
+     "素材そのものの風合いを残しつつ、水を効果的にはじく機能と記載",
+     "15,950円"
+    ],
+    "cons": [
+     "980gで、同容量の登山用パックより装備は簡素な可能性"
+    ],
+    "good_for": [
+     "街と日帰りハイクを兼ねたい人"
+    ],
+    "not_for": [
+     "泊まり山行の人"
+    ],
+    "concern_reasons": {
+     "budget": "15,950円で30Lのバックパックです。"
+    }
+   }
+  },
+  {
+   "id": "columbia-wildwood-heights-30l",
+   "brand": "コロンビア",
+   "name": "ワイルドウッドハイツ30Lバックパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 17600,
+   "weight_g": 1100,
+   "weight_note": "本体",
+   "capacity_l": 30,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7252464--OZS000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/S26_PU7252_464_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPU7252464--OZS000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7252464--OZS000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "30L設計で、日帰りから小屋泊まで対応するバックパックです。",
+    "pros": [
+     "日帰りから小屋泊まで対応と記載",
+     "210Dリップストップナイロンなどの素材",
+     "水を効果的にはじく機能と記載"
+    ],
+    "cons": [
+     "1,100gと軽量パックより重め"
+    ],
+    "good_for": [
+     "日帰りから小屋泊まで1つで使いたい人"
+    ],
+    "not_for": [
+     "テント泊の人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "columbia-wildwood-heights-33l-5l",
+   "brand": "コロンビア",
+   "name": "ワイルドウッドハイツ33L + 5Lバックパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 24200,
+   "weight_g": 1340,
+   "weight_note": "本体",
+   "capacity_l": 33,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7251464----M000/",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.columbiasports.co.jp/img/goods/S/F26_PU7251_464_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.columbiasports.co.jp/shop/g/gPU7251464----M000/",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.columbiasports.co.jp/shop/g/gPU7251464----M000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "hut",
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "38Lまで拡張でき、小屋泊装備を背負いやすいバックパックです。",
+    "pros": [
+     "38Lまで拡張できる",
+     "小屋泊装備も背負いやすいと記載"
+    ],
+    "cons": [
+     "1,340gと重め"
+    ],
+    "good_for": [
+     "小屋泊の縦走をする人"
+    ],
+    "not_for": [
+     "日帰りだけの人"
+    ],
+    "concern_reasons": {}
+   }
+  }
+ ]
+}

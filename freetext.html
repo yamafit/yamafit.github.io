@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI診断 6/6｜ヤマフィット</title>
-<link rel="stylesheet" href="css/style.css?v=202610052326">
+<title>装備診断 6/6｜ヤマフィット</title>
+<link rel="stylesheet" href="css/style.css?v=202610111500">
 </head>
 <body>
 <div class="page q-page">
@@ -13,19 +13,19 @@
   <a class="icon-btn" href="question.html" aria-label="前の質問にもどる">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
   </a>
-  <div class="q-count">6 / 6</div>
+  <div class="q-count">2 / 2</div>
   <a class="icon-btn" href="index.html" aria-label="診断をやめる">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
   </a>
 </header>
 
-<div class="progress" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+<div class="progress" aria-hidden="true" style="grid-template-columns: repeat(2, minmax(0, 1fr))"><i class="on"></i><i class="on"></i></div>
 
 <main class="q-main" style="gap: 22px">
   <div class="q-intro">
     <div class="eyebrow" style="letter-spacing: .1em">最後の質問</div>
     <h1 class="q-title">気になっていることは<br>ありますか？</h1>
-    <p class="q-lead">体のこと、苦手なこと、予算など。書いた内容をAIが読み取り、選ぶ装備に反映します。</p>
+    <p class="q-lead">体のこと、苦手なこと、予算など。書いた内容は、結果の画面に表示するために使います（サーバーには送信しません）。</p>
   </div>
 
   <div class="field">
@@ -53,7 +53,8 @@
 </div>
 
 </div>
-<script src="js/app.js?v=202610052326"></script>
-<script src="js/diagnosis.js?v=202610052326"></script>
+<script src="js/site.js?v=202610111500"></script>
+<script src="js/app.js?v=202610111500"></script>
+<script src="js/diagnosis.js?v=202610111500"></script>
 </body>
 </html>

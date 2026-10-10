@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ヤマフィット｜登山装備の選び方とAI診断</title>
-<link rel="stylesheet" href="css/style.css?v=202610052326">
+<title>ヤマフィット｜登山装備の選び方と、条件に合う装備の診断</title>
+<meta name="description" content="登山靴・レインウェア・ザック・ポールなどの選び方を、初心者の目線で解説。行き先と悩みに答えると、条件に合う装備を提案します。">
+<link rel="stylesheet" href="css/style.css?v=202610111500">
 </head>
 <body>
 <div class="page">
@@ -31,11 +32,14 @@
 <div id="item-results" class="item-results" hidden aria-live="polite"></div>
 
 <nav class="cats" aria-label="カテゴリ">
-  <a class="cat cat--primary" href="question.html">AI診断</a>
+  <a class="cat cat--primary" href="question.html">装備診断</a>
   <a class="cat" href="category.html?c=boots">登山靴</a>
   <a class="cat" href="category.html?c=pack">ザック</a>
+  <a class="cat" href="category.html?c=poles">ポール</a>
+  <a class="cat" href="category.html?c=gtx">ゴアテックス</a>
   <a class="cat" href="category.html?c=rain">レインウェア</a>
   <a class="cat" href="category.html?c=wear">ウェア</a>
+  <a class="cat" href="category.html?c=pants">パンツ</a>
   <a class="cat" href="category.html?c=tent">テント泊</a>
 </nav>
 
@@ -53,8 +57,8 @@
   </svg>
   <div class="promo-inner">
     <div>
-      <div class="eyebrow eyebrow--dark">AI装備診断</div>
-      <h2 style="margin-top: 8px">どれを選ぶか迷ったら、<br>AIに聞く。</h2>
+      <div class="eyebrow eyebrow--dark">装備診断</div>
+      <h2 style="margin-top: 8px">どれを選ぶか迷ったら、<br>条件から選ぶ。</h2>
       <p>行き先・季節・経験に答えると、合う装備を選んで提案します。</p>
     </div>
     <a class="btn" href="question.html">
@@ -66,39 +70,33 @@
 
 <section class="section" style="gap: 12px">
   <div class="row-between">
-    <h2 class="h-section">最新記事</h2>
+    <h2 class="h-section">記事</h2>
+    <a class="link-more" href="articles.html"><span>すべて見る</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+  <div id="articles-latest"></div>
+</section>
+
+<section class="section" style="gap: 12px">
+  <div class="row-between">
+    <h2 class="h-section">ブランドの最新ニュース</h2>
     <a class="link-more" href="news.html"><span>すべて見る</span>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
     </a>
   </div>
-  <div id="news-latest" class="stack" style="gap: 12px">
-  <a class="item" href="article.html">
-    <div class="photo photo--thumb">写真</div>
-    <div class="item-body"><div class="eyebrow">レインウェア</div><div class="item-title">レインウェアは、耐水圧の前に「蒸れにくさ」を見る</div></div>
-  </a>
-  <a class="item" href="article.html">
-    <div class="photo photo--thumb">写真</div>
-    <div class="item-body"><div class="eyebrow">ザック</div><div class="item-title">日帰りザックは何リットルを選べばいいか</div></div>
-  </a>
-  <a class="item" href="article.html">
-    <div class="photo photo--thumb">写真</div>
-    <div class="item-body"><div class="eyebrow">ウェア</div><div class="item-title">夏の低山、重ね着は3枚で考える</div></div>
-  </a>
-  </div>
+  <p class="sub">アウトドアブランドの名前が入った記事を、1時間ごとに集めています（各媒体の記事へのリンクです）。</p>
+  <div id="news-latest" class="stack" style="gap: 12px"></div>
 </section>
 
-<section class="section" style="gap: 10px" id="ranking">
+<section class="section" style="gap: 10px" id="ranking" hidden>
   <h2 class="h-section">ランキング</h2>
   <div class="tabs" role="tablist" aria-label="ランキングの種類">
     <button class="tab" type="button" role="tab" id="tab-access" aria-selected="true" aria-controls="rank-list">アクセス</button>
     <button class="tab" type="button" role="tab" id="tab-purchase" aria-selected="false" aria-controls="rank-list">購入</button>
   </div>
   <div class="sub" id="rank-note"></div>
-  <ol id="rank-list" role="tabpanel">
-    <li class="rank"><a href="article.html"><span class="rank-no">1</span><span class="item-body"><span class="eyebrow">トレッキングポール</span><span class="item-title">トレッキングポールは1本か、2本か</span></span></a></li>
-    <li class="rank"><a href="article.html"><span class="rank-no">2</span><span class="item-body"><span class="eyebrow">ヘッドランプ</span><span class="item-title">ヘッドランプの明るさは、どこまで必要か</span></span></a></li>
-    <li class="rank"><a href="article.html"><span class="rank-no">3</span><span class="item-body"><span class="eyebrow">小物</span><span class="item-title">水筒とハイドレーション、山での使い分け</span></span></a></li>
-  </ol>
+  <ol id="rank-list" role="tabpanel"></ol>
 </section>
 
 <div class="notice">
@@ -110,14 +108,17 @@
 
 <footer class="footer">
   <div class="footer-inner">
-    <nav aria-label="フッター"><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
+    <nav aria-label="フッター"><a href="articles.html">記事</a><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
     <div class="mono">YAMAFIT</div>
   </div>
 </footer>
-<script src="js/app.js?v=202610052326"></script>
-<script src="js/menu.js?v=202610052326"></script>
-<script src="js/ranking.js?v=202610052326"></script>
-<script src="js/news.js?v=202610052326"></script>
-<script src="js/items.js?v=202610052326"></script>
+<script src="js/site.js?v=202610111500"></script>
+<script src="js/app.js?v=202610111500"></script>
+<script src="js/menu.js?v=202610111500"></script>
+<script src="js/articles.js?v=202610111500"></script>
+<script src="js/ranking.js?v=202610111500"></script>
+<script src="js/news.js?v=202610111500"></script>
+<script src="js/items.js?v=202610111500"></script>
+<script src="js/shop.js?v=202610111500"></script>
 </body>
 </html>

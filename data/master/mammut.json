@@ -1,0 +1,1168 @@
+{
+ "brand": "マムート",
+ "products": [
+  {
+   "id": "mammut-ducan-3-high-gtx-m",
+   "brand": "マムート",
+   "name": "デュカン 3 ハイ ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 35200,
+   "weight_g": 530,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05560",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05560/w_380.h_380/trim_fce_item69c10c711688c.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05560",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05560",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "長時間のハイキングや泊まりがけのツアーに向く、軽量のハイカットのGORE-TEXブーツです。",
+    "pros": [
+     "Flextronが安定性とサポート力を提供し、困難な地形でも足の疲れを軽減すると記載",
+     "高反発EVAフォームのクッション性",
+     "Vibram XS TREKアウトソールで雨の日も安定したグリップと記載",
+     "GORE-TEXメンブレンで防水・防風"
+    ],
+    "cons": [
+     "ハイカットのため、軽さ重視の人にはローカットが向く"
+    ],
+    "good_for": [
+     "泊まりがけのハイキングをする人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "Flextronが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-ducan-3-low-gtx-m",
+   "brand": "マムート",
+   "name": "デュカン 3 ロー ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 30800,
+   "weight_g": 460,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05550",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05550/w_380.h_380/trim_fce_item69c10c61ed82c.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05550",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05550",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "長時間のハイキングや泊まりがけのツアーに向く、軽量のローカットのGORE-TEXブーツです。",
+    "pros": [
+     "Flextronが安定性とサポート力を提供し、困難な地形でも足の疲れを軽減すると記載",
+     "高反発EVAフォームのクッション性",
+     "Vibram XS TREKアウトソール",
+     "GORE-TEXメンブレンで防水・防風"
+    ],
+    "cons": [
+     "ローカットのため、足首の保護はハイカットより少ない"
+    ],
+    "good_for": [
+     "日帰りから泊まりまで1足でこなしたい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "Flextronが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-ducan-3-low-gtx-w",
+   "brand": "マムート",
+   "name": "デュカン 3 ロー ゴアテックス",
+   "category": "boots",
+   "gender": "womens",
+   "price": 30800,
+   "weight_g": 400,
+   "weight_note": "UK 5.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05540",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05540/w_380.h_380/trim_fce_item69c10c4e9de58.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05540",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05540",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "長時間のハイキングや泊まりがけのツアーに向く、軽量のローカットのGORE-TEXブーツ（ウィメンズ）です。",
+    "pros": [
+     "Flextronが安定性とサポート力を提供し、困難な地形でも足の疲れを軽減すると記載",
+     "高反発EVAフォームのクッション性",
+     "Vibram XS TREKアウトソール"
+    ],
+    "cons": [
+     "ローカットのため、足首の保護はハイカットより少ない"
+    ],
+    "good_for": [
+     "日帰りから泊まりまで1足でこなしたい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "Flextronが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-ducan-3-high-leather-gtx-w",
+   "brand": "マムート",
+   "name": "デュカン 3 ハイ レザー ゴアテックス",
+   "category": "boots",
+   "gender": "womens",
+   "price": 38500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05640",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05640/w_380.h_380/trim_fce_item6985916c0ceab.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05640",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05640",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "Mastrottoスエードレザーを使った、長時間のハイキングや泊まりがけのツアー向けのハイカットGORE-TEXブーツ（ウィメンズ）です。",
+    "pros": [
+     "スエードレザーで柔軟なフィット感と記載",
+     "Flextron PRO推進プレートで安定性とサポート力を提供と記載",
+     "Vibram XS TREKアウトソール"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）",
+     "価格が38,500円と高め"
+    ],
+    "good_for": [
+     "泊まりがけのハイキングをする人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "Flextron PROが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-ducan-3-low-leather-gtx-m",
+   "brand": "マムート",
+   "name": "デュカン 3 ロー レザー ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 30800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05650",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05650/w_380.h_380/trim_fce_item69c10116af809.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05650",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05650",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "Mastrottoスエードレザーを使った、長時間のハイキング向けのローカットGORE-TEXブーツです。",
+    "pros": [
+     "スエードレザーで柔軟なフィット感と記載",
+     "Flextronが安定性とサポート力を提供と記載",
+     "Vibram XS TREKアウトソール"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "レザーの履き心地が好みの人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "Flextronが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-sertig-3-low-gtx-m",
+   "brand": "マムート",
+   "name": "サーティグ 3 ロー ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 390,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05590",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05590/w_380.h_380/trim_fce_item69859aa464a31.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05590",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05590",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "sweat"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "軽量で快適性と防水性に優れた、日帰りハイキング向けのローカットシューズです。",
+    "pros": [
+     "軽量と記載",
+     "通気性に優れたメッシュの表地",
+     "GORE-TEXメンブレンで防水",
+     "幅広のフィットに改良と記載"
+    ],
+    "cons": [
+     "日帰り用のため、泊まり山行にはブーツ型が向く"
+    ],
+    "good_for": [
+     "日帰りハイキングの人"
+    ],
+    "not_for": [
+     "重い荷物を背負う縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "軽量と記載があり、UK 8.5で約390gです。",
+     "sweat": "通気性に優れたメッシュの表地と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-sertig-3-mid-gtx-m",
+   "brand": "マムート",
+   "name": "サーティグ 3 ミッド ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 30800,
+   "weight_g": 430,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05570",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05570/w_380.h_380/trim_fce_item699bcfb7cb78e.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05570",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05570",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light",
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "軽量で快適性と防水性に優れた、日帰りハイキング向けのミッドカットシューズです。",
+    "pros": [
+     "軽量と記載",
+     "ミッドカットで足首を守る",
+     "GORE-TEXメンブレンで防水",
+     "通気性に優れたメッシュの表地"
+    ],
+    "cons": [
+     "日帰り用で、荷物の重い縦走向けとは記載されていない"
+    ],
+    "good_for": [
+     "日帰りハイキングで足首の安定感がほしい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "軽量と記載があり、UK 8.5で約430gです。",
+     "knee": "ミッドカットで足首をカバーし、クッション性と衝撃吸収力を高める設計と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-sertig-3-low-w",
+   "brand": "マムート",
+   "name": "サーティグ 3 ロー",
+   "category": "boots",
+   "gender": "womens",
+   "price": 20900,
+   "weight_g": 330,
+   "weight_note": "UK 5.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05620",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05620/w_380.h_380/trim_fce_item698d6ccb70aa9.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05620",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05620",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "budget"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "軽量で快適性に優れた、日帰りハイキング向けのローカットシューズ（ウィメンズ・防水メンブレンなし）です。",
+    "pros": [
+     "軽量と記載",
+     "価格が20,900円と、GORE-TEX版より抑えめ",
+     "通気性に優れたメッシュの表地"
+    ],
+    "cons": [
+     "GORE-TEXなどの防水メンブレンの記載がない（防水ではない）"
+    ],
+    "good_for": [
+     "晴れた日の日帰りハイキングをする人"
+    ],
+    "not_for": [
+     "雨の日も歩く人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mammut-ultimate-3-low-gtx-w",
+   "brand": "マムート",
+   "name": "アルティメイト 3 ロー ゴアテックス",
+   "category": "boots",
+   "gender": "womens",
+   "price": 30800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-04671",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-04671/w_380.h_380/trim_fce_item69c7821881984.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-04671",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-04671",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "伸縮性のあるGORE-TEX防水メンブレンとソフトシェル素材を使った、汎用性の高い丈夫なシューズです。",
+    "pros": [
+     "非常に柔らかい履き心地を追求と記載",
+     "Michelinコンパウンドのソール",
+     "高い衝撃吸収・クッション性と記載"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "さまざまなシーンで使えるオールラウンダーがほしい人"
+    ],
+    "not_for": [
+     "本格的な縦走をする人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mammut-aenergy-mtn-low-gtx-m",
+   "brand": "マムート",
+   "name": "エナジー マウンテン ロー ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 29700,
+   "weight_g": 445,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05311",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05311/w_380.h_380/trim_fce_item69c10c28d9f5f.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05311",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05311",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "どんな山でも軽やかにスピーディーに進める、テクニカルな地形向けの軽量GORE-TEXシューズです。",
+    "pros": [
+     "軽量と記載",
+     "耐摩耗性に優れたメッシュアッパー",
+     "Vibram Megagripで濡れても乾いてもグリップと記載",
+     "ラバー製トウキャップ"
+    ],
+    "cons": [
+     "価格が29,700円と高め"
+    ],
+    "good_for": [
+     "岩の多い山をスピーディーに歩きたい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "軽量シューズと記載があり、UK 8.5で約445gです。"
+    }
+   }
+  },
+  {
+   "id": "mammut-aenergy-hike-low-gtx-m",
+   "brand": "マムート",
+   "name": "エナジー ハイク ロー ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 420,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05231",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05231/w_380.h_380/trim_fce_item6985b7a971dda.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05231",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05231",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "knee"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "トレイルランニングシューズのスピード感とハイキングシューズの耐久性を合わせた、ファストハイク向けのシューズです。",
+    "pros": [
+     "ロッカー形状のソールでスムーズな着地を助けると記載",
+     "EVA OutdoorミッドソールとOrtholiteインソールで快適",
+     "GORE-TEX Stretchメンブレンで急な雨でもドライと記載"
+    ],
+    "cons": [
+     "足場のいいトレイル向けと記載されている"
+    ],
+    "good_for": [
+     "ファストハイクをする人"
+    ],
+    "not_for": [
+     "岩場や重い荷物の登山をする人"
+    ],
+    "concern_reasons": {
+     "light": "トレイルランニングの軽快さを取り入れたシューズで、UK 8.5で約420gです。",
+     "knee": "クッション性のあるミッドソールで、一日中快適な履き心地と安定性が続くと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-nova-4-mid-gtx-w",
+   "brand": "マムート",
+   "name": "ノヴァ 4 ミッド ゴアテックス",
+   "category": "boots",
+   "gender": "womens",
+   "price": 33000,
+   "weight_g": 440,
+   "weight_note": "UK 5.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-04731",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-04731/w_380.h_380/trim_fce_item69c10c05b0c6e.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-04731",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-04731",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "デイハイクでしっかりとした歩き心地を提供する、ハイエンドな軽量ハイキングシューズ（ウィメンズ）です。",
+    "pros": [
+     "ヌバックレザー（terracare）のアッパーで安定性と耐久性を確保と記載",
+     "3Dメモフォームが衝撃を吸収と記載",
+     "Vibramソール",
+     "GORE-TEXメンブレン"
+    ],
+    "cons": [
+     "価格が33,000円"
+    ],
+    "good_for": [
+     "日帰りハイキングで、レザーの履き心地を求める人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mammut-mercury-4-mid-gtx-m",
+   "brand": "マムート",
+   "name": "マーキュリー 4 ミッド ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 33000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-04711",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-04711/w_380.h_380/trim_fce_item69c10bc573470.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-04711",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-04711",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "デイハイクでしっかりとした歩き心地を提供する、ハイエンドな軽量ハイキングシューズです。",
+    "pros": [
+     "ヌバックレザー（terracare）のアッパーで安定性と耐久性を確保と記載",
+     "3Dメモフォームが衝撃を吸収と記載",
+     "Vibramソール",
+     "GORE-TEXメンブレン"
+    ],
+    "cons": [
+     "価格が33,000円",
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "日帰りハイキングで、レザーの履き心地を求める人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mammut-aenergy-mtn-mid-winter-gtx-m",
+   "brand": "マムート",
+   "name": "エナジー マウンテン ミッド ウィンター ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 39600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05750",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05750/w_380.h_380/trim_fce_item6abb379800184.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05750",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05750",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "寒い日のテクニカルな地形で素早く動ける、防水の冬用ハイキングシューズです。",
+    "pros": [
+     "Vibram ICETREKアウトソールで凍った斜面や雪道でグリップと記載",
+     "GORE-TEX Durathermインサレーションで足を暖かく保つと記載",
+     "ミッドカット"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）",
+     "価格が39,600円と高め"
+    ],
+    "good_for": [
+     "冬に雪道や氷の斜面を歩く人"
+    ],
+    "not_for": [
+     "春から秋だけ歩く人"
+    ],
+    "concern_reasons": {
+     "cold": "GORE-TEX Durathermインサレーションが気温が下がっても足を守り、暖かく保つと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-sertig-mid-winter-gtx-m",
+   "brand": "マムート",
+   "name": "サーティグ ミッド ウィンター ゴアテックス",
+   "category": "boots",
+   "gender": "mens",
+   "price": 31900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEXメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-05770",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-05770/w_380.h_380/trim_fce_item6aa8f0972480f.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-05770",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-05770",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "town",
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "軽いウィンターハイキングや街での日常生活に向く、冬用のシューズです。",
+    "pros": [
+     "冬用アウトソールで凍った路面でもグリップと記載",
+     "GORE-TEX Winterインサレーテッドメンブレンとフリース裏地で保温と記載",
+     "街でも使える"
+    ],
+    "cons": [
+     "重量は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "冬の街歩きや軽い雪のハイキングをする人"
+    ],
+    "not_for": [
+     "本格的な雪山に行く人"
+    ],
+    "concern_reasons": {
+     "cold": "フリース裏地が保温性を高め、GORE-TEX Winterインサレーテッドメンブレンが足をドライに保つと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mammut-blackfin-3-mid-dt-m",
+   "brand": "マムート",
+   "name": "ブラックフィン 3 ミッド DT",
+   "category": "boots",
+   "gender": "mens",
+   "price": 30800,
+   "weight_g": 590,
+   "weight_note": "UK 8.5（公式記載。片足かペアかの記載なし）",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "DRYtechメンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/3030-04810",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/3030-04810/w_380.h_380/trim_fce_item62cfbf003e0cd.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/3030-04810",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/3030-04810",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式の説明にサイズ感の記載なし）",
+    "summary": "冬用に特別に開発された、保温性の高いハイキングブーツです。",
+    "pros": [
+     "保温性の高いAbsolute Aluminia Thermal Insulationライニングと記載",
+     "DRYtechメンブレンで防水と記載",
+     "Vibramラバーブレンドで滑りやすい地面でもグリップと記載"
+    ],
+    "cons": [
+     "価格が30,800円"
+    ],
+    "good_for": [
+     "冬のハイキングをする人"
+    ],
+    "not_for": [
+     "春から秋だけ歩く人"
+    ],
+    "concern_reasons": {
+     "cold": "保温性の高いAbsolute Aluminia Thermal Insulationライニングを備えた冬用ブーツと記載されています。"
+    }
+   }
+  }
+ ]
+}

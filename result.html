@@ -4,7 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>診断結果｜ヤマフィット</title>
-<link rel="stylesheet" href="css/style.css?v=202610052326">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css?v=202610111500">
 </head>
 <body>
 <div class="page">
@@ -26,12 +27,12 @@
   <div class="result-inner">
     <div>
       <div class="eyebrow eyebrow--dark">診断結果</div>
-      <h1 id="result-title">日帰りで中級山岳へ。<br>軽さより「安定」を。</h1>
+      <h1 id="result-title">診断結果</h1>
     </div>
-    <div class="tags" id="result-tags"><span>夏</span><span>日帰り</span><span>中級山岳</span><span>経験1〜2年</span><span>膝が不安</span><span>汗をかきやすい</span></div>
+    <div class="tags" id="result-tags"></div>
     <div class="ai-comment">
-      <div class="eyebrow eyebrow--dark">AIのコメント</div>
-      <p>岩場のある山に日帰りで行き、下りの膝が気になるとのこと。足首を支える靴と、下りの負担を逃がすポールを軸に選びました。</p>
+      <div class="eyebrow eyebrow--dark">診断のまとめ</div>
+      <p id="result-summary">質問に答えると、ここに結果が表示されます。</p>
     </div>
     <a class="retry" href="question.html">回答を変えて診断しなおす</a>
   </div>
@@ -40,110 +41,33 @@
 <section class="products">
   <div class="products-head">
     <div class="row-between"><h2 class="h-section h-section--lg">まず揃えたい3つ</h2><span class="pr-badge">PR</span></div>
-  <div id="picks" class="stack" style="gap: 18px">
-    <p>優先度の高い順です。価格と在庫は各ショップでご確認ください。</p>
-  </div>
-  <article class="product">
-    <div class="product-head">
-      <div class="photo photo--thumb">商品写真</div>
-      <div class="product-body">
-        <div class="product-no"><span class="mono">01</span><span>登山靴</span></div>
-        <h3>[ブランド名] [商品名]</h3>
-        <div class="spec">ミッドカット／硬めのソール</div>
-        <div class="price">[価格]</div>
-      </div>
-    </div>
-    <div class="reason"><b>あなたに選んだ理由</b><p>岩場のあるコースと膝の不安から、足首を支えて着地が安定する一足を優先しました。</p></div>
-    <div class="shops"><b>ショップで見る</b>
-      <div class="shops-grid">
-        <a class="shop" href="#"><span>Amazon</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>楽天市場</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>Yahoo!</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-      </div>
-    </div>
-  </article>
-  <article class="product">
-    <div class="product-head">
-      <div class="photo photo--thumb">商品写真</div>
-      <div class="product-body">
-        <div class="product-no"><span class="mono">02</span><span>トレッキングポール</span></div>
-        <h3>[ブランド名] [商品名]</h3>
-        <div class="spec">2本組／レバー式</div>
-        <div class="price">[価格]</div>
-      </div>
-    </div>
-    <div class="reason"><b>あなたに選んだ理由</b><p>下りで膝にかかる負担を腕に分散できます。長さをすぐ変えられるレバー式を選びました。</p></div>
-    <div class="shops"><b>ショップで見る</b>
-      <div class="shops-grid">
-        <a class="shop" href="#"><span>Amazon</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>楽天市場</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>Yahoo!</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-      </div>
-    </div>
-  </article>
-  <article class="product">
-    <div class="product-head">
-      <div class="photo photo--thumb">商品写真</div>
-      <div class="product-body">
-        <div class="product-no"><span class="mono">03</span><span>ザック</span></div>
-        <h3>[ブランド名] [商品名]</h3>
-        <div class="spec">日帰り向け／背面メッシュ</div>
-        <div class="price">[価格]</div>
-      </div>
-    </div>
-    <div class="reason"><b>あなたに選んだ理由</b><p>雨具・防寒着・水が収まる日帰り向けの容量。汗をかきやすいとのことなので、背中が蒸れにくいものにしました。</p></div>
-    <div class="shops"><b>ショップで見る</b>
-      <div class="shops-grid">
-        <a class="shop" href="#"><span>Amazon</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>楽天市場</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-        <a class="shop" href="#"><span>Yahoo!</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg></a>
-      </div>
-    </div>
-  </article>
-  </div>
+  <div id="picks" class="stack" style="gap: 18px"><p class="sub">まだ診断していません。<a href="question.html">診断をはじめる</a>と、条件に合う3つの装備を表示します。</p></div>
 </section>
 
 <section class="section">
-  <h2 class="h-section h-section--lg">あると安心</h2>
-  <div class="acc">
-    <div class="acc-item">
-      <button class="acc-btn" type="button" aria-expanded="false"><span class="t"><b>レインウェア（上下）</b><span>稜線の風と急な雨に</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
-      <div class="acc-panel" hidden>[ここに補足説明を入れる]</div>
-    </div>
-    <div class="acc-item">
-      <button class="acc-btn" type="button" aria-expanded="false"><span class="t"><b>ヘッドランプ</b><span>下山が遅れたときの備え</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
-      <div class="acc-panel" hidden>[ここに補足説明を入れる]</div>
-    </div>
-    <div class="acc-item">
-      <button class="acc-btn" type="button" aria-expanded="false"><span class="t"><b>ファーストエイド</b><span>テーピングと絆創膏から</span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button>
-      <div class="acc-panel" hidden>[ここに補足説明を入れる]</div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <h2 class="h-section h-section--lg">この結果に合う読みもの</h2>
-  <a class="item" href="article.html">
-    <div class="photo photo--thumb">写真</div>
-    <div class="item-body"><div class="eyebrow">登山靴</div><div class="item-title">はじめての登山靴、ローカットとミッドカットの選び分け</div></div>
-  </a>
+  <h2 class="h-section h-section--lg">あわせて読みたい</h2>
+  <a class="news-item" href="articles/rainwear-breathability.html"><span class="news-meta"><span class="news-brand">レインウェア</span></span><span class="news-title">レインウェアは、耐水圧の前に「蒸れにくさ」を見る</span></a>
+  <a class="news-item" href="articles/daypack-checklist.html"><span class="news-meta"><span class="news-brand">持ち物</span></span><span class="news-title">日帰り登山の持ち物チェックリスト：最低限そろえたい装備</span></a>
+  <a class="news-item" href="articles/boots-size.html"><span class="news-meta"><span class="news-brand">登山靴</span></span><span class="news-title">登山靴のサイズの選び方：失敗しない試し履きの手順</span></a>
 </section>
 
 <div class="notice" style="margin-top: 32px">
   <div class="notice-head"><span class="pr-badge">PR</span><span>広告と診断について</span></div>
-  <p>このページはアフィリエイト広告を含みます。AIの提案は装備選びの参考情報です。山行前に、最新の気象とルート状況を必ずご確認ください。</p>
+  <p>このページにはアフィリエイト広告が含まれます。診断結果は、装備選びの参考情報です。山行前に、最新の気象とルート状況を必ずご確認ください。</p>
 </div>
 
 </div>
 
 <footer class="footer">
   <div class="footer-inner">
-    <nav aria-label="フッター"><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
+    <nav aria-label="フッター"><a href="articles.html">記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
     <div class="mono">YAMAFIT</div>
   </div>
 </footer>
-<script src="js/app.js?v=202610052326"></script>
-<script src="js/menu.js?v=202610052326"></script>
-<script src="js/diagnosis.js?v=202610052326"></script>
+<script src="js/site.js?v=202610111500"></script>
+<script src="js/app.js?v=202610111500"></script>
+<script src="js/menu.js?v=202610111500"></script>
+<script src="js/diagnosis.js?v=202610111500"></script>
+<script src="js/shop.js?v=202610111500"></script>
 </body>
 </html>

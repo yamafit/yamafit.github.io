@@ -1,0 +1,911 @@
+{
+ "brand": "メレル",
+ "products": [
+  {
+   "id": "merrell-moab-3-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB 3 GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 460,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-3-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/00005397_LODEN_1.jpg?v=1785897491",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-3-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-3-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "撥水ピッグスキンレザーとメッシュのアッパーに、GORE-TEXを搭載したハイキングシューズです。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "撥水ピッグスキンレザーとメッシュのコンビネーションアッパー",
+     "Vibram TC5+アウトソール",
+     "軽量EVAフォームのミッドソール"
+    ],
+    "cons": [
+     "メレル公式オンラインストア・直営店限定の展開モデルと記載"
+    ],
+    "good_for": [
+     "日帰りハイキングの定番を探す人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "EVAフォームのミッドソールとフットベッドを改良し、快適性を高めたと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-3-mid-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB 3 MID GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 25300,
+   "weight_g": 490,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-3-mid-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/00005414_LODEN_1.jpg?v=1785897148",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-3-mid-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-3-mid-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "MOAB 3 GORE-TEX のミッドカット版です。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "ミッドカットで足首まわりを覆う",
+     "撥水ピッグスキンレザーとメッシュのアッパー",
+     "Vibram TC5+アウトソール"
+    ],
+    "cons": [
+     "メレル公式オンラインストア・直営店限定の展開モデルと記載",
+     "ローカット版より重い（約490g）"
+    ],
+    "good_for": [
+     "足首の安定感がほしい人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "knee": "ミッドカットで足首を覆い、EVAフォームの快適性を高めたと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-3-synthetic-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB 3 SYNTHETIC GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 20900,
+   "weight_g": 430,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-3-synthetic-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/EARTHEN_1.jpg?v=1769736055",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-3-synthetic-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-3-synthetic-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "リサイクル素材を使った合成素材アッパーの、軽量なハイキングシューズです。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "約430gとレザー版より軽い",
+     "リサイクル素材を採用",
+     "GORE-TEX",
+     "幅広（WIDE WIDTH）のモデルもある"
+    ],
+    "cons": [
+     "レザー版に比べると、素材感の上質さは異なる"
+    ],
+    "good_for": [
+     "軽さを重視する日帰りハイキングの人",
+     "幅広の足の人（ワイドモデルあり）"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "約430g（27.0cm・片足）と、同シリーズのレザー版より軽量です。",
+     "sweat": "GORE-TEXの透湿防水メンブレンを搭載と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-3-synthetic-mid-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB 3 SYNTHETIC MID GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 23100,
+   "weight_g": 470,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-3-synthetic-mid-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/GREYSTONE_1_50ace4a8-d3b5-4bb2-9d4a-eb6730dab2fd.jpg?v=1776158784",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-3-synthetic-mid-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-3-synthetic-mid-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee",
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "合成素材アッパーの、ミッドカットのハイキングシューズです。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "ミッドカット",
+     "約470g",
+     "リサイクル素材を採用",
+     "GORE-TEX"
+    ],
+    "cons": [
+     "ローカット版より重い"
+    ],
+    "good_for": [
+     "足首の安定感がほしい人",
+     "幅広の足の人（ワイドモデルあり）"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "ミッドカットで足首をカバーすると記載されています。",
+     "light": "約470g（27.0cm・片足）とミッドカットとしては軽量です。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-3-gtx-w",
+   "brand": "メレル",
+   "name": "MOAB 3 GORE-TEX",
+   "category": "boots",
+   "gender": "womens",
+   "price": 16940,
+   "weight_g": 370,
+   "weight_note": "24.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/womens_moab-3-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/SEDONA_SAGE_1.jpg?v=1759295789",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/womens_moab-3-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/womens_moab-3-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "撥水ピッグスキンレザーとメッシュのアッパーに、GORE-TEXを搭載したハイキングシューズ（ウィメンズ）です。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "約370g（24.0cm・片足）と軽い",
+     "Vibram TC5+アウトソール"
+    ],
+    "cons": [
+     "メレル公式オンラインストア・直営店限定の展開モデルと記載"
+    ],
+    "good_for": [
+     "日帰りハイキングの定番を探す人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "約370g（24.0cm・片足）です。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-3-mid-gtx-w",
+   "brand": "メレル",
+   "name": "MOAB 3 MID GORE-TEX",
+   "category": "boots",
+   "gender": "womens",
+   "price": 25300,
+   "weight_g": 400,
+   "weight_note": "24.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/womens_moab-3-mid-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/OLIVE_1_a54deca0-9726-47d1-9d1a-ca1fe48a9129.jpg?v=1776158379",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/womens_moab-3-mid-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/womens_moab-3-mid-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "MOAB 3 GORE-TEX のミッドカット版（ウィメンズ）です。",
+    "pros": [
+     "2007年発売以降、世界累計2,800万人以上に支持されるハイキングシューズのアイコンモデルと記載",
+     "ミッドカットで足首まわりを覆う",
+     "約400g（24.0cm・片足）",
+     "Vibram TC5+アウトソール"
+    ],
+    "cons": [
+     "メレル公式オンラインストア・直営店限定の展開モデルと記載"
+    ],
+    "good_for": [
+     "足首の安定感がほしい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "knee": "ミッドカットで足首を覆うと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-speed-2-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB SPEED 2 GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 15400,
+   "weight_g": 370,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-speed-2-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/OLIVINE_1.jpg?v=1787709492",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-speed-2-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-speed-2-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ハイキングシューズの安定性とトレイルランニングシューズの俊敏性を融合した、マルチな地形向けのシューズです。",
+    "pros": [
+     "安定性と俊敏性を融合と記載",
+     "約370g（27.0cm・片足）と軽い",
+     "GORE-TEX",
+     "リップストップ素材のアッパー"
+    ],
+    "cons": [
+     "重い荷物を背負う縦走には、より安定感のあるブーツ型が向く"
+    ],
+    "good_for": [
+     "軽快に歩きたいハイカー"
+    ],
+    "not_for": [
+     "重い荷物の縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約370g（27.0cm・片足）です。",
+     "sweat": "GORE-TEXの透湿防水メンブレンを搭載と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-moab-speed-2-mid-gtx-m",
+   "brand": "メレル",
+   "name": "MOAB SPEED 2 MID GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 17710,
+   "weight_g": 400,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_moab-speed-2-mid-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/OLIVINE_1_e8c7a037-7aab-4cde-8577-e15a73f6ad66.jpg?v=1787715656",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_moab-speed-2-mid-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_moab-speed-2-mid-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "MOAB SPEED 2 GORE-TEX のミッドカット版です。",
+    "pros": [
+     "安定性と俊敏性を融合と記載",
+     "ミッドカットで足首まわりを覆う",
+     "約400g（27.0cm・片足）"
+    ],
+    "cons": [
+     "重い荷物の縦走向けとは記載されていない"
+    ],
+    "good_for": [
+     "軽快さと足首の安定感を両方ほしい人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "約400g（27.0cm・片足）です。",
+     "knee": "ミッドカットで、安定性を重視したモデルと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-capra-2-gtx-m",
+   "brand": "メレル",
+   "name": "CAPRA 2 GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 20790,
+   "weight_g": 370,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_capra-2-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/BLACKCRIMSON_1.jpg?v=1753151915",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_capra-2-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_capra-2-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light",
+     "knee"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "軽量で耐久性に優れた、透湿防水のハイキングシューズです。",
+    "pros": [
+     "約370g（27.0cm・片足）",
+     "踵のクッション性を高め、変化に富んだ地形でも快適な接地感と記載",
+     "撥水スエードレザーのアッパー",
+     "トゥラバーでつま先を保護"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "軽いレザーのハイキングシューズを探す人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {
+     "light": "軽量で耐久性に優れると記載があり、約370g（27.0cm・片足）です。",
+     "knee": "踵部分のクッション性を高め、快適な接地感と反発性を発揮すると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "merrell-claypool-2-sport-mid-gtx-m",
+   "brand": "メレル",
+   "name": "CLAYPOOL 2 SPORT MID GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 17710,
+   "weight_g": 400,
+   "weight_note": "片足の記載なし",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": "25.0〜30.0cm",
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_claypool-2-sport-mid-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/BLACK_1_c51b652b-8ad5-4bda-a90a-1e1d549cb510.jpg?v=1724381566",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_claypool-2-sport-mid-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_claypool-2-sport-mid-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light",
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "低山ハイクや自然散策道におすすめの、軽量なミッドカットのハイキングシューズです。",
+    "pros": [
+     "低山ハイクや自然散策道におすすめと記載",
+     "GORE-TEXの全天候対応",
+     "約400g",
+     "シューレースやライニングなどに100％サスティナブル素材を採用と記載"
+    ],
+    "cons": [
+     "低山向けで、本格的な縦走向けとは記載されていない"
+    ],
+    "good_for": [
+     "低山ハイクや散策を楽しむ人"
+    ],
+    "not_for": [
+     "岩場や縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約400gの軽量ハイキングシューズと記載されています。",
+     "budget": "GORE-TEX搭載で、17,710円と抑えめの価格です。"
+    }
+   }
+  },
+  {
+   "id": "merrell-speed-arc-matis-gtx-m",
+   "brand": "メレル",
+   "name": "SPEED ARC MATIS GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 30800,
+   "weight_g": 360,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_speed-arc-matis-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/00005528_BLACK_BELUGA_1.jpg?v=1785896714",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_speed-arc-matis-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_speed-arc-matis-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "メレル史上もっとも革新的とうたう、ファストハイキングシューズです。",
+    "pros": [
+     "約360g（27.0cm・片足）と軽い",
+     "ブランドテクノロジーを詰め込んだ高い機能性と記載",
+     "街でも使えるスタイルを想定と記載"
+    ],
+    "cons": [
+     "価格が30,800円と高め"
+    ],
+    "good_for": [
+     "軽快さとスタイルを両立したい人"
+    ],
+    "not_for": [
+     "重い荷物の縦走をする人",
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "light": "約360g（27.0cm・片足）のファストハイキングシューズです。"
+    }
+   }
+  },
+  {
+   "id": "merrell-agility-peak-6-gtx-m",
+   "brand": "メレル",
+   "name": "AGILITY PEAK 6 GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 29700,
+   "weight_g": 290,
+   "weight_note": "27.0cm・片足",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX（透湿防水メンブレン）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://merrell.jp/products/mens_agility-peak-6-gore-tex",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0265/3261/0091/files/BELUGA_1_ee705377-78f6-4783-bf06-41987c44e5f0.jpg?v=1786937645",
+    "angle": "main",
+    "src_page": "https://merrell.jp/products/mens_agility-peak-6-gore-tex",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://merrell.jp/products/mens_agility-peak-6-gore-tex",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "あらゆる距離・コンディションで性能を発揮するトレイルランニングシューズの、GORE-TEX全天候モデルです。",
+    "pros": [
+     "約290g（27.0cm・片足）と非常に軽い",
+     "GORE-TEX Invisible Fitで防水性・防風性・透湿性と記載",
+     "リップストップナイロンの高強度アッパー"
+    ],
+    "cons": [
+     "トレイルランニング用で、重い荷物の登山には向かない",
+     "価格が29,700円と高め"
+    ],
+    "good_for": [
+     "トレイルを軽快に走る・歩く人"
+    ],
+    "not_for": [
+     "重い荷物を背負う縦走をする人"
+    ],
+    "concern_reasons": {
+     "light": "約290g（27.0cm・片足）です。"
+    }
+   }
+  }
+ ]
+}

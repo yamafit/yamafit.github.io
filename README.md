@@ -50,8 +50,36 @@ Chrome で http://localhost:8000 を開く。
 
 ## ランキング（ホーム）
 - 「アクセス」と「購入」の2つをタブで切り替え、上位5件を表示します。数字がまだ無い間は、アクセスは見本の記事一覧、購入は「集計中です」と表示されます。
-- 数字の入れ方：`data/access.csv`（GA4のページ別閲覧数）と `data/sales.csv`（ASPの成果レポートから商品ごとの購入数）に貼り（access.csv は `title,url,count`、sales.csv は `title,url,count,category`。category は boots / pack / rain / wear / tent）、`node tools/build-rankings.mjs` を実行すると `data/rankings.json` ができます。
+- 数字の入れ方：`data/access.csv`（GA4のページ別閲覧数）と `data/sales.csv`（ASPの成果レポートから商品ごとの購入数）に貼り（access.csv は `title,url,count`、sales.csv は `title,url,count,category`。category は boots / pack / rain / wear / pants / tent）、`node tools/build-rankings.mjs` を実行すると `data/rankings.json` ができます。
 - 購入数は、アフィリエイトの成果が確定した数字を使ってください（クリック数ではありません）。
 
 - カテゴリページには、sales.csv の category ごとに購入数の上位3件を表示します。
 - メニューの「ブランド（公式サイトへ）」は、`data/brands.json` の `site` に書いた公式サイトへ飛びます。
+
+## AIのおすすめ（カテゴリページに3つ）
+- `node tools/recommend.mjs` が、カテゴリごとに最大3つを選んで `data/recommendations.json` に保存します（`.github/workflows/recommend.yml` が毎朝6時に自動実行）。
+- 材料：今の季節（商品の `season`）、商品ごとのクリック数（`data/clicks.csv` の `id,clicks`）、購入数（`data/rankings.json`）。
+- AIキーがある場合は Claude が選んで理由を書き、無い場合は同じ材料の点数で選びます。AIを使うには、GitHub の Settings → Secrets and variables → Actions に `ANTHROPIC_API_KEY` を登録します。
+- 「学習」といっても、モデルを再訓練するのではなく、毎回その時点のデータを材料にして選び直す仕組みです。データが貯まるほど、おすすめが傾向に沿っていきます。
+
+## 商品マスター
+- 設計と項目は `data/master/SCHEMA.md`。ブランドごとの商品は `data/master/<ブランド>.json`（サイトが読む `data/products.json` はここから作られる）。
+- スペックは公式ページの記載だけを使い、書かれていない項目は `null`（画面では「不明」）。各商品に情報源URLと確認日（`sources`）を残している。
+- 価格と在庫は毎日自動で確認し直す（`.github/workflows/master.yml` → `tools/refresh-offers.mjs`）。ページが消えた商品は「在庫なし」になり、`note` に残る。
+- 購入先シート（商品をクリック）は、`offers` の在庫あり → 未確認 → 在庫なし の順に並べ、アフィリエイトURLがあればそちらへ、無ければ公式サイトへ誘導する。どこにも在庫がないときは「在庫なし」と表示し、同じカテゴリで在庫のある近い商品を2つ出す。
+- 商品の写真は、各公式サイトの画像URLをそのまま参照している（`image.url`）。表示できない場合は仮の枠に切り替わる。権利面は運営者の確認が必要（`node tools/check-images.mjs` で表示可否を確認）。
+- アフィリエイトURLは `offers[].affiliate_url` に入れる（ASP登録後）。
+
+
+## A8.net 審査前チェックリスト
+
+公開前に運営者が行うこと（コードでは解決できないもの）:
+
+1. **お問い合わせ先を設定**: `js/site.js` の `contactFormEmbed`（Googleフォームの埋め込みURL）か `formUrl`（Formspree等）のどちらかを入れる。未設定だと送信時にエラー表示になる。入れたら実際に送信して届くか確認。
+2. **記事を自分の言葉で確認・加筆**: `content/articles.mjs` の11本は下書き。自分の体験・写真を足して `node tools/build-articles.mjs`。
+3. **画像**: 公式画像の直リンクは既定でオフ（`PRODUCT_IMAGES=1 node tools/build-products.mjs` で再度オン）。トップ画像（img/hero.jpg）の権利も確認。
+4. **GA4**: 使うなら `ga4Id` を入れる（プライバシーポリシーは「利用することがあります」表記）。
+5. **Amazonアソシエイト**に参加した後で、プライバシーポリシーに指定文言を追記する。
+6. 承認後、`data/master/*.json` の `offers[].affiliate_url` にA8の広告リンクを入れ、`node tools/build-products.mjs`。
+
+公開: `git add . && git commit -m "A8審査準備" && git pull --rebase && git push`

@@ -4,8 +4,11 @@ const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&l
 document.addEventListener("DOMContentLoaded", async () => {
   const list = document.getElementById("rank-list");
   if (!list) return;
+  const section = document.getElementById("ranking");
   let data;
   try { data = await (await fetch("data/rankings.json", { cache: "no-cache" })).json(); } catch { return; }
+  if (!((data.access || []).length || (data.purchase || []).length)) return; // 集計前は、ランキング欄そのものを出さない
+  if (section) section.hidden = false;
   const tabs = { access: document.getElementById("tab-access"), purchase: document.getElementById("tab-purchase") };
   const note = document.getElementById("rank-note");
   const unit = { access: "PV", purchase: "件" };

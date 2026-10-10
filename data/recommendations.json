@@ -1,0 +1,125 @@
+{
+  "updated": "2026-10-10T22:46:12.677Z",
+  "season": "autumn",
+  "categories": {
+    "boots": [
+      {
+        "id": "columbia-steens-peak-2-outdry-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。防水と高グリップで、濡れた山道を安定して歩けるハイキングシューズです。"
+      },
+      {
+        "id": "merrell-moab-3-synthetic-gtx-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。リサイクル素材を使った合成素材アッパーの、軽量なハイキングシューズです。"
+      },
+      {
+        "id": "montbell-1129765",
+        "source": "rule",
+        "reason": "秋の山行に合うため。軽量で、低山ハイキングやキャンプに向く、ゴアテックスの全天候型シューズです。"
+      }
+    ],
+    "rain": [
+      {
+        "id": "montbell-1128727",
+        "source": "rule",
+        "reason": "秋の山行に合うため。ゴアテックスのレインパンツ。裾のジッパーで、登山靴を履いたまま着脱できます。"
+      },
+      {
+        "id": "marmot-chimera-ultimate-jacket-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。耐水圧30,000mm以上、透湿性30,000g/㎡以上をうたう、3層の防水シェルジャケットです。"
+      },
+      {
+        "id": "patagonia-granite-crest-jacket-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。雨天のトレイルで1日中動きつづけるときに理想的と記載された、3層構造のシェルジャケットです。"
+      }
+    ],
+    "pack": [
+      {
+        "id": "columbia-castle-rock-20l-2",
+        "source": "rule",
+        "reason": "秋の山行に合うため。20Lと通気背面で、軽めのハイクを快適にするバックパックです。"
+      },
+      {
+        "id": "montbell-1133530",
+        "source": "rule",
+        "reason": "秋の山行に合うため。80Lのトレッキングパック。軽量でシンプルな構造で、必要な機能を備えたバックパックです。"
+      },
+      {
+        "id": "mhw-scrambler-35",
+        "source": "rule",
+        "reason": "秋の山行に合うため。丈夫で水にも強い、ブランドを代表するバックパックです。"
+      }
+    ],
+    "wear": [
+      {
+        "id": "marmot-able-down-jacket-750fp-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。耐久撥水の20デニール生地と750フィルパワーの撥水ダウンを使った、ダウンジャケットです。"
+      },
+      {
+        "id": "patagonia-houdini-jacket-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。約105gの、超軽量なリサイクルナイロン製のウインドブレーカーです。"
+      },
+      {
+        "id": "tnf-expedition-grid-fleece-light-crew",
+        "source": "rule",
+        "reason": "夏山の寒暖差に対応する、高通気のグリッドフリースです。"
+      }
+    ],
+    "pants": [
+      {
+        "id": "montbell-1105673",
+        "source": "rule",
+        "reason": "秋の山行に合うため。耐摩耗性と速乾性に優れた中厚手のパンツで、季節を問わず使えると記載されています。"
+      },
+      {
+        "id": "mhw-chockstone-alpine-pants",
+        "source": "rule",
+        "reason": "秋の山行に合うため。動きやすさと耐久性を併せ持った、アルパインクライミング対応のパンツです。"
+      },
+      {
+        "id": "tnf-alpine-light-pants",
+        "source": "rule",
+        "reason": "秋の山行に合うため。1年を通して山岳エリアでの行動を支える、ストレッチ性の高いパンツです。"
+      }
+    ],
+    "tent": [
+      {
+        "id": "montbell-1122814",
+        "source": "rule",
+        "reason": "過酷な環境に耐える、軽量な山岳用テントです（本体はレインフライ別売）。"
+      },
+      {
+        "id": "montbell-1122827",
+        "source": "rule",
+        "reason": "極めて軽量・コンパクトな、シングルウォール構造のテントです。"
+      },
+      {
+        "id": "montbell-1122763",
+        "source": "rule",
+        "reason": "月明かりの中でも簡単に設営できることをコンセプトにした、モンベルのロングセラーのテントです。"
+      }
+    ],
+    "poles": [
+      {
+        "id": "montbell-1140189",
+        "source": "rule",
+        "reason": "秋の山行に合うため。軽さと強度を両立した、I型グリップのカーボンポールです（1本売り）。"
+      },
+      {
+        "id": "montbell-1140267",
+        "source": "rule",
+        "reason": "秋の山行に合うため。バックパックの中に収納できる、軽量コンパクトな折りたたみ式ポールです。"
+      },
+      {
+        "id": "montbell-1140272",
+        "source": "rule",
+        "reason": "秋の山行に合うため。バックパックの中に収納できる、軽量コンパクトな折りたたみ式ポールです。"
+      }
+    ]
+  }
+}

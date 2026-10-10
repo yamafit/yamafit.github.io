@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!openers.length) return;
 
   let brands = [];
-  try { brands = (await (await fetch("data/brands.json", { cache: "no-cache" })).json()).brands; } catch {}
+  try { brands = (await (await fetch(SITE_BASE + "data/brands.json", { cache: "no-cache" })).json()).brands; } catch {}
 
   const overlay = document.createElement("div");
   overlay.className = "menu-overlay";
@@ -16,17 +16,17 @@ document.addEventListener("DOMContentLoaded", async () => {
       <button class="icon-btn" type="button" aria-label="メニューを閉じる"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
     <nav class="menu-body" aria-label="メニュー">
-      <form class="search" action="news.html" role="search" style="margin-top: 16px">
+      <form class="search" action="${SITE_BASE}news.html" role="search" style="margin-top: 16px">
         <label for="menu-q" style="position:absolute; left:-9999px">キーワードで検索</label>
         <input class="input" id="menu-q" name="q" type="search" placeholder="キーワードで検索" autocomplete="off">
         <button type="submit" aria-label="検索"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg></button>
       </form>
       <h2>ブランド（公式サイトへ）</h2>
-      ${brands.map((b) => `<a href="${esc(b.site || "news.html?q=" + encodeURIComponent(b.name))}"${b.site ? ' target="_blank" rel="noopener"' : ""}><span>${esc(b.name)}</span><small>${esc(b.aliases.find((x) => /^[A-Za-z]/.test(x)) || "")}</small></a>`).join("") || '<a href="news.html">最新記事</a>'}
+      ${brands.map((b) => `<a href="${esc(b.site || SITE_BASE + "news.html?q=" + encodeURIComponent(b.name))}"${b.site ? ' target="_blank" rel="noopener"' : ""}><span>${esc(b.name)}</span><small>${esc(b.aliases.find((x) => /^[A-Za-z]/.test(x)) || "")}</small></a>`).join("") || '<a href="${SITE_BASE}news.html">最新記事</a>'}
       <h2>カテゴリから探す</h2>
-      <a href="category.html?c=boots">登山靴</a><a href="category.html?c=pack">ザック</a><a href="category.html?c=rain">レインウェア</a><a href="category.html?c=wear">ウェア</a><a href="category.html?c=tent">テント泊</a>
+      <a href="${SITE_BASE}category.html?c=boots">登山靴</a><a href="${SITE_BASE}category.html?c=pack">ザック</a><a href="${SITE_BASE}category.html?c=poles">ポール</a><a href="${SITE_BASE}category.html?c=gtx">ゴアテックス</a><a href="${SITE_BASE}category.html?c=rain">レインウェア</a><a href="${SITE_BASE}category.html?c=wear">ウェア</a><a href="${SITE_BASE}category.html?c=pants">パンツ</a><a href="${SITE_BASE}category.html?c=tent">テント泊</a>
       <h2>サイト</h2>
-      <a href="question.html">AI診断</a><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a>
+      <a href="${SITE_BASE}question.html">装備診断</a><a href="${SITE_BASE}articles.html">記事</a><a href="${SITE_BASE}news.html">最新記事</a><a href="${SITE_BASE}about.html">運営者情報</a><a href="${SITE_BASE}privacy.html">プライバシーポリシー</a><a href="${SITE_BASE}contact.html">お問い合わせ</a>
     </nav></div>`;
   document.body.appendChild(overlay);
 

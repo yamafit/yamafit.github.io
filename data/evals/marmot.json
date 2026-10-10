@@ -1,0 +1,994 @@
+[
+ {
+  "key": "/products/mtss26mrn001",
+  "id": "gtx-frey-jacket-m",
+  "name": "GTX Frey Jacket",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 323,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEXの最軽量クラスの素材を使った、Marmotのフラッグシップ防水シェルジャケットです。",
+   "pros": [
+    "最も優れた透湿性をもつと記載（GORE-TEX C-KNIT Backer）",
+    "Lサイズで323gと軽量",
+    "立体裁断で動きにフィット",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "価格が55,000円と高め"
+   ],
+   "good_for": [
+    "軽さと透湿性を重視する人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "sweat": "GORE-TEXの中でも最も優れた透湿性をもつ素材と記載されています。",
+    "light": "Lサイズで323gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtss26wrn002",
+  "id": "gtx-frey-jacket-w",
+  "name": "W's GTX Frey Jacket",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": 263,
+  "weight_note": "Mサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEXの最軽量クラスの素材を使った、Marmotのフラッグシップ防水シェルジャケット（ウィメンズ）です。",
+   "pros": [
+    "最も優れた透湿性をもつと記載",
+    "Mサイズで263gと軽量",
+    "立体裁断で動きにフィット",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "価格が55,000円と高め"
+   ],
+   "good_for": [
+    "軽さと透湿性を重視する人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "sweat": "GORE-TEXの中でも最も優れた透湿性をもつ素材と記載されています。",
+    "light": "Mサイズで263gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/tssmr407-07",
+  "id": "gtx-nika-jacket-2-m",
+  "name": "GTX Nika Jacket Ⅱ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 350,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light",
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX PACLITEを使った2層素材の、軽量なレインジャケットです。",
+   "pros": [
+    "極めて優れた透湿性、耐久防水性、高い防風性と記載",
+    "着用時のノイズを軽減と記載",
+    "スタッフサック付きで携行性が高い",
+    "GORE-TEX製としては29,480円と抑えめ"
+   ],
+   "cons": [
+    "2層構造で、3層モデルよりかさばる可能性がある（公式にサイズ記載なし）",
+    "逆開ファスナーで、開閉時に注意が必要"
+   ],
+   "good_for": [
+    "軽量なGORE-TEXレインを手頃に探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "GORE-TEX PACLITEの軽量レインジャケットで、Lサイズ350gです。",
+    "budget": "GORE-TEX製のレインジャケットとして、29,480円と価格が抑えめです。"
+   }
+  }
+ },
+ {
+  "key": "/products/tsswr407",
+  "id": "gtx-nika-jacket-2-w",
+  "name": "W's GTX Nika Jacket Ⅱ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": 310,
+  "weight_note": "Mサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light",
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX PACLITEを使った2層素材の、軽量なレインジャケット（ウィメンズ）です。",
+   "pros": [
+    "極めて優れた透湿性、耐久防水性、高い防風性と記載",
+    "スタッフサック付きで携行性が高い",
+    "GORE-TEX製としては29,480円と抑えめ"
+   ],
+   "cons": [
+    "逆開ファスナーで、開閉時に注意が必要"
+   ],
+   "good_for": [
+    "軽量なGORE-TEXレインを手頃に探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "GORE-TEX PACLITEの軽量レインジャケットで、Mサイズ310gです。",
+    "budget": "GORE-TEX製のレインジャケットとして、29,480円と価格が抑えめです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtss25mrn001",
+  "id": "gtx-avalon-jacket-3l",
+  "name": "GTX Avalon Jacket 3L",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 345,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX Active Fabricsを使った、最軽量クラスの3層シェルジャケットです。",
+   "pros": [
+    "最も優れた透湿性をもつと記載",
+    "30dナイロンリップストップと軽量なC-KNITバッカー",
+    "Lサイズで345g"
+   ],
+   "cons": [
+    "価格が46,200円と高め"
+   ],
+   "good_for": [
+    "軽量で透湿性の高いシェルを探す人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "sweat": "GORE-TEX Productの中でも最も優れた透湿性をもつ3層構造と記載されています。",
+    "light": "Lサイズで345gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/tsamr001",
+  "id": "gtx-m-jacket",
+  "name": "GTX M Jacket",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 370,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEXを使った、Marmotの定番の防水シェルジャケットです。",
+   "pros": [
+    "GORE-TEXの防水・防風・透湿性",
+    "Lサイズで370g"
+   ],
+   "cons": [
+    "公式の説明からは、他モデルとの違いが読み取りにくい"
+   ],
+   "good_for": [
+    "定番のGORE-TEXシェルを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/tssmr401",
+  "id": "m-jacket-gtx-3l",
+  "name": "M Jacket GTX 3L",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 370,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX 3レイヤーを使った、Marmotの防水シェルジャケットです。",
+   "pros": [
+    "GORE-TEX 3レイヤー",
+    "Lサイズで370g"
+   ],
+   "cons": [
+    "公式の説明からは、他モデルとの違いが読み取りにくい"
+   ],
+   "good_for": [
+    "3層のGORE-TEXシェルを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mtss26mrn005",
+  "id": "chimera-logan-jacket-m",
+  "name": "CHIMERA Logan Jacket",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 353,
+  "weight_note": "Lサイズ",
+  "waterproof": "防水シェル（2.5層）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "裏材なしでも肌面がドライな、2.5層の防水シェルジャケットです。",
+   "pros": [
+    "「Dry」と「Light Weight」を追求し、汗をかいてもべたつきにくいと記載",
+    "高い耐水性と高い透湿性",
+    "クライミングからハイキング、街まで対応と記載"
+   ],
+   "cons": [
+    "2.5層構造で、3層モデルとは仕様が異なる",
+    "逆開ファスナーで、開閉時に注意が必要"
+   ],
+   "good_for": [
+    "軽やかな着心地を求める人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "裏に特殊立体加工を施し、汗をかいてもべたつきにくいと記載されています。",
+    "light": "Lサイズで353gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26mrn007",
+  "id": "chimera-ultimate-jacket-m",
+  "name": "CHIMERA Ultimate Jacket",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 249,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐水圧30,000mm以上（公式記載）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "耐水圧30,000mm以上、透湿性30,000g/㎡以上をうたう、3層の防水シェルジャケットです。",
+   "pros": [
+    "耐水圧30,000mm以上、透湿性30,000g/㎡以上（JIS B-1法）と記載",
+    "Lサイズで249gと軽量",
+    "クライミングからハイキング、街まで対応と記載"
+   ],
+   "cons": [
+    "価格が41,800円"
+   ],
+   "good_for": [
+    "軽さと防水透湿性を重視する人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "透湿性30,000g/㎡以上（JIS B-1法）と記載されています。",
+    "light": "Lサイズで249gと軽量です。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26wrn008",
+  "id": "chimera-ultimate-jacket-w",
+  "name": "W's CHIMERA Ultimate Jacket",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": 216,
+  "weight_note": "Mサイズ",
+  "waterproof": "耐水圧30,000mm以上（公式記載）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "耐水圧30,000mm以上、透湿性30,000g/㎡以上をうたう、3層の防水シェルジャケット（ウィメンズ）です。",
+   "pros": [
+    "耐水圧30,000mm以上と記載",
+    "Mサイズで216gと軽量"
+   ],
+   "cons": [
+    "価格が41,800円"
+   ],
+   "good_for": [
+    "軽さと防水透湿性を重視する人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "透湿性30,000g/㎡以上と記載されています（メンズと同じ素材の記載）。",
+    "light": "Mサイズで216gと軽量です。"
+   }
+  }
+ },
+ {
+  "key": "/products/tsamo036-07",
+  "id": "chimera-mountain-jacket",
+  "name": "Chimera Mountain Jacket",
+  "gender": "unisex",
+  "category": "rain",
+  "weight_g": 430,
+  "weight_note": "サイズの記載なし",
+  "waterproof": "オリジナルファブリック（防水・通気）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "90年代のモデルをアレンジした、防水性と通気性を併せ持つオリジナル素材のマウンテンジャケットです。",
+   "pros": [
+    "経年劣化にも強く、長期の使用に耐えると記載",
+    "防水性・耐水圧・通気に特化したシールドと記載"
+   ],
+   "cons": [
+    "430gと重め",
+    "価格が60,500円と高い"
+   ],
+   "good_for": [
+    "長く使える丈夫なシェルを求める人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/tssmr402",
+  "id": "all-weather-parka",
+  "name": "All Weather Parka",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 410,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "70年代にアウトドアブランドとして初めてGORE-TEXを採用したモデルを、現代的なシルエットで再現したパーカーです。",
+   "pros": [
+    "GORE-TEX PACLITEの2層素材で、透湿・防水・防風性と記載",
+    "当時のディテールを忠実に再現"
+   ],
+   "cons": [
+    "410gと、軽量シェルより重め"
+   ],
+   "good_for": [
+    "クラシックなデザインが好きな人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/tssmr406",
+  "id": "gtx-nika-pants-2-m",
+  "name": "GTX Nika Pants Ⅱ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 260,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX PACLITEの軽量なレインパンツです。重ね履きを想定し、ウエストの厚みを減らしています。",
+   "pros": [
+    "Lサイズで260gと軽量",
+    "バックルなしでウエストの厚みを軽減",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "バックルがないため、ベルトの代わりの調整方法は公式の記載を要確認"
+   ],
+   "good_for": [
+    "軽量なレインパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "Lサイズで260gの軽量なレインパンツです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26mrn003",
+  "id": "chimera-ultimate-pants-m",
+  "name": "CHIMERA Ultimate Pants",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 208,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐水圧30,000mm以上（公式記載）",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "耐水圧30,000mm以上の、3層シェルパンツです。",
+   "pros": [
+    "耐水圧30,000mm以上、透湿性30,000g/㎡以上と記載",
+    "Lサイズで208gと軽量"
+   ],
+   "cons": [
+    "価格が24,200円"
+   ],
+   "good_for": [
+    "軽さと防水性を重視する人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "Lサイズで208gと軽量です。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtss26mrn003",
+  "id": "gtx-frey-pants-m",
+  "name": "GTX Frey Pants",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": 258,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEXを使った、軽量な防水パンツです。",
+   "pros": [
+    "Lサイズで258gと軽量",
+    "GORE-TEXの防水・防風・透湿性"
+   ],
+   "cons": [
+    "価格が38,500円と高め"
+   ],
+   "good_for": [
+    "上下を揃えて軽く仕上げたい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "light": "Lサイズで258gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26mdw023",
+  "id": "atlas-down-sweater-1000fp-m",
+  "name": "1000FP Atlas Down Sweater",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 271,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐久撥水",
+  "waterproof_level": "water_repellent",
+  "warmth": "1000FPダウン（ダウン95%／フェザー5%）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "town",
+    "winter"
+   ],
+   "concerns": [
+    "cold",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "1000フィルパワーのダウンを使った、軽くしなやかなダウンセーターです。",
+   "pros": [
+    "1000Fill Powerのダウン（ポーランド産ホワイトグース）と記載",
+    "Lサイズで271gと軽量",
+    "耐久撥水・防風",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "価格が46,200円と高め"
+   ],
+   "good_for": [
+    "軽さと保温性を両立したい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "cold": "1000Fill Powerのダウンを封入と記載されています。",
+    "light": "Lサイズで271gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26mdw009",
+  "id": "lance-down-hoodie-m",
+  "name": "Lance Down Hoodie",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 341,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐久撥水",
+  "waterproof_level": "water_repellent",
+  "warmth": "750FP撥水ダウン",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "town",
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "耐久撥水のPERTEX QUANTUMと750フィルパワーの撥水ダウンを組み合わせた、ダウンフーディです。",
+   "pros": [
+    "750Fill Powerの撥水ダウンで、水濡れしてもロフト感と保温性を保つと記載",
+    "風の侵入を防ぐコンパクトフィットのフード",
+    "防寒アウターにもインナーダウンにも使えると記載"
+   ],
+   "cons": [
+    "Lサイズで341gと、軽量ダウンより重め"
+   ],
+   "good_for": [
+    "防寒アウターを探す人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {
+    "cold": "750Fill Powerの撥水ダウンで高い保温性と記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw25mdw011",
+  "id": "able-down-jacket-750fp-m",
+  "name": "750FP Able Down Jacket",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 302,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐久撥水",
+  "waterproof_level": "water_repellent",
+  "warmth": "750FP撥水ダウン",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "town",
+    "winter"
+   ],
+   "concerns": [
+    "cold",
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "耐久撥水の20デニール生地と750フィルパワーの撥水ダウンを使った、ダウンジャケットです。",
+   "pros": [
+    "750Fill Powerの撥水ダウンで保温性が高いと記載",
+    "19,800円と、ダウンジャケットとして手頃",
+    "インナーダウンにも使えると記載"
+   ],
+   "cons": [
+    "Lサイズで302g"
+   ],
+   "good_for": [
+    "手頃なダウンジャケットを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "750Fill Powerの撥水ダウンで、高い保温性と記載されています。",
+    "budget": "ダウンジャケットとして19,800円と手頃です。"
+   }
+  }
+ },
+ {
+  "key": "/products/tsauo034",
+  "id": "alternative-insulation-vest",
+  "name": "Alternative Insulation Vest",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 170,
+  "weight_note": "Lサイズ",
+  "waterproof": "耐久はっ水",
+  "waterproof_level": "water_repellent",
+  "warmth": "Padded Insulation（ポリエステル100%）",
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "PERTEX QUANTUMを使った、非常に軽いインサレーションベストです。",
+   "pros": [
+    "Lサイズで170gと非常に軽い",
+    "中綿が水蒸気を逃がす構造で、保温性と通気性を両立と記載",
+    "山登りなどの寒暖差に持ち運びしやすいと記載"
+   ],
+   "cons": [
+    "袖がないため、単体の防寒は限られる"
+   ],
+   "good_for": [
+    "寒暖差のある山で荷物を軽くしたい人"
+   ],
+   "not_for": [
+    "真冬の主な防寒着を探す人"
+   ],
+   "concern_reasons": {
+    "sweat": "中綿が運動時の水蒸気を逃がす構造と記載されています。",
+    "light": "Lサイズで170gです。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw26mfl038",
+  "id": "polarlite-ambient-fleece-jacket-m",
+  "name": "Polarlite Ambient Fleece Jacket",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 389,
+  "weight_note": "Lサイズ",
+  "warmth": "POLARTEC 100（ポリエステル100%）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "budget"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "軽量ながら適度な保温性と通気性があるPOLARTEC 100のフリースジャケットです。",
+   "pros": [
+    "POLARTEC 100で適度な保温性と通気性と記載",
+    "15,950円と手頃",
+    "秋冬は行動着、真冬はミドラーとして使えると記載"
+   ],
+   "cons": [
+    "Lサイズで389g"
+   ],
+   "good_for": [
+    "行動着にもミドラーにも使いたい人"
+   ],
+   "not_for": [
+    "真冬の主な防寒着を探す人"
+   ],
+   "concern_reasons": {
+    "sweat": "適度な保温性と通気性に優れたPOLARTEC 100と記載されています。",
+    "budget": "フリースジャケットとして15,950円と手頃です。"
+   }
+  }
+ },
+ {
+  "key": "/products/mtfw25mfl032",
+  "id": "alpinist-tech-sweater-m",
+  "name": "Alpinist Tech Sweater",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 454,
+  "weight_note": "Lサイズ",
+  "warmth": "POLARTEC 100",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "1990年代のヘリテージモデルをもとにした、POLARTEC 100のフリースジャケットです。",
+   "pros": [
+    "軽量ながら優れた保温性と通気性と記載",
+    "秋冬は行動着、厳しい寒さの冬はミドラーとして使えると記載"
+   ],
+   "cons": [
+    "Lサイズで454gと、軽量フリースより重い"
+   ],
+   "good_for": [
+    "クラシックなデザインが好きな人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mtss25mjk014",
+  "id": "mammoth-65-field-jacket",
+  "name": "Mammoth-65 Field Jacket",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 340,
+  "weight_note": "Lサイズ",
+  "waterproof": "GORE-TEX WINDSTOPPER（耐水の記載あり）",
+  "waterproof_level": "water_repellent",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "最軽量クラスの透湿性をもつ3層のGORE-TEX WINDSTOPPERを使った、ミリタリー風のフィールドジャケットです。",
+   "pros": [
+    "最も優れた透湿性をもつ3層構造と記載",
+    "耐久撥水・防風",
+    "Lサイズで340g"
+   ],
+   "cons": [
+    "逆開ファスナーで、開閉時に注意が必要",
+    "価格が40,150円"
+   ],
+   "good_for": [
+    "街でも山でも使えるデザインを求める人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ }
+]

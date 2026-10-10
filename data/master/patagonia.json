@@ -1,0 +1,525 @@
+{
+ "brand": "パタゴニア",
+ "products": [
+  {
+   "id": "patagonia-torrentshell-3l-jacket-m",
+   "brand": "パタゴニア",
+   "name": "トレントシェル 3L・レイン・ジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 25500,
+   "weight_g": 400,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-jacket/85241.html",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw4ab40198/images/hi-res/85241_SMDB.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-jacket/85241.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-jacket/85241.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "budget"
+    ],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "H2Noパフォーマンス・スタンダードを満たす、シンプルな3層構造のレインジャケットです。",
+    "pros": [
+     "抜群の防水性／透湿性と記載",
+     "リサイクル100％の防水性／透湿性の表面素材",
+     "生地・メンブレン・DWRにPFASを意図的に添加せず製造と記載",
+     "17,500円〜25,500円と、パタゴニアのシェルとしては手頃"
+    ],
+    "cons": [
+     "400g（メンズ）と、軽量シェルより重め",
+     "色によって価格が異なる（セール色あり）"
+    ],
+    "good_for": [
+     "シンプルで信頼できるレインを探す人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "budget": "パタゴニアの3層シェルとして、17,500円〜25,500円（色により異なる）と抑えめです。"
+    }
+   }
+  },
+  {
+   "id": "patagonia-torrentshell-3l-jacket-w",
+   "brand": "パタゴニア",
+   "name": "トレントシェル 3L・レイン・ジャケット",
+   "category": "rain",
+   "gender": "womens",
+   "price": 25500,
+   "weight_g": 352,
+   "weight_note": "ウィメンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/womens-torrentshell-3-layer-rain-jacket/85246.html",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw5b977282/images/hi-res/85246_BLK.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/womens-torrentshell-3-layer-rain-jacket/85246.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/womens-torrentshell-3-layer-rain-jacket/85246.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "budget"
+    ],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "H2Noパフォーマンス・スタンダードを満たす、シンプルな3層構造のレインジャケット（ウィメンズ）です。",
+    "pros": [
+     "抜群の防水性／透湿性と記載",
+     "352gとメンズより軽い",
+     "PFASを意図的に添加せず製造と記載"
+    ],
+    "cons": [
+     "色によって価格が異なる（セール色あり）"
+    ],
+    "good_for": [
+     "シンプルで信頼できるレインを探す人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "budget": "17,500円〜25,500円（色により異なる）と、パタゴニアのシェルとしては抑えめです。"
+    }
+   }
+  },
+  {
+   "id": "patagonia-boulder-fork-jacket-m",
+   "brand": "パタゴニア",
+   "name": "ボルダー・フォーク・レイン・ジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 30000,
+   "weight_g": 388,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-boulder-fork-waterproof-rain-jacket/85140.html",
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwe30ba363/images/hi-res/85140_SMDB.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-boulder-fork-waterproof-rain-jacket/85140.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-boulder-fork-waterproof-rain-jacket/85140.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-06"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-06",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "かさばらない防水性ジャケットで、悪天候でも体をドライに保てる3層構造のシェルです。",
+    "pros": [
+     "かさばらないと記載",
+     "抜群の防水性と通気性（H2Noパフォーマンス・スタンダード）",
+     "PFASを意図的に添加せず製造と記載"
+    ],
+    "cons": [
+     "388gで、軽量シェルより重め",
+     "価格が21,000円〜30,000円"
+    ],
+    "good_for": [
+     "日帰りのトレイルで雨に備える人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "patagonia-granite-crest-jacket-m",
+   "brand": "パタゴニア",
+   "name": "グラナイト・クレスト・レイン・ジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 36000,
+   "weight_g": 400,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-granite-crest-waterproof-rain-jacket/85415.html",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwc6f4332f/images/hi-res/85415_BLK.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-granite-crest-waterproof-rain-jacket/85415.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-granite-crest-waterproof-rain-jacket/85415.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "雨天のトレイルで1日中動きつづけるときに理想的と記載された、3層構造のシェルジャケットです。",
+    "pros": [
+     "漁網のリサイクルナイロン100％（ネットプラス）のリップストップ",
+     "抜群の防水性と透湿性（H2Noパフォーマンス・スタンダード）",
+     "PFASを意図的に添加せず製造と記載"
+    ],
+    "cons": [
+     "400gと軽量シェルより重め",
+     "価格が25,200円〜36,000円と高め"
+    ],
+    "good_for": [
+     "雨のトレイルを歩く時間が長い人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "sweat": "抜群の防水性と透湿性を提供するH2Noパフォーマンス・スタンダード採用と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "patagonia-granite-crest-jacket-w",
+   "brand": "パタゴニア",
+   "name": "グラナイト・クレスト・レイン・ジャケット",
+   "category": "rain",
+   "gender": "womens",
+   "price": 36000,
+   "weight_g": 357,
+   "weight_note": "ウィメンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw4fdc29ba/images/hi-res/85420_BLK.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/womens-granite-crest-waterproof-rain-jacket/85420.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "雨天のトレイルで1日中動きつづけるときに理想的と記載された、3層構造のシェルジャケット（ウィメンズ）です。",
+    "pros": [
+     "漁網のリサイクルナイロン100％のリップストップ",
+     "抜群の防水性と透湿性（H2Noパフォーマンス・スタンダード）",
+     "357gとメンズより軽い"
+    ],
+    "cons": [
+     "価格が25,200円〜36,000円と高め"
+    ],
+    "good_for": [
+     "雨のトレイルを歩く時間が長い人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "sweat": "抜群の防水性と透湿性を提供するH2Noパフォーマンス・スタンダード採用と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "patagonia-torrentshell-3l-pants-m",
+   "brand": "パタゴニア",
+   "name": "トレントシェル 3L・レイン・パンツ（レギュラー）",
+   "category": "rain",
+   "gender": "mens",
+   "price": 18000,
+   "weight_g": 335,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "H2Noパフォーマンス・スタンダード（3層構造）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-pants-regular/85266.html",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwa2b6c5bd/images/hi-res/85266_BLK.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-pants-regular/85266.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-torrentshell-3-layer-rain-pants-regular/85266.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "H2Noパフォーマンス・スタンダードを満たす、3層構造のレインパンツです。",
+    "pros": [
+     "抜群の防水性／透湿性と記載",
+     "335gと軽め",
+     "PFASを意図的に添加せず製造と記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "上下を揃えて雨に備える人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "patagonia-houdini-jacket-m",
+   "brand": "パタゴニア",
+   "name": "フーディニ・ジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 15000,
+   "weight_g": 105,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": "超軽量なリサイクル・ナイロン100％のリップストップ（DWR撥水加工済み）",
+   "waterproof": "DWR（耐久性撥水）加工",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-houdini-windbreaker-jacket/24142.html",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw8703a4f2/images/hi-res/24142_BOB.jpg?sw=1400&sh=1400&sfrm=png&q=90&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-houdini-windbreaker-jacket/24142.html",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-houdini-windbreaker-jacket/24142.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式の記載を確認していません）",
+    "summary": "約105gの、超軽量なリサイクルナイロン製のウインドブレーカーです。",
+    "pros": [
+     "約105gと非常に軽い",
+     "軽度の水分を弾くDWR（耐久性撥水）加工",
+     "悪天候に対するプロテクションを提供し、どこへでも携帯できると記載"
+    ],
+    "cons": [
+     "防水ではなく、撥水加工（雨具の代わりにはならない）",
+     "色によって価格が異なる（10,150円〜15,000円）"
+    ],
+    "good_for": [
+     "荷物を軽くしたい人",
+     "風よけを1枚持ちたい人"
+    ],
+    "not_for": [
+     "雨具を探している人",
+     "防寒着を探している人"
+    ],
+    "concern_reasons": {
+     "light": "約105g（メンズ）と非常に軽いウインドブレーカーです。"
+    }
+   }
+  }
+ ]
+}

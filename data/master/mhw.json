@@ -1,0 +1,704 @@
+{
+ "brand": "マウンテンハードウェア",
+ "products": [
+  {
+   "id": "mhw-trail-birth-gtx-jacket",
+   "brand": "マウンテンハードウェア",
+   "name": "トレイルバース ゴアテックス ジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 59400,
+   "weight_g": 456,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0700444----S000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0700_444_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0700444----S000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0700444----S000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "環境負荷の低減を徹底した、新しいGORE-TEXのハードシェルです。",
+    "pros": [
+     "Mサイズで456g",
+     "GORE-TEXのハードシェル",
+     "ALPINE（アルパイン）向けのカテゴリ"
+    ],
+    "cons": [
+     "価格が59,400円と高め"
+    ],
+    "good_for": [
+     "山岳で使うハードシェルを探す人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "light": "Mサイズで456gです。"
+    }
+   }
+  },
+  {
+   "id": "mhw-cloud-cipher-hooded-jacket",
+   "brand": "マウンテンハードウェア",
+   "name": "クラウドサイファー フーデッドジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 37400,
+   "weight_g": 333,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水シェル",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1625344----S000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM1625_344_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1625344----S000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1625344----S000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "突然の雨風に対応する、軽量でパッカブルな防水シェルです。",
+    "pros": [
+     "軽量でパッカブルと記載",
+     "Mサイズで333g"
+    ],
+    "cons": [
+     "素材の詳細は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "急な雨に備える軽いレインがほしい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "軽量でパッカブルな防水シェルと記載され、Mサイズで333gです。"
+    }
+   }
+  },
+  {
+   "id": "mhw-stretch-ozonic-jacket",
+   "brand": "マウンテンハードウェア",
+   "name": "ストレッチオゾニックジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 29700,
+   "weight_g": 292,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水シェル",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0704314----S000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0704_314_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0704314----S000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0704314----S000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "身体に追随するストレッチ性のある防水シェルです。",
+    "pros": [
+     "ストレッチ性があり身体に追随と記載",
+     "Mサイズで292gと軽い",
+     "29,700円と、MHWのシェルとしては抑えめ"
+    ],
+    "cons": [
+     "素材の詳細は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "動きやすさを重視する人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "Mサイズで292gです。"
+    }
+   }
+  },
+  {
+   "id": "mhw-ascent-pants",
+   "brand": "マウンテンハードウェア",
+   "name": "アセントパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 19250,
+   "weight_g": 320,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE0876004----S00R",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OE0876_004_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE0876004----S00R",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE0876004----S00R",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "オールシーズン、幅広いアクティビティで活躍すると記載された定番パンツです。",
+    "pros": [
+     "オールシーズンと記載",
+     "Mサイズで320g"
+    ],
+    "cons": [
+     "素材の詳細は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "1本で通年使いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mhw-dynama-pants",
+   "brand": "マウンテンハードウェア",
+   "name": "ダイナマパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 13200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1024010----S030",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM1024_010_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1024010----S030",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM1024010----S030",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "budget"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "一日中トレイルを楽しむための、履きやすいストレッチパンツです。",
+    "pros": [
+     "パフォーマンスストレッチと記載",
+     "13,200円と手頃"
+    ],
+    "cons": [
+     "重量・素材の詳細は公式ページに記載なし（不明）"
+    ],
+    "good_for": [
+     "トレイルを軽快に歩きたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "budget": "13,200円と手頃なトレイル向けパンツです。"
+    }
+   }
+  },
+  {
+   "id": "mhw-chockstone-alpine-pants",
+   "brand": "マウンテンハードウェア",
+   "name": "チョックストン アルパインパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 19800,
+   "weight_g": 527,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0609204----S00R",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0609_204_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0609204----S00R",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0609204----S00R",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "動きやすさと耐久性を併せ持った、アルパインクライミング対応のパンツです。",
+    "pros": [
+     "動きやすさと耐久性を併せ持つと記載",
+     "紫外線対策の記載あり"
+    ],
+    "cons": [
+     "Mサイズで527gと重め"
+    ],
+    "good_for": [
+     "岩場やクライミングをする人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mhw-kazam-60l",
+   "brand": "マウンテンハードウェア",
+   "name": "カザム60Lバックパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 45100,
+   "weight_g": 1180,
+   "weight_note": "S/Mサイズ（XS/S 1,160g／M/L 1,200g）",
+   "capacity_l": 60,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7958339--SZM000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OU7958_339_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7958339--SZM000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7958339--SZM000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "MHWの専門技術で、ロングトレイルを快適に歩ける軽量の大型パックです。",
+    "pros": [
+     "軽量な大型パックと記載",
+     "60Lの容量で約1.2kg（XS/S 1,160g／S/M 1,180g／M/L 1,200g）"
+    ],
+    "cons": [
+     "価格が45,100円と高め"
+    ],
+    "good_for": [
+     "長期のトレイルを歩く人"
+    ],
+    "not_for": [
+     "日帰りの人"
+    ],
+    "concern_reasons": {
+     "light": "60Lの大型パックで約1.2kgと、軽量と記載されています。"
+    }
+   }
+  },
+  {
+   "id": "mhw-scrambler-35",
+   "brand": "マウンテンハードウェア",
+   "name": "スクランブラー35",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 33000,
+   "weight_g": 1180,
+   "weight_note": "S/Mサイズ（M/L 1,202g）",
+   "capacity_l": 35,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7622842--SZM000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OU7622_842_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7622842--SZM000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7622842--SZM000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "丈夫で水にも強い、ブランドを代表するバックパックです。",
+    "pros": [
+     "丈夫で水にも強いと記載",
+     "ALPINEカテゴリ"
+    ],
+    "cons": [
+     "S/Mで約1,180gと、軽量パックより重い"
+    ],
+    "good_for": [
+     "岩場や悪条件で使う人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mhw-mountain-light-25l-5l",
+   "brand": "マウンテンハードウェア",
+   "name": "マウンテンライト25L＋5L",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 27500,
+   "weight_g": 1025,
+   "weight_note": "本体",
+   "capacity_l": 25,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE7812010--OZS000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OE7812_010_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE7812010--OZS000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OE7812010--OZS000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "MHWアスリート監修の、使いやすく仕上げた3シーズン用の中型パックです。",
+    "pros": [
+     "3シーズン用と記載",
+     "25Lから30Lまで拡張できる（25L＋5L）"
+    ],
+    "cons": [
+     "1,025g"
+    ],
+    "good_for": [
+     "日帰りから小屋泊まりの人"
+    ],
+    "not_for": [
+     "冬山に行く人"
+    ],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "mhw-dyatissima-55l",
+   "brand": "マウンテンハードウェア",
+   "name": "ディアティッシマ55Lバックパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 66000,
+   "weight_g": 2134,
+   "weight_note": "S/Mサイズ（M/L 2,197g）",
+   "capacity_l": 55,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7227056--SZM000",
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_ou7227_056_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7227056--SZM000",
+    "checked_at": "2026-10-07",
+    "ok": true
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OU7227056--SZM000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-07"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-07",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "高耐久・高機能の、アルパイン向けの大型パックです。",
+    "pros": [
+     "高耐久・高機能と記載",
+     "ALPINEカテゴリ"
+    ],
+    "cons": [
+     "S/Mで約2,134gと重い",
+     "価格が66,000円と高い"
+    ],
+    "good_for": [
+     "アルパインの泊まり山行をする人"
+    ],
+    "not_for": [
+     "日帰りの人",
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {}
+   }
+  }
+ ]
+}
