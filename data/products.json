@@ -7734,6 +7734,225 @@
    }
   },
   {
+   "id": "montbell-1128738",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "ドライテック レインパンツ Women's",
+   "gender": "womens",
+   "spec": "スーパー ドライテック 3レイヤー／178g（平均重量）",
+   "price": 13000,
+   "capacity_l": null,
+   "weight_g": 178,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "XS、S、M、L、XL、M-S(M ショート丈)、L-S(L ショート丈)、XL-S(XL ショート丈)、XXL-S(XXLショート丈)、S",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "登山靴を履いたまま着脱できるジッパー",
+    "ゴアテックス製より価格が抑えめ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "コストを抑えつつ登山用のレインパンツが欲しい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、登山向けのレインパンツです。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128738",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128738",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1128739",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "ドライテック レインパンツ フルジップ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック 3レイヤー／216g（平均重量）",
+   "price": 18000,
+   "capacity_l": null,
+   "weight_g": 216,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL、M-S(M ショート丈)、L-S(L ショート丈)、XL-S(XL ショート丈)、S-L(S ロング丈)、M-L(M ロン",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "登山靴を履いたまま着脱できるジッパー",
+    "ゴアテックス製より価格が抑えめ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "コストを抑えつつ登山用のレインパンツが欲しい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、登山向けのレインパンツです。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128739",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128739",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1128740",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "ドライテック レインパンツ フルジップ Women's",
+   "gender": "womens",
+   "spec": "スーパー ドライテック 3レイヤー／201g（平均重量）",
+   "price": 17000,
+   "capacity_l": null,
+   "weight_g": 201,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "XS、S、M、L、XL、M-S(M ショート丈)、L-S(L ショート丈)、XL-S(XL ショート丈)、XXL-S(XXLショート丈)、S",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "登山靴を履いたまま着脱できるジッパー",
+    "ゴアテックス製より価格が抑えめ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "コストを抑えつつ登山用のレインパンツが欲しい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、登山向けのレインパンツです。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128740",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1128740",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "montbell-1128782",
    "category": "rain",
    "brand": "モンベル",
@@ -10655,6 +10874,876 @@
      "affiliate_url": "",
      "in_stock": true,
      "checked_at": "2026-10-06"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328313",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US テンペスト ジャケット Men's",
+   "gender": "mens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／259g（平均重量）",
+   "price": 37200,
+   "capacity_l": null,
+   "weight_g": 259,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:20デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "脇のベンチレーション（ピットジップ）で汗の蒸れを逃がせる",
+    "ゴアテックス ファブリクス 3レイヤー（耐水圧20,000mm以上）",
+    "胸ポケット2つ"
+   ],
+   "cons": [
+    "価格が3万円台と高め",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "運動量が多い山行をする人",
+   "not_for": "とにかく安く済ませたい人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "脇のベンチレーションで衣服内の汗の蒸れを逃がせる設計と記載されています。"
+   },
+   "default_reason": "脇のベンチレーションで蒸れを逃がせる、ゴアテックスの高機能レインジャケットです。",
+   "fit": "不明",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328313",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328313",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328314",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US テンペスト ジャケット Women's",
+   "gender": "womens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／232g（平均重量）",
+   "price": 36300,
+   "capacity_l": null,
+   "weight_g": 232,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:20デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "脇のベンチレーション（ピットジップ）で汗の蒸れを逃がせる",
+    "ゴアテックス ファブリクス 3レイヤー（耐水圧20,000mm以上）",
+    "胸ポケット2つ"
+   ],
+   "cons": [
+    "価格が3万円台と高め",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "運動量が多い山行をする人",
+   "not_for": "とにかく安く済ませたい人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "脇のベンチレーションで衣服内の汗の蒸れを逃がせる設計と記載されています。"
+   },
+   "default_reason": "脇のベンチレーションで蒸れを逃がせる、ゴアテックスの高機能レインジャケットです。",
+   "fit": "不明",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328314",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328314",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328315",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US GORE-TEX レインパンツ Men's",
+   "gender": "mens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／191g（平均重量）",
+   "price": 23100,
+   "capacity_l": null,
+   "weight_g": 191,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:20デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "ゴアテックス ファブリクス 3レイヤー（耐水圧20,000mm以上）",
+    "登山靴を履いたまま着脱できる",
+    "立体裁断（膝）"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "急な雨にすばやく対応したい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ゴアテックスのレインパンツ。裾のジッパーで、登山靴を履いたまま着脱できます。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328315",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328315",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328316",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US GORE-TEX レインパンツ Women's",
+   "gender": "womens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／174g（平均重量）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": 174,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:20デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "ゴアテックス ファブリクス 3レイヤー（耐水圧20,000mm以上）",
+    "登山靴を履いたまま着脱できる",
+    "立体裁断（膝）"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "急な雨にすばやく対応したい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ゴアテックスのレインパンツ。裾のジッパーで、登山靴を履いたまま着脱できます。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328316",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328316",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328317",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US レイントレッカー ジャケット Men's",
+   "gender": "mens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／320g（平均重量）",
+   "price": 31200,
+   "capacity_l": null,
+   "weight_g": 320,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:50デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "表地50デニールの丈夫な生地",
+    "ゴアテックス ファブリクス 3レイヤー",
+    "ややゆとりのあるシルエット"
+   ],
+   "cons": [
+    "表地が厚めのぶん、軽量モデルより重い（平均300g前後）",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "丈夫さを重視する人・初めてのレインウェアを探す人",
+   "not_for": "軽さを最優先する人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "表地に丈夫な生地を使った、エントリーからハードユースまで幅広く使えるゴアテックスのレインジャケットです。",
+   "fit": "厚みのある中間着の上にも着やすい、ややゆとりのあるシルエットと記載",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328317",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328317",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328318",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US レイントレッカー ジャケット Women's",
+   "gender": "womens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／290g（平均重量）",
+   "price": 30200,
+   "capacity_l": null,
+   "weight_g": 290,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:50デニール・ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "表地50デニールの丈夫な生地",
+    "ゴアテックス ファブリクス 3レイヤー",
+    "ややゆとりのあるシルエット"
+   ],
+   "cons": [
+    "表地が厚めのぶん、軽量モデルより重い（平均300g前後）",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "丈夫さを重視する人・初めてのレインウェアを探す人",
+   "not_for": "軽さを最優先する人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "表地に丈夫な生地を使った、エントリーからハードユースまで幅広く使えるゴアテックスのレインジャケットです。",
+   "fit": "厚みのある中間着の上にも着やすい、ややゆとりのあるシルエットと記載",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328318",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328318",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328319",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ピークシェル ジャケット Men's",
+   "gender": "mens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／198g（平均重量）",
+   "price": 34200,
+   "capacity_l": null,
+   "weight_g": 198,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:15デニール・ バリスティック エアライト® ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "平均重量が200g未満（メンズ185g）",
+    "脇のベンチレーション（ピットジップ）",
+    "コンパクトに収納できる"
+   ],
+   "cons": [
+    "表地が15デニールと薄く、擦れには気を使う",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "軽さを重視する人・運動量が多い人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "reasons": {
+    "sweat": "脇のベンチレーションで蒸れを逃がせると記載されています。",
+    "light": "平均重量185g（メンズ）と軽量です。"
+   },
+   "default_reason": "脇のベンチレーションを備えながら非常に軽く、コンパクトに収納できるゴアテックスのレインジャケットです。",
+   "fit": "不明",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328319",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328319",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328320",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ピークシェル ジャケット Women's",
+   "gender": "womens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／175g（平均重量）",
+   "price": 33200,
+   "capacity_l": null,
+   "weight_g": 175,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表:15デニール・ バリスティック エアライト® ナイロン・リップストップ］ / 透湿性: 20,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "平均重量が200g未満（メンズ185g）",
+    "脇のベンチレーション（ピットジップ）",
+    "コンパクトに収納できる"
+   ],
+   "cons": [
+    "表地が15デニールと薄く、擦れには気を使う",
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "軽さを重視する人・運動量が多い人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "reasons": {
+    "sweat": "脇のベンチレーションで蒸れを逃がせると記載されています。",
+    "light": "平均重量185g（メンズ）と軽量です。"
+   },
+   "default_reason": "脇のベンチレーションを備えながら非常に軽く、コンパクトに収納できるゴアテックスのレインジャケットです。",
+   "fit": "不明",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328320",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328320",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328321",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ストームクルーザー ジャケット Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック 3レイヤー／284g（平均重量）",
+   "price": 25500,
+   "capacity_l": null,
+   "weight_g": 284,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "耐水圧20,000mm以上",
+    "裏地に保水しにくい高密度ニットでさらっとした着心地"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "蒸れが気になる人・登山用の定番を探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材を使用と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、モンベルのフラッグシップのレインジャケットです。",
+   "fit": "ゆったり幅の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328321",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328321",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328322",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ストームクルーザー ジャケット Women's",
+   "gender": "womens",
+   "spec": "スーパー ドライテック 3レイヤー／256g（平均重量）",
+   "price": 24500,
+   "capacity_l": null,
+   "weight_g": 256,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "耐水圧20,000mm以上",
+    "裏地に保水しにくい高密度ニットでさらっとした着心地"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "蒸れが気になる人・登山用の定番を探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材を使用と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、モンベルのフラッグシップのレインジャケットです。",
+   "fit": "ゆったり幅の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328322",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328322",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328323",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ドライテック レインパンツ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック 3レイヤー／207g（平均重量）",
+   "price": 15000,
+   "capacity_l": null,
+   "weight_g": 207,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "登山靴を履いたまま着脱できるジッパー",
+    "ゴアテックス製より価格が抑えめ"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "コストを抑えつつ登山用のレインパンツが欲しい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、登山向けのレインパンツです。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328323",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328323",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-2328324",
+   "category": "rain",
+   "brand": "モンベル",
+   "name": "US ドライテック レインパンツ Women's",
+   "gender": "womens",
+   "spec": "スーパー ドライテック 3レイヤー／191g（平均重量）",
+   "price": 14000,
+   "capacity_l": null,
+   "weight_g": 191,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック 3レイヤー［表：30デニール・ バリスティック® ナイロン・リップストップ］ / 透湿性: 40,000g/m&sup2;・24hrs（JIS L-1099B-1法・参考値） / 耐水圧: 20,000mm以上",
+   "waterproof": "スーパー ドライテック 3レイヤー",
+   "warmth": null,
+   "size_note": "S、M、L、XL",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "透湿性40,000g/m²・24hrs（参考値）",
+    "登山靴を履いたまま着脱できるジッパー",
+    "ゴアテックス製より価格が抑えめ"
+   ],
+   "cons": [
+    "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"
+   ],
+   "for_whom": "コストを抑えつつ登山用のレインパンツが欲しい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性40,000g/m²・24hrs（参考値）の素材と記載されています。"
+   },
+   "default_reason": "高い透湿性の独自素材を使った、登山向けのレインパンツです。",
+   "fit": "ショート丈の展開あり",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328324",
+     "checked_at": "2026-10-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=2328324",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-11"
     }
    ],
    "related": [],

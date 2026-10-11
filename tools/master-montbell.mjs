@@ -91,6 +91,9 @@ for (const r of raw) {
     ev2.uses = cap <= 20 ? ["low", "town"] : cap <= 40 ? ["mid", "hut"] : ["tent", "hut"];
     if (/トレッキングパック/.test(r.name)) ev2.summary = `${cap}Lのトレッキングパック。軽量でシンプルな構造で、必要な機能を備えたバックパックです。`;
   }
+  if (/^US /.test(r.name)) { // 海外販売モデル：日本サイズと異なると公式ページに記載
+    ev2.cons = [...ev2.cons.filter((c) => !/^不明/.test(c)), "海外販売モデルのため、日本サイズと異なる（公式にサイズ表の確認を促す記載あり）"];
+  }
   const g = /Women's/.test(r.name) ? "womens" : /Men's/.test(r.name) ? "mens" : "unisex";
   products.push({
     id: `montbell-${r.id}`, brand: "モンベル", name: r.name, category: r.category, gender: g,

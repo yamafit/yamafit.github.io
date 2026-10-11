@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T22:46:12.677Z",
+  "updated": "2026-10-11T02:34:57.855Z",
   "season": "autumn",
   "categories": {
     "boots": [
@@ -38,11 +38,6 @@
     ],
     "pack": [
       {
-        "id": "columbia-castle-rock-20l-2",
-        "source": "rule",
-        "reason": "秋の山行に合うため。20Lと通気背面で、軽めのハイクを快適にするバックパックです。"
-      },
-      {
         "id": "montbell-1133530",
         "source": "rule",
         "reason": "秋の山行に合うため。80Lのトレッキングパック。軽量でシンプルな構造で、必要な機能を備えたバックパックです。"
@@ -51,6 +46,11 @@
         "id": "mhw-scrambler-35",
         "source": "rule",
         "reason": "秋の山行に合うため。丈夫で水にも強い、ブランドを代表するバックパックです。"
+      },
+      {
+        "id": "salomon-aerotrek-50",
+        "source": "rule",
+        "reason": "秋の山行に合うため。最大7日間のハイキングに必要なものが収まる、50Lのバックパックです。"
       }
     ],
     "wear": [
