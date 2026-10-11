@@ -37,6 +37,14 @@ document.addEventListener("DOMContentLoaded", async () => {
   const arrow = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
   const officialLink = (b) => b.site ? `<a class="menu-official" href="${esc(b.site)}" target="_blank" rel="noopener"><span>${esc(b.name)}の公式サイトへ</span>${arrow}</a>` : "";
   const back = (to, label, bi) => `<button class="menu-back" type="button" data-go="${to}"${bi === undefined ? "" : ` data-b="${bi}"`}>‹ ${esc(label)}</button>`;
+  // 楽天市場でそのブランドを探すリンク（アフィリエイト。商品データがないカテゴリでも使える）
+  const RAKUTEN_TERMS = [["登山靴", "靴"], ["ザック", "ザック"], ["レインウェア", "レインウェア"], ["ジャケット", "ウェア"], ["パンツ", "パンツ"]];
+  const rakutenSearch = (b) => typeof SITE !== "undefined" && SITE.rakutenLink
+    ? `<h2>楽天市場で探す <span class="pr-badge">PR</span></h2>` + RAKUTEN_TERMS.map(([w, label]) => {
+        const dest = `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(b.name + " " + w)}/`;
+        return `<a class="menu-row" href="${esc(SITE.rakutenLink(dest))}" target="_blank" rel="sponsored noopener" data-shop="rakuten" data-item="menu-${esc(b.name)}-${w}"><span>${esc(b.name)}の${label}</span>${arrow}</a>`;
+      }).join("")
+    : "";
   const show = (view, bi, cat) => {
     const b = brands[bi];
     if (view === "list") {
@@ -46,6 +54,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const cats = CAT_ORDER.filter((c) => mine.some((p) => p.category === c));
       box.innerHTML = back("list", "ブランド一覧") + `<h2>${esc(b.name)}</h2>` +
         (cats.length ? cats.map((c) => `<button class="menu-row" type="button" data-go="items" data-b="${bi}" data-c="${c}"><span>${CAT_LABEL[c]}</span><small>${mine.filter((p) => p.category === c).length}件</small>${arrow}</button>`).join("") : '<p class="menu-note">このブランドの商品は、まだ掲載していません。</p>') +
+        rakutenSearch(b) +
         `<a class="menu-row" href="${SITE_BASE}news.html?q=${encodeURIComponent(b.name)}"><span>${esc(b.name)}の最新ニュース</span>${arrow}</a>` + officialLink(b);
     } else {
       const mine = products.filter((p) => p.brand === b.name && p.category === cat);
