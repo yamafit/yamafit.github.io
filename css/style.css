@@ -378,3 +378,10 @@ img.photo { object-fit: cover; }
 .thanks--err{background:#fdecea;color:#8a1c12;border-color:#f3b8b2}
 .grp-title{font-size:16px;margin:20px 0 8px;padding-left:8px;border-left:4px solid var(--green)}
 .cat--off,.btn--off,.menu-off{opacity:.55;cursor:not-allowed;pointer-events:none}.btn--off{background:var(--surface);color:var(--ink);border:1.5px solid var(--ink)}.menu-off{display:block;padding:10px 0}
+
+.menu-body button.menu-row,.menu-body a.menu-row{width:100%;min-height:48px;display:flex;align-items:center;gap:8px;background:none;border:0;border-bottom:1px solid var(--line);color:var(--ink);font:inherit;font-size:15px;font-weight:500;text-align:left;cursor:pointer;text-decoration:none;padding:0}
+.menu-body .menu-row span{flex:1}.menu-body .menu-row small{font-family:var(--mono);font-size:11px;color:var(--ink-sub)}
+.menu-back{background:none;border:0;color:var(--green);font:inherit;font-size:14px;font-weight:700;padding:14px 0 0;text-align:left;cursor:pointer}
+.menu-note{font-size:14px;color:var(--ink-sub);margin:12px 0}
+.menu-body a.menu-item{display:block;padding:12px 0;min-height:0}.menu-item b{display:block;font-size:14px;line-height:1.5}.menu-item span{display:block;font-size:12px;color:var(--ink-sub);margin-top:2px}.menu-item small{display:block;font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:2px}
+.menu-body a.menu-official{margin-top:16px;border:1.5px solid var(--green);border-radius:10px;padding:0 14px;color:var(--green);font-weight:700}
