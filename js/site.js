@@ -3,7 +3,7 @@ const SITE_BASE = (document.currentScript && document.currentScript.src ? docume
 const SITE = {
   url: "https://yamafit.github.io/", // サイトのURL（空のままなら「準備中」と表示）
   contactEmail: "", // 例: "info@example.com"（空のままなら表示しない）
-  ga4Id: "",        // GA4の測定ID（例: "G-XXXXXXXXXX"）。空の間はアクセス解析を読み込まない
+  ga4Id: "G-F5GWW820XG",        // GA4の測定ID（例: "G-XXXXXXXXXX"）。空の間はアクセス解析を読み込まない
   formUrl: "",      // お問い合わせの送信先（Formspreeなど、POSTを受けるURL）
   // 楽天（A8.net経由）のアフィリエイトリンクを作る。移動先URLを渡すと、計測つきのURLを返す
   rakutenLink: (dest) => {
