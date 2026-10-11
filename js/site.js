@@ -5,6 +5,12 @@ const SITE = {
   contactEmail: "", // 例: "info@example.com"（空のままなら表示しない）
   ga4Id: "",        // GA4の測定ID（例: "G-XXXXXXXXXX"）。空の間はアクセス解析を読み込まない
   formUrl: "",      // お問い合わせの送信先（Formspreeなど、POSTを受けるURL）
+  // 楽天（A8.net経由）のアフィリエイトリンクを作る。移動先URLを渡すと、計測つきのURLを返す
+  rakutenLink: (dest) => {
+    const pc = encodeURIComponent(dest);
+    const hb = "http://hb.afl.rakuten.co.jp/hgc/0ea62065.34400275.0ea62066.204f04c0/a26101169271_4BEE10_169SQA_2HOM_BW8O1?pc=" + pc + "&m=" + pc;
+    return "https://rpx.a8.net/svt/ejp?a8mat=4BEE10+169SQA+2HOM+BW8O1&rakuten=y&a8ejpredirect=" + encodeURIComponent(hb);
+  },
   contactFormEmbed: "https://docs.google.com/forms/d/e/1FAIpQLSfvFy4hSFQVu8UjpPLeIzHWq9-jfRqji3tfP2HuQbCtkdDalw/viewform?embedded=true", // Googleフォームの「埋め込み」URL（https://docs.google.com/forms/d/e/…/viewform?embedded=true）。どちらか一方でOK
 };
 

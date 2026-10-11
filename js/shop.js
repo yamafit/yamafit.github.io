@@ -20,6 +20,12 @@ function rankOffers(p) {
   const state = (o) => (o.in_stock === true ? 0 : o.in_stock === null || o.in_stock === undefined ? 1 : 2);
   const offers = (p.offers && p.offers.length ? p.offers : SHOPS.map(([k]) => ({ shop: k, url: "", affiliate_url: (p.affiliate || {})[k] || "", in_stock: null })))
     .filter((o) => o.url || o.affiliate_url);
+  // 楽天：全商品に「楽天市場で検索」のアフィリエイトリンクを付ける（SITE.rakutenLink が入っているときだけ）
+  if (SITE.rakutenLink && !offers.some((o) => o.shop === "rakuten" && o.affiliate_url)) {
+    const q = encodeURIComponent(`${p.brand} ${p.name}`.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス)\s*/g, " ").trim());
+    const dest = `https://search.rakuten.co.jp/search/mall/${q}/`;
+    offers.push({ shop: "rakuten", url: dest, affiliate_url: SITE.rakutenLink(dest), in_stock: null });
+  }
   return offers.sort((a, b) => state(a) - state(b) || (SHOP_ORDER[a.shop] ?? 9) - (SHOP_ORDER[b.shop] ?? 9));
 }
 
