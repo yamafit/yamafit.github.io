@@ -223,7 +223,10 @@ export function hashtags(a, p) {
 }
 
 export function buildCaption(a, p) {
-  const merits = ((a.sections || []).find((s) => /メリット|特徴/.test(s.h) && s.ul) || {}).ul || [];
+  // ポイント：「メリット・特徴」のリスト（デメリットは除く）。無ければ、特徴を書いた見出しを使う
+  const SKIP_H = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ/;
+  const merits = ((a.sections || []).find((s) => /メリット|特徴/.test(s.h) && !/デメリット/.test(s.h) && s.ul) || {}).ul
+    || (a.sections || []).filter((s) => !SKIP_H.test(s.h)).map((s) => s.h);
   const articleUrl = `${SITE_URL}articles/${a.slug}.html`;
   return [
     "#PR",
