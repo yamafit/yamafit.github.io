@@ -1556,6 +1556,150 @@
      "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
     }
    }
+  },
+  {
+   "id": "nanga-aurora-tex-stand-collar-down-vest",
+   "brand": "ナンガ",
+   "name": "オーロラテックス スタンドカラーダウンベスト",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 37400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。街からアウトドアまで活躍する、高い保温性を備えた万能ダウンウェア",
+   "waterproof": "耐水圧20,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "・DX（760FPのスペイン産ホワイトダックダウン）を92g封入",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/aurora-tex-stand-collar-down-vest",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/ND2441-1N010_M.GRY_2.jpg?v=1783572754",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/aurora-tex-stand-collar-down-vest",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/aurora-tex-stand-collar-down-vest",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。重ね着しやすく、3シーズン活躍する万能ダウンベスト 防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。",
+    "pros": [
+     "防水・撥水：耐水圧20,000mm（公式記載）",
+     "保温：・DX（760FPのスペイン産ホワイトダックダウン）を92g封入"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "nanga-liteforce-down-vt",
+   "brand": "ナンガ",
+   "name": "ライトフォース ダウンベスト",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 63800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "表地には23DのCORDURARナイロンを採用。軽量でしなやかでありながら摩擦に強く、デイリーからキャンプやハイキングまでタフに活躍します。さらに、肩部分にはNANGA独自のAURORA TEX?を配置し、防水透湿性を確保。突然の雨や雪でも快適さをキープします。",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、760FP）を120g封入。軽量ながらしっかり暖かさを確保し、アウターとしてはもちろん、ジャケットのインナーにも最適です。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/liteforce-down-vt",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/0001_CORDURADOWNVEST_BLK.jpg?v=1758792584",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/liteforce-down-vt",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/liteforce-down-vt",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ダウンベストをアクティブな仕様に 〈アイテムの特徴〉 CORDURAR × AURORA TEX? ― 軽量・耐久・防水を兼ね備えた新シリーズ DX：スペイン産",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "保温：ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、76"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
   }
  ]
 }

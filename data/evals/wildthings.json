@@ -531,5 +531,180 @@
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
   }
+ },
+ {
+  "key": "/products/fsp03261u0002",
+  "id": "fsp03261u0002",
+  "name": "F/CE. × WILD THINGS デナリ サイドジップ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "高密度ナイロン素材に製品染めを施し、一点一点異なる奥行きのある表情を演出。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。F/CE. × WILD THINGS コラボレーション第二弾 ミリタリー由来の機能性と都市的な洗練を融合させた、バギーシルエットのテクニカルパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/wt26806sk",
+  "id": "wt26806sk",
+  "name": "アルピニストハードシェルパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "eVent",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。本国タクティカルラインに存在するアルピニストパンツをベースに、最高峰の透湿防水3レイヤー生地eVent®を採用して復刻したハードシェルパンツ。",
+   "pros": [
+    "防水・撥水：eVent（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/wt262-05-q3",
+  "id": "wt262-05-q3",
+  "name": "ソフトシェルガイドパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/wt26318sk-ec",
+  "id": "wt26318sk-ec",
+  "name": "ブリーザブル ブースター パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。25SSで新登場し、好評だったBREATHABLE BOOSTER PANTSが公式オンラインストア限定で再登場。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
  }
 ]

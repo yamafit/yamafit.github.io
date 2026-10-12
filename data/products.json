@@ -4178,6 +4178,3785 @@
    }
   },
   {
+   "id": "arcteryx-isogon-mx-hoody-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "アイソゴン MX フーディ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。スポーツウェアのようなスタイルと、変わりやすい天候に対応できる機能性を組み合わせたソフトシェルフーディ。",
+   "price": 84700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。スポーツウェアのようなスタイルと、変わりやすい天候に対応できる機能性を組み合わせたソフトシェルフーディ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/isogon-mx-hoody-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/isogon-mx-hoody-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-aestas-pullover-hoody-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "アエスタス プルオーバー フーディ ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。見た目はスウェットシャツ、本格的なクライミングや山岳ハイキングではテクニカルレイヤーとして大活躍。",
+   "price": 37400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "見た目はスウェットシャツ、本格的なクライミングや山岳ハイキングではテクニカルレイヤーとして大活躍。柔らかな肌触りながら、毛羽立ちや抜け落ちに強い耐久性のあるポーラテックフリース素材を使用しています。さらに、驚くほどの熱効率のよさで軽暖性能に優れ、レイヤリングが必要になったときのために荷物に入れておけ",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。見た目はスウェットシャツ、本格的なクライミングや山岳ハイキングではテクニカルレイヤーとして大活躍。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/aestas-pullover-hoody-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/aestas-pullover-hoody-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-anodic-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "アノディック バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。毎日の街歩きにぴったりの耐水バックパック。",
+   "price": 110000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。毎日の街歩きにぴったりの耐水バックパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/anodic-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/anodic-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-align-mx-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "アライン MX パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。こだわり抜いたスタイリッシュなデザインと、耐候性を備えた高機能素材を組み合わせた、普段使いに最適なスリムパンツ。",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。こだわり抜いたスタイリッシュなデザインと、耐候性を備えた高機能素材を組み合わせた、普段使いに最適なスリムパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/align-mx-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/align-mx-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-arris-jacket-m",
+   "category": "rain",
+   "brand": "アークテリクス",
+   "name": "アリス ジャケット メンズ",
+   "gender": "mens",
+   "spec": "ゴアテックス",
+   "price": 132000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "完全防水素材に加え、摩擦音がなく通気性に優れ、涼しく快適な裏地を使用して、街に映えるようにデザイン。コードルーティングを採用した薄手のStormHood™で、移動中もドライな状態を保ちます。",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）"
+   ],
+   "cons": [
+    "価格が13万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。完全防水素材に加え、摩擦音がなく通気性に優れ、涼しく快適な裏地を使用して、街に映えるようにデザイン。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/arris-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/arris-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-alpha-fl-20-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "アルファ FL 20 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。最も小さなパック、アルファ FL。最小限のボリュームで最大限の仕事をする相棒です。",
+   "price": 42900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。最も小さなパック、アルファ FL。最小限のボリュームで最大限の仕事をする相棒です。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-fl-20-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-fl-20-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-alpha-fl-30-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "アルファ FL 30 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。軽快 & 軽量でアルパイン仕様の耐久性。クライミングに特化したアルファ FL 30 バックパック。",
+   "price": 47300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。軽快 & 軽量でアルパイン仕様の耐久性。クライミングに特化したアルファ FL 30 バックパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-fl-30-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-fl-30-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-arro-22-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "アロー 22 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
+   "price": 37400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/arro-22-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/arro-22-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-ionia-merino-wool-arcword-logo-ss-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "イオニア メリノウール アークワード ロゴ ショートスリーブ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。Tシャツをワンランク上のウェアに。体温調節機能と耐臭性能を持つことで知られるメリノウールを、責任ある方法で調達。",
+   "price": 15400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。Tシャツをワンランク上のウェアに。体温調節機能と耐臭性能を持つことで知られるメリノウールを、責任ある方法で調達。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/ionia-merino-wool-arcword-logo-ss-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/ionia-merino-wool-arcword-logo-ss-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-ion-sl-chalkbag",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "イオン SL チョークバッグ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）",
+   "price": 8470,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。流れを妨げることなくチョークアップしましょう。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/ion-sl-chalkbag",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/ion-sl-chalkbag",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-ifora-jacket-w",
+   "category": "rain",
+   "brand": "アークテリクス",
+   "name": "イフォラ ジャケット ウィメンズ",
+   "gender": "womens",
+   "spec": "ゴアテックス",
+   "price": 132000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "立体感のあるオーバーサイズのシルエットと最新の機能を備えた素材を組み合わせ、都会のあらゆる環境やコンディションに最適。通気性と防風・撥水性を両立した素材が必要十分な耐候性を発揮します。",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）"
+   ],
+   "cons": [
+    "価格が13万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。立体感のあるオーバーサイズのシルエットと最新の機能を備えた素材を組み合わせ、都会のあらゆる環境やコンディションに最適。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/ifora-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/ifora-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-incendo-airshell-hoody-m",
+   "category": "rain",
+   "brand": "アークテリクス",
+   "name": "インセンド エアシェル フーディ メンズ",
+   "gender": "mens",
+   "spec": "撥水加工（公式記載）",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。清涼感のある快適な着心地と、動きやすさ、肌ざわりの柔らかさを追求したトレイルランナー向けのトップス。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/incendo-airshell-hoody-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/incendo-airshell-hoody-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-incendo-short-9-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "インセンド ショーツ 9 インチ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。想いのままに行動しよう。ランニング、ハイキング、スクランブル、湖に飛び込むのもOK。",
+   "price": 16500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。想いのままに行動しよう。ランニング、ハイキング、スクランブル、湖に飛び込むのもOK。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/incendo-short-9-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/incendo-short-9-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-incendo-hybrid-hoody-w",
+   "category": "rain",
+   "brand": "アークテリクス",
+   "name": "インセンド ハイブリッド フーディ ウィメンズ",
+   "gender": "womens",
+   "spec": "撥水加工（公式記載）",
+   "price": 44000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。温暖な天候下で山岳トレイルをスピーディに移動するときに、頼りになる一着。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/incendo-hybrid-hoody-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/incendo-hybrid-hoody-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-index-40-bouldering-bag",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "インデックス 40 ボルダリング バッグ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。汚れたギアはこちらに。きれいなギアはそちらに。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/index-40-bouldering-bag",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/index-40-bouldering-bag",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-aerios-35-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "エアリオス 35 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。エアリオス 35 バックパックでハイキングの感覚をカスタマイズ。",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。エアリオス 35 バックパックでハイキングの感覚をカスタマイズ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/aerios-35-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/aerios-35-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-euler-insulated-jacket-m",
+   "category": "rain",
+   "brand": "アークテリクス",
+   "name": "オイラー インサレーテッド ジャケット ウィメンズ",
+   "gender": "womens",
+   "spec": "GORE-TEX",
+   "price": 143000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "変わりやすい天候に対応できる、フードを襟にしまえるインサレーテッドハードシェルジャケット。3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性能と寒さや雨雪に対する保護性能を実現。マイクロフリース裏地のハンドポケットは肌触りがよく、袖口と裾のガスケットが風をシャットアウト",
+   "waterproof": "GORE-TEX",
+   "warmth": "3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性能と寒さや雨雪に対する保護性能を実現",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "保温：3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性"
+   ],
+   "cons": [
+    "価格が14万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "レインウェア・シェル。変わりやすい天候に対応できる、フードを襟にしまえるインサレーテッドハードシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/euler-insulated-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/euler-insulated-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-ossa-overshirt-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オッサ オーバーシャツ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。照りつける夏の太陽にも負けない、定番ミッドレイヤー。",
+   "price": 28600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。照りつける夏の太陽にも負けない、定番ミッドレイヤー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/ossa-overshirt-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/ossa-overshirt-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-omineca-short-jacket-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オミネカ ショート ジャケット ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンジャケット。",
+   "price": 84700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンジャケット",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/omineca-short-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/omineca-short-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-omineca-down-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "オミネカ ダウン パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンパンツ。",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンパンツ",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/omineca-down-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/omineca-down-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-olia-shirt-ss-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オリア ショートスリーブ シャツ ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。Arc’teryx最高の機能性を誇るUV対策Tシャツ。",
+   "price": 23100,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。Arc’teryx最高の機能性を誇るUV対策Tシャツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/olia-shirt-ss-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/olia-shirt-ss-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-olia-shirt-ls-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オリア ロングスリーブ シャツ ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。Arc’teryx最高の機能性を誇るUV対策レイヤー。",
+   "price": 25300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。Arc’teryx最高の機能性を誇るUV対策レイヤー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/olia-shirt-ls-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/olia-shirt-ls-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-olera-crew-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オレラ クルー ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "price": 27500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン対応の高性能レイヤーです",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/olera-crew-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/olera-crew-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-olera-zip-neck-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "オレラ ジップネック ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "price": 29700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン対応の高性能ジップネックです",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/olera-zip-neck-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/olera-zip-neck-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-kyanite-lt-hoody-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "カイヤナイト LT フーディ ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。シンプルであることは用途を限定しないということです。",
+   "price": 25300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "春秋シーズンにちょうどよい保温性を備えたフリースです",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：春秋シーズンにちょうどよい保温性を備えたフリースです",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。シンプルであることは用途を限定しないということです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/kyanite-lt-hoody-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/kyanite-lt-hoody-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-gamma-sl-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ガンマ SL パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。ガンマ最軽量のパンツが登場。優れた通気性を備えた二重織りのリサイクル素材を使用し、小雨や風を防いで、予期せぬ天候や急な斜面、過酷な距離を快適に突破できるソフトシ",
+   "price": 27500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "ガンマ最軽量のパンツが登場。優れた通気性を備えた二重織りのリサイクル素材を使用し、小雨や風を防いで、予期せぬ天候や急な斜面、過酷な距離を快適に突破できるソフトシェルのハイキングパンツです。よりスリムなフィットと立体構造パターンですっきりした見た目と自然な動きを叶えるスペースを実現し、トレイルでも普段",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。ガンマ最軽量のパンツが登場。優れた通気性を備えた二重織りのリサイクル素材を使用し、小雨や風を防いで、予期せぬ天候や急な斜面、過酷な距離を快適に突破できるソフトシ",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/gamma-sl-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/gamma-sl-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-gamma-quick-dry-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ガンマ クイックドライ パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。長期のバックパッカー旅行や難易度の高い日帰りのハイキングには、厳しい自然環境が付きもの。",
+   "price": 29700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。長期のバックパッカー旅行や難易度の高い日帰りのハイキングには、厳しい自然環境が付きもの。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/gamma-quick-dry-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/gamma-quick-dry-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-gamma-jogger-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ガンマ ジョガー メンズ",
+   "gender": "mens",
+   "spec": "パンツ。アークテリクスを象徴する、軽量で耐久性の高いFortius™ DW 2.",
+   "price": 34100,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。アークテリクスを象徴する、軽量で耐久性の高いFortius™ DW 2.",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/gamma-jogger-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/gamma-jogger-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-gamma-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ガンマ パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。ガンマパンツ。アークテリクスで最高峰の汎用性を誇るこのソフトシェル パンツは、進化を続けることで、耐久性、防風性、耐候性、伸縮性、すべての山岳アクティビティに対",
+   "price": 33000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。ガンマパンツ。アークテリクスで最高峰の汎用性を誇るこのソフトシェル パンツは、進化を続けることで、耐久性、防風性、耐候性、伸縮性、すべての山岳アクティビティに対",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/gamma-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/gamma-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-gamma-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ガンマ パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。クライミングに焦点を当てながら、他のアクティビティにも適したパンツ。",
+   "price": 33000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "クライミングに焦点を当てながら、他のアクティビティにも適したパンツ。ガンマ コレクションの着やすさに、アークテリクスで最も高性能なクライミングウェアの耐久性と機能を組み合わせています。暖かく耐候性のあるソフトシェル素材が小雨や風に対応し、ラミネート加工のヘムと袖口のドローコードですきま風や小石をシャ",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。クライミングに焦点を当てながら、他のアクティビティにも適したパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/gamma-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/gamma-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-quintic-16-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "クインティック 16 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。安全装備や大切なギアをしっかり収納でき、ハードな地形でも抜群の動きやすさをかなえる16Lのバックパック。",
+   "price": 39600,
+   "capacity_l": 16,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "容量 16L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [
+    "low"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。安全装備や大切なギアをしっかり収納でき、ハードな地形でも抜群の動きやすさをかなえる16Lのバックパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/quintic-16-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/quintic-16-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-quintic-28-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "クインティック 28 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。フリーライド専用のQuintic 28は、十分な収納力を損なうことなく、短めの背面長で設計されたバックパックです。",
+   "price": 42900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。フリーライド専用のQuintic 28は、十分な収納力を損なうことなく、短めの背面長で設計されたバックパックです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/quintic-28-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/quintic-28-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-clarkia-ar-insulated-hoody-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "クラーキア AR インサレーテッド フーディ ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。涼しい季節もクライミングを満喫できる秋の定番ジャケット。",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。涼しい季節もクライミングを満喫できる秋の定番ジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/clarkia-ar-insulated-hoody-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/clarkia-ar-insulated-hoody-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-clarkia-ar-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "クラーキア AR パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。ボルダリングからビレイまでスムーズに対応できる、肌寒い季節に活躍するパンツ。",
+   "price": 36300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。ボルダリングからビレイまでスムーズに対応できる、肌寒い季節に活躍するパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/clarkia-ar-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/clarkia-ar-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-cronin-ar-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "クロニン AR パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。肌寒い朝のゴツゴツした岩場で活躍する、ワークウェア並みの丈夫さとクライミング向けの立体デザインが特徴のパンツ。",
+   "price": 36300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。肌寒い朝のゴツゴツした岩場で活躍する、ワークウェア並みの丈夫さとクライミング向けの立体デザインが特徴のパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/cronin-ar-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/cronin-ar-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-cronin-ar-hoody-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "クロニン AR フーディ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ。",
+   "price": 49500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/cronin-ar-hoody-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/cronin-ar-hoody-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-cronin-insulated-overshirt-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "クロニン インサレーテッド オーバーシャツ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。耐候性に優れたヘビーウェイトナイロン平織素材と、薄手のCoreloft™インサレーションを組み合わせたジップフロントのオーバーシャツ。",
+   "price": 47300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "保温性、耐久性、抜群の動きやすさが特徴です",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：保温性、耐久性、抜群の動きやすさが特徴です",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。耐候性に優れたヘビーウェイトナイロン平織素材と、薄手のCoreloft™インサレーションを組み合わせたジップフロントのオーバーシャツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/cronin-insulated-overshirt-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/cronin-insulated-overshirt-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-granville-16-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "グランヴィル 16 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。無駄のない美しいデザインに、優れた耐候性と耐久性を付加して実用性を追求したグランヴィル 16。",
+   "price": 34100,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。無駄のない美しいデザインに、優れた耐候性と耐久性を付加して実用性を追求したグランヴィル 16。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/granville-16-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/granville-16-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-granville-25-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "グランヴィル 25 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。どんな状況に遭遇しても安心な、優れた汎用性のグランヴィル 25。",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。どんな状況に遭遇しても安心な、優れた汎用性のグランヴィル 25。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/granville-25-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/granville-25-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-granville-crossbody-bag",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "グランヴィル クロスボディ バッグ",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。動きの中でこそ光るシンプルなデザインが魅力の、使い勝手の良いパック。",
+   "price": 17600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。動きの中でこそ光るシンプルなデザインが魅力の、使い勝手の良いパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/granville-crossbody-bag",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/granville-crossbody-bag",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-conic-wool-half-zip-m",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "コニック ウール ハーフ ジップ メンズ",
+   "gender": "mens",
+   "spec": "ウェア。保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー。",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/conic-wool-half-zip-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/conic-wool-half-zip-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-conic-wool-halter-w",
+   "category": "wear",
+   "brand": "アークテリクス",
+   "name": "コニック ウール ホールター ウィメンズ",
+   "gender": "womens",
+   "spec": "ウェア。保温性に優れた3Dニットデザインの軽量ウールホルター。",
+   "price": 42900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": "保温性に優れた3Dニットデザインの軽量ウールホルター",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：保温性に優れた3Dニットデザインの軽量ウールホルター"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。保温性に優れた3Dニットデザインの軽量ウールホルター。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/conic-wool-halter-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/conic-wool-halter-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-corbel-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "コーベル パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。リラックスフィット、すっきりとしたデザイン、高機能のソフトシェル素材。",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。リラックスフィット、すっきりとしたデザイン、高機能のソフトシェル素材。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/corbel-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/corbel-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-saic-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "サイック パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "price": 49500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/saic-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/saic-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-spere-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "スピア パンツ メンズ",
+   "gender": "mens",
+   "spec": "撥水加工（公式記載）",
+   "price": 68200,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのFC0 DWR（耐久撥水）加工でアップデートしました。",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのFC0 DWR（耐久撥水）加工でアップデートしました。",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのF",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。最新の進化を遂げたスピア パンツ。暖かく、通気性と耐候性を備えた、275gsmのストレッチ ソフトシェルがスピアの汎用性をさらに高め、洗練されたルックを実現しました。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/spere-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/spere-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-serratus-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "セラタス パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。2種類の生地を使用し、耐久性と動きやすさを損なうことなく軽量化を実現した、アークテリクスで最もテクニカルなソフトシェル パンツ。",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。2種類の生地を使用し、耐久性と動きやすさを損なうことなく軽量化を実現した、アークテリクスで最もテクニカルなソフトシェル パンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/serratus-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/serratus-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-diode-mx-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ダイオード MX パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。現代のアーバンライフのニーズにマッチする、ウィンターウェイトのソフトシェル パンツ。",
+   "price": 68200,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。現代のアーバンライフのニーズにマッチする、ウィンターウェイトのソフトシェル パンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/diode-mx-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/diode-mx-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-disomy-wool-pant-m",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ダイソミー ウール パンツ メンズ",
+   "gender": "mens",
+   "spec": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "price": 84700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/disomy-wool-pant-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/disomy-wool-pant-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-tecta-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "テクタ パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "price": 49500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/tecta-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/tecta-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-heliad-15-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "ヒリアド 15 バックパック",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）",
+   "price": 14300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。クライマー用のサミットパックに着想を得たシンプルなデザインが特徴のヒリアド。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/heliad-15-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/heliad-15-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-heliad-crossbody",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "ヒリアド クロスボディ バッグ",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。旅は軽装で。必要なものだけを詰め込んで。軽量でパッカブル、機能的で無駄を省いたデザインが特徴のヒリアド。",
+   "price": 8470,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。旅は軽装で。必要なものだけを詰め込んで。軽量でパッカブル、機能的で無駄を省いたデザインが特徴のヒリアド。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/heliad-crossbody",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/heliad-crossbody",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-micon-37-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "マイコン 37 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。何シーズンにもわたって愛用できる、バックカントリーツーリングに最適な37Lのバックパック。",
+   "price": 47300,
+   "capacity_l": 37,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "容量 37L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。何シーズンにもわたって愛用できる、バックカントリーツーリングに最適な37Lのバックパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/micon-37-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/micon-37-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-mantis-16-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "マンティス 16 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。スピーディに移動するときに頼りになるのがマンティス 16。",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。スピーディに移動するときに頼りになるのがマンティス 16。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/mantis-16-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/mantis-16-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-mantis-26-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "マンティス 26 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。その卓越した汎用性で地平を押し広げるマンティス。",
+   "price": 27500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。その卓越した汎用性で地平を押し広げるマンティス。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/mantis-26-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/mantis-26-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-leutia-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "ルーシア パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。スクランブリングから木が生い茂るルートまで、どこまででも安心して進める、トレイルクライミングに最適な高耐久ソフトシェルパンツ。",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。スクランブリングから木が生い茂るルートまで、どこまででも安心して進める、トレイルクライミングに最適な高耐久ソフトシェルパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/leutia-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/leutia-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-reane-wool-pant-w",
+   "category": "pants",
+   "brand": "アークテリクス",
+   "name": "レアネ ウール パンツ ウィメンズ",
+   "gender": "womens",
+   "spec": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "price": 84700,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/reane-wool-pant-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/reane-wool-pant-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-verro-20-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "ヴェロ 20 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。Arc’teryxを代表するヴェロ50バックパックならではの構造と機能性を、20リットルのデザインにすっきりと凝縮。",
+   "price": 33000,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。Arc’teryxを代表するヴェロ50バックパックならではの構造と機能性を、20リットルのデザインにすっきりと凝縮。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/verro-20-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/verro-20-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "arcteryx-verro-50-backpack",
+   "category": "pack",
+   "brand": "アークテリクス",
+   "name": "ヴェロ 50 バックパック",
+   "gender": "unisex",
+   "spec": "ザック・バッグ。あらゆる目標、コンディション、シーズンに対応できる、究極のロッククライミング用クラッグパック。",
+   "price": 49500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ザック・バッグ。あらゆる目標、コンディション、シーズンに対応できる、究極のロッククライミング用クラッグパック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/verro-50-backpack",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/verro-50-backpack",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "coleman-2253788",
    "category": "tent",
    "brand": "コールマン",
@@ -9420,6 +13199,676 @@
     {
      "shop": "official",
      "url": "https://aandfstore.com/products/19822449",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19811307",
+   "category": "pants",
+   "brand": "KAVU",
+   "name": "チリワックパンツ",
+   "gender": "unisex",
+   "spec": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+   "price": 30800,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811307",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811307",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19811307117",
+   "category": "pants",
+   "brand": "KAVU",
+   "name": "チリワックパンツ バーチウッド",
+   "gender": "unisex",
+   "spec": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+   "price": 12100,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811307117",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811307117",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19821107",
+   "category": "pants",
+   "brand": "KAVU",
+   "name": "メンズ コーデュロイニューチリワックパンツ",
+   "gender": "mens",
+   "spec": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ コーディロイニューチリワック はコーデュロイ生地を使用した丈夫なフルレングスパンツです。",
+   "price": 14300,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ コーディロイニューチリワック はコーデュロイ生地を使用した丈夫なフルレングスパンツです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821107",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821107",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19822306",
+   "category": "pants",
+   "brand": "KAVU",
+   "name": "メンズ デニムチリワックパンツ",
+   "gender": "mens",
+   "spec": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ デニムチリワックパンツはデニム素材のメンズパンツです。",
+   "price": 20900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ デニムチリワックパンツはデニム素材のメンズパンツです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19822306",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19822306",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19822405",
+   "category": "pants",
+   "brand": "KAVU",
+   "name": "メンズ ナイロン チリワックパンツ",
+   "gender": "mens",
+   "spec": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ ナイロン チリワックパンツ は耐久性に優れたリップストップナイロンを使用したフルレングスパンツです。",
+   "price": 15400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ ナイロン チリワックパンツ は耐久性に優れたリップストップナイロンを使用したフルレングスパンツです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19822405",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19822405",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19811305069",
+   "category": "wear",
+   "brand": "KAVU",
+   "name": "メンズ ハーフジップ スローシャツ ノースウエストアグリー",
+   "gender": "mens",
+   "spec": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ハーフジップ スローシャツは厚手のオーガニックコットン生地を使用したハーフジップタイプのジャケットです。",
+   "price": 12100,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ハーフジップ スローシャツは厚手のオーガニックコットン生地を使用したハーフジップタイプのジャケットです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811305069",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811305069",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19821106",
+   "category": "wear",
+   "brand": "KAVU",
+   "name": "メンズ ボアジャケット",
+   "gender": "mens",
+   "spec": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット はボアフリースを使用したジャケットです。",
+   "price": 24200,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": "裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用して独自のデザインを持つフリースに仕上がっています",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用し"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット はボアフリースを使用したジャケットです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821106",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821106",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19821336",
+   "category": "wear",
+   "brand": "KAVU",
+   "name": "メンズ ボアジャケット A&F直営店限定カラー",
+   "gender": "mens",
+   "spec": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット 【A&F直営店別注モデル】はA&F直営店のみのカラーのボアフリースを使用したジャケットです。",
+   "price": 20900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": "裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用して独自のデザインを持つフリースに仕上がっています",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用し"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット 【A&F直営店別注モデル】はA&F直営店のみのカラーのボアフリースを使用したジャケットです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821336",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821336",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19823001",
+   "category": "wear",
+   "brand": "KAVU",
+   "name": "メンズ ポーラテックジャケット",
+   "gender": "mens",
+   "spec": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズポーラテックジャケットはフリース素材のスタジャンです。",
+   "price": 26400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": "採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れた高機能",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズポーラテックジャケットはフリース素材のスタジャンです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19823001",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19823001",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "kavu-19823002",
+   "category": "wear",
+   "brand": "KAVU",
+   "name": "メンズ ポーラテックベスト",
+   "gender": "mens",
+   "spec": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ポーラテックベストはフリース素材のベストです。",
+   "price": 17600,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "warmth": "採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れた高機能",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ポーラテックベストはフリース素材のベストです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19823002",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19823002",
      "affiliate_url": "",
      "in_stock": true,
      "checked_at": "2026-10-12"
@@ -17604,6 +22053,3850 @@
    }
   },
   {
+   "id": "millet-miv10729",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "3/4 カメット パワーパンツ",
+   "gender": "unisex",
+   "spec": "220g（公式記載）",
+   "price": 11550,
+   "capacity_l": null,
+   "weight_g": 220,
+   "weight_note": "公式記載",
+   "material": "・ポーラテック パワーストレッチ™ プロフリース素材",
+   "waterproof": null,
+   "warmth": "スキーでの保温性と動きやすさを重視した、3/4丈のサーマルタイツ",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量 220g（公式記載）",
+    "保温：スキーでの保温性と動きやすさを重視した、3/4丈のサーマルタイツ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。スキーでの保温性と動きやすさを重視した、3/4丈のサーマルタイツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10729",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10729",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv11076",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "3/4 カメット パワーパンツ リサイクル",
+   "gender": "unisex",
+   "spec": "220g（公式記載）",
+   "price": 17600,
+   "capacity_l": null,
+   "weight_g": 220,
+   "weight_note": "公式記載",
+   "material": "ポーラテック パワーストレッチ™ プロ リサイクルポリエステル57% ナイロン33% ポリウレタン10%",
+   "waterproof": null,
+   "warmth": "ウィンターアクティビティの保温性と動きやすさを重視した、3/4丈のサーマルタイツ",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量 220g（公式記載）",
+    "保温：ウィンターアクティビティの保温性と動きやすさを重視した、3/4丈のサーマルタイツ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。ウィンターアクティビティの保温性と動きやすさを重視した、3/4丈のサーマルタイツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11076",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11076",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10529",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "CDG シャモニースウェット クルーネック",
+   "gender": "unisex",
+   "spec": "418g（公式記載）",
+   "price": 16500,
+   "capacity_l": null,
+   "weight_g": 418,
+   "weight_note": "公式記載",
+   "material": "・オーガニックコットンとポリエステルの混紡素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 418g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。Compagnie des Guides de Chamonix（シャモニー山岳ガイド協会）とのパートナーシップにより開発された、環境に配慮したオーガニックコッ",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10529",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10529",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10530",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "CDG シャモニースウェット フーディ",
+   "gender": "unisex",
+   "spec": "480g（公式記載）",
+   "price": 11220,
+   "capacity_l": null,
+   "weight_g": 480,
+   "weight_note": "公式記載",
+   "material": "・オーガニックコットンとポリエステルの混紡素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 480g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ウェア。Compagnie des Guides de Chamonix（シャモニー山岳ガイド協会）とのパートナーシップにより開発された、環境に配慮したオーガニックコッ",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10530",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10530",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv03302",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "E.V.D. ストレッチパンツ",
+   "gender": "unisex",
+   "spec": "390g（公式記載）",
+   "price": 14300,
+   "capacity_l": null,
+   "weight_g": 390,
+   "weight_note": "公式記載",
+   "material": "・コットンライクなポリエステル100%素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 390g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。ナチュラルな素材感と日常にも溶け込みやすいルックスながら伸縮性に優れたチノパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03302",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03302",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv01961",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "UVタイツ",
+   "gender": "unisex",
+   "spec": "106g（公式記載）",
+   "price": 5830,
+   "capacity_l": null,
+   "weight_g": 106,
+   "weight_note": "公式記載",
+   "material": "軽量かつUPF50+の高い紫外線カット効果。多目的に使えるプレーンなストレッチ素材を採用。キックバックに優れ、多方向の動きにフィット。快適な履き心地のフラットシーム。",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 106g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。軽量かつUPF50+の高い紫外線カット効果。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv01961",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv01961",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9896",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "アトナ ピーク ジャケット",
+   "gender": "unisex",
+   "spec": "耐水圧10,000mm／1001g（公式記載）",
+   "price": 40040,
+   "capacity_l": null,
+   "weight_g": 1001,
+   "weight_note": "公式記載",
+   "material": "・２WAYストレッチの2レイヤー防水透湿素材ドライエッジ™を採用",
+   "waterproof": "耐水圧10,000mm",
+   "warmth": "・適度な保温性を提供するポリエステル中綿",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：耐水圧10,000mm（公式記載）",
+    "重量 1,001g（公式記載）",
+    "保温：・適度な保温性を提供するポリエステル中綿",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。2WAYストレッチの防水透湿素材「ドライエッジ™」を採用し、フルシームシーリングによって万全のプロテクションと動きやすさを備えたスキージャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9896",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9896",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv02194",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "アルバート ジョガー パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／242g（公式記載）",
+   "price": 14300,
+   "capacity_l": null,
+   "weight_g": 242,
+   "weight_note": "公式記載",
+   "material": "・薄手素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 242g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。ストレスフリーの穿き心地と快適な速乾性を備えたジョガーパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02194",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02194",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv01913",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "アルファ ライト スウェット II クルー",
+   "gender": "unisex",
+   "spec": "246g（公式記載）",
+   "price": 12705,
+   "capacity_l": null,
+   "weight_g": 246,
+   "weight_note": "公式記載",
+   "material": "ヘザーニット ポリエステル100% × ポーラテック®アルファ40 ポリエステル 100% (リサイクル72%)",
+   "waterproof": null,
+   "warmth": "寒さを感じさせない適度な保温性と優れた通気性による非常に優れた汗処理性能を備えた中綿、ポーラテック® アルファ®を、速乾性に優れたドライナミックヘザーメッシュニット素材ではさんだ生地は、寒空の下で止まっていても動いても常に快適でいられます",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量 246g（公式記載）",
+    "保温：寒さを感じさせない適度な保温性と優れた通気性による非常に優れた汗処理性能を備えた",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "light": "重量 246g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。フィールドから日常まで、アクティブなシーンで常に快適さを提供する、まったく新しいスウェットシャツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv01913",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv01913",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv02117",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "アルヴ パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）",
+   "price": 11550,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "穏やかな気候でのアウトドアを楽しむためにデザインされたハイキングパンツ。軽量で耐久性と伸縮性に優れたナイロン混紡生地を採用し、巧みな立体裁断によって足上げ時にストレスのない自然な穿き心地を提供します。左右のポケットの他、背面にもポケットを配置。裾上げ可能な仕様で、幅広い体型に調節することができます。",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。穏やかな気候でのアウトドアを楽しむためにデザインされたハイキングパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02117",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02117",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv02171",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "インセクト バリヤー フーディ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／220g（公式記載）",
+   "price": 13860,
+   "capacity_l": null,
+   "weight_g": 220,
+   "weight_note": "公式記載",
+   "material": "・不快な虫が生地に触れると嫌がる接触忌避剤 ペルメトリンを後加工した素材「インセクト バリヤー®」採用",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 220g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 220g と公式に記載されています。"
+   },
+   "default_reason": "ウェア。行動着としての使い勝手の良さに加えて虫を寄せ付けにくい防虫機能も備えた薄手ソフトシェルフーディ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02171",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02171",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10358",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "インテンス ウィンドブレーカー ジャケット",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／138g（公式記載）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": 138,
+   "weight_note": "公式記載",
+   "material": "・引き裂きに強いリップストップ素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 138g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "sweat"
+   ],
+   "reasons": {
+    "light": "重量 138g と公式に記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。レース中の風を防ぎながら抜群の通気性と動きやすさを両立したフード付きウィンドシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10358",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10358",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10813",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "インテンス ジョガーパンツ",
+   "gender": "unisex",
+   "spec": "210g（公式記載）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": 210,
+   "weight_note": "公式記載",
+   "material": "・軽量素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 210g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。高い汗処理能力を備え激しい動きにも対応するストレッチ・トレイルパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10813",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10813",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10357",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "インテンス プロ 2.5L ジャケット",
+   "gender": "unisex",
+   "spec": "防水（公式記載）／190g（公式記載）",
+   "price": 33000,
+   "capacity_l": null,
+   "weight_g": 190,
+   "weight_note": "公式記載",
+   "material": "・耐水圧（20,000mm）と透湿性（20,000g/m2/24h）を備えた2.5層防水透湿素材",
+   "waterproof": "防水（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 190g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "sweat"
+   ],
+   "reasons": {
+    "light": "重量 190g と公式に記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。超軽量かつミニマルなデザインで、ランナーのパフォーマンスを最大限に引き出すための機能に特化したトレイルラン向け防水透湿ジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10357",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10357",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10369",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "インテンス プロ 2.5L パンツ",
+   "gender": "unisex",
+   "spec": "防水（公式記載）／197g（公式記載）",
+   "price": 29700,
+   "capacity_l": null,
+   "weight_g": 197,
+   "weight_note": "公式記載",
+   "material": "・2.5層メンブレン素材",
+   "waterproof": "防水（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 197g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。防水透湿性と動きやすさを兼ね備えたランニング向けストレッチパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10369",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10369",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10372",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "インテンス プロ ライト ショートパンツ",
+   "gender": "unisex",
+   "spec": "128g（公式記載）",
+   "price": 15400,
+   "capacity_l": null,
+   "weight_g": 128,
+   "weight_note": "公式記載",
+   "material": "・軽量で速乾性の高いストレッチ素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 128g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。1秒も無駄にしたくないシリアスなトレイルランナーを想定した、高機能軽量ランニングショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10372",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10372",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10389",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "インテンス プロ ライト ショートパンツ 5",
+   "gender": "unisex",
+   "spec": "102g（公式記載）",
+   "price": 15400,
+   "capacity_l": null,
+   "weight_g": 102,
+   "weight_note": "公式記載",
+   "material": "・軽量で速乾性の高いストレッチ素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 102g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。1秒も無駄にしたくないシリアスなトレイルランナーを想定した、高機能軽量ランニングショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10389",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10389",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10956",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "イーボル ウルトラライト 800 フーディ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／214g（公式記載）",
+   "price": 44000,
+   "capacity_l": null,
+   "weight_g": 214,
+   "weight_note": "公式記載",
+   "material": "ウルトラライト ダウンプルーフ ナイロン100% x Kドライ グレイグースダウン 800FP x 中綿 40G ポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "・インナーフラップは中綿40g使用",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 214g（公式記載）",
+    "保温：・インナーフラップは中綿40g使用",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "reasons": {
+    "light": "重量 214g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。高品質ダウンによって優れた断熱性能を備えたダウンジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10956",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10956",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv11100",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "イーボル ハイブリッド ジャケット",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／271g（公式記載）",
+   "price": 35200,
+   "capacity_l": null,
+   "weight_g": 271,
+   "weight_note": "公式記載",
+   "material": "ウルトラライト ダウンプルーフ x Kドライ ダックダウン 700FP x リプリーブ 80G リサイクルポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "ウルトラライト ダウンプルーフ x Kドライ ダックダウン 700FP x リプリーブ 80G リサイクルポリエステル100%",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 271g（公式記載）",
+    "保温：ウルトラライト ダウンプルーフ x Kドライ ダックダウン 700FP x リプ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "light": "重量 271g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。軽さを保ちつつ、行動着にもなる動きやすさと最適な温度調節性能を備えたハイブリッドダウンジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11100",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11100",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv11104",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "イーボル ライト 700 ジャケット",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／369g（公式記載）",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": 369,
+   "weight_note": "公式記載",
+   "material": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 369g（公式記載）",
+    "保温：東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダッ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "reasons": {
+    "light": "重量 369g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "ウェア。肌寒い季節にはライトなアウターに、厳しい寒さでは防寒用ミッドレイヤーにもなる軽量ダウンジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11104",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11104",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv03150",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウォーム ストレッチ スキニー II パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／342g（公式記載）",
+   "price": 11550,
+   "capacity_l": null,
+   "weight_g": 342,
+   "weight_note": "公式記載",
+   "material": "・保温性とストレッチ性に優れた二重織の裏起毛素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "・保温性とストレッチ性に優れた二重織の裏起毛素材",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 342g（公式記載）",
+    "保温：・保温性とストレッチ性に優れた二重織の裏起毛素材",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。アウトドアでも普段着としても使いやすい、動きやすさとデザイン性を両立したスリムパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03150",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03150",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10931",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "ウビック ゴアテックス 2L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／406g（公式記載）",
+   "price": 48400,
+   "capacity_l": null,
+   "weight_g": 406,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス ePE 2L リサイクルポリエステル100% PFCフリー撥水加工",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 406g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。環境に配慮したePEメンブレンの2層ゴアテックスを採用した防水透湿ジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10931",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10931",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10932",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "ウビック ゴアテックス 3L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／412g（公式記載）",
+   "price": 71500,
+   "capacity_l": null,
+   "weight_g": 412,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス ePE 3L リサイクルポリエステル100% PFCフリー撥水加工",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 412g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。耐風性と防水透湿性を備え、環境にも配慮した防水透湿アウター。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10932",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10932",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10431",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウビック ショートパンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／174g（公式記載）",
+   "price": 6050,
+   "capacity_l": null,
+   "weight_g": 174,
+   "weight_note": "公式記載",
+   "material": "長時間のトレッキングをはじめさまざまなアウトドアに対応するハイキングショーツ。肌触りが柔らかく耐久性とストレッチ性に優れたナイロン生地は吸水速乾性も高く、激しい動きの多いアクティビティ中も快適性をキープします。撥水加工が施されているので不意の小雨でも安心。ストレートカットと長めの丈で足さばきをサポー",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 174g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。長時間のトレッキングをはじめさまざまなアウトドアに対応するハイキングショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10431",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10431",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10430",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウビック ストレッチ ショートパンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／198g（公式記載）",
+   "price": 7150,
+   "capacity_l": null,
+   "weight_g": 198,
+   "weight_note": "公式記載",
+   "material": "・軽量で耐摩耗性、ストレッチ性、速乾性に優れたナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 198g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。春夏の幅広いアクティビティに対応するテクニカルストレッチショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10430",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10430",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10434",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウビック ストレッチ3/4パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／236g（公式記載）",
+   "price": 7920,
+   "capacity_l": null,
+   "weight_g": 236,
+   "weight_note": "公式記載",
+   "material": "・軽量で耐摩耗性、ストレッチ性、速乾性に優れたナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 236g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。春夏の幅広いアクティビティに対応する女性向け、クロップド丈のテクニカルストレッチパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10434",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10434",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10429",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウビック ストレッチパンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／300g（公式記載）",
+   "price": 11550,
+   "capacity_l": null,
+   "weight_g": 300,
+   "weight_note": "公式記載",
+   "material": "・速乾性とストレッチ性を兼ね備えた素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 300g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。本格的なトレッキングをはじめ幅広い季節のアウトドアで安心して楽しめるオールラウンドなストレッチパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10429",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10429",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv03181",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "ウルトラライト ファスト ショートパンツ",
+   "gender": "unisex",
+   "spec": "130g（公式記載）",
+   "price": 9680,
+   "capacity_l": null,
+   "weight_g": 130,
+   "weight_note": "公式記載",
+   "material": "・4Wayストレッチ素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 130g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。軽さと速乾性、動きやすさを備えた薄手のファストハイキング向けショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03181",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03181",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9772",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "オネガ ストレッチ ショートパンツ",
+   "gender": "unisex",
+   "spec": "170g（公式記載）",
+   "price": 10780,
+   "capacity_l": null,
+   "weight_g": 170,
+   "weight_note": "公式記載",
+   "material": "・耐摩耗性、4ウェイストレッチ性、速乾性を兼ね備えた軽量ナイロン素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 170g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。動きやすさと通気速乾性に優れたテクニカルショーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9772",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9772",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9771",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "オネガ ストレッチ パンツ",
+   "gender": "unisex",
+   "spec": "270g（公式記載）",
+   "price": 11440,
+   "capacity_l": null,
+   "weight_g": 270,
+   "weight_note": "公式記載",
+   "material": "・耐摩耗性、4WAYストレッチ性、速乾性を兼ね備えた軽量ナイロン素材",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 270g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。春夏シーズンの多様なマウンテン・アクティビティに対応するテクニカルストレッチパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9771",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9771",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9873",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "オール アウトドア XCS100 パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／334g（公式記載）",
+   "price": 13090,
+   "capacity_l": null,
+   "weight_g": 334,
+   "weight_note": "公式記載",
+   "material": "・軽量ながら耐久性と防風撥水性、ストレッチ性を兼ね備えたX.C.S. 100™二重織素材",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 334g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。防風、撥水、ストレッチ性に優れた軽量高耐久のX.",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9873",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9873",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10776",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "カメット XCS ライト パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／278g（公式記載）",
+   "price": 13200,
+   "capacity_l": null,
+   "weight_g": 278,
+   "weight_note": "公式記載",
+   "material": "・耐久性、伸縮性、通気性に優れたリサイクルナイロンとポリウレタン混紡ソフトシェル",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 278g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。薄手軽量で登山に対応可能する耐久性と動きやすさを備えた登山用パンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10776",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10776",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9332",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "カメット ゴアテックス ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／410g（公式記載）",
+   "price": 53900,
+   "capacity_l": null,
+   "weight_g": 410,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス プレイン 3L ナイロン100% 耐久性撥水",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 410g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。1年を通した幅広いマウンテンアクティビティをカバーする女性向けハードシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9332",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9332",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10720",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "カメット パワーパンツ",
+   "gender": "unisex",
+   "spec": "260g（公式記載）",
+   "price": 12320,
+   "capacity_l": null,
+   "weight_g": 260,
+   "weight_note": "公式記載",
+   "material": "・ポーラテック パワーストレッチ™ プロフリース素材",
+   "waterproof": null,
+   "warmth": "冬のマウンテンアクティビティやスキーでの保温性と動きやすさを重視したサーマルタイツ",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量 260g（公式記載）",
+    "保温：冬のマウンテンアクティビティやスキーでの保温性と動きやすさを重視したサーマルタイ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。冬のマウンテンアクティビティやスキーでの保温性と動きやすさを重視したサーマルタイツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10720",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10720",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv11010",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "カメット パワープロ パンツ",
+   "gender": "unisex",
+   "spec": "260g（公式記載）",
+   "price": 18700,
+   "capacity_l": null,
+   "weight_g": 260,
+   "weight_note": "公式記載",
+   "material": "ポーラテック® パワーストレッチ™ プロ リサイクルポリエステル57% ナイロン33% ポリウレタン10%",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 260g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。冬でも快適な行動を可能にするパフォーマンスベースレイヤーパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11010",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11010",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv02231",
+   "category": "pants",
+   "brand": "ミレー",
+   "name": "カロス パンツ",
+   "gender": "unisex",
+   "spec": "568g（公式記載）",
+   "price": 6600,
+   "capacity_l": null,
+   "weight_g": 568,
+   "weight_note": "公式記載",
+   "material": "・コットンとポリエステルの混紡素材",
+   "waterproof": null,
+   "warmth": "フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステルとコットン混紡素材を採用",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量 568g（公式記載）",
+    "保温：フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステル"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。リラックスしたシーンで重宝する、着心地の良さと快適な暖かさを備えたスウェットパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02231",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02231",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10202",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "コズミック ウォーム ゴアテックス ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／810g（公式記載）",
+   "price": 77000,
+   "capacity_l": null,
+   "weight_g": 810,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス® 2層 ePE ライト リップストップ リサイクルポリエステル100% PFCフリー撥水 x プリマロフト®シルバー エコ 60g リサイクルポリエステル100%",
+   "waterproof": "ゴアテックス",
+   "warmth": "ゴアテックス® 2層 ePE ライト リップストップ リサイクルポリエステル100% PFCフリー撥水 x プリマロフト®シルバー エコ 60g リサイクルポリエステル100%",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 810g（公式記載）",
+    "保温：ゴアテックス® 2層 ePE ライト リップストップ リサイクルポリエステル10",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキージャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10202",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10202",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10200",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "コズミック ゴアテックス 2L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／674g（公式記載）",
+   "price": 60060,
+   "capacity_l": null,
+   "weight_g": 674,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス® 2層 ePE ライト リップストップ リサイクルポリエステル100% PFCフリー撥水",
+   "waterproof": "ゴアテックス",
+   "warmth": "重ね着を意識したゆとりのあるシルエットに加え、内側に中綿を使用しないことで、コンディションや用途に応じてレイヤリングを調整できます",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 674g（公式記載）",
+    "保温：重ね着を意識したゆとりのあるシルエットに加え、内側に中綿を使用しないことで、コン",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。環境に配慮したPFCフリーのゴアテックスを採用した、2レイヤーのゴアテックススキージャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10200",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10200",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv9894",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "コズミック ゴアテックス 3L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／671g（公式記載）",
+   "price": 74800,
+   "capacity_l": null,
+   "weight_g": 671,
+   "weight_note": "公式記載",
+   "material": "・表地には環境に配慮したリサイクルポリエステル100%を使用",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 671g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。優れた防水性と透湿性、耐久性を兼ね備え、環境への影響を軽減した新しいGORE-TEXメンブレンを採用した防水透湿スキージャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9894",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9894",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis01319",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "ジップ レイン カバー 20/25",
+   "gender": "unisex",
+   "spec": "90g（公式記載）",
+   "price": 3740,
+   "capacity_l": null,
+   "weight_g": 90,
+   "weight_note": "公式記載",
+   "material": "・軽量コンパクト性に優れたリップストップナイロン PUコーティング（2,000mm）",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 90g（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 90g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。荷物の出し入れしやすさを考慮してカバーを装着したままリュックへのアクセスを可能にした20〜25Lサイズのレインカバー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01319",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01319",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis01318",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "ジップ レイン カバー 30/40",
+   "gender": "unisex",
+   "spec": "120g（公式記載）",
+   "price": 4400,
+   "capacity_l": null,
+   "weight_g": 120,
+   "weight_note": "公式記載",
+   "material": "・軽量コンパクト性に優れたリップストップナイロン PUコーティング（2,000mm）",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "重量 120g（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 120g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。荷物の出し入れしやすさを考慮してカバーを装着したままリュックへのアクセスを可能にした30〜40Lサイズのレインカバー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01318",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01318",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10209",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "セネカ ゴアテックス 2L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／465g（公式記載）",
+   "price": 38500,
+   "capacity_l": null,
+   "weight_g": 465,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス® ePE 2層 リサイクルポリエステル100% PFCフリー撥水",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 465g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。環境配慮型ePEメンブレンを採用した新しい2層ゴアテックスを採用した防水透湿ジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10209",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10209",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10331",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "セネカ ゴアテックス 3L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／460g（公式記載）",
+   "price": 42350,
+   "capacity_l": null,
+   "weight_g": 460,
+   "weight_note": "公式記載",
+   "material": "・耐風性と防水性を兼ね揃えた3層素材",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 460g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。確かな耐風性と防水透湿性を備えながら、環境にも配慮したプロテクションジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10331",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10331",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv7830",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー Vアイコン デュアル GORE-TEX PRO ジャケット",
+   "gender": "unisex",
+   "spec": "GORE-TEX PRO／465g（公式記載）",
+   "price": 108900,
+   "capacity_l": null,
+   "weight_g": 465,
+   "weight_note": "公式記載",
+   "material": "GORE-TEX® PRO ASTREE 3L ナイロン100% × GORE-TEX® PRO PEGASE 3L ナイロン100%",
+   "waterproof": "GORE-TEX PRO",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：GORE-TEX PRO（公式記載）",
+    "重量 465g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が10万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。厳冬期登山からスキーツーリングまで、高い耐久性と防水透湿性、運動性を誇るマウンテニアリングジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv7830",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv7830",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10440",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー アイコン ゴアテックスプロ 3L ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックスプロ／438g（公式記載）",
+   "price": 99000,
+   "capacity_l": null,
+   "weight_g": 438,
+   "weight_note": "公式記載",
+   "material": "ゴアテックスプロ 3L ナイロン100％ 耐久性撥水",
+   "waterproof": "ゴアテックスプロ",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックスプロ（公式記載）",
+    "重量 438g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が9万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。シャモニー山岳ガイドたちからのフィードバックを元にデザインされた、トップクラスの耐久性と防水透湿性、運動性を備えたアルパインシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10440",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10440",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10563",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー アイコン ゴアテックスプロ ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックスプロ／420g（公式記載）",
+   "price": 121000,
+   "capacity_l": null,
+   "weight_g": 420,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス プロ ePE 3層 70D リサイクルナイロン100% PFCフリー耐久撥水加工",
+   "waterproof": "ゴアテックスプロ",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックスプロ（公式記載）",
+    "重量 420g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が12万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。厳冬期登山からスキーツーリングまで、高い耐久性と防水透湿性を誇るマウンテニアリングジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10563",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10563",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10691",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー ジョラス ゴアテックス ジャケット",
+   "gender": "unisex",
+   "spec": "ゴアテックス／375g（公式記載）",
+   "price": 165000,
+   "capacity_l": null,
+   "weight_g": 375,
+   "weight_note": "公式記載",
+   "material": "ゴアテックス プロ ePE 3層 40D ナイロン100% PFCフリー耐久撥水加工",
+   "waterproof": "ゴアテックス",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 375g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が16万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。ミレーがこれまで培ってきたノウハウと最先端の技術が結集し、自社工場でアスリートと共に生み出されたハードシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10691",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10691",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10690",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー ジョラス ゴアテックス スーツ",
+   "gender": "unisex",
+   "spec": "ゴアテックス／750g（公式記載）",
+   "price": 242000,
+   "capacity_l": null,
+   "weight_g": 750,
+   "weight_note": "公式記載",
+   "material": "・最高レベルのプロテクションと機動性を両立した3層 ゴアテックス プロ ファブリクスとX.C.Sソフトシェル素材のハイブリッド構造",
+   "waterproof": "ゴアテックス",
+   "warmth": "頭部には保温性とフィット感の高いウールバラクラバが標準装備されています",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 750g（公式記載）",
+    "保温：頭部には保温性とフィット感の高いウールバラクラバが標準装備されています",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "価格が24万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。ミレーがこれまで培ってきたノウハウと最先端の技術が結集し、自社工場でアスリートと共に生み出されたワンピーススーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10690",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10690",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10031",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー ジョラス ゴアテックス プロ 3L スーツ",
+   "gender": "unisex",
+   "spec": "ゴアテックス プロ／850g（公式記載）",
+   "price": 242000,
+   "capacity_l": null,
+   "weight_g": 850,
+   "weight_note": "公式記載",
+   "material": "・最高レベルのプロテクションと機動性を両立した3L ゴアテックス PRO ファブリクスとX.C.Sソフトシェル素材のハイブリッド構造",
+   "waterproof": "ゴアテックス プロ",
+   "warmth": "頭部には保温性とフィット感が最適化されたウールバラクラバが標準装備されています",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス プロ（公式記載）",
+    "重量 850g（公式記載）",
+    "保温：頭部には保温性とフィット感が最適化されたウールバラクラバが標準装備されています",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が24万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。ミレーがこれまで培ってきたノウハウと最先端の技術が結集し、自社工場でアスリートと共に生み出されたワンピーススーツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10031",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10031",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-miv10032",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "トリロジー ジョラス ゴアテックス プロ 3L フーディ",
+   "gender": "unisex",
+   "spec": "ゴアテックス プロ／450g（公式記載）",
+   "price": 156750,
+   "capacity_l": null,
+   "weight_g": 450,
+   "weight_note": "公式記載",
+   "material": "ゴアテックスプロ アストリ 3層 ナイロン100％ 撥水加工",
+   "waterproof": "ゴアテックス プロ",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：ゴアテックス プロ（公式記載）",
+    "重量 450g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が15万円台と高め"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。ミレーがこれまで培ってきたノウハウと最先端の技術が結集し、自社工場でアスリートと共に生み出されたハードシェルジャケット。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10032",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10032",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis01327",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "フォト レインカバー 20/25",
+   "gender": "unisex",
+   "spec": "耐水圧2,000mm／50g（公式記載）",
+   "price": 3960,
+   "capacity_l": null,
+   "weight_g": 50,
+   "weight_note": "公式記載",
+   "material": "雨の日の行動をもっと楽しくしてくれるレインカバー。20L〜25Lを想定したレインカバーに、自然写真のオリジナルプリントを施しました。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、風で飛ばされないようにするコンプレッションストラップを装備しています。軽量でコンパクト",
+   "waterproof": "耐水圧2,000mm",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：耐水圧2,000mm（公式記載）",
+    "重量 50g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 50g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。雨の日の行動をもっと楽しくしてくれるレインカバー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01327",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01327",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis01326",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "フォト レインカバー 30/40",
+   "gender": "unisex",
+   "spec": "耐水圧2,000mm／70g（公式記載）",
+   "price": 5060,
+   "capacity_l": null,
+   "weight_g": 70,
+   "weight_note": "公式記載",
+   "material": "雨の日の行動をもっと楽しくしてくれるレインカバー。30L〜40Lを想定したレインカバーに、自然写真のオリジナルプリントを施したモデル。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、風で飛ばされないようにするコンプレッションストラップを装備しています。軽量でコンパク",
+   "waterproof": "耐水圧2,000mm",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：耐水圧2,000mm（公式記載）",
+    "重量 70g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 70g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。雨の日の行動をもっと楽しくしてくれるレインカバー。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01326",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01326",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mic1111",
+   "category": "tent",
+   "brand": "ミレー",
+   "name": "ライト ダウン スリーピングバッグ 0°",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）／730g（公式記載）",
+   "price": 46200,
+   "capacity_l": null,
+   "weight_g": 730,
+   "weight_note": "公式記載",
+   "material": "RS 20D 400T ポリエステル100% PFCフリー撥水/ 20D 380T ポリエステル100%/ K DRY ダックダウン ダウン90% フェザー10% PFCフリー撥水",
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": "RS 20D 400T ポリエステル100% PFCフリー撥水/ 20D 380T ポリエステル100%/ K DRY ダックダウン ダウン90% フェザー10% PFCフリー撥水",
+   "size_note": null,
+   "season": [],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 730g（公式記載）",
+    "保温：RS 20D 400T ポリエステル100% PFCフリー撥水/ 20D 380",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "泊まりのキャンプ・山行をする人",
+   "not_for": "",
+   "terrain": [
+    "tent"
+   ],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   },
+   "default_reason": "テント・寝具。快適温度 ：5°C 快適限界温度：0°C 軽量コンパクトで抜群の保温性を備えた3シーズン対応ダウンスリーピングバッグ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mic1111",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mic1111",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis2244",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "レインカバー S",
+   "gender": "unisex",
+   "spec": "耐水圧2,000mm／50g（公式記載）",
+   "price": 4180,
+   "capacity_l": null,
+   "weight_g": 50,
+   "weight_note": "公式記載",
+   "material": "10L〜15Lを想定したレインカバー。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、かつ風飛び防止のコンプレッションストラップを装備しています。軽量でコンパクトな点も魅力です。 装備",
+   "waterproof": "耐水圧2,000mm",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：耐水圧2,000mm（公式記載）",
+    "重量 50g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 50g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。10L〜15Lを想定したレインカバー。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、かつ風飛び防止のコンプレッションストラップを装備しています。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2244",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2244",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "millet-mis2247",
+   "category": "rain",
+   "brand": "ミレー",
+   "name": "レインカバー XL",
+   "gender": "unisex",
+   "spec": "耐水圧2,000mm／128g（公式記載）",
+   "price": 5830,
+   "capacity_l": null,
+   "weight_g": 128,
+   "weight_note": "公式記載",
+   "material": "50L〜75Lを想定したレインカバー。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、かつ風飛び防止のコンプレッションストラップを装備しています。軽量でコンパクトな点も魅力です。 装備",
+   "waterproof": "耐水圧2,000mm",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：耐水圧2,000mm（公式記載）",
+    "重量 128g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 128g と公式に記載されています。"
+   },
+   "default_reason": "レインウェア・シェル。50L〜75Lを想定したレインカバー。耐水圧2,000mmの素材にシームシーリングを施し、背面にはザックにフィットさせ、かつ風飛び防止のコンプレッションストラップを装備しています。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2247",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2247",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "montbell-1105661",
    "category": "pants",
    "brand": "モンベル",
@@ -25469,6 +33762,148 @@
    }
   },
   {
+   "id": "nanga-aurora-tex-stand-collar-down-vest",
+   "category": "rain",
+   "brand": "ナンガ",
+   "name": "オーロラテックス スタンドカラーダウンベスト",
+   "gender": "unisex",
+   "spec": "耐水圧20,000mm",
+   "price": 37400,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。街からアウトドアまで活躍する、高い保温性を備えた万能ダウンウェア",
+   "waterproof": "耐水圧20,000mm",
+   "warmth": "・DX（760FPのスペイン産ホワイトダックダウン）を92g封入",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：耐水圧20,000mm（公式記載）",
+    "保温：・DX（760FPのスペイン産ホワイトダックダウン）を92g封入"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "雨や風に備えたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "レインウェア・シェル。重ね着しやすく、3シーズン活躍する万能ダウンベスト 防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/aurora-tex-stand-collar-down-vest",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/aurora-tex-stand-collar-down-vest",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "nanga-liteforce-down-vt",
+   "category": "wear",
+   "brand": "ナンガ",
+   "name": "ライトフォース ダウンベスト",
+   "gender": "unisex",
+   "spec": "防水（公式記載）",
+   "price": 63800,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "表地には23DのCORDURARナイロンを採用。軽量でしなやかでありながら摩擦に強く、デイリーからキャンプやハイキングまでタフに活躍します。さらに、肩部分にはNANGA独自のAURORA TEX?を配置し、防水透湿性を確保。突然の雨や雪でも快適さをキープします。",
+   "waterproof": "防水（公式記載）",
+   "warmth": "ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、760FP）を120g封入。軽量ながらしっかり暖かさを確保し、アウターとしてはもちろん、ジャケットのインナーにも最適です。",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、76"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "for_whom": "季節に合わせて重ね着をしたい人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "ウェア。ダウンベストをアクティブな仕様に 〈アイテムの特徴〉 CORDURAR × AURORA TEX? ― 軽量・耐久・防水を兼ね備えた新シリーズ DX：スペイン産",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/liteforce-down-vt",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/liteforce-down-vt",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "patagonia-torrentshell-3l-jacket-m",
    "category": "rain",
    "brand": "パタゴニア",
@@ -28758,6 +37193,277 @@
     {
      "shop": "official",
      "url": "https://wildthings.jp/products/wt25010sk",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "wildthings-fsp03261u0002",
+   "category": "pants",
+   "brand": "ワイルドシングス",
+   "name": "F/CE. × WILD THINGS デナリ サイドジップ パンツ",
+   "gender": "unisex",
+   "spec": "パンツ。F/CE. × WILD THINGS コラボレーション第二弾 ミリタリー由来の機能性と都市的な洗練を融合させた、バギーシルエットのテクニカルパンツ。",
+   "price": 38500,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "高密度ナイロン素材に製品染めを施し、一点一点異なる奥行きのある表情を演出。",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。F/CE. × WILD THINGS コラボレーション第二弾 ミリタリー由来の機能性と都市的な洗練を融合させた、バギーシルエットのテクニカルパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/fsp03261u0002",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/fsp03261u0002",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "wildthings-wt26806sk",
+   "category": "pants",
+   "brand": "ワイルドシングス",
+   "name": "アルピニストハードシェルパンツ",
+   "gender": "unisex",
+   "spec": "eVent",
+   "price": 63800,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "eVent",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "防水・撥水：eVent（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。本国タクティカルラインに存在するアルピニストパンツをベースに、最高峰の透湿防水3レイヤー生地eVent®を採用して復刻したハードシェルパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26806sk",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26806sk",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "wildthings-wt262-05-q3",
+   "category": "pants",
+   "brand": "ワイルドシングス",
+   "name": "ソフトシェルガイドパンツ",
+   "gender": "unisex",
+   "spec": "パンツ。優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+   "price": 19800,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": "優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "features": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "パンツ。優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt262-05-q3",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt262-05-q3",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "wildthings-wt26318sk-ec",
+   "category": "pants",
+   "brand": "ワイルドシングス",
+   "name": "ブリーザブル ブースター パンツ",
+   "gender": "unisex",
+   "spec": "撥水加工（公式記載）",
+   "price": 20900,
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "warmth": null,
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "for_whom": "動きやすいパンツを探す人",
+   "not_for": "",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   },
+   "default_reason": "パンツ。25SSで新登場し、好評だったBREATHABLE BOOSTER PANTSが公式オンラインストア限定で再登場。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26318sk-ec",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26318sk-ec",
      "affiliate_url": "",
      "in_stock": true,
      "checked_at": "2026-10-12"

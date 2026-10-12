@@ -2187,5 +2187,2463 @@
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
   }
+ },
+ {
+  "key": "/products/isogon-mx-hoody-m",
+  "id": "isogon-mx-hoody-m",
+  "name": "アイソゴン MX フーディ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。スポーツウェアのようなスタイルと、変わりやすい天候に対応できる機能性を組み合わせたソフトシェルフーディ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aestas-pullover-hoody-w",
+  "id": "aestas-pullover-hoody-w",
+  "name": "アエスタス プルオーバー フーディ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "見た目はスウェットシャツ、本格的なクライミングや山岳ハイキングではテクニカルレイヤーとして大活躍。柔らかな肌触りながら、毛羽立ちや抜け落ちに強い耐久性のあるポーラテックフリース素材を使用しています。さらに、驚くほどの熱効率のよさで軽暖性能に優れ、レイヤリングが必要になったときのために荷物に入れておけ",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。見た目はスウェットシャツ、本格的なクライミングや山岳ハイキングではテクニカルレイヤーとして大活躍。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/anodic-backpack",
+  "id": "anodic-backpack",
+  "name": "アノディック バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。毎日の街歩きにぴったりの耐水バックパック。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/align-mx-pant-m",
+  "id": "align-mx-pant-m",
+  "name": "アライン MX パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。こだわり抜いたスタイリッシュなデザインと、耐候性を備えた高機能素材を組み合わせた、普段使いに最適なスリムパンツ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/arris-jacket-m",
+  "id": "arris-jacket-m",
+  "name": "アリス ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "完全防水素材に加え、摩擦音がなく通気性に優れ、涼しく快適な裏地を使用して、街に映えるようにデザイン。コードルーティングを採用した薄手のStormHood™で、移動中もドライな状態を保ちます。",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。完全防水素材に加え、摩擦音がなく通気性に優れ、涼しく快適な裏地を使用して、街に映えるようにデザイン。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）"
+   ],
+   "cons": [
+    "価格が13万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/alpha-fl-20-backpack",
+  "id": "alpha-fl-20-backpack",
+  "name": "アルファ FL 20 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。最も小さなパック、アルファ FL。最小限のボリュームで最大限の仕事をする相棒です。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/alpha-fl-30-backpack",
+  "id": "alpha-fl-30-backpack",
+  "name": "アルファ FL 30 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽快 & 軽量でアルパイン仕様の耐久性。クライミングに特化したアルファ FL 30 バックパック。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/arro-22-backpack",
+  "id": "arro-22-backpack",
+  "name": "アロー 22 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/ionia-merino-wool-arcword-logo-ss-m",
+  "id": "ionia-merino-wool-arcword-logo-ss-m",
+  "name": "イオニア メリノウール アークワード ロゴ ショートスリーブ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。Tシャツをワンランク上のウェアに。体温調節機能と耐臭性能を持つことで知られるメリノウールを、責任ある方法で調達。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/ion-sl-chalkbag",
+  "id": "ion-sl-chalkbag",
+  "name": "イオン SL チョークバッグ",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。流れを妨げることなくチョークアップしましょう。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/ifora-jacket-w",
+  "id": "ifora-jacket-w",
+  "name": "イフォラ ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "立体感のあるオーバーサイズのシルエットと最新の機能を備えた素材を組み合わせ、都会のあらゆる環境やコンディションに最適。通気性と防風・撥水性を両立した素材が必要十分な耐候性を発揮します。",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。立体感のあるオーバーサイズのシルエットと最新の機能を備えた素材を組み合わせ、都会のあらゆる環境やコンディションに最適。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）"
+   ],
+   "cons": [
+    "価格が13万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/incendo-airshell-hoody-m",
+  "id": "incendo-airshell-hoody-m",
+  "name": "インセンド エアシェル フーディ メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。清涼感のある快適な着心地と、動きやすさ、肌ざわりの柔らかさを追求したトレイルランナー向けのトップス。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/incendo-short-9-m",
+  "id": "incendo-short-9-m",
+  "name": "インセンド ショーツ 9 インチ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。想いのままに行動しよう。ランニング、ハイキング、スクランブル、湖に飛び込むのもOK。",
+   "pros": [
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/incendo-hybrid-hoody-w",
+  "id": "incendo-hybrid-hoody-w",
+  "name": "インセンド ハイブリッド フーディ ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。温暖な天候下で山岳トレイルをスピーディに移動するときに、頼りになる一着。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/index-40-bouldering-bag",
+  "id": "index-40-bouldering-bag",
+  "name": "インデックス 40 ボルダリング バッグ",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。汚れたギアはこちらに。きれいなギアはそちらに。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/aerios-35-backpack",
+  "id": "aerios-35-backpack",
+  "name": "エアリオス 35 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。エアリオス 35 バックパックでハイキングの感覚をカスタマイズ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/euler-insulated-jacket-m",
+  "id": "euler-insulated-jacket-m",
+  "name": "オイラー インサレーテッド ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変わりやすい天候に対応できる、フードを襟にしまえるインサレーテッドハードシェルジャケット。3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性能と寒さや雨雪に対する保護性能を実現。マイクロフリース裏地のハンドポケットは肌触りがよく、袖口と裾のガスケットが風をシャットアウト",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": "3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性能と寒さや雨雪に対する保護性能を実現",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。変わりやすい天候に対応できる、フードを襟にしまえるインサレーテッドハードシェルジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "保温：3層GORE-TEX®素材に、マッピング構造の化繊中綿を組み合わせ、抜群の軽暖性"
+   ],
+   "cons": [
+    "価格が14万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/ossa-overshirt-m",
+  "id": "ossa-overshirt-m",
+  "name": "オッサ オーバーシャツ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。照りつける夏の太陽にも負けない、定番ミッドレイヤー。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/omineca-short-jacket-w",
+  "id": "omineca-short-jacket-w",
+  "name": "オミネカ ショート ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンジャケット",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンジャケット。",
+   "pros": [
+    "保温：Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/omineca-down-pant-w",
+  "id": "omineca-down-pant-w",
+  "name": "オミネカ ダウン パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンパンツ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬいて作り上げた、超軽量の高性能ダウンパンツ。",
+   "pros": [
+    "保温：Arc’teryxのデザインチームと先進コンセプトチームがディテールにこだわりぬ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/olia-shirt-ss-w",
+  "id": "olia-shirt-ss-w",
+  "name": "オリア ショートスリーブ シャツ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。Arc’teryx最高の機能性を誇るUV対策Tシャツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/olia-shirt-ls-w",
+  "id": "olia-shirt-ls-w",
+  "name": "オリア ロングスリーブ シャツ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。Arc’teryx最高の機能性を誇るUV対策レイヤー。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/olera-crew-w",
+  "id": "olera-crew-w",
+  "name": "オレラ クルー ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン対応の高性能レイヤーです",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "pros": [
+    "保温：登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/olera-zip-neck-w",
+  "id": "olera-zip-neck-w",
+  "name": "オレラ ジップネック ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン対応の高性能ジップネックです",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。軽さと暖かさを両立させた通気性のあるミッドレイヤー。",
+   "pros": [
+    "保温：登山以外のアクティビティにも幅広く使える、抜群の着心地と保温性を備えた3シーズン"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/kyanite-lt-hoody-w",
+  "id": "kyanite-lt-hoody-w",
+  "name": "カイヤナイト LT フーディ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "春秋シーズンにちょうどよい保温性を備えたフリースです",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。シンプルであることは用途を限定しないということです。",
+   "pros": [
+    "保温：春秋シーズンにちょうどよい保温性を備えたフリースです",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/gamma-sl-pant-m",
+  "id": "gamma-sl-pant-m",
+  "name": "ガンマ SL パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "ガンマ最軽量のパンツが登場。優れた通気性を備えた二重織りのリサイクル素材を使用し、小雨や風を防いで、予期せぬ天候や急な斜面、過酷な距離を快適に突破できるソフトシェルのハイキングパンツです。よりスリムなフィットと立体構造パターンですっきりした見た目と自然な動きを叶えるスペースを実現し、トレイルでも普段",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ガンマ最軽量のパンツが登場。優れた通気性を備えた二重織りのリサイクル素材を使用し、小雨や風を防いで、予期せぬ天候や急な斜面、過酷な距離を快適に突破できるソフトシ",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/gamma-quick-dry-pant-m",
+  "id": "gamma-quick-dry-pant-m",
+  "name": "ガンマ クイックドライ パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。長期のバックパッカー旅行や難易度の高い日帰りのハイキングには、厳しい自然環境が付きもの。",
+   "pros": [
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/gamma-jogger-m",
+  "id": "gamma-jogger-m",
+  "name": "ガンマ ジョガー メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。アークテリクスを象徴する、軽量で耐久性の高いFortius™ DW 2.",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/gamma-pant-w",
+  "id": "gamma-pant-w",
+  "name": "ガンマ パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ガンマパンツ。アークテリクスで最高峰の汎用性を誇るこのソフトシェル パンツは、進化を続けることで、耐久性、防風性、耐候性、伸縮性、すべての山岳アクティビティに対",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/gamma-pant-m",
+  "id": "gamma-pant-m",
+  "name": "ガンマ パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "クライミングに焦点を当てながら、他のアクティビティにも適したパンツ。ガンマ コレクションの着やすさに、アークテリクスで最も高性能なクライミングウェアの耐久性と機能を組み合わせています。暖かく耐候性のあるソフトシェル素材が小雨や風に対応し、ラミネート加工のヘムと袖口のドローコードですきま風や小石をシャ",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。クライミングに焦点を当てながら、他のアクティビティにも適したパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/quintic-16-backpack",
+  "id": "quintic-16-backpack",
+  "name": "クインティック 16 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": 16,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。安全装備や大切なギアをしっかり収納でき、ハードな地形でも抜群の動きやすさをかなえる16Lのバックパック。",
+   "pros": [
+    "容量 16L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/quintic-28-backpack",
+  "id": "quintic-28-backpack",
+  "name": "クインティック 28 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。フリーライド専用のQuintic 28は、十分な収納力を損なうことなく、短めの背面長で設計されたバックパックです。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/clarkia-ar-insulated-hoody-w",
+  "id": "clarkia-ar-insulated-hoody-w",
+  "name": "クラーキア AR インサレーテッド フーディ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。涼しい季節もクライミングを満喫できる秋の定番ジャケット。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/clarkia-ar-pant-w",
+  "id": "clarkia-ar-pant-w",
+  "name": "クラーキア AR パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ボルダリングからビレイまでスムーズに対応できる、肌寒い季節に活躍するパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/cronin-ar-pant-m",
+  "id": "cronin-ar-pant-m",
+  "name": "クロニン AR パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。肌寒い朝のゴツゴツした岩場で活躍する、ワークウェア並みの丈夫さとクライミング向けの立体デザインが特徴のパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/cronin-ar-hoody-m",
+  "id": "cronin-ar-hoody-m",
+  "name": "クロニン AR フーディ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ。",
+   "pros": [
+    "保温：肌寒い日のセッションでハードに動いた体をしっかりと保温してくれるフーディ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/cronin-insulated-overshirt-m",
+  "id": "cronin-insulated-overshirt-m",
+  "name": "クロニン インサレーテッド オーバーシャツ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性、耐久性、抜群の動きやすさが特徴です",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。耐候性に優れたヘビーウェイトナイロン平織素材と、薄手のCoreloft™インサレーションを組み合わせたジップフロントのオーバーシャツ。",
+   "pros": [
+    "保温：保温性、耐久性、抜群の動きやすさが特徴です",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/granville-16-backpack",
+  "id": "granville-16-backpack",
+  "name": "グランヴィル 16 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。無駄のない美しいデザインに、優れた耐候性と耐久性を付加して実用性を追求したグランヴィル 16。",
+   "pros": [
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/granville-25-backpack",
+  "id": "granville-25-backpack",
+  "name": "グランヴィル 25 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。どんな状況に遭遇しても安心な、優れた汎用性のグランヴィル 25。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/granville-crossbody-bag",
+  "id": "granville-crossbody-bag",
+  "name": "グランヴィル クロスボディ バッグ",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。動きの中でこそ光るシンプルなデザインが魅力の、使い勝手の良いパック。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/conic-wool-half-zip-m",
+  "id": "conic-wool-half-zip-m",
+  "name": "コニック ウール ハーフ ジップ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー。",
+   "pros": [
+    "保温：保温性に優れた3Dニットデザインの軽量ハーフジップウールミッドレイヤー"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/conic-wool-halter-w",
+  "id": "conic-wool-halter-w",
+  "name": "コニック ウール ホールター ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性に優れた3Dニットデザインの軽量ウールホルター",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。保温性に優れた3Dニットデザインの軽量ウールホルター。",
+   "pros": [
+    "保温：保温性に優れた3Dニットデザインの軽量ウールホルター"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/corbel-pant-m",
+  "id": "corbel-pant-m",
+  "name": "コーベル パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。リラックスフィット、すっきりとしたデザイン、高機能のソフトシェル素材。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/saic-pant-m",
+  "id": "saic-pant-m",
+  "name": "サイック パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/spere-pant-m",
+  "id": "spere-pant-m",
+  "name": "スピア パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのFC0 DWR（耐久撥水）加工でアップデートしました。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのFC0 DWR（耐久撥水）加工でアップデートしました。",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。最新の進化を遂げたスピア パンツ。暖かく、通気性と耐候性を備えた、275gsmのストレッチ ソフトシェルがスピアの汎用性をさらに高め、洗練されたルックを実現しました。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：変更点：保温性と伸縮性を高める275gsmのソフトシェル素材、PFASフリーのF",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/serratus-pant-m",
+  "id": "serratus-pant-m",
+  "name": "セラタス パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。2種類の生地を使用し、耐久性と動きやすさを損なうことなく軽量化を実現した、アークテリクスで最もテクニカルなソフトシェル パンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/diode-mx-pant-m",
+  "id": "diode-mx-pant-m",
+  "name": "ダイオード MX パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。現代のアーバンライフのニーズにマッチする、ウィンターウェイトのソフトシェル パンツ。",
+   "pros": [
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/disomy-wool-pant-m",
+  "id": "disomy-wool-pant-m",
+  "name": "ダイソミー ウール パンツ メンズ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/tecta-pant-w",
+  "id": "tecta-pant-w",
+  "name": "テクタ パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ストレートフィットと快適でナチュラルな雰囲気が特徴的な、通気性の高い5ポケットデザインのパンツ。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/heliad-15-backpack",
+  "id": "heliad-15-backpack",
+  "name": "ヒリアド 15 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。クライマー用のサミットパックに着想を得たシンプルなデザインが特徴のヒリアド。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/heliad-crossbody",
+  "id": "heliad-crossbody",
+  "name": "ヒリアド クロスボディ バッグ",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。旅は軽装で。必要なものだけを詰め込んで。軽量でパッカブル、機能的で無駄を省いたデザインが特徴のヒリアド。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/micon-37-backpack",
+  "id": "micon-37-backpack",
+  "name": "マイコン 37 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": 37,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。何シーズンにもわたって愛用できる、バックカントリーツーリングに最適な37Lのバックパック。",
+   "pros": [
+    "容量 37L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mantis-16-backpack",
+  "id": "mantis-16-backpack",
+  "name": "マンティス 16 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。スピーディに移動するときに頼りになるのがマンティス 16。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mantis-26-backpack",
+  "id": "mantis-26-backpack",
+  "name": "マンティス 26 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。その卓越した汎用性で地平を押し広げるマンティス。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/leutia-pant-w",
+  "id": "leutia-pant-w",
+  "name": "ルーシア パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。スクランブリングから木が生い茂るルートまで、どこまででも安心して進める、トレイルクライミングに最適な高耐久ソフトシェルパンツ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/reane-wool-pant-w",
+  "id": "reane-wool-pant-w",
+  "name": "レアネ ウール パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。通気性のあるウールポリエステルを使用した、洗練されたシルエットと立体的なデザインが特徴のプリーツパンツ。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/verro-20-backpack",
+  "id": "verro-20-backpack",
+  "name": "ヴェロ 20 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。Arc’teryxを代表するヴェロ50バックパックならではの構造と機能性を、20リットルのデザインにすっきりと凝縮。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/verro-50-backpack",
+  "id": "verro-50-backpack",
+  "name": "ヴェロ 50 バックパック",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。あらゆる目標、コンディション、シーズンに対応できる、究極のロッククライミング用クラッグパック。",
+   "pros": [
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
  }
 ]

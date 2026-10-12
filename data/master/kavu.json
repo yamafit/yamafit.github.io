@@ -742,6 +742,686 @@
     "not_for": [],
     "concern_reasons": {}
    }
+  },
+  {
+   "id": "kavu-19811307",
+   "brand": "KAVU",
+   "name": "チリワックパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 30800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811307",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/products/19811307101.jpg?v=1690878626",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19811307",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811307",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19811307117",
+   "brand": "KAVU",
+   "name": "チリワックパンツ バーチウッド",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 12100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811307117",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/products/19811307117.jpg?v=1690878626",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19811307117",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811307117",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ チリワックパンツはKAVUを代表するオーガニックコットンキャンバス生地を使用したフルレングスパンツです。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19821107",
+   "brand": "KAVU",
+   "name": "メンズ コーデュロイニューチリワックパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 14300,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821107",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/products/19821107058.jpg?v=1695108724",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19821107",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821107",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ コーディロイニューチリワック はコーデュロイ生地を使用した丈夫なフルレングスパンツです。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19822306",
+   "brand": "KAVU",
+   "name": "メンズ デニムチリワックパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 20900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19822306",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/files/19822306052.jpg?v=1757410110",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19822306",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19822306",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ デニムチリワックパンツはデニム素材のメンズパンツです。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19822405",
+   "brand": "KAVU",
+   "name": "メンズ ナイロン チリワックパンツ",
+   "category": "pants",
+   "gender": "mens",
+   "price": 15400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19822405",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/files/19822405048.jpg?v=1770285898",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19822405",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19822405",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ ナイロン チリワックパンツ は耐久性に優れたリップストップナイロンを使用したフルレングスパンツです。",
+    "pros": [
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19811305069",
+   "brand": "KAVU",
+   "name": "メンズ ハーフジップ スローシャツ ノースウエストアグリー",
+   "category": "wear",
+   "gender": "mens",
+   "price": 12100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19811305069",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/files/19811305069.jpg?v=1725265551",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19811305069",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19811305069",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ハーフジップ スローシャツは厚手のオーガニックコットン生地を使用したハーフジップタイプのジャケットです。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "kavu-19821106",
+   "brand": "KAVU",
+   "name": "メンズ ボアジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用して独自のデザインを持つフリースに仕上がっています",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821106",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/products/19821106201.jpg?v=1690883283",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19821106",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821106",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット はボアフリースを使用したジャケットです。",
+    "pros": [
+     "保温：裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用し"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "kavu-19821336",
+   "brand": "KAVU",
+   "name": "メンズ ボアジャケット A&F直営店限定カラー",
+   "category": "wear",
+   "gender": "mens",
+   "price": 20900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用して独自のデザインを持つフリースに仕上がっています",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19821336",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/products/19821336027.jpg?v=1690883314",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19821336",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19821336",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ボアジャケット 【A&F直営店別注モデル】はA&F直営店のみのカラーのボアフリースを使用したジャケットです。",
+    "pros": [
+     "保温：裏地は肌さわりの良い細かいフリース、外側は発色と保温性の高い起毛フリースを採用し"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "kavu-19823001",
+   "brand": "KAVU",
+   "name": "メンズ ポーラテックジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 26400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れた高機能",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19823001",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/files/19823001001.jpg?v=1725866896",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19823001",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19823001",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズポーラテックジャケットはフリース素材のスタジャンです。",
+    "pros": [
+     "保温：採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "kavu-19823002",
+   "brand": "KAVU",
+   "name": "メンズ ポーラテックベスト",
+   "category": "wear",
+   "gender": "mens",
+   "price": 17600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "サイズ・素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れた高機能",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://aandfstore.com/products/19823002",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0689/0766/3647/files/19823002001.jpg?v=1725524917",
+    "angle": "main",
+    "src_page": "https://aandfstore.com/products/19823002",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://aandfstore.com/products/19823002",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ポーラテックベストはフリース素材のベストです。",
+    "pros": [
+     "保温：採用したフリースは中肉で軽量、柔らかで滑らかな質感が特長で、保温性と通気性に優れ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
   }
  ]
 }
