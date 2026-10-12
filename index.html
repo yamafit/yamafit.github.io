@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ヤマフィット｜登山装備の選び方と、条件に合う装備の診断</title>
 <meta name="description" content="登山靴・レインウェア・ザック・ポールなどの選び方を、初心者の目線で解説。行き先と悩みに答えると、条件に合う装備を提案します。">
-<link rel="stylesheet" href="css/style.css?v=202610121400">
+<link rel="stylesheet" href="css/style.css?v=202610122100">
 </head>
 <body>
 <div class="page">
@@ -33,6 +33,7 @@
 
 <nav class="cats" aria-label="カテゴリ">
   <span class="cat cat--off" aria-disabled="true">装備診断（実施予定）</span>
+  <a class="cat cat--primary" href="products.html">商品一覧</a>
   <a class="cat" href="category.html?c=boots">登山靴</a>
   <a class="cat" href="category.html?c=pack">ザック</a>
   <a class="cat" href="category.html?c=poles">ポール</a>
@@ -47,6 +48,12 @@
   <div class="feature">
     <img class="photo photo--hero" src="img/hero.jpg" alt="山の稜線を歩く2人と、街を歩く3人が並ぶ、ヤマフィットのメインビジュアル" width="1376" height="768">
   </div>
+</section>
+
+<section class="section" style="gap: 10px" id="featured" hidden>
+  <h2 class="h-section">今週のおすすめ</h2>
+  <div class="sub" id="featured-note"></div>
+  <div id="featured-list" style="display:flex; flex-direction:column; gap:10px"></div>
 </section>
 
 <section class="promo">
@@ -93,6 +100,7 @@
     <button class="tab" type="button" role="tab" id="tab-purchase" aria-selected="false" aria-controls="rank-list">購入</button>
   </div>
   <div class="sub" id="rank-note"></div>
+  <p class="rank-basis">順位は、サイト内のアクセス数・購入数の集計だけで決めています。アフィリエイト報酬の高さは使っていません。</p>
   <ol id="rank-list" role="tabpanel"></ol>
 </section>
 
@@ -109,13 +117,14 @@
     <div class="mono">YAMAFIT</div>
   </div>
 </footer>
-<script src="js/site.js?v=202610121400"></script>
-<script src="js/app.js?v=202610121400"></script>
-<script src="js/menu.js?v=202610121400"></script>
-<script src="js/articles.js?v=202610121400"></script>
-<script src="js/ranking.js?v=202610121400"></script>
-<script src="js/news.js?v=202610121400"></script>
-<script src="js/items.js?v=202610121400"></script>
-<script src="js/shop.js?v=202610121400"></script>
+<script src="js/site.js?v=202610122100"></script>
+<script src="js/app.js?v=202610122100"></script>
+<script src="js/menu.js?v=202610122100"></script>
+<script src="js/articles.js?v=202610122100"></script>
+<script src="js/featured.js?v=202610122100"></script>
+<script src="js/ranking.js?v=202610122100"></script>
+<script src="js/news.js?v=202610122100"></script>
+<script src="js/items.js?v=202610122100"></script>
+<script src="js/shop.js?v=202610122100"></script>
 </body>
 </html>

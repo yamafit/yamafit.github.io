@@ -83,3 +83,12 @@ Chrome で http://localhost:8000 を開く。
 6. 承認後、`data/master/*.json` の `offers[].affiliate_url` にA8の広告リンクを入れ、`node tools/build-products.mjs`。
 
 公開: `git add . && git commit -m "A8審査準備" && git pull --rebase && git push`
+
+## 商品ページ・商品一覧・今週のおすすめ・Instagram素材
+
+- **商品詳細ページ**: `node tools/build-product-pages.mjs` が `data/master/*.json` から `products/<id>.html` を作る（基本情報／主な特徴／メーカー公表の仕様／ヤマフィットの評価／参考情報源と確認日／購入先）。仕様は公式の記載のみ。記載がない項目は「不明」。メディア・ユーザーの評価は未収集で、その旨を明記している。購入リンクは js/shop.js が表示時に作る（未確認のURLは作らず「未設定」）。
+- **商品一覧** `products.html`（js/products.js）: 商品名・ブランドの検索、カテゴリー（アウター／ザック／シューズ ほか）、ブランドの複数選択、価格帯、ゴアテックス。条件は URL に残る。**絞り込みを足す**ときは js/products.js の `FILTERS` に1つ書き足す（重量・防水・容量など）。
+- **今週のおすすめ**: `data/featured.json` を運営者が編集する（`items` の id と順番、`comment` は空なら商品の要約）。記事を公開しても自動では載らない。
+- **ランキング**: 順位はアクセス数・購入数の集計だけで決め、アフィリエイト報酬は使わない（画面にも明記）。
+- **Instagram素材**: `node tools/instagram.mjs <商品ID|記事のslug>` → `out/instagram/<名前>.md`（キャプション・カルーセル構成・見出し・ハッシュタグ候補）。数字は商品マスターから取る。投稿は手動。`SITE.instagramUrl` を入れると商品ページに導線が出る。
+- 更新の流れ: マスター更新 → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`（sitemap も更新）。

@@ -2,48 +2,7 @@
 // content/articles.mjs（原稿）から、articles/<slug>.html・articles.html・data/articles.json・sitemap.xml を作る。
 import fs from "node:fs";
 import { ARTICLES, AUTHOR } from "../content/articles.mjs";
-const SITE_URL = (fs.readFileSync("js/site.js", "utf8").match(/url:\s*"([^"]+)"/) || [])[1] || "";
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const V = Date.now().toString().slice(0, 10);
-const head = (title, desc, path, extra = "") => `<!doctype html>
-<html lang="ja">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}｜ヤマフィット</title>
-<meta name="description" content="${esc(desc)}">
-<meta property="og:title" content="${esc(title)}">
-<meta property="og:description" content="${esc(desc)}">
-<meta property="og:type" content="article">
-<meta property="og:site_name" content="ヤマフィット">
-${SITE_URL ? `<link rel="canonical" href="${SITE_URL}${path}">` : ""}
-<link rel="stylesheet" href="${path.startsWith("/articles/") ? "../" : ""}css/style.css?v=${V}">
-${extra}</head>`;
-const chrome = (rel) => ({
-  top: `<body>
-<div class="page">
-<header class="header header--line" id="top">
-  <a class="logo" href="${rel}index.html"><b>ヤマフィット</b><span>YAMAFIT</span></a>
-  <button class="icon-btn" type="button" aria-label="メニューを開く"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
-</header>
-`,
-  bottom: `</div>
-<footer class="footer">
-  <div class="footer-inner">
-    <nav aria-label="フッター"><a href="${rel}articles.html">記事</a><a href="${rel}news.html">最新記事</a><a href="${rel}about.html">運営者情報</a><a href="${rel}privacy.html">プライバシーポリシー</a><a href="${rel}contact.html">お問い合わせ</a></nav>
-    <div class="mono">YAMAFIT</div>
-  </div>
-</footer>
-<script src="${rel}js/site.js?v=${V}"></script>
-<script src="${rel}js/app.js?v=${V}"></script>
-<script src="${rel}js/menu.js?v=${V}"></script>
-<script src="${rel}js/articles.js?v=${V}"></script>
-<script src="${rel}js/shop.js?v=${V}"></script>
-</body>
-</html>
-`,
-});
-
+import { SITE_URL, esc, V, head, chrome } from "./shell.mjs";
 fs.mkdirSync("articles", { recursive: true });
 const bySlug = Object.fromEntries(ARTICLES.map((a) => [a.slug, a]));
 for (const a of ARTICLES) {
@@ -98,7 +57,7 @@ ${c.bottom}`);
 fs.writeFileSync("data/articles.json", JSON.stringify(ARTICLES.map(({ slug, title, category, date, desc }) => ({ slug, title, category, date, desc })), null, 1));
 
 // sitemap / robots
-const pages = ["index.html", "articles.html", "news.html", "about.html", "contact.html", "privacy.html", ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
+const pages = ["index.html", "articles.html", "news.html", "about.html", "contact.html", "privacy.html", "products.html", ...JSON.parse(fs.readFileSync("data/product-pages.json", "utf8")).map((id) => `products/${id}.html`), ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
 if (SITE_URL) {
   fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map((p) => `  <url><loc>${SITE_URL}${p === "index.html" ? "" : p}</loc></url>`).join("\n")}\n</urlset>\n`);
   fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}sitemap.xml\n`);

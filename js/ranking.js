@@ -1,5 +1,5 @@
 // ホームのランキング：data/rankings.json（tools/build-rankings.mjs が作る）を表示
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const escR = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 document.addEventListener("DOMContentLoaded", async () => {
   const list = document.getElementById("rank-list");
@@ -22,9 +22,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
     note.textContent = `${label[kind]}${data.updated ? "（" + data.updated.slice(0, 10) + " 時点）" : ""}`;
-    list.innerHTML = rows.map((r, i) => `<li class="rank"><a href="${esc(r.url)}">
+    list.innerHTML = rows.map((r, i) => `<li class="rank"><a href="${escR(r.url)}">
       <span class="rank-no">${i + 1}</span>
-      <span class="item-body"><span class="item-title">${esc(r.title)}</span></span>
+      <span class="item-body"><span class="item-title">${escR(r.title)}</span></span>
       <span class="rank-count">${Number(r.count).toLocaleString()}${unit[kind]}</span></a></li>`).join("");
   }
   const initial = list.innerHTML;

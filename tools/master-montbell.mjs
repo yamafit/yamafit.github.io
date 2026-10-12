@@ -73,7 +73,7 @@ const wpOf = (m) => { if (!m) return [null, null]; const gt = m.match(/(ゴア�
   if (/ゴアテックス|ドライテック/.test(m)) return [(gt ? gt[1] : "ゴアテックス/ドライテック").trim().replace(/&[a-z]+;/g, "®"), "waterproof"];
   if (/耐水圧/.test(m)) return ["耐水圧の記載あり（素材欄参照）", "waterproof"];
   if (/はっ水/.test(m)) return ["はっ水加工", "water_repellent"]; return [null, null]; };
-const clean = (s) => (s ? s.replace(/&[a-z]+;/g, "").replace(/\s+/g, " ").trim() : null);
+const clean = (s) => (s ? s.replace(/&sup2;/g, "²").replace(/&[a-z]+;/g, "").replace(/\s+/g, " ").trim() : null);
 
 const products = [];
 for (const r of raw) {

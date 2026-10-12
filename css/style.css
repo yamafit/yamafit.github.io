@@ -385,3 +385,24 @@ img.photo { object-fit: cover; }
 .menu-note{font-size:14px;color:var(--ink-sub);margin:12px 0}
 .menu-body a.menu-item{display:block;padding:12px 0;min-height:0}.menu-item b{display:block;font-size:14px;line-height:1.5}.menu-item span{display:block;font-size:12px;color:var(--ink-sub);margin-top:2px}.menu-item small{display:block;font-family:var(--mono);font-size:12px;color:var(--ink);margin-top:2px}
 .menu-body a.menu-official{margin-top:16px;border:1.5px solid var(--green);border-radius:10px;padding:0 14px;color:var(--green);font-weight:700}
+.article-h3 { margin: 16px 0 6px; font-size: 16px; font-weight: 900; padding-left: 8px; border-left: 4px solid var(--green); }
+.table--kv th { width: 7em; }
+.buy-list { display: flex; flex-direction: column; gap: 8px; }
+.pf { display: flex; flex-direction: column; gap: 14px; }
+.pf-row { display: flex; flex-direction: column; gap: 6px; }
+.pf-brands { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.pf-brands label, .pf-opt { font-size: 14px; display: inline-flex; align-items: center; gap: 6px; }
+.pf select { height: 44px; border: 1.5px solid var(--line); border-radius: 10px; padding: 0 10px; background: var(--surface); font: inherit; }
+.pf-count { font-size: 13px; color: var(--ink-sub); }
+.pcard { display: flex; flex-direction: column; gap: 6px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.pcard b { font-size: 15px; line-height: 1.5; }
+.pcard .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.pcard .tag { font-size: 12px; background: var(--green-tint); color: var(--green); border-radius: 999px; padding: 2px 10px; }
+.pcard .acts { display: flex; gap: 8px; margin-top: 4px; }
+.pcard .acts a, .pcard .acts button { flex: 1; min-height: 44px; display: flex; align-items: center; justify-content: center; border-radius: 10px; font: inherit; font-size: 14px; font-weight: 700; text-decoration: none; cursor: pointer; }
+.pcard .acts a { background: var(--green); color: #fff; border: 0; }
+.pcard .acts button { background: var(--surface); color: var(--ink); border: 1.5px solid var(--ink); }
+.feat { display: flex; flex-direction: column; gap: 6px; padding: 14px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); text-decoration: none; }
+.feat b { font-size: 15px; line-height: 1.5; } .feat p { margin: 0; font-size: 13px; color: var(--ink-sub); line-height: 1.7; }
+.rank-basis { font-size: 12px; color: var(--ink-sub); line-height: 1.7; margin-top: 8px; }
+.sheet-detail{display:block;margin:12px 0 0;font-size:14px;font-weight:700;color:var(--green)}
