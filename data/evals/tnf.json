@@ -799,5 +799,532 @@
    ],
    "concern_reasons": {}
   }
+ },
+ {
+  "key": "/ap/item/i/m/NDW92555",
+  "id": "short-nuptse-jacket-w",
+  "name": "ショートヌプシジャケット",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": 655,
+  "weight_note": "約655g（Lサイズ）",
+  "material": "表地：40D Recycled Nylon Ripstop（はっ水加工）／中わた：CLEANDOWN（ダウン80％、フェザー20％）／肩部分・裏地：Recycled Nylon Cloth",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "CLEANDOWN（ダウン80％、フェザー20％）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "着こなしに取り入れやすい、バランスのよいサイズ感と記載（従来品番とのサイズ比較あり）",
+   "summary": "1992年のヌプシジャケットのデザインを受け継いだ、レディースのショート丈ダウンジャケットです。",
+   "pros": [
+    "表地は強度のある40デニールのリップストップナイロンで、はっ水加工つき",
+    "ザックが当たる肩を厚手のナイロンで補強",
+    "裾のアジャスターコードでシルエットを調節できる"
+   ],
+   "cons": [
+    "約655gと重めで、登山で持ち歩く防寒着には向かない",
+    "防水ではない（はっ水加工）"
+   ],
+   "good_for": [
+    "冬の低山や街で暖かく過ごしたい人"
+   ],
+   "not_for": [
+    "荷物を軽くしたい登山者"
+   ],
+   "concern_reasons": {
+    "cold": "ダウン80％の中わたを使った、ボリュームのあるダウンジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NDW92557",
+  "id": "nuptse-vest-w",
+  "name": "ヌプシベスト",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": 445,
+  "weight_note": "約445g（Lサイズ）",
+  "material": "表地：40D Recycled Nylon Ripstop（はっ水加工）／中わた：CLEANDOWN（ダウン80％、フェザー20％）／肩部分・裏地：Recycled Nylon Cloth",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "CLEANDOWN（ダウン80％、フェザー20％）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "着こなしに取り入れやすい、バランスのよいサイズ感と記載",
+   "summary": "ヌプシジャケットのデザインを受け継いだ、レディースのダウンベストです。",
+   "pros": [
+    "表地は強度のある40デニールのリップストップナイロンで、はっ水加工つき",
+    "袖がないので腕を動かしやすく、重ね着しやすい"
+   ],
+   "cons": [
+    "袖がないため、腕は冷えやすい",
+    "防水ではない（はっ水加工）"
+   ],
+   "good_for": [
+    "冬の低山や街で、重ね着の保温を足したい人"
+   ],
+   "not_for": [
+    "厳冬期の山で使う防寒着を探している人"
+   ],
+   "concern_reasons": {
+    "cold": "ダウン80％の中わたを使ったベストです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92553?outlet",
+  "id": "baltro-jacket",
+  "name": "バルトロジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "material": "表地：50D GORE-TEX WINDSTOPPER Insulated Shell（2層・ePE）／中わた：CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）／裏地：7D Nylon Mini Ripstop Titanium",
+  "waterproof": "GORE-TEX WINDSTOPPER（防風）",
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子（ダウン72％）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "town",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（現代のライフスタイルに合わせやすいシルエットと記載）",
+   "summary": "2000年代を代表するバルトロジャケットを、防風素材GORE-TEX WINDSTOPPERと光電子ダウンでアップデートしたダウンジャケットです。",
+   "pros": [
+    "表地はGORE-TEX WINDSTOPPERの2層素材で、風を通しにくい",
+    "遠赤外線効果で保温が続く光電子ダウンを封入と記載",
+    "裏地はチタンコーティング"
+   ],
+   "cons": [
+    "掲載の価格は通常価格。公式ストアではアウトレット価格で販売されていた（2026-10-12時点）",
+    "重量の記載がない"
+   ],
+   "good_for": [
+    "冬の寒い日に、風に強いダウンが欲しい人"
+   ],
+   "not_for": [
+    "軽さを最優先する登山者"
+   ],
+   "concern_reasons": {
+    "cold": "防風素材と光電子ダウンを組み合わせた、保温性重視のジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92652",
+  "id": "baltro-three-climb-light-jacket",
+  "name": "バルトロスリークライトジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 710,
+  "weight_note": "約710g（Lサイズ）",
+  "material": "表地：30デニールナイロン（はっ水加工）・GORE-TEX WINDSTOPPER 2層（ePEメンブレン）／裏地：ナイロンタフタ／中わた：CLEAN DOWN",
+  "waterproof": "GORE-TEX WINDSTOPPER（防風）",
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEAN DOWN",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "town",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "GORE-TEX WINDSTOPPERの2層構造で防風性を持たせた、しなやかな着心地のダウンジャケットです。",
+   "pros": [
+    "ePEメンブレンのGORE-TEX WINDSTOPPERで風を通しにくい",
+    "中わた入りの内襟で首元が暖かい",
+    "ファスナーポケットが5か所（左右サイド・左右胸・内側）"
+   ],
+   "cons": [
+    "約710gと重め",
+    "防水ではない（はっ水加工）"
+   ],
+   "good_for": [
+    "冬の街や低山で、風に強い暖かいダウンが欲しい人"
+   ],
+   "not_for": [
+    "荷物を軽くしたい登山者"
+   ],
+   "concern_reasons": {
+    "cold": "防風素材とダウンで保温性を高めたジャケットです。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92215?outlet",
+  "id": "belayer-parka",
+  "name": "ビレイヤーパーカ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 760,
+  "weight_note": "約760g（Lサイズ）",
+  "material": "表地：30D GORE-TEX WINDSTOPPER Insulated Shell（2層・ePTFE）／中わた：CLEANDOWN 光電子 PRO（ダウン72％）／裏地：PERTEX Quantum Super DWR",
+  "waterproof": "GORE-TEX WINDSTOPPER（防風）",
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子 PRO（ダウン72％）",
+  "eval": {
+   "season": [
+    "winter"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "tent",
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "濡れたアウターシェルの上から着ることを想定と記載",
+   "summary": "クライミングのビレイ時など、止まっているときの保温を重視したダウンパーカです。",
+   "pros": [
+    "GORE-TEX WINDSTOPPERの内側に光電子プロダウンをたっぷり封入",
+    "濡れたシェルの上から着られるよう、内側もはっ水素材",
+    "内ポケットや大型メッシュポケットなど収納が多い"
+   ],
+   "cons": [
+    "約760gと重め",
+    "掲載の価格は通常価格。公式ストアではアウトレット価格で販売されていた（2026-10-12時点）"
+   ],
+   "good_for": [
+    "冬山や岩場で、休憩・ビレイ時の防寒着が欲しい人"
+   ],
+   "not_for": [
+    "夏山の軽い防寒着を探している人"
+   ],
+   "concern_reasons": {
+    "cold": "保温性を重視したダウンジャケットと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92451",
+  "id": "zi-aconcagua-jacket-m",
+  "name": "ジップインジップアコンカグアジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 410,
+  "weight_note": "約410g（Lサイズ）",
+  "material": "表地・裏地：20D Ripstop Nylon（はっ水加工）／中わた：CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）／別布：NORTHTECH Cloth ECO",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子（ダウン72％）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "バランスのよいサイズ感にアップデートと記載",
+   "summary": "暖かさと軽さを持つ、ノース・フェイスの定番ダウンジャケットです（2002年当時のディテールを復刻）。",
+   "pros": [
+    "20デニールの軽いリップストップナイロンで、はっ水加工つき",
+    "擦れやすい袖口と裾をナイロンタフタで補強",
+    "別売りのアウターにインナーとして連結できるジップインジップ対応",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "防水ではない（多少の雨や雪に対応と記載）"
+   ],
+   "good_for": [
+    "秋冬の山小屋泊や低山で、定番のダウンを選びたい人",
+    "シェルと組み合わせて使いたい人"
+   ],
+   "not_for": [
+    "厳冬期の雪山でこれ1枚で過ごしたい人"
+   ],
+   "concern_reasons": {
+    "cold": "光電子ダウンを使った、暖かさと軽さを持つジャケットと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NDW92451",
+  "id": "zi-aconcagua-jacket-w",
+  "name": "ジップインジップアコンカグアジャケット",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": 345,
+  "weight_note": "約345g（Lサイズ）",
+  "material": "表地・裏地：20D Ripstop Nylon（はっ水加工）／中わた：CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）／別布：NORTHTECH Cloth ECO",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子（ダウン72％）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "バランスのよいサイズ感にアップデートと記載",
+   "summary": "暖かさと軽さを持つ、ノース・フェイスの定番ダウンジャケットのレディースモデルです。",
+   "pros": [
+    "20デニールの軽いリップストップナイロンで、はっ水加工つき",
+    "擦れやすい袖口と裾をナイロンタフタで補強",
+    "ジップインジップ対応で、別売りのアウターと連結できる",
+    "スタッフサック付き"
+   ],
+   "cons": [
+    "防水ではない（多少の雨や雪に対応と記載）"
+   ],
+   "good_for": [
+    "秋冬の山小屋泊や低山で、定番のダウンを選びたい人"
+   ],
+   "not_for": [
+    "厳冬期の雪山でこれ1枚で過ごしたい人"
+   ],
+   "concern_reasons": {
+    "cold": "光電子ダウンを使った、暖かさと軽さを持つジャケットと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92550?outlet",
+  "id": "light-heat-jacket-m",
+  "name": "ライトヒートジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "material": "表地：10D Nylon Double Ripstop with DWR／中わた：CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子（ダウン72％）",
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "時流に合わせたゆとりのあるサイズ感と記載",
+   "summary": "空気を羽織るような着用感の、軽量なインナーダウンジャケットです。",
+   "pros": [
+    "10デニールの軽いナイロンで、はっ水加工つき",
+    "ポケットに本体を収納できるポケッタブル仕様",
+    "ダウンが偏りにくいキルトデザイン"
+   ],
+   "cons": [
+    "ダウン量は抑えめで、冬の外ではこれ1枚だと寒い",
+    "掲載の価格は通常価格。公式ストアではアウトレット価格で販売されていた（2026-10-12時点）",
+    "重量の記載がない"
+   ],
+   "good_for": [
+    "春秋の山で持ち歩く防寒着や、冬の中間着が欲しい人"
+   ],
+   "not_for": [
+    "厳冬期の防寒着を探している人"
+   ],
+   "concern_reasons": {
+    "light": "軽量のインナーダウンで、ポケットに収納できると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NDW92550?outlet",
+  "id": "light-heat-jacket-w",
+  "name": "ライトヒートジャケット",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "material": "表地：10D Nylon Double Ripstop with DWR／中わた：CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "CLEANDOWN 光電子（ダウン72％）",
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "時流に合わせたゆとりのあるサイズ感と記載",
+   "summary": "空気を羽織るような着用感の、軽量なインナーダウンジャケットのレディースモデルです。",
+   "pros": [
+    "10デニールの軽いナイロンで、はっ水加工つき",
+    "ポケットに本体を収納できるポケッタブル仕様",
+    "ダウンが偏りにくいキルトデザイン"
+   ],
+   "cons": [
+    "ダウン量は抑えめで、冬の外ではこれ1枚だと寒い",
+    "掲載の価格は通常価格。公式ストアではアウトレット価格で販売されていた（2026-10-12時点）",
+    "重量の記載がない"
+   ],
+   "good_for": [
+    "春秋の山で持ち歩く防寒着や、冬の中間着が欲しい人"
+   ],
+   "not_for": [
+    "厳冬期の防寒着を探している人"
+   ],
+   "concern_reasons": {
+    "light": "軽量のインナーダウンで、ポケットに収納できると記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/ND92520",
+  "id": "ascent-peak-cloud-down-hoodie",
+  "name": "アセントピーククラウドダウンフーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 510,
+  "weight_note": "約510g（Lサイズ）",
+  "material": "表側：Spectra Rip AC Coating（ナイロン92％、ポリエチレン8％）／中わた：WR CLEANDOWN 900 PRO（ダウン95％、フェザー5％）／裏側：Alplight 7D Ripstop Recycled Nylon Titanium Coating",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "900フィルパワーのはっ水プロダウン（ダウン95％）",
+  "eval": {
+   "season": [
+    "winter"
+   ],
+   "uses": [
+    "winter",
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（アウターシェルの上から着る想定のシルエットと記載）",
+   "summary": "厳冬期を含む積雪期のバリエーションルートでの使用を想定した、900フィルパワーダウンの高保温防寒ジャケットです。",
+   "pros": [
+    "900フィルパワーの高品質はっ水プロダウンで、濡れにも強いと記載",
+    "引き裂き強度の高いスペクトラリップストップ生地",
+    "ダウンの偏りを減らすクラウドダウン構造",
+    "裏地のチタンコーティングで輻射熱による保温を高める"
+   ],
+   "cons": [
+    "価格が132,000円と非常に高い",
+    "3シーズンの山には暖かすぎる"
+   ],
+   "good_for": [
+    "厳冬期の雪山や遠征で、最高クラスの保温着が必要な人"
+   ],
+   "not_for": [
+    "低山や街で使うダウンを探している人"
+   ],
+   "concern_reasons": {
+    "cold": "厳冬期の積雪期ルートを想定した、高保温の防寒ジャケットと記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/ap/item/i/m/NY82510?outlet",
+  "id": "thunder-jacket-m",
+  "name": "サンダージャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 305,
+  "weight_note": "約305g（Lサイズ）",
+  "material": "表地・裏地：PERTEX Quantum ECO／中わた：WR CLEANDOWN PRO（ダウン90％、フェザー10％）／肩部分：GW-RISE-ECOPURE 60G（化繊わた）",
+  "waterproof": null,
+  "waterproof_level": "water_repellent",
+  "warmth": "はっ水ダウン（ダウン90％）＋肩に化繊わた",
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ダウンと化繊わたのよさを合わせた、行動着としても使えるミドラーダウンジャケットです。",
+   "pros": [
+    "ザックでつぶれやすい肩に化繊わたを配置",
+    "はっ水加工したダウンを使用",
+    "軽くて丈夫なPERTEX Quantumの生地",
+    "左胸の内ポケットに収納できるポケッタブル仕様、ジップインジップ対応"
+   ],
+   "cons": [
+    "掲載の価格は通常価格。公式ストアではアウトレット価格で販売されていた（2026-10-12時点）",
+    "防水ではない"
+   ],
+   "good_for": [
+    "ザックを背負って歩きながら着る防寒着が欲しい人"
+   ],
+   "not_for": [
+    "厳冬期の休憩用に厚手のダウンが欲しい人"
+   ],
+   "concern_reasons": {
+    "light": "約305gと軽いと記載されています。",
+    "cold": "ダウンと化繊わたを組み合わせた保温着です。"
+   }
+  }
  }
 ]

@@ -5,10 +5,16 @@ const CATS = {
   poles: { label: "ポール", lead: "膝への負担や荷物の軽さに合わせた、トレッキングポールの選び方。", product: "poles", words: ["トレッキングポール", "ポール", "ストック"] },
   gtx: { label: "ゴアテックス", lead: "防水・透湿のゴアテックス製品を、ジャケット・パンツ・靴にまとめて比較できます。", product: null, words: ["ゴアテックス", "GORE-TEX"] },
   rain: { label: "レインウェア", lead: "耐水圧だけでなく、蒸れにくさで選ぶレインウェア。", product: "rain", words: ["レインウェア", "レインジャケット", "ゴアテックス", "GORE-TEX"] },
+  down: { label: "ダウン", lead: "秋冬の山小屋や休憩の防寒から、雪山・街まで。フィルパワーや重さ、防水・防風の有無で選べるダウンジャケットとベスト。", product: null, words: ["ダウン", "ダウンジャケット", "ヌプシ", "フィルパワー"] },
   wear: { label: "ウェア", lead: "季節に合わせた重ね着と、街でも着られる山のウェア。", product: "wear", words: ["ジャケット", "ウェア", "フリース", "パンツ"] },
   pants: { label: "パンツ", lead: "動きやすさと撥水、街でも穿ける山のパンツの選び方。", product: "pants", words: ["パンツ", "トレッキングパンツ", "ショーツ", "タイツ", "レギンス"] },
   tent: { label: "テント泊", lead: "テントや寝具など、泊まりの装備を選ぶヒント。", product: "tent", words: ["テント", "シュラフ", "寝袋", "キャンプ"] },
 };
+// ダウン：商品名か中わたの記載にダウンを含む上着（パンツ・寝袋・スカートは除く）
+const DOWN_FILL = /CLEAN ?DOWN|ダウン\d+％|ダウン（|フィルパワー|\d{3,4}\s?FP|ダックダウン|グースダウン|EXダウン/i;
+const isDown = (p) => ["wear", "rain"].includes(p.category) && !/パンツ|スカート|スリーピング|シュラフ|ブーティ|ソックス|インナーシーツ|ボタンダウン/i.test(p.name)
+  && (/ダウン|\bdown\b|\d{3,4}\s?FP/i.test(p.name) || DOWN_FILL.test([p.warmth, p.material].join(" ")));
+const downKind = (p) => (/ベスト|vest/i.test(p.name) ? "vest" : "jacket");
 const isGtx = (p) => /gore|ゴア|gtx/i.test([p.name, p.waterproof, p.material].join(" "));
 const gtxKind = (p) => (p.category === "boots" ? "boots" : /パンツ|pants/i.test(p.name) ? "pants" : "jacket");
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -45,6 +51,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         const used = new Set(picks.map((x) => x.id));
         picks = picks.concat(pr.products.filter((p) => isGtx(p) && !used.has(p.id)).slice(0, 3 - picks.length).map((p) => ({ id: p.id, reason: p.default_reason })));
       }
+    } else if (k === "down") { // ダウン：ノース・フェイスとモンベルを中心に3つ
+      const pref = ["tnf-zi-aconcagua-jacket-m", "montbell-1101659", "montbell-1101493", "tnf-belayer-parka", "montbell-1101706"];
+      picks = [];
+      for (const id of pref) if (picks.length < 3 && byId[id] && !picks.some((x) => x.id === id)) picks.push({ id, reason: byId[id].default_reason });
     } else picks = ((rec.categories || {})[cat.product] || []).slice(0, 3);
     recoEl.innerHTML = picks.length ? picks.map((x, i) => {
       const p = byId[x.id]; if (!p) return "";
@@ -73,7 +83,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try { products = (await (await fetch("data/products.json", { cache: "no-cache" })).json()).products; } catch {}
   const recoOrder = {};
   try { const rec = await (await fetch("data/recommendations.json", { cache: "no-cache" })).json(); Object.values(rec.categories || {}).flat().forEach((x, i) => { if (!(x.id in recoOrder)) recoOrder[x.id] = i; }); } catch {}
-  const mine = k === "gtx" ? products.filter(isGtx) : cat.product ? products.filter((p) => p.category === cat.product) : [];
+  const mine = k === "gtx" ? products.filter(isGtx) : k === "down" ? products.filter(isDown) : cat.product ? products.filter((p) => p.category === cat.product) : [];
   const params = new URLSearchParams(location.search);
   const PRICES = [["all", "すべて"], ["0-10000", "〜1万円"], ["10000-30000", "1〜3万円"], ["30000-60000", "3〜6万円"], ["60000-", "6万円〜"]];
   const st = { brand: params.get("b") || "", price: params.get("p") || "all", sort: params.get("s") || "reco" };
@@ -98,8 +108,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const [lo, hi] = range.split("-").map((v) => (v ? Number(v) : null));
     return (lo == null || p.price >= lo) && (hi == null || p.price < hi);
   };
+  const brandRank = (p) => (p.brand === "ザ・ノース・フェイス" ? 0 : p.brand === "モンベル" ? 1 : 2); // ダウンはノース・フェイス→モンベルを先に
   const sorter = {
-    reco: (a, b) => (recoOrder[a.id] ?? 1e9) - (recoOrder[b.id] ?? 1e9),
+    reco: (a, b) => (k === "down" ? brandRank(a) - brandRank(b) : 0) || (recoOrder[a.id] ?? 1e9) - (recoOrder[b.id] ?? 1e9),
     "price-asc": (a, b) => (a.price || 1e12) - (b.price || 1e12),
     "price-desc": (a, b) => (b.price || -1) - (a.price || -1),
     light: (a, b) => (a.weight_g || 1e12) - (b.weight_g || 1e12),
@@ -131,6 +142,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (chg) chg.addEventListener("click", () => { st.brand = ""; st.price = "all"; shownN = PAGE; drawBrands(); drawPrice(); draw(); save(); });
     const groups = k === "gtx"
       ? [["ジャケット", "jacket"], ["パンツ", "pants"], ["靴", "boots"]].map(([label, kd]) => ({ label, items: list.filter((p) => gtxKind(p) === kd) })).filter((g) => g.items.length)
+      : k === "down" ? [["ジャケット・パーカ", "jacket"], ["ベスト", "vest"]].map(([label, kd]) => ({ label, items: list.filter((p) => downKind(p) === kd) })).filter((g) => g.items.length)
       : [{ label: "", items: list }];
     let left = shownN;
     itemsEl.innerHTML = list.length ? groups.map((g) => { const take = g.items.slice(0, Math.max(0, left)); left -= take.length; return (g.label && take.length ? `<h3 class="grp-title">${g.label}（${g.items.length}件）</h3>` : "") + take.map(row).join(""); }).join("") +

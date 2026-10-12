@@ -2,6 +2,1934 @@
  "brand": "モンベル",
  "products": [
   {
+   "id": "montbell-1101312",
+   "brand": "モンベル",
+   "name": "ベンティスカダウンジャケット Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 44000,
+   "weight_g": 767,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "●表地：30デニール・ バリスティック® ナイロン・リップストップ（はっ水加工）／40デニール・ バリスティック® ナイロン・タッサー（肩から袖／はっ水加工）●中綿：800フィルパワー・ EXダウン ●裏地：30デニール・ バリスティック® ナイロン・タフタ",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101312",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101312_dgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101312",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101312",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "winter",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "スリーピングバッグの構造を応用して800フィルパワーのダウンをたっぷり封入した、極寒地向けのダウンジャケットです。",
+    "pros": [
+     "極寒地での使用にも耐える高い保温力と記載",
+     "雪が付きにくいはっ水加工",
+     "摩耗しやすい肩から袖を丈夫な生地で補強",
+     "取り外せるフード、アルパインカフ"
+    ],
+    "cons": [
+     "平均約770gと重い",
+     "春〜秋の山には暖かすぎる"
+    ],
+    "good_for": [
+     "厳冬期の雪山や、極寒の場所で使いたい人"
+    ],
+    "not_for": [
+     "3シーズンの登山用の軽い防寒着を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "極寒地での使用にも耐える保温力があると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101403",
+   "brand": "モンベル",
+   "name": "ポーラーダウン パーカ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 57200,
+   "weight_g": 1230,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：70デニール・ナイロン・タッサー［はっ水加工］ / 裏地：20デニール・ナイロン・タフタ 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL （男女兼用）",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101403",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101403_dkbl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101403",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101403",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "男女兼用",
+    "summary": "南極観測隊などの意見を取り入れた、極寒地向けの保温性と収納を備えたダウンパーカです。",
+    "pros": [
+     "極寒地にも対応する保温性と記載",
+     "耐摩耗性と引き裂き強度の高い表地",
+     "ポケット10個の大きな収納",
+     "肘の立体裁断で動きやすい"
+    ],
+    "cons": [
+     "平均約1.23kgと重い",
+     "登山で持ち歩く用途には向かない"
+    ],
+    "good_for": [
+     "極寒の野外作業や、冬のキャンプで暖かく過ごしたい人"
+    ],
+    "not_for": [
+     "登山中に持ち運ぶ防寒着を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "極寒地にも対応できる保温性があると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101493",
+   "brand": "モンベル",
+   "name": "プラズマ1000 ダウンジャケット Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 27940,
+   "weight_g": 130,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "7デニール・ バリスティック エアライト® ナイロン・リップストップ［はっ水加工］ / 中綿：1000フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：1000フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101493",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101493_ltsv.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101493",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101493",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "程よいフィット感で、中間着としてもアウターとしても使えると記載（ゆったり幅の展開あり）",
+    "summary": "1000フィルパワーのEXダウンを使った、平均重量約120〜140gの超軽量ダウンジャケットです。",
+    "pros": [
+     "平均重量が約120〜140gと非常に軽い（公式記載）",
+     "コンパクトに収納でき、スタッフバッグ付き",
+     "中間着としてもアウターとしても使える"
+    ],
+    "cons": [
+     "フードがない",
+     "極薄の生地のため、引っかけに注意が必要",
+     "防水ではない（はっ水加工）"
+    ],
+    "good_for": [
+     "荷物を軽くしたい人",
+     "1年を通して、行動中や山小屋での防寒着が欲しい人"
+    ],
+    "not_for": [
+     "厳冬期の外での防寒をこれ1枚で済ませたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約120〜140gと、とても軽いと記載されています。",
+     "cold": "1000フィルパワーのダウンを使った保温着です。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101528",
+   "brand": "モンベル",
+   "name": "プラズマ1000 アルパインダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 41800,
+   "weight_g": 236,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "7デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 中綿:1000フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿:1000フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101528",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101528_puid.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101528",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101528",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold",
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "1000フィルパワーのEXダウンを極薄の生地で包んだ、とても軽くコンパクトなダウンパーカです。",
+    "pros": [
+     "1000フィルパワー・EXダウンで、軽さの割に保温性が高いと記載",
+     "平均重量が約220〜240gと非常に軽い（公式記載）",
+     "ジッパー付きポケットなどアウターとして使える機能",
+     "スタッフバッグ付きで小さく収納できる"
+    ],
+    "cons": [
+     "7デニールの極薄生地のため、岩や枝での引っかけに注意が必要",
+     "防水ではない（はっ水加工）",
+     "価格が高め"
+    ],
+    "good_for": [
+     "山小屋泊やテント泊で、軽さを最優先したい人",
+     "秋〜冬の休憩時の防寒着を探している人"
+    ],
+    "not_for": [
+     "岩場や藪でラフに使いたい人"
+    ],
+    "concern_reasons": {
+     "cold": "1000フィルパワーのダウンを封入した、保温性の高いパーカです。",
+     "light": "平均重量が約220〜240gと、とても軽いと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101529",
+   "brand": "モンベル",
+   "name": "プラズマ1000 ダウン ジャケット Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 27390,
+   "weight_g": 116,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "7デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 中綿:1000フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿:1000フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101529",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101529_wt.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101529",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101529",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "程よいフィット感で、中間着としてもアウターとしても使えると記載（ゆったり幅の展開あり）",
+    "summary": "1000フィルパワーのEXダウンを使った、平均重量約120〜140gの超軽量ダウンジャケットです。",
+    "pros": [
+     "平均重量が約120〜140gと非常に軽い（公式記載）",
+     "コンパクトに収納でき、スタッフバッグ付き",
+     "中間着としてもアウターとしても使える"
+    ],
+    "cons": [
+     "フードがない",
+     "極薄の生地のため、引っかけに注意が必要",
+     "防水ではない（はっ水加工）"
+    ],
+    "good_for": [
+     "荷物を軽くしたい人",
+     "1年を通して、行動中や山小屋での防寒着が欲しい人"
+    ],
+    "not_for": [
+     "厳冬期の外での防寒をこれ1枚で済ませたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約120〜140gと、とても軽いと記載されています。",
+     "cold": "1000フィルパワーのダウンを使った保温着です。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101545",
+   "brand": "モンベル",
+   "name": "ローガンダウン パーカ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 39000,
+   "weight_g": 1010,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地:70デニール・フルダル・スパンライク・ナイロン・タッサー[はっ水加工] / 裏地:20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿:800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿:800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL （男女兼用）",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101545",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101545_khgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101545",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101545",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "town",
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "男女兼用",
+    "summary": "厳冬期の野外作業など、寒い中で動きの少ない活動に向けた防寒ダウンパーカです。",
+    "pros": [
+     "三枚差し構造で800フィルパワーのダウンをたっぷり封入",
+     "風雪を和らげるフェイクファー付きフード（取り外し可）",
+     "袖口から冷気が入りにくいインナーカフ"
+    ],
+    "cons": [
+     "平均約1.01kgと重い",
+     "登山の行動中には暖かすぎる"
+    ],
+    "good_for": [
+     "冬のバードウォッチングや野外作業、街での防寒"
+    ],
+    "not_for": [
+     "登山で持ち歩く防寒着を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "厳冬期の寒さに対応する高い保温力があると記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101578",
+   "brand": "モンベル",
+   "name": "プラズマ1000 アルパイン ダウンパーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 40700,
+   "weight_g": 221,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "7デニール・ バリスティック® エアライトナイロン・リップストップ[はっ水加工] / 中綿:1000フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿:1000フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101578",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101578_yl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101578",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101578",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold",
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "1000フィルパワーのEXダウンを極薄の生地で包んだ、とても軽くコンパクトなダウンパーカです。",
+    "pros": [
+     "1000フィルパワー・EXダウンで、軽さの割に保温性が高いと記載",
+     "平均重量が約220〜240gと非常に軽い（公式記載）",
+     "ジッパー付きポケットなどアウターとして使える機能",
+     "スタッフバッグ付きで小さく収納できる"
+    ],
+    "cons": [
+     "7デニールの極薄生地のため、岩や枝での引っかけに注意が必要",
+     "防水ではない（はっ水加工）",
+     "価格が高め"
+    ],
+    "good_for": [
+     "山小屋泊やテント泊で、軽さを最優先したい人",
+     "秋〜冬の休憩時の防寒着を探している人"
+    ],
+    "not_for": [
+     "岩場や藪でラフに使いたい人"
+    ],
+    "concern_reasons": {
+     "cold": "1000フィルパワーのダウンを封入した、保温性の高いパーカです。",
+     "light": "平均重量が約220〜240gと、とても軽いと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101606",
+   "brand": "モンベル",
+   "name": "ライトアルパインダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 26000,
+   "weight_g": 354,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101606",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101606_papri.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101606",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101606",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "800フィルパワーのEXダウンを使い、保温性と軽さのバランスを取った、アウターとして使いやすいダウンです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性が高いと記載",
+     "はっ水加工で雪が付きにくいと記載",
+     "帯電防止加工で静電気を軽減",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "超軽量モデルより重い（平均約280〜360g）"
+    ],
+    "good_for": [
+     "冬の低山や街でも着られるダウンが欲しい人"
+    ],
+    "not_for": [
+     "荷物の軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入した、アウター向けのダウンです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101608",
+   "brand": "モンベル",
+   "name": "ライトアルパインダウン ジャケット Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 23500,
+   "weight_g": 312,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101608",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101608_olyl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101608",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101608",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "800フィルパワーのEXダウンを使い、保温性と軽さのバランスを取った、アウターとして使いやすいダウンです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性が高いと記載",
+     "はっ水加工で雪が付きにくいと記載",
+     "帯電防止加工で静電気を軽減",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "超軽量モデルより重い（平均約280〜360g）"
+    ],
+    "good_for": [
+     "冬の低山や街でも着られるダウンが欲しい人"
+    ],
+    "not_for": [
+     "荷物の軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入した、アウター向けのダウンです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101659",
+   "brand": "モンベル",
+   "name": "スペリオダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 22500,
+   "weight_g": 239,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "10デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101659",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101659_og.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101659",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101659",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンと超軽量の生地を組み合わせた、季節を問わず使いやすいダウンパーカです。",
+    "pros": [
+     "平均重量が約200〜240gと軽い（公式記載）",
+     "厳冬期は中間着、春・秋は防寒着と、季節に合わせて使えると記載",
+     "肘の立体裁断で動きやすい",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "冬の外での行動着としては保温力が足りない場面がある"
+    ],
+    "good_for": [
+     "1枚で長い期間使えるダウンが欲しい人",
+     "初めての登山用ダウンを探している人"
+    ],
+    "not_for": [
+     "厳冬期の外でこれだけで過ごしたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約200〜240gと軽いと記載されています。",
+     "cold": "800フィルパワーのダウンを使った保温着です。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101660",
+   "brand": "モンベル",
+   "name": "スペリオダウン パーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 21200,
+   "weight_g": 202,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "10デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101660",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101660_iv.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101660",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101660",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンと超軽量の生地を組み合わせた、季節を問わず使いやすいダウンパーカです。",
+    "pros": [
+     "平均重量が約200〜240gと軽い（公式記載）",
+     "厳冬期は中間着、春・秋は防寒着と、季節に合わせて使えると記載",
+     "肘の立体裁断で動きやすい",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "冬の外での行動着としては保温力が足りない場面がある"
+    ],
+    "good_for": [
+     "1枚で長い期間使えるダウンが欲しい人",
+     "初めての登山用ダウンを探している人"
+    ],
+    "not_for": [
+     "厳冬期の外でこれだけで過ごしたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約200〜240gと軽いと記載されています。",
+     "cold": "800フィルパワーのダウンを使った保温着です。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101661",
+   "brand": "モンベル",
+   "name": "スペリオダウン ジャケット Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 19500,
+   "weight_g": 190,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "10デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101661",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101661_bgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101661",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101661",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold",
+     "budget"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンを使った、1年を通して使える軽量なダウンジャケットです。",
+    "pros": [
+     "平均重量が約160〜190gと軽い（公式記載）",
+     "厳冬期は中間着、春・秋は防寒着として使えると記載",
+     "スタッフバッグ付きで持ち運びやすい"
+    ],
+    "cons": [
+     "フードがない",
+     "防水ではない（はっ水加工）"
+    ],
+    "good_for": [
+     "初めての登山用ダウンを、手ごろな価格で選びたい人",
+     "夏の高山や山小屋での防寒着が欲しい人"
+    ],
+    "not_for": [
+     "フード付きで頭まで暖かくしたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約160〜190gと軽いと記載されています。",
+     "cold": "800フィルパワーのダウンを使った保温着です。",
+     "budget": "2万円前後の価格で、800フィルパワーのダウンを使ったモデルです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101662",
+   "brand": "モンベル",
+   "name": "スペリオダウン ジャケット Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 18300,
+   "weight_g": 160,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "10デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101662",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101662_lv.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101662",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101662",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent"
+    ],
+    "concerns": [
+     "light",
+     "cold",
+     "budget"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンを使った、1年を通して使える軽量なダウンジャケットです。",
+    "pros": [
+     "平均重量が約160〜190gと軽い（公式記載）",
+     "厳冬期は中間着、春・秋は防寒着として使えると記載",
+     "スタッフバッグ付きで持ち運びやすい"
+    ],
+    "cons": [
+     "フードがない",
+     "防水ではない（はっ水加工）"
+    ],
+    "good_for": [
+     "初めての登山用ダウンを、手ごろな価格で選びたい人",
+     "夏の高山や山小屋での防寒着が欲しい人"
+    ],
+    "not_for": [
+     "フード付きで頭まで暖かくしたい人"
+    ],
+    "concern_reasons": {
+     "light": "平均重量が約160〜190gと軽いと記載されています。",
+     "cold": "800フィルパワーのダウンを使った保温着です。",
+     "budget": "2万円前後の価格で、800フィルパワーのダウンを使ったモデルです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101673",
+   "brand": "モンベル",
+   "name": "ネージュダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 26400,
+   "weight_g": 363,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101673",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101673_bl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101673",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101673",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンを光沢を抑えた生地で包んだ、アウターとして幅広く使えるダウンパーカです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性と軽さを両立と記載",
+     "フィット感を調節できるフード",
+     "光沢を抑えた生地で、街でも着やすい",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない",
+     "クライミング向けの機能は少ない"
+    ],
+    "good_for": [
+     "冬の低山と普段使いを1枚で済ませたい人"
+    ],
+    "not_for": [
+     "本格的な冬山登山用を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入したパーカです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101674",
+   "brand": "モンベル",
+   "name": "ネージュダウン パーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 25000,
+   "weight_g": 322,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101674",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101674_lbl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101674",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101674",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "800フィルパワーのEXダウンを光沢を抑えた生地で包んだ、アウターとして幅広く使えるダウンパーカです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性と軽さを両立と記載",
+     "フィット感を調節できるフード",
+     "光沢を抑えた生地で、街でも着やすい",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない",
+     "クライミング向けの機能は少ない"
+    ],
+    "good_for": [
+     "冬の低山と普段使いを1枚で済ませたい人"
+    ],
+    "not_for": [
+     "本格的な冬山登山用を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入したパーカです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101675",
+   "brand": "モンベル",
+   "name": "ライトアルパイン ダウンパーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 25000,
+   "weight_g": 326,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101675",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101675_bgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101675",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101675",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "800フィルパワーのEXダウンを使い、保温性と軽さのバランスを取った、アウターとして使いやすいダウンです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性が高いと記載",
+     "はっ水加工で雪が付きにくいと記載",
+     "帯電防止加工で静電気を軽減",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "超軽量モデルより重い（平均約280〜360g）"
+    ],
+    "good_for": [
+     "冬の低山や街でも着られるダウンが欲しい人"
+    ],
+    "not_for": [
+     "荷物の軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入した、アウター向けのダウンです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101676",
+   "brand": "モンベル",
+   "name": "ライトアルパイン ダウンジャケット Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 22700,
+   "weight_g": 282,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ バリスティック® ナイロン・リップストップ[はっ水加工・帯電防止加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 中綿：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101676",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101676_pu.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101676",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101676",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "800フィルパワーのEXダウンを使い、保温性と軽さのバランスを取った、アウターとして使いやすいダウンです。",
+    "pros": [
+     "800フィルパワー・EXダウンで保温性が高いと記載",
+     "はっ水加工で雪が付きにくいと記載",
+     "帯電防止加工で静電気を軽減",
+     "スタッフバッグ付き"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "超軽量モデルより重い（平均約280〜360g）"
+    ],
+    "good_for": [
+     "冬の低山や街でも着られるダウンが欲しい人"
+    ],
+    "not_for": [
+     "荷物の軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを封入した、アウター向けのダウンです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101706",
+   "brand": "モンベル",
+   "name": "イグニスダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 39600,
+   "weight_g": 281,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 12デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 裏地：7デニール・ バリスティック エアライト® ナイロン・タフタ / 保温材：1000フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：1000フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101706",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101706_og.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101706",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101706",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold",
+     "light"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックで1000フィルパワーのEXダウンを包み、湿気に強くした軽量のダウンパーカです。",
+    "pros": [
+     "防水透湿素材で、湿度の高い環境でもダウンをドライに保つと記載",
+     "1000フィルパワー・EXダウンを使用",
+     "平均重量が約250〜290gと軽い（公式記載）",
+     "ヘルメットにも合わせやすいデュアルアクスルフード、アルパインカフ"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "価格が高め"
+    ],
+    "good_for": [
+     "結露や雪で濡れやすいテント泊・冬山で使いたい人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "cold": "1000フィルパワーのダウンを防水透湿素材で包んだ、保温性の高いパーカです。",
+     "light": "平均重量が約250〜290gと軽いと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101707",
+   "brand": "モンベル",
+   "name": "イグニスダウン パーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 37800,
+   "weight_g": 246,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 12デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 裏地：7デニール・ バリスティック エアライト® ナイロン・タフタ / 保温材：1000フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：1000フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101707",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101707_yl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101707",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101707",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold",
+     "light"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックで1000フィルパワーのEXダウンを包み、湿気に強くした軽量のダウンパーカです。",
+    "pros": [
+     "防水透湿素材で、湿度の高い環境でもダウンをドライに保つと記載",
+     "1000フィルパワー・EXダウンを使用",
+     "平均重量が約250〜290gと軽い（公式記載）",
+     "ヘルメットにも合わせやすいデュアルアクスルフード、アルパインカフ"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "価格が高め"
+    ],
+    "good_for": [
+     "結露や雪で濡れやすいテント泊・冬山で使いたい人"
+    ],
+    "not_for": [
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "cold": "1000フィルパワーのダウンを防水透湿素材で包んだ、保温性の高いパーカです。",
+     "light": "平均重量が約250〜290gと軽いと記載されています。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101708",
+   "brand": "モンベル",
+   "name": "アルパインダウン パーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 32000,
+   "weight_g": 455,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101708",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101708_bgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101708",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101708",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "ヘルメットの上からも被れるフード（公式記載）",
+    "summary": "800フィルパワーのEXダウンをボックス構造で封入した、冬のクライミング向けの機能を備えたダウンパーカです。",
+    "pros": [
+     "ボックス構造で、軽やかな着心地ながら保温力が高いと記載",
+     "ヘルメットの上から被れるフード",
+     "ハーネスに干渉しにくいダブルスライダージッパー",
+     "耐摩耗性を高めた表地"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "平均約410〜460gと、軽量モデルより重い"
+    ],
+    "good_for": [
+     "冬山や雪山で、休憩やビレイ時の防寒着が欲しい人"
+    ],
+    "not_for": [
+     "夏山の防寒着として軽いものを探している人"
+    ],
+    "concern_reasons": {
+     "cold": "ボックス構造で800フィルパワーのダウンを封入した、冬向けのパーカです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101709",
+   "brand": "モンベル",
+   "name": "アルパインダウン パーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 31000,
+   "weight_g": 406,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地：20デニール・ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "はっ水加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101709",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101709_iv.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101709",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101709",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut",
+     "tent",
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "ヘルメットの上からも被れるフード（公式記載）",
+    "summary": "800フィルパワーのEXダウンをボックス構造で封入した、冬のクライミング向けの機能を備えたダウンパーカです。",
+    "pros": [
+     "ボックス構造で、軽やかな着心地ながら保温力が高いと記載",
+     "ヘルメットの上から被れるフード",
+     "ハーネスに干渉しにくいダブルスライダージッパー",
+     "耐摩耗性を高めた表地"
+    ],
+    "cons": [
+     "防水ではない（はっ水加工）",
+     "平均約410〜460gと、軽量モデルより重い"
+    ],
+    "good_for": [
+     "冬山や雪山で、休憩やビレイ時の防寒着が欲しい人"
+    ],
+    "not_for": [
+     "夏山の防寒着として軽いものを探している人"
+    ],
+    "concern_reasons": {
+     "cold": "ボックス構造で800フィルパワーのダウンを封入した、冬向けのパーカです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101712",
+   "brand": "モンベル",
+   "name": "パーマフロスト ダウンパーカ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 37400,
+   "weight_g": 550,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 30デニール・ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅) （男女兼用）",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101712",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101712_yl.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101712",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101712",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "hut",
+     "town",
+     "winter"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "男女兼用（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックと800フィルパワーのEXダウンをボックス構造で組み合わせた、保温性の高いダウンパーカです。",
+    "pros": [
+     "防水透湿素材で、さまざまな気象条件で着用できると記載",
+     "ボックス構造で保温性が高い",
+     "取り外せるフード"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "平均約550gと重め"
+    ],
+    "good_for": [
+     "冬の寒い日に、天気を気にせず着られるダウンが欲しい人"
+    ],
+    "not_for": [
+     "荷物を軽くしたい登山者"
+    ],
+    "concern_reasons": {
+     "cold": "ボックス構造で800フィルパワーのダウンを封入したパーカです。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101713",
+   "brand": "モンベル",
+   "name": "パーマフロスト ライトダウンパーカ Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 31900,
+   "weight_g": 384,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 12デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL、XXL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101713",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101713_dgn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101713",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101713",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックで800フィルパワーのEXダウンを包んだ、天候の変化に強い軽量ダウンです。",
+    "pros": [
+     "防水透湿素材で、雨や雪、湿気からダウンを守る",
+     "800フィルパワー・EXダウンを使用",
+     "止水性の高いアクアテクトジッパー",
+     "アルパインカフで袖口から冷気が入りにくい"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "防水素材のぶん、同じ厚さの通常のダウンより価格が高い"
+    ],
+    "good_for": [
+     "冬の雨や湿った雪の日にも着たい人",
+     "登山と普段使いを兼ねたい人"
+    ],
+    "not_for": [
+     "完全防水のアウターを求める人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを防水透湿素材で包んでいます。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101714",
+   "brand": "モンベル",
+   "name": "パーマフロスト ライトダウンパーカ Women's",
+   "category": "wear",
+   "gender": "womens",
+   "price": 31350,
+   "weight_g": 342,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 12デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "XS、S、M、L、XL、M-R(M ゆったり幅)、L-R(L ゆったり幅)",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101714",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101714_dbn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101714",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101714",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックで800フィルパワーのEXダウンを包んだ、天候の変化に強い軽量ダウンです。",
+    "pros": [
+     "防水透湿素材で、雨や雪、湿気からダウンを守る",
+     "800フィルパワー・EXダウンを使用",
+     "止水性の高いアクアテクトジッパー",
+     "アルパインカフで袖口から冷気が入りにくい"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "防水素材のぶん、同じ厚さの通常のダウンより価格が高い"
+    ],
+    "good_for": [
+     "冬の雨や湿った雪の日にも着たい人",
+     "登山と普段使いを兼ねたい人"
+    ],
+    "not_for": [
+     "完全防水のアウターを求める人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを防水透湿素材で包んでいます。"
+    }
+   }
+  },
+  {
+   "id": "montbell-1101715",
+   "brand": "モンベル",
+   "name": "パーマフロスト ライトダウンジャケット Men's",
+   "category": "wear",
+   "gender": "mens",
+   "price": 27500,
+   "weight_g": 337,
+   "weight_note": "平均重量",
+   "capacity_l": null,
+   "material": "表地： スーパー ドライテック 2レイヤー / 12デニール・ バリスティック エアライト® ナイロン・リップストップ[はっ水加工] / 裏地：20デニール・ バリスティック® ナイロン・タフタ[帯電防止加工] / 保温材：800フィルパワー・ EXダウン",
+   "waterproof": "スーパー ドライテック 2レイヤー",
+   "waterproof_level": "waterproof",
+   "warmth": "保温材：800フィルパワー・ EXダウン",
+   "size_note": "S、M、L、XL",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101715",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101715_gn.jpg",
+    "angle": "front",
+    "src_page": "https://webshop.montbell.jp/goods/disp.php?product_id=1101715",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1101715",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（ゆったり幅の展開あり）",
+    "summary": "防水透湿素材スーパー ドライテックで800フィルパワーのEXダウンを包んだ、天候の変化に強い軽量ダウンです。",
+    "pros": [
+     "防水透湿素材で、雨や雪、湿気からダウンを守る",
+     "800フィルパワー・EXダウンを使用",
+     "止水性の高いアクアテクトジッパー",
+     "アルパインカフで袖口から冷気が入りにくい"
+    ],
+    "cons": [
+     "シームテープ処理がなく、完全防水ではないと公式に記載",
+     "防水素材のぶん、同じ厚さの通常のダウンより価格が高い"
+    ],
+    "good_for": [
+     "冬の雨や湿った雪の日にも着たい人",
+     "登山と普段使いを兼ねたい人"
+    ],
+    "not_for": [
+     "完全防水のアウターを求める人"
+    ],
+    "concern_reasons": {
+     "cold": "800フィルパワーのダウンを防水透湿素材で包んでいます。"
+    }
+   }
+  },
+  {
    "id": "montbell-1105661",
    "brand": "モンベル",
    "name": "O.D.パンツ ライト Men's",

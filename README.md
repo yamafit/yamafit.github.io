@@ -102,6 +102,8 @@ Chrome で http://localhost:8000 を開く。
 - 取り込み: `tools/collect-montbell.mjs`（モンベル）／`tools/collect-shopify.mjs`（Shopify系：マーモット・ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU）／`tools/collect-list.mjs`・`tools/collect-generic.mjs`（その他。一覧または検索で見つけた公式の商品ページ）
 - 評価の作成: `node tools/eval-auto.mjs <slug> [--only …] [--exclude …] [--per-cat N] [--price first|ld|max] [--map "…=カテゴリ"]` が `data/evals/<slug>.json` を作る。**記載から導ける範囲だけ**を書く（弱点などが読み取れないときは「不明」）。→ `node tools/master-generic.mjs <slug> <表示名>` → `node tools/validate-master.mjs` → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`
 - 商品の毎日追加（.github/workflows/products-daily.yml、毎日3:00）：Shopify製の公式ストア（ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU）の商品一覧から未取り込みの商品だけを data/raw に足し、`sh tools/build-brands.sh` で評価→マスター→商品ページを作り直す。1カテゴリーの上限は build-brands.sh の --per-cat。
+- 追加の取り込み：`tools/collect-extra.sh` を書き換えて push すると、GitHub Actions（collect-extra.yml）が公式ページの記載を data/raw に取り込む。モンベルは `collect-montbell.mjs wear "search:キーワード"`（ONLY/SKIP で名前を絞る）。モンベルの評価は master-montbell.mjs の EVAL（シリーズごと）、TNF は data/evals/tnf.json に書く。
+- ダウンのカテゴリー（category.html?c=down）：商品名か中わたの記載でダウンを判定（js/category.js の isDown）。並びはノース・フェイス→モンベル→その他。
 - 価格・在庫の毎日更新: `tools/refresh-offers.mjs`（取り込み時と同じ価格の読み方にそろえている）
 - サロモン・メレルは24社に含まれないため、`data/archive/` に退避した（サイトには出ない）。
 
