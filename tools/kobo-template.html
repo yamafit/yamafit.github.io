@@ -1,0 +1,759 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>登山靴プロンプト工房</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&family=M+PLUS+1+Code:wght@400;500&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
+<style>
+/* Layout: ギアの仕様書。左に入力票、右に出力（参照シートとプロンプト）。角は小さく、罫線で区切る。 */
+:root{
+  --bg:#ECEFEE; --surface:#F9FAFA; --field:#FFFFFF; --ink:#15201E; --muted:#56635F; --line:#C6CFCC;
+  --accent:#1B5F78; --accent-ink:#FFFFFF; --mark:#F3D36B; --mark-ink:#2A2100;
+  --warn:#A3470B; --ok:#1F6B46; --stage:#DCE2E0;
+  --f-display:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  --f-body:"IBM Plex Sans JP","Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  --f-mono:"M PLUS 1 Code","Osaka-Mono","MS Gothic",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#101615; --surface:#182120; --field:#0E1413; --ink:#E4EAE8; --muted:#9AA8A4; --line:#2F3B39;
+    --accent:#79C0D8; --accent-ink:#06222C; --mark:#5A4A12; --mark-ink:#FCE9A6;
+    --warn:#F0A066; --ok:#7CCBA0; --stage:#0B100F; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101615; --surface:#182120; --field:#0E1413; --ink:#E4EAE8; --muted:#9AA8A4; --line:#2F3B39;
+  --accent:#79C0D8; --accent-ink:#06222C; --mark:#5A4A12; --mark-ink:#FCE9A6;
+  --warn:#F0A066; --ok:#7CCBA0; --stage:#0B100F; color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.7}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:20px;padding-block:28px 56px;display:flex;flex-direction:column;gap:28px}
+h1,h2,h3,p,ol,ul{margin:0}
+ol,ul{padding:0;list-style:none}
+
+.top{display:flex;flex-direction:column;gap:10px}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.12em;color:var(--accent)}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(28px,5vw,44px);line-height:1.15;letter-spacing:.01em;text-wrap:balance}
+.lead{max-width:44em;color:var(--muted)}
+.steps{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:13px;counter-reset:s;padding-block-start:6px}
+.steps li{counter-increment:s;display:flex;gap:8px;align-items:baseline}
+.steps li::before{content:counter(s);font-family:var(--f-mono);font-weight:500;color:var(--accent-ink);background:var(--accent);min-width:1.6em;text-align:center;border-radius:2px;line-height:1.6}
+
+.grid{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.col{display:flex;flex-direction:column;gap:18px;min-width:0}
+
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:18px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.panel h2{font-family:var(--f-display);font-weight:700;font-size:17px;line-height:1.3;display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;justify-content:space-between}
+.panel h2 small{font-family:var(--f-body);font-weight:400;font-size:12px;color:var(--muted)}
+.hint{font-size:12.5px;color:var(--muted);line-height:1.6}
+
+.f{display:flex;flex-direction:column;gap:5px;min-width:0}
+.f label,.lab{font-size:12.5px;font-weight:600;display:flex;gap:6px;align-items:center}
+.req{font-size:10.5px;font-weight:600;color:var(--warn);border:1px solid currentColor;border-radius:2px;padding:0 4px;line-height:1.5}
+input[type=text],textarea,select{font:inherit;font-size:15px;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:3px;padding:8px 10px;width:100%;min-width:0}
+textarea{resize:vertical;min-height:4.6em;line-height:1.6}
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:.75}
+:is(input,textarea,select,button,.drop):focus-visible,.drop:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.check{display:flex;gap:9px;align-items:flex-start;font-size:13.5px}
+.check input{margin-top:.35em;accent-color:var(--accent)}
+details summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accent)}
+details[open] summary{margin-bottom:12px}
+details .inner{display:flex;flex-direction:column;gap:12px}
+
+.drop{position:relative;display:flex;gap:14px;align-items:center;border:1.5px dashed var(--line);border-radius:4px;background:var(--field);padding:14px;cursor:pointer;min-height:96px}
+.drop.over{border-color:var(--accent);border-style:solid}
+.drop input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.drop img{width:84px;height:68px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:2px;flex:none}
+.drop .dtxt{display:flex;flex-direction:column;gap:2px;min-width:0;font-size:13.5px}
+.drop .dtxt b{font-weight:600;overflow-wrap:anywhere}
+.drop .dtxt span{font-size:12px;color:var(--muted)}
+
+.sample{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between;font-size:13px;border:1px solid var(--line);background:var(--field);padding:10px 12px;border-radius:3px}
+.sample b{font-weight:600}
+
+button{font:inherit;font-size:14px;font-weight:600;border-radius:3px;padding:9px 16px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink);line-height:1.4}
+button.ghost{background:transparent;color:var(--accent)}
+button.small{font-size:12.5px;padding:5px 10px}
+button:disabled{opacity:.45;cursor:not-allowed}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.msg{font-size:13px;min-height:1.7em}
+.msg.ok{color:var(--ok)} .msg.warn{color:var(--warn)}
+
+.pills{display:flex;flex-wrap:wrap;gap:8px;font-size:12px}
+.pill{border:1px solid var(--line);border-radius:999px;padding:1px 10px;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;border:1.5px solid currentColor}
+.pill.on{color:var(--ok);border-color:currentColor}
+.pill.on::before{background:currentColor}
+.pill.need{color:var(--warn);border-color:currentColor}
+
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:3px;overflow:hidden;flex-wrap:wrap}
+.seg label{font-size:12.5px;font-weight:600;padding:6px 12px;cursor:pointer;color:var(--muted)}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label:has(input:checked){background:var(--accent);color:var(--accent-ink)}
+.seg label:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:-2px}
+
+.stage{background:var(--stage);border:1px solid var(--line);border-radius:3px;padding:12px;max-height:560px;overflow:auto}
+.stage canvas,.stage img{display:block;width:100%;height:auto;background:#fff}
+
+pre.prompt{margin:0;font-family:var(--f-mono);font-size:13px;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;background:var(--field);border:1px solid var(--line);border-radius:3px;padding:14px 16px;max-height:34rem;overflow:auto}
+pre.prompt mark{background:var(--mark);color:var(--mark-ink);border-radius:2px;padding:0 3px}
+pre.prompt mark.miss{background:transparent;color:var(--warn);border-bottom:1px dashed currentColor;border-radius:0;padding:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted)}
+.legend i{font-style:normal;font-family:var(--f-mono)}
+.legend .a{background:var(--mark);color:var(--mark-ink);padding:0 4px;border-radius:2px}
+.legend .b{color:var(--warn);border-bottom:1px dashed currentColor}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:no-preference){button{transition:opacity .15s}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <p class="eyebrow">性能解説インフォグラフィック用</p>
+    <h1>登山靴プロンプト工房</h1>
+    <p class="lead">商品画像と商品名を入れると、毎回同じ文面のプロンプトと、画像生成AIに添付する参照シートができます。文面と添付物を固定することで、生成結果のぶれを小さくします。</p>
+    <ol class="steps">
+      <li>商品画像と商品名を入れる</li>
+      <li>プロンプトをコピーしてAIに貼る</li>
+      <li>参照シートを保存して同じメッセージに添付する</li>
+    </ol>
+  </header>
+
+  <main class="grid">
+    <div class="col">
+      <div class="sample" id="sampleBar" hidden>
+        <span><b>架空のサンプル</b>が入っています。入力欄に触れるか画像を追加すると消えます。</span>
+        <button type="button" class="ghost small" id="clearSample">今すぐ空にする</button>
+      </div>
+
+      <section class="panel" aria-labelledby="h-prod">
+        <h2 id="h-prod">商品</h2>
+        <div class="f">
+          <span class="lab">商品画像 <span class="req">必須</span></span>
+          <div class="drop" id="drop">
+            <input type="file" id="file" accept="image/*" aria-label="商品画像を選ぶ">
+            <img id="thumb" alt="" hidden>
+            <div class="dtxt">
+              <b id="dropTitle">画像を選ぶ、またはここにドロップ</b>
+              <span id="dropSub">貼り付け（Ctrl+V / ⌘V）もできます。靴を真横から撮った画像が向いています。</span>
+            </div>
+          </div>
+          <div class="actions"><button type="button" class="ghost small" id="removeImg" hidden>画像を外す</button></div>
+        </div>
+        <div class="f">
+          <label for="model">商品名・モデル名 <span class="req">必須</span></label>
+          <input type="text" id="model" autocomplete="off" placeholder="メーカー公式の表記どおりに">
+        </div>
+        <div class="two">
+          <div class="f"><label for="brand">ブランド名</label><input type="text" id="brand" autocomplete="off"></div>
+          <div class="f"><label for="modelJa">日本語の商品名</label><input type="text" id="modelJa" autocomplete="off" placeholder="カタカナ表記など"></div>
+        </div>
+        <div class="f"><label for="color">カラー・バリエーション</label><input type="text" id="color" autocomplete="off"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="h-spec">
+        <h2 id="h-spec">確認済みの仕様 <small>任意</small></h2>
+        <p class="hint">公式サイトで確かめた内容だけを書いてください。ここに書いたものは事実として扱われ、空欄の項目はAIが勝手に補わないよう指示されます。</p>
+        <div class="f"><label for="source">公式サイトのURL・仕様メモ</label><textarea id="source" placeholder="https://…　または製品ページの仕様を貼り付け"></textarea></div>
+        <div class="two">
+          <div class="f"><label for="specWp">防水透湿素材</label><input type="text" id="specWp" autocomplete="off" placeholder="例：GORE-TEX"></div>
+          <div class="f"><label for="specUpper">アッパー素材</label><input type="text" id="specUpper" autocomplete="off" placeholder="例：スエード＋メッシュ"></div>
+          <div class="f"><label for="specMid">ミッドソール</label><input type="text" id="specMid" autocomplete="off" placeholder="例：EVA"></div>
+          <div class="f"><label for="specOut">アウトソール</label><input type="text" id="specOut" autocomplete="off" placeholder="例：Vibram Megagrip"></div>
+          <div class="f"><label for="specWeight">重量</label><input type="text" id="specWeight" autocomplete="off" placeholder="例：約480g（27.0cm片足）"></div>
+          <div class="f"><label for="specDrop">ドロップ・スタックハイト</label><input type="text" id="specDrop" autocomplete="off" placeholder="例：8mm／32-24mm"></div>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="h-set">
+        <h2 id="h-set">出力の設定</h2>
+        <div class="two">
+          <div class="f"><label for="aspect">画像の縦横比</label>
+            <select id="aspect">
+              <option value="16:9">16:9（横長）</option>
+              <option value="4:3">4:3（横長）</option>
+              <option value="1:1">1:1（正方形）</option>
+              <option value="4:5">4:5（縦長）</option>
+              <option value="9:16">9:16（縦長）</option>
+            </select></div>
+          <div class="f"><label for="attach">AIに添付する画像</label>
+            <select id="attach">
+              <option value="sheet">参照シート</option>
+              <option value="photo">元の商品画像のみ</option>
+            </select></div>
+        </div>
+        <label class="check" for="fixed"><input type="checkbox" id="fixed" checked><span>配置と項目数を固定する。タイトル、商品、解説、特徴一覧の位置を毎回同じにします。</span></label>
+        <details id="more">
+          <summary>想定読者と用途を変える</summary>
+          <div class="inner">
+            <div class="f"><label for="reader">想定読者</label><input type="text" id="reader" autocomplete="off"></div>
+            <div class="f"><label for="usage">用途</label><input type="text" id="usage" autocomplete="off"></div>
+            <div class="actions"><button type="button" class="ghost small" id="resetAll">すべての入力を消す</button></div>
+          </div>
+        </details>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="panel" aria-labelledby="h-prompt">
+        <h2 id="h-prompt">プロンプト <small><span class="num" id="count">0</span> 字</small></h2>
+        <div class="pills" id="pills"></div>
+        <div class="actions">
+          <button type="button" id="copy">プロンプトをコピー</button>
+          <button type="button" class="ghost" id="saveTxt" hidden>テキストで保存</button>
+        </div>
+        <p class="msg" id="promptMsg" role="status" aria-live="polite"></p>
+        <pre class="prompt" id="prompt" tabindex="0" aria-label="生成されたプロンプト"></pre>
+        <p class="legend"><span><i class="a">色付き</i> 入力した内容</span><span><i class="b">下線</i> 未入力のためAIへの注意書きに置き換えた箇所</span></p>
+      </section>
+
+      <section class="panel" aria-labelledby="h-sheet">
+        <h2 id="h-sheet">参照シート <small>商品画像と正式名称を1枚にまとめた添付用画像</small></h2>
+        <div class="actions">
+          <div class="seg" role="radiogroup" aria-label="シートに入れる内容">
+            <label><input type="radio" name="sheetMode" id="modeStd" value="std" checked>商品と名称</label>
+            <label><input type="radio" name="sheetMode" id="modeFull" value="full">プロンプト全文も入れる</label>
+          </div>
+          <button type="button" id="saveSheet" hidden>参照シートを保存（PNG）</button>
+        </div>
+        <p class="msg" id="sheetMsg" role="status" aria-live="polite"></p>
+        <div class="stage" id="stage"><canvas id="cv" width="2048" height="1290" aria-label="参照シートのプレビュー"></canvas><img id="sheetImg" alt="参照シート" hidden></div>
+        <p class="hint" id="sheetHint">プロンプト全文を画像に入れると文字が小さくなり、AIが読み違えることがあります。全文入りを使う場合も、プロンプトはテキストで貼り付けてください。</p>
+      </section>
+    </div>
+  </main>
+</div>
+
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const TEXT_IDS=['brand','model','modelJa','color','source','specWp','specUpper','specMid','specOut','specWeight','specDrop','reader','usage'];
+const SPECS=[['specWp','防水透湿素材'],['specUpper','アッパー素材'],['specMid','ミッドソール'],['specOut','アウトソール'],['specWeight','重量'],['specDrop','ドロップ・スタックハイト']];
+const DEFAULTS={reader:'登山初心者から中級者',usage:'登山靴の性能比較、商品紹介、SNS投稿、購入検討用資料'};
+const SAMPLE={brand:'SAMPLE PEAK',model:'Kumotori Mid WP',modelJa:'クモトリ ミッド WP',color:'スレートグレー／シグナルイエロー'};
+const ASPECTS={'16:9':{label:'横長16:9',land:true},'4:3':{label:'横長4:3',land:true},'1:1':{label:'正方形1:1',land:false},'4:5':{label:'縦長4:5',land:false},'9:16':{label:'縦長9:16',land:false}};
+const KEY='tozan-prompt-kobo-v1';
+const CF='"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo","Noto Sans JP","Noto Sans CJK JP",sans-serif';
+const state={img:null,imgName:'',sample:false,downloads:null,imgPreview:false,blob:null,plain:''};
+
+/* ---------- 入力の読み書き ---------- */
+function collect(){
+  const d={};
+  TEXT_IDS.forEach(id=>d[id]=$(id).value.trim());
+  d.aspect=$('aspect').value; d.attach=$('attach').value; d.fixed=$('fixed').checked;
+  d.full=$('modeFull').checked;
+  return d;
+}
+function persist(){
+  if(state.sample) return;
+  try{
+    const d={}; TEXT_IDS.forEach(id=>d[id]=$(id).value);
+    d.aspect=$('aspect').value; d.attach=$('attach').value; d.fixed=$('fixed').checked;
+    localStorage.setItem(KEY,JSON.stringify(d));
+  }catch(e){}
+}
+function restore(){
+  let d=null;
+  try{d=JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){}
+  $('reader').value=DEFAULTS.reader; $('usage').value=DEFAULTS.usage;
+  if(d&&typeof d==='object'){
+    TEXT_IDS.forEach(id=>{if(typeof d[id]==='string') $(id).value=d[id]});
+    if(ASPECTS[d.aspect]) $('aspect').value=d.aspect;
+    if(d.attach==='sheet'||d.attach==='photo') $('attach').value=d.attach;
+    if(typeof d.fixed==='boolean') $('fixed').checked=d.fixed;
+    if(!$('reader').value.trim()) $('reader').value=DEFAULTS.reader;
+    if(!$('usage').value.trim()) $('usage').value=DEFAULTS.usage;
+  }else{
+    Object.keys(SAMPLE).forEach(id=>$(id).value=SAMPLE[id]);
+    state.sample=true; $('sampleBar').hidden=false;
+  }
+}
+function dropSample(){
+  if(!state.sample) return;
+  Object.keys(SAMPLE).forEach(id=>{if($(id).value===SAMPLE[id]) $(id).value=''});
+  state.sample=false; $('sampleBar').hidden=true;
+}
+
+/* ---------- プロンプト ---------- */
+const V=s=>'\u0001'+s+'\u0002';
+const M=s=>'\u0003'+s+'\u0004';
+function buildPrompt(d){
+  const v=(s,fb)=>s?V(s):M(fb);
+  const asp=ASPECTS[d.aspect], sheet=d.attach==='sheet';
+  const specs=SPECS.filter(k=>d[k[0]]).map(k=>'  * '+k[1]+'：'+V(d[k[0]]));
+  const src=d.source.replace(/\s*\n\s*/g,' ／ ');
+  const P=[];
+  P.push(
+`登山靴・アウトドアシューズ 性能解説インフォグラフィック生成プロンプト
+
+あなたの役割
+
+あなたは、登山用品・アウトドアギアに精通したプロダクトデザイナー、テクニカルライター、広告ビジュアルデザイナーです。
+
+入力された商品画像をもとに、登山靴の外観を忠実に再現し、性能・構造・素材・使用上の特徴を視覚的に解説する、高品質な日本語インフォグラフィックを作成してください。
+
+単なる広告画像ではなく、登山靴の購入を検討している人が、製品の特徴や適した用途を理解できる解説資料にしてください。
+
+1. 入力情報
+
+* ブランド名：${v(d.brand,'未入力（添付画像のロゴから明確に読み取れる場合のみ掲載し、読み取れない場合は掲載しない）')}
+* 商品名・モデル名：${v(d.model,'【未入力】')}
+* 日本語の商品名：${v(d.modelJa,'未入力（正式な商品名の一般的なカタカナ表記を使用し、確認できない場合は省略）')}
+* カラー・バリエーション：${v(d.color,'未入力（添付画像の配色に従い、色名は断定しない）')}
+* 商品画像：${sheet?'添付した参照シートの「商品画像」枠内の靴を使用':'添付画像を使用'}
+* 商品公式サイト・製品仕様：${v(src,'未入力（検索できる場合は公式メーカーサイトで確認し、確認できない仕様は掲載しない）')}`);
+  if(specs.length) P.push('* 利用者が確認済みの仕様：\n'+specs.join('\n'));
+  P.push(
+`* 想定読者：${V(d.reader||DEFAULTS.reader)}
+* 用途：${V(d.usage||DEFAULTS.usage)}
+* 画像内の言語：日本語
+* 画像の縦横比：${V(d.aspect)}
+
+2. 最重要条件：商品画像の忠実な再現
+`);
+  if(sheet) P.push(
+`添付画像は「参照シート」です。シート内の「商品画像」枠に写っている靴だけを参照対象とし、シートに記載されたブランド名・商品名を正式な表記としてそのまま使用してください。
+
+参照シート自体の枠・ラベル・説明文・余白は、完成画像に描かないでください。
+`);
+  P.push(
+`添付した商品画像を、イラストの中心となる最優先の参照画像として使用してください。
+
+以下の要素を可能な限り正確に維持してください。
+
+* 靴のシルエット、全体の比率、つま先とかかとの形状
+* アッパーの素材感、メッシュの模様、補強パーツ
+* 靴紐、ハトメ、タン、履き口、ヒールループ
+* ソールの厚さ、形状、ラグパターン
+* ブランドロゴ、コラボロゴ、配色、ラインの位置
+* 靴の向きと側面から見た構図
+
+別モデルの靴に置き換えたり、元画像に存在しない機能や装飾を追加したりしないでください。
+
+商品画像が小さい場合や細部が不鮮明な場合、確認できない部分を勝手に作り込まず、推測による断定を避けてください。
+
+3. 商品性能の調査・情報の正確性
+
+可能な場合は、公式メーカーサイトの製品ページ、公式技術資料、取扱説明書を優先して製品仕様を確認してください。
+`);
+  if(specs.length) P.push(
+`「1. 入力情報」の「利用者が確認済みの仕様」は、確認済みの事実として使用してください。そこに記載のない技術名称や数値は、公式情報で確認できた場合に限り掲載してください。
+`);
+  P.push(
+`次の項目を調べ、当該モデルに実際に採用されている機能だけを掲載してください。
+
+* 防水性・透湿性
+* アッパー素材と通気性
+* ミッドソールの素材とクッション性
+* アウトソールのメーカー・技術・グリップ特性
+* フィット感と足型設計
+* かかとの安定性
+* つま先の保護・耐摩耗性
+* 重量と軽量性
+* ドロップ値、スタックハイトなどの設計仕様
+* 想定される使用シーンと適した登山スタイル
+
+情報が確認できない項目は掲載しないでください。
+
+特に、GORE-TEX、Vibram、EGO、ZERO DROPなどの技術名称は、その商品への採用が確認できた場合に限り使用してください。
+
+防水性能、滑りにくさ、疲労軽減などについても、過度な保証表現を避けてください。
+
+公式情報に記載された事実と、一般的な構造から考えられる特徴を区別してください。
+
+4. デザイン・レイアウト
+
+${asp.label}の、高解像度のアウトドア用品専門カタログ風インフォグラフィックにしてください。
+
+デザインの方向性：
+
+* 本格的な登山用品ブランドの広告ビジュアル
+* 山岳風景、登山道、岩場、森林などの自然背景
+* 中央に大きく配置した商品画像
+* 商品の周囲に配置した性能解説と指示線
+* 各部位を拡大した円形のディテール画像
+* 下部に配置した性能アイコンと特徴一覧
+* 商品の色に合わせた統一感のある配色
+* 見やすい余白と明確な情報の優先順位
+
+背景は商品を引き立てるために使用し、靴の輪郭や細部が埋もれないようにしてください。
+
+文字・アイコン・指示線が商品本体を不必要に覆わないように配置してください。
+
+5. 掲載する情報の構成
+
+A. タイトルエリア
+
+次の情報を大きく、正確に掲載してください。
+
+* ブランド名
+* 正式な商品名
+* 日本語の商品名
+* 商品の特徴を表す短いキャッチコピー
+
+B. 商品紹介
+
+製品のコンセプト、設計思想、適した使用シーンを2～4行程度で簡潔に説明してください。
+
+C. 商品の各部位と性能
+
+実際の仕様を確認したうえで、重要な特徴を5～7項目程度選択してください。
+
+各項目は次の形式で構成してください。
+
+1. 特徴が一目で分かる見出し
+2. どの部位に関係する特徴なのか
+3. 技術や素材の説明
+4. 登山時にどのような利点が期待できるか
+
+商品の該当箇所に指示線を引き、対応する説明を明確にしてください。
+
+D. ディテール拡大図
+
+商品画像で確認できる範囲を中心に、次のような部位を拡大して表示してください。
+
+* アッパー素材
+* 靴紐・フィット構造
+* つま先の補強
+* ミッドソール
+* アウトソールのラグ
+* ヒール周辺の構造
+
+元画像で確認できない模様や構造を、実物のディテールであるかのように描写しないでください。
+
+E. 下部の特徴一覧
+
+重要な特徴を5～6項目のアイコン付き一覧にまとめてください。
+
+各項目は「短い見出し＋短い説明」で統一し、スマートフォンでも読める文字サイズにしてください。
+
+F. 総合評価
+
+最後に以下を簡潔に整理してください。
+
+* 向いている人
+* 向いている使用シーン
+* 購入前に確認したい注意点
+
+製品仕様から判断できない情報は断定しないでください。
+
+6. 日本語の品質
+
+日本語は自然で、専門用語の使い方が正確な文章にしてください。
+
+以下を厳守してください。
+
+* 誤字・脱字・文字化けを可能な限り防ぐ
+* 商品名、ブランド名、技術名称を正確に表記する
+* 意味のない文字列を生成しない
+* 不自然な直訳表現を避ける
+* 長文を画像内に詰め込みすぎない
+* 文字と背景のコントラストを十分に確保する
+* 同じ説明を複数箇所に重複させない
+
+情報量よりも、正確性・視認性・読みやすさを優先してください。
+
+7. 最終品質基準
+
+完成画像は以下の条件を満たすものとします。
+
+* 添付画像の商品が主役になっている
+* 商品名とブランドが正しい
+* 商品の形状やカラーが元画像に近い
+* 各性能の説明が該当する部位と対応している
+* 根拠のない技術名称や性能を掲載していない
+* 指示線が正しい部位を指している
+* 日本語が読みやすい
+* 情報が整理されている
+* SNSや商品紹介資料として使用できる完成度である
+`);
+  if(d.fixed) P.push(asp.land?
+`8. 固定レイアウト
+
+毎回同じ配置で生成してください。項目の位置、並び順、項目数を変更しないでください。
+
+* 上部左：タイトルエリア（ブランド名、正式な商品名、日本語の商品名、キャッチコピーの順）
+* 上部右：商品紹介（2～4行）
+* 中央：商品画像（画面幅の約45%、添付画像と同じ向き）
+* 商品の左右：性能解説を6項目（左に3項目、右に3項目）。各項目から商品の該当箇所へ指示線を1本ずつ引く
+* 商品の下：円形のディテール拡大図を4点、横一列
+* 下部の帯：アイコン付きの特徴一覧を6項目、横一列
+* 右下：総合評価（向いている人、向いている使用シーン、購入前に確認したい注意点の順）
+
+確認できた特徴が6項目に満たない場合は、確認できた数だけ掲載し、数を合わせるために特徴を創作しないでください。
+`:
+`8. 固定レイアウト
+
+毎回同じ配置で生成してください。項目の位置、並び順、項目数を変更しないでください。上から次の順に配置します。
+
+* 1段目：タイトルエリア（ブランド名、正式な商品名、日本語の商品名、キャッチコピーの順）
+* 2段目：商品紹介（2～4行）
+* 3段目：商品画像（画面幅の約80%、添付画像と同じ向き）と、その上下に配置した性能解説6項目。各項目から商品の該当箇所へ指示線を1本ずつ引く
+* 4段目：円形のディテール拡大図を4点、横一列
+* 5段目：アイコン付きの特徴一覧を6項目（2列×3行）
+* 6段目：総合評価（向いている人、向いている使用シーン、購入前に確認したい注意点の順）
+
+確認できた特徴が6項目に満たない場合は、確認できた数だけ掲載し、数を合わせるために特徴を創作しないでください。
+`);
+  P.push(`すべての条件を満たすことを目指し、装飾性だけでなく製品情報の正確性を最優先にした、縦横比${d.aspect}の画像を1枚生成してください。`);
+  return P.join('\n');
+}
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function renderPrompt(d){
+  const raw=buildPrompt(d);
+  state.plain=raw.replace(/[\u0001-\u0004]/g,'');
+  $('prompt').innerHTML=esc(raw).replace(/\u0001/g,'<mark>').replace(/\u0003/g,'<mark class="miss">').replace(/[\u0002\u0004]/g,'</mark>');
+  $('count').textContent=state.plain.length.toLocaleString('ja-JP');
+}
+
+/* ---------- 参照シート（Canvas） ---------- */
+function wrap(ctx,text,maxW){
+  const out=[];
+  String(text).split('\n').forEach(para=>{
+    if(!para){out.push('');return;}
+    let toks=para.match(/[A-Za-z0-9][A-Za-z0-9_\-.\/:%+#&'?=]*|\s+|./gu)||[];
+    toks=toks.flatMap(t=>ctx.measureText(t).width>maxW?Array.from(t):[t]);
+    let line='';
+    toks.forEach(t=>{
+      const test=line+t;
+      if(!line||ctx.measureText(test).width<=maxW||/^[、。，．）」』】！？・ー：；,.\s]+$/.test(t)) line=test;
+      else{out.push(line);line=t.replace(/^\s+/,'');}
+    });
+    out.push(line);
+  });
+  return out;
+}
+function layoutPanel(ctx,d,x,y,w,draw){
+  const INK='#111111',MUTED='#555555';
+  const field=(label,val,size,maxLines)=>{
+    ctx.font='500 22px '+CF; if(draw){ctx.fillStyle=MUTED;ctx.fillText(label,x,y+22);} y+=38;
+    ctx.font='700 '+size+'px '+CF;
+    wrap(ctx,val,w).slice(0,maxLines).forEach(l=>{if(draw){ctx.fillStyle=INK;ctx.fillText(l,x,y+size*0.9);} y+=Math.round(size*1.32);});
+    y+=24;
+  };
+  if(d.brand) field('ブランド名',d.brand,42,3);
+  field('商品名・モデル名',d.model||'未入力',42,4);
+  if(d.modelJa) field('日本語の商品名',d.modelJa,34,3);
+  if(d.color) field('カラー・バリエーション',d.color,30,3);
+  const specs=SPECS.filter(k=>d[k[0]]);
+  const heading=t=>{
+    y+=6; if(draw){ctx.strokeStyle='#BBBBBB';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+w,y);ctx.stroke();}
+    y+=22; ctx.font='700 24px '+CF; if(draw){ctx.fillStyle=INK;ctx.fillText(t,x,y+22);} y+=44;
+  };
+  const bullets=(items,size)=>{
+    ctx.font='400 '+size+'px '+CF;
+    items.forEach(t=>{
+      wrap(ctx,t,w-size-4).forEach((l,i)=>{
+        if(draw){ctx.fillStyle=INK; if(i===0) ctx.fillText('・',x,y+size*0.9); ctx.fillText(l,x+size+4,y+size*0.9);}
+        y+=Math.round(size*1.45);
+      });
+      y+=6;
+    });
+  };
+  if(specs.length){heading('確認済みの仕様'); bullets(specs.map(k=>k[1]+'：'+d[k[0]]),24); y+=10;}
+  heading('参照ルール');
+  bullets(['靴の形状、配色、ロゴ、ソールはこの画像に合わせる','名称はこのシートの表記をそのまま使う','画像で確認できない細部を作り込まない','このシートの枠、ラベル、文字は完成画像に入れない'],23);
+  return y;
+}
+function drawBoot(ctx,bx,by,bw,bh){
+  const s=Math.min(bw/400,bh/300)*0.72, ox=bx+(bw-400*s)/2, oy=by+(bh-300*s)/2-20;
+  const p=(x,y)=>[ox+x*s,oy+y*s];
+  ctx.save(); ctx.strokeStyle='#9AA3A0'; ctx.lineWidth=5; ctx.setLineDash([18,12]); ctx.lineJoin='round'; ctx.fillStyle='#F3F5F4';
+  ctx.beginPath();
+  ctx.moveTo(...p(70,232)); ctx.lineTo(...p(64,95)); ctx.quadraticCurveTo(...p(68,60),...p(105,58)); ctx.lineTo(...p(168,58));
+  ctx.quadraticCurveTo(...p(186,60),...p(190,82)); ctx.lineTo(...p(198,128)); ctx.quadraticCurveTo(...p(245,160),...p(305,176));
+  ctx.quadraticCurveTo(...p(362,192),...p(364,232)); ctx.closePath(); ctx.fill(); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(...p(52,232)); ctx.lineTo(...p(372,232)); ctx.lineTo(...p(372,256)); ctx.quadraticCurveTo(...p(372,266),...p(360,266));
+  ctx.lineTo(...p(60,266)); ctx.quadraticCurveTo(...p(50,266),...p(50,256)); ctx.closePath(); ctx.fill(); ctx.stroke();
+  ctx.setLineDash([]); ctx.lineWidth=4;
+  [[178,84,205,78],[186,104,214,100],[196,124,226,122],[214,142,244,140]].forEach(a=>{ctx.beginPath();ctx.moveTo(...p(a[0],a[1]));ctx.lineTo(...p(a[2],a[3]));ctx.stroke();});
+  ctx.restore();
+  ctx.fillStyle='#555555'; ctx.textAlign='center'; ctx.font='700 34px '+CF;
+  ctx.fillText('サンプル枠：商品画像を追加してください',bx+bw/2,oy+300*s+50);
+  ctx.textAlign='left';
+}
+function fitText(ctx,text,maxW,size,min,weight){
+  let s=size; do{ctx.font=weight+' '+s+'px '+CF; if(ctx.measureText(text).width<=maxW) break; s-=2;}while(s>min);
+  let t=text; while(ctx.measureText(t).width>maxW&&t.length>2) t=t.slice(0,-2)+'…';
+  return t;
+}
+function drawSheet(){
+  const d=collect(), cv=$('cv');
+  const W=2048,PAD=56,PX=1392,PW=W-PX-PAD,TOP=204,LH=33,GAP=48;
+  const mctx=document.createElement('canvas').getContext('2d');
+  const panelBottom=layoutPanel(mctx,d,PX,TOP+10,PW,false);
+  const baseH=Math.max(1290,Math.ceil(panelBottom+96));
+  let lines=null,perCol=0,fullH=0; const colW=(W-PAD*2-GAP*2)/3;
+  if(d.full){
+    mctx.font='400 21px '+CF; lines=wrap(mctx,state.plain,colW);
+    perCol=Math.ceil(lines.length/3); fullH=120+perCol*LH+56;
+  }
+  cv.width=W; cv.height=baseH+fullH;
+  const ctx=cv.getContext('2d');
+  ctx.fillStyle='#FFFFFF'; ctx.fillRect(0,0,W,cv.height);
+  ctx.textBaseline='alphabetic'; ctx.textAlign='left';
+  // 見出し
+  ctx.fillStyle='#555555'; ctx.font='500 26px '+CF; ctx.fillText('参照シート｜商品画像と正式名称',PAD,66);
+  ctx.textAlign='right'; ctx.fillText('この枠・ラベル・文字は完成画像に描かない',W-PAD,66); ctx.textAlign='left';
+  const title=[d.brand,d.model].filter(Boolean).join('　')||'商品名 未入力';
+  ctx.fillStyle='#111111'; ctx.fillText(fitText(ctx,title,W-PAD*2,70,34,'900'),PAD,150);
+  ctx.strokeStyle='#111111'; ctx.lineWidth=3; ctx.beginPath(); ctx.moveTo(PAD,178); ctx.lineTo(W-PAD,178); ctx.stroke();
+  // 商品画像枠
+  const bx=PAD,by=TOP,bw=PX-PAD-44,bh=baseH-TOP-96;
+  ctx.fillStyle='#FFFFFF'; ctx.fillRect(bx,by,bw,bh);
+  if(state.img){
+    const im=state.img, inset=28, s=Math.min((bw-inset*2)/im.naturalWidth,(bh-inset*2)/im.naturalHeight);
+    const iw=im.naturalWidth*s, ih=im.naturalHeight*s;
+    ctx.imageSmoothingQuality='high';
+    ctx.drawImage(im,bx+(bw-iw)/2,by+(bh-ih)/2,iw,ih);
+  }else drawBoot(ctx,bx,by,bw,bh);
+  ctx.strokeStyle='#BBBBBB'; ctx.lineWidth=2; ctx.strokeRect(bx,by,bw,bh);
+  ctx.fillStyle='#555555'; ctx.font='500 26px '+CF;
+  ctx.fillText('商品画像：この靴の形状・配色・ロゴ・ソールを忠実に再現する',bx,by+bh+46);
+  layoutPanel(ctx,d,PX,TOP+10,PW,true);
+  // プロンプト全文
+  if(lines){
+    let y=baseH;
+    ctx.strokeStyle='#111111'; ctx.lineWidth=3; ctx.beginPath(); ctx.moveTo(PAD,y); ctx.lineTo(W-PAD,y); ctx.stroke();
+    ctx.fillStyle='#111111'; ctx.font='700 30px '+CF; ctx.fillText('生成指示（プロンプト全文）',PAD,y+58);
+    ctx.font='400 21px '+CF;
+    lines.forEach((l,i)=>{const c=Math.floor(i/perCol), r=i%perCol; ctx.fillText(l,PAD+c*(colW+GAP),y+120+r*LH);});
+  }
+  state.blob=null;
+  try{cv.toBlob(b=>{state.blob=b},'image/png');}catch(e){}
+  if(state.imgPreview){ try{$('sheetImg').src=cv.toDataURL('image/png');}catch(e){} }
+}
+
+/* ---------- 画面更新 ---------- */
+let t=null;
+function update(){
+  const d=collect();
+  renderPrompt(d);
+  const hasName=!!d.model, hasImg=!!state.img;
+  $('pills').innerHTML='';
+  [['商品名',hasName,true],['商品画像',hasImg,true],['ブランド名',!!d.brand,false],['確認済みの仕様',SPECS.some(k=>d[k[0]])||!!d.source,false]].forEach(a=>{
+    const s=document.createElement('span'); s.className='pill'+(a[1]?' on':(a[2]?' need':'')); s.textContent=a[0]+(a[1]?' 入力済み':' 未入力'); $('pills').appendChild(s);
+  });
+  $('copy').disabled=!hasName; $('saveTxt').disabled=!hasName;
+  $('saveSheet').disabled=!(hasName&&hasImg);
+  if(!hasName) setMsg('promptMsg','商品名・モデル名を入れるとコピーできます。','warn');
+  else if($('promptMsg').dataset.auto==='1') setMsg('promptMsg','','');
+  if(!hasImg) setMsg('sheetMsg','商品画像を追加すると、参照シートを保存できます。','warn');
+  else if(!hasName) setMsg('sheetMsg','商品名・モデル名を入れると、参照シートを保存できます。','warn');
+  else if($('sheetMsg').dataset.auto==='1') setMsg('sheetMsg',state.imgPreview?'画像を長押し（パソコンは右クリック）して保存できます。':'','');
+  $('sheetHint').textContent=d.attach==='photo'?'いまの設定は「元の商品画像のみ」です。参照シートを添付するときは、出力の設定で「参照シート」を選んでからプロンプトをコピーしてください。':'プロンプト全文を画像に入れると文字が小さくなり、AIが読み違えることがあります。全文入りを使う場合も、プロンプトはテキストで貼り付けてください。';
+  clearTimeout(t); t=setTimeout(drawSheet,160);
+  persist();
+}
+function setMsg(id,text,kind,manual){
+  const el=$(id); el.textContent=text; el.className='msg'+(kind?' '+kind:''); el.dataset.auto=manual?'0':'1';
+  if(manual) setTimeout(()=>{ if(el.textContent===text){el.dataset.auto='1'; update();} },6000);
+}
+function safeName(ext){
+  const d=collect(); const base=[d.brand,d.model].filter(Boolean).join('_').replace(/[\\\/:*?"<>|\s]+/g,'_').slice(0,60)||'tozan';
+  return base+ext;
+}
+
+/* ---------- 画像の読み込み ---------- */
+function loadFile(file){
+  if(!file) return;
+  if(!/^image\//.test(file.type)&&!/\.(png|jpe?g|webp|gif|heic|avif)$/i.test(file.name||'')){
+    setMsg('sheetMsg','画像ファイルを選んでください（JPEG、PNG、WebP）。','warn',true); return;
+  }
+  const fr=new FileReader();
+  fr.onload=()=>{
+    const im=new Image();
+    im.onload=()=>{
+      dropSample();
+      state.img=im; state.imgName=file.name||'貼り付けた画像';
+      $('thumb').src=fr.result; $('thumb').hidden=false; $('removeImg').hidden=false;
+      $('dropTitle').textContent=state.imgName;
+      $('dropSub').textContent=im.naturalWidth+' × '+im.naturalHeight+' px　別の画像に替えるにはここを押す';
+      update();
+    };
+    im.onerror=()=>setMsg('sheetMsg','この画像は読み込めませんでした。JPEGかPNGで保存し直してから選んでください。','warn',true);
+    im.src=fr.result;
+  };
+  fr.onerror=()=>setMsg('sheetMsg','ファイルを読み込めませんでした。もう一度選んでください。','warn',true);
+  fr.readAsDataURL(file);
+}
+function removeImage(){
+  state.img=null; state.imgName=''; $('file').value='';
+  $('thumb').hidden=true; $('thumb').removeAttribute('src'); $('removeImg').hidden=true;
+  $('dropTitle').textContent='画像を選ぶ、またはここにドロップ';
+  $('dropSub').textContent='貼り付け（Ctrl+V / ⌘V）もできます。靴を真横から撮った画像が向いています。';
+  update();
+}
+
+/* ---------- 保存とコピー ---------- */
+function useImgFallback(){
+  state.imgPreview=true; $('saveSheet').hidden=true; $('saveTxt').hidden=true;
+  $('cv').hidden=true; $('sheetImg').hidden=false;
+  try{$('sheetImg').src=$('cv').toDataURL('image/png');}catch(e){}
+  update();
+}
+async function save(filename,data,msgId,doneText){
+  try{
+    await state.downloads.save({filename,data});
+    setMsg(msgId,doneText,'ok',true);
+  }catch(e){
+    const c=e&&e.code;
+    if(c==='declined') setMsg(msgId,'保存を取り消しました。','',true);
+    else if(c==='rate_limited') setMsg(msgId,'保存の確認がすでに開いています。少し待ってからもう一度押してください。','warn',true);
+    else if(c==='too_large') setMsg(msgId,'ファイルが大きすぎて保存できません。小さい商品画像で試してください。','warn',true);
+    else{ state.downloads=null; useImgFallback(); }
+  }
+}
+function start(){
+  restore();
+  TEXT_IDS.forEach(id=>{
+    $(id).addEventListener('input',update);
+    $(id).addEventListener('focus',()=>{ if(state.sample){dropSample();update();} });
+  });
+  ['aspect','attach','fixed','modeStd','modeFull'].forEach(id=>$(id).addEventListener('change',update));
+  $('clearSample').addEventListener('click',()=>{dropSample();update();$('model').focus();});
+  $('resetAll').addEventListener('click',()=>{
+    state.sample=false; $('sampleBar').hidden=true;
+    TEXT_IDS.forEach(id=>$(id).value=DEFAULTS[id]||'');
+    try{localStorage.removeItem(KEY)}catch(e){}
+    removeImage();
+  });
+  $('file').addEventListener('change',e=>loadFile(e.target.files&&e.target.files[0]));
+  $('removeImg').addEventListener('click',removeImage);
+  const drop=$('drop');
+  ['dragenter','dragover'].forEach(n=>drop.addEventListener(n,e=>{e.preventDefault();drop.classList.add('over');}));
+  ['dragleave','drop'].forEach(n=>drop.addEventListener(n,e=>{e.preventDefault();drop.classList.remove('over');}));
+  drop.addEventListener('drop',e=>loadFile(e.dataTransfer&&e.dataTransfer.files&&e.dataTransfer.files[0]));
+  document.addEventListener('paste',e=>{
+    const items=(e.clipboardData&&e.clipboardData.items)||[];
+    for(const it of items){ if(it.kind==='file'&&/^image\//.test(it.type)){ e.preventDefault(); loadFile(it.getAsFile()); return; } }
+  });
+  $('copy').addEventListener('click',()=>{
+    const done=()=>setMsg('promptMsg','プロンプトをコピーしました。AIに貼り付けて、参照シートを添付してください。','ok',true);
+    const fallback=()=>{
+      const r=document.createRange(); r.selectNodeContents($('prompt'));
+      const s=getSelection(); s.removeAllRanges(); s.addRange(r);
+      setMsg('promptMsg','自動でコピーできませんでした。全文を選択したので、そのままコピーしてください。','warn',true);
+    };
+    try{ navigator.clipboard.writeText(state.plain).then(done,fallback); }catch(e){ fallback(); }
+  });
+  $('saveTxt').addEventListener('click',()=>{ if(state.downloads) save(safeName('_prompt.txt'),state.plain,'promptMsg','プロンプトを保存しました。'); });
+  $('saveSheet').addEventListener('click',()=>{
+    if(!state.downloads) return;
+    const go=b=>b?save(safeName('_sheet.png'),b,'sheetMsg','参照シートを保存しました。プロンプトと同じメッセージに添付してください。'):useImgFallback();
+    if(state.blob) go(state.blob); else $('cv').toBlob(go,'image/png');
+  });
+  update();
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(drawSheet).catch(()=>{});
+  const cl=window.claude;
+  if(cl&&typeof cl.use==='function'){
+    cl.use('downloads').then(ns=>{
+      if(ns&&typeof ns.save==='function'){ state.downloads=ns; $('saveSheet').hidden=false; $('saveTxt').hidden=false; update(); }
+      else useImgFallback();
+    },useImgFallback);
+  }else useImgFallback();
+}
+start();
+})();
+</script>
+
+</body></html>

@@ -15,7 +15,13 @@ for (const a of ARTICLES) {
 </section>`).join("\n");
   const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: a.title, datePublished: a.date, dateModified: a.date, author: { "@type": "Organization", name: AUTHOR }, publisher: { "@type": "Organization", name: "ヤマフィット" } })}</script>\n`;
   const related = (a.related || []).map((s) => bySlug[s]).filter(Boolean);
-  fs.writeFileSync(`articles/${a.slug}.html`, `${head(a.title, a.desc, `/articles/${a.slug}.html`, ld)}
+  // 記事の写真（毎朝の画像生成で入る。AIで作ったイメージであることを必ず添える）
+  const hero = a.image ? `<figure style="margin: 0; display: flex; flex-direction: column; gap: 6px">
+    <img src="../${esc(a.image)}" alt="${esc(a.image_alt || a.title)}" width="${a.image_w || 1280}" height="${a.image_h || 1600}" style="width: 100%; max-width: 640px; height: auto; border-radius: 8px; align-self: center" loading="eager">
+    <figcaption class="sub" style="text-align: center">画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。</figcaption>
+  </figure>` : "";
+  const og = a.image && SITE_URL ? `<meta property="og:image" content="${SITE_URL}${esc(a.image)}">\n<meta name="twitter:card" content="summary_large_image">\n` : "";
+  fs.writeFileSync(`articles/${a.slug}.html`, `${head(a.title, a.desc, `/articles/${a.slug}.html`, og + ld)}
 ${c.top}
 <main class="doc" style="gap: 24px">
   <div class="stack" style="gap: 12px">
@@ -23,6 +29,7 @@ ${c.top}
     <h1 class="article-title">${esc(a.title)}</h1>
     <div class="meta"><strong>${AUTHOR}</strong><span class="mono">${a.date} 公開</span><span class="pr-badge">PR</span></div>
   </div>
+  ${hero}
   <p class="body-text">${esc(a.lead)}</p>
   ${body}
   <section>
@@ -59,7 +66,7 @@ ${c.bottom}`);
 const PROD_CAT = Object.fromEntries((JSON.parse(fs.readFileSync("data/products.json", "utf8")).products || []).map((p) => [p.id, p.category]));
 const LABEL_CAT = { "登山靴": "boots", "ザック": "pack", "レインウェア": "rain", "ウェア": "wear", "パンツ": "pants", "トレッキングポール": "poles", "ポール": "poles", "テント泊": "tent" };
 const catsOf = (a) => [...new Set([LABEL_CAT[a.category], ...(a.products || []).map((id) => PROD_CAT[id])].filter(Boolean))];
-fs.writeFileSync("data/articles.json", JSON.stringify(ARTICLES.map((a) => ({ slug: a.slug, title: a.title, category: a.category, date: a.date, desc: a.desc, cats: catsOf(a), ...(a.week ? { week: a.week, day: a.day, slot: a.slot } : {}) })), null, 1));
+fs.writeFileSync("data/articles.json", JSON.stringify(ARTICLES.map((a) => ({ slug: a.slug, title: a.title, category: a.category, date: a.date, desc: a.desc, cats: catsOf(a), ...(a.week ? { week: a.week, day: a.day, slot: a.slot } : {}), ...(a.image ? { image: a.image } : {}) })), null, 1));
 
 // 今週の7選（管理アプリの週間選定から公開された記事を、週ごと・曜日順に並べる）
 {

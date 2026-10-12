@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const byDay = Object.fromEntries(auto.filter((a) => a.week === week).map((a) => [a.day, a]));
         const t = Object.values(byDay).find((a) => a.date === today) || Object.values(byDay).sort((a, b) => b.date.localeCompare(a.date))[0];
         document.getElementById("weekly-home-note").textContent = `${md(week)}〜${md(addDays(week, 6))}　季節と天気に合わせて、1日1つずつ紹介します。`;
-        if (t) document.getElementById("weekly-home-today").innerHTML = `<a class="feat" href="${SITE_BASE}articles/${escA(t.slug)}.html"><span class="eyebrow">${t.date === today ? "今日のトピック" : "最新のトピック"}｜${DAYS[t.day]}曜 ${escA(SLOT[t.day])}</span><b>${escA(t.title)}</b><p>${escA(t.desc || "")}</p><span class="mono" style="font-size:13px">記事を読む →</span></a>`;
+        if (t) document.getElementById("weekly-home-today").innerHTML = `<a class="feat" href="${SITE_BASE}articles/${escA(t.slug)}.html">${t.image ? `<img src="${SITE_BASE}${escA(t.image)}" alt="" loading="lazy" style="width: 100%; max-width: 420px; height: auto; border-radius: 6px; align-self: center">` : ""}<span class="eyebrow">${t.date === today ? "今日のトピック" : "最新のトピック"}｜${DAYS[t.day]}曜 ${escA(SLOT[t.day])}</span><b>${escA(t.title)}</b><p>${escA(t.desc || "")}</p><span class="mono" style="font-size:13px">記事を読む →</span></a>`;
         document.getElementById("weekly-home-list").innerHTML = DAYS.map((d, i) => {
           const a = byDay[i], date = addDays(week, i);
           return a ? `<a class="news-item" href="${SITE_BASE}articles/${escA(a.slug)}.html"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title">${escA(a.title)}</span></a>`

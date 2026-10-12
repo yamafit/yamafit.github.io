@@ -92,3 +92,11 @@ Chrome で http://localhost:8000 を開く。
 - **ランキング**: 順位はアクセス数・購入数の集計だけで決め、アフィリエイト報酬は使わない（画面にも明記）。
 - **Instagram素材**: `node tools/instagram.mjs <商品ID|記事のslug>` → `out/instagram/<名前>.md`（キャプション・カルーセル構成・見出し・ハッシュタグ候補）。数字は商品マスターから取る。投稿は手動。`SITE.instagramUrl` を入れると商品ページに導線が出る。
 - 更新の流れ: マスター更新 → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`（sitemap も更新）。
+
+## 毎朝の記事写真と Instagram 投稿（.github/workflows/daily-image.yml）
+- 日本時間6:35ごろ（取りこぼしは12:35まで1時間ごとに再実行）に、今日の自動記事（content/auto-articles.json）の写真を作り、Instagram に投稿する。
+- 写真：商品マスターの公式画像（image.url、無ければ公式ページの og:image）→ 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
+- プロンプトの文面は `tools/kobo-core.js`（靴・ザック・ウェア）。変えたら `node tools/build-kobo.mjs --check` と `node tools/build-kobo.mjs` でアーティファクト用のページも作り直す。
+- 投稿：写真＋記事の要点＋記事URL＋楽天（A8）リンク＋#PR。記録は `data/ig-posts.json`。
+- 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。
+- 手動：Actions →「朝の記事写真とInstagram投稿」→ Run workflow（slug を入れるとその記事）。
