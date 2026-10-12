@@ -112,8 +112,9 @@ Chrome で http://localhost:8000 を開く。
 これらは、公式サイトの許可を得た取得方法（楽天APIなど）が使えるようになってから追加する。
 
 ## 毎朝の記事写真と Instagram 投稿（.github/workflows/daily-image.yml）
-- 日本時間6:35ごろ（取りこぼしは12:35まで1時間ごとに再実行）に、今日の自動記事（content/auto-articles.json）の写真を作り、Instagram に投稿する。
-- 写真：商品マスターの公式画像（image.url、無ければ公式ページの og:image）→ 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
+- 日本時間6:35ごろ（取りこぼしは12:35まで1時間ごとに再実行）に、今日の自動記事（content/auto-articles.json）の写真を作り、7:00 に Instagram に投稿する（7時前に写真ができたら7時まで待つ）。
+- 参照画像：記事を書いたAIが公式ページで調べて選んだ `ref_images`（main＝商品全体1枚、detail＝記事で触れた部位の細部写真3枚まで）を優先。無ければ商品マスターの image.url、さらに無ければ公式ページの og:image。detail は細部確認用として画像生成に一緒に渡す。
+- 写真：参照画像 → 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
 - プロンプトの文面は `tools/kobo-core.js`（靴・ザック・ウェア）。変えたら `node tools/build-kobo.mjs --check` と `node tools/build-kobo.mjs` でアーティファクト用のページも作り直す。
 - 投稿：写真＋記事の要点＋記事URL＋楽天（A8）リンク＋#PR。記録は `data/ig-posts.json`。
 - 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。

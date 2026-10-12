@@ -5,7 +5,8 @@
 //   node tools/daily-image-post.mjs instagram   その写真と記事の内容・URLで Instagram に投稿し、data/ig-posts.json に記録
 //
 // 写真の作り方（プロンプト工房と同じ）:
-//   1. 記事の商品の公式画像を調べる（商品マスターの image.url。無ければ公式ページの og:image）
+//   1. 記事の商品の公式画像を使う。記事を書いたAIが公式ページで調べた ref_images（main＝商品全体、detail＝細部3枚まで）を優先し、
+//      無ければ商品マスターの image.url、さらに無ければ公式ページの og:image
 //   2. その画像と正式名称で「参照シート」を描く（tools/kobo-core.js。カテゴリー＝靴・ザック・ウェア）
 //   3. 同じ文面のプロンプト＋参照シートを OpenAI の画像生成（ChatGPT と同じ画像モデル）に渡す
 //   4. できた画像を img/articles/<slug>.jpg に保存し、記事の写真にする（「AIで作成したイメージ」と明記）
@@ -55,10 +56,12 @@ async function fetchBuf(url, referer) {
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return { buf: Buffer.from(await r.arrayBuffer()), type: r.headers.get("content-type") || "" };
 }
-async function findReferenceImage(p) {
+async function findReferenceImage(a, p) {
   if (process.env.REF_IMAGE_FILE) return { buf: fs.readFileSync(process.env.REF_IMAGE_FILE), from: process.env.REF_IMAGE_FILE };
-  const page = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || ((p.offers || []).find((o) => o.shop === "official") || {}).url;
+  const refs = a.ref_images || [];
+  const page = (refs[0] && refs[0].page) || (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || ((p.offers || []).find((o) => o.shop === "official") || {}).url;
   const tries = [];
+  for (const r of refs.filter((r) => r.role === "main")) tries.push(r.url);
   if (p.image && p.image.url) tries.push(p.image.url);
   for (const url of tries) {
     try { const r = await fetchBuf(url, page); if (r.type.startsWith("image/") && r.buf.length > 5000) return { buf: r.buf, from: url }; } catch (e) { log("画像を取得できません:", e.message); }
@@ -72,6 +75,15 @@ async function findReferenceImage(p) {
   }
   throw new Error("商品の公式画像が見つかりませんでした（商品マスターの image.url と公式ページを確認してください）");
 }
+async function findDetailImages(a) { // 細部の確認用（記事を書いたAIが公式ページで選んだもの）
+  const out = [];
+  for (const r of (a.ref_images || []).filter((r) => r.role === "detail").slice(0, 3)) {
+    try { const x = await fetchBuf(r.url, r.page); if (x.type.startsWith("image/") && x.buf.length > 3000) out.push({ buf: x.buf, type: x.type, note: r.note || "", from: r.url }); }
+    catch (e) { log("細部の画像を取得できません:", e.message); }
+  }
+  return out;
+}
+const detailNote = (details) => details.length ? `\n\n追加の参照画像について\n\n2枚目以降の添付画像（${details.length}枚）は、同じ商品のメーカー公式の細部写真です（${details.map((d, i) => `${i + 2}枚目：${d.note || "細部"}`).join("、")}）。ディテール拡大図と指示線の位置を正しくするための確認用としてだけ使い、写真そのものや人物・背景を完成画像に貼り込まないでください。` : "";
 
 // ---------- 参照シートとプロンプト ----------
 function inputFor(a, p, cat) {
@@ -108,7 +120,7 @@ async function renderSheet(d, cat, refBuf) {
 }
 
 // ---------- 画像生成（OpenAI Images API：ChatGPT と同じ画像モデル） ----------
-async function generateImage(prompt, sheetPng) {
+async function generateImage(prompt, sheetPng, details = []) {
   const key = process.env.OPENAI_API_KEY;
   if (!key) throw new Error("OPENAI_API_KEY が未設定です（GitHub の Settings → Secrets に登録してください）");
   const fd = new FormData();
@@ -119,6 +131,7 @@ async function generateImage(prompt, sheetPng) {
   fd.append("output_format", "jpeg");
   fd.append("n", "1");
   fd.append("image[]", new Blob([sheetPng], { type: "image/png" }), "reference-sheet.png");
+  details.forEach((d, i) => fd.append("image[]", new Blob([d.buf], { type: /png|webp/.test(d.type) ? d.type.split(";")[0] : "image/jpeg" }), `detail-${i + 1}.${/png/.test(d.type) ? "png" : /webp/.test(d.type) ? "webp" : "jpg"}`));
   const r = await fetch("https://api.openai.com/v1/images/edits", { method: "POST", headers: { authorization: `Bearer ${key}` }, body: fd, signal: AbortSignal.timeout(600e3) });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(`画像生成に失敗しました（${r.status}）: ${(j.error && j.error.message) || JSON.stringify(j).slice(0, 300)}`);
@@ -133,9 +146,11 @@ async function image() {
   if (!product) throw new Error(`記事の商品がマスターにありません: ${(article.products || []).join(",")}`);
   const cat = slotToCat(article, product);
   const d = inputFor(article, product, cat);
-  const prompt = KOBO.plain(KOBO.buildPrompt(d, cat));
-  const ref = await findReferenceImage(product);
+  const ref = await findReferenceImage(article, product);
   log("参照した公式画像:", ref.from);
+  const details = await findDetailImages(article);
+  if (details.length) log("細部の参照画像:", details.map((x) => x.from).join(" , "));
+  const prompt = KOBO.plain(KOBO.buildPrompt(d, cat)) + detailNote(details);
   const sheet = await renderSheet(d, cat, ref.buf);
   fs.mkdirSync("out/daily", { recursive: true });
   fs.writeFileSync(`out/daily/${article.slug}-sheet.png`, sheet);
@@ -143,11 +158,11 @@ async function image() {
   log(`参照シートとプロンプト（${KOBO.CATS[cat].title}の文面・${prompt.length}字）を作りました`);
   let jpg;
   if (DRY) { log("DRY_RUN: 画像生成は呼ばず、参照シートを仮の写真にします"); jpg = await toJpeg(sheet); }
-  else jpg = await generateImage(prompt, sheet);
+  else jpg = await generateImage(prompt, sheet, details);
   fs.mkdirSync("img/articles", { recursive: true });
   const rel = `img/articles/${article.slug}.jpg`;
   fs.writeFileSync(rel, jpg);
-  Object.assign(article, { image: rel, image_w: SIZE.w, image_h: SIZE.h, image_alt: `${product.brand} ${product.name}の特徴をまとめたイメージ画像（AI生成）`, image_ref: ref.from, image_at: new Date().toISOString() });
+  Object.assign(article, { image: rel, image_w: SIZE.w, image_h: SIZE.h, image_alt: `${product.brand} ${product.name}の特徴をまとめたイメージ画像（AI生成）`, image_ref: ref.from, image_details: details.map((x) => x.from), image_at: new Date().toISOString() });
   fs.writeFileSync(AUTO, JSON.stringify(articles, null, 1) + "\n");
   execSync("node tools/build-articles.mjs", { stdio: "inherit" });
   log("記事に写真を入れました:", rel);

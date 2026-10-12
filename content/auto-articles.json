@@ -81,6 +81,32 @@
   "week": "2026-10-12",
   "day": 0,
   "slot": "outer",
-  "app_id": "a-2026-10-12-0"
+  "app_id": "a-2026-10-12-0",
+  "ref_images": [
+   {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001HUT/01_001.jpg",
+    "role": "main",
+    "note": "商品全体（公式ページの代表画像）",
+    "page": "https://www.goldwin.co.jp/ap/item/i/m/NP12501"
+   },
+   {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001HUT/03_073-750.jpg",
+    "role": "detail",
+    "note": "フロント止水ファスナー",
+    "page": "https://www.goldwin.co.jp/ap/item/i/m/NP12501"
+   },
+   {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001HUT/03_075-750.jpg",
+    "role": "detail",
+    "note": "止水ファスナー付きスランティングポケット",
+    "page": "https://www.goldwin.co.jp/ap/item/i/m/NP12501"
+   },
+   {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001HUT/03_078-750.jpg",
+    "role": "detail",
+    "note": "両脇下のベンチレーション",
+    "page": "https://www.goldwin.co.jp/ap/item/i/m/NP12501"
+   }
+  ]
  }
 ]

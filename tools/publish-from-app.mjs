@@ -9,6 +9,7 @@
 // 入力（1件または配列）:
 // { "app_id": "a-2026-10-12-0", "date": "2026-10-12", "week": "2026-10-12", "day": 0, "slot": "outer|pack|shoes",
 //   "title": "…", "desc": "（任意）", "body": "Markdown本文",
+//   "ref_images": [{ "url": "https://…（公式ページの商品画像）", "role": "main|detail", "note": "何が写っているか", "page": "公式ページURL" }]（任意。朝の記事写真の参照画像。main は1枚、detail は3枚まで）,
 //   "product": { "site_id": "tnf-climb-light-jacket-m" }
 //           または { "new": { "slug": "millet", "brand": "ミレー", "raw": { url, category, name, title, price_min, price_max, availability, checked_at, image? },
 //                              "eval": { id, name, gender, category, price?, weight_g?, weight_note?, capacity_l?, material?, waterproof?, waterproof_level?, warmth?, size_note?,
@@ -140,7 +141,13 @@ for (const it of items) {
   const entry = { slug, category: label, date: it.date, title: plain(it.title), desc, lead, sections, products: [siteId],
     related: others.filter((a) => a.category === label).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 2).map((a) => a.slug),
     week: it.week || null, day: Number.isInteger(it.day) ? it.day : null, slot: it.slot || null, app_id: it.app_id || null };
+  const refs = (Array.isArray(it.ref_images) ? it.ref_images : []).filter((r) => r && /^https?:\/\//.test(r.url || "") && ["main", "detail"].includes(r.role))
+    .map((r) => ({ url: r.url.replace(/^http:/, "https:"), role: r.role, note: plain(r.note || "").slice(0, 80), page: /^https?:\/\//.test(r.page || "") ? r.page : "" }));
   const i = auto.findIndex((a) => (it.app_id && a.app_id === it.app_id) || a.slug === slug);
+  const prev = i >= 0 ? auto[i] : {};
+  if (refs.length) entry.ref_images = [...refs.filter((r) => r.role === "main").slice(0, 1), ...refs.filter((r) => r.role === "detail").slice(0, 3)];
+  else if (prev.ref_images) entry.ref_images = prev.ref_images;
+  for (const k of Object.keys(prev)) if (k.startsWith("image")) entry[k] = prev[k]; // 朝に作った記事の写真は残す
   if (i >= 0) auto[i] = entry; else auto.push(entry);
   const official = (p.offers || []).find((o) => o.shop === "official");
   const dest = rakutenSearch(p);
