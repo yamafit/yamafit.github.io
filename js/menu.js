@@ -46,23 +46,29 @@ document.addEventListener("DOMContentLoaded", async () => {
         return `<a class="menu-row" href="${escM(SITE.rakutenLink(dest))}" target="_blank" rel="sponsored noopener" data-shop="rakuten" data-item="menu-${escM(b.name)}-${w}"><span>${escM(b.name)}の${label}</span>${arrow}</a>`;
       }).join("")
     : "";
+  // ブランドはプルダウンで選ぶ（選ぶと、その下にカテゴリ→商品が出る）
+  const brandSelect = (bi) => `<h2>ブランドから探す</h2><label class="sel menu-sel"><span class="sr">ブランド</span><select id="menu-brand-sel">
+      <option value=""${bi === undefined ? " selected" : ""}>ブランドを選ぶ（${brands.length}社）</option>
+      ${brands.map((x, i) => { const n = products.filter((p) => p.brand === x.name).length; return `<option value="${i}"${bi === i ? " selected" : ""}>${escM(x.name)}${n ? "（" + n + "件）" : ""}</option>`; }).join("")}
+    </select></label>`;
   const show = (view, bi, cat) => {
     const b = brands[bi];
     if (view === "list") {
-      box.innerHTML = "<h2>ブランドから探す</h2>" + brands.map((x, i) => `<button class="menu-row" type="button" data-go="brand" data-b="${i}"><span>${escM(x.name)}</span><small>${escM((x.aliases.find((y) => /^[A-Za-z]/.test(y)) || ""))}</small>${arrow}</button>`).join("");
+      box.innerHTML = brandSelect();
     } else if (view === "brand") {
       const mine = products.filter((p) => p.brand === b.name);
       const cats = CAT_ORDER.filter((c) => mine.some((p) => p.category === c));
-      box.innerHTML = back("list", "ブランド一覧") + `<h2>${escM(b.name)}</h2>` +
+      box.innerHTML = brandSelect(bi) + `<h3 class="menu-sub">${escM(b.name)}のカテゴリ</h3>` +
         (cats.length ? cats.map((c) => `<button class="menu-row" type="button" data-go="items" data-b="${bi}" data-c="${c}"><span>${CAT_LABEL[c]}</span><small>${mine.filter((p) => p.category === c).length}件</small>${arrow}</button>`).join("") : '<p class="menu-note">このブランドの商品は、まだ掲載していません。</p>') +
         rakutenSearch(b) +
         `<a class="menu-row" href="${SITE_BASE}news.html?q=${encodeURIComponent(b.name)}"><span>${escM(b.name)}の最新ニュース</span>${arrow}</a>` + officialLink(b);
     } else {
       const mine = products.filter((p) => p.brand === b.name && p.category === cat);
-      box.innerHTML = back("brand", b.name, bi) + `<h2>${escM(b.name)} ／ ${CAT_LABEL[cat]}</h2>` +
+      box.innerHTML = brandSelect(bi) + back("brand", b.name + "のカテゴリへ", bi) + `<h3 class="menu-sub">${escM(b.name)} ／ ${CAT_LABEL[cat]}</h3>` +
         mine.map((p) => `<a class="menu-item" href="#" data-product="${escM(p.id)}"><b>${escM(p.name)}</b><span>${escM(p.spec)}</span>${p.price ? `<small>¥${p.price.toLocaleString()}（税込）</small>` : ""}</a>`).join("") + officialLink(b);
     }
-    overlay.querySelector(".menu-panel").scrollTop = 0;
+    const sel = box.querySelector("#menu-brand-sel");
+    if (sel) sel.addEventListener("change", () => (sel.value === "" ? show("list") : show("brand", +sel.value)));
   };
   box.addEventListener("click", (e) => {
     const t = e.target.closest("[data-go]");

@@ -552,3 +552,7 @@ img.photo { object-fit: cover; }
 .menu-body a.ig-follow:hover { color: #fff; }
 .menu-body a.ig-follow span { display: flex; flex-direction: column; line-height: 1.3; }
 .menu-body a.ig-follow small { font-family: var(--font); font-size: 12px; color: #fff; opacity: .9; }
+/* メニュー：ブランドのプルダウン */
+.menu-sel { margin: 4px 0 6px; }
+.menu-sel .sr { position: absolute; left: -9999px; }
+.menu-sub { margin: 14px 0 2px; font-size: 13px; font-weight: 900; color: var(--green-deep); }
