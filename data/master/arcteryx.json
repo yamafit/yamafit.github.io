@@ -609,6 +609,1251 @@
    }
   },
   {
+   "id": "arcteryx-alpha-sl-jacket-m",
+   "brand": "アークテリクス",
+   "name": "アルファ SL ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 84700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-sl-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000010287_021695_Alpha_SL_Jacket_Euphoria-Black_Men_M_Front-View_Lowres.webp?v=1782694958",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/alpha-sl-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-sl-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。特に過酷な高山環境で、抜群の耐久性、通気性、防水性を発揮。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）"
+    ],
+    "cons": [
+     "価格が8万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-alpha-sv-jacket-m",
+   "brand": "アークテリクス",
+   "name": "アルファ SV ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 151800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-sv-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009899_001929_Alpha_SV_Jacket_24K_Black_Men_M_Front-View_Lowres.webp?v=1786702441",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/alpha-sv-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-sv-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。容赦ない過酷なコンディション、自分の限界を押し上げるクライミング、そして長時間に及ぶ高山地帯でのハードなアクティビティを想定してデザインされたシェルジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が15万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-sentinel-jacket-w",
+   "brand": "アークテリクス",
+   "name": "センチネル ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 126500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/sentinel-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010454_023348_Sentinel_Jacket_Kasumi_-_Moonstone_Women_S_Front-View_Lowres.webp?v=1791245697",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/sentinel-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/sentinel-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。リフトを使ったコースからバックカントリーのスパインまで、起伏の激しい地形や深い雪に対応できる耐久性の高い定番ジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）"
+    ],
+    "cons": [
+     "価格が12万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-rhoam-hybrid-jacket-m",
+   "brand": "アークテリクス",
+   "name": "ローム ハイブリット ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 75900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/rhoam-hybrid-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009572_002291_Rhoam_Hybrid_Jacket_Black_Men_M_Front-View_Lowres.webp?v=1782697242",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/rhoam-hybrid-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/rhoam-hybrid-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。雨や泥を弾きながら颯爽と急斜面を走れる、起伏に富んだ山での走行に適したマウンテンバイク用のハイブリットハードシェル。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）"
+    ],
+    "cons": [
+     "価格が7万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-norvan-jacket-w",
+   "brand": "アークテリクス",
+   "name": "ノーバン ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 75900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "抜群の通気性を備え、ドライな状態をキープするノーバン ジャケットは、雨の中でのランニングに適した超軽量なソリューション。完全防水素材で湿気が中に入るのを防いで汗を逃してくれるから、目の前のトレイルだけに集中できます。脇の下のベントなどランニングに適したディテールで、汗を感じずにペースを保てます。",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/norvan-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009469_002291_Norvan_Jacket_Black_Women_S_Front-View_Lowres.webp?v=1790815453",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/norvan-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/norvan-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。抜群の通気性を備え、ドライな状態をキープするノーバン ジャケットは、雨の中でのランニングに適した超軽量なソリューション。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）"
+    ],
+    "cons": [
+     "価格が7万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-beta-ar-jacket-m",
+   "brand": "アークテリクス",
+   "name": "ベータ AR ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 110000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-ar-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000011062_023366_Beta_AR_Jacket_Nucleus_-_Larch_Men_M_Front-View_Lowres.webp?v=1787816233",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-ar-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-ar-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。寒さが厳しい冬の登山から良く晴れた日のバックカントリーまで、あらゆるチャレンジに対応できるハードシェル。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）"
+    ],
+    "cons": [
+     "価格が11万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-alpha-jacket-m",
+   "brand": "アークテリクス",
+   "name": "アルファ ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 118800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009898_021226_Alpha_Jacket_Euphoria-Arctic-Silk_Men_M_Front-View_Lowres.webp?v=1782693665",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/alpha-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。重量は1グラムでも減らしたい、でも高山での保護性能は妥協したくない。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が11万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-alpha-sv-jacket-w",
+   "brand": "アークテリクス",
+   "name": "アルファ SV ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 151800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-sv-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009990_002291_Alpha_SV_Jacket_Black_Women_S_Front-View_Lowres.webp?v=1785650098",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/alpha-sv-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-sv-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。容赦ない過酷なコンディション、自分の限界を押し上げるクライミング、そして長時間に及ぶ高山地帯でのハードなアクティビティを想定してデザインされたシェルジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が15万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-beta-ar-jacket-w",
+   "brand": "アークテリクス",
+   "name": "ベータ AR ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 110000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-ar-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009863_022965_Beta_AR_Jacket_Arctic_Silk_-_Solitude_II_Women_S_Front-View_Lowres.webp?v=1787816040",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-ar-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-ar-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。ベータシリーズで最もタフな高耐久オールマウンテンハードシェル。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）"
+    ],
+    "cons": [
+     "価格が11万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-beta-jacket-m",
+   "brand": "アークテリクス",
+   "name": "ベータ ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 68200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010878_018562_Beta_Jacket_Vitality_Men_M_Front-View_Lowres.webp?v=1790815241",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。Arc’teryxで最もオールラウンドなGORE-TEX®シェル。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-beta-sl-jacket-m",
+   "brand": "アークテリクス",
+   "name": "ベータ SL ジャケット メンズ",
+   "category": "rain",
+   "gender": "mens",
+   "price": 84700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-sl-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010854_002744_Beta_SL_Jacket_Ultima_Men_M_Front-View_Lowres.webp?v=1790815242",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-sl-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-sl-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。山の環境に対応できるベータ最軽量のジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が8万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-beta-sl-jacket-w",
+   "brand": "アークテリクス",
+   "name": "ベータ SL ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 84700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-sl-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010881_002134_Beta_SL_Jacket_Renegade_Women_S_Front-View_Lowres.webp?v=1790815240",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-sl-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-sl-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。アルパインクライミングや山岳環境に対応できる、ベータ最軽量のジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が8万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-emaris-relaxed-jacket-w",
+   "brand": "アークテリクス",
+   "name": "エマリス リラックス ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 126500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/emaris-relaxed-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010089_022871_Emaris_Relaxed_Jacket_Rune_-_Sea_Salt_Women_S_Front-View_Lowres.webp?v=1789036647",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/emaris-relaxed-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/emaris-relaxed-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。抜群の収納力を誇る、防水通気ハードシェルジャケット。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が12万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-alpha-jacket-w",
+   "brand": "アークテリクス",
+   "name": "アルファ ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 118800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX PRO",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/alpha-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009866_022881_Alpha_Jacket_Pineberry_-_Black_Women_S_Front-View_Lowres.webp?v=1782894578",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/alpha-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/alpha-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。重量は1グラムでも減らしたい、でも高山での保護性能は妥協したくない。",
+    "pros": [
+     "防水・撥水：GORE-TEX PRO（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が11万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-altira-cropped-jacket-w",
+   "brand": "アークテリクス",
+   "name": "アルティラ クロップド ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 110000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/altira-cropped-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010094_002291_Altira_Cropped_Jacket_Black_Women_S_Front-View_Lowres.webp?v=1789036647",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/altira-cropped-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/altira-cropped-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。GORE-TEX ePE素材の限界を押し上げるべくデザインされた、悪天候でも身体をドライに保てる革新的な防水ハードシェル。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）"
+    ],
+    "cons": [
+     "価格が11万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-coelle-jacket-w",
+   "brand": "アークテリクス",
+   "name": "コエル ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 68200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "雨を気にせずに過ごせて、手軽なハイキングや普段使いに適した、携行性に優れた軽量シェル。3層構造の防水素材が水分を寄せ付けず、身体の熱を逃します。裏地付きの柔らかな着心地で、お店に駆け込んでも、ルートのゴールで急な雨に見舞われても、大変なトレイルの後で友人と食事に行くときも、快適に過ごせます。",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/coelle-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009466_022616_Coelle_Jacket_Alpine_Blue_Women_S_Front-View_Lowres.webp?v=1782896912",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/coelle-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/coelle-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。雨を気にせずに過ごせて、手軽なハイキングや普段使いに適した、携行性に優れた軽量シェル。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-sidewinder-jacket-w",
+   "brand": "アークテリクス",
+   "name": "サイドワインダー ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 143000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/sidewinder-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010476_023476_Sidewinder_Jacket_Kasumi_-_Moon_-_Shinch_Women_S_Front-View_Lowres.webp?v=1791355283",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/sidewinder-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/sidewinder-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。GORE-TEX®シェルが、スキーツーリングだけでなく高難易度のラインにも対応できることを初めて実証したArc’teryxの名作フリーライドジャケットが再登場。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）"
+    ],
+    "cons": [
+     "価格が14万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "arcteryx-beta-jacket-w",
+   "brand": "アークテリクス",
+   "name": "ベータ ジャケット ウィメンズ",
+   "category": "rain",
+   "gender": "womens",
+   "price": 68200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/beta-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010869_022821_Beta_Jacket_Sea_Salt_-_Arctic_Silk_Women_S_Front-View_Lowres.webp?v=1785838461",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/beta-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/beta-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。どんなアクティビティにも対応する汎用性の高さが魅力のベータシリーズ。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
    "id": "arcteryx-beta-pant-m",
    "brand": "アークテリクス",
    "name": "ベータ パンツ メンズ",
@@ -1652,6 +2897,513 @@
     ],
     "cons": [
      "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-sv-jacket-w",
+   "brand": "アークテリクス",
+   "name": "アトム SV ジャケット ウィメンズ",
+   "category": "wear",
+   "gender": "womens",
+   "price": 50600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "冬のハイキングや森林限界を超えるアクティビティのためにデザインされ、寒さ、湿気、強風など、あらゆるコンディションで通気性と保温性を実現",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-sv-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009852_023213_Atom_SV_Jacket_Kasumi_Women_S_Transp.webp?v=1790836940",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-sv-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-sv-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。冷え込む季節に活躍する、Arc’teryxのアトムシリーズで最も暖かいジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：冬のハイキングや森林限界を超えるアクティビティのためにデザインされ、寒さ、湿気、"
+    ],
+    "cons": [
+     "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-vest-m",
+   "brand": "アークテリクス",
+   "name": "アトム ベスト メンズ",
+   "category": "wear",
+   "gender": "mens",
+   "price": 34100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "変更点：新しいFC0素材、FC0 DWR加工、伸縮性のあるリサイクル合成素材インサレーション100%でアップデート。新しいストレッチインサレーションで動きやすさを向上。バードロゴは刺繍で耐久性を高めています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティビティ向けダウンの代わりに着用できる一枚です",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-vest-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009559_001631_Atom_Vest_Mongoose_Men_M_Front-View_Lowres.webp?v=1787190597",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-vest-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-vest-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。アトム フーディの暖かさに加え、可動域をより広くして、二酸化炭素排出量を削減しました。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティ",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-vest-w",
+   "brand": "アークテリクス",
+   "name": "アトム ベスト ウィメンズ",
+   "category": "wear",
+   "gender": "womens",
+   "price": 34100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "変更点：新しいFC0素材でアップデートし、サイドパネルとライニングにはリサイクル素材を使用しました。低めの襟の新しいレギュラーフィットで、レイヤリングもより簡単に。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティビティ向けダウンの代わりに着用できる一枚です",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-vest-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000009507_023212_Atom_Vest_Bracken_Women_S_Front-View_Lowres.webp?v=1785565209",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-vest-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-vest-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。アトム フーディの暖かさに加え、可動域をより広くして、二酸化炭素排出量を削減しました。",
+    "pros": [
+     "保温：Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-sl-hoody-m",
+   "brand": "アークテリクス",
+   "name": "アトム SL フーディ メンズ",
+   "category": "wear",
+   "gender": "mens",
+   "price": 47300,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-sl-hoody-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009560_018570_Atom_SL_Hoody_Forage_Men_M_Front-View_Lowres.webp?v=1782703633",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-sl-hoody-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-sl-hoody-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。オリジナルより軽くなったアトム SL フーディは、最も頼りになり、コンパクトに収納できるアイテム。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-sl-jacket-w",
+   "brand": "アークテリクス",
+   "name": "アトム SL ジャケット ウィメンズ",
+   "category": "wear",
+   "gender": "womens",
+   "price": 44000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-sl-jacket-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009510_020800_Atom_SL_Jacket_Alpine_Rose_Women_S_Front-View_Lowres.webp?v=1782951017",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-sl-jacket-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-sl-jacket-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。オリジナルよりも軽く、同名のフーディと同じ性能を備えてフードをなくしたアトム SL ジャケットは、最も頼りになりコンパクトに収納できるアイテム。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-sl-hoody-w",
+   "brand": "アークテリクス",
+   "name": "アトム SL フーディ ウィメンズ",
+   "category": "wear",
+   "gender": "womens",
+   "price": 47300,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-sl-hoody-w",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000009511_022616_Atom_SL_Hoody_Alpine_Blue_Women_S_Front-View_Lowres.webp?v=1782963242",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-sl-hoody-w",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-sl-hoody-w",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。オリジナルより軽くなったアトム SL フーディは、最も頼りになりコンパクトに収納できるアイテム。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "arcteryx-atom-sl-jacket-m",
+   "brand": "アークテリクス",
+   "name": "アトム SL ジャケット メンズ",
+   "category": "wear",
+   "gender": "mens",
+   "price": 44000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "季節の変わり目のハイキングでも、冬場の軽いランニングでも、リサイクル素材を使った伸縮性のあるインサレーションが、動きを制限することなく要所の保温性を確保",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://arcteryx.jp/products/atom-sl-jacket-m",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000010282_002528_Atom_SL_Jacket_Cloud_Men_M_Front-View_Lowres.webp?v=1782705999",
+    "angle": "main",
+    "src_page": "https://arcteryx.jp/products/atom-sl-jacket-m",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://arcteryx.jp/products/atom-sl-jacket-m",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。中負荷の山岳アクティビティに最適な、Arc’teryx最軽量のインサレーテッドジャケット。",
+    "pros": [
+     "保温：季節の変わり目のハイキングでも、冬場の軽いランニングでも、リサイクル素材を使った"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
     ],
     "good_for": [
      "季節に合わせて重ね着をしたい人"

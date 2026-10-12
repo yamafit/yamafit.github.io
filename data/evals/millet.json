@@ -340,6 +340,968 @@
   }
  },
  {
+  "key": "/products/mis01301",
+  "id": "mis01301",
+  "name": "パルマラン 35",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 980,
+  "weight_note": "公式記載",
+  "capacity_l": 35,
+  "material": "・高耐久のリップストップナイロン素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽いだけでなく、同時に確かな耐久性と快適なフィッティングにもこだわった軽快リュックサック。",
+   "pros": [
+    "重量 980g（公式記載）",
+    "容量 35L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0777",
+  "id": "mis0777",
+  "name": "サースフェー NX ジップ 30",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1150,
+  "weight_note": "公式記載",
+  "capacity_l": 30,
+  "material": "コーデュラ®オックス 210D ナイロン100% / 耐水1,500",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。ミレーの定番リュック、サースフェーシリーズに、登山をはじめ多様なアウトドアに対応する汎用性の高いモデルが新登場。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,150g（公式記載）",
+    "容量 30L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2340",
+  "id": "mis2340",
+  "name": "ハイカー エア 30",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1160,
+  "weight_note": "公式記載",
+  "capacity_l": 30,
+  "material": "ミニ リップストップ 330D ナイロン66 100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。暑い季節のハイキングやトレッキングなどのアクティビティに適したハイキングバックパック。",
+   "pros": [
+    "重量 1,160g（公式記載）",
+    "容量 30L",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0748",
+  "id": "mis0748",
+  "name": "ウェルキン30",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 860,
+  "weight_note": "公式記載",
+  "capacity_l": 30,
+  "material": "ナイロン 200D PU 撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。日帰り〜夏の小屋泊登山にちょうどいい30Lサイズの快適バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 860g（公式記載）",
+    "容量 30L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01330",
+  "id": "mis01330",
+  "name": "GRX 30",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 960,
+  "weight_note": "公式記載",
+  "capacity_l": 30,
+  "material": "100D ロビック ナイロン100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽快でスピーディな動きでも安定した背負い心地を提供する軽量ハイキング用バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 960g（公式記載）",
+    "容量 30L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2271",
+  "id": "mis2271",
+  "name": "プロライター38+10",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1120,
+  "weight_note": "公式記載",
+  "capacity_l": 10,
+  "material": "ナイロン 210D HONEYCOMB ROBIC",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。アルパインクライミングから、スキーツーリング、夏山縦走まで多様なマウンテンアクティビティに適した汎用性の高い中型バックパック。",
+   "pros": [
+    "重量 1,120g（公式記載）",
+    "容量 10L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2272",
+  "id": "mis2272",
+  "name": "プロライター30+10",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1000,
+  "weight_note": "公式記載",
+  "capacity_l": 10,
+  "material": "ナイロン 210D HONEYCOMB ROBIC",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。アルパインクライミングから、スキーツーリング、夏山縦走まで多様なマウンテンアクティビティに適した汎用性の高い中型バックパック。",
+   "pros": [
+    "重量 1,000g（公式記載）",
+    "容量 10L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2273",
+  "id": "mis2273",
+  "name": "プロライター30+10 W",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1000,
+  "weight_note": "公式記載",
+  "capacity_l": 10,
+  "material": "無駄を省いたアルパインシェイプデザインの本体は、生地に軽量で引き裂きに強い3ラインハニカムナイロンと摩擦に強いコドラナイロン1000Dを効果的に採用し、軽量性と強靱性を高い次元でバランスさせたミレー独自生地を採用。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。アルパインクライミングから、スキーツーリング、夏山縦走まで多様なマウンテンアクティビティに適した汎用性の高い中型バックパック。",
+   "pros": [
+    "重量 1,000g（公式記載）",
+    "容量 10L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2387",
+  "id": "mis2387",
+  "name": "トリロジー ジョラス 30",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 730,
+  "weight_note": "公式記載",
+  "capacity_l": 30,
+  "material": "・軽量かつ高耐久なダイニーマ、ストレッチ性を備えたダイニーマストレッチ素材を採用",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。ミレーがこれまで培ってきたノウハウと最先端の技術が結集し、アスリートと共に生み出された軽量で極めて高い堅牢性を備えたアルパインリュックサック。",
+   "pros": [
+    "重量 730g（公式記載）",
+    "容量 30L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 730g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2427",
+  "id": "mis2427",
+  "name": "プトレイ 35+10",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1400,
+  "weight_note": "公式記載",
+  "capacity_l": 35,
+  "material": "ツイン チップ ロビック 300D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。一年を通してバリエーションルートを含むなどのテクニカルな登山を楽しむためにデザインされた中型リュックサック。",
+   "pros": [
+    "重量 1,400g（公式記載）",
+    "容量 35L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2440",
+  "id": "mis2440",
+  "name": "M-ホワイト 32",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 980,
+  "weight_note": "公式記載",
+  "capacity_l": 32,
+  "material": "2D ダーリントンメッシュ 180g リサイクル ポリエステル100% x N66 330D ミニリップストップ ナイロン100% PFCフリー耐久撥水加工",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。シンプルで軽量なデザインながら日帰りでのスキーツーリングに十分なサイズと豊富な機能性を備えたリュックサック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 980g（公式記載）",
+    "容量 32L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2428",
+  "id": "mis2428",
+  "name": "プトレイ 35+10 W",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1390,
+  "weight_note": "公式記載",
+  "capacity_l": 35,
+  "material": "ツイン チップ ロビック 300D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。一年を通してバリエーションルートを含むなどのテクニカルな登山を楽しむためにデザインされた中型リュックサック。",
+   "pros": [
+    "重量 1,390g（公式記載）",
+    "容量 35L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0623",
+  "id": "mis0623",
+  "name": "クーラ 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 720,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "ナイロン 500D CORDURA®",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。旅行用パックとしての使いやすさと、アウトドアにも耐えうる快適性を両立した多用途バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 720g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 720g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis0702",
+  "id": "mis0702",
+  "name": "ランドスケープ 28",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 880,
+  "weight_note": "公式記載",
+  "capacity_l": 28,
+  "material": "420D ナイロン HD",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。スーツケースのように開くことで荷物の出し入れが簡単に行えます。",
+   "pros": [
+    "重量 880g（公式記載）",
+    "容量 28L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01310",
+  "id": "mis01310",
+  "name": "EXP NX 20+",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 830,
+  "weight_note": "公式記載",
+  "capacity_l": 8,
+  "material": "・耐久性の高いコーデュラ®ナイロン",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。ビジネスシーンでの実用性の高さにこだわり、クリーンでスッキリとしたデザインに豊富な収納と多彩な機能を詰め込んだアーバンユースのリュックサック。",
+   "pros": [
+    "重量 830g（公式記載）",
+    "容量 8L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01346",
+  "id": "mis01346",
+  "name": "アラビス 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1010,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "210D ミニリップストップ ナイロン100% x 600D ポリエステル100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。1年を通して日帰りのハイキングやトレッキングにピッタリなサイズで、ビギナーにも優しい快適な背負い心地と利便性を備えたバックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,010g（公式記載）",
+    "容量 25L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2433",
+  "id": "mis2433",
+  "name": "ウビック 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 610,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "ソリューション ダイ 210D ナイロン97% PU3%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。半日から日帰りのハイキング用にデザインされた20リットルの軽量リュックサック。",
+   "pros": [
+    "重量 610g（公式記載）",
+    "容量 20L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 610g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2422",
+  "id": "mis2422",
+  "name": "ウビック 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 860,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "多彩な収納と快適な背負い心地を備え、日帰りのアウトドア・アクティビティに最適な25リットルの軽量リュックサック。テンションフックで留める大きなフロントポケットの他、多彩な外部ポケットを備え、必要なアイテムを便利に収納できます。最新の染色加工技術と100％リサイクル素材の組み合わせにより環境への負荷が",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。多彩な収納と快適な背負い心地を備え、日帰りのアウトドア・アクティビティに最適な25リットルの軽量リュックサック。",
+   "pros": [
+    "重量 860g（公式記載）",
+    "容量 25L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0761",
+  "id": "mis0761",
+  "name": "マルシェ NX 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 570,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "420D ナイロン100% 撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。日帰りハイキングから小旅行にちょうどいいマルチユースなバックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 570g（公式記載）",
+    "容量 20L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 570g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis0789",
+  "id": "mis0789",
+  "name": "デフィ 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 220,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "軽量で高耐久のリップストップナイロン素材で構成されたパッカブルなサブリュック。ショルダーに薄いフォームを配置し、軽量ながら快適な背負い心地を提供します。一本締めバックルによるメイン収納の雨蓋には外付け用のギアループも備えています。収納ポーチ付き。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽量で高耐久のリップストップナイロン素材で構成されたパッカブルなサブリュック。",
+   "pros": [
+    "重量 220g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 220g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis0765",
+  "id": "mis0765",
+  "name": "プラトー 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 570,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "メランジ ナイロン83% ポリエステル17% 撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。日帰りハイキングから小旅行にちょうどいいマルチユースなバックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 570g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 570g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis01347",
+  "id": "mis01347",
+  "name": "アラビス 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 880,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "210D ミニリップストップ ナイロン100% x 600D ポリエステル100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。1年を通して日帰りのハイキングはもちろん、日常使いや旅行にも使いやすいように配慮されたバックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 880g（公式記載）",
+    "容量 20L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
   "key": "/products/miv10538",
   "id": "miv10538",
   "name": "セネカ シールド フーディ",
@@ -716,6 +1678,647 @@
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "重量 564g（公式記載）",
     "保温：優れたプロテクションと保温性で寒い季節のアウトドアに最適なソフトシェルフーディ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02120",
+  "id": "miv02120",
+  "name": "ブリーズバリヤー II ラインド ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 278,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・より自然の素材の感触に近い軽量ブリーズバリヤー®タスランナイロンを使用",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。きわめて高い撥水性を備えた、スタンドカラーの軽量ウィンドシェルジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 278g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 278g と公式に記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10359",
+  "id": "miv10359",
+  "name": "インテンス ウィンドブレーカー ベスト",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 93,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・引き裂きに強いリップストップ素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。レース中の風を防ぎながら抜群の通気性と動きやすさを両立したウィンドシェルベスト。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 93g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 93g と公式に記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02170",
+  "id": "miv02170",
+  "name": "セムノ ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 330,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ドライタッチの軽量ナイロンタッサー素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。キャンプから登山までシーンを選ばず着用できるウィンドジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 330g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 330g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10926",
+  "id": "miv10926",
+  "name": "トリロジー アイコン ウィンド フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 420,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・撥水性と防風性、ストレッチ性を備えたWINDFACE WOOL素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。過酷な状況で求められるさまざまな機能を兼ね備えた新発想の多機能ソフトシェルジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 420g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03126",
+  "id": "miv03126",
+  "name": "ブリーズバリヤー トイ II ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 392,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "【ブリーズバリヤー®】表面の撥水加工ではなく、繊維自体に水を弾く加工を施し、水滴が生地に残留するスペースを極限に抑えることで、低い水分吸収率を実現した持続型の超撥水素材。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・適度な保温性と通気性を両立したインシュレーション素材「スルーウォーム®」を使用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。2つの独自素材を組み合わせた、冬の行動着にピッタリのアクティブインシュレーションジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 392g（公式記載）",
+    "保温：・適度な保温性と通気性を両立したインシュレーション素材「スルーウォーム®」を使用",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 392g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03262",
+  "id": "miv03262",
+  "name": "ボッソン ハイブリッド ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 340,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・異なる素材を組み合わせて暖かさと動きやすさ、快適さを高いレベルで備えたハイブリッド構造",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。低温下での活動量の大きなアクティビティで一日中着たままでいられる優れた温度調節機能を備えた、軽量なハイブリッドインシュレーション。",
+   "pros": [
+    "重量 340g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 340g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02121",
+  "id": "miv02121",
+  "name": "ブリーズバリヤー パフ ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 466,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・表地に非常に高い撥水性と防風性を備えた「ブリーズバリヤー®」マイクロミニリップストップ素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "ブリーズバリヤー®リップストップ ナイロン100％ 超耐久撥水 x 中綿 ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。優れた撥水・防風性と保温性を兼ね備えた軽量防寒ジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 466g（公式記載）",
+    "保温：ブリーズバリヤー®リップストップ ナイロン100％ 超耐久撥水 x 中綿 ポリエ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02122",
+  "id": "miv02122",
+  "name": "アルファ ライト ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 338,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ブリーザブルニット ポリエステル100% x ポーラテック アルファ™ 40 ポリエステル100% (72% リサイクル)",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性と優れた通気性による高い汗処理性能を備えた中綿のポーラテック アルファ™と、通気性の良いニット素材との組み合わせによって、ストップ＆ゴーを繰り返す行動中でも常に安定した快適さを提供します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。過酷な状況での激しいアクティビティにおいて活躍する、高機能インシュレーションジャケット。",
+   "pros": [
+    "重量 338g（公式記載）",
+    "保温：保温性と優れた通気性による高い汗処理性能を備えた中綿のポーラテック アルファ™と",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 338g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02123",
+  "id": "miv02123",
+  "name": "アルファ ライト ベスト",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 228,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ブリーザブルニット ポリエステル100% x ポーラテック アルファ™ 40 ポリエステル100% (72% リサイクル)",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性と通気性に優れた中綿、ポーラテック アルファ™を採用したベスト",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。保温性と通気性に優れた中綿、ポーラテック アルファ™を採用したベスト。",
+   "pros": [
+    "重量 228g（公式記載）",
+    "保温：保温性と通気性に優れた中綿、ポーラテック アルファ™を採用したベスト",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 228g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03453",
+  "id": "miv03453",
+  "name": "フィッツ ロイ 3 イン 1 ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "・軽量でソフトな防水透湿素材、ドライエッジ2層",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "インナーJKT：ナイロン100％ x 中綿 ポリエステル100％",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。アウターシェルと着脱式の中綿ジャケットを組み合わせ、シチュエーションに合わせて着こなしが可能な 3-in-1 防水透湿ジャケット。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：インナーJKT：ナイロン100％ x 中綿 ポリエステル100％",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03452",
+  "id": "miv03452",
+  "name": "フィッツロイ インシュレーション ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "・軽量でソフトな防水透湿素材、ドライエッジ2層",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ドライエッジ メカニカルストレッチ 2層 ポリエステル100% 撥水加工 PFCフリー x 中綿 ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。秋冬の悪天時にしっかりとしたプロテクションと快適さを提供する中綿入りの防水ジャケット。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ドライエッジ メカニカルストレッチ 2層 ポリエステル100% 撥水加工 PFC",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv9882",
+  "id": "miv9882",
+  "name": "フィッツ ロイ ウォーム フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 540,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・裾と袖口はストレッチ素材によって優しくフィット",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "ウルトラライト ダウンプルーフ リサイクルポリエステル100% 撥水加工 PFCフリー × サーモ ストレッチ ライト ポリエステル100%(45%リサイクル) x リプリーブ® リサイクル中綿 ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。秋冬のアウトドアに必要な保温性と、行動時の快適さを備え、100%リサイクル素材で作られた軽量化繊インシュレーションジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 540g（公式記載）",
+    "保温：ウルトラライト ダウンプルーフ リサイクルポリエステル100% 撥水加工 PFC",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10915",
+  "id": "miv10915",
+  "name": "セネカ ウォーム ウルトラライト フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 408,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・適度な断熱性のあるリサイクルポリエステル100%の中綿",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ウルトラライト ダウンプルーフ リサイクルポリエステル100% x サーモストレッチ ライト リサイクルポリエステル45% ポリエステル55% x 化繊中綿 100G ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。冬場の寒さを防ぎつつ通気によって快適さをキープする、ハイブリッド構造のインシュレーションフーディ。",
+   "pros": [
+    "重量 408g（公式記載）",
+    "保温：ウルトラライト ダウンプルーフ リサイクルポリエステル100% x サーモストレ",
+    "ストレッチ性の記載あり"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"

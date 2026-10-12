@@ -795,6 +795,266 @@
    }
   },
   {
+   "id": "nanga-revibe-bag-8",
+   "brand": "ナンガ",
+   "name": "リバイブ バッグ",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 51700,
+   "weight_g": 1030,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "■ 生地・素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "・Re:CYCLE DOWN(80-20) を540g封入し、4シーズンに適した保温性を実現",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/revibe-bag-8",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/REVIBEBAG-8_ORG.jpg?v=1785370946",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/revibe-bag-8",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/revibe-bag-8",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。ゆったりとした寝心地で、冬のアウトドアにも対応する4シーズンモデル 一般的なマミー型よりもゆとりのある設計で、快適な寝心地を追求したリバイブバッグ ■ このモデ",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 1,030g（公式記載）",
+     "保温：・Re:CYCLE DOWN(80-20) を540g封入し、4シーズンに適した"
+    ],
+    "cons": [
+     "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "nanga-web-aurora-light-600-dx",
+   "brand": "ナンガ",
+   "name": "【ナンガショップ限定】オーロラテックス ライト 600DX",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 62700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "NANGAが独自に開発した防水透湿素材AURORA TEX® LIGHTを採用したスリーピングバッグシリーズを直営店限定仕様にアレンジ。配色はアメリカ軍のフライトジャケットをイメージしております。",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "ボックスキルト構造に加え、ダウン量600g以上のモデルにはアルミスパッタリング材を採用することで輻射による蓄熱・保温効果を高めるなど、高機能なテクノロジーを体感することができます。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/web-aurora-light-600-dx",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/600DX.jpg?v=1776075500",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/web-aurora-light-600-dx",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/web-aurora-light-600-dx",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。4シーズン使用可能なコンパクトモデルがナンガショップ限定仕様に NANGAが独自に開発した防水透湿素材AURORA TEX® LIGHTを採用したスリーピングバ",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "保温：ボックスキルト構造に加え、ダウン量600g以上のモデルにはアルミスパッタリング材"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "nanga-minimarhythm-zero",
+   "brand": "ナンガ",
+   "name": "ミニマリスム ゼロ",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 49500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィット感を向上される設計になっています",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/minimarhythm-zero",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/MINIMARHYTHMZERO_GRY_08facee7-35d0-48d0-9298-160ed673d678.jpg?v=1754354130",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/minimarhythm-zero",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/minimarhythm-zero",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。携行性、快適性を兼ね備えたモデル 保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィット感を向上される設計になっています。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィッ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "nanga-sonae-bag-350dx",
+   "brand": "ナンガ",
+   "name": "ソナエバッグ 350DX",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 47080,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "SONAE BAG 350DXには、NANGAのダウンジャケットにもよく使用されるスペイン産のダックダウン（ダウン90%、フェザー10%）を封入していますので、軽量コンパクトながらもしっかり温かい寝袋になりました",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://store.nanga.jp/products/sonae-bag-350dx",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/sonae_brw.jpg?v=1741585890",
+    "angle": "main",
+    "src_page": "https://store.nanga.jp/products/sonae-bag-350dx",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://store.nanga.jp/products/sonae-bag-350dx",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。DX羽毛を使用したSONAE BAG ナンガの防災用寝袋「SONAE BAG」から、DX羽毛を使用したモデルが登場しました。",
+    "pros": [
+     "保温：SONAE BAG 350DXには、NANGAのダウンジャケットにもよく使用され"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
    "id": "nanga-windrex-shell-jacket",
    "brand": "ナンガ",
    "name": "ウィンドレックス シェルジャケット",

@@ -849,6 +849,66 @@
    }
   },
   {
+   "id": "coleman-2000034772",
+   "brand": "コールマン",
+   "name": "コージーⅡ／Ｃ５",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 7920,
+   "weight_g": 2000,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "●材質：表地／ポリエステル 裏地／ポリエステル 中綿／ポリエステル",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.coleman.co.jp/category/206/2000034772.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://ec.coleman.co.jp/client_info/COLEMANJAPAN/itemimage/2000034772/2000034772.jpg",
+    "angle": "main",
+    "src_page": "https://ec.coleman.co.jp/category/206/2000034772.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.coleman.co.jp/category/206/2000034772.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。コージーⅡ／Ｃ５（オレンジ）の通販なら、コールマンの公式オンラインショップで！",
+    "pros": [
+     "重量 2,000g（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
    "id": "coleman-2205756",
    "brand": "コールマン",
    "name": "ウォーカー33",

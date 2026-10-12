@@ -1,0 +1,50 @@
+name: 商品を毎日追加
+# 毎日、公式オンラインストア（Shopify製）が公開している商品一覧から、まだ載せていない商品を取り込み、
+# tools/build-brands.sh で評価（公式の記載から導ける範囲だけ）を作ってサイトの商品に加える。
+# 価格・在庫の更新（master.yml、3:30）より前に動かす。
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 毎日 3:00（日本時間）
+  workflow_dispatch: {}
+concurrency:
+  group: products-daily
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      REL: "ジャケット|パンツ|シェル|フリース|ダウン|ベスト|パーカ|フーディ|プルオーバー|バックパック|ザック|リュック|パック|シューズ|ブーツ|テント|シュラフ|寝袋|スリーピング|ポール|インサレーション|レイン|ソフトシェル|ウインド|ウィンド|Jacket|Pant|Hood|Hoody|Pack|Shoe|Boot|Shell|Fleece|Down|Vest|Tent|Sleeping"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 公式ストアから新しい商品を取り込む
+        run: |
+          before=$(node -e 'const fs=require("fs");let n=0;for(const f of fs.readdirSync("data/raw"))if(f.endsWith(".json"))n+=Object.keys(JSON.parse(fs.readFileSync("data/raw/"+f))).length;console.log(n)')
+          node tools/collect-shopify.mjs millet www.millet.jp all "$REL" || true
+          node tools/collect-shopify.mjs arcteryx arcteryx.jp all "$REL" || true
+          node tools/collect-shopify.mjs wildthings wildthings.jp all "$REL" || true
+          node tools/collect-shopify.mjs nanga store.nanga.jp all "$REL" || true
+          VENDOR="KAVU|カブー" node tools/collect-shopify.mjs kavu aandfstore.com all "$REL" || true
+          after=$(node -e 'const fs=require("fs");let n=0;for(const f of fs.readdirSync("data/raw"))if(f.endsWith(".json"))n+=Object.keys(JSON.parse(fs.readFileSync("data/raw/"+f))).length;console.log(n)')
+          echo "取り込んだ候補: $((after-before))件"
+      - name: 評価を作ってサイトの商品にする
+        run: |
+          prev=$(node -e 'console.log(require("./data/products.json").products.length)')
+          sh tools/build-brands.sh
+          node tools/validate-master.mjs
+          node tools/build-products.mjs
+          node tools/build-product-pages.mjs
+          node tools/build-articles.mjs
+          now=$(node -e 'console.log(require("./data/products.json").products.length)')
+          echo "ADDED=$((now-prev))" >> "$GITHUB_ENV"
+          echo "サイトの商品: ${prev}件 → ${now}件"
+      - name: 変更があれば保存
+        run: |
+          git config user.name "yamafit-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/raw data/evals data/master data/products.json products sitemap.xml
+          git diff --cached --quiet || (git commit -m "商品を追加（${ADDED}件）" && git pull --rebase && git push)

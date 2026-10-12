@@ -382,6 +382,801 @@
   }
  },
  {
+  "key": "/products/alpha-sl-jacket-m",
+  "id": "alpha-sl-jacket-m",
+  "name": "アルファ SL ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。特に過酷な高山環境で、抜群の耐久性、通気性、防水性を発揮。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/alpha-sv-jacket-m",
+  "id": "alpha-sv-jacket-m",
+  "name": "アルファ SV ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。容赦ない過酷なコンディション、自分の限界を押し上げるクライミング、そして長時間に及ぶ高山地帯でのハードなアクティビティを想定してデザインされたシェルジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が15万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/sentinel-jacket-w",
+  "id": "sentinel-jacket-w",
+  "name": "センチネル ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。リフトを使ったコースからバックカントリーのスパインまで、起伏の激しい地形や深い雪に対応できる耐久性の高い定番ジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）"
+   ],
+   "cons": [
+    "価格が12万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/rhoam-hybrid-jacket-m",
+  "id": "rhoam-hybrid-jacket-m",
+  "name": "ローム ハイブリット ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。雨や泥を弾きながら颯爽と急斜面を走れる、起伏に富んだ山での走行に適したマウンテンバイク用のハイブリットハードシェル。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/norvan-jacket-w",
+  "id": "norvan-jacket-w",
+  "name": "ノーバン ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "抜群の通気性を備え、ドライな状態をキープするノーバン ジャケットは、雨の中でのランニングに適した超軽量なソリューション。完全防水素材で湿気が中に入るのを防いで汗を逃してくれるから、目の前のトレイルだけに集中できます。脇の下のベントなどランニングに適したディテールで、汗を感じずにペースを保てます。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。抜群の通気性を備え、ドライな状態をキープするノーバン ジャケットは、雨の中でのランニングに適した超軽量なソリューション。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/beta-ar-jacket-m",
+  "id": "beta-ar-jacket-m",
+  "name": "ベータ AR ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。寒さが厳しい冬の登山から良く晴れた日のバックカントリーまで、あらゆるチャレンジに対応できるハードシェル。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/alpha-jacket-m",
+  "id": "alpha-jacket-m",
+  "name": "アルファ ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。重量は1グラムでも減らしたい、でも高山での保護性能は妥協したくない。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/alpha-sv-jacket-w",
+  "id": "alpha-sv-jacket-w",
+  "name": "アルファ SV ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。容赦ない過酷なコンディション、自分の限界を押し上げるクライミング、そして長時間に及ぶ高山地帯でのハードなアクティビティを想定してデザインされたシェルジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が15万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/beta-ar-jacket-w",
+  "id": "beta-ar-jacket-w",
+  "name": "ベータ AR ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。ベータシリーズで最もタフな高耐久オールマウンテンハードシェル。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/beta-jacket-m",
+  "id": "beta-jacket-m",
+  "name": "ベータ ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。Arc’teryxで最もオールラウンドなGORE-TEX®シェル。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/beta-sl-jacket-m",
+  "id": "beta-sl-jacket-m",
+  "name": "ベータ SL ジャケット メンズ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。山の環境に対応できるベータ最軽量のジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/beta-sl-jacket-w",
+  "id": "beta-sl-jacket-w",
+  "name": "ベータ SL ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。アルパインクライミングや山岳環境に対応できる、ベータ最軽量のジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/emaris-relaxed-jacket-w",
+  "id": "emaris-relaxed-jacket-w",
+  "name": "エマリス リラックス ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。抜群の収納力を誇る、防水通気ハードシェルジャケット。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が12万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/alpha-jacket-w",
+  "id": "alpha-jacket-w",
+  "name": "アルファ ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX PRO",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。重量は1グラムでも減らしたい、でも高山での保護性能は妥協したくない。",
+   "pros": [
+    "防水・撥水：GORE-TEX PRO（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/altira-cropped-jacket-w",
+  "id": "altira-cropped-jacket-w",
+  "name": "アルティラ クロップド ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。GORE-TEX ePE素材の限界を押し上げるべくデザインされた、悪天候でも身体をドライに保てる革新的な防水ハードシェル。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）"
+   ],
+   "cons": [
+    "価格が11万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/coelle-jacket-w",
+  "id": "coelle-jacket-w",
+  "name": "コエル ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "雨を気にせずに過ごせて、手軽なハイキングや普段使いに適した、携行性に優れた軽量シェル。3層構造の防水素材が水分を寄せ付けず、身体の熱を逃します。裏地付きの柔らかな着心地で、お店に駆け込んでも、ルートのゴールで急な雨に見舞われても、大変なトレイルの後で友人と食事に行くときも、快適に過ごせます。",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。雨を気にせずに過ごせて、手軽なハイキングや普段使いに適した、携行性に優れた軽量シェル。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/sidewinder-jacket-w",
+  "id": "sidewinder-jacket-w",
+  "name": "サイドワインダー ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。GORE-TEX®シェルが、スキーツーリングだけでなく高難易度のラインにも対応できることを初めて実証したArc’teryxの名作フリーライドジャケットが再登場。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）"
+   ],
+   "cons": [
+    "価格が14万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/beta-jacket-w",
+  "id": "beta-jacket-w",
+  "name": "ベータ ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。どんなアクティビティにも対応する汎用性の高さが魅力のベータシリーズ。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
   "key": "/products/beta-pant-m",
   "id": "beta-pant-m",
   "name": "ベータ パンツ メンズ",
@@ -1050,6 +1845,338 @@
    ],
    "cons": [
     "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-sv-jacket-w",
+  "id": "atom-sv-jacket-w",
+  "name": "アトム SV ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "冬のハイキングや森林限界を超えるアクティビティのためにデザインされ、寒さ、湿気、強風など、あらゆるコンディションで通気性と保温性を実現",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。冷え込む季節に活躍する、Arc’teryxのアトムシリーズで最も暖かいジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：冬のハイキングや森林限界を超えるアクティビティのためにデザインされ、寒さ、湿気、"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-vest-m",
+  "id": "atom-vest-m",
+  "name": "アトム ベスト メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変更点：新しいFC0素材、FC0 DWR加工、伸縮性のあるリサイクル合成素材インサレーション100%でアップデート。新しいストレッチインサレーションで動きやすさを向上。バードロゴは刺繍で耐久性を高めています。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティビティ向けダウンの代わりに着用できる一枚です",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。アトム フーディの暖かさに加え、可動域をより広くして、二酸化炭素排出量を削減しました。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-vest-w",
+  "id": "atom-vest-w",
+  "name": "アトム ベスト ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変更点：新しいFC0素材でアップデートし、サイドパネルとライニングにはリサイクル素材を使用しました。低めの襟の新しいレギュラーフィットで、レイヤリングもより簡単に。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティビティ向けダウンの代わりに着用できる一枚です",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。アトム フーディの暖かさに加え、可動域をより広くして、二酸化炭素排出量を削減しました。",
+   "pros": [
+    "保温：Coreloft合成素材で小雨にあっても暖かさを保ち、一年を通して高負荷アクティ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-sl-hoody-m",
+  "id": "atom-sl-hoody-m",
+  "name": "アトム SL フーディ メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。オリジナルより軽くなったアトム SL フーディは、最も頼りになり、コンパクトに収納できるアイテム。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-sl-jacket-w",
+  "id": "atom-sl-jacket-w",
+  "name": "アトム SL ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。オリジナルよりも軽く、同名のフーディと同じ性能を備えてフードをなくしたアトム SL ジャケットは、最も頼りになりコンパクトに収納できるアイテム。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-sl-hoody-w",
+  "id": "atom-sl-hoody-w",
+  "name": "アトム SL フーディ ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。オリジナルより軽くなったアトム SL フーディは、最も頼りになりコンパクトに収納できるアイテム。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/atom-sl-jacket-m",
+  "id": "atom-sl-jacket-m",
+  "name": "アトム SL ジャケット メンズ",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "季節の変わり目のハイキングでも、冬場の軽いランニングでも、リサイクル素材を使った伸縮性のあるインサレーションが、動きを制限することなく要所の保温性を確保",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。中負荷の山岳アクティビティに最適な、Arc’teryx最軽量のインサレーテッドジャケット。",
+   "pros": [
+    "保温：季節の変わり目のハイキングでも、冬場の軽いランニングでも、リサイクル素材を使った"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
    ],
    "good_for": [
     "季節に合わせて重ね着をしたい人"

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>カテゴリ｜ヤマフィット</title>
 <meta name="description" content="登山靴・ザック・ポール・レイン・ウェア・パンツ・テントのカテゴリ別に、装備を比較できます。">
-<link rel="stylesheet" href="css/style.css?v=202610121645">
+<link rel="stylesheet" href="css/style.css?v=202610121700">
 </head>
 <body>
 <div class="page">
@@ -26,20 +26,20 @@
     <p class="doc-lead" id="cat-lead"></p>
   </div>
 
-  <section id="cat-brand-sec">
-    <h2 class="h-section" style="margin-bottom: 6px">ブランドから選ぶ</h2>
-    <p class="sub" style="margin-bottom: 10px">ブランドを選ぶと、下の商品が絞り込まれます。</p>
-    <div class="brand-grid" id="cat-brands"></div>
+  <section id="cat-brand-sec" style="scroll-margin-top: 12px">
+    <h2 class="h-section" style="margin-bottom: 10px">ブランドから選ぶ</h2>
+    <div class="filter-bar" id="cat-filter">
+      <label class="sel"><span>ブランド</span><select id="cat-brand"></select></label>
+      <div class="sel-row">
+        <label class="sel"><span>価格</span><select id="cat-price"></select></label>
+        <label class="sel"><span>並び順</span><select id="cat-sort">
+          <option value="reco">おすすめ順</option><option value="price-asc">安い順</option><option value="price-desc">高い順</option><option value="light">軽い順</option>
+        </select></label>
+      </div>
+    </div>
   </section>
-
   <section id="cat-items-sec" style="scroll-margin-top: 12px">
     <div class="row-between" style="margin-bottom: 8px"><h2 class="h-section" id="cat-items-title">商品</h2><span class="sub" id="cat-items-count"></span></div>
-    <div class="filter-bar" id="cat-filter">
-      <div class="chips" id="cat-price" role="group" aria-label="価格で絞り込む"></div>
-      <label class="sort-sel"><span>並び順</span><select id="cat-sort">
-        <option value="reco">おすすめ順</option><option value="price-asc">価格の安い順</option><option value="price-desc">価格の高い順</option><option value="light">軽い順</option>
-      </select></label>
-    </div>
     <div id="cat-items"></div>
   </section>
 
@@ -76,9 +76,9 @@
     <div class="mono">YAMAFIT</div>
   </div>
 </footer>
-<script src="js/site.js?v=202610121645"></script>
-<script src="js/app.js?v=202610121645"></script>
-<script src="js/category.js?v=202610121645"></script>
-<script src="js/shop.js?v=202610121645"></script>
+<script src="js/site.js?v=202610121700"></script>
+<script src="js/app.js?v=202610121700"></script>
+<script src="js/category.js?v=202610121700"></script>
+<script src="js/shop.js?v=202610121700"></script>
 </body>
 </html>
