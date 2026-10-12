@@ -199,20 +199,29 @@ async function toJpeg(png) { // DRY_RUN 用：PNG を JPEG に（ブラウザで
 }
 
 // ---------- Instagram ----------
-const rl = siteSrc.match(/rakutenLink:\s*(\(dest\)\s*=>\s*\{[\s\S]*?\n\s*\}),/);
-const rakutenLink = rl ? (0, eval)(rl[1]) : null;
-const rakutenSearch = (p) => `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(`${p.brand} ${p.name}`.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス)\s*/g, " ").trim())}/`;
-const CAT_TAG = { boots: ["#登山靴", "#トレッキングシューズ"], pack: ["#登山ザック", "#バックパック"], rain: ["#レインウェア", "#登山雨具"], wear: ["#登山ウェア"], pants: ["#登山パンツ"] };
-const SLOT_TAG = { outer: ["#登山ウェア", "#アウター"], pack: ["#登山ザック", "#ザック"], shoes: ["#登山靴", "#登山シューズ"] };
-const BASE_TAG = ["#登山", "#登山装備", "#登山初心者", "#山登り", "#ヤマフィット", "#今週の7選"];
+// ハッシュタグ：ブランド（日本語・英語）＋商品名＋よく検索される登山タグ10個
+const BRAND_EN = { "ザ・ノース・フェイス": "thenorthface", "モンベル": "montbell", "アークテリクス": "arcteryx", "ミレー": "millet", "マーモット": "marmot",
+  "ナンガ": "nanga", "ヘリーハンセン": "hellyhansen", "コールマン": "coleman", "コロンビア": "columbia", "マムート": "mammut", "カリマー": "karrimor",
+  "ワイルドシングス": "wildthings", "エーグル": "aigle", "エルエルビーン": "llbean", "スノーピーク": "snowpeak", "KAVU": "kavu",
+  "マウンテンハードウェア": "mountainhardwear", "パタゴニア": "patagonia", "ワークマン": "workman", "グレゴリー": "gregory", "キャラバン": "caravan",
+  "シリオ": "sirio", "サロモン": "salomon", "メレル": "merrell", "オスプレー": "osprey", "ドイター": "deuter", "ミステリーランチ": "mysteryranch",
+  "ラ・スポルティバ": "lasportiva", "スカルパ": "scarpa", "キーン": "keen", "ホグロフス": "haglofs", "ファイントラック": "finetrack", "チャムス": "chums" };
+const POPULAR = ["#登山", "#山登り", "#登山好きな人と繋がりたい", "#山好きな人と繋がりたい", "#登山装備", "#登山ギア", "#アウトドア"];
+const SLOT_POP = { outer: ["#登山ウェア", "#レインウェア", "#アウトドアウェア"], pack: ["#登山ザック", "#バックパック", "#ザック"], shoes: ["#登山靴", "#トレッキングシューズ", "#登山シューズ"] };
+const CAT_SLOT = { rain: "outer", wear: "outer", pants: "outer", pack: "pack", boots: "shoes" };
 const cut = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
+const tagify = (s) => "#" + String(s).replace(/[\s・'’.&＆/／()（）\-－_,，、:：!！?？]/g, "");
+
+export function hashtags(a, p) {
+  const brandJa = tagify(p.brand), en = BRAND_EN[p.brand] || (/^[A-Za-z0-9 ]+$/.test(p.brand) ? p.brand.toLowerCase() : "");
+  const name = p.name.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス|ウィメンズ)\s*/gi, " ").replace(/[（(][^）)]*[）)]/g, "").trim();
+  const slot = a.slot || CAT_SLOT[p.category] || "outer";
+  return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...POPULAR, ...(SLOT_POP[slot] || []), "#ヤマフィット"])].filter((t) => t.length > 1).slice(0, 15);
+}
 
 export function buildCaption(a, p) {
   const merits = ((a.sections || []).find((s) => /メリット|特徴/.test(s.h) && s.ul) || {}).ul || [];
   const articleUrl = `${SITE_URL}articles/${a.slug}.html`;
-  const aff = rakutenLink ? rakutenLink(rakutenSearch(p)) : "";
-  const brandTag = "#" + p.brand.replace(/[・\s'’.]/g, "");
-  const tags = [...new Set([...BASE_TAG, ...(SLOT_TAG[a.slot] || []), ...(CAT_TAG[p.category] || []), brandTag])].slice(0, 15);
   return [
     "#PR",
     a.title,
@@ -220,14 +229,13 @@ export function buildCaption(a, p) {
     a.desc,
     ...(merits.length ? ["", "【ポイント】", ...merits.slice(0, 3).map((m) => "・" + cut(m.replace(/\s+/g, " "), 70))] : []),
     "",
-    "▼記事はこちら",
+    "▼記事はプロフィールのリンクから",
     articleUrl,
-    ...(aff ? ["", "▼楽天市場で見る（PR・アフィリエイトリンク）", aff] : []),
     "",
     "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。",
     "※価格・仕様は記事公開時点のメーカー公式の記載です。",
     "",
-    tags.join(" "),
+    hashtags(a, p).join(" "),
   ].join("\n").slice(0, 2200);
 }
 
