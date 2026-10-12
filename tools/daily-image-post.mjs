@@ -371,5 +371,5 @@ const cmd = process.argv[2];
 const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram }[cmd];
 if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
-  Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); process.exit(1); });
+  Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });
 }

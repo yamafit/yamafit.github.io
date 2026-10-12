@@ -10,7 +10,7 @@ from PIL import Image
 
 W, H = 1280, 1600
 mode, src = sys.argv[1], sys.argv[2]
-today = (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")
+today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 load = lambda p, d: json.load(open(p)) if os.path.exists(p) else d
 def save(p, v): json.dump(v, open(p, "w"), ensure_ascii=False, indent=1); open(p, "a").write("\n")
