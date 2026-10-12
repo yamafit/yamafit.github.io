@@ -87,6 +87,16 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
   if (mine.length) draw(); else itemsEl.innerHTML = '<div class="empty">このカテゴリのアイテムは準備中です。</div>';
 
+  // このカテゴリーの記事（運営記事・今週の7選）
+  const artEl = document.getElementById("cat-articles");
+  if (artEl) {
+    try {
+      const arts = (await (await fetch("data/articles.json", { cache: "no-cache" })).json());
+      const hit = arts.filter((a) => (k === "gtx" ? false : (a.cats || []).includes(k))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 6);
+      artEl.innerHTML = hit.length ? hit.map((a) => `<a class="news-item" href="articles/${esc(a.slug)}.html"><span class="news-meta"><span class="news-brand">${esc(a.category)}</span><span>${esc(a.date)}</span></span><span class="news-title">${esc(a.title)}</span></a>`).join("") : '<div class="empty">このカテゴリの記事は準備中です。</div>';
+    } catch { artEl.innerHTML = '<div class="empty">記事を読み込めませんでした。</div>'; }
+  }
+
   // 関連する最新記事
   const newsEl = document.getElementById("cat-news");
   document.getElementById("cat-news-all").href = "news.html?q=" + encodeURIComponent(cat.words[0]);
