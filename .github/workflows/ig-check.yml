@@ -1,0 +1,18 @@
+name: Instagram接続の確認（投稿はしない）
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [".github/workflows/ig-check.yml"]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: /me を呼ぶ
+        env:
+          T: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          r=$(curl -s "https://graph.instagram.com/v23.0/me?fields=user_id,username&access_token=$T")
+          echo "$r" | grep -q '"username"' && echo "::notice::OK $(echo "$r" | grep -o '"username":"[^"]*"')" || { echo "::error::NG $(echo "$r" | sed 's/access_token=[^&\"]*//g' | head -c 400)"; exit 1; }
