@@ -120,6 +120,7 @@ Chrome で http://localhost:8000 を開く。
 - 写真：参照画像 → 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
 - プロンプトの文面は `tools/kobo-core.js`（靴・ザック・ウェア）。変えたら `node tools/build-kobo.mjs --check` と `node tools/build-kobo.mjs` でアーティファクト用のページも作り直す。
 - 昼の投稿（noon-prep.yml 10:40／noon-post.yml 12:05〜）：今週の7選とは別の商品を1つ選び（data/noon-picks.json）、ChatGPT用の材料を noon-ref ブランチに置く。作成者が作った写真は `python3 tools/attach_image.py noon <画像>` で img/products/<id>.jpg と data/product-images.json に入れ、12:00 に Instagram へ。朝の写真は `python3 tools/attach_image.py morning <画像>`。
+- ChatGPT の使い方：固定の指示 `tools/fixed-prompt.txt` を ChatGPT のプロジェクトの指示に一度保存し、毎日は参照シート1枚を添付して送るだけ。参照シートと prompt.txt には、記事・公式の記載から作った「事前に確認した内容」（対象・載せる特徴6つ・向いている人・注意点・キャッチコピーの方向・使わない表現）を入れる（daily-image-post.mjs の factsFromArticle / factsFromProduct）。
 - 写真は商品の写真としても使う：`tools/build-products.mjs` が `data/product-images.json`（商品ID→写真）に記録し、products.json の ai_image / ai_article、商品ページ、一覧・検索・購入先の画面のサムネイルに出す。記事が翌週に入れ替わっても記録・写真（img/articles）は消さない。
 - 投稿：写真＋記事の要点＋記事URL＋#PR。楽天リンクは入れない。ハッシュタグはブランド（日本語・英語）＋商品名＋よく検索される登山タグ10個＋#ヤマフィット（tools/daily-image-post.mjs の hashtags）。記録は `data/ig-posts.json`。
 - 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。

@@ -72,6 +72,20 @@
   const plain = (s) => s.replace(/[\u0001-\u0004]/g, "");
 
   // d: {brand, model, modelJa, color, source, <specのid>..., reader, usage, aspect, attach:'sheet'|'photo', fixed:boolean}
+  // 事前に確認した内容（記事・公式ページから）。プロンプトの最後と参照シートの両方に入れ、これ以外は載せないように指示する
+  function factsText(f) {
+    const L = [];
+    L.push("9. 事前に確認した内容（最優先。ここに書かれていない機能・数値・評価は掲載しない）");
+    L.push("");
+    if (f.target) L.push(`* 対象：${f.target}`);
+    if (f.catch) L.push(`* キャッチコピーの方向：${f.catch}`);
+    if (f.features && f.features.length) { L.push(`* 性能解説と特徴一覧に使う項目（この${f.features.length}項目だけ。順番もこのとおり）：`); f.features.forEach((x, i) => L.push(`  ${i + 1}. ${x.h}${x.b ? "：" + x.b : ""}`)); }
+    if (f.goodFor && f.goodFor.length) L.push(`* 向いている人：${f.goodFor.join("／")}`);
+    if (f.cautions && f.cautions.length) L.push(`* 購入前に確認したい注意点：${f.cautions.join("／")}`);
+    if (f.ng && f.ng.length) L.push(`* 使ってはいけない表現（事実と異なるため）：${f.ng.join("／")}`);
+    L.push("* 上記と「1. 入力情報」にない部品・機能・数値・評価は、描かない・書かない（足りない項目を自分で作らない）。");
+    return L.join("\n");
+  }
   function buildPrompt(d, cat) {
     const C = CATS[cat], DF = defaults(cat);
     const v = (s, fb) => (s ? V(s) : M(fb));
@@ -273,6 +287,7 @@ F. 総合評価
 
 確認できた特徴が6項目に満たない場合は、確認できた数だけ掲載し、数を合わせるために特徴を創作しないでください。
 `);
+    if (d.facts) P.push(factsText(d.facts) + "\n");
     P.push(`すべての条件を満たすことを目指し、装飾性だけでなく製品情報の正確性を最優先にした、縦横比${d.aspect}の画像を1枚生成してください。`);
     return P.join("\n");
   }
@@ -322,6 +337,15 @@ F. 総合評価
       });
     };
     if (specs.length) { heading("確認済みの仕様"); bullets(specs.map((k) => k[1] + "：" + d[k[0]]), 24); y += 10; }
+    if (d.facts) {
+      const f = d.facts;
+      if (f.target) { heading("対象"); bullets([f.target], 24); }
+      if (f.features && f.features.length) { heading(`載せる特徴（この${f.features.length}つだけ・この順番）`); bullets(f.features.map((x) => (x.b && x.b.length <= 28 ? `${x.h}：${x.b}` : x.h)), 24); }
+      if (f.goodFor && f.goodFor.length) { heading("向いている人"); bullets(f.goodFor.slice(0, 2), 22); }
+      if (f.cautions && f.cautions.length) { heading("注意点"); bullets(f.cautions.slice(0, 2), 22); }
+      if (f.catch) { heading("キャッチコピーの方向"); bullets([f.catch], 22); }
+      if (f.ng && f.ng.length) { heading("使わない表現（事実と違う）"); bullets([f.ng.join("・")], 22); }
+    }
     heading("参照ルール");
     bullets(C.rules, 23);
     return y;
@@ -411,5 +435,5 @@ F. 総合評価
     }
   }
 
-  root.KOBO = { ASPECTS, CATS, defaults, buildPrompt, plain, wrap, layoutPanel, drawPlaceholder, fitText, renderSheet };
+  root.KOBO = { ASPECTS, CATS, defaults, buildPrompt, factsText, plain, wrap, layoutPanel, drawPlaceholder, fitText, renderSheet };
 })(typeof globalThis !== "undefined" ? globalThis : window);

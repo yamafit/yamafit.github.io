@@ -89,6 +89,57 @@ async function findDetailImages(a) { // 細部の確認用（記事を書いたA
 const detailNote = (details) => details.length ? `\n\n追加の参照画像について\n\n2枚目以降の添付画像（${details.length}枚）は、同じ商品のメーカー公式の細部写真です（${details.map((d, i) => `${i + 2}枚目：${d.note || "細部"}`).join("、")}）。ディテール拡大図と指示線の位置を正しくするための確認用としてだけ使い、写真そのものや人物・背景を完成画像に貼り込まないでください。` : "";
 
 // ---------- 参照シートとプロンプト ----------
+// ---------- 事前に確認した内容（記事・公式の記載から。ChatGPT が事実と違うことを書かないように） ----------
+const GENDER_TXT = { mens: "メンズモデル（レディースは別の品番。ユニセックスではない）", womens: "レディースモデル（メンズは別の品番。ユニセックスではない）", unisex: "ユニセックス（男女兼用）" };
+const clip = (t, n) => { t = String(t || "").trim(); if (t.length <= n) return t; const c = t.slice(0, n); const i = Math.max(c.lastIndexOf("、"), c.lastIndexOf("。")); return (i > n * 0.5 ? c.slice(0, i) : c) + "など"; };
+const clean = (t) => String(t || "").replace(/（公式記載）|と記載(されています)?|（[^）]*(より|によると|調べ)[^）]*）/g, "").replace(/公式ページ(によると|では|で)、?/g, "").trim();
+const firstSentence = (t) => clip(clean(String(t || "").split(/(?<=。)/)[0].replace(/[A-Za-z]+(Lab|Hiker|REI)[^、。]*[、]?/g, "")), 70);
+const specFeats = (rows, head = []) => rows.map((r) => {
+  const k = r[0], v = r.length > 2 && head.length === r.length ? r.slice(1).map((x, i) => `${head[i + 1]} ${x}`).join("、") : r.slice(1).join("・");
+  if (/容量/.test(k)) return { h: r.length > 2 ? "サイズで選べる容量" : `容量${v}`, b: v };
+  if (/素材|生地/.test(k)) return { h: "本体素材", b: clip(v, 60) };
+  if (/重量|重さ/.test(k)) return { h: "重量", b: v };
+  if (/防水|透湿/.test(k)) return { h: "防水透湿", b: clip(v, 60) };
+  return null;
+}).filter(Boolean);
+function ngWords(p, texts) {
+  const t = texts.join(" ");
+  const ng = [];
+  if (/重い|重め|重量がある|重さが(気|目立)/.test(t)) ng.push("軽量", "軽い", "超軽量");
+  if (p.gender && p.gender !== "unisex") ng.push("ユニセックス", "男女兼用");
+  if (!p.waterproof && !/防水/.test(String(p.material || ""))) ng.push("防水");
+  if (/レインカバー[^。]*(記載がな|付属な|別売|別に用意)/.test(t)) ng.push("レインカバー付き", "レインカバー内蔵");
+  if (!/オールシーズン|通年|一年中/.test(t)) ng.push("オールシーズン");
+  return [...new Set(ng)];
+}
+function factsFromArticle(a, p) {
+  const SKIP = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ/;
+  const feats = (a.sections || []).filter((x) => !SKIP.test(x.h)).map((x) => ({ h: x.h.replace(/^特徴とメリット$/, ""), b: firstSentence((x.p || [])[0]) })).filter((x) => x.h);
+  const merit = ((a.sections || []).find((x) => /メリット|特徴/.test(x.h) && !/デメリット/.test(x.h) && x.ul) || {}).ul || [];
+  merit.forEach((m) => { if (feats.length < 6) feats.push({ h: String(m).split(/[、。：]/)[0].slice(0, 26), b: clip(clean(m), 60) }); });
+  const spec = (a.sections || []).find((x) => x.table && /スペック|仕様/.test(x.h));
+  if (spec) specFeats(spec.table.rows, spec.table.head).forEach((f) => { if (feats.length < 6 && !feats.some((x) => x.h === f.h)) feats.push(f); });
+  const con = (a.sections || []).find((x) => /デメリット|注意/.test(x.h)) || {};
+  const cautions = (con.ul || con.p || []).map((t) => String(t).split("：")[0].slice(0, 40));
+  const fit = (a.sections || []).find((x) => /向いて/.test(x.h)) || {};
+  const goodFor = (fit.ul || []).slice(0, 2).map((t) => String(t).slice(0, 40));
+  const texts = (a.sections || []).flatMap((x) => [...(x.p || []), ...(x.ul || [])]);
+  return { target: GENDER_TXT[p.gender] || "", catch: (a.title.split("：")[1] || a.title).slice(0, 30), features: feats.slice(0, 6), cautions: cautions.slice(0, 3), goodFor, ng: ngWords(p, texts) };
+}
+function factsFromProduct(p) {
+  const e = p.evaluation || {};
+  const pros = (e.pros || []).filter((x) => !/^不明/.test(x));
+  const feats = pros.slice(0, 6).map((x) => { const t = clean(x); const h = t.split(/[（(、。]/)[0].slice(0, 26); return { h, b: t === h ? "" : clip(t, 60) }; });
+  const add = (h, b) => { if (b && feats.length < 6 && !feats.some((x) => x.b.includes(b) || x.h.includes(h))) feats.push({ h, b }); };
+  add("重量", p.weight_g ? `約${p.weight_g.toLocaleString()}g${p.weight_note && !/^約?[\d,.]+\s?g/.test(p.weight_note) ? "（" + p.weight_note.replace(/[（）()]/g, "") + "）" : ""}` : "");
+  add("素材", clip(p.material, 60));
+  add("防水・撥水", p.waterproof || "");
+  add("容量", p.capacity_l ? p.capacity_l + "L" : "");
+  add("保温", clip(p.warmth, 50));
+  return { target: GENDER_TXT[p.gender] || "", catch: clip(clean(e.summary || ""), 30), features: feats,
+    cautions: (e.cons || []).filter((x) => !/^不明/.test(x)).slice(0, 3), goodFor: (e.good_for || []).slice(0, 2), ng: ngWords(p, [...(e.cons || []), ...(e.pros || []), e.summary || ""]) };
+}
+
 function inputFor(a, p, cat) {
   const spec = (a.sections || []).find((s) => s.table && /スペック|仕様/.test(s.h));
   const head = spec ? spec.table.head || [] : [];
@@ -97,6 +148,7 @@ function inputFor(a, p, cat) {
   const official = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || "";
   const d = { brand: p.brand, model: p.name + (num ? `（${num.split("：")[1]}）` : ""), modelJa: "", color: "", source: [official, ...rows].filter(Boolean).join("\n"), reader: "", usage: "", aspect: SIZE.aspect, attach: "sheet", fixed: true, full: false };
   for (const [id] of KOBO.CATS[cat].specs) d[id] = "";
+  d.facts = factsFromArticle(a, p);
   return d;
 }
 async function loadPlaywright() {
@@ -323,6 +375,7 @@ function inputForProduct(p, cat) {
   const official = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || "";
   const d = { brand: p.brand, model: p.name, modelJa: "", color: "", source: [official, ...rows].filter(Boolean).join("\n"), reader: "", usage: "", aspect: SIZE.aspect, attach: "sheet", fixed: true, full: false };
   for (const [id] of KOBO.CATS[cat].specs) d[id] = "";
+  d.facts = factsFromProduct(p);
   return d;
 }
 export function productCaption(p) {
