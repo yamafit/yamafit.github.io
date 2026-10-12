@@ -1,0 +1,54 @@
+[
+ {
+  "id": "zulu-30",
+  "name": "フリーフロート ズール30",
+  "gender": "mens",
+  "category": "pack",
+  "price": 29700,
+  "in_stock_unknown": true,
+  "weight_g": 1380,
+  "weight_note": "SM/MD（MD/LGは1.42kg）公式記載",
+  "capacity_l": 28,
+  "material": "ナイロン60%、ポリエステル40%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": "SM/MD（28L）・MD/LG（30L）の2サイズ",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "2サイズ展開（SM/MD・MD/LG）。背面長の公式記載なし",
+   "summary": "背面が背中から離れるフリーフロート構造の、28〜30Lの日帰り向けザック。",
+   "pros": [
+    "フリー・フロート・ダイナミック・サスペンションの背面（公式記載）",
+    "特大ヒップベルトポケットなどポケットが多い（公式記載）",
+    "ポール・アイスアックスの固定とハイドレーション・スリーブに対応（公式記載）"
+   ],
+   "cons": [
+    "重量 1.38kg（SM/MD）と日帰り用としては重め",
+    "レインカバーの公式記載なし"
+   ],
+   "good_for": [
+    "背中の蒸れが気になる人",
+    "荷物が重めの日帰り登山をする人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {
+    "sweat": "背面メッシュと本体の間に空間ができる構造（公式記載）"
+   }
+  },
+  "key": "https://www.gregory.jp/float/zulu-30-sm-md/gr-145664-0527.html"
+ }
+]
