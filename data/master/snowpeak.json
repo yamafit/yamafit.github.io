@@ -1,0 +1,754 @@
+{
+ "brand": "スノーピーク",
+ "products": [
+  {
+   "id": "snowpeak-snp0126a0029",
+   "brand": "スノーピーク",
+   "name": "ランドロックX",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 249700,
+   "weight_g": 25500,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "使用する素材・各パーツは、すべてPFASフリー。人体や環境への影響が懸念されるPFAS（有機フッ素化合物）を使用せず、次世代のアウトドアライフにふさわしい性能と安全性を備えたシェルターです。​",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A0029",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A0029/SNP0126A0029_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A0029",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A0029",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。名作として不動の人気を誇る2ルームシェルター「ランドロック」を、さらに磨き上げたアップグレードモデルです。",
+    "pros": [
+     "重量 25,500g（公式記載）"
+    ],
+    "cons": [
+     "価格が24万円台と高め"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "snowpeak-snp0117a0604",
+   "brand": "スノーピーク",
+   "name": "ランドロック",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 126500,
+   "weight_g": 24500,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0117A0604",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0117A0604/SNP0117A0604_x_a099.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0117A0604",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0117A0604",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。最も大型のサイジングでありながら、剛性の高いワークフレーム。",
+    "pros": [
+     "重量 24,500g（公式記載）"
+    ],
+    "cons": [
+     "価格が12万円台と高め"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "snowpeak-snp0116a0768",
+   "brand": "スノーピーク",
+   "name": "リビングシェル [4人用]",
+   "category": "tent",
+   "gender": "unisex",
+   "price": 86790,
+   "weight_g": 13200,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "耐水圧3,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0116A0768",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0116A0768/SNP0116A0768_x_a099.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0116A0768",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0116A0768",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [],
+    "uses": [
+     "tent"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "テント・寝具。ドッキングシステムでキャンプの幅が広がるベストセラーシェルター 十分な通気性を誇るメッシュパネルを多数設けており、プライベート感がありながら、開放感も味わえるシェルターです。",
+    "pros": [
+     "防水・撥水：耐水圧3,000mm（公式記載）",
+     "重量 13,200g（公式記載）"
+    ],
+    "cons": [
+     "価格が8万円台と高め"
+    ],
+    "good_for": [
+     "泊まりのキャンプ・山行をする人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a3876",
+   "brand": "スノーピーク",
+   "name": "LAND WOMEN'S LIGHT DOWN JACKET",
+   "category": "wear",
+   "gender": "womens",
+   "price": 23100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3876",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A3876/SNP0126A3876_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A3876",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3876",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。これまで韓国およびアジアの一部でしか展開していなかった、海外限定アパレルアイテムの2026年秋冬コレクション。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a3855",
+   "brand": "スノーピーク",
+   "name": "LAND LIGHT DOWN JACKET",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 23100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3855",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A3855/SNP0126A3855_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A3855",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3855",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。これまで韓国およびアジアの一部でしか展開していなかった、海外限定アパレルアイテムの2026年秋冬コレクション。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：撥水性、防風性、保温性を備え、自然な風合いの素材を使用しています。"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a3854",
+   "brand": "スノーピーク",
+   "name": "LAND HOODED LIGHT DOWN JACKET",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザー 20%/裏打ち基布:ポリエステル 100%/ポケット:ポリエステル 100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザー 20%/裏打ち基布:ポリエステル 100%/ポケット:ポリエステル 100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3854",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A3854/SNP0126A3854_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A3854",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3854",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。これまで韓国およびアジアの一部でしか展開していなかった、海外限定アパレルアイテムの2026年秋冬コレクション。",
+    "pros": [
+     "保温：表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a3875",
+   "brand": "スノーピーク",
+   "name": "LAND WOMEN'S HOODED LIGHT DOWN JKT",
+   "category": "wear",
+   "gender": "womens",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザー 20%/裏打ち基布:ポリエステル 100%/ポケット:ポリエステル 100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザー 20%/裏打ち基布:ポリエステル 100%/ポケット:ポリエステル 100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3875",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A3875/SNP0126A3875_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A3875",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A3875",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。これまで韓国およびアジアの一部でしか展開していなかった、海外限定アパレルアイテムの2026年秋冬コレクション。",
+    "pros": [
+     "保温：表地:ナイロン 100%/裏地:ナイロン 100%/中綿:ダウン 80%,フェザ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a1878",
+   "brand": "スノーピーク",
+   "name": "Everyday Down Jacket W's",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 41800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "表地には軽量なタスランナイロンを使用。光沢を抑えたマットな質感でさまざまなシーンや着こなしに合わせやすく、環境に配慮した撥水加工も施しています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "表地:ナイロン 100%/裏地:ポリエステル 100%/(詰物)本体:ダウン 80%,フェザー 20%/前立て部分:ポリエステル:100%/ポケット部分:ポリエステル 100%/付属部分:合成皮革",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1878",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A1878/SNP0126A1878_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A1878",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1878",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。毎日着用してほしいという思いから生まれたダウンアウターシリーズ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：表地:ナイロン 100%/裏地:ポリエステル 100%/(詰物)本体:ダウン 8",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a1838",
+   "brand": "スノーピーク",
+   "name": "Middler Down Parka",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 33000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑えたタスランナイロンを使用し、裏面にアクリルコーティングを施しています。マットな質感でさまざまな着こなしに合わせやすく、撥水加工も施しています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑えたタスランナイロンを使用し、裏面にアクリルコーティングを施しています。マットな質感でさまざまな着こなしに合わせやすく、撥水加工も施しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1838",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A1838/SNP0126A1838_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A1838",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1838",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。日常からアクティブなシーンまで幅広く使えるミドルダウン。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑え"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a1837",
+   "brand": "スノーピーク",
+   "name": "Middler Down Collarless Jacket",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑えたタスランナイロンを使用し、裏面にアクリルコーティングを施しています。マットな質感でさまざまな着こなしに合わせやすく、撥水加工も施しています。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑えたタスランナイロンを使用し、裏面にアクリルコーティングを施しています。マットな質感でさまざまな着こなしに合わせやすく、撥水加工も施しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1837",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A1837/SNP0126A1837_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A1837",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1837",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。日常からアクティブなシーンまで幅広く使えるミドルダウン。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：日常からアクティブなシーンまで幅広く使えるミドルダウン。表地には軽量で光沢を抑え"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "snowpeak-snp0126a1833",
+   "brand": "スノーピーク",
+   "name": "Alpha Direct 90 Hoodie",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 24200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "・掲載している商品画像はサンプルを使用して撮影しております。そのため、実際の商品とは、細部のデザインや素材、加工などの仕様が一部異なる場合がございます。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "保温性と通気性を備えた、軽やかなミドルレイヤー",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1833",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://img.snowpeak.co.jp/img/item/SNP01/SNP0126A1833/SNP0126A1833_x_a001.jpg",
+    "angle": "main",
+    "src_page": "https://ec.snowpeak.co.jp/item/SNP0126A1833",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://ec.snowpeak.co.jp/item/SNP0126A1833",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ポーラテックアルファダイレクトを使用した、保温性と通気性を備えたミドルレイヤー。",
+    "pros": [
+     "保温：保温性と通気性を備えた、軽やかなミドルレイヤー"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  }
+ ]
+}

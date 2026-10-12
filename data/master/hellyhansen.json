@@ -1,0 +1,1239 @@
+{
+ "brand": "ヘリーハンセン",
+ "products": [
+  {
+   "id": "hellyhansen-ho12554",
+   "brand": "ヘリーハンセン",
+   "name": "アトラクターゴアテックスプロジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 66000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "ゴアテックスプロ",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HO12554",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001KDR/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HO12554",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HO12554",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。【再入荷通知・在庫取り寄せあり】HELLY HANSENがプロアングラーの吉田 遊氏と共同開発したフィッシングジャケット。",
+    "pros": [
+     "防水・撥水：ゴアテックスプロ（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hh12602",
+   "brand": "ヘリーハンセン",
+   "name": "エスペリライトゴアテックスジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 59400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12602",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001N82/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH12602",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12602",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。【再入荷通知・在庫取り寄せあり】HELLY HANSENの定番セーリングウエア、エスペリライトジャケットを街でのスタイルに合うシルエットとデザインにしたアイテム。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）"
+    ],
+    "cons": [
+     "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hh12555",
+   "brand": "ヘリーハンセン",
+   "name": "ショアレースゴアテックスプロジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 99000,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "ゴアテックスプロ",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12555",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001KA4/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH12555",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12555",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。【在庫取り寄せあり】HELLY HANSENのインショアコレクションの中で最もハイスペックな「ショアレースシリーズ」。",
+    "pros": [
+     "防水・撥水：ゴアテックスプロ（公式記載）"
+    ],
+    "cons": [
+     "価格が9万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hh12510",
+   "brand": "ヘリーハンセン",
+   "name": "ヘリーレインスーツ",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "耐水圧20,000mm以上",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12510",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001H9U/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH12510",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12510",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。【再入荷通知・在庫取り寄せあり】HELLY HANSENの定番である、防水ジャケットとパンツがセットになったレインスーツがアップデート。",
+    "pros": [
+     "防水・撥水：耐水圧20,000mm以上（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hh12511",
+   "brand": "ヘリーハンセン",
+   "name": "レイネライトジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "耐水圧20,000mm以上",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12511",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001H9V/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH12511",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12511",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。【再入荷通知・在庫取り寄せあり】旅行やトレッキングなどさまざまなシーンでマルチパーパスに使いやすい、軽量でシンプルな防水ジャケット。",
+    "pros": [
+     "防水・撥水：耐水圧20,000mm以上（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hh12540",
+   "brand": "ヘリーハンセン",
+   "name": "オーシャンフレイジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 46200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "耐水圧3,000mm以上",
+   "waterproof_level": "waterproof",
+   "warmth": "フロントフラップは、上部分離型のデザインを採用。襟部分の前立てが高く、太めの設計になっており、保温性や水の入りにくさが向上。首まわりのフィット感を調節しやすいのも魅力です。袖口はダブルカフで気密性をもたせ、水の浸入を軽減しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12540",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001HA4/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH12540",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH12540",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。【再入荷通知・在庫取り寄せあり】HELLY HANSENの定番セーリングジャケット。",
+    "pros": [
+     "防水・撥水：耐水圧3,000mm以上（公式記載）",
+     "保温：フロントフラップは、上部分離型のデザインを採用。襟部分の前立てが高く、太めの設計"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hh22494",
+   "brand": "ヘリーハンセン",
+   "name": "ライトナウティスクフリースパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 14630,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "表地は、オーガニックコットンとリサイクルナイロンをベースに織り上げたタフタ生地で、ナチュラルでハリ感のある風合いが魅力。裏地には、軽くて保温性のあるフリースを配しています。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22494?outlet",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001E4D/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH22494?outlet",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22494?outlet",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。アウトドアからタウンユースまで活躍する、裏地にフリースをあしらったパンツ。",
+    "pros": [
+     "保温：表地は、オーガニックコットンとリサイクルナイロンをベースに織り上げたタフタ生地で"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hh22514",
+   "brand": "ヘリーハンセン",
+   "name": "トレッキングストレッチパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 17600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22514",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001HAF/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH22514",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22514",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。【再入荷通知・在庫取り寄せあり】ハイキングから縦走登山まで幅広いトレッキングシーンで活躍するパンツ。",
+    "pros": [
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hh22520",
+   "brand": "ヘリーハンセン",
+   "name": "ライトノウティスクパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 9900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22520?outlet",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001HAI/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH22520?outlet",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22520?outlet",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。【再入荷通知】HELLY HANSENらしいマリンテイストを取り入れた、アウトドアからタウンユースまで活躍するパンツがアップデート。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hoe22634",
+   "brand": "ヘリーハンセン",
+   "name": "ハイカーズパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HOE22634",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001NBP/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HOE22634",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HOE22634",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。【再入荷通知・在庫取り寄せあり】ハイキングから縦走登山まで幅広いトレッキングシーンで活躍するパンツ。",
+    "pros": [
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-ho22550",
+   "brand": "ヘリーハンセン",
+   "name": "トレッキングストレッチウォームパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "裏地を起毛させていることで、暖かさを確保し、動き易さと保温性の両立が特徴です",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HO22550",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001KEA/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HO22550",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HO22550",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。【在庫取り寄せあり】秋口からのライトハイクやキャンプなど幅広いアウトドアシーンで活躍するパンツです。",
+    "pros": [
+     "保温：裏地を起毛させていることで、暖かさを確保し、動き易さと保温性の両立が特徴です",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hh22591",
+   "brand": "ヘリーハンセン",
+   "name": "ルスターストレッチウィンドパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22591",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001O2L/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH22591",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH22591",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。【在庫取り寄せあり】着心地のよさにこだわった、ウインドブレーカー素材のパンツ。",
+    "pros": [
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hy92331",
+   "brand": "ヘリーハンセン",
+   "name": "ステティンド20",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 22000,
+   "weight_g": 690,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92331",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW00014LF/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HY92331",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92331",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。【在庫取り寄せあり】HELLY HANSENの定番アウトドアパックがリニューアル。",
+    "pros": [
+     "重量 690g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 690g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hy92330",
+   "brand": "ヘリーハンセン",
+   "name": "ステティンド30",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 23100,
+   "weight_g": 750,
+   "weight_note": "公式記載",
+   "capacity_l": 30,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92330",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW00014LE/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HY92330",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92330",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。【在庫取り寄せあり】HELLY HANSENの定番アウトドアパックがリニューアル。",
+    "pros": [
+     "重量 750g（公式記載）",
+     "容量 30L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 750g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hy92324",
+   "brand": "ヘリーハンセン",
+   "name": "フィヨルドランド20",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 14300,
+   "weight_g": 460,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92324",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW00014LB/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HY92324",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92324",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。【在庫取り寄せあり】パイピングづかいなどでクラシックパックをイメージし、レトロな雰囲気に仕上げたバックパックです。",
+    "pros": [
+     "重量 460g（公式記載）",
+     "容量 20L"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 460g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hy92471",
+   "brand": "ヘリーハンセン",
+   "name": "WPロールパック",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 34100,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92471",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001E5W/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HY92471",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HY92471",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。【在庫取り寄せあり】耐水性の高い生地とディテールを採用したバックパック。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "hellyhansen-hh52473",
+   "brand": "ヘリーハンセン",
+   "name": "リーセフリースジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "毛足の長いシャギーフリースはデッドエアを溜め込みやすく、保温力の高いミドラーとして活躍。防水アウターのイェラグライトジャケットと連結できるZIP IN ZIP仕様で、着丈や身幅がフィットした組み合わせを楽しめます。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH52473",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001E59/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HH52473",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HH52473",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。【在庫取り寄せあり】柔らかな肌触りで暖かいシャギーフリースを使用したジャケット。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "保温：毛足の長いシャギーフリースはデッドエアを溜め込みやすく、保温力の高いミドラーとし"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "hellyhansen-hm12580",
+   "brand": "ヘリーハンセン",
+   "name": "フィリーダウンジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 38500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "素材について",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "＜表地＞50Dナイロンリップストップ（ナイロン100%） ＜中わた＞650FILウォッシュドグレーダックダウン（ダウン80％、フェザー20％） ＜裏地＞50D軽量高密度タフタ（ポリエステル100%）",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HM12580",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://itemimg.goldwin.co.jp/itemimg/GDW02/A0GDW0001KBU/01_001.jpg",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/HM12580",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/HM12580",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。【在庫取り寄せあり】寒い日のカジュアルスタイルに重宝する、ハイロフトのダウンジャケット。",
+    "pros": [
+     "保温：＜表地＞50Dナイロンリップストップ（ナイロン100%） ＜中わた＞650FIL"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  }
+ ]
+}

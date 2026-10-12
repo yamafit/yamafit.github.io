@@ -1,0 +1,562 @@
+[
+ {
+  "key": "/mens/outer/rainwear/g/P78985.html",
+  "id": "p78985",
+  "name": "ディスカバリー・レイン・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "rain",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "メッシュで裏打ちされた防水性のあるナイロン素材を使用したジャケット。縫い目をテープで処理してあるので、高い防水性を発揮します。本体のポケットに収納できる、携帯に便利なアイテムです。洗濯機の使用可。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。メッシュで裏打ちされた防水性のあるナイロン素材を使用したジャケット。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ダウン・中綿",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/mens/outer/rainwear/g/P124308.html",
+  "id": "p124308",
+  "name": "ウォータープルーフ・ウインドブレーカー・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "wear",
+  "price": null,
+  "weight_g": 431,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "軽量ながらも丈夫なリップストップ素材を使用した、防水性のあるウインドブレーカー。ハイキングやサイクリングはもちろん、日常での着用にも最適です。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。軽量ながらも丈夫なリップストップ素材を使用した、防水性のあるウインドブレーカー。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 431g（公式記載）",
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/mens/outer/rainwear/g/P124317.html",
+  "id": "p124317",
+  "name": "パスファインダー・ゴアテックス・シェル・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "rain",
+  "price": null,
+  "weight_g": 468,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "耐久性のある3層構造の防水透湿素材ゴアテックス®ファブリックが、雨、風、雪に対して優れたプロテクションを発揮するジャケット。確かな防水性、防風性、透湿性が特長のGUARANTEED TO KEEP YOU DRY&#153;素材を使用しています。",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。耐久性のある3層構造の防水透湿素材ゴアテックス®ファブリックが、雨、風、雪に対して優れたプロテクションを発揮するジャケット。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 468g（公式記載）",
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/mens/outer/rainwear/g/P123742.html",
+  "id": "p123742",
+  "name": "H2OFF レイン・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "rain",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "雨の強い日でも快適に過ごせるH2OFFレイン・ジャケットに待望のメンズ・スタイルが登場。しわになりにくく、防水性の高い薄手のポリエステル製マイクロファイバーを使用しているので、通勤や旅行、日常にも最適な一着です。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。雨の強い日でも快適に過ごせるH2OFFレイン・ジャケットに待望のメンズ・スタイルが登場。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/mens/outer/fleece/g/P113304.html",
+  "id": "p113304",
+  "name": "マウンテン・パイル・フリース・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "wear",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "素材＆ケア方法 厚手の300ウェイト・シェルパ・フリースを使用",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。厚手のシェルパ・フリースを使用したジャケット。",
+   "pros": [
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/mens/tops/fleece/g/P5828071.html",
+  "id": "p5828071",
+  "name": "オールシーズン・ウール・フリース・フルジップ・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "wear",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "素材＆ケア方法 ウール61%/ポリエステル39%製フリース",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ウールの上質な暖かさと、フリースの心地良いソフトさが融合したフルジップ・ジャケット。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/mens/outer/fleece/g/P120883.html",
+  "id": "p120883",
+  "name": "マウンテン・クラシック・フリース・ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "wear",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "当社のデザイナーが、エル・エル・ビーンのアーカイブから見つけたクラシックなフリースを参考にデザインしたジャケット。ディテールはオリジナルに忠実に、フィットと機能性をアップデートしました。環境にも優しい、100%再生素材を使用し、ソフトに暖かく仕上げました。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。当社のデザイナーが、エル・エル・ビーンのアーカイブから見つけたクラシックなフリースを参考にデザインしたジャケット。",
+   "pros": [
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/mens/outer/down/g/P117864.html",
+  "id": "p117864",
+  "name": "エル・エル・ビーン・セーター・フリース 3イン1 ジャケット",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "wear",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "素材＆ケア方法 耐風、耐水性のあるシェルは丈夫なポリエステル製、裏地はナイロン製",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ダウン・中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。1着で3通りのオプションが楽しめる3イン1ジャケット。",
+   "pros": [
+    "保温：ダウン・中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/tote-travel/backpack/bookpacks/g/0TXT908000.html",
+  "id": "0txt908000",
+  "name": "エル・エル・ビーン・デラックス・ブック・パック、37L",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "pack",
+  "price": null,
+  "weight_g": 596,
+  "weight_note": "公式記載",
+  "capacity_l": 37,
+  "material": "素材＆ケア方法 本体は裏にポリウレタンコーティングを施した、丈夫で耐水性のある420デニールのナイロン100%製",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。初めて紹介して以来、40年以上人気の当社のデラックス・ブック・パック。",
+   "pros": [
+    "重量 596g（公式記載）",
+    "容量 37L"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 596g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/tote-travel/backpack/bookpacks/g/P83531.html",
+  "id": "p83531",
+  "name": "スーパー・デラックス・ブック・パック、41L",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "pack",
+  "price": null,
+  "weight_g": 965,
+  "weight_note": "公式記載",
+  "capacity_l": 41,
+  "material": "素材＆ケア方法 本体は裏にポリウレタンコーティングを施した、丈夫で耐水性のある420デニールのリップストップ・ナイロン100%製",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "tent",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。当社の長年にわたり人気の、大きめの容量が必要な方にぴったりのパック。",
+   "pros": [
+    "重量 965g（公式記載）",
+    "容量 41L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/outdoor/camp-hiking/backpack/g/P124494.html",
+  "id": "p124494",
+  "name": "エル・エル・ビーン・ストアウェイ・ウルトラライト・デイ・パック",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "pack",
+  "price": null,
+  "weight_g": 363,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "当社の人気のストアウェイ・デイ・パックをさらに軽量化したパックが登場。環境にも優しいブルーサイン®認証の再生ポリエステル素材を使用。短時間のハイキングにも日常の使用にも最適です。",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。当社の人気のストアウェイ・デイ・パックをさらに軽量化したパックが登場。",
+   "pros": [
+    "重量 363g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 363g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/womens/shoes/hiking-shoes/g/P91622.html",
+  "id": "p91622",
+  "name": "トレイル・モデル4 ハイキング・ブーツ",
+  "in_stock_unknown": true,
+  "in_stock": true,
+  "gender": "unisex",
+  "category": "boots",
+  "price": null,
+  "weight_g": 1100,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "スニーカーの軽さや快適な履き心地をお楽しみいただけるハイキング・ブーツ。アッパーのライニングに防水透湿素材TEK2.5®を搭載しています。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "靴。スニーカーの軽さや快適な履き心地をお楽しみいただけるハイキング・ブーツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 1,100g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "足元を安定させたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ }
+]

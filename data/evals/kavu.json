@@ -1,0 +1,469 @@
+[
+ {
+  "key": "/products/19822508",
+  "id": "19822508",
+  "name": "メンズ ニューチリワックパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ ニューチリワックパンツ はタフなコットン生地を使用したロングパンツです。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822509",
+  "id": "19822509",
+  "name": "メンズ コーデュロイ チリワックパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "生地には、優れた保温性を持ち、独特の凹凸感が上品な光沢を生み出す14W（ウェール）のコーデュロイ生地を採用しています",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ コーデュロイ チリワックパンツ は温かみのある豊かな表情のコーデュロイ生地を使用したロングパンツです。",
+   "pros": [
+    "保温：生地には、優れた保温性を持ち、独特の凹凸感が上品な光沢を生み出す14W（ウェール"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822529",
+  "id": "19822529",
+  "name": "ウィメンズ ボアジャケット",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー ウィメンズ ボアジャケット はフードが取り外しできる女性向けの2WAY仕様ボアジャケットです。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822524",
+  "id": "19822524",
+  "name": "ウィメンズ ナイロンパンツ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー ウィメンズ ナイロンパンツ は表地にナイロン、裏地にフリースを使用した防寒性のある女性向けパンツです。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822516",
+  "id": "19822516",
+  "name": "メンズ バラノフジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "表地には軽量なナイロン素材、裏地には暖かなフリース素材を組み合わせることで、優れた防風性と保温性を両立した一着",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ バラノフジャケット は90年代に作られた名作バラノフジャケットをナイロンとフリースでアップデートしたスタ",
+   "pros": [
+    "保温：表地には軽量なナイロン素材、裏地には暖かなフリース素材を組み合わせることで、優れ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/19822540",
+  "id": "19822540",
+  "name": "メンズ ダック NW ジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "インナーにダウンベストなどの中綿アイテムを重ね着しやすいようオーバーサイズで作られており、寒い季節のレイヤードスタイルにも柔軟に対応します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ ダック NW ジャケット は首元にチンストラップが付いたコーチジャケットです。",
+   "pros": [
+    "保温：インナーにダウンベストなどの中綿アイテムを重ね着しやすいようオーバーサイズで作ら"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/19822505",
+  "id": "19822505",
+  "name": "メンズ フーデッド バラノフジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "中綿には、宇宙開発の場でも採用される高機能断熱材「PRIMALOFT」をたっぷりと130g封入",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ フーデッド バラノフジャケット は防寒性に優れたフード付きのジャケットです。",
+   "pros": [
+    "保温：中綿には、宇宙開発の場でも採用される高機能断熱材「PRIMALOFT」をたっぷり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/19822506",
+  "id": "19822506",
+  "name": "メンズ バラノフベスト",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "表地にはコットンのような柔らかな質感のSupplexナイロンを、中綿には宇宙開発の場でも採用される高機能断熱材「PRIMALOFT」を採用しました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ バラノフベスト は着回し力と防寒性を兼ね備えたベストです。",
+   "pros": [
+    "保温：表地にはコットンのような柔らかな質感のSupplexナイロンを、中綿には宇宙開発"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/19822504",
+  "id": "19822504",
+  "name": "メンズ インディゴ ノースウエスト ジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。商品説明 サイズ・素材 動画 KAVU カブー メンズ インディゴ ノースウエスト ジャケット はチンストラップ付きのコーチジャケットです。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822507",
+  "id": "19822507",
+  "name": "メンズ バラノフオーバーパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "KAVU カブー メンズ バラノフオーバーパンツ は機能的な素材を贅沢に組み合わせた中綿入りのオーバーパンツです。",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ バラノフオーバーパンツ は機能的な素材を贅沢に組み合わせた中綿入りのオーバーパンツです。",
+   "pros": [
+    "保温：KAVU カブー メンズ バラノフオーバーパンツ は機能的な素材を贅沢に組み合わ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/19822449",
+  "id": "19822449",
+  "name": "メンズ NEW シェルテックパンツ",
+  "gender": "mens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "サイズ・素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。商品説明 サイズ・素材 動画 KAVU カブー メンズ NEW シェルテックパンツ はアーバンライクなシルエットの機能性パンツです。",
+   "pros": [
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ }
+]

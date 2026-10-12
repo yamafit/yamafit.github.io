@@ -1,7 +1,7 @@
 // 使い方: node tools/refresh-offers.mjs [--brand モンベル] [--limit 20] [--dry]
 // マスターの各商品について、公式ページを開き直して「価格」「在庫」「確認日」を更新する（スペックは変えない）。
 //  - モンベル：サイズ別の在庫表示（在庫あり／完売など）を数える
-//  - サロモン・マーモット・メレル：Shopifyの商品JSON（variantsのavailable・price）
+//  - マーモット・ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU（A&F）：Shopifyの商品JSON（variantsのavailable・price）
 //  - それ以外：ページ内の価格・在庫のデータ（JSON-LD等）。マムートはサイズ別のため在庫は「不明」のまま
 //  - ページが消えている（404）場合は「在庫なし」とし、note に残す。ここで消すかどうかは運営者が決める。
 import fs from "node:fs";
@@ -18,7 +18,7 @@ const text = (html) => html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/
 
 async function check(url) {
   const u = new URL(url); await polite(u.host);
-  if (/\/products\//.test(u.pathname) && /(salomon\.jp|marmot\.jp|merrell\.jp)$/.test(u.host)) { // Shopify
+  if (/\/products\//.test(u.pathname) && /(marmot\.jp|www\.millet\.jp|arcteryx\.jp|wildthings\.jp|store\.nanga\.jp|aandfstore\.com)$/.test(u.host)) { // Shopify
     const r = await fetch(`${u.origin}${u.pathname}.js`, { headers: H, signal: AbortSignal.timeout(30000) }); // .js には在庫(available)が入る。価格は銭単位
     if (r.status === 404) return { gone: true };
     const product = await r.json();
@@ -35,6 +35,20 @@ async function check(url) {
     return { price: m ? Number(m.match(/¥([\d,]+)/)[1].replace(/,/g, "")) : null, in_stock: s.some((l) => /在庫あり/.test(l)) ? true : s.length ? false : null };
   }
   if (/mammut\.jp/.test(u.host)) { const p = [...html.matchAll(/"price"\s*:\s*"?(\d{3,7})/g)].map((x) => Number(x[1])); return { price: p.length ? Math.min(...p) : null, in_stock: null }; } // サイズ別のため不明
+  // サイトごとの価格・在庫の読み方（取り込み時と同じ規則にそろえる。ずれると毎日価格が行き来してしまう）
+  if (/(ec\.snowpeak\.co\.jp|ec\.coleman\.co\.jp|workman\.jp)$/.test(u.host)) { // JSON-LD の価格・在庫
+    for (const m of html.matchAll(/<script[^>]+application\/ld\+json[^>]*>([\s\S]*?)<\/script>/g)) {
+      try { const j = JSON.parse(m[1]); const arr = Array.isArray(j) ? j : j["@graph"] || [j]; for (const x of arr) if (/Product/.test(JSON.stringify(x["@type"] || "")) || x.offers) {
+        const of = [].concat(x.offers && x.offers.offers ? x.offers.offers : x.offers || [])[0] || {};
+        const price = Number(of.price || of.lowPrice) || null; const a = String(of.availability || "").split("/").pop();
+        return { price, in_stock: /InStock|Limited/.test(a) ? true : /OutOfStock|SoldOut/.test(a) ? false : null };
+      } } catch {}
+    }
+    return { price: null, in_stock: null };
+  }
+  if (/karrimor\.jp$/.test(u.host)) { const l = text(html); const pm = l.map((x) => (x.match(/[¥￥]\s?([\d,]{3,})/) || [])[1]).filter(Boolean)[0]; const st = l.filter((x) => /^(在庫あり|在庫なし|完売|在庫わずか)/.test(x));
+    return { price: pm ? Number(pm.replace(/,/g, "")) : null, in_stock: st.some((x) => /在庫あり|在庫わずか/.test(x)) ? true : st.length ? false : null }; }
+  if (/llbean\.co\.jp$/.test(u.host)) return { price: null, in_stock: null }; // 価格・在庫が画面表示後に読み込まれるため、確認日のみ更新
   const av = [...html.matchAll(/"availability"\s*:\s*"[^"]*?(InStock|OutOfStock|SoldOut|LimitedAvailability)"/g)].map((m) => m[1]);
   const prices = [...html.matchAll(/"price"\s*:\s*"?(\d{3,7})(?:\.\d+)?"?/g)].map((m) => Number(m[1])).filter((n) => n >= 500);
   const jp = text(html).map((l) => (l.match(/[¥￥]\s?([\d,]{4,})/) || [])[1]).filter(Boolean).map((s) => Number(s.replace(/,/g, "")));

@@ -25,7 +25,7 @@ for (const url of urls) {
       try { const j = JSON.parse(m[1]); const arr = Array.isArray(j) ? j : j["@graph"] || [j]; for (const x of arr) if (/Product/.test(JSON.stringify(x["@type"] || ""))) ld = ld || x; } catch {}
     }
     const offers = ld ? [].concat(ld.offers && ld.offers.offers ? ld.offers.offers : ld.offers || []) : [];
-    let prices = uniq(offers.map((o) => Number(o.price || (o.priceSpecification || {}).price)).filter((n) => n > 0));
+    let prices = uniq(offers.map((o) => Number(o.price || o.lowPrice || (o.priceSpecification || {}).price)).filter((n) => n > 0));
     let avail = offers.map((o) => String(o.availability || "").split("/").pop());
     if (!prices.length) prices = uniq([...html.matchAll(/"price"\s*:\s*"?(\d{3,7})(?:\.\d+)?"?/g)].map((m) => Number(m[1])).filter((n) => n >= 500));
     if (!avail.length) avail = uniq([...html.matchAll(/"availability"\s*:\s*"[^"]*?(InStock|OutOfStock|SoldOut|PreOrder|LimitedAvailability)"/g)].map((m) => m[1]));
@@ -39,7 +39,7 @@ for (const url of urls) {
       name: dec((ld && ld.name) || meta(html, "og:title") || (html.match(/<title[^>]*>([^<]*)/i) || [])[1] || "").trim(),
       title: dec((html.match(/<title[^>]*>([^<]*)/i) || [])[1] || "").trim(),
       price_min: prices.length ? Math.min(...prices) : null, price_max: prices.length ? Math.max(...prices) : null,
-      price_text: pick(/[¥￥][\d,]{3,}|[\d,]{3,}円/, 3),
+      price_text: pick(/[¥￥]\s?[\d,]{3,}|[\d,]{3,}円/, 3),
       availability: avail.length ? uniq(avail) : null,
       image: img || null, og_image: og,
       desc: ((ld && ld.description) ? dec(String(ld.description)).replace(/<[^>]+>/g, " ") : meta(html, "og:description") || meta(html, "description") || "").replace(/\s+/g, " ").slice(0, 400),
@@ -48,6 +48,7 @@ for (const url of urls) {
       material: pick(/(素材|表地|Material|ナイロン|ポリエステル|ゴアテックス|GORE|レザー|革)/i, 5),
       waterproof: pick(/(防水|耐水|waterproof|GORE|ゴアテックス)/i, 4),
       warmth: pick(/(保温|中綿|ダウン|フィルパワー|insulat|PrimaLoft|プリマロフト)/i, 3),
+      stock_lines: pick(/^(在庫あり|在庫なし|完売|売り切れ|SOLD ?OUT|入荷待ち|在庫わずか)/i, 3),
       size: pick(/(サイズ|容量|\d+\s?L\b|Size)/i, 4),
       checked_at: today,
     };

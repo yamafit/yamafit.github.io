@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>商品一覧｜ヤマフィット</title>
+<meta name="description" content="登山靴・ザック・アウターなどの商品を、商品名やブランド、価格帯で検索・絞り込みできます。価格・重量・素材は各ブランド公式ページの記載にもとづきます。">
+<meta property="og:title" content="記事一覧">
+<meta property="og:description" content="登山靴・レインウェア・ザック・ポールなど、登山装備の選び方をまとめた記事の一覧です。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ヤマフィット">
+<link rel="canonical" href="https://yamafit.github.io//articles.html">
+<link rel="stylesheet" href="css/style.css?v=202610122300">
+</head>
+<body>
+<div class="page">
+<header class="header header--line" id="top">
+  <a class="logo" href="index.html"><b>ヤマフィット</b><span>YAMAFIT</span></a>
+  <button class="icon-btn" type="button" aria-label="メニューを開く"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</header>
+
+<main class="doc" style="gap: 20px">
+  <div class="stack" style="gap: 8px">
+    <div class="crumb"><a href="index.html">ホーム</a> ／ 商品一覧</div>
+    <h1>商品一覧</h1>
+    <p class="doc-lead">商品名・ブランドで検索し、カテゴリーやブランドで絞り込めます。価格・重量・素材は、各ブランド公式ページの記載（確認日つき）にもとづきます。</p>
+  </div>
+  <form class="pf" id="pf" role="search" onsubmit="return false">
+    <div class="search">
+      <label for="pf-q" style="position:absolute; left:-9999px">商品名で検索</label>
+      <input class="input" id="pf-q" type="search" placeholder="商品名・ブランドで検索" autocomplete="off">
+    </div>
+    <div class="pf-row"><b>カテゴリー</b><div class="cats" id="pf-cats"></div></div>
+    <div class="pf-row"><b>ブランド（複数選べます）</b><div class="pf-brands" id="pf-brands"></div></div>
+    <div class="pf-row" id="pf-extra"></div>
+    <div class="pf-row"><label for="pf-sort"><b>並び順</b></label><select id="pf-sort"><option value="">おすすめ順（カテゴリー・ブランド順）</option><option value="price-asc">価格が安い順</option><option value="price-desc">価格が高い順</option><option value="weight-asc">軽い順</option></select></div>
+    <div class="pf-count" id="pf-count" role="status"></div>
+  </form>
+  <div id="pf-list"></div>
+  <p class="rank-basis">並び順は、選んだ条件（価格・重量など）だけで決まります。アフィリエイト報酬の高さは、並び順や評価に使っていません。</p>
+</main>
+</main>
+</div>
+<footer class="footer">
+  <div class="footer-inner">
+    <nav aria-label="フッター"><a href="products.html">商品一覧</a><a href="articles.html">記事</a><a href="news.html">最新記事</a><a href="about.html">運営者情報</a><a href="privacy.html">プライバシーポリシー</a><a href="contact.html">お問い合わせ</a></nav>
+    <div class="mono">YAMAFIT</div>
+  </div>
+</footer>
+<script src="js/site.js?v=202610122300"></script>
+<script src="js/app.js?v=202610122300"></script>
+<script src="js/menu.js?v=202610122300"></script>
+<script src="js/products.js?v=202610122300"></script>
+<script src="js/shop.js?v=202610122300"></script>
+</body>
+</html>

@@ -29,7 +29,7 @@ for (const f of fs.readdirSync("data/master").filter((x) => x.endsWith(".json"))
     if (!Array.isArray(p.sources) || !p.sources.length) bad(id, "sources が必要（情報源URLと確認日）");
     else for (const s of p.sources) if (!/^https?:\/\//.test(s.url || "") || !DATE.test(s.checked_at || "")) bad(id, "sources の url/checked_at が不正");
     const im = p.image;
-    if (!im || !/^https?:\/\//.test(im.url || "") || !im.angle || !im.src_page || !DATE.test(im.checked_at || "")) bad(id, "image の url/angle/src_page/checked_at が必要");
+    if (!im || (im.url && !/^https?:\/\//.test(im.url)) || !im.angle || !im.src_page || !DATE.test(im.checked_at || "")) bad(id, "image の angle/src_page/checked_at が必要（url は公式ページに画像がなければ空でよい）");
     if (!Array.isArray(p.offers) || !p.offers.length) bad(id, "offers が必要");
     else for (const o of p.offers) {
       if (!SHOP.includes(o.shop)) bad(id, `offers.shop不正: ${o.shop}`);

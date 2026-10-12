@@ -1,0 +1,1037 @@
+{
+ "brand": "カリマー",
+ "products": [
+  {
+   "id": "karrimor-101520",
+   "brand": "カリマー",
+   "name": "WTX LT rain jkt",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 31900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101520.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101520/101520-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101520.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101520.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。",
+    "pros": [
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101500",
+   "brand": "カリマー",
+   "name": "G-TX 3L rain jkt",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 51700,
+   "weight_g": 460,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "表側（ナイロン100％）",
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101500.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101500/101500-THUMB1.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101500.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101500.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。",
+    "pros": [
+     "防水・撥水：GORE-TEX（公式記載）",
+     "重量 460g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101565",
+   "brand": "カリマー",
+   "name": "WTX 2.5L jkt",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 26950,
+   "weight_g": 265,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "WTX™ 2.5L（ナイロン 100%）",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101565.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101565/101565-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101565.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101565.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 265g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 265g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-101511",
+   "brand": "カリマー",
+   "name": "multi field LW pants",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": 420,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ウエスト内側に吸水速乾素材採用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101511.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101511/101511-THUMB1.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101511.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101511.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。",
+    "pros": [
+     "重量 420g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101512",
+   "brand": "カリマー",
+   "name": "multi field MW pants",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": 530,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ウエスト内側に吸水速乾素材採用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101512.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101512/101512-THUMB1.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101512.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101512.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。",
+    "pros": [
+     "重量 530g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101516",
+   "brand": "カリマー",
+   "name": "rigg pants",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 17600,
+   "weight_g": 450,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "適度な厚みでタテヨコ2wayストレッチ素材を採用した通年モデルの定番マルチポケットパンツ。収納に便利な計7箇所の大小様々なポケットを配置。ウエストはシャーリング＋アジャスト＋ベルトループを搭載。ライフシーンでも活躍する一着。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101516.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101516/101516-THUMB1.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101516.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101516.html",
+     "affiliate_url": "",
+     "in_stock": false,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。",
+    "pros": [
+     "重量 450g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101632",
+   "brand": "カリマー",
+   "name": "multi field pants",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 18000,
+   "weight_g": 381,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・中肉でほどよい厚みのはっ水素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101632.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101632/101632-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101632.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101632.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 381g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101529",
+   "brand": "カリマー",
+   "name": "field LW pants",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 17050,
+   "weight_g": 350,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "〈 2024SSモデル 〉フィールド LW パンツ 軽量ストレッチ素材を採用したアクティブ向けパンツ。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101529.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101529/101529-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101529.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101529.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。",
+    "pros": [
+     "重量 350g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "karrimor-101603",
+   "brand": "カリマー",
+   "name": "fleece zip-up",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101603.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101603/101603-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101603.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101603.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。",
+    "pros": [
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-101549",
+   "brand": "カリマー",
+   "name": "ultra feather jkt",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 46200,
+   "weight_g": 260,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "通年使用可能な軽量・コンパクト性に優れたダウンジャケット。ポーランド産900FPダウンを封入したパッカブルモデル。フロントはレイヤリング時のジッパーの重なりを考慮したアシンメトリー設計。ダブルジッパーに加えてスナップボタンを追加する事で様々なシーンに適用。腰ポケット内側には抗菌加工素材を採用。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101549.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101549/101549-4360-THUMB1.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101549.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101549.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。",
+    "pros": [
+     "重量 260g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 260g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-501287",
+   "brand": "カリマー",
+   "name": "thrush 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 27000,
+   "weight_g": 620,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501287.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501287/501287-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/501287.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501287.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。",
+    "pros": [
+     "重量 620g（公式記載）",
+     "容量 25L"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 620g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-501292",
+   "brand": "カリマー",
+   "name": "ventis 15",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 9000,
+   "weight_g": 205,
+   "weight_note": "公式記載",
+   "capacity_l": 15,
+   "material": "シリコン加工を施した50デニールリップストップナイロンを使用した、パッカブル仕様の軽量小型ロールトップリュックサック。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501292.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501292/501292-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/501292.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501292.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。",
+    "pros": [
+     "重量 205g（公式記載）",
+     "容量 15L"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 205g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-501296",
+   "brand": "カリマー",
+   "name": "relic daypack 20",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 17000,
+   "weight_g": 450,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "カリマーのアーカイブをモチーフに、素材・機能・使い勝手を現代仕様へとアップデート。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501296.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501296/501296-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/501296.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501296.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。",
+    "pros": [
+     "重量 450g（公式記載）",
+     "容量 20L"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 450g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-101656",
+   "brand": "カリマー",
+   "name": "DF active hoodie",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 35000,
+   "weight_g": 280,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・表地には程よい通気をもたらすPERTEXQUANTUMAIRの中でも耐摩耗性に優れたDIAMONDFUSEを採用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "副素材:PRIMALOFT Evolve（ポリエステル100%）",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101656.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101656/101656-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101656.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101656.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。",
+    "pros": [
+     "重量 280g（公式記載）",
+     "保温：副素材:PRIMALOFT Evolve（ポリエステル100%）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 280g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "karrimor-101647",
+   "brand": "カリマー",
+   "name": "alpiniste LT jkt",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 70000,
+   "weight_g": 420,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "3シーズン対応のCRAFTEVO®AQUAX40D3L素材を採用(耐水圧30,000mm、透湿20,000g/m2/24h)",
+   "waterproof": "耐水圧30,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "ダウンジャケット・ダウンベスト",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/101647.html",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/101647/101647-THUMB.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/101647.html",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/101647.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。",
+    "pros": [
+     "防水・撥水：耐水圧30,000mm（公式記載）",
+     "重量 420g（公式記載）",
+     "保温：ダウンジャケット・ダウンベスト"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  }
+ ]
+}

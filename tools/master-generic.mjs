@@ -18,7 +18,7 @@ for (const e of evals) {
   const price = e.price !== undefined ? e.price : (priceFromText.length ? Math.max(...priceFromText) : r.price_min ?? r.price_max);
   const av = r.availability || [];
   const stock = e.in_stock_unknown ? null : av.some((a) => /InStock|LimitedAvailability/.test(a)) ? true : av.length && av.every((a) => /OutOfStock|SoldOut/.test(a)) ? false : e.in_stock ?? null;
-  const imageUrl = (e.image || r.image || "").replace(/^http:\/\//, "https://");
+  const imageUrl = (e.image || r.image || "").replace(/^\/\//, "https://").replace(/^http:\/\//, "https://");
   products.push({
     id: `${slug}-${e.id}`, brand: brandName, name: e.name, category: e.category || r.category, gender: e.gender || "unisex", 
     price: price ?? null, weight_g: e.weight_g ?? null, weight_note: e.weight_note ?? null, capacity_l: e.capacity_l ?? null,

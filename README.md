@@ -92,3 +92,21 @@ Chrome で http://localhost:8000 を開く。
 - **ランキング**: 順位はアクセス数・購入数の集計だけで決め、アフィリエイト報酬は使わない（画面にも明記）。
 - **Instagram素材**: `node tools/instagram.mjs <商品ID|記事のslug>` → `out/instagram/<名前>.md`（キャプション・カルーセル構成・見出し・ハッシュタグ候補）。数字は商品マスターから取る。投稿は手動。`SITE.instagramUrl` を入れると商品ページに導線が出る。
 - 更新の流れ: マスター更新 → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`（sitemap も更新）。
+
+
+## ブランドと商品の対象（24ブランド）
+
+ブランドは CAMP HACK「アウトドアウェアの人気ブランド24選」（https://camphack.nap-camp.com/12815）に合わせた24社（`data/brands.json`）。
+商品は、各ブランドの**公式ページに書かれた事実だけ**を取り込む。記載がない項目は「不明」。
+
+- 取り込み: `tools/collect-montbell.mjs`（モンベル）／`tools/collect-shopify.mjs`（Shopify系：マーモット・ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU）／`tools/collect-list.mjs`・`tools/collect-generic.mjs`（その他。一覧または検索で見つけた公式の商品ページ）
+- 評価の作成: `node tools/eval-auto.mjs <slug> [--only …] [--exclude …] [--per-cat N] [--price first|ld|max] [--map "…=カテゴリ"]` が `data/evals/<slug>.json` を作る。**記載から導ける範囲だけ**を書く（弱点などが読み取れないときは「不明」）。→ `node tools/master-generic.mjs <slug> <表示名>` → `node tools/validate-master.mjs` → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`
+- 価格・在庫の毎日更新: `tools/refresh-offers.mjs`（取り込み時と同じ価格の読み方にそろえている）
+- サロモン・メレルは24社に含まれないため、`data/archive/` に退避した（サイトには出ない）。
+
+### 取り込めていないブランド（理由）
+- チャムス: 商品ページが画面表示後に読み込まれる方式で、公式ページの記載を取得できない。
+- ロゴス: 公式サイトがプログラムからのアクセスを拒否している（403）。
+- ホグロフス: 公式サイトがJavaScriptで描画する方式で、取得できない。
+- グリップスワニー・クリフメイヤー: 公式サイトのURLを確認できていないため、メニューの公式サイトリンクも空にしている。
+これらは、公式サイトの許可を得た取得方法（楽天APIなど）が使えるようになってから追加する。

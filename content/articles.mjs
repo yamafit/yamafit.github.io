@@ -14,7 +14,7 @@ export const ARTICLES = [
   { h: "防水透湿素材をどう考えるか", p: ["ゴアテックスなどの防水透湿素材は、外からの水を通さず、内側の湿気は逃がす仕組みです。雨の日やぬかるみ、朝露の多い道で、靴の中が濡れにくくなります。","ただし、防水の靴は通気が弱く、夏は蒸れやすいことがあります。夏の低山が中心なら、防水なしの軽いタイプも選択肢です。"] },
   { h: "買う前に確認すること", ul: ["重量は「片足」か「ペア」か、どのサイズの重量かを確認する（ブランドによって表記が違います）","ワイド（幅広）モデルがあるか","ソールの張り替えができるか（長く使うなら重要）","実際に履いて、かかとが浮かないか、下り坂でつま先が当たらないかを確認する"] },
  ],
- products: ["tnf-offtrail-hike-gtx", "tnf-offtrail-hike-mid-gtx", "merrell-moab-3-gtx-m", "merrell-moab-3-mid-gtx-m", "montbell-1129741"],
+ products: ["tnf-offtrail-hike-gtx", "tnf-offtrail-hike-mid-gtx", "columbia-peakfreak-titanium-mid-outdry-m", "mammut-ducan-3-low-gtx-w", "montbell-1129741"],
  related: ["boots-size", "knee-downhill", "daypack-checklist"],
 },
 {
@@ -29,7 +29,7 @@ export const ARTICLES = [
   { h: "ネットで買うときの注意", ul: ["サイズ表記（cm・UK・US）の換算を確認する","返品・交換の条件を確認する","まず店頭で同じメーカーの靴を試し、サイズ感をつかんでから注文する"] },
   { h: "履き慣らしてから山へ", p: ["新しい登山靴は、いきなり長い山行に使わず、街歩きや低山で履き慣らしてから使うのが安心です。足に当たる場所があれば、早めに気づけます。"] },
  ],
- products: ["salomon-x-ultra-5-wide-gtx-m", "montbell-1129743", "merrell-moab-3-gtx-m", "mammut-ducan-3-high-gtx-m"],
+ products: ["montbell-1129743", "mammut-ducan-3-high-gtx-m", "columbia-peakfreak-titanium-mid-outdry-m", "montbell-1129741"],
  related: ["boots-low-vs-mid", "knee-downhill"],
 },
 {
@@ -59,7 +59,7 @@ export const ARTICLES = [
   { h: "あると便利な機能", ul: ["レインカバー内蔵","サイドポケット（ボトルを取り出しやすい）","トレッキングポールを留めるストラップ","ハイドレーション（水筒）対応"] },
   { h: "重量にも注目", p: ["ザックそのものの重量も、背負ううちに効いてきます。同じ容量でも、数百グラムの差があるので、商品カードの重量を比べてみてください。"] },
  ],
- products: ["montbell-1133543", "tnf-tellus-25", "tnf-tellus-35", "salomon-aerotrek-30", "tnf-tellus-45"],
+ products: ["montbell-1133543", "tnf-tellus-25", "tnf-tellus-35", "montbell-1133530", "tnf-tellus-45"],
  related: ["tent-basics", "daypack-checklist"],
 },
 {

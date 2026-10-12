@@ -1,0 +1,543 @@
+[
+ {
+  "key": "//products/ZBHBZ26/001",
+  "id": "zbhbz26",
+  "name": "透湿防水 レインパック フーデッドジャケット",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 31900,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。軽量で持ち運び可能なスタイリッシュかつ機能的な「レインパック」シリーズが、防水性能をアップデートして登場。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ダウン/中綿",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZBHBJ99/005",
+  "id": "zbhbj99",
+  "name": "ゴアテックス2レイヤー フーデッドロングジャケット T-KIT",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 83600,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。ゴアテックス2レイヤーを採用した、ロング丈のフーディジャケットです。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "保温：ダウン/中綿"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "//products/ZBHBY20/004",
+  "id": "zbhby20",
+  "name": "撥水 3in1 レイヤードジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 121000,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。フレンチヘリテージと現代的なデザインを融合した「AIGLE BY SETCHU」コレクションの3 in 1ジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：ダウン/中綿",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が12万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "//products/ZBHBY27/004",
+  "id": "zbhby27",
+  "name": "パッカブル パデッドベスト WARM",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 49500,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。フレンチヘリテージと現代的なデザインを融合した「AIGLE BY SETCHU」コレクションの中綿ベスト。",
+   "pros": [
+    "保温：ダウン/中綿",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZBHBW00/006",
+  "id": "zbhbw00",
+  "name": "撥水 ダウンジャケット WARM T-KIT",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 46200,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・素材：本体：ポリエステル 89％、ポリウレタン 11％ 裏地：ポリエステル 100％ 中わた①：ポリエステル 100％ 中わた②：ダウン 90％、フェザー 10％",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。撥水性を備えた、リプリーブ グースダウンのインナージャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：・素材：本体：ポリエステル 89％、ポリウレタン 11％ 裏地：ポリエステル 1",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZBHBK05/005",
+  "id": "zbhbk05",
+  "name": "ゴアテックス インサレーション ダブルカラーロングジャケット VERY WARM",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 99000,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。ゴアテックスを採用した、中綿入りのロングジャケット。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "保温：ダウン/中綿"
+   ],
+   "cons": [
+    "価格が9万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "//products/ZSHBV37/004",
+  "id": "zshbv37",
+  "name": "撥水 防風 ストレッチ ソフトシェル スタンドカラージャケット WARM",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 31900,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。撥水・防風性を備えた、ハイネックのソフトシェルウィメンズジャケットです。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：ダウン/中綿",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "//products/ZSHBK76/004",
+  "id": "zshbk76",
+  "name": "ポーラテック ジップアップフリース T-KIT",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 29700,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ダウン/中綿",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。POLARTEC® 200 ジップアップ フリースは、トップステッチのディテールがグラフィックな印象を与え、暖かさと汎用性を保証します。",
+   "pros": [
+    "保温：ダウン/中綿"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZNHBR92/001",
+  "id": "znhbr92",
+  "name": "SEA 撥水 パッカブル バックパック 20L",
+  "gender": "unisex",
+  "category": "pack",
+  "price": 14300,
+  "weight_g": 350,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "レザーシューズ・その他",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。リサイクルポリエステルを使用したパッカブル仕様のバックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 350g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 350g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZNHBR93/001",
+  "id": "znhbr93",
+  "name": "SEA 撥水 パッカブル 巾着バックパック 15L",
+  "gender": "unisex",
+  "category": "pack",
+  "price": 12100,
+  "weight_g": 250,
+  "weight_note": "公式記載",
+  "capacity_l": 15,
+  "material": "レザーシューズ・その他",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。リサイクルポリエステルを使用したパッカブル仕様の巾着バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 250g（公式記載）",
+    "容量 15L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 250g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "//products/ZZHNB57/003",
+  "id": "zzhnb57",
+  "name": "ユニセックス レスフォープラス2 クロッグ",
+  "gender": "unisex",
+  "category": "boots",
+  "price": 13200,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "靴。ヘビーデューティーに優れたラバーアンクルブーツ ヘビーデューティーな環境での着用を想定し開発されたアンクルブーツです。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "足元を安定させたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "//products/ZZHND76/002",
+  "id": "zzhnd76",
+  "name": "チェルシーレイン ラバーブーツ",
+  "gender": "unisex",
+  "category": "boots",
+  "price": 25300,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "レザーシューズ・その他",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "靴。フランス・アングランドで製造された「チェルシーレイン」は、ブランドの定番モデル「ソフトレイン」に着想を得ながら、より軽量でしなやかな履き心地へと進化しました。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "足元を安定させたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ }
+]

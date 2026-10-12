@@ -1,0 +1,842 @@
+[
+ {
+  "key": "/products/aurora-tex-light-380dx",
+  "id": "aurora-tex-light-380dx",
+  "name": "オーロラテックス ライト 380DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 49500,
+  "weight_g": 760,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量：380g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。合理的な構造により軽量化を実現した、3シーズン（春・夏・秋）モデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタンダードシリー",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 760g（公式記載）",
+    "保温：・ダウン量：380g",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-light-480dx",
+  "id": "aurora-tex-light-480dx",
+  "name": "オーロラテックス ライト 480DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 55000,
+  "weight_g": 870,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量480gを封入し、軽量性を保ちながら朝晩の冷え込みにも対応",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。軽量性と保温性をバランスよく備えた、3シーズン（春・夏・秋）モデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタンダードシリー",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 870g（公式記載）",
+    "保温：・ダウン量480gを封入し、軽量性を保ちながら朝晩の冷え込みにも対応"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-light-630dx",
+  "id": "aurora-tex-light-630dx",
+  "name": "オーロラテックス ライト 630DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 67100,
+  "weight_g": 1190,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量630gを封入し、厳しい冷え込みにも対応する高い保温性を実現",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。氷点下の環境にも対応する、高い保温性を備えた4シーズン（春・夏・秋・冬）モデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタン",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 1,190g（公式記載）",
+    "保温：・ダウン量630gを封入し、厳しい冷え込みにも対応する高い保温性を実現"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-light-780dx",
+  "id": "aurora-tex-light-780dx",
+  "name": "オーロラテックス ライト 780DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 73700,
+  "weight_g": 1310,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量780gを封入し、氷点下の環境でも快適な睡眠をサポート",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。国内の冬季登山に適した、高い保温性を備えた4シーズン（春・夏・秋・冬）モデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタンダ",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 1,310g（公式記載）",
+    "保温：・ダウン量780gを封入し、氷点下の環境でも快適な睡眠をサポート"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-light-900dx",
+  "id": "aurora-tex-light-900dx",
+  "name": "オーロラテックス ライト 900DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 80300,
+  "weight_g": 1430,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量900gを封入し、厳しい冷え込みにも対応する高い保温性を発揮",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。厳冬期登山にも対応する、高い保温性を備えたモデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタンダードシリーズ ■ このモデル",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 1,430g（公式記載）",
+    "保温：・ダウン量900gを封入し、厳しい冷え込みにも対応する高い保温性を発揮"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-light-1100dx",
+  "id": "aurora-tex-light-1100dx",
+  "name": "オーロラテックス ライト 1100DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 90200,
+  "weight_g": 1630,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "耐水圧20,394mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・ダウン量1,100gを封入し、極寒環境でも優れた保温性を発揮",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。極寒環境での使用を想定した、シリーズ最高レベルの保温性を備えたモデル 軽量性・防水性・保温性をバランスよく備え、幅広いアウトドアシーンに対応するスタンダードシリ",
+   "pros": [
+    "防水・撥水：耐水圧20,394mm（公式記載）",
+    "重量 1,630g（公式記載）",
+    "保温：・ダウン量1,100gを封入し、極寒環境でも優れた保温性を発揮"
+   ],
+   "cons": [
+    "価格が9万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/drydrate-bag-310dx",
+  "id": "drydrate-bag-310dx",
+  "name": "ドライドレイト バッグ 310DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 48400,
+  "weight_g": 610,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・ダウン量：310g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。結露や水濡れに強く、優れた携行性を備えた3シーズン（春・夏・秋）モデル 超撥水加工を施したUDD DX（ダックダウン）を採用し、結露や水濡れに強いドライドレイト",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 610g（公式記載）",
+    "保温：・ダウン量：310g"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/drydrate-bag-430dx",
+  "id": "drydrate-bag-430dx",
+  "name": "ドライドレイト バッグ 430DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 53900,
+  "weight_g": 730,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・ダウン量：430g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。結露や水濡れに強く、幅広いアウトドアに対応する3シーズン（春・夏・秋）モデル 超撥水加工を施したUDD DX（ダックダウン）を採用し、結露や水濡れに強いドライド",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 730g（公式記載）",
+    "保温：・ダウン量：430g"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/drydrate-bag-470dx",
+  "id": "drydrate-bag-470dx",
+  "name": "ドライドレイト バッグ 470DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 59400,
+  "weight_g": 800,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・ダウン量：470g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。結露や水濡れに強く、氷点下の環境にも対応する3シーズン（春・夏・秋）モデル 超撥水加工を施したUDD DX（ダックダウン）を採用し、結露や水濡れに強いドライドレ",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 800g（公式記載）",
+    "保温：・ダウン量：470g"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/drydrate-bag-630dx",
+  "id": "drydrate-bag-630dx",
+  "name": "ドライドレイト バッグ 630DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 71500,
+  "weight_g": 1060,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・ダウン量：630g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。結露や水濡れに強く、冬季登山にも対応する4シーズンモデル 超撥水加工を施したUDD DX（ダックダウン）を採用し、結露や水濡れに強いドライドレイトバッグ ■ こ",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,060g（公式記載）",
+    "保温：・ダウン量：630g"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/drydrate-bag-900dx",
+  "id": "drydrate-bag-900dx",
+  "name": "ドライドレイト バッグ 900DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 84700,
+  "weight_g": 1330,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・ダウン量：900g",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。結露や水濡れに強く、厳冬期の登山にも対応する4シーズンモデル 超撥水加工を施したUDD DX（ダックダウン）を採用し、結露や水濡れに強いドライドレイトバッグ ■",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,330g（公式記載）",
+    "保温：・ダウン量：900g"
+   ],
+   "cons": [
+    "価格が8万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/revibe-bag-0",
+  "id": "revibe-bag-0",
+  "name": "リバイブ バッグ 0",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 45100,
+  "weight_g": 820,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・Re:CYCLE DOWN(80-20) を440g封入し、3シーズンに適した保温性を実現",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。ゆったりとした寝心地で、幅広いアウトドアシーンに対応する3シーズンモデル 一般的なマミー型よりもゆとりのある設計で、快適な寝心地を追求したリバイブバッグ ■ こ",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 820g（公式記載）",
+    "保温：・Re:CYCLE DOWN(80-20) を440g封入し、3シーズンに適した"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/windrex-shell-jacket",
+  "id": "windrex-shell-jacket",
+  "name": "ウィンドレックス シェルジャケット",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 28600,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "NANGAオリジナルの高機能素材「WINDREX」を採用したソフトシェルジャケット。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。悪天候にもアクティブシーンにも対応する高機能ソフトシェルジャケット NANGAオリジナルの高機能素材「WINDREX」を採用したソフトシェルジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/windrex-shell-pants",
+  "id": "windrex-shell-pants",
+  "name": "ウィンドレックス シェルパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "price": 19800,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "NANGA独自の高機能素材「WINDREX」を採用したソフトシェルパンツ。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。アクティブシーンを快適に支える高機能ソフトシェルパンツ NANGA独自の高機能素材「WINDREX」を採用したソフトシェルパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/hinoc-mountain-parka-unisex",
+  "id": "hinoc-mountain-parka-unisex",
+  "name": "ヒノック マウンテンパーカー",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 39600,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "ナンガの独自の難燃素材 『HINOC(ヒノック)』生地で、キャンプ場に舞う火の粉にも安心",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "インナーダウンと重ねて着用することで、シェルとして寒い環境下でも高い保温性をキープ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。キャンプを愛する人々に贈る、ナンガのマンパ 〈アイテムの特徴〉 ナンガの独自の難燃素材 『HINOC(ヒノック)』生地で、キャンプ場に舞う火の粉にも安心 クラシ",
+   "pros": [
+    "保温：インナーダウンと重ねて着用することで、シェルとして寒い環境下でも高い保温性をキー",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/at-3l-weather-shield-jk",
+  "id": "at-3l-weather-shield-jk",
+  "name": "AT 3L ウェザー シールド ジャケット",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 38500,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "防水透湿素材を3層構造に進化させたウェザーシールドジャケット。寝袋やダウンジャケットにも使用されてきたこの防水透湿素材をさらに強化し、日常からアウトドア活動まで、あらゆるシーンで活躍する一着が新たに登場しました。",
+  "waterproof": "耐水圧20,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "防水透湿素材を3層構造に進化させたウェザーシールドジャケット。寝袋やダウンジャケットにも使用されてきたこの防水透湿素材をさらに強化し、日常からアウトドア活動まで、あらゆるシーンで活躍する一着が新たに登場しました。",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。どんな天候でも快適に 防水透湿素材を3層構造に進化させたウェザーシールドジャケット。",
+   "pros": [
+    "防水・撥水：耐水圧20,000mm（公式記載）",
+    "保温：防水透湿素材を3層構造に進化させたウェザーシールドジャケット。寝袋やダウンジャケ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/at-3l-weather-shield-pt",
+  "id": "at-3l-weather-shield-pt",
+  "name": "AT 3L ウェザー シールド パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "price": 27500,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "防水透湿素材を3層構造に進化させた、ウェザーシールドパンツ。寝袋やダウンジャケットにも使用されてきたこの防水透湿素材をさらに強化し、日常からアウトドア活動まで、あらゆるシーンで活躍する一着が新たに登場しました。",
+  "waterproof": "耐水圧20,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "防水透湿素材を3層構造に進化させた、ウェザーシールドパンツ。寝袋やダウンジャケットにも使用されてきたこの防水透湿素材をさらに強化し、日常からアウトドア活動まで、あらゆるシーンで活躍する一着が新たに登場しました。",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。防水性と快適性を両立した、3Lウェザーシールドパンツ 防水透湿素材を3層構造に進化させた、ウェザーシールドパンツ。",
+   "pros": [
+    "防水・撥水：耐水圧20,000mm（公式記載）",
+    "保温：防水透湿素材を3層構造に進化させた、ウェザーシールドパンツ。寝袋やダウンジャケッ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-down-pants-1",
+  "id": "aurora-down-pants-1",
+  "name": "オーロラテックス ダウンパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "price": 46200,
+  "weight_g": 500,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "NANGA独自防水透湿素材、オーロラテックスR生地を採用したNANGA定番モデルのダウンパンツ",
+  "waterproof": "耐水圧20,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "NANGA独自防水透湿素材、オーロラテックスR生地を採用したNANGA定番モデルのダウンパンツ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。防水透湿性と抜群の暖かさ、NANGA定番モデルのダウンパンツ 〈アイテムの特徴〉 NANGA独自防水透湿素材、オーロラテックスR生地を採用したNANGA定番モデ",
+   "pros": [
+    "防水・撥水：耐水圧20,000mm（公式記載）",
+    "重量 500g（公式記載）",
+    "保温：NANGA独自防水透湿素材、オーロラテックスR生地を採用したNANGA定番モデル",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/minimarythm-down-pants",
+  "id": "minimarythm-down-pants",
+  "name": "ミニマリスム ダウンパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "price": 57200,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "表地には7d×7dのミニリップストップナイロンを採用。驚くほど軽量かつ耐久性に優れ、行動中のストレスを最小限に抑えます。コンパクトに収納できるため、限られた荷物で挑む山行においても抜群の携行性を発揮します。",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "山岳ガイドが監修したウルトラライトダウンパンツ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。山岳ガイドが監修したウルトラライトダウンパンツ 〈アイテムの特徴〉 超軽量かつコンパクト、携帯性を高めたミニマリスムシリーズ 山岳ガイドの倉岡氏をアンバサダーに",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：山岳ガイドが監修したウルトラライトダウンパンツ",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ }
+]

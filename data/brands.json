@@ -1,12 +1,14 @@
 {
-  "_note": "name = 表示名、aliases = 最新記事の対象にする別名、site = 公式サイト（メニューからここへ飛ぶ）。ブランドを足す・消すのは運営者がこのファイルを編集する。",
+  "_note": "name = 表示名、aliases = 最新記事の対象にする別名、site = 公式サイト（メニューからここへ飛ぶ。確認できていないブランドは空）。ブランドは CAMP HACK「アウトドアウェアの人気ブランド24選」（https://camphack.nap-camp.com/12815）に合わせた24社。",
   "brands": [
     {
-      "name": "パタゴニア",
+      "name": "モンベル",
       "aliases": [
-        "Patagonia"
+        "mont-bell",
+        "montbell",
+        "モンベル"
       ],
-      "site": "https://www.patagonia.jp/"
+      "site": "https://www.montbell.jp/"
     },
     {
       "name": "ザ・ノース・フェイス",
@@ -18,22 +20,12 @@
       "site": "https://www.thenorthface.jp/"
     },
     {
-      "name": "アークテリクス",
+      "name": "コロンビア",
       "aliases": [
-        "Arc'teryx",
-        "ARC’TERYX",
-        "アークテリクス"
+        "Columbia Sportswear",
+        "コロンビア"
       ],
-      "site": "https://arcteryx.com/"
-    },
-    {
-      "name": "モンベル",
-      "aliases": [
-        "mont-bell",
-        "montbell",
-        "モンベル"
-      ],
-      "site": "https://www.montbell.jp/"
+      "site": "https://www.columbiasports.co.jp/"
     },
     {
       "name": "スノーピーク",
@@ -44,28 +36,109 @@
       "site": "https://www.snowpeak.co.jp/"
     },
     {
-      "name": "コロンビア",
+      "name": "チャムス",
       "aliases": [
-        "Columbia Sportswear",
-        "コロンビア"
+        "CHUMS",
+        "チャムス"
       ],
-      "site": "https://www.columbiasports.co.jp/"
+      "site": "https://www.chums.jp/"
     },
     {
-      "name": "マムート",
+      "name": "パタゴニア",
       "aliases": [
-        "MAMMUT",
-        "マムート"
+        "Patagonia"
       ],
-      "site": "https://www.mammut.jp/"
+      "site": "https://www.patagonia.jp/"
     },
     {
-      "name": "マーモット",
+      "name": "アークテリクス",
       "aliases": [
-        "Marmot",
-        "マーモット"
+        "Arc'teryx",
+        "ARC’TERYX",
+        "アークテリクス"
       ],
-      "site": "https://marmot.jp/"
+      "site": "https://arcteryx.jp/"
+    },
+    {
+      "name": "コールマン",
+      "aliases": [
+        "Coleman",
+        "コールマン"
+      ],
+      "site": "https://www.coleman.co.jp/"
+    },
+    {
+      "name": "ナンガ",
+      "aliases": [
+        "NANGA",
+        "ナンガ"
+      ],
+      "site": "https://nanga.jp/"
+    },
+    {
+      "name": "ロゴス",
+      "aliases": [
+        "LOGOS",
+        "ロゴス"
+      ],
+      "site": "https://www.logos.jp/"
+    },
+    {
+      "name": "ワークマン",
+      "aliases": [
+        "WORKMAN",
+        "ワークマン"
+      ],
+      "site": "https://www.workman.co.jp/"
+    },
+    {
+      "name": "グリップスワニー",
+      "aliases": [
+        "GRIP SWANY",
+        "グリップスワニー"
+      ]
+    },
+    {
+      "name": "エーグル",
+      "aliases": [
+        "AIGLE",
+        "エーグル"
+      ],
+      "site": "https://www.aigle.co.jp/"
+    },
+    {
+      "name": "エルエルビーン",
+      "aliases": [
+        "L.L.Bean",
+        "LLBean",
+        "エルエルビーン",
+        "エル・エル・ビーン"
+      ],
+      "site": "https://www.llbean.co.jp/"
+    },
+    {
+      "name": "クリフメイヤー",
+      "aliases": [
+        "KRIFF MAYER",
+        "クリフメイヤー"
+      ]
+    },
+    {
+      "name": "KAVU",
+      "aliases": [
+        "KAVU",
+        "カブー"
+      ],
+      "site": "https://www.kavu.jp/"
+    },
+    {
+      "name": "ワイルドシングス",
+      "aliases": [
+        "WILD THINGS",
+        "WILDTHINGS",
+        "ワイルドシングス"
+      ],
+      "site": "https://wildthings.jp/"
     },
     {
       "name": "マウンテンハードウェア",
@@ -76,6 +149,46 @@
       "site": "https://www.mountainhardwear.jp/"
     },
     {
+      "name": "ヘリーハンセン",
+      "aliases": [
+        "HELLY HANSEN",
+        "ヘリーハンセン"
+      ],
+      "site": "https://www.hellyhansen.jp/"
+    },
+    {
+      "name": "マムート",
+      "aliases": [
+        "MAMMUT",
+        "マムート"
+      ],
+      "site": "https://www.mammut.jp/"
+    },
+    {
+      "name": "カリマー",
+      "aliases": [
+        "Karrimor",
+        "カリマー"
+      ],
+      "site": "https://www.karrimor.jp/"
+    },
+    {
+      "name": "ミレー",
+      "aliases": [
+        "MILLET",
+        "ミレー"
+      ],
+      "site": "https://www.millet.jp/"
+    },
+    {
+      "name": "マーモット",
+      "aliases": [
+        "Marmot",
+        "マーモット"
+      ],
+      "site": "https://marmot.jp/"
+    },
+    {
       "name": "ホグロフス",
       "aliases": [
         "Haglofs",
@@ -83,54 +196,6 @@
         "ホグロフス"
       ],
       "site": "https://haglofs.jp/"
-    },
-    {
-      "name": "サロモン",
-      "aliases": [
-        "SALOMON",
-        "サロモン"
-      ],
-      "site": "https://salomon.jp/"
-    },
-    {
-      "name": "メレル",
-      "aliases": [
-        "MERRELL",
-        "メレル"
-      ],
-      "site": "https://merrell.jp/"
-    },
-    {
-      "name": "モンテイン",
-      "aliases": [
-        "Montane",
-        "モンテイン"
-      ],
-      "site": "https://montane.com/"
-    },
-    {
-      "name": "ブラックダイヤモンド",
-      "aliases": [
-        "Black Diamond",
-        "ブラックダイヤモンド"
-      ],
-      "site": "https://blackdiamondequipment.com/"
-    },
-    {
-      "name": "ゴールドウイン",
-      "aliases": [
-        "GOLDWIN",
-        "ゴールドウイン"
-      ],
-      "site": "https://www.goldwin.co.jp/"
-    },
-    {
-      "name": "山と道",
-      "aliases": [
-        "山と道",
-        "YAMATOMICHI"
-      ],
-      "site": "https://www.yamatomichi.com/"
     }
   ],
   "extra_feeds": []

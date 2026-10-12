@@ -1,0 +1,408 @@
+{
+ "brand": "ワークマン",
+ "products": [
+  {
+   "id": "workman-g2300068499029",
+   "brand": "ワークマン",
+   "name": "ソロテックス(R)使用アーバンレインポンチョ",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 3900,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "本体：複合繊維(ポリエステル)100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068499029/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68499_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068499029/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068499029/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。ワークマン公式オンラインストアでの通販は全国のワークマン店舗で受け取れば送料無料！",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "workman-g2300068523021",
+   "brand": "ワークマン",
+   "name": "イナレム(R)レインパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 2500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "ストレッチ素材",
+   "waterproof": "耐水圧20,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068523021/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68523_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068523021/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068523021/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。ワークマン公式オンラインストアでの通販は全国のワークマン店舗で受け取れば送料無料！",
+    "pros": [
+     "防水・撥水：耐水圧20,000mm（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "workman-g2300068542039",
+   "brand": "ワークマン",
+   "name": "エックスシェルター超透放湿レインジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 5800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "ポリエステル100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068542039/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68542_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068542039/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068542039/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。ワークマン公式オンラインストアでの通販は全国のワークマン店舗で受け取れば送料無料！",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "workman-g2300068244032",
+   "brand": "ワークマン",
+   "name": "エックスシェルター断熱α防水防寒ジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 5800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "・極めて薄くて軽い非熱伝導性素材をテクノロジー開発。外部環境の冷気が内部への伝導を極限までガード",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "中わた・ダウン",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068244032/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68244_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068244032/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068244032/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。ワークマン公式オンラインストアでの通販は全国のワークマン店舗で受け取れば送料無料！",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "保温：中わた・ダウン"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "workman-g2300068245039",
+   "brand": "ワークマン",
+   "name": "エックスシェルター断熱αイージスプレミアム防水防寒スーツ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 9800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "・極めて薄くて軽い非熱伝導性素材をテクノロジー開発。外部環境の冷気が内部への伝導を極限までガード",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "中わた・ダウン",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068245039/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68245_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068245039/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068245039/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ワークマン公式オンラインストアでの通販は全国のワークマン店舗で受け取れば送料無料！",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "保温：中わた・ダウン"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "workman-g2300068247026",
+   "brand": "ワークマン",
+   "name": "【予約販売D】エックスシェルター断熱βプレミアム超透放湿防水防寒ジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 9800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "・エアロゲル素材を使用し、より高い断熱性を保つ",
+   "waterproof": "耐水圧10,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "中わた・ダウン",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://workman.jp/shop/g/g2300068247026/",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://workman.jp/img/goods/S/68247_t1.jpg",
+    "angle": "main",
+    "src_page": "https://workman.jp/shop/g/g2300068247026/",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://workman.jp/shop/g/g2300068247026/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。◆11月末頃までに発送予定 ◆ブラックの4Lサイズは予約対象外になります ◆その他詳細は商品説明をご確認ください",
+    "pros": [
+     "防水・撥水：耐水圧10,000mm（公式記載）",
+     "保温：中わた・ダウン"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  }
+ ]
+}

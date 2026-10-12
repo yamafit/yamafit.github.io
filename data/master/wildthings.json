@@ -1,0 +1,838 @@
+{
+ "brand": "ワイルドシングス",
+ "products": [
+  {
+   "id": "wildthings-wt26131ad",
+   "brand": "ワイルドシングス",
+   "name": "スタンドアップパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "撥水ナイロン生地を使用したSTAND UP PATNS。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26131ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26131AD_OLIVE_product_1.jpg?v=1789446786",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26131ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26131ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。撥水ナイロン生地を使用したSTAND UP PATNS。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "wildthings-wt26823sk",
+   "brand": "ワイルドシングス",
+   "name": "パッカブルウィンドパーカー",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "通年で使用できる1枚仕立てのライトなナイロンパーカー。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26823sk",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26823SK_GRAY_product_1.jpg?v=1789100096",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26823sk",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26823sk",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。通年で使用できる1枚仕立てのライトなナイロンパーカー。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "wildthings-wt262-18-q4",
+   "brand": "ワイルドシングス",
+   "name": "プリマロフトエボルブフーディー",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 17600,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt262-18-q4",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT262-18-Q4_CLAY_product_1_6d237c22-28fa-4c77-a93b-8aed88546e64.jpg?v=1789445540",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt262-18-q4",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt262-18-q4",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+    "pros": [
+     "保温：保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt26129ad",
+   "brand": "ワイルドシングス",
+   "name": "マシーフジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "撥水ナイロン生地を使用したMASSIF JACKETは、シティとフィールドを行",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26129ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26129AD_DUSKPURPLE_product_1.jpg?v=1789101186",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26129ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26129ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。撥水ナイロン生地を使用したMASSIF JACKETは、シティとフィールドを行 き来するためにCHAMONIX JACKETをベースにアップグレードしたモデル。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt26130ad",
+   "brand": "ワイルドシングス",
+   "name": "スタンドアップジャケットフリースライニング",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 27500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "撥水ナイロン生地と、裏地にフリースを使用したジャケット。",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "中綿やダウンといったヘビーアウターにはない気軽さ・手軽さと、秋から春先まで長く活躍する汎用性がポイント",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26130ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26130AD_DUSKPURPLE_product_1.jpg?v=1789707468",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26130ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26130ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。撥水ナイロン生地と、裏地にフリースを使用したジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "保温：中綿やダウンといったヘビーアウターにはない気軽さ・手軽さと、秋から春先まで長く活"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt26126ad",
+   "brand": "ワイルドシングス",
+   "name": "バルキーフリースパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26126ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26126AD_BROWN_product_1.jpg?v=1789707183",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26126ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26126ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。程よいゆとりを持たせたリラックスフィットのイージーパンツ。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "wildthings-wt26125ad",
+   "brand": "ワイルドシングス",
+   "name": "バルキーフリースベスト",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26125ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26125AD_GRAY_product_1.jpg?v=1789529116",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26125ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26125ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。90年代のフリースアイテムからインスピレーションを得たベスト。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt26124ad",
+   "brand": "ワイルドシングス",
+   "name": "バルキーフリースジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26124ad",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26124AD_TERRACOTTA_product_1.jpg?v=1789528859",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26124ad",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26124ad",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。90年代のフリースアイテムからインスピレーションを得たジャケット。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt26805sk",
+   "brand": "ワイルドシングス",
+   "name": "アルピニストハードシェルジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 69300,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": null,
+   "waterproof": "eVent",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26805sk",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT26805SK_COBALT_product_1.jpg?v=1789027474",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26805sk",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26805sk",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。タクティカルラインのアーカイブであるアルピニストハードシェルジャケットをベースに、現代のテクノロジーとバランス感で再構築した一着。",
+    "pros": [
+     "防水・撥水：eVent（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt262-04-q3",
+   "brand": "ワイルドシングス",
+   "name": "ソフトシェルガイドジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "本来はクラシックなアウトドアギアであるモデルをベースにしながらも、エッジの効いたテクニカルな印象を放つシームディテールを採用。さらに、ブランドの本国タクティカルラインで採用されている実戦仕様のソフトシェルをインスピレーションとしたタフな素材感を落とし込むことで、質実剛健なミリタリーウエアへと見事に転",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt262-04-q3",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/WT262-04-Q3_CLAY_product_1.jpg?v=1789026112",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt262-04-q3",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt262-04-q3",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。WILD THINGSのアーカイブピースであるマウンテンガイドジャケットを着想源に、現代的なアプローチで再構築したソフトシェルジャケット。",
+    "pros": [
+     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "wildthings-wt26317sk-ec",
+   "brand": "ワイルドシングス",
+   "name": "ブリーザブル ブースター ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "後ろのベンツは通常より深めに設定し動きやすさをサポート。生地は抜群の通気性を誇るリップストップ調のクールドッツを使用。素材のもつ防しわ性を活かしてパッカブル仕様に。（内側のファスナーポケット）",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt26317sk-ec",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/000000001917-01.jpg?v=1787665289",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt26317sk-ec",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt26317sk-ec",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。25SSで新登場し、好評だったBREATHABLE BOOSTER JACKETが公式オンラインストア限定で再登場。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "wildthings-wt25010sk",
+   "brand": "ワイルドシングス",
+   "name": "3レイヤー マシーフジャケット",
+   "category": "rain",
+   "gender": "unisex",
+   "price": 46200,
+   "weight_g": null,
+   "weight_note": null,
+   "capacity_l": null,
+   "material": "24SSで新登場し、好評だったMASSIF JACKETの3層素材を使用。",
+   "waterproof": "耐水圧20000mm",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://wildthings.jp/products/wt25010sk",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/000000001678-01.jpg?v=1787790770",
+    "angle": "main",
+    "src_page": "https://wildthings.jp/products/wt25010sk",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://wildthings.jp/products/wt25010sk",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "レインウェア・シェル。24SSで新登場し、好評だったMASSIF JACKETの3層素材を使用。",
+    "pros": [
+     "防水・撥水：耐水圧20000mm（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  }
+ ]
+}
