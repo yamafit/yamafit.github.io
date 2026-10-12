@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       fetch(SITE_BASE + "data/products.json", { cache: "no-cache" }).then((r) => r.json()),
     ]);
     const byId = Object.fromEntries(pr.products.map((p) => [p.id, p]));
-    const items = (f.items || []).map((x) => ({ p: byId[x.id], c: x.comment })).filter((x) => x.p);
+    const items = (f.items || []).map((x) => ({ p: byId[x.id], c: x.comment, a: x.article })).filter((x) => x.p);
     if (!items.length) return;
-    document.getElementById("featured-list").innerHTML = items.map(({ p, c }) => `<a class="feat" href="${SITE_BASE}products/${escF(p.id)}.html">
+    document.getElementById("featured-list").innerHTML = items.map(({ p, c, a }) => `<a class="feat" href="${SITE_BASE}${a ? "articles/" + escF(a) : "products/" + escF(p.id)}.html">
       <span class="eyebrow">${escF(p.brand)}</span><b>${escF(p.name)}</b>
       <p>${escF(c || p.default_reason || p.spec)}</p>
       <span class="mono" style="font-size:13px">${p.price ? "¥" + p.price.toLocaleString() + "（税込）" : "価格：不明"}　詳しく見る →</span></a>`).join("");

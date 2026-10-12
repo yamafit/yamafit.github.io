@@ -1,7 +1,7 @@
 // 記事の原稿。tools/build-articles.mjs が articles/*.html と articles.html、data/articles.json を作る。
 // 商品カードは products（商品マスターのid）から、最新の価格・重量・在庫つきで自動表示される。
 export const AUTHOR = "ヤマフィット編集部";
-export const ARTICLES = [
+const HAND_ARTICLES = [
 {
  slug: "boots-low-vs-mid", category: "登山靴", date: "2026-10-07",
  title: "登山靴の選び方：ローカットとミッドカットの違いと、選び分けの目安",
@@ -168,3 +168,9 @@ export const ARTICLES = [
  related: ["rainwear-breathability", "pack-size"],
 },
 ];
+
+// 管理アプリ（YAMA FIT 管理）で承認され、tools/publish-from-app.mjs が追加した記事。手で編集しない。
+import fs from "node:fs";
+const AUTO_URL = new URL("./auto-articles.json", import.meta.url);
+const AUTO_ARTICLES = fs.existsSync(AUTO_URL) ? JSON.parse(fs.readFileSync(AUTO_URL, "utf8")) : [];
+export const ARTICLES = [...HAND_ARTICLES, ...AUTO_ARTICLES];

@@ -1,0 +1,65 @@
+name: 朝の記事写真とInstagram投稿
+# 毎朝、今日の記事の写真を画像生成AIで作って記事に入れ、その写真と記事の内容・URLで Instagram に投稿する。
+# 記事そのものの公開は管理アプリ側の自動公開（6:10〜）が行う。ここは写真と投稿だけ。
+# 必要な Secrets: OPENAI_API_KEY（画像生成）, INSTAGRAM_ACCESS_TOKEN（投稿）
+# 任意の Variables: OPENAI_IMAGE_MODEL（既定 gpt-image-2）, OPENAI_IMAGE_QUALITY（既定 high）
+on:
+  schedule:
+    - cron: "35 21-23 * * *"   # 日本時間 6:35（7時の公開に向けて）。7:35・8:35 は取りこぼしの再実行
+    - cron: "35 0-3 * * *"     # 日本時間 9:35〜12:35 も再実行（済んでいれば何もしない）
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "記事のslug（空なら今日の記事）"
+        required: false
+        default: ""
+concurrency:
+  group: daily-image
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ARTICLE_SLUG: ${{ github.event.inputs.slug }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      OPENAI_IMAGE_QUALITY: ${{ vars.OPENAI_IMAGE_QUALITY }}
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 今日やることを確認
+        id: plan
+        run: node tools/daily-image-post.mjs plan
+      - name: 参照シート用のブラウザと日本語フォントを用意
+        if: steps.plan.outputs.need_image == 'true'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: 記事の写真を作る（公式画像を調べて参照シート→画像生成）
+        if: steps.plan.outputs.need_image == 'true'
+        run: node tools/daily-image-post.mjs image
+      - name: 写真をサイトに反映
+        if: steps.plan.outputs.need_image == 'true'
+        run: |
+          git config user.name "yamafit-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A content/auto-articles.json img/articles articles articles.html weekly.html data/articles.json sitemap.xml
+          git diff --cached --quiet || (git commit -m "記事の写真を追加：${{ steps.plan.outputs.slug }}" && git pull --rebase && git push)
+      - name: Instagram に投稿
+        if: steps.plan.outputs.need_ig == 'true'
+        run: |
+          git pull --rebase -q || true
+          node tools/daily-image-post.mjs instagram
+      - name: 投稿の記録を保存
+        if: steps.plan.outputs.need_ig == 'true'
+        run: |
+          git config user.name "yamafit-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ig-posts.json
+          git diff --cached --quiet || (git commit -m "Instagramに投稿：${{ steps.plan.outputs.slug }}" && git pull --rebase && git push)

@@ -1,9 +1,19 @@
 {
-  "_note": "ホームの「今週のおすすめ」。運営者（管理者）が選んで更新する。記事を公開しただけでは載らない。items は表示順。id は data/products.json の商品ID、comment は短い紹介文（空なら商品の要約を表示）。",
-  "updated": "2026-10-12",
-  "items": [
-    { "id": "columbia-peakfreak-titanium-mid-outdry-m", "comment": "" },
-    { "id": "montbell-1128731", "comment": "" },
-    { "id": "montbell-1133469", "comment": "" }
-  ]
+ "_note": "ホームの「今週のおすすめ」。tools/publish-from-app.mjs が、最新の週に公開した記事の商品（ザック・アウター・シューズ）へ自動で入れ替える。items は表示順。",
+ "updated": "2026-10-12",
+ "items": [
+  {
+   "id": "montbell-1133469",
+   "comment": ""
+  },
+  {
+   "id": "tnf-climb-light-jacket-m",
+   "comment": "ザ・ノース・フェイスのクライムライトジャケット（NP12501）を紹介。約285g（Lサイズ）のGORE-TEX 3層シェルの特徴、デメ…",
+   "article": "2026-10-12-tnf-climb-light-jacket-m"
+  },
+  {
+   "id": "columbia-peakfreak-titanium-mid-outdry-m",
+   "comment": ""
+  }
+ ]
 }

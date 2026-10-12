@@ -19,6 +19,31 @@ document.addEventListener("DOMContentLoaded", async () => {
       }).join("") || '<p class="sub">商品情報を読み込めませんでした。</p>';
     });
   }
+  // ホームの「今週の7選」：今日の記事を大きく、その週の7本を曜日順に（公開前の日は「公開予定」）
+  const wk = document.getElementById("weekly-home");
+  if (wk) {
+    try {
+      const all = await (await fetch(SITE_BASE + "data/articles.json", { cache: "no-cache" })).json();
+      const auto = all.filter((a) => a.week);
+      if (auto.length) {
+        const DAYS = ["月", "火", "水", "木", "金", "土", "日"], SLOT = ["アウター", "ザック", "アウター", "シューズ", "アウター", "ザック", "シューズ"];
+        const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+        const addDays = (s, n) => { const d = new Date(s + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+        const md = (s) => { const [, m, d] = s.split("-").map(Number); return `${m}/${d}`; };
+        const week = auto.map((a) => a.week).sort().pop();
+        const byDay = Object.fromEntries(auto.filter((a) => a.week === week).map((a) => [a.day, a]));
+        const t = Object.values(byDay).find((a) => a.date === today) || Object.values(byDay).sort((a, b) => b.date.localeCompare(a.date))[0];
+        document.getElementById("weekly-home-note").textContent = `${md(week)}〜${md(addDays(week, 6))}　季節と天気に合わせて、1日1つずつ紹介します。`;
+        if (t) document.getElementById("weekly-home-today").innerHTML = `<a class="feat" href="${SITE_BASE}articles/${escA(t.slug)}.html">${t.image ? `<img src="${SITE_BASE}${escA(t.image)}" alt="" loading="lazy" style="width: 100%; max-width: 420px; height: auto; border-radius: 6px; align-self: center">` : ""}<span class="eyebrow">${t.date === today ? "今日のトピック" : "最新のトピック"}｜${DAYS[t.day]}曜 ${escA(SLOT[t.day])}</span><b>${escA(t.title)}</b><p>${escA(t.desc || "")}</p><span class="mono" style="font-size:13px">記事を読む →</span></a>`;
+        document.getElementById("weekly-home-list").innerHTML = DAYS.map((d, i) => {
+          const a = byDay[i], date = addDays(week, i);
+          return a ? `<a class="news-item" href="${SITE_BASE}articles/${escA(a.slug)}.html"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title">${escA(a.title)}</span></a>`
+            : `<div class="news-item" aria-disabled="true"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title" style="color: var(--ink-sub)">${date < today ? "準備中" : "公開予定"}</span></div>`;
+        }).join("");
+        wk.hidden = false;
+      }
+    } catch {}
+  }
   // ホームの記事一覧
   const latest = document.getElementById("articles-latest");
   if (latest) {
