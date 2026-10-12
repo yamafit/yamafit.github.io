@@ -719,13 +719,16 @@
    "環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、パックに干渉する肩部分はナイロン素材で補強しています。",
    "＜表地＞40D Recycled Nylon Ripstop（ナイロン100％） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜肩部分・裏地＞Recycled Nylon Cloth（ナイロン100％）"
   ],
+  "stock_lines": [
+   "在庫あり"
+  ],
   "size": [
    "サイズを選択してください",
    "身長183cm Lサイズ",
    "サイズ：",
    "サイズをお選びください"
   ],
-  "checked_at": "2026-10-06"
+  "checked_at": "2026-10-12"
  },
  "/ap/item/i/m/NL22621": {
   "url": "https://www.goldwin.co.jp/ap/item/i/m/NL22621",
@@ -854,5 +857,792 @@
    "サイズ："
   ],
   "checked_at": "2026-10-06"
+ },
+ "/ap/item/i/m/NDW92555": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NDW92555",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】ショートヌプシジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】ショートヌプシジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 40150,
+  "price_max": 40150,
+  "price_text": [
+   "￥40,150 (税込)",
+   "￥40,150",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KX0/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KX0/01_001.jpg",
+  "desc": "【在庫取り寄せあり】1992年、エクスペディション向けに開発し、1990年代のTHE NORTH FACEを代表するヘリテージモデルであるヌプシジャケットのデザインを踏襲したショート丈のジャケット。着こなしに取り入れやすい、バランスのよいサイズ感に仕上げています。従来品番とのサイズ比較は、ページ下部をご確認ください。環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、パックに干渉する肩部分は厚手のナイロン素材に切り替えています。裾のアジャスターコードを絞るとふわりとしたシルエットで女性らしさが引き立ちます。アウトドアからタウンユースまで、幅広く活用できる１着です。",
+  "weight_labeled": "約655g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約655g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、パックに干渉する肩部分は厚手のナイロン素材に切り替えています。",
+   "＜表地＞40D Recycled Nylon Ripstop（ナイロン100％） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜肩部分・裏地＞Recycled Nylon Cloth（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "パックに干渉する肩部分は厚手のナイロン素材に切り替え"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、パックに干渉する肩部分は厚手のナイロン素材に切り替えています。",
+   "＜表地＞40D Recycled Nylon Ripstop（ナイロン100％） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜肩部分・裏地＞Recycled Nylon Cloth（ナイロン100％）"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長175cm Lサイズ",
+   "サイズ：",
+   "サイズをお選びください"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92335": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92335",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/NDW92557": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NDW92557",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】ヌプシベスト（レディース）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】ヌプシベスト（レディース）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 32450,
+  "price_max": 32450,
+  "price_text": [
+   "￥32,450 (税込)",
+   "￥32,450",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KX1/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KX1/01_001.jpg",
+  "desc": "【在庫取り寄せあり】1992年、エクスペディション向けに開発し、1990年代のTHE NORTH FACEを代表するヘリテージモデルであるヌプシジャケットのデザインを踏襲したベスト。着こなしに取り入れやすい、バランスのよいサイズ感に仕上げています。環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、肩切り替え部分は厚手のナイロン素材に切り替えています。アウトドアからタウンユースまで、幅広く活用できる1着です。",
+  "weight_labeled": "約445g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約445g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、肩切り替え部分は厚手のナイロン素材に切り替えています。",
+   "＜表地＞40D Recycled Nylon Ripstop（ナイロン100％） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜肩部分・裏地＞Recycled Nylon Cloth（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "はっ水加工を施した表地"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "環境に配慮したリサイクルダウンを中わたの一部に使用。表地は強度がある40デニールのリップストップナイロンにはっ水加工を施し、肩切り替え部分は厚手のナイロン素材に切り替えています。",
+   "＜表地＞40D Recycled Nylon Ripstop（ナイロン100％） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜肩部分・裏地＞Recycled Nylon Cloth（ナイロン100％）",
+   "CLEANDOWNは三重県明和町に本社工場を構える羽毛加エメーカー・河田フェザーで洗浄加工された原毛ダウンを主原料として採用しています。ダウンの羽根が開きやすくなる乾燥した気候と、この地を流れる軟水を使ってダウンを傷つけず汚れやホコリを徹底的に除去し、きれいなダウンが生み出されています。きれいになったダウンは洗浄前のものよりかさ高性に優れ、保温力が高まります。きれいなダウンは身体をよりあたたかく包みこみます。"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長175cm Lサイズ",
+   "身長173cm Lサイズ",
+   "サイズ："
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92553?outlet": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92553?outlet",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式・アウトレット】バルトロジャケット（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式・アウトレット】バルトロジャケット（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 56210,
+  "price_max": 56210,
+  "price_text": [
+   "￥ 80,300 (税込)",
+   "￥56,210 (税込)",
+   "￥56,210"
+  ],
+  "availability": [
+   "InStock",
+   "OutOfStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWA/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWA/01_001.jpg",
+  "desc": "【再入荷通知】2000年代のTHE NORTH FACEを代表するアウターシェルであるBaltoro Jacketを、現代の技術でアップデート。当時のディテールを踏襲しながら、現代のライフスタイルに合わせやすいシルエットに仕上げています。表地は非フッ素メンブレンによる、50デニールのePE GORE-TEX WINDSTOPPER 2層素材を採用。適度な厚みがありつつ、しなやかな質感を実現しています。中わたには、特殊セラミックスの遠赤外線効果により優れた保温効果が持続する光電子ダウンを封入。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。裏地はチタンコーティングされたナイロン素材を採用。吸収した熱を輻射することで、自然な保温性を体感できます。内側にはポケットとボトルホルダーを配置。ミドラーの上から着用しても動きを妨げにくい、ゆとりのあるシルエット。スノ",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について",
+   "＜表地＞50D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ポリエステル100％ 裏側：ePE）＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）＜裏地＞7D Nylon Mini Ripstop Titanium（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "素材/テクノロジー",
+   "WINDSTOPPER by GORE-TEX LABS"
+  ],
+  "waterproof": [
+   "＜表地＞50D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ポリエステル100％ 裏側：ePE）＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）＜裏地＞7D Nylon Mini Ripstop Titanium（ナイロン100％）",
+   "WINDSTOPPER by GORE-TEX LABS",
+   "優れた防風性を持ち、なめらかさとしなやかさを兼備した快適性を優先させた素材。山岳ウェアからタウンユースまで、さまざまなアイテムに適用。※製品としては防水仕様ではありません。"
+  ],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "＜表地＞50D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ポリエステル100％ 裏側：ePE）＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）＜裏地＞7D Nylon Mini Ripstop Titanium（ナイロン100％）",
+   "CLEANDOWNは三重県明和町に本社工場を構える羽毛加エメーカー・河田フェザーで洗浄加工された原毛ダウンを主原料として採用しています。ダウンの羽根が開きやすくなる乾燥した気候と、この地を流れる軟水を使ってダウンを傷つけず汚れやホコリを徹底的に除去し、きれいなダウンが生み出されています。きれいになったダウンは洗浄前のものよりかさ高性に優れ、保温力が高まります。きれいなダウンは身体をよりあたたかく包みこみます。"
+  ],
+  "stock_lines": [
+   "在庫なし",
+   "在庫なし - 再入荷通知を依頼する",
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長186cm Lサイズ",
+   "身長182cm Lサイズ",
+   "サイズ："
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92652": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92652",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】バルトロスリークライトジャケット（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】バルトロスリークライトジャケット（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 57200,
+  "price_max": 57200,
+  "price_text": [
+   "￥57,200 (税込)",
+   "￥57,200",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001QE3/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001QE3/01_001.jpg",
+  "desc": "【在庫取り寄せあり】しなやかな着心地に防風性と耐風性を兼ね備えた、GORE-TEX WINDSTOPPER採用のダウンジャケット 特徴 ・ePEメンブレンを採用したGORE-TEX WINDSTOPPER 2層構造・中わたはCLEAN DOWNにより高い保温性を追求・中わた入りの内襟で保温性を向上 生地・素材 ・表地ははっ水加工を施した30デニールのナイロン・裏地はやわらかなナイロンタフタ・中わたは高度な洗浄技術で汚れを除去したCLEAN DOWN 機能・デザイン ・左右サイドと左右胸にファスナーポケット、左胸内側にファスナーポケット・裾のドローコードでフィット感の調節が可能・左胸にロゴ刺繍・コンパクトに収納でき携行に便利なスタッフサック付き おすすめシーン ・ライフスタイル・アウトドア",
+  "weight_labeled": "約710g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約710g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "しなやかな着心地に防風性と耐風性を兼ね備えた、GORE-TEX WINDSTOPPER採用のダウンジャケット",
+   "・ePEメンブレンを採用したGORE-TEX WINDSTOPPER 2層構造",
+   "生地・素材",
+   "・表地ははっ水加工を施した30デニールのナイロン"
+  ],
+  "waterproof": [
+   "しなやかな着心地に防風性と耐風性を兼ね備えた、GORE-TEX WINDSTOPPER採用のダウンジャケット",
+   "・ePEメンブレンを採用したGORE-TEX WINDSTOPPER 2層構造",
+   "＜表地＞30D GORE-TEX WINDSTOPPER Insulated Shell （2層）（表側：ナイロン100％、裏側：ePE） ＜中わた＞CLEANDOWN （ダウン80％、フェザー20％） ＜裏地＞Nylon Taffeta（ナイロン100％）",
+   "GORE-TEX WINDSTOPPER採用のダウンジャケット。"
+  ],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "しなやかな着心地に防風性と耐風性を兼ね備えた、GORE-TEX WINDSTOPPER採用のダウンジャケット",
+   "・中わたはCLEAN DOWNにより高い保温性を追求"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長183cm Lサイズ",
+   "身長175cm Sサイズ",
+   "身長173cm Sサイズ"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92341": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92341",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92215?outlet": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92215?outlet",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式・アウトレット】ビレイヤーパーカ（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式・アウトレット】ビレイヤーパーカ（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 46200,
+  "price_max": 46200,
+  "price_text": [
+   "￥ 66,000 (税込)",
+   "￥46,200 (税込)",
+   "￥46,200"
+  ],
+  "availability": [
+   "InStock",
+   "OutOfStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW00011KO/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW00011KO/01_001.jpg",
+  "desc": "【再入荷通知】クライミングのビレイ時はもちろん、幅広いフィールドアクティビティで使える、保温性を重視したダウンジャケットです。GORE-TEX WINDSTOPPERの内側に光電子プロダウンをたっぷり封入。羽毛加工メーカーの高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンを使用。濡れたアウターシェルの上から着ることを想定し、内側にもはっ水素材を使用。内ポケットや大型メッシュポケットなどの収納スペースも豊富です。",
+  "weight_labeled": "約760g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約760g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "クライミングのビレイ時はもちろん、幅広いフィールドアクティビティで使える、保温性を重視したダウンジャケットです。GORE-TEX WINDSTOPPERの内側に光電子プロダウンをたっぷり封入。羽毛加工メーカーの高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンを使用。濡れたアウターシェルの上から着ることを想定し、内側にもはっ水素材を使用。内ポケットや大型メッシュポケットなどの収納スペースも豊富です。",
+   "＜表地＞30D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ナイロン100％、裏側：ePTFE）＜中わた＞CLEANDOWN 光電子 PRO（ダウン72％、複合繊維（ポリエチレン/ポリプロピレン）20％、フェザー8％）＜裏地＞PERTEX Quantum Super DWR（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "素材/テクノロジー"
+  ],
+  "waterproof": [
+   "クライミングのビレイ時はもちろん、幅広いフィールドアクティビティで使える、保温性を重視したダウンジャケットです。GORE-TEX WINDSTOPPERの内側に光電子プロダウンをたっぷり封入。羽毛加工メーカーの高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンを使用。濡れたアウターシェルの上から着ることを想定し、内側にもはっ水素材を使用。内ポケットや大型メッシュポケットなどの収納スペースも豊富です。",
+   "＜表地＞30D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ナイロン100％、裏側：ePTFE）＜中わた＞CLEANDOWN 光電子 PRO（ダウン72％、複合繊維（ポリエチレン/ポリプロピレン）20％、フェザー8％）＜裏地＞PERTEX Quantum Super DWR（ナイロン100％）",
+   "WINDSTOPPER by GORE-TEX LABS",
+   "優れた防風性を持ち、なめらかさとしなやかさを兼備した快適性を優先させた素材。山岳ウェアからタウンユースまで、さまざまなアイテムに適用。※製品としては防水仕様ではありません。"
+  ],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "クライミングのビレイ時はもちろん、幅広いフィールドアクティビティで使える、保温性を重視したダウンジャケットです。GORE-TEX WINDSTOPPERの内側に光電子プロダウンをたっぷり封入。羽毛加工メーカーの高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンを使用。濡れたアウターシェルの上から着ることを想定し、内側にもはっ水素材を使用。内ポケットや大型メッシュポケットなどの収納スペースも豊富です。",
+   "＜表地＞30D GORE-TEX WINDSTOPPER Insulated Shell（2層）（表側：ナイロン100％、裏側：ePTFE）＜中わた＞CLEANDOWN 光電子 PRO（ダウン72％、複合繊維（ポリエチレン/ポリプロピレン）20％、フェザー8％）＜裏地＞PERTEX Quantum Super DWR（ナイロン100％）"
+  ],
+  "stock_lines": [
+   "在庫なし",
+   "在庫なし - 再入荷通知を依頼する",
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長183cm Lサイズ",
+   "サイズ：",
+   "サイズをお選びください"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92515": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92515",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92451": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92451",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】ジップインジップアコンカグアジャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】ジップインジップアコンカグアジャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 38500,
+  "price_max": 38500,
+  "price_text": [
+   "￥38,500 (税込)",
+   "￥38,500",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001EMF/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001EMF/01_001.jpg",
+  "desc": "【在庫取り寄せあり】暖かさと軽さを持つ、THE NORTH FACEの定番ダウンジャケット。2024年秋冬シーズンより2002年当時のディテールを復刻し、バランスのよいサイズ感にアップデートしました。生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。ゆとりのあるインナーやフーディとレイヤリングしやすい、ゆったりとしたシルエット。秋～冬のアウトドアやタウンユースで活躍します。ジップインジップ（メンズ",
+  "weight_labeled": "約410g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約410g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。",
+   "＜表地・裏地＞20D Ripstop Nylon（ナイロン100％） ＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％） ＜別布＞NORTHTECH Cloth ECO（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "擦れやすい袖口と裾は、ナイロンタフタ生地で補強"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "暖かさと軽さを持つ、THE NORTH FACEの定番ダウンジャケット。2024年秋冬シーズンより2002年当時のディテールを復刻し、バランスのよいサイズ感にアップデートしました。",
+   "生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長183cm Lサイズ",
+   "サイズ：",
+   "サイズをお選びください"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/NDW92451": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NDW92451",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】ジップインジップアコンカグアジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】ジップインジップアコンカグアジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 38500,
+  "price_max": 38500,
+  "price_text": [
+   "￥38,500 (税込)",
+   "￥38,500",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001EMT/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001EMT/01_001.jpg",
+  "desc": "【在庫取り寄せあり】暖かさと軽さを持つ、THE NORTH FACEの定番ダウンジャケット。2024年秋冬シーズンより2002年当時のディテールを復刻し、バランスのよいサイズ感にアップデートしました。生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。厚みのあるインナーやフーディとレイヤリングしやすい、ゆったりとしたシルエット。秋～冬のアウトドアやタウンユースで活躍します。ジップインジップ（レディー",
+  "weight_labeled": "約345g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約345g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。",
+   "＜表地・裏地＞20D Ripstop Nylon（ナイロン100％） ＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％） ＜別布＞NORTHTECH Cloth ECO（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "擦れやすい袖口と裾は、ナイロンタフタ生地で補強"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "暖かさと軽さを持つ、THE NORTH FACEの定番ダウンジャケット。2024年秋冬シーズンより2002年当時のディテールを復刻し、バランスのよいサイズ感にアップデートしました。",
+   "生地には軽量な20デニールリップストップナイロンを使用。はっ水加工を施すことで、多少の雨や雪に対応します。光沢感のある生地で品のよい風合いを演出。擦れやすい袖口と裾は、ナイロンタフタ生地で補強しています。中わたは遠赤外線効果で保温効果が持続する光電子ダウン。高度な洗浄技術により、汚れを徹底的に除去したクリーンなダウンが高い保温性を確保します。別売りのアウターにインナーとして連結できるジップインジップ対応モデル。携行に便利なスタッフサック付きです。"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長175cm Lサイズ",
+   "身長173cm Lサイズ",
+   "サイズ："
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92550?outlet": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92550?outlet",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式・アウトレット】ライトヒートジャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式・アウトレット】ライトヒートジャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 21560,
+  "price_max": 21560,
+  "price_text": [
+   "￥ 30,800 (税込)",
+   "￥21,560 (税込)",
+   "￥21,560"
+  ],
+  "availability": [
+   "OutOfStock",
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KW8/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KW8/01_001.jpg",
+  "desc": "【再入荷通知】空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。時流に合わせたゆとりのあるサイズ感。普段使いからアウトドアまで、さまざまなシーンに活躍します。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について",
+   "空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。",
+   "表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。",
+   "10D Nylon Double Ripstop with DWR（ナイロン100％）＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。",
+   "表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。"
+  ],
+  "stock_lines": [
+   "在庫なし",
+   "在庫なし - 再入荷通知を依頼する",
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "サイズ：",
+   "サイズをお選びください",
+   "サイズ"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/NDW92550?outlet": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NDW92550?outlet",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式・アウトレット】ライトヒートジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式・アウトレット】ライトヒートジャケット（レディース）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 21560,
+  "price_max": 21560,
+  "price_text": [
+   "￥ 30,800 (税込)",
+   "￥21,560 (税込)",
+   "￥21,560"
+  ],
+  "availability": [
+   "OutOfStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWY/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWY/01_001.jpg",
+  "desc": "【再入荷通知】空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。時流に合わせたゆとりのあるサイズ感。普段使いからアウトドアまで、さまざまなシーンに活躍します。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について",
+   "空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。",
+   "表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。",
+   "10D Nylon Double Ripstop with DWR（ナイロン100％）＜中わた＞CLEANDOWN 光電子（ダウン72％、レーヨン20％、フェザー8％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "空気を羽織るような着用感の軽量インナーダウンジャケット。素材とサイズ感をアップデートしました。",
+   "表地は軽量のナイロンダブルリップ素材。はっ水加工を施し、多少の雨や雪に対応します。中わたは、遠赤外線効果で自然なあたたかさをもたらす光電子ダウンを封入。抑えめのダウン量でも保温性を確保しています。ダウンが偏りにくいキルトデザインで、素材の特性を十分に生かします。裾と袖はシンプルなバインダー仕立て。ポケットに本体を収納できるポケッタブル仕様です。"
+  ],
+  "stock_lines": [
+   "在庫なし",
+   "在庫なし - 再入荷通知を依頼する"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "サイズ：",
+   "サイズをお選びください",
+   "サイズ"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92561": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92561",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92520": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92520",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式】アセントピーククラウドダウンフーディ（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式】アセントピーククラウドダウンフーディ（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 132000,
+  "price_max": 132000,
+  "price_text": [
+   "￥132,000 (税込)",
+   "￥132,000",
+   "会員の方は、5,000円（税込）以上ご購入の場合、配送料が無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KVS/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KVS/01_001.jpg",
+  "desc": "【在庫取り寄せあり】厳冬期を含む積雪期のバリエーションルートでの使用を想定した、ダウン中わたの高保温防寒ジャケット。メイン素材には、高い引き裂き強度を持つ超高強度スペクトラリップストップ生地を採用。厳冬期遠征中の保温ジャケットやビレイジャケットとしてのハードな使い方に対応した素材を使用し、封入したダウンの偏りによるコールドスポットの発生を軽減するクラウドダウン構造で仕上げています。さらに、裏地に施されたチタンコーティングでの輻射熱による保温機能を向上。ダウン材には900フィルパワーの高品質はっ水プロダウンを封入することで、湿潤時の機能維持と優れた防寒性を実現しています。シルエットは、アウターシェルジャケットの上から着用可能なやや大きめのスタンダードフィット。フードはヘルメットに対応。フロント正面のメインファスナーは、ハーネス装着時の操作性を考慮した、逆開仕様のダブルアクションファスナー。左",
+  "weight_labeled": "約510g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約510g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "メイン素材には、高い引き裂き強度を持つ超高強度スペクトラリップストップ生地を採用。厳冬期遠征中の保温ジャケットやビレイジャケットとしてのハードな使い方に対応した素材を使用し、封入したダウンの偏りによるコールドスポットの発生を軽減するクラウドダウン構造で仕上げています。",
+   "厳選した素材を組み合わせることでコンパクト携行を可能にした、冬期登山の必携装備におすすめできるテクニカルな保温ウエアです。",
+   "＜表側＞Spectra Rip AC Coating（ナイロン92％、ポリエチレン８％）＜中わた＞WR CLEANDOWN 900 PRO（ダウン95％、フェザー5％）＜裏側＞Alplight 7D Ripstop Recycled Nylon Titanium Coating（ナイロン100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "【公式】アセントピーククラウドダウンフーディ（ユニセックス）｜ザ・ノース・フェイス公式ストア",
+   "アセントピーククラウドダウンフーディ（ユニセックス）",
+   "ダウンジャケット／中綿"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長175cm WLサイズ",
+   "身長186cm Lサイズ",
+   "サイズ："
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92460": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92460",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92402": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92402",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92360": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92360",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/NY82510?outlet": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NY82510?outlet",
+  "category": "wear",
+  "status": 200,
+  "name": "【公式・アウトレット】サンダージャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "title": "【公式・アウトレット】サンダージャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 24640,
+  "price_max": 24640,
+  "price_text": [
+   "￥ 35,200 (税込)",
+   "￥24,640 (税込)",
+   "￥24,640"
+  ],
+  "availability": [
+   "OutOfStock",
+   "InStock"
+  ],
+  "image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001L4W/01_001.jpg",
+  "og_image": "http://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001L4W/01_001.jpg",
+  "desc": "【再入荷通知】ダウンと化繊わたのよさを合わせたミドラーダウンジャケット。身頃には、高度な洗浄技術により汚れを徹底的に除去し、さらにはっ水加工を施したクリーンなダウンを使用。パックでつぶれやすい肩部分には板状の化繊わたを配置。生地にはソフトな肌触りで軽く、強度も兼ね備えるパーテックスカンタムを使用。専用ファスナーでアウターシェルと連結できる、ZIP IN ZIPシステム対応。 本体を左胸内ポケットに収納できるポケッタブル仕様です。行動着としても積極的に活用できる１着です。ジップインジップ（メンズ）対応品番",
+  "weight_labeled": "約305g（Lサイズ）",
+  "weight": [
+   "＜表地＞PERTEX Quantum ECO（ナイロン100％）＜中わた＞WR CLEANDOWN PRO（ダウン90％、フェザー10％）＜裏地＞PERTEX Quantum ECO（ナイロン100％）＜肩部分＞GW-RISE-ECOPURE 60G（HEATSEEKER）（ポリエステル100％）",
+   "Weight",
+   "約305g（Lサイズ）"
+  ],
+  "material": [
+   "素材について",
+   "＜表地＞PERTEX Quantum ECO（ナイロン100％）＜中わた＞WR CLEANDOWN PRO（ダウン90％、フェザー10％）＜裏地＞PERTEX Quantum ECO（ナイロン100％）＜肩部分＞GW-RISE-ECOPURE 60G（HEATSEEKER）（ポリエステル100％）",
+   "素材や商品形状、付属品の有無によって計測方法が異なります。詳しくは「サイズの寸法について」をご覧ください。",
+   "素材/テクノロジー",
+   "しなやかかつ耐久性に優れた軽量高密度素材シリーズ。通気を抑えることでダウンプルーフ性を実現。PERTEXはMNIFの登録商標です。"
+  ],
+  "waterproof": [],
+  "warmth": [
+   "ダウンジャケット／中綿",
+   "ダウンと化繊わたのよさを合わせたミドラーダウンジャケット。",
+   "身頃には、高度な洗浄技術により汚れを徹底的に除去し、さらにはっ水加工を施したクリーンなダウンを使用。パックでつぶれやすい肩部分には板状の化繊わたを配置。生地にはソフトな肌触りで軽く、強度も兼ね備えるパーテックスカンタムを使用。専用ファスナーでアウターシェルと連結できる、ZIP IN ZIPシステム対応。 本体を左胸内ポケットに収納できるポケッタブル仕様です。"
+  ],
+  "stock_lines": [
+   "在庫なし",
+   "在庫なし - 再入荷通知を依頼する",
+   "在庫あり"
+  ],
+  "size": [
+   "サイズを選択してください",
+   "身長180cm Lサイズ",
+   "サイズ：",
+   "サイズをお選びください"
+  ],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92237": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92237",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92238": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92238",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/ND92340": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/ND92340",
+  "category": "wear",
+  "status": 404,
+  "name": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "title": "404 Not Found - Goldwin Online Store [ゴールドウイン]",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "og_image": "https://www.goldwin.co.jp/static/full/images/store/ogp/onlinestore/ogp.png",
+  "desc": "404 Not Found - スポーツアパレルメーカーのゴールドウインのウェブサイトです。ゴールドウイン、C3fit、スピード、エレッセ、ダンスキン、ノースフェイス、ヘリーハンセン等、多様なブランドを取り扱っております。ブランドや商品の最新情報をご覧頂けます。",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [
+   "素材について"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-10-12"
  }
 }
