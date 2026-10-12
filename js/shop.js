@@ -13,7 +13,9 @@ function close() { if (!overlay) return; overlay.hidden = true; document.body.st
 const SHOP_LABEL = { official: "公式サイト", amazon: "Amazon", rakuten: "楽天市場", yahoo: "Yahoo!ショッピング" };
 const SHOP_ORDER = { amazon: 0, rakuten: 1, yahoo: 2, official: 3 };
 const arrowS = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>';
-const imgTag = (p, cls) => p.image ? `<img class="thumb ${cls || ""}" src="${escS(p.image)}" alt="${escS(p.brand + " " + p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=\\'photo photo--thumb\\'>写真</div>'">` : "";
+// 写真：今週の7選で作ったAIの写真（ai_image）を優先。無ければ公式画像（許可が出たときだけ products.json に入る）
+const imgSrc = (p) => (p.ai_image ? SITE_BASE + p.ai_image : p.image || "");
+const imgTag = (p, cls) => imgSrc(p) ? `<img class="thumb ${cls || ""}" src="${escS(imgSrc(p))}" alt="${escS(p.brand + " " + p.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=\\'photo photo--thumb\\'>写真</div>'">` : "";
 
 // 購入先の並び：在庫あり → 未確認 → 在庫なし。同じ状態なら Amazon・楽天・Yahoo!・公式の順
 function rankOffers(p) {
@@ -65,7 +67,7 @@ async function openSheet(id, trigger) {
   overlay.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="購入先を選ぶ">
     <div class="sheet-head"><b>購入先を選ぶ</b><button class="icon-btn" type="button" aria-label="閉じる"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div class="res-row">${imgTag(p)}<div class="sheet-item"><b>${escS(p.brand)} ${escS(p.name)}</b><span class="sub">${escS(p.spec)}</span>${p.price ? `<span class="mono" style="font-size:13px">¥${p.price.toLocaleString()}（税込）</span>` : ""}</div></div>
-    ${outMsg}<div class="sheet-shops">${buttons}</div><a class="sheet-detail" href="${SITE_BASE}products/${escS(id)}.html">この商品の詳しい情報を見る →</a>${altHtml}
+    ${outMsg}<div class="sheet-shops">${buttons}</div>${p.ai_article ? `<a class="sheet-detail" href="${SITE_BASE}articles/${escS(p.ai_article)}.html">この商品の紹介記事を読む →</a>` : ""}<a class="sheet-detail" href="${SITE_BASE}products/${escS(id)}.html">この商品の詳しい情報を見る →</a>${altHtml}
     <p class="news-note"><span class="pr-badge">PR</span> アフィリエイトリンクを含みます。価格・在庫は確認時点（${checked}）の情報で、変わることがあります。商品の画像・仕様は各公式サイトの記載にもとづきます。</p></div>`;
   overlay.querySelector(".icon-btn").addEventListener("click", close);
   lastFocus = trigger || null;

@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     listEl.innerHTML = r.slice(0, shown).map((p) => {
       const tags = [(p.season || []).map((s) => SEASONP[s]).filter(Boolean).join("・"), GTX(p) ? "ゴアテックス" : "", p.capacity_l ? `${p.capacity_l}L` : ""].filter(Boolean);
       const meta = [p.price ? `¥${p.price.toLocaleString()}（税込）` : "価格：不明", p.weight_g ? `重量 ${p.weight_g.toLocaleString()}g` : ""].filter(Boolean).join("　");
-      return `<div class="pcard"><span class="eyebrow">${escP(p.brand)}</span><b>${escP(p.name)}</b>
+      return `<div class="pcard">${p.ai_image ? `<a class="pcard-img" href="${SITE_BASE}products/${escP(p.id)}.html"><img src="${SITE_BASE}${escP(p.ai_image)}" alt="${escP(p.brand + " " + p.name)}の特徴をまとめたイメージ（AI生成）" loading="lazy"></a>` : ""}<span class="eyebrow">${escP(p.brand)}</span><b>${escP(p.name)}</b>
         <span class="spec">${escP(p.spec)}</span>
         ${tags.length ? `<span class="tags">${tags.map((t) => `<span class="tag">${escP(t)}</span>`).join("")}</span>` : ""}
         ${(p.features || []).length ? `<span class="sub">${escP(p.features[0])}</span>` : ""}

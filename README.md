@@ -117,6 +117,7 @@ Chrome で http://localhost:8000 を開く。
 - 参照画像：記事を書いたAIが公式ページで調べて選んだ `ref_images`（main＝商品全体1枚、detail＝記事で触れた部位の細部写真3枚まで）を優先。無ければ商品マスターの image.url、さらに無ければ公式ページの og:image。detail は細部確認用として画像生成に一緒に渡す。
 - 写真：参照画像 → 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
 - プロンプトの文面は `tools/kobo-core.js`（靴・ザック・ウェア）。変えたら `node tools/build-kobo.mjs --check` と `node tools/build-kobo.mjs` でアーティファクト用のページも作り直す。
+- 写真は商品の写真としても使う：`tools/build-products.mjs` が `data/product-images.json`（商品ID→写真）に記録し、products.json の ai_image / ai_article、商品ページ、一覧・検索・購入先の画面のサムネイルに出す。記事が翌週に入れ替わっても記録・写真（img/articles）は消さない。
 - 投稿：写真＋記事の要点＋記事URL＋#PR。楽天リンクは入れない。ハッシュタグはブランド（日本語・英語）＋商品名＋よく検索される登山タグ10個＋#ヤマフィット（tools/daily-image-post.mjs の hashtags）。記録は `data/ig-posts.json`。
 - 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。
 - 手動：Actions →「朝の記事写真とInstagram投稿」→ Run workflow（slug を入れるとその記事）。

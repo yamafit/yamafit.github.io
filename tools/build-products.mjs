@@ -1,6 +1,16 @@
 // 使い方: node tools/build-products.mjs（画像も含めるなら PRODUCT_IMAGES=1 node tools/build-products.mjs）   data/master/*.json → data/products.json（サイトが読む形）
 import fs from "node:fs";
 const out = [];
+// 今週の7選で作った記事の写真（AIで作成）を、その商品の写真として使う。
+// data/product-images.json に記録し、記事が入れ替わっても消さない（新しい写真が来たら差し替える）。
+const REG = "data/product-images.json";
+const reg = fs.existsSync(REG) ? JSON.parse(fs.readFileSync(REG, "utf8")) : {};
+const autoArts = fs.existsSync("content/auto-articles.json") ? JSON.parse(fs.readFileSync("content/auto-articles.json", "utf8")) : [];
+for (const a of [...autoArts].sort((x, y) => x.date.localeCompare(y.date))) {
+  if (!a.image || !fs.existsSync(a.image)) continue;
+  for (const id of a.products || []) if (!reg[id] || reg[id].date <= a.date) reg[id] = { image: a.image, w: a.image_w || 1280, h: a.image_h || 1600, article: a.slug, date: a.date, alt: a.image_alt || "" };
+}
+fs.writeFileSync(REG, JSON.stringify(reg, null, 1) + "\n");
 for (const f of fs.readdirSync("data/master").filter((x) => x.endsWith(".json")).sort()) {
   for (const p of JSON.parse(fs.readFileSync(`data/master/${f}`, "utf8")).products) {
     const e = p.evaluation;
@@ -17,6 +27,7 @@ for (const f of fs.readdirSync("data/master").filter((x) => x.endsWith(".json"))
       terrain: (e.uses || []).filter((u) => ["low", "mid", "hut", "tent"].includes(u)), uses: e.uses,
       concerns: e.concerns, reasons: e.concern_reasons || {}, default_reason: e.summary, fit: e.fit || null,
       image: process.env.PRODUCT_IMAGES === "1" && p.image && p.image.ok !== false ? p.image.url : "", // 公式画像の直リンクは権利確認ができるまで出さない（出すときは PRODUCT_IMAGES=1）
+      ai_image: reg[p.id] && fs.existsSync(reg[p.id].image) ? reg[p.id].image : "", ai_article: reg[p.id] ? reg[p.id].article : "",
       sources: p.sources,
       offers: p.offers.map((o) => ({ shop: o.shop, url: o.url, affiliate_url: o.affiliate_url || "", in_stock: o.in_stock, checked_at: o.checked_at })),
       related: [],

@@ -20,6 +20,8 @@ const unknown = (v) => (v === null || v === undefined || v === "" ? "不明（�
 
 fs.mkdirSync("products", { recursive: true });
 for (const f of fs.readdirSync("products")) if (f.endsWith(".html")) fs.unlinkSync(`products/${f}`);
+// 今週の7選で作った写真（AI生成）。build-products.mjs が data/product-images.json に記録する（記事が入れ替わっても残す）
+const IMGS = fs.existsSync("data/product-images.json") ? JSON.parse(fs.readFileSync("data/product-images.json", "utf8")) : {};
 
 const articlesOf = (p) => ARTICLES.filter((a) => a.products.some((id) => { const q = masters.find((m) => m.id === id); return q && q.category === p.category; })).slice(0, 3);
 const ids = [];
@@ -49,6 +51,10 @@ ${c.top}
     <div class="crumb"><a href="../index.html">ホーム</a> ／ <a href="../products.html">商品一覧</a> ／ ${esc(CAT_LABEL[p.category] || p.category)}</div>
     <div class="eyebrow">${esc(p.brand)}</div>
     <h1 class="article-title">${esc(p.name)}</h1>
+    ${IMGS[p.id] && fs.existsSync(IMGS[p.id].image) ? `<figure style="margin: 4px 0 0; display: flex; flex-direction: column; gap: 6px">
+      <img src="../${esc(IMGS[p.id].image)}" alt="${esc(p.brand + " " + p.name)}の特徴をまとめたイメージ画像（AI生成）" width="${IMGS[p.id].w}" height="${IMGS[p.id].h}" style="width: 100%; max-width: 640px; height: auto; border-radius: 12px; align-self: center" loading="eager">
+      <figcaption class="sub" style="text-align: center">画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。<a href="../articles/${esc(IMGS[p.id].article)}.html">紹介記事を読む →</a></figcaption>
+    </figure>` : ""}
     ${p.price ? `<div class="price-big">¥${p.price.toLocaleString()}<small>（税込）</small></div>` : ""}
     <div class="meta"><span class="mono">${checked} 確認</span><span class="pr-badge">PR</span></div>
     <p class="body-text">${esc(e.summary || "")}</p>

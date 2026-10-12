@@ -185,7 +185,7 @@ async function image() {
   fs.writeFileSync(rel, jpg);
   Object.assign(article, { image: rel, image_w: SIZE.w, image_h: SIZE.h, image_alt: `${product.brand} ${product.name}の特徴をまとめたイメージ画像（AI生成）`, image_ref: ref.from, image_details: details.map((x) => x.from), image_at: new Date().toISOString() });
   fs.writeFileSync(AUTO, JSON.stringify(articles, null, 1) + "\n");
-  execSync("node tools/build-articles.mjs", { stdio: "inherit" });
+  execSync("node tools/build-articles.mjs && node tools/build-products.mjs && node tools/build-product-pages.mjs", { stdio: "inherit" }); // 写真は商品ページ・商品カードにも出す（data/product-images.json に残る）
   log("記事に写真を入れました:", rel);
 }
 async function toJpeg(png) { // DRY_RUN 用：PNG を JPEG に（ブラウザで変換）

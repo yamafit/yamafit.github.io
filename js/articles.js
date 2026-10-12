@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const meta = [p.weight_g ? `重量 ${p.weight_g.toLocaleString()}g` : "", p.capacity_l ? `容量 ${p.capacity_l}L` : ""].filter(Boolean).join("・");
         const checked = ((p.offers || []).find((o) => o.checked_at) || {}).checked_at;
         return `<a class="prod-card" href="#" data-product="${escA(p.id)}">
+          ${p.ai_image && el.dataset.noimg === undefined ? `<span class="prod-img"><img src="${SITE_BASE}${escA(p.ai_image)}" alt="" loading="lazy"></span>` : ""}
           <span class="eyebrow">${escA(p.brand)}</span><b>${escA(p.name)}</b>
           <span class="spec">${escA(p.spec)}</span>
           <span class="price-row">${p.price ? `<span class="price-tag">¥${p.price.toLocaleString()}<small>（税込）</small></span>` : '<span class="sub">価格：不明</span>'}${meta ? `<span class="spec-mini">${escA(meta)}</span>` : ""}</span>

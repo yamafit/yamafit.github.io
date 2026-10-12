@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "yamafit-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A content/auto-articles.json img/articles articles articles.html weekly.html data/articles.json sitemap.xml
+          git add -A content/auto-articles.json img/articles articles articles.html weekly.html data/articles.json sitemap.xml data/products.json data/product-images.json products
           git diff --cached --quiet || (git commit -m "記事の写真を追加：${{ steps.plan.outputs.slug }}" && git pull --rebase && git push)
       - name: 7時まで待つ（通勤時間に合わせて投稿）
         if: steps.plan.outputs.need_ig == 'true'

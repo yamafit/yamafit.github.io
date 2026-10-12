@@ -33,12 +33,12 @@ ${c.top}
   </div>
   ${hero}
   <p class="body-text">${esc(a.lead)}</p>
-  ${a.week && a.products && a.products.length ? `<div class="top-pick"><span class="eyebrow">この記事で紹介する商品</span><div class="prod-list" data-products="${a.products[0]}"></div></div>` : ""}
+  ${a.week && a.products && a.products.length ? `<div class="top-pick"><span class="eyebrow">この記事で紹介する商品</span><div class="prod-list" data-products="${a.products[0]}"${a.image ? " data-noimg" : ""}></div></div>` : ""}
   ${body}
   <section>
     <h2 class="article-h2">この記事で紹介した商品</h2>
     <p class="sub" style="margin-bottom: 8px">価格・重量・在庫は各ブランド公式サイトの記載（確認日つき）にもとづきます。商品を押すと、購入先を選べます。</p>
-    <div class="prod-list" data-products="${a.products.join(",")}"></div>
+    <div class="prod-list" data-products="${a.products.join(",")}"${a.image ? " data-noimg" : ""}></div>
   </section>
   <div class="notice" style="margin: 0">
     <div class="notice-head"><span class="pr-badge">PR</span><span>広告・免責について</span></div>

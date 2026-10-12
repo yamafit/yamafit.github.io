@@ -533,3 +533,9 @@ img.photo { object-fit: cover; }
 .sel select.is-set { border-color: var(--green); background-color: #F2F8F3; }
 .sel select:focus { outline: 2px solid var(--green); outline-offset: 1px; }
 .sel-row { display: flex; gap: 8px; }
+/* 今週の7選で作った写真（AI生成）を商品カードに */
+.prod-img { display: block; margin: -4px -4px 4px; border-radius: 10px; overflow: hidden; background: #fff; }
+.prod-img img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; max-height: 360px; }
+.pcard-img { display: block; border-radius: 12px; overflow: hidden; margin-bottom: 4px; }
+.pcard-img img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; object-position: top; }
+.thumb { object-fit: cover; object-position: top; }
