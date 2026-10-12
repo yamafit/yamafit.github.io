@@ -1,9 +1,0 @@
-{
-  "_note": "ホームの「今週のおすすめ」。運営者（管理者）が選んで更新する。記事を公開しただけでは載らない。items は表示順。id は data/products.json の商品ID、comment は短い紹介文（空なら商品の要約を表示）。",
-  "updated": "2026-10-12",
-  "items": [
-    { "id": "merrell-moab-3-mid-gtx-m", "comment": "" },
-    { "id": "montbell-1128731", "comment": "" },
-    { "id": "montbell-1133469", "comment": "" }
-  ]
-}
