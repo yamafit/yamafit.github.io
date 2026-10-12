@@ -40,6 +40,11 @@ ${c.top}
     <p class="sub" style="margin-bottom: 8px">価格・重量・在庫は各ブランド公式サイトの記載（確認日つき）にもとづきます。商品を押すと、購入先を選べます。</p>
     <div class="prod-list" data-products="${a.products.join(",")}"${a.image ? " data-noimg" : ""}></div>
   </section>
+  <a class="ig-banner" href="https://www.instagram.com/yama_fit2026/" target="_blank" rel="noopener">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+    <span class="ig-banner-text"><b>Instagramでも毎朝7時に紹介しています</b><small>@yama_fit2026 をフォロー</small></span>
+    <span class="ig-banner-btn">フォロー</span>
+  </a>
   <div class="notice" style="margin: 0">
     <div class="notice-head"><span class="pr-badge">PR</span><span>広告・免責について</span></div>
     <p>この記事にはアフィリエイト広告が含まれます。リンク先での購入により、当サイトが報酬を受け取る場合があります。山行の前には、最新の気象とルートの状況を必ずご確認ください。</p>
