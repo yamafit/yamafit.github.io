@@ -4,6 +4,8 @@
 //   node tools/daily-image-post.mjs image       今日の記事の写真を作り、記事に入れてサイトを作り直す
 //   node tools/daily-image-post.mjs prep        手作業用：参照シート・プロンプト・キャプションを out/daily に作る（.github/workflows/daily-prep.yml）
 //   node tools/daily-image-post.mjs instagram   その写真と記事の内容・URLで Instagram に投稿し、data/ig-posts.json に記録
+//   node tools/daily-image-post.mjs noon-prep   昼の投稿用に、今週の7選とは別の商品を1つ選び、参照シート・プロンプト・投稿文を out/noon に作る（data/noon-picks.json に記録）
+//   node tools/daily-image-post.mjs noon-instagram  昼の写真（data/product-images.json に登録済み）で Instagram に投稿
 //
 // 写真の作り方（プロンプト工房と同じ）:
 //   1. 記事の商品の公式画像を使う。記事を書いたAIが公式ページで調べた ref_images（main＝商品全体、detail＝細部3枚まで）を優先し、
@@ -266,6 +268,12 @@ async function instagram() {
   fs.writeFileSync(`out/daily/${article.slug}-caption.txt`, caption);
   log(`キャプション（${caption.length}字）を作りました`);
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
+  const r = await publishIG(imageUrl, caption);
+  posts[article.slug] = { ...r, posted_at: new Date().toISOString(), image: article.image, app_id: article.app_id || "" };
+  fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
+  log("Instagram に投稿しました:", r.permalink || r.media_id);
+}
+async function publishIG(imageUrl, caption) {
   if (!process.env.INSTAGRAM_ACCESS_TOKEN) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です（GitHub の Settings → Secrets に登録してください）");
   await waitLive(imageUrl);
   const me = await ig("/me?fields=user_id,username", {});
@@ -280,14 +288,87 @@ async function instagram() {
   const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
-  posts[article.slug] = { media_id: pub.id, permalink, account: me.username || "", posted_at: new Date().toISOString(), image: article.image, app_id: article.app_id || "" };
+  return { media_id: pub.id, permalink, account: me.username || "" };
+}
+
+// ---------- 昼の投稿（今週の7選とは別の商品を1つ。写真はその商品の写真としてサイトに残す） ----------
+const NOON = "data/noon-picks.json"; // { "YYYY-MM-DD": { id, cat, image?, posted? } }
+const REG = "data/product-images.json";
+const NOON_CAT = { outer: ["pack", "boots"], pack: ["boots", "rain"], shoes: ["rain", "wear"] }; // 朝の記事のカテゴリーと重ならないように
+const kobo = (c) => ({ boots: "shoes", pack: "pack" }[c] || "outer");
+function noonPickFor(date) {
+  const picks = readJSON(NOON, {});
+  if (picks[date]) return { picks, pick: picks[date] };
+  const reg = readJSON(REG, {});
+  const rec = readJSON("data/recommendations.json", { categories: {} });
+  const used = new Set([...Object.values(picks).map((x) => x.id), ...Object.keys(reg)]);
+  const weekIds = new Set(articles.filter((a) => a.week && a.week === (article && article.week)).flatMap((a) => a.products || []));
+  const morningSlot = article ? article.slot : "outer";
+  const order = [...(NOON_CAT[morningSlot] || ["pack", "boots"]), "rain", "wear", "pack", "boots", "pants"];
+  const brandsRecent = Object.entries(picks).sort((a, b) => b[0].localeCompare(a[0])).slice(0, 3).map(([, x]) => (masters.find((p) => p.id === x.id) || {}).brand);
+  const ok = (p) => p && !used.has(p.id) && !weekIds.has(p.id) && p.image && p.image.url && p.price && !/^US /.test(p.name) && !brandsRecent.includes(p.brand);
+  for (const c of order) {
+    const fromRec = ((rec.categories || {})[c] || []).map((x) => masters.find((p) => p.id === x.id)).find(ok);
+    const any = fromRec || masters.filter((p) => p.category === c && ok(p)).sort((a, b) => (b.evaluation?.pros?.length || 0) - (a.evaluation?.pros?.length || 0))[0];
+    if (any) { picks[date] = { id: any.id, cat: c }; return { picks, pick: picks[date] }; }
+  }
+  return { picks, pick: null };
+}
+function inputForProduct(p, cat) {
+  const rows = [p.price ? `価格：${p.price.toLocaleString()}円（税込・公式サイトの表示）` : "", p.weight_g ? `重量：${p.weight_note || p.weight_g + "g"}` : "", p.material ? `素材：${p.material}` : "", p.waterproof ? `防水・撥水：${p.waterproof}` : "", p.warmth ? `保温：${p.warmth}` : "", p.capacity_l ? `容量：${p.capacity_l}L` : "", p.size_note ? `サイズ：${p.size_note}` : ""].filter(Boolean);
+  const official = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || "";
+  const d = { brand: p.brand, model: p.name, modelJa: "", color: "", source: [official, ...rows].filter(Boolean).join("\n"), reader: "", usage: "", aspect: SIZE.aspect, attach: "sheet", fixed: true, full: false };
+  for (const [id] of KOBO.CATS[cat].specs) d[id] = "";
+  return d;
+}
+export function productCaption(p) {
+  const e = p.evaluation || {};
+  const url = `${SITE_URL}products/${p.id}.html`;
+  const slot = kobo(p.category) === "shoes" ? "shoes" : kobo(p.category);
+  const tags = hashtags({ slot }, p).filter((t) => t !== "#今週の7選");
+  return ["#PR", `${p.brand} ${p.name}`, "", e.summary || "", ...((e.pros || []).length ? ["", "【ポイント】", ...e.pros.slice(0, 3).map((m) => "・" + cut(String(m).replace(/\s+/g, " "), 70))] : []),
+    ...(p.price ? ["", `価格：¥${p.price.toLocaleString()}（税込・公式サイトの表示）`] : []), "", "▼くわしくはプロフィールのリンクから", url, "",
+    "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。", "※価格・仕様はメーカー公式の記載です。", "", tags.join(" ")].join("\n").slice(0, 2200);
+}
+async function noonPrep() {
+  const { picks, pick } = noonPickFor(today);
+  if (!pick) return log("昼に紹介できる商品が見つかりませんでした");
+  fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
+  const p = masters.find((x) => x.id === pick.id);
+  const cat = kobo(p.category);
+  const d = inputForProduct(p, cat);
+  const ref = await findReferenceImage({}, p);
+  const prompt = KOBO.plain(KOBO.buildPrompt(d, cat));
+  const sheet = await renderSheet(d, cat, ref.buf);
+  fs.mkdirSync("out/noon", { recursive: true });
+  fs.writeFileSync("out/noon/sheet.png", sheet);
+  fs.writeFileSync("out/noon/prompt.txt", prompt);
+  fs.writeFileSync("out/noon/caption.txt", productCaption(p));
+  fs.writeFileSync("out/noon/info.json", JSON.stringify({ date: today, id: p.id, product: `${p.brand} ${p.name}`, category: KOBO.CATS[cat].title, price: p.price, ref: ref.from, page: `${SITE_URL}products/${p.id}.html`, at: new Date().toISOString() }, null, 1));
+  log(`昼の商品：${p.brand} ${p.name}（${p.id}）`);
+}
+async function noonInstagram() {
+  const picks = readJSON(NOON, {});
+  const pick = picks[today];
+  if (!pick) return log("今日の昼の商品はまだ決まっていません");
+  if (pick.posted) return log("今日の昼はもう投稿済みです:", pick.posted.permalink);
+  const reg = readJSON(REG, {});
+  const img = (reg[pick.id] && reg[pick.id].noon === today && reg[pick.id].image) || pick.image;
+  if (!img || !fs.existsSync(img)) return log("昼の写真がまだありません（チャットに写真が貼られたら投稿します）");
+  const p = masters.find((x) => x.id === pick.id);
+  const caption = productCaption(p);
+  if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
+  const r = await publishIG(`${SITE_URL}${img}`, caption);
+  pick.posted = { ...r, posted_at: new Date().toISOString(), image: img };
+  fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
+  posts[`noon:${today}:${pick.id}`] = pick.posted;
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
-  log("Instagram に投稿しました:", permalink || pub.id);
+  log("昼の投稿をしました:", r.permalink || r.media_id);
 }
 
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram }[cmd];
-if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram"); process.exit(1); }
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram }[cmd];
+if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); process.exit(1); });
 }

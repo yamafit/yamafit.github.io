@@ -1,0 +1,32 @@
+name: 昼のInstagram投稿
+# 昼の商品の写真（作成者が ChatGPT で作り、チャットに貼ったもの）が入っていれば、12:00 に Instagram に投稿する。
+on:
+  schedule:
+    - cron: "5 3-6 * * *"   # 日本時間 12:05〜15:05（写真が後から入った日も投稿する。済んでいれば何もしない）
+  workflow_dispatch: {}
+concurrency:
+  group: noon-post
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 12時まで待つ（昼休みに合わせて投稿）
+        run: |
+          target=$(TZ=Asia/Tokyo date -d "12:00" +%s); now=$(date +%s)
+          if [ "$now" -lt "$target" ]; then echo "$((target-now))秒待ちます"; sleep $((target-now)); fi
+      - name: Instagram に投稿
+        run: node tools/daily-image-post.mjs noon-instagram
+      - name: 投稿の記録を保存
+        run: |
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/noon-picks.json data/ig-posts.json
+          git diff --cached --quiet || (git commit -m "昼のInstagram投稿" && git pull --rebase --autostash && git push)

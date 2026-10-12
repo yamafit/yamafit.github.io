@@ -8,7 +8,7 @@ const reg = fs.existsSync(REG) ? JSON.parse(fs.readFileSync(REG, "utf8")) : {};
 const autoArts = fs.existsSync("content/auto-articles.json") ? JSON.parse(fs.readFileSync("content/auto-articles.json", "utf8")) : [];
 for (const a of [...autoArts].sort((x, y) => x.date.localeCompare(y.date))) {
   if (!a.image || !fs.existsSync(a.image)) continue;
-  for (const id of a.products || []) if (!reg[id] || reg[id].date <= a.date) reg[id] = { image: a.image, w: a.image_w || 1280, h: a.image_h || 1600, article: a.slug, date: a.date, alt: a.image_alt || "" };
+  for (const id of a.products || []) if (!reg[id] || reg[id].date < a.date || (reg[id].date === a.date && reg[id].article === a.slug)) reg[id] = { image: a.image, w: a.image_w || 1280, h: a.image_h || 1600, article: a.slug, date: a.date, alt: a.image_alt || "" };
 }
 fs.writeFileSync(REG, JSON.stringify(reg, null, 1) + "\n");
 for (const f of fs.readdirSync("data/master").filter((x) => x.endsWith(".json")).sort()) {

@@ -53,7 +53,7 @@ ${c.top}
     <h1 class="article-title">${esc(p.name)}</h1>
     ${IMGS[p.id] && fs.existsSync(IMGS[p.id].image) ? `<figure style="margin: 4px 0 0; display: flex; flex-direction: column; gap: 6px">
       <img src="../${esc(IMGS[p.id].image)}" alt="${esc(p.brand + " " + p.name)}の特徴をまとめたイメージ画像（AI生成）" width="${IMGS[p.id].w}" height="${IMGS[p.id].h}" style="width: 100%; max-width: 640px; height: auto; border-radius: 12px; align-self: center" loading="eager">
-      <figcaption class="sub" style="text-align: center">画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。<a href="../articles/${esc(IMGS[p.id].article)}.html">紹介記事を読む →</a></figcaption>
+      <figcaption class="sub" style="text-align: center">画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。${IMGS[p.id].article ? `<a href="../articles/${esc(IMGS[p.id].article)}.html">紹介記事を読む →</a>` : ""}</figcaption>
     </figure>` : ""}
     ${p.price ? `<div class="price-big">¥${p.price.toLocaleString()}<small>（税込）</small></div>` : ""}
     <div class="meta"><span class="mono">${checked} 確認</span><span class="pr-badge">PR</span></div>
