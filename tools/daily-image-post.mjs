@@ -2,6 +2,7 @@
 //
 //   node tools/daily-image-post.mjs plan        今日やることを判定（GitHub Actions の出力 need_image / need_ig）
 //   node tools/daily-image-post.mjs image       今日の記事の写真を作り、記事に入れてサイトを作り直す
+//   node tools/daily-image-post.mjs prep        手作業用：参照シート・プロンプト・キャプションを out/daily に作る（.github/workflows/daily-prep.yml）
 //   node tools/daily-image-post.mjs instagram   その写真と記事の内容・URLで Instagram に投稿し、data/ig-posts.json に記録
 //
 // 写真の作り方（プロンプト工房と同じ）:
@@ -140,6 +141,26 @@ async function generateImage(prompt, sheetPng, details = []) {
   return Buffer.from(b64, "base64");
 }
 
+// 手作業用：参照シート・プロンプト・キャプションだけを out/daily に作る（画像生成は人が ChatGPT で行う）
+async function prep() {
+  if (!article) return log("記事がないので何もしません");
+  if (!product) throw new Error(`記事の商品がマスターにありません: ${(article.products || []).join(",")}`);
+  const cat = slotToCat(article, product);
+  const d = inputFor(article, product, cat);
+  const ref = await findReferenceImage(article, product);
+  log("参照した公式画像:", ref.from);
+  const details = await findDetailImages(article);
+  const prompt = KOBO.plain(KOBO.buildPrompt(d, cat));
+  const sheet = await renderSheet(d, cat, ref.buf);
+  fs.mkdirSync("out/daily", { recursive: true });
+  fs.writeFileSync(`out/daily/sheet.png`, sheet);
+  fs.writeFileSync(`out/daily/prompt.txt`, prompt);
+  fs.writeFileSync(`out/daily/caption.txt`, buildCaption(article, product));
+  details.forEach((x, i) => fs.writeFileSync(`out/daily/detail-${i + 1}.jpg`, x.buf));
+  fs.writeFileSync(`out/daily/info.json`, JSON.stringify({ slug: article.slug, date: article.date, title: article.title, product: `${product.brand} ${product.name}`, category: KOBO.CATS[cat].title, ref: ref.from, details: details.map((x) => ({ url: x.from, note: x.note })), at: new Date().toISOString() }, null, 1));
+  log(`準備しました: ${article.slug}（${KOBO.CATS[cat].title}・プロンプト${prompt.length}字・細部写真${details.length}枚）`);
+}
+
 async function image() {
   if (!article) return log("記事がないので何もしません");
   if (article.image && !process.env.FORCE) return log("この記事にはもう写真があります:", article.image);
@@ -257,8 +278,8 @@ async function instagram() {
 }
 
 const cmd = process.argv[2];
-const run = { plan, image, instagram }[cmd];
-if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|image|instagram"); process.exit(1); }
+const run = { plan, prep, image, instagram }[cmd];
+if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); process.exit(1); });
 }

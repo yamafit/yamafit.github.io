@@ -1,0 +1,52 @@
+name: 朝の写真の準備（ChatGPTで手作業用）
+# 毎朝、今日の記事について「ChatGPTに貼るプロンプト」「添付する参照シート」「Instagramの投稿文」を作り、
+# daily-ref ブランチに置く（サイトには公開されない）。Claude がそれを取り出して作成者に届ける。
+# 作成者が ChatGPT で作った写真をチャットに貼ると、Claude が記事に入れる。
+on:
+  schedule:
+    - cron: "20 21 * * *"   # 日本時間 6:20（記事の公開 6:10 のあと）
+    - cron: "50 21 * * *"   # 日本時間 6:50（取りこぼしの再実行）
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "記事のslug（空なら今日の記事）"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths: [".github/workflows/daily-prep.yml"]
+concurrency:
+  group: daily-prep
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ARTICLE_SLUG: ${{ github.event.inputs.slug }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 今日の記事があるか確認
+        id: plan
+        run: node tools/daily-image-post.mjs plan
+      - name: 参照シート用のブラウザと日本語フォントを用意
+        if: steps.plan.outputs.slug != ''
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: プロンプト・参照シート・投稿文を作る
+        if: steps.plan.outputs.slug != ''
+        run: node tools/daily-image-post.mjs prep
+      - name: daily-ref ブランチに置く
+        if: steps.plan.outputs.slug != ''
+        run: |
+          mkdir -p /tmp/ref && cp out/daily/* /tmp/ref/ && cd /tmp/ref
+          git init -q -b daily-ref
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A && git commit -qm "朝の写真の準備：${{ steps.plan.outputs.slug }}"
+          git push -f -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" daily-ref
