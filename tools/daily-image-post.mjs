@@ -91,7 +91,8 @@ const detailNote = (details) => details.length ? `\n\n追加の参照画像に�
 // ---------- 参照シートとプロンプト ----------
 function inputFor(a, p, cat) {
   const spec = (a.sections || []).find((s) => s.table && /スペック|仕様/.test(s.h));
-  const rows = spec ? spec.table.rows.map((r) => r.join("：")) : [];
+  const head = spec ? spec.table.head || [] : [];
+  const rows = spec ? spec.table.rows.map((r) => (r.length > 2 && head.length === r.length ? `${r[0]}：${r.slice(1).map((v, i) => `${head[i + 1]} ${v}`).join("、")}` : r.join("："))) : []; // サイズ別の列は「SM/MD 28L、MD/LG 30L」のように
   const num = rows.find((r) => /^(品番|型番)：/.test(r));
   const official = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || "";
   const d = { brand: p.brand, model: p.name + (num ? `（${num.split("：")[1]}）` : ""), modelJa: "", color: "", source: [official, ...rows].filter(Boolean).join("\n"), reader: "", usage: "", aspect: SIZE.aspect, attach: "sheet", fixed: true, full: false };
