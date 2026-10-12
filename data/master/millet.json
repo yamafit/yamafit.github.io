@@ -2054,6 +2054,2016 @@
    }
   },
   {
+   "id": "millet-mis01303",
+   "brand": "ミレー",
+   "name": "GRX 22",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 20900,
+   "weight_g": 890,
+   "weight_note": "公式記載",
+   "capacity_l": 22,
+   "material": "・軽さと耐久性を備えたロビックナイロン素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01303",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01303_N4238_01.jpg?v=1787807259",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01303",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01303",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。安定した背負い心地と実用性に特化した軽量ハイキング用リュックサック。",
+    "pros": [
+     "重量 890g（公式記載）",
+     "容量 22L",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis0792",
+   "brand": "ミレー",
+   "name": "クンブ マウンテン クルーズ 28",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": 1090,
+   "weight_note": "公式記載",
+   "capacity_l": 28,
+   "material": "・高密度ナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0792",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0792_N2987_01.jpg?v=1787807321",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0792",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0792",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。山を越え、街を抜け、また山へと入る長い山旅に対応した個性あふれる多彩な機能を備えた多用途型リュックサックです。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 1,090g（公式記載）",
+     "容量 28L",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2230",
+   "brand": "ミレー",
+   "name": "ミクスト25+5",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 24200,
+   "weight_g": 690,
+   "weight_note": "公式記載",
+   "capacity_l": 5,
+   "material": "ナイロン 100D ROBIC MIX RIPSTOP",
+   "waterproof": "耐水圧1,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2230",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2230_N4238_01.jpg?v=1787807533",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2230",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2230",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。軽量の撥水生地を使った、日帰登山やアタックザックとして使える小型ザック。",
+    "pros": [
+     "防水・撥水：耐水圧1,000mm（公式記載）",
+     "重量 690g（公式記載）",
+     "容量 5L",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 690g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis01302",
+   "brand": "ミレー",
+   "name": "パルマラン 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": 880,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "・高耐久のリップストップナイロン素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01302",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01302_N6365_01.jpg?v=1787807267",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01302",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01302",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。軽いだけでなく、同時に確かな耐久性と快適なフィッティングにもこだわった軽快リュックサック。",
+    "pros": [
+     "重量 880g（公式記載）",
+     "容量 25L",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis0708",
+   "brand": "ミレー",
+   "name": "ランドスケープ 22",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 660,
+   "weight_note": "公式記載",
+   "capacity_l": 22,
+   "material": "0505 NOIR/NOIR :ナイロン 210D DOUBLE R/S SD (68*62) PU",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0708",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0708_N8014_01.jpg?v=1787807576",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0708",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0708",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。ワンデイハイクからライフスタイルまで重宝する小型バックパック。",
+    "pros": [
+     "重量 660g（公式記載）",
+     "容量 22L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 660g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis01307",
+   "brand": "ミレー",
+   "name": "クンブ マウンテン クルーズ 22",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": 850,
+   "weight_note": "公式記載",
+   "capacity_l": 22,
+   "material": "・高密度ナイロン素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01307",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01307_N4581_01.jpg?v=1787807381",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01307",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01307",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。街歩きからアドベンチャーまでシームレスに楽しむアクティブな旅人のためにデザインされた多用途型リュックサック。",
+    "pros": [
+     "重量 850g（公式記載）",
+     "容量 22L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis01309",
+   "brand": "ミレー",
+   "name": "EXP NX 24",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 20900,
+   "weight_g": 730,
+   "weight_note": "公式記載",
+   "capacity_l": 24,
+   "material": "・耐久性の高いコーデュラ®ナイロン",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01309",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01309_N9904_01.jpg?v=1787807568",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01309",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01309",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。アウトドアで培った快適性と通勤・通学など日常での使いやすさにこだわった、アーバンユースの多機能リュックサック。",
+    "pros": [
+     "重量 730g（公式記載）",
+     "容量 24L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 730g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis0758",
+   "brand": "ミレー",
+   "name": "ウェルキン 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": 810,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "200D ナイロン100% / 耐水1,500 撥水",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0758",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0758_N0247_01.jpg?v=1787807681",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0758",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0758",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。日帰りのハイキングやトレッキングにピッタリな、25Lサイズの快適バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 810g（公式記載）",
+     "容量 25L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2333",
+   "brand": "ミレー",
+   "name": "トリロジー スカイ 15+",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 37950,
+   "weight_g": 500,
+   "weight_note": "公式記載",
+   "capacity_l": 15,
+   "material": "・高耐水のダイニーマ®素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2333",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2333_N0247_01.jpg?v=1787807563",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2333",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2333",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。シンプルな外観に最先端の軽さと耐久性・快適性を詰め込んだ、あらゆる過酷な状況で最高のパフォーマンスが求められるトリロジーシリーズのバックパック。",
+    "pros": [
+     "重量 500g（公式記載）",
+     "容量 15L",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 500g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis01334",
+   "brand": "ミレー",
+   "name": "セムノ 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 24200,
+   "weight_g": 770,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "100D ナイロン95%/ UHMWPE5% × 420D ナイロン100%",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01334",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01334_N3171_01.jpg?v=1787806836",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01334",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01334",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。デイハイクから週末旅行、さらには普段使いまでマルチに活躍するデイパック。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 770g（公式記載）",
+     "容量 25L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 770g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis01305",
+   "brand": "ミレー",
+   "name": "ウェルキン ジップ 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 15400,
+   "weight_g": 800,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "200D ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01305",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01305_N3172_01.jpg?v=1787807367",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01305",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01305",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。はじめての日帰りのハイキングにピッタリなサイズと機能性を備えたリュックサック。",
+    "pros": [
+     "重量 800g（公式記載）",
+     "容量 25L",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis01337",
+   "brand": "ミレー",
+   "name": "スイウ 27",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 17600,
+   "weight_g": 800,
+   "weight_note": "公式記載",
+   "capacity_l": 27,
+   "material": "・高い撥水性を備えた丈夫なリップストップナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01337",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01337_N9904_01.jpg?v=1787807097",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01337",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01337",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。旅行や日帰りのハイキングから普段使いにもちょうどいいサイズの軽量・多機能・高耐水バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 800g（公式記載）",
+     "容量 27L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2483",
+   "brand": "ミレー",
+   "name": "シャモニー 25+5",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 28600,
+   "weight_g": 850,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "・耐久性のある、TPUコーティング 420Dリサイクルナイロン",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2483",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2483_N8057_01.jpg?v=1787806773",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2483",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2483",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。優れた防水性と耐久性に、日常や旅行に便利な収納を多数備えたバックパック。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 850g（公式記載）",
+     "容量 25L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2363",
+   "brand": "ミレー",
+   "name": "ピエラメント 25",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 25520,
+   "weight_g": 580,
+   "weight_note": "公式記載",
+   "capacity_l": 25,
+   "material": "ブラック ダイニーマ® 300D ナイロン100% x ダイアモンドロビック ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2363",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2363_N4333_01.jpg?v=1787807529",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2363",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2363",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。少ない荷物でのスピーディなスキーツーリングを想定した超軽量かつ高機能なリュックサックです。",
+    "pros": [
+     "重量 580g（公式記載）",
+     "容量 25L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 580g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis2502",
+   "brand": "ミレー",
+   "name": "ハイク 20",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 11000,
+   "weight_g": 610,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "・軽量性と強度を兼ね備えたリサイクル素材のリップストップポリエステル",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2502",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2502_N0247_01.jpg?v=1787806760",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2502",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2502",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。半日から日帰りのハイキングや、旅行やデイリーユースにもちょうどいい容量で、必要な耐久性と機能性を備えた軽量バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 610g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 610g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis2441",
+   "brand": "ミレー",
+   "name": "トリロジー ジョラス 20+5",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 44000,
+   "weight_g": 710,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "N200D MAXI リップストップ TPU ナイロン100% PFCフリー耐久撥水加工",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2441",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2441_N8014_01.jpg?v=1787806960",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2441",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2441",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。最小限の重量に最大限の機能性を実現した画期的な超軽量アルパインリュックサック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 710g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 710g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis2379",
+   "brand": "ミレー",
+   "name": "ツアー 22 W",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 18480,
+   "weight_g": 750,
+   "weight_note": "公式記載",
+   "capacity_l": 22,
+   "material": "・PFCフリーの撥水加工を施した100％リサイクル素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2379",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2379_N9845_01.jpg?v=1787807186",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2379",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2379",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。日帰りスキーツーリングに最適な22Lサイズ、女性の体型にフィットしやすいデザインのスノーパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 750g（公式記載）",
+     "容量 22L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 750g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis2439",
+   "brand": "ミレー",
+   "name": "M-ホワイト 22",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 27500,
+   "weight_g": 890,
+   "weight_note": "公式記載",
+   "capacity_l": 22,
+   "material": "2D ダーリントンメッシュ 180g リサイクル ポリエステル100% x N66 330D ミニリップストップ ナイロン100% PFCフリー耐久撥水加工",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2439",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2439_N4238_01.jpg?v=1787807104",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2439",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2439",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。シンプルで軽量なデザインながらライトなスキーツーリングに最適なサイズと機能性を備えたリュックサック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 890g（公式記載）",
+     "容量 22L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2364",
+   "brand": "ミレー",
+   "name": "ピエラメント ボックス",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 31680,
+   "weight_g": 550,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "ブラック ダイニーマ® 70D ナイロン100% x ダイアモンドロビック 100D ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2364",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2364_N0247_01.jpg?v=1787807603",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2364",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2364",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。取り外し可能なダイレクトアクセスクランポンコンパートメントを搭載した、ISMF公認の超軽量かつ高機能なスキーマウンテニアリング向けリュックサックです。",
+    "pros": [
+     "重量 550g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 550g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis10019",
+   "brand": "ミレー",
+   "name": "ピエラメント 20",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 30800,
+   "weight_g": 470,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "N66-330D ミニ リップストップナイロン x 100Dリップストップナイロン",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis10019",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS10019_N7317_01.jpg?v=1787621412",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis10019",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis10019",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。山岳スキー競技を想定した、ISMF公認レース対応の軽快なスノーパック。",
+    "pros": [
+     "重量 470g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 470g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis10021",
+   "brand": "ミレー",
+   "name": "ピエラメント 28",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 35200,
+   "weight_g": 820,
+   "weight_note": "公式記載",
+   "capacity_l": 28,
+   "material": "N66-330D ミニ リップストップナイロン x 100Dリップストップナイロン",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis10021",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS10021_N7317_01.jpg?v=1787621414",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis10021",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis10021",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。山岳スキー競技を想定した、ISMF公認レース対応の軽快なスノーパック。",
+    "pros": [
+     "重量 820g（公式記載）",
+     "容量 28L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis10042",
+   "brand": "ミレー",
+   "name": "ピエラメント プロ",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 28600,
+   "weight_g": 360,
+   "weight_note": "公式記載",
+   "capacity_l": 20,
+   "material": "ロビック 100/200D ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis10042",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS10042_N8014_01.jpg?v=1787621485",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis10042",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis10042",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。山岳スキー競技で最高のパフォーマンスを発揮するためにデザインされた、ISMF（国際スキー登山連盟）認定の超軽量でミニマルなスノーパック。",
+    "pros": [
+     "重量 360g（公式記載）",
+     "容量 20L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 360g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-mis2199",
+   "brand": "ミレー",
+   "name": "ハナン 40",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 24288,
+   "weight_g": 1240,
+   "weight_note": "公式記載",
+   "capacity_l": 40,
+   "material": "ナイロン 300D TWIN CHIP ROBIC / ナイロン 210D DYNAJIN HT",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2199",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2199_N0247_01.jpg?v=1787807566",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2199",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2199",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。機内持ち込みもしやすい、すっきりとしたデザインと取り外し可能なウェストベルトを備えたトレッキング向けバックパック。",
+    "pros": [
+     "重量 1,240g（公式記載）",
+     "容量 40L",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis0754",
+   "brand": "ミレー",
+   "name": "サースフェー NX 40+5",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": 1560,
+   "weight_note": "公式記載",
+   "capacity_l": 40,
+   "material": "コーデュラ®オックス 210D ナイロン100% / 耐水1,500",
+   "waterproof": "耐水圧1,500mm以上",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0754",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0754_N9845_01.jpg?v=1787807697",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0754",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0754",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。ハイキングから本格縦走まで幅広い用途に対応するミレーのロングセラーバックパックがリニューアル。",
+    "pros": [
+     "防水・撥水：耐水圧1,500mm以上（公式記載）",
+     "重量 1,560g（公式記載）",
+     "容量 40L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2420",
+   "brand": "ミレー",
+   "name": "ウビック 40",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 28160,
+   "weight_g": 1230,
+   "weight_note": "公式記載",
+   "capacity_l": 40,
+   "material": "ソリューション ダイ 210D ナイロン97% PU3%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2420",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2420_N9324_01.jpg?v=1787807166",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2420",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2420",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。1~2日のトレッキングからスキーツアーまで、幅広いアクティビティに対応するリュックサック。",
+    "pros": [
+     "重量 1,230g（公式記載）",
+     "容量 40L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis0629",
+   "brand": "ミレー",
+   "name": "クーラ 40",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 22000,
+   "weight_g": 1220,
+   "weight_note": "公式記載",
+   "capacity_l": 40,
+   "material": "ナイロン 500D CORDURA®",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0629",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0629_N0247_01.jpg?v=1787807625",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0629",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0629",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。旅行用パックとしての使いやすさと、アウトドアにも耐えうる快適性を両立した多用途バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 1,220g（公式記載）",
+     "容量 40L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2423",
+   "brand": "ミレー",
+   "name": "ウビック 40 W",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 28160,
+   "weight_g": 1200,
+   "weight_note": "公式記載",
+   "capacity_l": 40,
+   "material": "ソリューション ダイ 210D ナイロン97% PU3%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2423",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2423_N9322_01.jpg?v=1787807393",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2423",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2423",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。1~2日のトレッキングからスキーツアーまで、幅広いアクティビティに対応するリュックサック。",
+    "pros": [
+     "重量 1,200g（公式記載）",
+     "容量 40L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis01329",
+   "brand": "ミレー",
+   "name": "パルマラン 45",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 37400,
+   "weight_g": 1240,
+   "weight_note": "公式記載",
+   "capacity_l": 45,
+   "material": "・高耐久のリップストップナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis01329",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS01329_N0247_01.jpg?v=1787806834",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis01329",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis01329",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "tent",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。軽さに加えて確かな耐久性と快適なフィッティング、実用的な収納にもこだわった軽快バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 1,240g（公式記載）",
+     "容量 45L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-mis2426",
+   "brand": "ミレー",
+   "name": "プトレイ 45+10",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 39600,
+   "weight_g": 1530,
+   "weight_note": "公式記載",
+   "capacity_l": 45,
+   "material": "ツイン チップ ロビック 300D ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis2426",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS2426_N0395_01.jpg?v=1787807394",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis2426",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis2426",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "tent",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。一年を通してバリエーションルートを含むなどのテクニカルな登山を楽しむためにデザインされた中型リュックサック。",
+    "pros": [
+     "重量 1,530g（公式記載）",
+     "容量 45L",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
    "id": "millet-miv10538",
    "brand": "ミレー",
    "name": "セネカ シールド フーディ",
@@ -4449,6 +6459,78 @@
    }
   },
   {
+   "id": "millet-mis0725",
+   "brand": "ミレー",
+   "name": "EXP 17",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": 610,
+   "weight_note": "公式記載",
+   "capacity_l": 17,
+   "material": "・耐久性の高いCORDURA®ナイロン",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/mis0725",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIS0725_N6342_01.jpg?v=1787807591",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/mis0725",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/mis0725",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "town"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ザック・バッグ。通勤やお出かけといった日々の生活に便利な収納や機能を、街に溶け込む洗練されたデザインに詰め込んだ多機能バックパック。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 610g（公式記載）",
+     "容量 17L",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "荷物を整理して背負いたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 610g と公式に記載されています。"
+    }
+   }
+  },
+  {
    "id": "millet-miv01961",
    "brand": "ミレー",
    "name": "UVタイツ",
@@ -5538,6 +7620,229 @@
    }
   },
   {
+   "id": "millet-miv11105",
+   "brand": "ミレー",
+   "name": "イーボル ライト 700 ベスト",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 30800,
+   "weight_g": 269,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11105",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV11105_N0247_01.jpg?v=1787621601",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv11105",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11105",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。軽量でコンパクトに収納可能な軽量ダウンベスト。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 269g（公式記載）",
+     "保温：東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダッ",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 269g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10221",
+   "brand": "ミレー",
+   "name": "イーボル ライト ダウン 700 ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 33880,
+   "weight_g": 400,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10221",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10221_N4238_01.jpg?v=1787807248",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10221",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10221",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。肌寒い季節にはライトなアウターに、厳しい寒さでは防寒用ミッドレイヤーにもなる優れた汎用性を備えた軽量ダウンジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 400g（公式記載）",
+     "保温：東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダ",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10222",
+   "brand": "ミレー",
+   "name": "イーボル ライト ダウン 700 ベスト",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 19800,
+   "weight_g": 286,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10222",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10222_N0247_01.jpg?v=1787807222",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10222",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10222",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。軽量でコンパクトに収納可能な軽量ダウンベスト。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 286g（公式記載）",
+     "保温：東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダ",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 286g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
    "id": "millet-miv03150",
    "brand": "ミレー",
    "name": "ウォーム ストレッチ スキニー II パンツ",
@@ -5604,6 +7909,78 @@
     ],
     "not_for": [],
     "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv02173",
+   "brand": "ミレー",
+   "name": "ウビック ウール フーディ ロングスリーブ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 10780,
+   "weight_g": 204,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・リサイクルポリエステル使用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02173",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02173_N8612_01.jpg?v=1787806772",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02173",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02173",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。快適な着心地を提供するフード付きベースレイヤー。",
+    "pros": [
+     "重量 204g（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 204g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
    }
   },
   {
@@ -6023,6 +8400,82 @@
    }
   },
   {
+   "id": "millet-miv10448",
+   "brand": "ミレー",
+   "name": "ウビック ライトグリッド ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 9900,
+   "weight_g": 284,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・運動時に快適な暖かさのポーラテック®ミニグリッド フリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケット",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10448",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10448_N0045_01.jpg?v=1787807438",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10448",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10448",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケット。",
+    "pros": [
+     "重量 284g（公式記載）",
+     "保温：適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケ",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 284g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
    "id": "millet-miv03181",
    "brand": "ミレー",
    "name": "ウルトラライト ファスト ショートパンツ",
@@ -6091,6 +8544,79 @@
     "not_for": [],
     "concern_reasons": {
      "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03180",
+   "brand": "ミレー",
+   "name": "ウルトラライト ファスト ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 16170,
+   "weight_g": 68,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・10Dの薄手、軽量ナイロン素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03180",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03180_N2599_01.jpg?v=1787807511",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03180",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03180",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。フィールドでの冷たい風から身体を守り、体温の低下を防ぐ超軽量のウィンドシェルジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 68g（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 68g と公式に記載されています。"
     }
    }
   },
@@ -6377,6 +8903,228 @@
    }
   },
   {
+   "id": "millet-miv10778",
+   "brand": "ミレー",
+   "name": "カメット XCS ライト フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 15840,
+   "weight_g": 310,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "X.C.S. ナイロンストレッチ リサイクルナイロン88% ポリウレタン12% PFCフリー撥水加工 2WAYストレッチ",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10778",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10778_N0033_01.jpg?v=1787807095",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10778",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10778",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。風やちょっとした雨を防ぎながらも動きやすい、行動着に最適なソフトシェルフーディ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 310g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 310g と公式に記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10964",
+   "brand": "ミレー",
+   "name": "カメット グリッド ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 27500,
+   "weight_g": 398,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・運動時に快適な暖かさのポーラテック®パワーグリッド素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10964",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10964_N8408_01.jpg?v=1787621649",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10964",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10964",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット。",
+    "pros": [
+     "重量 398g（公式記載）",
+     "保温：保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 398g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10965",
+   "brand": "ミレー",
+   "name": "カメット グリッド フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 29700,
+   "weight_g": 374,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・運動時に快適な暖かさのポーラテック® パワーグリッド素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10965",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10965_N0068_01.jpg?v=1787621695",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10965",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10965",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ。",
+    "pros": [
+     "重量 374g（公式記載）",
+     "保温：保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 374g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
    "id": "millet-miv9332",
    "brand": "ミレー",
    "name": "カメット ゴアテックス ジャケット",
@@ -6449,6 +9197,150 @@
    }
   },
   {
+   "id": "millet-miv10558",
+   "brand": "ミレー",
+   "name": "カメット ダウン フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 54560,
+   "weight_g": 580,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ 90/10 RDS 700FP ダックダウン PFCフリー耐久撥水加工 x リップストップ ウルトラライト ダウンプルーフ ナイロン100%",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ 90/10 RDS 700FP ダックダウン PFCフリー耐久撥水加工 x リップストップ ウルトラライト ダウンプルーフ ナイロン100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10558",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10558_N8408_01.jpg?v=1787806909",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10558",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10558",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。冬山登山などの厳しい寒さに対応するためにデザインされた、軽量コンパクトで非常に暖かいダウンジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 580g（公式記載）",
+     "保温：ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ"
+    ],
+    "cons": [
+     "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10562",
+   "brand": "ミレー",
+   "name": "カメット パワー プロ ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 20790,
+   "weight_g": 420,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ポーラテック パワーストレッチ™ プロフリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ポーラテック パワーストレッチ™ プロ ファブリックは、過酷な環境での高い保温性と耐摩耗性を提供します",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10562",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10562_N0395_01.jpg?v=1787806905",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10562",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10562",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。抜群のストレッチ性や着心地の良さをはじめ、ハードな山岳アクティビティに必要な要素を数多く兼ね備えた、高機能テクニカルフリース。",
+    "pros": [
+     "重量 420g（公式記載）",
+     "保温：ポーラテック パワーストレッチ™ プロ ファブリックは、過酷な環境での高い保温性",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
    "id": "millet-miv10720",
    "brand": "ミレー",
    "name": "カメット パワーパンツ",
@@ -6514,6 +9406,78 @@
     ],
     "not_for": [],
     "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10979",
+   "brand": "ミレー",
+   "name": "カメット パワープロ ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 33000,
+   "weight_g": 420,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ポーラテック® パワーストレッチ™ プロ素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ポーラテック® パワーストレッチ™ プロ は、過酷な環境での高い保温性と耐摩耗性を提供します",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10979",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10979_N0033_01.jpg?v=1787621631",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10979",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10979",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。抜群のストレッチ性や着心地の良さをはじめ、ハードな山岳アクティビティに必要な要素を数多く兼ね備えた高機能テクニカルフリース。",
+    "pros": [
+     "重量 420g（公式記載）",
+     "保温：ポーラテック® パワーストレッチ™ プロ は、過酷な環境での高い保温性と耐摩耗性",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
    }
   },
   {
@@ -6584,6 +9548,78 @@
    }
   },
   {
+   "id": "millet-miv10229",
+   "brand": "ミレー",
+   "name": "カメット プロ ダウン フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 46200,
+   "weight_g": 530,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 × Kドライ ダックダウン RDS 700フィルパワー ダウン90% フェザー10% PFCフリー撥水",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 × Kドライ ダックダウン RDS 700フィルパワー ダウン90% フェザー10% PFCフリー撥水",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10229",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10229_N9845_01.jpg?v=1787807544",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10229",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10229",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。クセのないベーシックなフォルムに、K DRY™撥水ダウンをたっぷりと封入した、マウンテンスポーツから寒冷地への旅行まで、幅広く使えるダウンジャケットです。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 530g（公式記載）",
+     "保温：パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 ×"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
    "id": "millet-miv02231",
    "brand": "ミレー",
    "name": "カロス パンツ",
@@ -6648,6 +9684,514 @@
     ],
     "not_for": [],
     "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv02230",
+   "brand": "ミレー",
+   "name": "カロス フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 7920,
+   "weight_g": 704,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・コットンとポリエステルの混紡素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステルとコットン混紡素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02230",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02230_N9904_01.jpg?v=1787806850",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02230",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02230",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。リラックスしたシーンで重宝する、着心地の良さと快適な暖かさを備えたフード付きスウェットパーカー。",
+    "pros": [
+     "重量 704g（公式記載）",
+     "保温：フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステル"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02135",
+   "brand": "ミレー",
+   "name": "クローゼット パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 15400,
+   "weight_g": 362,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ストレッチ性に優れた二重織素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02135",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02135_N9904_01.jpg?v=1787806974",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02135",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02135",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。寒い季節のトレッキングや登山での動きやすさにとことんこだわったトレッキングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 362g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv11042",
+   "brand": "ミレー",
+   "name": "グランモンテ 3L ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 71500,
+   "weight_g": 532,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ドライエッジ™素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11042",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV11042_N9904_01.jpg?v=1787621488",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv11042",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11042",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ゲレンデからバックカントリーまで幅広くカバーする、軽量で優れた透湿性を備えたスキージャケット。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 532g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が7万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10598",
+   "brand": "ミレー",
+   "name": "グランモンテ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 33440,
+   "weight_g": 824,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ドライエッジ グリッド 2L ナイロン93% ポリエステル7% PFCフリー耐久撥水加工 x ドライエッジ MAT 2L リサイクルポリエステル50% ポリエステル50% x PADDING 60G PFCフリー耐久撥水加工",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "暖かな中綿によって適度な保温性を備えつつ、内股のベンチレーションが温度調節にも対応",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10598",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10598_N7094_01.jpg?v=1787806911",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10598",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10598",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。高い耐久性と防水透湿性を備えた2レイヤーのドライエッジ素材を採用し、計算された立体裁断によって、激しい動作にも追従する動きやすさを実現しました。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 824g（公式記載）",
+     "保温：暖かな中綿によって適度な保温性を備えつつ、内股のベンチレーションが温度調節にも対",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10597",
+   "brand": "ミレー",
+   "name": "グランモンテ ピーク ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 49280,
+   "weight_g": 1005,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ドライエッジ MAT 2L リサイクルポリエステル50% ポリエステル50% x ドライエッジ グリッド 2L ナイロン93% ポリエステル7% x リプリーブ リサイクル中綿100G/80G リサイクル ポリエステル100% PFCフリー耐久撥水加工",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "裏地のリサイクル中綿と背面のストレッチメッシュパネルによって十分な保温性と通気性を両立しました",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10597",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10597_N0069_01.jpg?v=1787806961",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10597",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10597",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。2レイヤーの防水透湿ドライエッジ 素材は激しい動きにもストレスのないフィット感を提供。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 1,005g（公式記載）",
+     "保温：裏地のリサイクル中綿と背面のストレッチメッシュパネルによって十分な保温性と通気性",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10595",
+   "brand": "ミレー",
+   "name": "グランモンテ プロ ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 62480,
+   "weight_g": 1064,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・4WAYストレッチ素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "ドライエッジ 4WAY MAT 2L リサイクルナイロン85% ポリウレタン15% x プリマロフト® シルバー100g リサイクルポリエステル100% x ソフトストレッチ ライニング ポリエステル100% PFCフリー耐久撥水加工",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10595",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10595_N0070_01.jpg?v=1787806956",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10595",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10595",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ハードな斜面をアグレッシブに滑り降りるスキーヤーのためにデザインされた、高い機動性と快適性を追求したミレースキージャケットのフラッグシップモデル。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 1,064g（公式記載）",
+     "保温：ドライエッジ 4WAY MAT 2L リサイクルナイロン85% ポリウレタン15",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10596j",
+   "brand": "ミレー",
+   "name": "グランモンテ プロ パンツ JP",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 32560,
+   "weight_g": 552,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・4WAYストレッチ素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "高いプロテクションを備えたドライエッジ防水透湿素材と中綿の組み合わせによって、耐久性と保温性を両立させました",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10596j",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10596J_N0247_01.jpg?v=1787806970",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10596j",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10596j",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。多彩な斜面をアグレッシブに楽しむスキーヤーのためにデザインされた、機動性と快適性に優れたスキーパンツのフラッグシップモデル。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 552g（公式記載）",
+     "保温：高いプロテクションを備えたドライエッジ防水透湿素材と中綿の組み合わせによって、耐",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
    }
   },
   {
@@ -6716,6 +10260,79 @@
     ],
     "good_for": [
      "雨や風に備えたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10204",
+   "brand": "ミレー",
+   "name": "コズミック ウォーム ゴアテックス パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 53900,
+   "weight_g": 606,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ。ハイシーズンに最適な保温性だけでなく、動きやすさを考慮した立体裁断や大きなサイドジップベンチレーションなど、パウダー好きスキーヤーの要求を細部まで意識してデザインされています。",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": "信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10204",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10204_N0247_01.jpg?v=1787807251",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10204",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10204",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）",
+     "重量 606g（公式記載）",
+     "保温：信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用し",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "価格が5万円台と高め"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
     ],
     "not_for": [],
     "concern_reasons": {
@@ -6797,6 +10414,79 @@
    }
   },
   {
+   "id": "millet-miv10201",
+   "brand": "ミレー",
+   "name": "コズミック ゴアテックス 2L パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 49280,
+   "weight_g": 624,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ゴアテックス® 2層 ePE ライト リサイクルポリエステル100% PFCフリー撥水 x オクスフォード ダル レインフォースメント リサイクルポリエステル100%",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": "中綿を使用しないことで、寒いときにはインナーを穿き、暖かい春スキーでは1枚で穿くなど状況に合わせて調整できます",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10201",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10201_N4238_01.jpg?v=1787807261",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10201",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10201",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。環境に配慮したPFCフリーのゴアテックスを採用した、2レイヤーのゴアテックススキーパンツ。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）",
+     "重量 624g（公式記載）",
+     "保温：中綿を使用しないことで、寒いときにはインナーを穿き、暖かい春スキーでは1枚で穿く",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
    "id": "millet-miv9894",
    "brand": "ミレー",
    "name": "コズミック ゴアテックス 3L ジャケット",
@@ -6866,6 +10556,1423 @@
     "not_for": [],
     "concern_reasons": {
      "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv9895",
+   "brand": "ミレー",
+   "name": "コズミック ゴアテックス 3L パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 62480,
+   "weight_g": 574,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・表地には環境に配慮したリサイクルポリエステル100%を使用",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv9895",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV9895_N7094_01.jpg?v=1787807426",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv9895",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv9895",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。優れた防水性と透湿性、耐久性を兼ね備え、環境への影響を軽減した新しいGORE-TEXメンブレンを採用した防水透湿スキーパンツ。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）",
+     "重量 574g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03133",
+   "brand": "ミレー",
+   "name": "コーデュラ ウォーム ストレッチ 3/4 パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 10010,
+   "weight_g": 282,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・耐久性の高いコーデュラナイロンを編み込んだ裏起毛フリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "・ソフトでストレッチ性があり、裏起毛による優れた保温性で高い快適性を実現",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03133",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03133_N0247_01.jpg?v=1787807536",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03133",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03133",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。積雪期のマウンテンアクティビティやスキーでの着用を想定した、3/4丈のインナーパンツ。",
+    "pros": [
+     "重量 282g（公式記載）",
+     "保温：・ソフトでストレッチ性があり、裏起毛による優れた保温性で高い快適性を実現",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv03132",
+   "brand": "ミレー",
+   "name": "コーデュラ ウォーム ストレッチ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 10780,
+   "weight_g": 340,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・耐久性の高いコーデュラナイロンを編み込んだ裏起毛フリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "コーデュラナイロンを編み込んだことでアウターとしても着用可能な耐久性の高さを備え、裏起毛仕様によって保温性、滑らかな穿き心地も備えています",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03132",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03132_N0247_01.jpg?v=1787807463",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03132",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03132",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。動きやすさと速乾性を備えたストレッチフリース生地のパンツ。",
+    "pros": [
+     "重量 340g（公式記載）",
+     "保温：コーデュラナイロンを編み込んだことでアウターとしても着用可能な耐久性の高さを備え",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10758",
+   "brand": "ミレー",
+   "name": "シマイ コラボ スウェット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": 508,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": null,
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10758",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10758_N0247_01.jpg?v=1787806766",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10758",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10758",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。アーティストとのコラボレーションによって生まれたデザインをあしらったスウェットフーディ。",
+    "pros": [
+     "重量 508g（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10425",
+   "brand": "ミレー",
+   "name": "シマイ デニムパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 22000,
+   "weight_g": 512,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "コットン68% ポリエステル30% ポリウレタン2% ウィッキング",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10425",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10425_N0395_01.jpg?v=1787807070",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10425",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10425",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。着心地と耐久性、伸縮性を備えたストレッチデニム素材でカジュアルさと運動性を両立させたクライミングパンツ。",
+    "pros": [
+     "重量 512g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10259",
+   "brand": "ミレー",
+   "name": "シマイ フリース ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 541,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・リサイクルポリエステルを使用した起毛フリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性をバランスよく兼ね備え、寒い季節でのクライミングに対応します",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10259",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10259_N3536_01.jpg?v=1787807678",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10259",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10259",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。フィールドから日常までシーンを選ばず活躍する、心地よい肌触りと暖かさを備えたフリースジャケット。",
+    "pros": [
+     "重量 541g（公式記載）",
+     "保温：軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10258",
+   "brand": "ミレー",
+   "name": "シマイ フリース フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 13090,
+   "weight_g": 570,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・リサイクルポリエステルを使用した起毛フリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性をバランスよく兼ね備え、寒い季節でのクライミングに対応します",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10258",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10258_N3177_01.jpg?v=1787807237",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10258",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10258",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。フィールドから日常までシーンを選ばず活躍する、心地よい肌触りと暖かさを備えたフード付きフリースジャケット。",
+    "pros": [
+     "重量 570g（公式記載）",
+     "保温：軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10828",
+   "brand": "ミレー",
+   "name": "シマイ ポリ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16940,
+   "weight_g": 282,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・耐久性と速乾性に優れ、4WAYストレッチのナイロン混紡素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10828",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10828_N7094_01.jpg?v=1787806761",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10828",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10828",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。ミレーのアスリートと共同開発した、夏のマルチピッチルートでの快適さを提供するストレッチクライミングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 282g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10103",
+   "brand": "ミレー",
+   "name": "シマイ ポリパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16940,
+   "weight_g": 314,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・耐久性と速乾性に優れ、4WAYストレッチのナイロン混紡素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10103",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10103_N0247_01.jpg?v=1787807090",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10103",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10103",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。夏のマルチピッチルート用にデザインされたストレッチクライミングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 314g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10449",
+   "brand": "ミレー",
+   "name": "シマイ ライト フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 486,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・軽量で通気性に優れたストレッチフリース素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "軽量で適度な保温性と通気性を備えたフリース生地は伸縮性に優れ、アクティブなカッティングよってクライミングでの快適性を最大限に高めます",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10449",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10449_N0247_01.jpg?v=1787807061",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10449",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10449",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。初夏のクライミングを想定してデザインされたストレッチフーディ。",
+    "pros": [
+     "重量 486g（公式記載）",
+     "保温：軽量で適度な保温性と通気性を備えたフリース生地は伸縮性に優れ、アクティブなカッテ",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10620",
+   "brand": "ミレー",
+   "name": "シャモニー ウォーム パーカー",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 44000,
+   "weight_g": 930,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "メイン：ドライエッジ プレーン 3層 リサイクルポリエステル100% PFCフリー耐久撥水加工",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "中綿：リプリーブ リサイクル中綿 リサイクルポリエステル100%",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10620",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10620_F0194_01.jpg?v=1787806901",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10620",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10620",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。女性らしいシルエットで冬の寒さから身を守る、高機能パーカ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 930g（公式記載）",
+     "保温：中綿：リプリーブ リサイクル中綿 リサイクルポリエステル100%",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv11028",
+   "brand": "ミレー",
+   "name": "シャモニー オリジナル ダウンジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 66000,
+   "weight_g": 598,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "Main Fabrics : SHINY DOWNPROOF // ナイロン100%",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復刻した一着",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11028",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV11028_N0029_01.jpg?v=1787621630",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv11028",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11028",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復刻した一着。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 598g（公式記載）",
+     "保温：1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "価格が6万円台と高め"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv11033",
+   "brand": "ミレー",
+   "name": "シャモニー ジョグパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 470,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "サーマル スペーサーニット 起毛メッシュ コットン66% ポリエステル34%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv11033",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV11033_N0247_01.jpg?v=1787621412",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv11033",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv11033",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。軽量で動きやすい心地よさが魅力のジョガーパンツ。",
+    "pros": [
+     "重量 470g（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv10599",
+   "brand": "ミレー",
+   "name": "シャモニー スウェット クルーネック",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 325,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・100%リサイクルポリエステル",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "・裏起毛で優しい着心地と保温力を提供",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10599",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10599_F4090_01.jpg?v=1787807111",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10599",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10599",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light",
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。リサイクルポリエステルの暖かく快適なスウェット。",
+    "pros": [
+     "重量 325g（公式記載）",
+     "保温：・裏起毛で優しい着心地と保温力を提供"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "light": "重量 325g と公式に記載されています。",
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10315",
+   "brand": "ミレー",
+   "name": "シャモニー スウェット フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 550,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ややゆったりしたシルエットでクラシックなスタイルながらもふるさを感じさせないデザインの、汎用性の高いスウェットパーカ。環境への負荷を意識してリサイクルオーガニックコットン、リサイクルポリエステルを使用しています。ドローコードで調節可能なフードとカンガルーポケットを備えています。(レギュラーフィット)",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10315",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10315_N3170_01.jpg?v=1787807447",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10315",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10315",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ややゆったりしたシルエットでクラシックなスタイルながらもふるさを感じさせないデザインの、汎用性の高いスウェットパーカ。",
+    "pros": [
+     "重量 550g（公式記載）"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10846",
+   "brand": "ミレー",
+   "name": "シャモニー ニット ウォーム ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 18700,
+   "weight_g": 644,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・保温性を高める機能素材を採用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "・保温性を高める機能素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10846",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10846_N4048_01.jpg?v=1787806836",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10846",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10846",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。心地よい暖かさとデザイン性を両立したフリースジャケット。",
+    "pros": [
+     "重量 644g（公式記載）",
+     "保温：・保温性を高める機能素材を採用",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10847",
+   "brand": "ミレー",
+   "name": "シャモニー ニット ウォーム フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 15840,
+   "weight_g": 734,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・保温性を高める機能素材を採用",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "・保温性を高める機能素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10847",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10847_N9904_01.jpg?v=1787806956",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10847",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10847",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。心地よい暖かさとデザイン性を両立したフリースフーディ。",
+    "pros": [
+     "重量 734g（公式記載）",
+     "保温：・保温性を高める機能素材を採用",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10618",
+   "brand": "ミレー",
+   "name": "シャモニー ニット ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 487,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "メイン：ニットフリース ヘザー リサイクルポリエステル65% ポリエステル35% メカニカルストレッチ",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "洗練された杢セーター調の表地と厚手の起毛フリースの裏地とを組み合わせた生地は、十分な保温性と心地よさを備えています",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10618",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10618_N9359_01.jpg?v=1787806914",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10618",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10618",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。暖かくて動きやすく、環境に配慮した素材を使用したフリースジャケット。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 487g（公式記載）",
+     "保温：洗練された杢セーター調の表地と厚手の起毛フリースの裏地とを組み合わせた生地は、十",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10693",
+   "brand": "ミレー",
+   "name": "シャモニー ハイロフト ジャケット",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 14960,
+   "weight_g": 426,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・パイルは2WAYストレッチ、フリースは4WAYストレッチ素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10693",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10693_N7094_01.jpg?v=1787806843",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10693",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10693",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット。",
+    "pros": [
+     "重量 426g（公式記載）",
+     "保温：ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv10621",
+   "brand": "ミレー",
+   "name": "シャモニー ハイロフト フーディ",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 14960,
+   "weight_g": 438,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・パイルは2WAYストレッチ、フリースは4WAYストレッチ素材",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "ソフトな肌触りと高い保温性を兼ね備えたフリース",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10621",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10621_F8014_01.jpg?v=1787806901",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10621",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10621",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "ウェア。ソフトな肌触りと高い保温性を兼ね備えたフリース。",
+    "pros": [
+     "重量 438g（公式記載）",
+     "保温：ソフトな肌触りと高い保温性を兼ね備えたフリース",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "季節に合わせて重ね着をしたい人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
     }
    }
   },
@@ -7084,6 +12191,78 @@
    }
   },
   {
+   "id": "millet-miv10210",
+   "brand": "ミレー",
+   "name": "セネカ ゴアテックス 2L パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 49500,
+   "weight_g": 566,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ゴアテックス ePE 2層 リサイクルポリエステル100% PFCフリー撥水加工",
+   "waterproof": "ゴアテックス",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10210",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10210_N0247_01.jpg?v=1787806923",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10210",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10210",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。冬のアクティビティにも対応する防水透湿性と耐久性を備えたゴアテックスレインパンツ。",
+    "pros": [
+     "防水・撥水：ゴアテックス（公式記載）",
+     "重量 566g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
    "id": "millet-miv10331",
    "brand": "ミレー",
    "name": "セネカ ゴアテックス 3L ジャケット",
@@ -7153,6 +12332,1226 @@
     "concern_reasons": {
      "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
     }
+   }
+  },
+  {
+   "id": "millet-miv10648",
+   "brand": "ミレー",
+   "name": "セネカ ハイブリッド パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 17710,
+   "weight_g": 415,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ストレッチ素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "背面と股下の裏地には通気性を重視したグリッドフリースと、フロントの裏地には保温性に優れたハイロフトフリースを適材適所に配置し、行動時には快適な保温性を提供しつつ、同時に余分な熱を逃してくれます",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10648",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV10648_N0395_01.jpg?v=1787806893",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv10648",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10648",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。低温下で動き続けるハイテンポのアクティビティに対応した秋冬向けアクティブパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 415g（公式記載）",
+     "保温：背面と股下の裏地には通気性を重視したグリッドフリースと、フロントの裏地には保温性",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02167",
+   "brand": "ミレー",
+   "name": "セムノ 2.5L パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 20900,
+   "weight_g": 204,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ドライエッジ 2.5L ナイロン100%",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02167",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02167_N0247_01_0e875e0c-b6d7-45aa-b11e-6339be47b9fd.jpg?v=1787621664",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02167",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02167",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。登山初心者や気軽にアウトドアを楽しむ人のためのベーシックな防水透湿オーバーパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 204g（公式記載）",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02228",
+   "brand": "ミレー",
+   "name": "セムノ ウルトラライト パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 144,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・薄手、軽量性に優れるストレッチナイロン素材（リサイクル)",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02228",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02228_N0247_01.jpg?v=1787806775",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02228",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02228",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。暑さに対する快適性と洗練されたシルエットを兼ね備えた軽量トレッキングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 144g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03304",
+   "brand": "ミレー",
+   "name": "セムノ リップストップ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": 402,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・撥水リップストップ素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": "撥水加工を施したリップストップの表地に起毛メッシュの裏地を合わせた生地は寒さが気になる季節の山歩きに必要な保温性を提供します",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03304",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03304_N4048_01.jpg?v=1787621508",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03304",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03304",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。太めのシルエットと起毛メッシュの裏地を組み合わせた軽量パンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 402g（公式記載）",
+     "保温：撥水加工を施したリップストップの表地に起毛メッシュの裏地を合わせた生地は寒さが気"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv02217",
+   "brand": "ミレー",
+   "name": "セーニュ ストレッチ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 284,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・薄手素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02217",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02217_N6336_01.jpg?v=1787806899",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02217",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02217",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。薄手軽量ながら耐久性に優れたストレッチ素材を使用し、夏の幅広いアウトドアで快適さを提供するベーシックなトレッキングパンツです。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 284g（公式記載）",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv01512",
+   "brand": "ミレー",
+   "name": "ティフォン 50000 ストレッチ トレック パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 22990,
+   "weight_g": 162,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・優れた透湿性とストレッチ性を備えた3層ティフォン 50000防水透湿素材 (20,000mm/50,000g/m 2 /24h)",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv01512",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV01512_N0247_01.jpg?v=1787807586",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv01512",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv01512",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。独自メンブレンDRYEDGE™ TYPHON 50000を採用し、高い防水透湿性を備えた防水トレックパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 162g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv01509",
+   "brand": "ミレー",
+   "name": "ティフォン 50000 ストレッチ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 24035,
+   "weight_g": 194,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・優れた透湿性とストレッチ性を備えた3層ティフォン 50000防水透湿素材 (20,000mm/50,000g/m 2 /24h)",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv01509",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV01509_N0247_01.jpg?v=1787807589",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv01509",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv01509",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。高い防水透湿性を備えた独自メンブレンDRYEDGE™ TYPHON 50000を採用した3層構造のオーバーパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 194g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03154",
+   "brand": "ミレー",
+   "name": "ティフォン ウォーム ネクスト スティープ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 39270,
+   "weight_g": 562,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "waterproof": "耐水圧30,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03154",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03154_N7317_01.jpg?v=1787807543",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03154",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03154",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。ゲレンデスキーからバックカントリーまで幅広く対応した軽量スキーパンツ。",
+    "pros": [
+     "防水・撥水：耐水圧30,000mm（公式記載）",
+     "重量 562g（公式記載）",
+     "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03121",
+   "brand": "ミレー",
+   "name": "ティフォン ウォーム ネクスト ストレッチ トレック パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16940,
+   "weight_g": 352,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "waterproof": "耐水圧30,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03121",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03121_N8282_01.jpg?v=1787807311",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03121",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03121",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。防水透湿性を備え、秋冬のハイキングに最適なトレッキングパンツ。",
+    "pros": [
+     "防水・撥水：耐水圧30,000mm（公式記載）",
+     "重量 352g（公式記載）",
+     "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03120",
+   "brand": "ミレー",
+   "name": "ティフォン ウォーム ネクスト ストレッチ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": 484,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "waterproof": "耐水圧30,000mm",
+   "waterproof_level": "waterproof",
+   "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03120",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03120_N0247_01.jpg?v=1787807307",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03120",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03120",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。厳しい寒さや雪のコンディションで本領を発揮する秋冬向け防水透湿シェルパンツ。",
+    "pros": [
+     "防水・撥水：耐水圧30,000mm（公式記載）",
+     "重量 484g（公式記載）",
+     "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03257",
+   "brand": "ミレー",
+   "name": "ティフォン ウォーム パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 33000,
+   "weight_g": 348,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・動きやすいストレッチ素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": "ダイナミックな下半身の動きにも無理なく追従するとともに、適度なストレッチ性と起毛裏地のほどよい保温性がミックスされ、アクティブな行動中にも快適な着心地を実現しました",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03257",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03257_N0247_01.jpg?v=1787621506",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03257",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03257",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。厳しい寒さでのトレッキングで本領を発揮する秋冬向け防水透湿オーバーパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 348g（公式記載）",
+     "保温：ダイナミックな下半身の動きにも無理なく追従するとともに、適度なストレッチ性と起毛",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03170",
+   "brand": "ミレー",
+   "name": "ティフォン ストレッチ トレックパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 25300,
+   "weight_g": 230,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・高い透湿性（50,000g/m²/24h）と十分な耐水圧（30,000mm）を両立、ソフトでストレッチ性に優れる3層防水透湿素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03170",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03170_N4003_01.jpg?v=1787807145",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03170",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03170",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。風雨に対する高いプロテクションと足上げ時のスムーズさ、洗練されたシルエットを備えた防水透湿トレッキングパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 230g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv03169",
+   "brand": "ミレー",
+   "name": "ティフォン ストレッチパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 26400,
+   "weight_g": 216,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・高い透湿性（50,000g/m²/24h）と十分な耐水圧（30,000mm）を両立、ソフトでストレッチ性に優れる3層防水透湿素材",
+   "waterproof": "防水（公式記載）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03169",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03169_N0247_01.jpg?v=1787807442",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03169",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03169",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。高いプロテクションと快適な着心地を両立した、ミレーのロングセラーレインパンツ。",
+    "pros": [
+     "防水・撥水：防水（公式記載）（公式記載）",
+     "重量 216g（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02164",
+   "brand": "ミレー",
+   "name": "ティフォン ノヴァ パンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 41800,
+   "weight_g": 356,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・軽量でしなやかながら耐久性に優れる3レイヤー素材",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02164",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02164_N0247_01.jpg?v=1787807038",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02164",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02164",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。過酷なアクティビティを想定し、よりタフな状況でのプロテクションとパフォーマンスを追求したオーバーパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 356g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02216",
+   "brand": "ミレー",
+   "name": "デュランス ストレッチパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 16500,
+   "weight_g": 364,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ウエストナイロンベルト仕様",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02216",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02216_N0247_01.jpg?v=1787806774",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02216",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02216",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。ハイキングから縦走、バリエーションルートまでオールラウンドに活躍する定番トレッキングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 364g（公式記載）",
+     "ベンチレーション（換気用の開閉部）の記載あり",
+     "ストレッチ性の記載あり"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {
+     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+    }
+   }
+  },
+  {
+   "id": "millet-miv02195",
+   "brand": "ミレー",
+   "name": "デュランス ネオ ストレッチパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 13200,
+   "weight_g": 386,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "・ウエストナイロンベルト仕様",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv02195",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV02195_N7094_01.jpg?v=1787806777",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv02195",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv02195",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。デュランス ストレッチパンツの高い機能性はそのままに、裾に向かってシェイプされたスリムフィットのデザインを採用したトレッキングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 386g（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
+   }
+  },
+  {
+   "id": "millet-miv01878",
+   "brand": "ミレー",
+   "name": "デュランスIIストレッチパンツ",
+   "category": "pants",
+   "gender": "unisex",
+   "price": 12320,
+   "weight_g": 388,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ダブルウィーブ ストレッチ ナイロン90% ポリウレタン10% 撥水",
+   "waterproof": "撥水加工（公式記載）",
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv01878",
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV01878_N3721_01.jpg?v=1787807527",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv01878",
+    "checked_at": "2026-10-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv01878",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-12",
+    "season": [
+     "spring",
+     "autumn",
+     "summer"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "パンツ。トレッキングからテクニカルマウンテニアリングまで幅広いアクティビティを想定した、定番トレッキングパンツ。",
+    "pros": [
+     "防水・撥水：撥水加工（公式記載）（公式記載）",
+     "重量 388g（公式記載）",
+     "ストレッチ性の記載あり",
+     "コンパクトに収納できると記載"
+    ],
+    "cons": [
+     "不明（公式の記載から読み取れる弱点は限られます）"
+    ],
+    "good_for": [
+     "動きやすいパンツを探す人"
+    ],
+    "not_for": [],
+    "concern_reasons": {}
    }
   },
   {

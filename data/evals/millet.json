@@ -1302,6 +1302,1291 @@
   }
  },
  {
+  "key": "/products/mis01303",
+  "id": "mis01303",
+  "name": "GRX 22",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 890,
+  "weight_note": "公式記載",
+  "capacity_l": 22,
+  "material": "・軽さと耐久性を備えたロビックナイロン素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。安定した背負い心地と実用性に特化した軽量ハイキング用リュックサック。",
+   "pros": [
+    "重量 890g（公式記載）",
+    "容量 22L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0792",
+  "id": "mis0792",
+  "name": "クンブ マウンテン クルーズ 28",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1090,
+  "weight_note": "公式記載",
+  "capacity_l": 28,
+  "material": "・高密度ナイロン素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。山を越え、街を抜け、また山へと入る長い山旅に対応した個性あふれる多彩な機能を備えた多用途型リュックサックです。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,090g（公式記載）",
+    "容量 28L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2230",
+  "id": "mis2230",
+  "name": "ミクスト25+5",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 690,
+  "weight_note": "公式記載",
+  "capacity_l": 5,
+  "material": "ナイロン 100D ROBIC MIX RIPSTOP",
+  "waterproof": "耐水圧1,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽量の撥水生地を使った、日帰登山やアタックザックとして使える小型ザック。",
+   "pros": [
+    "防水・撥水：耐水圧1,000mm（公式記載）",
+    "重量 690g（公式記載）",
+    "容量 5L",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 690g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis01302",
+  "id": "mis01302",
+  "name": "パルマラン 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 880,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "・高耐久のリップストップナイロン素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽いだけでなく、同時に確かな耐久性と快適なフィッティングにもこだわった軽快リュックサック。",
+   "pros": [
+    "重量 880g（公式記載）",
+    "容量 25L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0708",
+  "id": "mis0708",
+  "name": "ランドスケープ 22",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 660,
+  "weight_note": "公式記載",
+  "capacity_l": 22,
+  "material": "0505 NOIR/NOIR :ナイロン 210D DOUBLE R/S SD (68*62) PU",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。ワンデイハイクからライフスタイルまで重宝する小型バックパック。",
+   "pros": [
+    "重量 660g（公式記載）",
+    "容量 22L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 660g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis01307",
+  "id": "mis01307",
+  "name": "クンブ マウンテン クルーズ 22",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 850,
+  "weight_note": "公式記載",
+  "capacity_l": 22,
+  "material": "・高密度ナイロン素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。街歩きからアドベンチャーまでシームレスに楽しむアクティブな旅人のためにデザインされた多用途型リュックサック。",
+   "pros": [
+    "重量 850g（公式記載）",
+    "容量 22L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01309",
+  "id": "mis01309",
+  "name": "EXP NX 24",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 730,
+  "weight_note": "公式記載",
+  "capacity_l": 24,
+  "material": "・耐久性の高いコーデュラ®ナイロン",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。アウトドアで培った快適性と通勤・通学など日常での使いやすさにこだわった、アーバンユースの多機能リュックサック。",
+   "pros": [
+    "重量 730g（公式記載）",
+    "容量 24L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 730g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis0758",
+  "id": "mis0758",
+  "name": "ウェルキン 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 810,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "200D ナイロン100% / 耐水1,500 撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。日帰りのハイキングやトレッキングにピッタリな、25Lサイズの快適バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 810g（公式記載）",
+    "容量 25L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2333",
+  "id": "mis2333",
+  "name": "トリロジー スカイ 15+",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 500,
+  "weight_note": "公式記載",
+  "capacity_l": 15,
+  "material": "・高耐水のダイニーマ®素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。シンプルな外観に最先端の軽さと耐久性・快適性を詰め込んだ、あらゆる過酷な状況で最高のパフォーマンスが求められるトリロジーシリーズのバックパック。",
+   "pros": [
+    "重量 500g（公式記載）",
+    "容量 15L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 500g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis01334",
+  "id": "mis01334",
+  "name": "セムノ 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 770,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "100D ナイロン95%/ UHMWPE5% × 420D ナイロン100%",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。デイハイクから週末旅行、さらには普段使いまでマルチに活躍するデイパック。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 770g（公式記載）",
+    "容量 25L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 770g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis01305",
+  "id": "mis01305",
+  "name": "ウェルキン ジップ 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 800,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "200D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。はじめての日帰りのハイキングにピッタリなサイズと機能性を備えたリュックサック。",
+   "pros": [
+    "重量 800g（公式記載）",
+    "容量 25L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01337",
+  "id": "mis01337",
+  "name": "スイウ 27",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 800,
+  "weight_note": "公式記載",
+  "capacity_l": 27,
+  "material": "・高い撥水性を備えた丈夫なリップストップナイロン素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。旅行や日帰りのハイキングから普段使いにもちょうどいいサイズの軽量・多機能・高耐水バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 800g（公式記載）",
+    "容量 27L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2483",
+  "id": "mis2483",
+  "name": "シャモニー 25+5",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 850,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "・耐久性のある、TPUコーティング 420Dリサイクルナイロン",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。優れた防水性と耐久性に、日常や旅行に便利な収納を多数備えたバックパック。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 850g（公式記載）",
+    "容量 25L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2363",
+  "id": "mis2363",
+  "name": "ピエラメント 25",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 580,
+  "weight_note": "公式記載",
+  "capacity_l": 25,
+  "material": "ブラック ダイニーマ® 300D ナイロン100% x ダイアモンドロビック ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。少ない荷物でのスピーディなスキーツーリングを想定した超軽量かつ高機能なリュックサックです。",
+   "pros": [
+    "重量 580g（公式記載）",
+    "容量 25L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 580g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2502",
+  "id": "mis2502",
+  "name": "ハイク 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 610,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "・軽量性と強度を兼ね備えたリサイクル素材のリップストップポリエステル",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。半日から日帰りのハイキングや、旅行やデイリーユースにもちょうどいい容量で、必要な耐久性と機能性を備えた軽量バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 610g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 610g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2441",
+  "id": "mis2441",
+  "name": "トリロジー ジョラス 20+5",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 710,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "N200D MAXI リップストップ TPU ナイロン100% PFCフリー耐久撥水加工",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。最小限の重量に最大限の機能性を実現した画期的な超軽量アルパインリュックサック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 710g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 710g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2379",
+  "id": "mis2379",
+  "name": "ツアー 22 W",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 750,
+  "weight_note": "公式記載",
+  "capacity_l": 22,
+  "material": "・PFCフリーの撥水加工を施した100％リサイクル素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。日帰りスキーツーリングに最適な22Lサイズ、女性の体型にフィットしやすいデザインのスノーパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 750g（公式記載）",
+    "容量 22L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 750g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2439",
+  "id": "mis2439",
+  "name": "M-ホワイト 22",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 890,
+  "weight_note": "公式記載",
+  "capacity_l": 22,
+  "material": "2D ダーリントンメッシュ 180g リサイクル ポリエステル100% x N66 330D ミニリップストップ ナイロン100% PFCフリー耐久撥水加工",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。シンプルで軽量なデザインながらライトなスキーツーリングに最適なサイズと機能性を備えたリュックサック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 890g（公式記載）",
+    "容量 22L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2364",
+  "id": "mis2364",
+  "name": "ピエラメント ボックス",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 550,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "ブラック ダイニーマ® 70D ナイロン100% x ダイアモンドロビック 100D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。取り外し可能なダイレクトアクセスクランポンコンパートメントを搭載した、ISMF公認の超軽量かつ高機能なスキーマウンテニアリング向けリュックサックです。",
+   "pros": [
+    "重量 550g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 550g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis10019",
+  "id": "mis10019",
+  "name": "ピエラメント 20",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 470,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "N66-330D ミニ リップストップナイロン x 100Dリップストップナイロン",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。山岳スキー競技を想定した、ISMF公認レース対応の軽快なスノーパック。",
+   "pros": [
+    "重量 470g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 470g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis10021",
+  "id": "mis10021",
+  "name": "ピエラメント 28",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 820,
+  "weight_note": "公式記載",
+  "capacity_l": 28,
+  "material": "N66-330D ミニ リップストップナイロン x 100Dリップストップナイロン",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。山岳スキー競技を想定した、ISMF公認レース対応の軽快なスノーパック。",
+   "pros": [
+    "重量 820g（公式記載）",
+    "容量 28L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis10042",
+  "id": "mis10042",
+  "name": "ピエラメント プロ",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 360,
+  "weight_note": "公式記載",
+  "capacity_l": 20,
+  "material": "ロビック 100/200D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。山岳スキー競技で最高のパフォーマンスを発揮するためにデザインされた、ISMF（国際スキー登山連盟）認定の超軽量でミニマルなスノーパック。",
+   "pros": [
+    "重量 360g（公式記載）",
+    "容量 20L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 360g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/mis2199",
+  "id": "mis2199",
+  "name": "ハナン 40",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1240,
+  "weight_note": "公式記載",
+  "capacity_l": 40,
+  "material": "ナイロン 300D TWIN CHIP ROBIC / ナイロン 210D DYNAJIN HT",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。機内持ち込みもしやすい、すっきりとしたデザインと取り外し可能なウェストベルトを備えたトレッキング向けバックパック。",
+   "pros": [
+    "重量 1,240g（公式記載）",
+    "容量 40L",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0754",
+  "id": "mis0754",
+  "name": "サースフェー NX 40+5",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1560,
+  "weight_note": "公式記載",
+  "capacity_l": 40,
+  "material": "コーデュラ®オックス 210D ナイロン100% / 耐水1,500",
+  "waterproof": "耐水圧1,500mm以上",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。ハイキングから本格縦走まで幅広い用途に対応するミレーのロングセラーバックパックがリニューアル。",
+   "pros": [
+    "防水・撥水：耐水圧1,500mm以上（公式記載）",
+    "重量 1,560g（公式記載）",
+    "容量 40L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2420",
+  "id": "mis2420",
+  "name": "ウビック 40",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1230,
+  "weight_note": "公式記載",
+  "capacity_l": 40,
+  "material": "ソリューション ダイ 210D ナイロン97% PU3%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。1~2日のトレッキングからスキーツアーまで、幅広いアクティビティに対応するリュックサック。",
+   "pros": [
+    "重量 1,230g（公式記載）",
+    "容量 40L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis0629",
+  "id": "mis0629",
+  "name": "クーラ 40",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1220,
+  "weight_note": "公式記載",
+  "capacity_l": 40,
+  "material": "ナイロン 500D CORDURA®",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。旅行用パックとしての使いやすさと、アウトドアにも耐えうる快適性を両立した多用途バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,220g（公式記載）",
+    "容量 40L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2423",
+  "id": "mis2423",
+  "name": "ウビック 40 W",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1200,
+  "weight_note": "公式記載",
+  "capacity_l": 40,
+  "material": "ソリューション ダイ 210D ナイロン97% PU3%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。1~2日のトレッキングからスキーツアーまで、幅広いアクティビティに対応するリュックサック。",
+   "pros": [
+    "重量 1,200g（公式記載）",
+    "容量 40L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis01329",
+  "id": "mis01329",
+  "name": "パルマラン 45",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1240,
+  "weight_note": "公式記載",
+  "capacity_l": 45,
+  "material": "・高耐久のリップストップナイロン素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "tent",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。軽さに加えて確かな耐久性と快適なフィッティング、実用的な収納にもこだわった軽快バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,240g（公式記載）",
+    "容量 45L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/mis2426",
+  "id": "mis2426",
+  "name": "プトレイ 45+10",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 1530,
+  "weight_note": "公式記載",
+  "capacity_l": 45,
+  "material": "ツイン チップ ロビック 300D ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "tent",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。一年を通してバリエーションルートを含むなどのテクニカルな登山を楽しむためにデザインされた中型リュックサック。",
+   "pros": [
+    "重量 1,530g（公式記載）",
+    "容量 45L",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
   "key": "/products/miv10538",
   "id": "miv10538",
   "name": "セネカ シールド フーディ",
@@ -2872,6 +4157,53 @@
   }
  },
  {
+  "key": "/products/mis0725",
+  "id": "mis0725",
+  "name": "EXP 17",
+  "gender": "unisex",
+  "category": "pack",
+  "weight_g": 610,
+  "weight_note": "公式記載",
+  "capacity_l": 17,
+  "material": "・耐久性の高いCORDURA®ナイロン",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。通勤やお出かけといった日々の生活に便利な収納や機能を、街に溶け込む洗練されたデザインに詰め込んだ多機能バックパック。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 610g（公式記載）",
+    "容量 17L",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "荷物を整理して背負いたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 610g と公式に記載されています。"
+   }
+  }
+ },
+ {
   "key": "/products/miv01961",
   "id": "miv01961",
   "name": "UVタイツ",
@@ -3586,6 +4918,154 @@
   }
  },
  {
+  "key": "/products/miv11105",
+  "id": "miv11105",
+  "name": "イーボル ライト 700 ベスト",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 269,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダックダウン 700FP x リプリーブ リサイクルポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。軽量でコンパクトに収納可能な軽量ダウンベスト。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 269g（公式記載）",
+    "保温：東レ ライト リップストップ リサイクルポリエステル100% x Kドライ ダッ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 269g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10221",
+  "id": "miv10221",
+  "name": "イーボル ライト ダウン 700 ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 400,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。肌寒い季節にはライトなアウターに、厳しい寒さでは防寒用ミッドレイヤーにもなる優れた汎用性を備えた軽量ダウンジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 400g（公式記載）",
+    "保温：東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10222",
+  "id": "miv10222",
+  "name": "イーボル ライト ダウン 700 ベスト",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 286,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダウンRDS 700フィルパワー ダウン90% フェザー10% 撥水加工 x リプリーブ® リサイクル中綿 ポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。軽量でコンパクトに収納可能な軽量ダウンベスト。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 286g（公式記載）",
+    "保温：東レ® ライトリップストップ リサイクルナイロン100% x Kドライ ダックダ",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 286g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
   "key": "/products/miv03150",
   "id": "miv03150",
   "name": "ウォーム ストレッチ スキニー II パンツ",
@@ -3627,6 +5107,53 @@
    ],
    "not_for": [],
    "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv02173",
+  "id": "miv02173",
+  "name": "ウビック ウール フーディ ロングスリーブ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 204,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・リサイクルポリエステル使用",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。快適な着心地を提供するフード付きベースレイヤー。",
+   "pros": [
+    "重量 204g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 204g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
   }
  },
  {
@@ -3896,6 +5423,57 @@
   }
  },
  {
+  "key": "/products/miv10448",
+  "id": "miv10448",
+  "name": "ウビック ライトグリッド ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 284,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・運動時に快適な暖かさのポーラテック®ミニグリッド フリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケット",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケット。",
+   "pros": [
+    "重量 284g（公式記載）",
+    "保温：適度な保温性と快適性で季節やアクティビティを問わず便利に使える軽量フリースジャケ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 284g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
   "key": "/products/miv03181",
   "id": "miv03181",
   "name": "ウルトラライト ファスト ショートパンツ",
@@ -3939,6 +5517,54 @@
    "not_for": [],
    "concern_reasons": {
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03180",
+  "id": "miv03180",
+  "name": "ウルトラライト ファスト ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 68,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・10Dの薄手、軽量ナイロン素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。フィールドでの冷たい風から身体を守り、体温の低下を防ぐ超軽量のウィンドシェルジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 68g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 68g と公式に記載されています。"
    }
   }
  },
@@ -4125,6 +5751,153 @@
   }
  },
  {
+  "key": "/products/miv10778",
+  "id": "miv10778",
+  "name": "カメット XCS ライト フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 310,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "X.C.S. ナイロンストレッチ リサイクルナイロン88% ポリウレタン12% PFCフリー撥水加工 2WAYストレッチ",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。風やちょっとした雨を防ぎながらも動きやすい、行動着に最適なソフトシェルフーディ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 310g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 310g と公式に記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10964",
+  "id": "miv10964",
+  "name": "カメット グリッド ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 398,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・運動時に快適な暖かさのポーラテック®パワーグリッド素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット。",
+   "pros": [
+    "重量 398g（公式記載）",
+    "保温：保温性と通気性をバランスよく兼ね備えた耐久性のあるフリースジャケット"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 398g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10965",
+  "id": "miv10965",
+  "name": "カメット グリッド フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 374,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・運動時に快適な暖かさのポーラテック® パワーグリッド素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ。",
+   "pros": [
+    "重量 374g（公式記載）",
+    "保温：保温性と通気性をバランスよく兼ね備えた軽量で耐久性のあるフリースフーディ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 374g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
   "key": "/products/miv9332",
   "id": "miv9332",
   "name": "カメット ゴアテックス ジャケット",
@@ -4172,6 +5945,100 @@
   }
  },
  {
+  "key": "/products/miv10558",
+  "id": "miv10558",
+  "name": "カメット ダウン フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 580,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ 90/10 RDS 700FP ダックダウン PFCフリー耐久撥水加工 x リップストップ ウルトラライト ダウンプルーフ ナイロン100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ 90/10 RDS 700FP ダックダウン PFCフリー耐久撥水加工 x リップストップ ウルトラライト ダウンプルーフ ナイロン100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。冬山登山などの厳しい寒さに対応するためにデザインされた、軽量コンパクトで非常に暖かいダウンジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 580g（公式記載）",
+    "保温：ULT ダウンプルーフ ナイロン100% PFCフリー耐久撥水加工 x Kドライ"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10562",
+  "id": "miv10562",
+  "name": "カメット パワー プロ ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 420,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ポーラテック パワーストレッチ™ プロフリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ポーラテック パワーストレッチ™ プロ ファブリックは、過酷な環境での高い保温性と耐摩耗性を提供します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。抜群のストレッチ性や着心地の良さをはじめ、ハードな山岳アクティビティに必要な要素を数多く兼ね備えた、高機能テクニカルフリース。",
+   "pros": [
+    "重量 420g（公式記載）",
+    "保温：ポーラテック パワーストレッチ™ プロ ファブリックは、過酷な環境での高い保温性",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
   "key": "/products/miv10720",
   "id": "miv10720",
   "name": "カメット パワーパンツ",
@@ -4212,6 +6079,53 @@
    ],
    "not_for": [],
    "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10979",
+  "id": "miv10979",
+  "name": "カメット パワープロ ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 420,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ポーラテック® パワーストレッチ™ プロ素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ポーラテック® パワーストレッチ™ プロ は、過酷な環境での高い保温性と耐摩耗性を提供します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。抜群のストレッチ性や着心地の良さをはじめ、ハードな山岳アクティビティに必要な要素を数多く兼ね備えた高機能テクニカルフリース。",
+   "pros": [
+    "重量 420g（公式記載）",
+    "保温：ポーラテック® パワーストレッチ™ プロ は、過酷な環境での高い保温性と耐摩耗性",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
   }
  },
  {
@@ -4257,6 +6171,53 @@
   }
  },
  {
+  "key": "/products/miv10229",
+  "id": "miv10229",
+  "name": "カメット プロ ダウン フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 530,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 × Kドライ ダックダウン RDS 700フィルパワー ダウン90% フェザー10% PFCフリー撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 × Kドライ ダックダウン RDS 700フィルパワー ダウン90% フェザー10% PFCフリー撥水",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。クセのないベーシックなフォルムに、K DRY™撥水ダウンをたっぷりと封入した、マウンテンスポーツから寒冷地への旅行まで、幅広く使えるダウンジャケットです。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 530g（公式記載）",
+    "保温：パーテックス® カンタム ウルトラライト ナイロン100% PFCフリー撥水 ×"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
   "key": "/products/miv02231",
   "id": "miv02231",
   "name": "カロス パンツ",
@@ -4296,6 +6257,339 @@
    ],
    "not_for": [],
    "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv02230",
+  "id": "miv02230",
+  "name": "カロス フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 704,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・コットンとポリエステルの混紡素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステルとコットン混紡素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。リラックスしたシーンで重宝する、着心地の良さと快適な暖かさを備えたフード付きスウェットパーカー。",
+   "pros": [
+    "重量 704g（公式記載）",
+    "保温：フレンチテリーの優しい肌触りと保温性、伸縮性を備えたクイックドライのポリエステル"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02135",
+  "id": "miv02135",
+  "name": "クローゼット パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 362,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ストレッチ性に優れた二重織素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。寒い季節のトレッキングや登山での動きやすさにとことんこだわったトレッキングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 362g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv11042",
+  "id": "miv11042",
+  "name": "グランモンテ 3L ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 532,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ドライエッジ™素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ゲレンデからバックカントリーまで幅広くカバーする、軽量で優れた透湿性を備えたスキージャケット。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 532g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が7万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10598",
+  "id": "miv10598",
+  "name": "グランモンテ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 824,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ドライエッジ グリッド 2L ナイロン93% ポリエステル7% PFCフリー耐久撥水加工 x ドライエッジ MAT 2L リサイクルポリエステル50% ポリエステル50% x PADDING 60G PFCフリー耐久撥水加工",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "暖かな中綿によって適度な保温性を備えつつ、内股のベンチレーションが温度調節にも対応",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。高い耐久性と防水透湿性を備えた2レイヤーのドライエッジ素材を採用し、計算された立体裁断によって、激しい動作にも追従する動きやすさを実現しました。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 824g（公式記載）",
+    "保温：暖かな中綿によって適度な保温性を備えつつ、内股のベンチレーションが温度調節にも対",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10597",
+  "id": "miv10597",
+  "name": "グランモンテ ピーク ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 1005,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ドライエッジ MAT 2L リサイクルポリエステル50% ポリエステル50% x ドライエッジ グリッド 2L ナイロン93% ポリエステル7% x リプリーブ リサイクル中綿100G/80G リサイクル ポリエステル100% PFCフリー耐久撥水加工",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "裏地のリサイクル中綿と背面のストレッチメッシュパネルによって十分な保温性と通気性を両立しました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。2レイヤーの防水透湿ドライエッジ 素材は激しい動きにもストレスのないフィット感を提供。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 1,005g（公式記載）",
+    "保温：裏地のリサイクル中綿と背面のストレッチメッシュパネルによって十分な保温性と通気性",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10595",
+  "id": "miv10595",
+  "name": "グランモンテ プロ ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 1064,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・4WAYストレッチ素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ドライエッジ 4WAY MAT 2L リサイクルナイロン85% ポリウレタン15% x プリマロフト® シルバー100g リサイクルポリエステル100% x ソフトストレッチ ライニング ポリエステル100% PFCフリー耐久撥水加工",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ハードな斜面をアグレッシブに滑り降りるスキーヤーのためにデザインされた、高い機動性と快適性を追求したミレースキージャケットのフラッグシップモデル。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 1,064g（公式記載）",
+    "保温：ドライエッジ 4WAY MAT 2L リサイクルナイロン85% ポリウレタン15",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10596j",
+  "id": "miv10596j",
+  "name": "グランモンテ プロ パンツ JP",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 552,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・4WAYストレッチ素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "高いプロテクションを備えたドライエッジ防水透湿素材と中綿の組み合わせによって、耐久性と保温性を両立させました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。多彩な斜面をアグレッシブに楽しむスキーヤーのためにデザインされた、機動性と快適性に優れたスキーパンツのフラッグシップモデル。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 552g（公式記載）",
+    "保温：高いプロテクションを備えたドライエッジ防水透湿素材と中綿の組み合わせによって、耐",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
   }
  },
  {
@@ -4339,6 +6633,54 @@
    ],
    "good_for": [
     "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10204",
+  "id": "miv10204",
+  "name": "コズミック ウォーム ゴアテックス パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 606,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ。ハイシーズンに最適な保温性だけでなく、動きやすさを考慮した立体裁断や大きなサイドジップベンチレーションなど、パウダー好きスキーヤーの要求を細部まで意識してデザインされています。",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": "信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用したスキーパンツ。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 606g（公式記載）",
+    "保温：信頼性の高い防水透湿性と耐久性を備えたゴアテックスと軽量プリマロフト中綿を採用し",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
    ],
    "not_for": [],
    "concern_reasons": {
@@ -4395,6 +6737,54 @@
   }
  },
  {
+  "key": "/products/miv10201",
+  "id": "miv10201",
+  "name": "コズミック ゴアテックス 2L パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 624,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ゴアテックス® 2層 ePE ライト リサイクルポリエステル100% PFCフリー撥水 x オクスフォード ダル レインフォースメント リサイクルポリエステル100%",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": "中綿を使用しないことで、寒いときにはインナーを穿き、暖かい春スキーでは1枚で穿くなど状況に合わせて調整できます",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。環境に配慮したPFCフリーのゴアテックスを採用した、2レイヤーのゴアテックススキーパンツ。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 624g（公式記載）",
+    "保温：中綿を使用しないことで、寒いときにはインナーを穿き、暖かい春スキーでは1枚で穿く",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
   "key": "/products/miv9894",
   "id": "miv9894",
   "name": "コズミック ゴアテックス 3L ジャケット",
@@ -4439,6 +6829,923 @@
    "not_for": [],
    "concern_reasons": {
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv9895",
+  "id": "miv9895",
+  "name": "コズミック ゴアテックス 3L パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 574,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・表地には環境に配慮したリサイクルポリエステル100%を使用",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。優れた防水性と透湿性、耐久性を兼ね備え、環境への影響を軽減した新しいGORE-TEXメンブレンを採用した防水透湿スキーパンツ。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 574g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03133",
+  "id": "miv03133",
+  "name": "コーデュラ ウォーム ストレッチ 3/4 パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 282,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・耐久性の高いコーデュラナイロンを編み込んだ裏起毛フリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "・ソフトでストレッチ性があり、裏起毛による優れた保温性で高い快適性を実現",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。積雪期のマウンテンアクティビティやスキーでの着用を想定した、3/4丈のインナーパンツ。",
+   "pros": [
+    "重量 282g（公式記載）",
+    "保温：・ソフトでストレッチ性があり、裏起毛による優れた保温性で高い快適性を実現",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv03132",
+  "id": "miv03132",
+  "name": "コーデュラ ウォーム ストレッチ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 340,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・耐久性の高いコーデュラナイロンを編み込んだ裏起毛フリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "コーデュラナイロンを編み込んだことでアウターとしても着用可能な耐久性の高さを備え、裏起毛仕様によって保温性、滑らかな穿き心地も備えています",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。動きやすさと速乾性を備えたストレッチフリース生地のパンツ。",
+   "pros": [
+    "重量 340g（公式記載）",
+    "保温：コーデュラナイロンを編み込んだことでアウターとしても着用可能な耐久性の高さを備え",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10758",
+  "id": "miv10758",
+  "name": "シマイ コラボ スウェット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 508,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。アーティストとのコラボレーションによって生まれたデザインをあしらったスウェットフーディ。",
+   "pros": [
+    "重量 508g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10425",
+  "id": "miv10425",
+  "name": "シマイ デニムパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 512,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "コットン68% ポリエステル30% ポリウレタン2% ウィッキング",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。着心地と耐久性、伸縮性を備えたストレッチデニム素材でカジュアルさと運動性を両立させたクライミングパンツ。",
+   "pros": [
+    "重量 512g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10259",
+  "id": "miv10259",
+  "name": "シマイ フリース ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 541,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・リサイクルポリエステルを使用した起毛フリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性をバランスよく兼ね備え、寒い季節でのクライミングに対応します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。フィールドから日常までシーンを選ばず活躍する、心地よい肌触りと暖かさを備えたフリースジャケット。",
+   "pros": [
+    "重量 541g（公式記載）",
+    "保温：軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10258",
+  "id": "miv10258",
+  "name": "シマイ フリース フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 570,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・リサイクルポリエステルを使用した起毛フリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性をバランスよく兼ね備え、寒い季節でのクライミングに対応します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。フィールドから日常までシーンを選ばず活躍する、心地よい肌触りと暖かさを備えたフード付きフリースジャケット。",
+   "pros": [
+    "重量 570g（公式記載）",
+    "保温：軽量でしなやかなリサイクル素材で作られた起毛フリースは保温性と伸縮性、通気速乾性",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10828",
+  "id": "miv10828",
+  "name": "シマイ ポリ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 282,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・耐久性と速乾性に優れ、4WAYストレッチのナイロン混紡素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ミレーのアスリートと共同開発した、夏のマルチピッチルートでの快適さを提供するストレッチクライミングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 282g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10103",
+  "id": "miv10103",
+  "name": "シマイ ポリパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 314,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・耐久性と速乾性に優れ、4WAYストレッチのナイロン混紡素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。夏のマルチピッチルート用にデザインされたストレッチクライミングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 314g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10449",
+  "id": "miv10449",
+  "name": "シマイ ライト フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 486,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・軽量で通気性に優れたストレッチフリース素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "軽量で適度な保温性と通気性を備えたフリース生地は伸縮性に優れ、アクティブなカッティングよってクライミングでの快適性を最大限に高めます",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。初夏のクライミングを想定してデザインされたストレッチフーディ。",
+   "pros": [
+    "重量 486g（公式記載）",
+    "保温：軽量で適度な保温性と通気性を備えたフリース生地は伸縮性に優れ、アクティブなカッテ",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10620",
+  "id": "miv10620",
+  "name": "シャモニー ウォーム パーカー",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 930,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "メイン：ドライエッジ プレーン 3層 リサイクルポリエステル100% PFCフリー耐久撥水加工",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "中綿：リプリーブ リサイクル中綿 リサイクルポリエステル100%",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。女性らしいシルエットで冬の寒さから身を守る、高機能パーカ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 930g（公式記載）",
+    "保温：中綿：リプリーブ リサイクル中綿 リサイクルポリエステル100%",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv11028",
+  "id": "miv11028",
+  "name": "シャモニー オリジナル ダウンジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 598,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "Main Fabrics : SHINY DOWNPROOF // ナイロン100%",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復刻した一着",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復刻した一着。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 598g（公式記載）",
+    "保温：1980年代にラインホルト・メスナーが着用した象徴的なダウンジャケットを忠実に復",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv11033",
+  "id": "miv11033",
+  "name": "シャモニー ジョグパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 470,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "サーマル スペーサーニット 起毛メッシュ コットン66% ポリエステル34%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。軽量で動きやすい心地よさが魅力のジョガーパンツ。",
+   "pros": [
+    "重量 470g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv10599",
+  "id": "miv10599",
+  "name": "シャモニー スウェット クルーネック",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 325,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・100%リサイクルポリエステル",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "・裏起毛で優しい着心地と保温力を提供",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light",
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。リサイクルポリエステルの暖かく快適なスウェット。",
+   "pros": [
+    "重量 325g（公式記載）",
+    "保温：・裏起毛で優しい着心地と保温力を提供"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "light": "重量 325g と公式に記載されています。",
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10315",
+  "id": "miv10315",
+  "name": "シャモニー スウェット フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 550,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ややゆったりしたシルエットでクラシックなスタイルながらもふるさを感じさせないデザインの、汎用性の高いスウェットパーカ。環境への負荷を意識してリサイクルオーガニックコットン、リサイクルポリエステルを使用しています。ドローコードで調節可能なフードとカンガルーポケットを備えています。(レギュラーフィット)",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ややゆったりしたシルエットでクラシックなスタイルながらもふるさを感じさせないデザインの、汎用性の高いスウェットパーカ。",
+   "pros": [
+    "重量 550g（公式記載）"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10846",
+  "id": "miv10846",
+  "name": "シャモニー ニット ウォーム ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 644,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・保温性を高める機能素材を採用",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "・保温性を高める機能素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。心地よい暖かさとデザイン性を両立したフリースジャケット。",
+   "pros": [
+    "重量 644g（公式記載）",
+    "保温：・保温性を高める機能素材を採用",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10847",
+  "id": "miv10847",
+  "name": "シャモニー ニット ウォーム フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 734,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・保温性を高める機能素材を採用",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "・保温性を高める機能素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。心地よい暖かさとデザイン性を両立したフリースフーディ。",
+   "pros": [
+    "重量 734g（公式記載）",
+    "保温：・保温性を高める機能素材を採用",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10618",
+  "id": "miv10618",
+  "name": "シャモニー ニット ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 487,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "メイン：ニットフリース ヘザー リサイクルポリエステル65% ポリエステル35% メカニカルストレッチ",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "洗練された杢セーター調の表地と厚手の起毛フリースの裏地とを組み合わせた生地は、十分な保温性と心地よさを備えています",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。暖かくて動きやすく、環境に配慮した素材を使用したフリースジャケット。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 487g（公式記載）",
+    "保温：洗練された杢セーター調の表地と厚手の起毛フリースの裏地とを組み合わせた生地は、十",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10693",
+  "id": "miv10693",
+  "name": "シャモニー ハイロフト ジャケット",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 426,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・パイルは2WAYストレッチ、フリースは4WAYストレッチ素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット。",
+   "pros": [
+    "重量 426g（公式記載）",
+    "保温：ソフトな肌触りと高い保温性を兼ね備えたフリースジャケット",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv10621",
+  "id": "miv10621",
+  "name": "シャモニー ハイロフト フーディ",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 438,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・パイルは2WAYストレッチ、フリースは4WAYストレッチ素材",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "ソフトな肌触りと高い保温性を兼ね備えたフリース",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ソフトな肌触りと高い保温性を兼ね備えたフリース。",
+   "pros": [
+    "重量 438g（公式記載）",
+    "保温：ソフトな肌触りと高い保温性を兼ね備えたフリース",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
    }
   }
  },
@@ -4582,6 +7889,53 @@
   }
  },
  {
+  "key": "/products/miv10210",
+  "id": "miv10210",
+  "name": "セネカ ゴアテックス 2L パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 566,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ゴアテックス ePE 2層 リサイクルポリエステル100% PFCフリー撥水加工",
+  "waterproof": "ゴアテックス",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。冬のアクティビティにも対応する防水透湿性と耐久性を備えたゴアテックスレインパンツ。",
+   "pros": [
+    "防水・撥水：ゴアテックス（公式記載）",
+    "重量 566g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
   "key": "/products/miv10331",
   "id": "miv10331",
   "name": "セネカ ゴアテックス 3L ジャケット",
@@ -4626,6 +7980,801 @@
    "concern_reasons": {
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
+  }
+ },
+ {
+  "key": "/products/miv10648",
+  "id": "miv10648",
+  "name": "セネカ ハイブリッド パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 415,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ストレッチ素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "背面と股下の裏地には通気性を重視したグリッドフリースと、フロントの裏地には保温性に優れたハイロフトフリースを適材適所に配置し、行動時には快適な保温性を提供しつつ、同時に余分な熱を逃してくれます",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。低温下で動き続けるハイテンポのアクティビティに対応した秋冬向けアクティブパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 415g（公式記載）",
+    "保温：背面と股下の裏地には通気性を重視したグリッドフリースと、フロントの裏地には保温性",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02167",
+  "id": "miv02167",
+  "name": "セムノ 2.5L パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 204,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ドライエッジ 2.5L ナイロン100%",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。登山初心者や気軽にアウトドアを楽しむ人のためのベーシックな防水透湿オーバーパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 204g（公式記載）",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02228",
+  "id": "miv02228",
+  "name": "セムノ ウルトラライト パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 144,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・薄手、軽量性に優れるストレッチナイロン素材（リサイクル)",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。暑さに対する快適性と洗練されたシルエットを兼ね備えた軽量トレッキングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 144g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03304",
+  "id": "miv03304",
+  "name": "セムノ リップストップ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 402,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・撥水リップストップ素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "撥水加工を施したリップストップの表地に起毛メッシュの裏地を合わせた生地は寒さが気になる季節の山歩きに必要な保温性を提供します",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。太めのシルエットと起毛メッシュの裏地を組み合わせた軽量パンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 402g（公式記載）",
+    "保温：撥水加工を施したリップストップの表地に起毛メッシュの裏地を合わせた生地は寒さが気"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv02217",
+  "id": "miv02217",
+  "name": "セーニュ ストレッチ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 284,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・薄手素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。薄手軽量ながら耐久性に優れたストレッチ素材を使用し、夏の幅広いアウトドアで快適さを提供するベーシックなトレッキングパンツです。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 284g（公式記載）",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv01512",
+  "id": "miv01512",
+  "name": "ティフォン 50000 ストレッチ トレック パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 162,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・優れた透湿性とストレッチ性を備えた3層ティフォン 50000防水透湿素材 (20,000mm/50,000g/m 2 /24h)",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。独自メンブレンDRYEDGE™ TYPHON 50000を採用し、高い防水透湿性を備えた防水トレックパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 162g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv01509",
+  "id": "miv01509",
+  "name": "ティフォン 50000 ストレッチ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 194,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・優れた透湿性とストレッチ性を備えた3層ティフォン 50000防水透湿素材 (20,000mm/50,000g/m 2 /24h)",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。高い防水透湿性を備えた独自メンブレンDRYEDGE™ TYPHON 50000を採用した3層構造のオーバーパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 194g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03154",
+  "id": "miv03154",
+  "name": "ティフォン ウォーム ネクスト スティープ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 562,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "waterproof": "耐水圧30,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ゲレンデスキーからバックカントリーまで幅広く対応した軽量スキーパンツ。",
+   "pros": [
+    "防水・撥水：耐水圧30,000mm（公式記載）",
+    "重量 562g（公式記載）",
+    "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03121",
+  "id": "miv03121",
+  "name": "ティフォン ウォーム ネクスト ストレッチ トレック パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 352,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "waterproof": "耐水圧30,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。防水透湿性を備え、秋冬のハイキングに最適なトレッキングパンツ。",
+   "pros": [
+    "防水・撥水：耐水圧30,000mm（公式記載）",
+    "重量 352g（公式記載）",
+    "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03120",
+  "id": "miv03120",
+  "name": "ティフォン ウォーム ネクスト ストレッチ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 484,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "waterproof": "耐水圧30,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を高める裏起毛仕様とストレッチで快適な 「ティフォンウォームNX」 素材を採用",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。厳しい寒さや雪のコンディションで本領を発揮する秋冬向け防水透湿シェルパンツ。",
+   "pros": [
+    "防水・撥水：耐水圧30,000mm（公式記載）",
+    "重量 484g（公式記載）",
+    "保温：・高い耐水圧(30,000mm)と優れた透湿性(40,000g)を両立、保温性を",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03257",
+  "id": "miv03257",
+  "name": "ティフォン ウォーム パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 348,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・動きやすいストレッチ素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダイナミックな下半身の動きにも無理なく追従するとともに、適度なストレッチ性と起毛裏地のほどよい保温性がミックスされ、アクティブな行動中にも快適な着心地を実現しました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。厳しい寒さでのトレッキングで本領を発揮する秋冬向け防水透湿オーバーパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 348g（公式記載）",
+    "保温：ダイナミックな下半身の動きにも無理なく追従するとともに、適度なストレッチ性と起毛",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03170",
+  "id": "miv03170",
+  "name": "ティフォン ストレッチ トレックパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 230,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・高い透湿性（50,000g/m²/24h）と十分な耐水圧（30,000mm）を両立、ソフトでストレッチ性に優れる3層防水透湿素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。風雨に対する高いプロテクションと足上げ時のスムーズさ、洗練されたシルエットを備えた防水透湿トレッキングパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 230g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv03169",
+  "id": "miv03169",
+  "name": "ティフォン ストレッチパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 216,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・高い透湿性（50,000g/m²/24h）と十分な耐水圧（30,000mm）を両立、ソフトでストレッチ性に優れる3層防水透湿素材",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。高いプロテクションと快適な着心地を両立した、ミレーのロングセラーレインパンツ。",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "重量 216g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02164",
+  "id": "miv02164",
+  "name": "ティフォン ノヴァ パンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 356,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・軽量でしなやかながら耐久性に優れる3レイヤー素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。過酷なアクティビティを想定し、よりタフな状況でのプロテクションとパフォーマンスを追求したオーバーパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 356g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02216",
+  "id": "miv02216",
+  "name": "デュランス ストレッチパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 364,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ウエストナイロンベルト仕様",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。ハイキングから縦走、バリエーションルートまでオールラウンドに活躍する定番トレッキングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 364g（公式記載）",
+    "ベンチレーション（換気用の開閉部）の記載あり",
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/miv02195",
+  "id": "miv02195",
+  "name": "デュランス ネオ ストレッチパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 386,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "・ウエストナイロンベルト仕様",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。デュランス ストレッチパンツの高い機能性はそのままに、裾に向かってシェイプされたスリムフィットのデザインを採用したトレッキングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 386g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
+  }
+ },
+ {
+  "key": "/products/miv01878",
+  "id": "miv01878",
+  "name": "デュランスIIストレッチパンツ",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": 388,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "ダブルウィーブ ストレッチ ナイロン90% ポリウレタン10% 撥水",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。トレッキングからテクニカルマウンテニアリングまで幅広いアクティビティを想定した、定番トレッキングパンツ。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 388g（公式記載）",
+    "ストレッチ性の記載あり",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {}
   }
  },
  {
