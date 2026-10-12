@@ -67,25 +67,83 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (top3.length) document.getElementById("cat-rank-note").textContent = `直近30日のリンク経由の購入数${r.updated ? "（" + r.updated.slice(0, 10) + " 時点）" : ""}`;
   } catch { rankEl.innerHTML = '<li class="empty">集計中です。</li>'; }
 
-  // アイテム
+  // ブランドから選ぶ → 商品（価格帯・並び順で絞り込み）
   const itemsEl = document.getElementById("cat-items");
   let products = [];
   try { products = (await (await fetch("data/products.json", { cache: "no-cache" })).json()).products; } catch {}
+  const recoOrder = {};
+  try { const rec = await (await fetch("data/recommendations.json", { cache: "no-cache" })).json(); Object.values(rec.categories || {}).flat().forEach((x, i) => { if (!(x.id in recoOrder)) recoOrder[x.id] = i; }); } catch {}
   const mine = k === "gtx" ? products.filter(isGtx) : cat.product ? products.filter((p) => p.category === cat.product) : [];
-  const groups = k === "gtx"
-    ? [["ジャケット", "jacket"], ["パンツ", "pants"], ["靴", "boots"]].map(([label, kd]) => ({ label, items: mine.filter((p) => gtxKind(p) === kd) })).filter((g) => g.items.length)
-    : [{ label: "", items: mine }];
-  const row = (p) => `<a class="res-item" href="#" data-product="${esc(p.id)}"><div class="res-row">${imgTag(p)}<span class="res-text">
-      <b>${esc(p.brand)} ${esc(p.name)}</b><span class="spec">${esc(p.spec)}</span>${p.price ? `<span class="mono" style="font-size:13px">¥${p.price.toLocaleString()}（税込）</span>` : ""}</span></div></a>`;
-  const PAGE = 20;
-  const shown = groups.map(() => PAGE);
-  const draw = () => {
-    itemsEl.innerHTML = groups.map((g, gi) => (g.label ? `<h3 class="grp-title">${g.label}（${g.items.length}件）</h3>` : "") +
-      g.items.slice(0, shown[gi]).map(row).join("") +
-      (g.items.length > shown[gi] ? `<button class="btn more-items" data-g="${gi}" type="button" style="margin-top: 12px; width: 100%; background: var(--surface); color: var(--ink); border: 1.5px solid var(--ink)">もっと見る（残り${g.items.length - shown[gi]}件）</button>` : "")).join("");
-    itemsEl.querySelectorAll(".more-items").forEach((b) => b.addEventListener("click", () => { shown[+b.dataset.g] += PAGE; draw(); }));
+  const params = new URLSearchParams(location.search);
+  const PRICES = [["all", "すべての価格"], ["0-10000", "〜1万円"], ["10000-30000", "1〜3万円"], ["30000-60000", "3〜6万円"], ["60000-", "6万円〜"]];
+  const st = { brand: params.get("b") || "", price: params.get("p") || "all", sort: params.get("s") || "reco" };
+  const brandCount = {};
+  mine.forEach((p) => { brandCount[p.brand] = (brandCount[p.brand] || 0) + 1; });
+  const brands = Object.entries(brandCount).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ja"));
+  if (st.brand && !brandCount[st.brand]) st.brand = "";
+  const brandsEl = document.getElementById("cat-brands");
+  const sortSel = document.getElementById("cat-sort");
+  sortSel.value = st.sort;
+  const save = () => {
+    const q = new URLSearchParams({ c: k });
+    if (st.brand) q.set("b", st.brand);
+    if (st.price !== "all") q.set("p", st.price);
+    if (st.sort !== "reco") q.set("s", st.sort);
+    history.replaceState(null, "", "category.html?" + q.toString());
   };
-  if (mine.length) draw(); else itemsEl.innerHTML = '<div class="empty">このカテゴリのアイテムは準備中です。</div>';
+  const inRange = (p, range) => {
+    if (range === "all") return true;
+    if (!p.price) return false;
+    const [lo, hi] = range.split("-").map((v) => (v ? Number(v) : null));
+    return (lo == null || p.price >= lo) && (hi == null || p.price < hi);
+  };
+  const sorter = {
+    reco: (a, b) => (recoOrder[a.id] ?? 1e9) - (recoOrder[b.id] ?? 1e9),
+    "price-asc": (a, b) => (a.price || 1e12) - (b.price || 1e12),
+    "price-desc": (a, b) => (b.price || -1) - (a.price || -1),
+    light: (a, b) => (a.weight_g || 1e12) - (b.weight_g || 1e12),
+  };
+  const PAGE = 20;
+  let shownN = PAGE;
+  const drawBrands = () => {
+    brandsEl.innerHTML = [`<button type="button" class="brand-tile${st.brand ? "" : " is-on"}" data-b=""><b>すべて</b><small>${mine.length}件</small></button>`]
+      .concat(brands.map(([b, n]) => `<button type="button" class="brand-tile${st.brand === b ? " is-on" : ""}" data-b="${esc(b)}"><b>${esc(b)}</b><small>${n}件</small></button>`)).join("");
+    brandsEl.querySelectorAll(".brand-tile").forEach((t) => t.addEventListener("click", () => {
+      st.brand = t.dataset.b; st.price = "all"; shownN = PAGE; drawBrands(); drawPrice(); draw(); save();
+      document.getElementById("cat-items-sec").scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
+  };
+  const priceEl = document.getElementById("cat-price");
+  const drawPrice = () => {
+    const base = mine.filter((p) => !st.brand || p.brand === st.brand);
+    priceEl.innerHTML = PRICES.map(([v, l]) => {
+      const n = base.filter((p) => inRange(p, v)).length;
+      return `<button type="button" class="chip" aria-pressed="${st.price === v}" data-p="${v}"${n || v === "all" ? "" : " disabled"}>${l}${v === "all" ? "" : `（${n}）`}</button>`;
+    }).join("");
+    priceEl.querySelectorAll(".chip").forEach((c) => c.addEventListener("click", () => { st.price = c.dataset.p; shownN = PAGE; drawPrice(); draw(); save(); }));
+  };
+  sortSel.addEventListener("change", () => { st.sort = sortSel.value; shownN = PAGE; draw(); save(); });
+  const row = (p) => `<a class="res-item" href="#" data-product="${esc(p.id)}"><div class="res-row">${imgTag(p)}<span class="res-text">
+      <span class="eyebrow">${esc(p.brand)}</span><b>${esc(p.name)}</b><span class="spec">${esc(p.spec)}</span>${p.price ? `<span class="price-tag" style="font-size:18px">¥${p.price.toLocaleString()}<small>（税込）</small></span>` : '<span class="sub">価格：不明</span>'}</span></div></a>`;
+  const draw = () => {
+    const list = mine.filter((p) => (!st.brand || p.brand === st.brand) && inRange(p, st.price)).sort(sorter[st.sort] || sorter.reco);
+    document.getElementById("cat-items-title").textContent = st.brand ? `${st.brand}の${cat.label}` : `${cat.label}の商品`;
+    const cnt = document.getElementById("cat-items-count");
+    cnt.innerHTML = `${list.length}件${st.brand ? '　<button type="button" class="brand-change">ブランドを変える</button>' : ""}`;
+    const chg = cnt.querySelector(".brand-change");
+    if (chg) chg.addEventListener("click", () => document.getElementById("cat-brand-sec").scrollIntoView({ behavior: "smooth", block: "start" }));
+    const groups = k === "gtx"
+      ? [["ジャケット", "jacket"], ["パンツ", "pants"], ["靴", "boots"]].map(([label, kd]) => ({ label, items: list.filter((p) => gtxKind(p) === kd) })).filter((g) => g.items.length)
+      : [{ label: "", items: list }];
+    let left = shownN;
+    itemsEl.innerHTML = list.length ? groups.map((g) => { const take = g.items.slice(0, Math.max(0, left)); left -= take.length; return (g.label && take.length ? `<h3 class="grp-title">${g.label}（${g.items.length}件）</h3>` : "") + take.map(row).join(""); }).join("") +
+      (list.length > shownN ? `<button class="btn more-items" type="button" style="margin-top: 12px; width: 100%; background: var(--surface); color: var(--ink); border: 1.5px solid var(--ink)">もっと見る（残り${list.length - shownN}件）</button>` : "")
+      : '<div class="empty">条件に合う商品がありません。価格を「すべての価格」に戻してください。</div>';
+    const more = itemsEl.querySelector(".more-items");
+    if (more) more.addEventListener("click", () => { shownN += PAGE; draw(); });
+  };
+  if (mine.length) { drawBrands(); drawPrice(); draw(); }
+  else { document.getElementById("cat-brand-sec").hidden = true; document.getElementById("cat-filter").hidden = true; itemsEl.innerHTML = '<div class="empty">このカテゴリのアイテムは準備中です。</div>'; }
 
   // このカテゴリーの記事（運営記事・今週の7選）
   const artEl = document.getElementById("cat-articles");
