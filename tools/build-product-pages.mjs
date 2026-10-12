@@ -14,7 +14,7 @@ const CONCERN = { knee: "膝への負担", cold: "寒さ", sweat: "蒸れ", ligh
 const masters = fs.readdirSync("data/master").filter((f) => f.endsWith(".json")).flatMap((f) => JSON.parse(fs.readFileSync(`data/master/${f}`, "utf8")).products);
 const dateOf = (p) => ((p.offers || []).find((o) => o.checked_at) || {}).checked_at || (p.sources && p.sources[0] && p.sources[0].checked_at) || "不明";
 const host = (u) => { try { return new URL(u).hostname; } catch { return u; } };
-const li = (a) => (a && a.length ? `<ul class="article-list">${a.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : "");
+const li = (a, v) => (a && a.length ? `<ul class="article-list${v ? " article-list--" + v : ""}">${a.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : "");
 const row = (k, v) => (v === null || v === undefined || v === "" ? "" : `<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`);
 const unknown = (v) => (v === null || v === undefined || v === "" ? "不明（公式ページに記載なし）" : v);
 
@@ -49,6 +49,7 @@ ${c.top}
     <div class="crumb"><a href="../index.html">ホーム</a> ／ <a href="../products.html">商品一覧</a> ／ ${esc(CAT_LABEL[p.category] || p.category)}</div>
     <div class="eyebrow">${esc(p.brand)}</div>
     <h1 class="article-title">${esc(p.name)}</h1>
+    ${p.price ? `<div class="price-big">¥${p.price.toLocaleString()}<small>（税込）</small></div>` : ""}
     <div class="meta"><span class="mono">${checked} 確認</span><span class="pr-badge">PR</span></div>
     <p class="body-text">${esc(e.summary || "")}</p>
   </div>
@@ -68,7 +69,7 @@ ${c.top}
 
   <section>
     <h2 class="article-h2">主な特徴</h2>
-    ${li(e.pros && e.pros.length ? e.pros.slice(0, 3) : [])}
+    ${li(e.pros && e.pros.length ? e.pros.slice(0, 3) : [], "pro")}
     <p class="sub">用途・季節の目安：${esc([(e.season || []).map((s) => SEASON[s]).filter(Boolean).join("・") || "通年", (e.uses || []).map((u) => USES[u]).filter(Boolean).join("・")].filter(Boolean).join("／"))}${cs.length ? `　気になりやすい点への対応：${esc(cs.join("・"))}` : ""}</p>
   </section>
 
@@ -88,11 +89,11 @@ ${c.top}
   <section>
     <h2 class="article-h2">ヤマフィットの評価</h2>
     <p class="sub" style="margin-bottom: 8px">上の公式記載をもとにヤマフィットが整理した評価です。メディアやユーザーの評価・レビューは、まだ収集していないため掲載していません。</p>
-    <h3 class="article-h3">メリット</h3>${li(e.pros)}
-    <h3 class="article-h3">デメリット</h3>${li(e.cons)}
+    <h3 class="article-h3">メリット</h3>${li(e.pros, "pro")}
+    <h3 class="article-h3">デメリット</h3>${li(e.cons, "con")}
     <h3 class="article-h3">向いている人</h3>${li(e.good_for && e.good_for.length ? e.good_for : ["不明（公式の記載から判断できません）"])}
     <h3 class="article-h3">向いていない人</h3>${li(e.not_for && e.not_for.length ? e.not_for : ["不明（公式の記載から判断できません）"])}
-    <h3 class="article-h3">購入前の注意点</h3>${li(notes)}
+    <h3 class="article-h3">購入前の注意点</h3>${li(notes, "con")}
   </section>
 
   <section>

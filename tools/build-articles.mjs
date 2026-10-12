@@ -7,10 +7,12 @@ fs.mkdirSync("articles", { recursive: true });
 const bySlug = Object.fromEntries(ARTICLES.map((a) => [a.slug, a]));
 for (const a of ARTICLES) {
   const c = chrome("../");
-  const body = a.sections.map((s) => `<section>
+  // 見出しで見た目を変える：メリット＝✓、デメリット・注意＝！、まとめ＝囲み
+  const listCls = (h) => /デメリット|注意|弱点/.test(h) ? "article-list article-list--con" : /メリット|特徴|ポイント|良い/.test(h) ? "article-list article-list--pro" : "article-list";
+  const body = a.sections.map((s) => `<section${/まとめ/.test(s.h) ? ' class="sec-summary"' : ""}>
   <h2 class="article-h2">${esc(s.h)}</h2>
   ${(s.p || []).map((t) => `<p class="body-text">${esc(t)}</p>`).join("\n  ")}
-  ${s.ul ? `<ul class="article-list">${s.ul.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+  ${s.ul ? `<ul class="${listCls(s.h)}">${s.ul.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
   ${s.table ? `<div class="table-wrap"><table class="table"><thead><tr>${s.table.head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${s.table.rows.map((r) => `<tr>${r.map((d) => `<td>${esc(d)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
 </section>`).join("\n");
   const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: a.title, datePublished: a.date, dateModified: a.date, author: { "@type": "Organization", name: AUTHOR }, publisher: { "@type": "Organization", name: "ヤマフィット" } })}</script>\n`;
@@ -31,6 +33,7 @@ ${c.top}
   </div>
   ${hero}
   <p class="body-text">${esc(a.lead)}</p>
+  ${a.week && a.products && a.products.length ? `<div class="top-pick"><span class="eyebrow">この記事で紹介する商品</span><div class="prod-list" data-products="${a.products[0]}"></div></div>` : ""}
   ${body}
   <section>
     <h2 class="article-h2">この記事で紹介した商品</h2>

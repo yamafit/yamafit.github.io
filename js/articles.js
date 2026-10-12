@@ -10,12 +10,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const byId = Object.fromEntries(products.map((p) => [p.id, p]));
     lists.forEach((el) => {
       el.innerHTML = el.dataset.products.split(",").map((id) => byId[id]).filter(Boolean).map((p) => {
-        const meta = [p.price ? `¥${p.price.toLocaleString()}（税込）` : "価格：不明", p.weight_g ? `重量 ${p.weight_g.toLocaleString()}g${p.weight_note ? "（" + p.weight_note + "）" : ""}` : "重量：不明", p.capacity_l ? `容量 ${p.capacity_l}L` : ""].filter(Boolean).join("　／　");
+        const meta = [p.weight_g ? `重量 ${p.weight_g.toLocaleString()}g` : "", p.capacity_l ? `容量 ${p.capacity_l}L` : ""].filter(Boolean).join("・");
         const checked = ((p.offers || []).find((o) => o.checked_at) || {}).checked_at;
         return `<a class="prod-card" href="#" data-product="${escA(p.id)}">
           <span class="eyebrow">${escA(p.brand)}</span><b>${escA(p.name)}</b>
-          <span class="spec">${escA(p.spec)}</span><span class="prod-meta">${escA(meta)}</span>
-          <span class="prod-cta">購入先を見る →${checked ? `<small>公式の記載を確認：${escA(checked)}</small>` : ""}</span></a>`;
+          <span class="spec">${escA(p.spec)}</span>
+          <span class="price-row">${p.price ? `<span class="price-tag">¥${p.price.toLocaleString()}<small>（税込）</small></span>` : '<span class="sub">価格：不明</span>'}${meta ? `<span class="spec-mini">${escA(meta)}</span>` : ""}</span>
+          <span class="cta-pill">購入先を見る</span>${checked ? `<span class="prod-cta"><small>価格は公式の記載（${escA(checked)} 確認）</small></span>` : ""}</a>`;
       }).join("") || '<p class="sub">商品情報を読み込めませんでした。</p>';
     });
   }
@@ -34,10 +35,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         const byDay = Object.fromEntries(auto.filter((a) => a.week === week).map((a) => [a.day, a]));
         const t = Object.values(byDay).find((a) => a.date === today) || Object.values(byDay).sort((a, b) => b.date.localeCompare(a.date))[0];
         document.getElementById("weekly-home-note").textContent = `${md(week)}〜${md(addDays(week, 6))}　季節と天気に合わせて、1日1つずつ紹介します。`;
-        if (t) document.getElementById("weekly-home-today").innerHTML = `<a class="feat" href="${SITE_BASE}articles/${escA(t.slug)}.html">${t.image ? `<img src="${SITE_BASE}${escA(t.image)}" alt="" loading="lazy" style="width: 100%; max-width: 420px; height: auto; border-radius: 6px; align-self: center">` : ""}<span class="eyebrow">${t.date === today ? "今日のトピック" : "最新のトピック"}｜${DAYS[t.day]}曜 ${escA(SLOT[t.day])}</span><b>${escA(t.title)}</b><p>${escA(t.desc || "")}</p><span class="mono" style="font-size:13px">記事を読む →</span></a>`;
+        if (t) document.getElementById("weekly-home-today").innerHTML = `<a class="feat" href="${SITE_BASE}articles/${escA(t.slug)}.html">${t.image ? `<img src="${SITE_BASE}${escA(t.image)}" alt="" loading="lazy" style="width: 100%; max-width: 420px; height: auto; border-radius: 6px; align-self: center">` : ""}<span class="feat-top">${t.date === today ? '<span class="badge-today">TODAY</span>' : '<span class="badge-slot">最新</span>'}<span class="badge-slot">${DAYS[t.day]}曜｜${escA(SLOT[t.day])}</span></span><b>${escA(t.title)}</b><p>${escA(t.desc || "")}</p><span class="cta-pill">記事を読む</span></a>`;
         document.getElementById("weekly-home-list").innerHTML = DAYS.map((d, i) => {
           const a = byDay[i], date = addDays(week, i);
-          return a ? `<a class="news-item" href="${SITE_BASE}articles/${escA(a.slug)}.html"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title">${escA(a.title)}</span></a>`
+          return a ? `<a class="news-item${date === today ? " is-today" : ""}" href="${SITE_BASE}articles/${escA(a.slug)}.html"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title">${escA(a.title)}</span></a>`
             : `<div class="news-item" aria-disabled="true"><span class="news-meta"><span class="news-brand">${d}曜 ${escA(SLOT[i])}</span><span>${md(date)}</span></span><span class="news-title" style="color: var(--ink-sub)">${date < today ? "準備中" : "公開予定"}</span></div>`;
         }).join("");
         wk.hidden = false;

@@ -406,3 +406,95 @@ img.photo { object-fit: cover; }
 .feat b { font-size: 15px; line-height: 1.5; } .feat p { margin: 0; font-size: 13px; color: var(--ink-sub); line-height: 1.7; }
 .rank-basis { font-size: 12px; color: var(--ink-sub); line-height: 1.7; margin-top: 8px; }
 .sheet-detail{display:block;margin:12px 0 0;font-size:14px;font-weight:700;color:var(--green)}
+
+/* =====================================================================
+   メリハリ（2026-10）：色は「緑＝ブランド」「オレンジ＝買う・今日」の2色だけ。
+   白いカード＋軽い影で浮かせ、値段と購入ボタンを一番目立たせる。
+   ===================================================================== */
+:root {
+  --bg: #F6F7F3;
+  --surface: #FFFFFF;
+  --buy: #E8590C;          /* 購入ボタン・今日のバッジ */
+  --buy-deep: #C2410C;
+  --buy-tint: #FFF1E6;
+  --price: #D9480F;
+  --shadow: 0 1px 2px rgba(20, 35, 28, .06), 0 4px 14px rgba(20, 35, 28, .07);
+  --shadow-hover: 0 2px 4px rgba(20, 35, 28, .08), 0 10px 24px rgba(20, 35, 28, .12);
+}
+.logo b { color: var(--green-deep); }
+
+/* 見出し：左に緑の太線 */
+.h-section { font-size: 20px; padding-left: 12px; border-left: 5px solid var(--green); line-height: 1.35; }
+.article-h2 { border-top: 0; padding: 2px 0 2px 12px; border-left: 5px solid var(--green); font-size: 21px; line-height: 1.4; margin: 8px 0 14px; }
+.doc h2 { border-top: 0; padding: 2px 0 2px 12px; border-left: 5px solid var(--green); }
+.article-title { font-size: 26px; line-height: 1.4; letter-spacing: .01em; }
+
+/* カード：白＋影＋角丸、押せるものは少し浮く */
+.feat, .prod-card, .product, .item-results {
+  background: var(--surface); border: 1px solid #E3E7E1; border-radius: 14px; box-shadow: var(--shadow);
+}
+.feat, .prod-card { padding: 16px; gap: 8px; transition: transform .15s ease, box-shadow .15s ease; }
+.feat:hover, .prod-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); border-color: #E3E7E1; color: var(--ink); }
+.feat b, .prod-card b { font-size: 17px; line-height: 1.45; font-weight: 900; }
+.feat img { border-radius: 10px !important; }
+.eyebrow { letter-spacing: .06em; }
+
+/* 値段：大きく、太く */
+.price-tag { font-family: var(--font); font-size: 22px; font-weight: 900; color: var(--price); letter-spacing: .01em; line-height: 1.2; }
+.price-tag small { font-size: 12px; font-weight: 700; color: var(--ink-sub); margin-left: 2px; }
+.price-big { font-size: 28px; font-weight: 900; color: var(--price); line-height: 1.2; }
+.price-big small { font-size: 13px; font-weight: 700; color: var(--ink-sub); margin-left: 4px; }
+
+/* 購入ボタン（ピル型・オレンジ） */
+.cta-pill {
+  margin-top: 6px; min-height: 48px; border-radius: 999px; background: var(--buy); color: #fff;
+  font-size: 15px; font-weight: 900; letter-spacing: .04em; display: flex; align-items: center; justify-content: center; gap: 6px;
+  box-shadow: 0 3px 0 var(--buy-deep);
+}
+.cta-pill--ghost { background: transparent; color: var(--green); border: 2px solid var(--green); box-shadow: none; }
+.feat:hover .cta-pill, .prod-card:hover .cta-pill { filter: brightness(1.05); }
+.prod-card .prod-cta { color: var(--ink-sub); font-weight: 400; }
+.price-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.price-row .spec-mini { font-size: 12px; color: var(--ink-sub); }
+
+/* 購入先ボタン：楽天（アフィリエイト）は塗り、公式は線 */
+.shop-btn { border-radius: 12px; min-height: 54px; border-width: 2px; }
+.shop-btn[data-shop="rakuten"]:not(.is-out) { background: var(--buy); border-color: var(--buy); color: #fff; box-shadow: 0 3px 0 var(--buy-deep); }
+.shop-btn[data-shop="rakuten"]:not(.is-out):hover { background: var(--buy-deep); color: #fff; }
+.shop-btn[data-shop="rakuten"]:not(.is-out) small { color: #FFE8D6; }
+.shop-btn[data-shop="official"] { border-color: var(--green); color: var(--green); }
+
+/* 今日のバッジ・曜日チップ */
+.badge-today { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; background: var(--buy); color: #fff; font-size: 12px; font-weight: 900; letter-spacing: .08em; }
+.badge-slot { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; background: var(--green-tint); color: var(--green); font-size: 12px; font-weight: 700; }
+.feat-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#weekly-home-list .news-item { padding: 12px 0; }
+#weekly-home-list .news-brand { display: inline-flex; align-items: center; height: 22px; padding: 0 9px; border-radius: 999px; background: var(--green); color: #fff; font-size: 11px; letter-spacing: .04em; }
+#weekly-home-list .news-item[aria-disabled="true"] .news-brand { background: var(--line); color: var(--ink-sub); }
+#weekly-home-list .news-item.is-today { margin: 4px -12px; padding: 12px; border-radius: 12px; background: var(--buy-tint); border-bottom: 0; }
+#weekly-home-list .news-item.is-today .news-brand { background: var(--buy); }
+
+/* メリット・デメリット：マークで見分ける */
+.article-list--pro, .article-list--con, .doc ul.article-list--pro, .doc ul.article-list--con { list-style: none; padding-left: 0; gap: 10px; }
+.article-list--pro li, .article-list--con li { position: relative; padding: 12px 14px 12px 44px; border-radius: 12px; line-height: 1.7; font-size: 15px; }
+.article-list--pro li { background: var(--green-tint); }
+.article-list--con li { background: #FFF4E5; }
+.article-list--pro li::before, .article-list--con li::before {
+  position: absolute; left: 12px; top: 13px; width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; color: #fff;
+}
+.article-list--pro li::before { content: "✓"; background: var(--green); }
+.article-list--con li::before { content: "!"; background: #E67700; }
+
+/* まとめ：囲みで締める */
+.sec-summary { padding: 18px 18px 20px; border-radius: 14px; background: var(--green-deep); color: var(--on-dark); }
+.sec-summary .article-h2 { color: #fff; border-left-color: var(--buy); }
+.sec-summary .body-text { color: #E3ECE5; }
+
+/* 記事の冒頭の「この記事の商品」 */
+.top-pick { display: flex; flex-direction: column; gap: 8px; }
+.top-pick > .eyebrow { color: var(--buy-deep); }
+
+/* 表 */
+.table { border-radius: 10px; overflow: hidden; }
+.table th { color: var(--green-deep); }
