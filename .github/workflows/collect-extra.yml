@@ -1,0 +1,26 @@
+name: 追加の取り込み（公式ページの記載を data/raw へ）
+on:
+  push:
+    branches: [main]
+    paths: ["tools/collect-extra.sh"]
+  workflow_dispatch: {}
+concurrency:
+  group: collect-extra
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: sh tools/collect-extra.sh
+      - name: 変更があれば保存
+        run: |
+          git config user.name "yamafit-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/raw
+          git diff --cached --quiet || (git commit -m "公式ページの記載を取り込み（追加分）" && git pull --rebase --autostash && git push)
