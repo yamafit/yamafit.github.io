@@ -2,3 +2,6 @@
 out/
 node_modules/
 .env
+
+# macOSの複製ファイル
+* [0-9].*
