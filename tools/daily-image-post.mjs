@@ -114,7 +114,7 @@ function ngWords(p, texts) {
   return [...new Set(ng)];
 }
 function factsFromArticle(a, p) {
-  const SKIP = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ/;
+  const SKIP = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ|導入|はじめに|概要|結論/;
   const feats = (a.sections || []).filter((x) => !SKIP.test(x.h)).map((x) => ({ h: x.h.replace(/^特徴とメリット$/, ""), b: firstSentence((x.p || [])[0]) })).filter((x) => x.h);
   const merit = ((a.sections || []).find((x) => /メリット|特徴/.test(x.h) && !/デメリット/.test(x.h) && x.ul) || {}).ul || [];
   merit.forEach((m) => { if (feats.length < 6) feats.push({ h: String(m).split(/[、。：]/)[0].slice(0, 26), b: clip(clean(m), 60) }); });
