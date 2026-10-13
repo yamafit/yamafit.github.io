@@ -6,6 +6,7 @@
 //   node tools/daily-image-post.mjs instagram   その写真と記事の内容・URLで Instagram に投稿し、data/ig-posts.json に記録
 //   node tools/daily-image-post.mjs noon-prep   昼の投稿用に、今週の7選とは別の商品を1つ選び、参照シート・プロンプト・投稿文を out/noon に作る（data/noon-picks.json に記録）
 //   node tools/daily-image-post.mjs noon-instagram  昼の写真（data/product-images.json に登録済み）で Instagram に投稿
+//   node tools/daily-image-post.mjs reel        今日の朝（無ければ昼）の写真からリール動画を作って投稿（.github/workflows/reel-post.yml、19:00）
 //
 // 写真の作り方（プロンプト工房と同じ）:
 //   1. 記事の商品の公式画像を使う。記事を書いたAIが公式ページで調べた ref_images（main＝商品全体、detail＝細部3枚まで）を優先し、
@@ -274,6 +275,31 @@ export function hashtags(a, p) {
   return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...POPULAR, ...(SLOT_POP[slot] || []), "#ヤマフィット"])].filter((t) => t.length > 1).slice(0, 15);
 }
 
+// 1行目：検索されやすい言葉（カテゴリー＋ブランド＋商品名）。PR表記も先頭に入れる
+const BRANDS = readJSON("data/brands.json", []);
+export function brandIG(p) {
+  const b = (Array.isArray(BRANDS) ? BRANDS : BRANDS.brands || []).find((x) => x.name === p.brand || (x.aliases || []).includes(p.brand));
+  return (b && b.instagram) || "";
+}
+export function catKeyword(p) {
+  const n = p.name || "";
+  if (p.category === "boots") return (p.waterproof ? "防水" : "") + (/トレラン|トレイルラン/.test(n) ? "トレイルランシューズ" : "登山靴");
+  if (p.category === "pack") return "登山ザック" + (p.capacity_l && !/\d{2}/.test(n) ? ` ${p.capacity_l}L` : "");
+  if (p.category === "rain") return "レインウェア";
+  if (p.category === "pants") return "登山パンツ";
+  if (p.category === "tent") return "テント";
+  if (p.category === "poles") return "トレッキングポール";
+  if (/ダウン/.test(n)) return "ダウンジャケット";
+  if (/フリース/.test(n)) return "フリース";
+  if (/ソフトシェル/.test(n)) return "ソフトシェル";
+  return "登山ウェア";
+}
+export function keywordLine(p) {
+  const g = { mens: "（メンズ）", womens: "（レディース）" }[p.gender] || "";
+  const name = p.name.replace(/\s*(Men's|Women's|メンズ|レディース|ウィメンズ)\s*/gi, " ").trim();
+  return `【PR】${catKeyword(p)}${g}｜${p.brand} ${name}`;
+}
+
 export function buildCaption(a, p) {
   // ポイント：「メリット・特徴」のリスト（デメリットは除く）。無ければ、特徴を書いた見出しを使う
   const SKIP_H = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ/;
@@ -281,7 +307,7 @@ export function buildCaption(a, p) {
     || (a.sections || []).filter((s) => !SKIP_H.test(s.h)).map((s) => s.h);
   const articleUrl = `${SITE_URL}articles/${a.slug}.html`;
   return [
-    "#PR",
+    keywordLine(p),
     a.title,
     "",
     a.desc,
@@ -324,27 +350,91 @@ async function instagram() {
   fs.writeFileSync(`out/daily/${article.slug}-caption.txt`, caption);
   log(`キャプション（${caption.length}字）を作りました`);
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
-  const r = await publishIG(imageUrl, caption);
+  const r = await publishIG(imageUrl, caption, product);
   posts[article.slug] = { ...r, posted_at: new Date().toISOString(), image: article.image, app_id: article.app_id || "" };
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
   log("Instagram に投稿しました:", r.permalink || r.media_id);
 }
-async function publishIG(imageUrl, caption) {
+async function publishIG(imageUrl, caption, p) {
   if (!process.env.INSTAGRAM_ACCESS_TOKEN) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です（GitHub の Settings → Secrets に登録してください）");
   await waitLive(imageUrl);
   const me = await ig("/me?fields=user_id,username", {});
   const uid = me.user_id || me.id;
-  const c = await ig(`/${uid}/media`, { image_url: imageUrl, caption }, "POST");
-  for (let i = 0; i < 30; i++) {
-    const s = await ig(`/${c.id}?fields=status_code`, {});
-    if (s.status_code === "FINISHED") break;
-    if (s.status_code === "ERROR" || s.status_code === "EXPIRED") throw new Error("Instagram が画像を受け付けませんでした: " + s.status_code);
-    await new Promise((r) => setTimeout(r, 5000));
+  const tag = p ? brandIG(p) : "";
+  let c, tagged = "";
+  if (tag) { // ブランド公式をタグ付け（画像の上の方）。受け付けられなければタグなしで投稿
+    try { c = await ig(`/${uid}/media`, { image_url: imageUrl, caption, user_tags: JSON.stringify([{ username: tag, x: 0.5, y: 0.06 }]) }, "POST"); tagged = tag; }
+    catch (e) { log("ブランドのタグ付けができませんでした（タグなしで投稿します）:", e.message); }
   }
+  if (!c) c = await ig(`/${uid}/media`, { image_url: imageUrl, caption }, "POST");
+  await waitContainer(c.id, 30, 5000);
   const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
-  return { media_id: pub.id, permalink, account: me.username || "" };
+  return { media_id: pub.id, permalink, account: me.username || "", tagged };
+}
+async function waitContainer(id, tries, ms) {
+  for (let i = 0; i < tries; i++) {
+    const s = await ig(`/${id}?fields=status_code,status`, {});
+    if (s.status_code === "FINISHED") return;
+    if (s.status_code === "ERROR" || s.status_code === "EXPIRED") throw new Error("Instagram が受け付けませんでした: " + s.status_code + " " + (s.status || ""));
+    await new Promise((r) => setTimeout(r, ms));
+  }
+  throw new Error("Instagram の処理が終わりませんでした（時間切れ）");
+}
+
+// ---------- リール（毎日19:00。その日の朝の商品の解説画像を動かした縦動画） ----------
+async function publishReel(file, caption, p) {
+  const token = process.env.INSTAGRAM_ACCESS_TOKEN;
+  if (!token) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
+  const me = await ig("/me?fields=user_id,username", {});
+  const uid = me.user_id || me.id;
+  const buf = fs.readFileSync(file);
+  const tag = p ? brandIG(p) : "";
+  const base = { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true" };
+  let c, tagged = "";
+  if (tag) { try { c = await ig(`/${uid}/media`, { ...base, user_tags: JSON.stringify([{ username: tag }]) }, "POST"); tagged = tag; } catch (e) { log("ブランドのタグ付けができませんでした:", e.message); } }
+  if (!c) c = await ig(`/${uid}/media`, base, "POST");
+  const up = await fetch(c.uri || `https://rupload.facebook.com/ig-api-upload/${process.env.IG_API_VERSION || "v23.0"}/${c.id}`, { method: "POST", headers: { Authorization: `OAuth ${token}`, offset: "0", file_size: String(buf.length) }, body: buf });
+  const uj = await up.json().catch(() => ({}));
+  if (!up.ok || uj.success === false || uj.error) throw new Error("動画のアップロードに失敗しました: " + JSON.stringify(uj).slice(0, 300));
+  log("動画をアップロードしました。Instagram の処理を待ちます");
+  await waitContainer(c.id, 60, 10000);
+  if (process.env.REEL_NO_PUBLISH === "1") return { media_id: "", permalink: "", account: me.username, tagged, test: c.id };
+  const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+  let permalink = "";
+  try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
+  return { media_id: pub.id, permalink, account: me.username || "", tagged };
+}
+async function reel() {
+  const key = `reel:${today}`;
+  if (posts[key] && !process.env.REEL_NO_PUBLISH) return log("今日のリールはもう投稿済みです:", posts[key].permalink);
+  // 朝の記事の写真を優先。無ければ昼の商品の写真
+  let img = article && article.image, p = product, caption, feats = [];
+  if (img && p && fs.existsSync(img)) {
+    caption = buildCaption(article, p);
+    feats = factsFromArticle(article, p).features.map((f) => f.h);
+  } else {
+    const pick = readJSON(NOON, {})[today];
+    const reg = readJSON(REG, {});
+    p = pick && masters.find((x) => x.id === pick.id);
+    img = pick && ((reg[pick.id] && reg[pick.id].image) || pick.image);
+    if (!p || !img || !fs.existsSync(img)) return log("今日はリールにする写真がありません（朝・昼の写真が入っていません）");
+    caption = productCaption(p);
+    feats = factsFromProduct(p).features.map((f) => f.h);
+  }
+  feats = [...new Set(feats.map((h) => clip(String(h).replace(/[「」]/g, ""), 18)).filter(Boolean))].slice(0, 4);
+  const title = `${catKeyword(p)}｜${p.brand}`;
+  fs.mkdirSync("out/reel", { recursive: true });
+  const file = `out/reel/${today}.mp4`;
+  const q = (x) => `'${String(x).replace(/'/g, "'\\''")}'`;
+  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} --title ${q(title)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
+  if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
+  const r = await publishReel(file, caption, p);
+  if (process.env.REEL_NO_PUBLISH === "1") return log("テスト：アップロードと処理まで成功（投稿はしていません）", JSON.stringify(r));
+  posts[key] = { ...r, posted_at: new Date().toISOString(), image: img, id: p.id };
+  fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
+  log("リールを投稿しました:", r.permalink || r.media_id);
 }
 
 // ---------- 昼の投稿（今週の7選とは別の商品を1つ。写真はその商品の写真としてサイトに残す） ----------
@@ -383,7 +473,7 @@ export function productCaption(p) {
   const url = `${SITE_URL}products/${p.id}.html`;
   const slot = kobo(p.category) === "shoes" ? "shoes" : kobo(p.category);
   const tags = hashtags({ slot }, p).filter((t) => t !== "#今週の7選");
-  return ["#PR", `${p.brand} ${p.name}`, "", e.summary || "", ...((e.pros || []).length ? ["", "【ポイント】", ...e.pros.slice(0, 3).map((m) => "・" + cut(String(m).replace(/\s+/g, " "), 70))] : []),
+  return [keywordLine(p), "", e.summary || "", ...((e.pros || []).length ? ["", "【ポイント】", ...e.pros.slice(0, 3).map((m) => "・" + cut(String(m).replace(/\s+/g, " "), 70))] : []),
     ...(p.price ? ["", `価格：¥${p.price.toLocaleString()}（税込・公式サイトの表示）`] : []), "", "▼くわしくはプロフィールのリンクから", url, "",
     "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。", "※価格・仕様はメーカー公式の記載です。", "", tags.join(" ")].join("\n").slice(0, 2200);
 }
@@ -415,7 +505,7 @@ async function noonInstagram() {
   const p = masters.find((x) => x.id === pick.id);
   const caption = productCaption(p);
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
-  const r = await publishIG(`${SITE_URL}${img}`, caption);
+  const r = await publishIG(`${SITE_URL}${img}`, caption, p);
   pick.posted = { ...r, posted_at: new Date().toISOString(), image: img };
   fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
   posts[`noon:${today}:${pick.id}`] = pick.posted;
@@ -424,8 +514,8 @@ async function noonInstagram() {
 }
 
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram }[cmd];
-if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram"); process.exit(1); }
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel }[cmd];
+if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram|reel"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });
 }

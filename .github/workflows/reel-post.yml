@@ -1,0 +1,47 @@
+name: 夜のリール投稿
+# 毎日19:00に、その日の朝の商品（無ければ昼の商品）の解説画像を動かした縦動画（10秒）を Instagram のリールに投稿する。
+on:
+  schedule:
+    - cron: "40 9 * * *"    # 日本時間 18:40（19:00まで待って投稿）
+    - cron: "40 10 * * *"   # 日本時間 19:40（取りこぼしの再実行。済んでいれば何もしない）
+  workflow_dispatch:
+    inputs:
+      no_publish:
+        description: "1 にするとアップロードまでで投稿しない（テスト）"
+        required: false
+        default: ""
+concurrency:
+  group: reel-post
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+      REEL_NO_PUBLISH: ${{ github.event.inputs.no_publish }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 動画づくりの道具（日本語フォント・ffmpeg）を用意
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
+      - name: 19時まで待つ
+        if: env.REEL_NO_PUBLISH != '1'
+        run: |
+          target=$(TZ=Asia/Tokyo date -d "19:00" +%s); now=$(date +%s)
+          if [ "$now" -lt "$target" ]; then echo "$((target-now))秒待ちます"; sleep $((target-now)); fi
+      - name: リールを作って投稿
+        run: |
+          git pull --rebase -q || true
+          node tools/daily-image-post.mjs reel
+      - name: 投稿の記録を保存
+        if: env.REEL_NO_PUBLISH != '1'
+        run: |
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/ig-posts.json
+          git diff --cached --quiet || (git commit -m "リールを投稿" && git pull --rebase --autostash && git push)
