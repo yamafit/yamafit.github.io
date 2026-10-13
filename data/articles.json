@@ -125,6 +125,21 @@
   ],
   "week": "2026-10-12",
   "day": 0,
-  "slot": "outer"
+  "slot": "outer",
+  "image": "img/articles/2026-10-12-tnf-climb-light-jacket-m.jpg"
+ },
+ {
+  "slug": "2026-10-13-gregory-zulu-30",
+  "title": "グレゴリー ズール30で秋の日帰り山行へ：蒸れにくい背面の30Lザック",
+  "category": "ザック",
+  "date": "2026-10-13",
+  "desc": "秋の日帰り登山に向く、グレゴリーの30Lクラスのザック「フリーフロート ズール30」。背中から離れたメッシュで蒸れにくく、重めの荷物も安定して運べます。重さなどの注意点も紹介。",
+  "cats": [
+   "pack"
+  ],
+  "week": "2026-10-12",
+  "day": 1,
+  "slot": "pack",
+  "image": "img/articles/2026-10-13-gregory-zulu-30.jpg"
  }
 ]

@@ -1,10 +1,11 @@
 {
  "_note": "ホームの「今週のおすすめ」。tools/publish-from-app.mjs が、最新の週に公開した記事の商品（ザック・アウター・シューズ）へ自動で入れ替える。items は表示順。",
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "items": [
   {
-   "id": "montbell-1133469",
-   "comment": ""
+   "id": "gregory-zulu-30",
+   "comment": "秋の日帰り登山に向く、グレゴリーの30Lクラスのザック「フリーフロート ズール30」。背中から離れたメッシュで蒸れにくく、重めの荷物も安…",
+   "article": "2026-10-13-gregory-zulu-30"
   },
   {
    "id": "tnf-climb-light-jacket-m",

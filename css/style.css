@@ -406,3 +406,169 @@ img.photo { object-fit: cover; }
 .feat b { font-size: 15px; line-height: 1.5; } .feat p { margin: 0; font-size: 13px; color: var(--ink-sub); line-height: 1.7; }
 .rank-basis { font-size: 12px; color: var(--ink-sub); line-height: 1.7; margin-top: 8px; }
 .sheet-detail{display:block;margin:12px 0 0;font-size:14px;font-weight:700;color:var(--green)}
+
+/* =====================================================================
+   メリハリ（2026-10）：色は「緑＝ブランド」「オレンジ＝買う・今日」の2色だけ。
+   白いカード＋軽い影で浮かせ、値段と購入ボタンを一番目立たせる。
+   ===================================================================== */
+:root {
+  --bg: #F6F7F3;
+  --surface: #FFFFFF;
+  --buy: #E8590C;          /* 購入ボタン・今日のバッジ */
+  --buy-deep: #C2410C;
+  --buy-tint: #FFF1E6;
+  --price: #D9480F;
+  --shadow: 0 1px 2px rgba(20, 35, 28, .06), 0 4px 14px rgba(20, 35, 28, .07);
+  --shadow-hover: 0 2px 4px rgba(20, 35, 28, .08), 0 10px 24px rgba(20, 35, 28, .12);
+}
+.logo b { color: var(--green-deep); }
+
+/* 見出し：左に緑の太線 */
+.h-section { font-size: 20px; padding-left: 12px; border-left: 5px solid var(--green); line-height: 1.35; }
+.article-h2 { border-top: 0; padding: 2px 0 2px 12px; border-left: 5px solid var(--green); font-size: 21px; line-height: 1.4; margin: 8px 0 14px; }
+.doc h2 { border-top: 0; padding: 2px 0 2px 12px; border-left: 5px solid var(--green); }
+.article-title { font-size: 26px; line-height: 1.4; letter-spacing: .01em; }
+
+/* カード：白＋影＋角丸、押せるものは少し浮く */
+.feat, .prod-card, .product, .item-results {
+  background: var(--surface); border: 1px solid #E3E7E1; border-radius: 14px; box-shadow: var(--shadow);
+}
+.feat, .prod-card { padding: 16px; gap: 8px; transition: transform .15s ease, box-shadow .15s ease; }
+.feat:hover, .prod-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); border-color: #E3E7E1; color: var(--ink); }
+.feat b, .prod-card b { font-size: 17px; line-height: 1.45; font-weight: 900; }
+.feat img { border-radius: 10px !important; }
+.eyebrow { letter-spacing: .06em; }
+
+/* 値段：大きく、太く */
+.price-tag { font-family: var(--font); font-size: 22px; font-weight: 900; color: var(--price); letter-spacing: .01em; line-height: 1.2; }
+.price-tag small { font-size: 12px; font-weight: 700; color: var(--ink-sub); margin-left: 2px; }
+.price-big { font-size: 28px; font-weight: 900; color: var(--price); line-height: 1.2; }
+.price-big small { font-size: 13px; font-weight: 700; color: var(--ink-sub); margin-left: 4px; }
+
+/* 購入ボタン（ピル型・オレンジ） */
+.cta-pill {
+  margin-top: 6px; min-height: 48px; border-radius: 999px; background: var(--buy); color: #fff;
+  font-size: 15px; font-weight: 900; letter-spacing: .04em; display: flex; align-items: center; justify-content: center; gap: 6px;
+  box-shadow: 0 3px 0 var(--buy-deep);
+}
+.cta-pill--ghost { background: transparent; color: var(--green); border: 2px solid var(--green); box-shadow: none; }
+.feat:hover .cta-pill, .prod-card:hover .cta-pill { filter: brightness(1.05); }
+.prod-card .prod-cta { color: var(--ink-sub); font-weight: 400; }
+.price-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.price-row .spec-mini { font-size: 12px; color: var(--ink-sub); }
+
+/* 購入先ボタン：楽天（アフィリエイト）は塗り、公式は線 */
+.shop-btn { border-radius: 12px; min-height: 54px; border-width: 2px; }
+.shop-btn[data-shop="rakuten"]:not(.is-out) { background: var(--buy); border-color: var(--buy); color: #fff; box-shadow: 0 3px 0 var(--buy-deep); }
+.shop-btn[data-shop="rakuten"]:not(.is-out):hover { background: var(--buy-deep); color: #fff; }
+.shop-btn[data-shop="rakuten"]:not(.is-out) small { color: #FFE8D6; }
+.shop-btn[data-shop="official"] { border-color: var(--green); color: var(--green); }
+
+/* 今日のバッジ・曜日チップ */
+.badge-today { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; background: var(--buy); color: #fff; font-size: 12px; font-weight: 900; letter-spacing: .08em; }
+.badge-slot { display: inline-flex; align-items: center; height: 24px; padding: 0 10px; border-radius: 999px; background: var(--green-tint); color: var(--green); font-size: 12px; font-weight: 700; }
+.feat-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+#weekly-home-list .news-item { padding: 12px 0; }
+#weekly-home-list .news-brand { display: inline-flex; align-items: center; height: 22px; padding: 0 9px; border-radius: 999px; background: var(--green); color: #fff; font-size: 11px; letter-spacing: .04em; }
+#weekly-home-list .news-item[aria-disabled="true"] .news-brand { background: var(--line); color: var(--ink-sub); }
+#weekly-home-list .news-item.is-today { margin: 4px -12px; padding: 12px; border-radius: 12px; background: var(--buy-tint); border-bottom: 0; }
+#weekly-home-list .news-item.is-today .news-brand { background: var(--buy); }
+
+/* メリット・デメリット：マークで見分ける */
+.article-list--pro, .article-list--con, .doc ul.article-list--pro, .doc ul.article-list--con { list-style: none; padding-left: 0; gap: 10px; }
+.article-list--pro li, .article-list--con li { position: relative; padding: 12px 14px 12px 44px; border-radius: 12px; line-height: 1.7; font-size: 15px; }
+.article-list--pro li { background: var(--green-tint); }
+.article-list--con li { background: #FFF4E5; }
+.article-list--pro li::before, .article-list--con li::before {
+  position: absolute; left: 12px; top: 13px; width: 22px; height: 22px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 900; color: #fff;
+}
+.article-list--pro li::before { content: "✓"; background: var(--green); }
+.article-list--con li::before { content: "!"; background: #E67700; }
+
+/* まとめ：囲みで締める */
+.sec-summary { padding: 18px 18px 20px; border-radius: 14px; background: var(--green-deep); color: var(--on-dark); }
+.sec-summary .article-h2 { color: #fff; border-left-color: var(--buy); }
+.sec-summary .body-text { color: #E3ECE5; }
+
+/* 記事の冒頭の「この記事の商品」 */
+.top-pick { display: flex; flex-direction: column; gap: 8px; }
+.top-pick > .eyebrow { color: var(--buy-deep); }
+
+/* 表 */
+.table { border-radius: 10px; overflow: hidden; }
+.table th { color: var(--green-deep); }
+
+/* ---- カテゴリー：ブランドから選ぶ ---- */
+.brand-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.brand-tile {
+  min-height: 60px; padding: 10px 12px; border: 1.5px solid #E3E7E1; border-radius: 12px; background: var(--surface); color: var(--ink);
+  font: inherit; text-align: left; display: flex; flex-direction: column; justify-content: center; gap: 2px; box-shadow: var(--shadow); cursor: pointer;
+}
+.brand-tile b { font-size: 15px; font-weight: 900; line-height: 1.3; }
+.brand-tile small { font-size: 12px; color: var(--ink-sub); }
+.brand-tile:hover { border-color: var(--green); }
+.brand-tile.is-on { background: var(--green); border-color: var(--green); color: #fff; box-shadow: 0 3px 0 var(--green-deep); }
+.brand-tile.is-on small { color: var(--on-dark-sub); }
+.filter-bar { display: flex; flex-direction: column; gap: 10px; margin-bottom: 6px; padding: 12px; border-radius: 12px; background: var(--green-tint); }
+.filter-bar .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 2px; }
+.filter-bar .chip { flex-shrink: 0; min-height: 38px; font-size: 13px; background: var(--surface); }
+.filter-bar .chip[aria-pressed="true"] { background: var(--green); color: #fff; border-color: var(--green); }
+.filter-bar .chip:disabled { opacity: .45; cursor: not-allowed; }
+.sort-sel { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; }
+.sort-sel select { flex: 1; height: 40px; border: 1.5px solid var(--line); border-radius: 10px; padding: 0 10px; background: var(--surface); font: inherit; font-size: 14px; }
+#cat-items .res-item { padding: 14px 0; }
+#cat-items .res-item b { font-size: 15px; }
+.brand-change { min-height: 32px; padding: 0 12px; border: 1.5px solid var(--green); border-radius: 999px; background: var(--surface); color: var(--green); font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; }
+#cat-brand-sec { scroll-margin-top: 12px; }
+/* カテゴリー：プルダウン */
+.sel { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.sel > span { font-size: 12px; font-weight: 700; color: var(--green-deep); }
+.sel select {
+  width: 100%; height: 48px; padding: 0 40px 0 14px; border: 1.5px solid #C9D3CA; border-radius: 12px; background: var(--surface);
+  font: inherit; font-size: 15px; font-weight: 700; color: var(--ink); appearance: none; -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%231F5A43' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 14px center;
+}
+.sel select.is-set { border-color: var(--green); background-color: #F2F8F3; }
+.sel select:focus { outline: 2px solid var(--green); outline-offset: 1px; }
+.sel-row { display: flex; gap: 8px; }
+/* 今週の7選で作った写真（AI生成）を商品カードに */
+.prod-img { display: block; margin: -4px -4px 4px; border-radius: 10px; overflow: hidden; background: #fff; }
+.prod-img img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: top; max-height: 360px; }
+.pcard-img { display: block; border-radius: 12px; overflow: hidden; margin-bottom: 4px; }
+.pcard-img img { display: block; width: 100%; height: auto; max-height: 420px; object-fit: cover; object-position: top; }
+.thumb { object-fit: cover; object-position: top; }
+/* Instagram への導線 */
+.ig-banner { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 14px; color: #fff; text-decoration: none;
+  background: linear-gradient(115deg, #F58529 0%, #DD2A7B 45%, #8134AF 75%, #515BD4 100%); box-shadow: var(--shadow); }
+.ig-banner:hover { color: #fff; filter: brightness(1.05); }
+.ig-banner-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.ig-banner-text b { font-size: 15px; line-height: 1.4; font-weight: 900; }
+.ig-banner-text small { font-size: 12px; opacity: .92; }
+.ig-banner-btn { flex-shrink: 0; height: 36px; padding: 0 14px; border-radius: 999px; background: #fff; color: #C13584; font-size: 13px; font-weight: 900; display: flex; align-items: center; }
+.menu-body a.ig-follow { margin-top: 12px; min-height: 56px; padding: 0 14px; border: 0; border-radius: 12px; justify-content: flex-start; gap: 10px; color: #fff; font-weight: 700;
+  background: linear-gradient(115deg, #F58529 0%, #DD2A7B 45%, #8134AF 75%, #515BD4 100%); }
+.menu-body a.ig-follow:hover { color: #fff; }
+.menu-body a.ig-follow span { display: flex; flex-direction: column; line-height: 1.3; }
+.menu-body a.ig-follow small { font-family: var(--font); font-size: 12px; color: #fff; opacity: .9; }
+/* メニュー：ブランドのプルダウン */
+.menu-sel { margin: 4px 0 6px; }
+.menu-sel .sr { position: absolute; left: -9999px; }
+.menu-sub { margin: 14px 0 2px; font-size: 13px; font-weight: 900; color: var(--green-deep); }
+
+/* 今日のおすすめ（朝⇄昼を横スワイプ） */
+.today-h { margin: 4px 0 8px; font-size: 16px; font-weight: 900; }
+.today-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.today-head .today-h { margin: 4px 0; }
+.today-tabs { display: inline-flex; background: var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.today-tab { border: 0; background: transparent; padding: 6px 16px; border-radius: 999px; font: inherit; font-size: 13px; font-weight: 800; color: var(--ink-sub); cursor: pointer; }
+.today-tab.is-on { background: var(--buy); color: #fff; }
+.today-swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; gap: 0; margin-top: 8px; -webkit-overflow-scrolling: touch; }
+.today-swipe::-webkit-scrollbar { display: none; }
+.today-slide { flex: 0 0 100%; scroll-snap-align: start; padding: 0 2px; box-sizing: border-box; display: flex; }
+.today-slide > .feat { flex: 1; }
+.today-dots { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 8px; }
+.today-dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.today-dots span.is-on { background: var(--buy); width: 20px; border-radius: 4px; }
+.today-dots small { margin-left: 8px; color: var(--ink-sub); font-size: 12px; }

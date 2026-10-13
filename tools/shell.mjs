@@ -28,7 +28,7 @@ export const chrome = (rel) => ({
   bottom: `</div>
 <footer class="footer">
   <div class="footer-inner">
-    <nav aria-label="フッター"><a href="${rel}products.html">商品一覧</a><a href="${rel}articles.html">記事</a><a href="${rel}weekly.html">今週の7選</a><a href="${rel}news.html">最新記事</a><a href="${rel}about.html">運営者情報</a><a href="${rel}privacy.html">プライバシーポリシー</a><a href="${rel}contact.html">お問い合わせ</a></nav>
+    <nav aria-label="フッター"><a href="${rel}products.html">商品一覧</a><a href="${rel}articles.html">記事</a><a href="${rel}weekly.html">今週の7選</a><a href="${rel}news.html">最新記事</a><a href="${rel}about.html">運営者情報</a><a href="${rel}privacy.html">プライバシーポリシー</a><a href="${rel}contact.html">お問い合わせ</a><a href="https://www.instagram.com/yama_fit2026/" target="_blank" rel="noopener">Instagram</a></nav>
     <div class="mono">YAMAFIT</div>
   </div>
 </footer>

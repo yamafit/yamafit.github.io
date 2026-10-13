@@ -1,0 +1,38 @@
+name: 昼の写真の準備（ChatGPTで手作業用）
+# 毎日、今週の7選とは別の商品を1つ選び（data/noon-picks.json に記録）、ChatGPTに貼るプロンプト・参照シート・投稿文を作って noon-ref ブランチに置く。
+on:
+  schedule:
+    - cron: "40 1 * * *"   # 日本時間 10:40
+    - cron: "10 2 * * *"   # 日本時間 11:10（取りこぼしの再実行。決まっていれば同じ商品）
+  workflow_dispatch: {}
+concurrency:
+  group: noon-prep
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: 参照シート用のブラウザと日本語フォントを用意
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk
+          npm i --no-save --no-package-lock playwright@1.55.0
+          npx playwright install --with-deps chromium
+      - name: 昼の商品を選んで材料を作る
+        run: node tools/daily-image-post.mjs noon-prep
+      - name: 選んだ商品を記録
+        run: |
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/noon-picks.json
+          git diff --cached --quiet || (git commit -m "昼の商品を選定" && git pull --rebase --autostash && git push)
+      - name: noon-ref ブランチに置く
+        run: |
+          mkdir -p /tmp/ref && cp out/noon/* /tmp/ref/ && cd /tmp/ref
+          git init -q -b noon-ref
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A && git commit -qm "昼の写真の準備" && git push -f -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" noon-ref

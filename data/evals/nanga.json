@@ -505,6 +505,170 @@
   }
  },
  {
+  "key": "/products/revibe-bag-8",
+  "id": "revibe-bag-8",
+  "name": "リバイブ バッグ",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 51700,
+  "weight_g": 1030,
+  "weight_note": "公式記載",
+  "capacity_l": null,
+  "material": "■ 生地・素材",
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "・Re:CYCLE DOWN(80-20) を540g封入し、4シーズンに適した保温性を実現",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。ゆったりとした寝心地で、冬のアウトドアにも対応する4シーズンモデル 一般的なマミー型よりもゆとりのある設計で、快適な寝心地を追求したリバイブバッグ ■ このモデ",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "重量 1,030g（公式記載）",
+    "保温：・Re:CYCLE DOWN(80-20) を540g封入し、4シーズンに適した"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/web-aurora-light-600-dx",
+  "id": "web-aurora-light-600-dx",
+  "name": "【ナンガショップ限定】オーロラテックス ライト 600DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 62700,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "NANGAが独自に開発した防水透湿素材AURORA TEX® LIGHTを採用したスリーピングバッグシリーズを直営店限定仕様にアレンジ。配色はアメリカ軍のフライトジャケットをイメージしております。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ボックスキルト構造に加え、ダウン量600g以上のモデルにはアルミスパッタリング材を採用することで輻射による蓄熱・保温効果を高めるなど、高機能なテクノロジーを体感することができます。",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。4シーズン使用可能なコンパクトモデルがナンガショップ限定仕様に NANGAが独自に開発した防水透湿素材AURORA TEX® LIGHTを採用したスリーピングバ",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ボックスキルト構造に加え、ダウン量600g以上のモデルにはアルミスパッタリング材"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/minimarhythm-zero",
+  "id": "minimarhythm-zero",
+  "name": "ミニマリスム ゼロ",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 49500,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": "撥水加工（公式記載）",
+  "waterproof_level": "water_repellent",
+  "warmth": "保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィット感を向上される設計になっています",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。携行性、快適性を兼ね備えたモデル 保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィット感を向上される設計になっています。",
+   "pros": [
+    "防水・撥水：撥水加工（公式記載）（公式記載）",
+    "保温：保温性が必要な胸から上を横バッフルに、胸よりしたは縦バッフルにする事でよりフィッ"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
+  "key": "/products/sonae-bag-350dx",
+  "id": "sonae-bag-350dx",
+  "name": "ソナエバッグ 350DX",
+  "gender": "unisex",
+  "category": "tent",
+  "price": 47080,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "SONAE BAG 350DXには、NANGAのダウンジャケットにもよく使用されるスペイン産のダックダウン（ダウン90%、フェザー10%）を封入していますので、軽量コンパクトながらもしっかり温かい寝袋になりました",
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "tent"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "テント・寝具。DX羽毛を使用したSONAE BAG ナンガの防災用寝袋「SONAE BAG」から、DX羽毛を使用したモデルが登場しました。",
+   "pros": [
+    "保温：SONAE BAG 350DXには、NANGAのダウンジャケットにもよく使用され"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "泊まりのキャンプ・山行をする人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。"
+   }
+  }
+ },
+ {
   "key": "/products/windrex-shell-jacket",
   "id": "windrex-shell-jacket",
   "name": "ウィンドレックス シェルジャケット",
@@ -835,6 +999,102 @@
    ],
    "not_for": [],
    "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/aurora-tex-stand-collar-down-vest",
+  "id": "aurora-tex-stand-collar-down-vest",
+  "name": "オーロラテックス スタンドカラーダウンベスト",
+  "gender": "unisex",
+  "category": "rain",
+  "price": 37400,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。街からアウトドアまで活躍する、高い保温性を備えた万能ダウンウェア",
+  "waterproof": "耐水圧20,000mm",
+  "waterproof_level": "waterproof",
+  "warmth": "・DX（760FPのスペイン産ホワイトダックダウン）を92g封入",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。重ね着しやすく、3シーズン活躍する万能ダウンベスト 防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。",
+   "pros": [
+    "防水・撥水：耐水圧20,000mm（公式記載）",
+    "保温：・DX（760FPのスペイン産ホワイトダックダウン）を92g封入"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/liteforce-down-vt",
+  "id": "liteforce-down-vt",
+  "name": "ライトフォース ダウンベスト",
+  "gender": "unisex",
+  "category": "wear",
+  "price": 63800,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "表地には23DのCORDURARナイロンを採用。軽量でしなやかでありながら摩擦に強く、デイリーからキャンプやハイキングまでタフに活躍します。さらに、肩部分にはNANGA独自のAURORA TEX?を配置し、防水透湿性を確保。突然の雨や雪でも快適さをキープします。",
+  "waterproof": "防水（公式記載）",
+  "waterproof_level": "waterproof",
+  "warmth": "ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、760FP）を120g封入。軽量ながらしっかり暖かさを確保し、アウターとしてはもちろん、ジャケットのインナーにも最適です。",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。ダウンベストをアクティブな仕様に 〈アイテムの特徴〉 CORDURAR × AURORA TEX? ― 軽量・耐久・防水を兼ね備えた新シリーズ DX：スペイン産",
+   "pros": [
+    "防水・撥水：防水（公式記載）（公式記載）",
+    "保温：ダウンには国内で丁寧に洗浄したスペイン産ホワイトダックダウン（90-10%、76"
+   ],
+   "cons": [
+    "価格が6万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
   }

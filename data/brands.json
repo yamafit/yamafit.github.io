@@ -8,7 +8,8 @@
         "montbell",
         "モンベル"
       ],
-      "site": "https://www.montbell.jp/"
+      "site": "https://www.montbell.jp/",
+      "instagram": "montbell_official"
     },
     {
       "name": "ザ・ノース・フェイス",
@@ -17,7 +18,8 @@
         "ノースフェイス",
         "ザ・ノース・フェイス"
       ],
-      "site": "https://www.thenorthface.jp/"
+      "site": "https://www.thenorthface.jp/",
+      "instagram": "thenorthfacejp"
     },
     {
       "name": "コロンビア",
@@ -25,7 +27,8 @@
         "Columbia Sportswear",
         "コロンビア"
       ],
-      "site": "https://www.columbiasports.co.jp/"
+      "site": "https://www.columbiasports.co.jp/",
+      "instagram": "columbia_jp"
     },
     {
       "name": "スノーピーク",
@@ -33,7 +36,8 @@
         "Snow Peak",
         "スノーピーク"
       ],
-      "site": "https://www.snowpeak.co.jp/"
+      "site": "https://www.snowpeak.co.jp/",
+      "instagram": "snowpeak_official"
     },
     {
       "name": "チャムス",
@@ -41,14 +45,16 @@
         "CHUMS",
         "チャムス"
       ],
-      "site": "https://www.chums.jp/"
+      "site": "https://www.chums.jp/",
+      "instagram": "chums_japan"
     },
     {
       "name": "パタゴニア",
       "aliases": [
         "Patagonia"
       ],
-      "site": "https://www.patagonia.jp/"
+      "site": "https://www.patagonia.jp/",
+      "instagram": "patagoniajp"
     },
     {
       "name": "アークテリクス",
@@ -57,7 +63,8 @@
         "ARC’TERYX",
         "アークテリクス"
       ],
-      "site": "https://arcteryx.jp/"
+      "site": "https://arcteryx.jp/",
+      "instagram": "arcteryx_jp"
     },
     {
       "name": "コールマン",
@@ -65,7 +72,8 @@
         "Coleman",
         "コールマン"
       ],
-      "site": "https://www.coleman.co.jp/"
+      "site": "https://www.coleman.co.jp/",
+      "instagram": "coleman_japan"
     },
     {
       "name": "ナンガ",
@@ -73,7 +81,8 @@
         "NANGA",
         "ナンガ"
       ],
-      "site": "https://nanga.jp/"
+      "site": "https://nanga.jp/",
+      "instagram": "nanga_official"
     },
     {
       "name": "ロゴス",
@@ -81,7 +90,8 @@
         "LOGOS",
         "ロゴス"
       ],
-      "site": "https://www.logos.jp/"
+      "site": "https://www.logos.jp/",
+      "instagram": "logos_enjoy_outing"
     },
     {
       "name": "ワークマン",
@@ -89,14 +99,16 @@
         "WORKMAN",
         "ワークマン"
       ],
-      "site": "https://www.workman.co.jp/"
+      "site": "https://www.workman.co.jp/",
+      "instagram": "workman_plus"
     },
     {
       "name": "グリップスワニー",
       "aliases": [
         "GRIP SWANY",
         "グリップスワニー"
-      ]
+      ],
+      "instagram": "gripswany"
     },
     {
       "name": "エーグル",
@@ -104,7 +116,8 @@
         "AIGLE",
         "エーグル"
       ],
-      "site": "https://www.aigle.co.jp/"
+      "site": "https://www.aigle.co.jp/",
+      "instagram": "aiglejapan"
     },
     {
       "name": "エルエルビーン",
@@ -114,14 +127,16 @@
         "エルエルビーン",
         "エル・エル・ビーン"
       ],
-      "site": "https://www.llbean.co.jp/"
+      "site": "https://www.llbean.co.jp/",
+      "instagram": "llbeanjapan"
     },
     {
       "name": "クリフメイヤー",
       "aliases": [
         "KRIFF MAYER",
         "クリフメイヤー"
-      ]
+      ],
+      "instagram": "kriffmayer_official"
     },
     {
       "name": "KAVU",
@@ -129,7 +144,8 @@
         "KAVU",
         "カブー"
       ],
-      "site": "https://www.kavu.jp/"
+      "site": "https://www.kavu.jp/",
+      "instagram": "kavu"
     },
     {
       "name": "ワイルドシングス",
@@ -138,7 +154,8 @@
         "WILDTHINGS",
         "ワイルドシングス"
       ],
-      "site": "https://wildthings.jp/"
+      "site": "https://wildthings.jp/",
+      "instagram": "wildthings_jp"
     },
     {
       "name": "マウンテンハードウェア",
@@ -146,7 +163,8 @@
         "Mountain Hardwear",
         "マウンテンハードウェア"
       ],
-      "site": "https://www.mountainhardwear.jp/"
+      "site": "https://www.mountainhardwear.jp/",
+      "instagram": "mountainhardwear.jp"
     },
     {
       "name": "ヘリーハンセン",
@@ -154,7 +172,8 @@
         "HELLY HANSEN",
         "ヘリーハンセン"
       ],
-      "site": "https://www.hellyhansen.jp/"
+      "site": "https://www.hellyhansen.jp/",
+      "instagram": "helly_hansen_jp"
     },
     {
       "name": "マムート",
@@ -162,7 +181,8 @@
         "MAMMUT",
         "マムート"
       ],
-      "site": "https://www.mammut.jp/"
+      "site": "https://www.mammut.jp/",
+      "instagram": "mammut_japan"
     },
     {
       "name": "カリマー",
@@ -170,7 +190,8 @@
         "Karrimor",
         "カリマー"
       ],
-      "site": "https://www.karrimor.jp/"
+      "site": "https://www.karrimor.jp/",
+      "instagram": "karrimor_japan"
     },
     {
       "name": "ミレー",
@@ -178,7 +199,8 @@
         "MILLET",
         "ミレー"
       ],
-      "site": "https://www.millet.jp/"
+      "site": "https://www.millet.jp/",
+      "instagram": "millet.japan.store"
     },
     {
       "name": "マーモット",
@@ -186,7 +208,8 @@
         "Marmot",
         "マーモット"
       ],
-      "site": "https://marmot.jp/"
+      "site": "https://marmot.jp/",
+      "instagram": "marmot_japan"
     },
     {
       "name": "ホグロフス",
@@ -195,7 +218,8 @@
         "Haglöfs",
         "ホグロフス"
       ],
-      "site": "https://haglofs.jp/"
+      "site": "https://haglofs.jp/",
+      "instagram": "haglofsjapan"
     }
   ],
   "extra_feeds": []

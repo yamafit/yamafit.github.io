@@ -101,6 +101,9 @@ Chrome で http://localhost:8000 を開く。
 
 - 取り込み: `tools/collect-montbell.mjs`（モンベル）／`tools/collect-shopify.mjs`（Shopify系：マーモット・ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU）／`tools/collect-list.mjs`・`tools/collect-generic.mjs`（その他。一覧または検索で見つけた公式の商品ページ）
 - 評価の作成: `node tools/eval-auto.mjs <slug> [--only …] [--exclude …] [--per-cat N] [--price first|ld|max] [--map "…=カテゴリ"]` が `data/evals/<slug>.json` を作る。**記載から導ける範囲だけ**を書く（弱点などが読み取れないときは「不明」）。→ `node tools/master-generic.mjs <slug> <表示名>` → `node tools/validate-master.mjs` → `node tools/build-products.mjs` → `node tools/build-product-pages.mjs` → `node tools/build-articles.mjs`
+- 商品の毎日追加（.github/workflows/products-daily.yml、毎日3:00）：Shopify製の公式ストア（ミレー・アークテリクス・ワイルドシングス・ナンガ・KAVU）の商品一覧から未取り込みの商品だけを data/raw に足し、`sh tools/build-brands.sh` で評価→マスター→商品ページを作り直す。1カテゴリーの上限は build-brands.sh の --per-cat。
+- 追加の取り込み：`tools/collect-extra.sh` を書き換えて push すると、GitHub Actions（collect-extra.yml）が公式ページの記載を data/raw に取り込む。モンベルは `collect-montbell.mjs wear "search:キーワード"`（ONLY/SKIP で名前を絞る）。モンベルの評価は master-montbell.mjs の EVAL（シリーズごと）、TNF は data/evals/tnf.json に書く。
+- ダウンのカテゴリー（category.html?c=down）：商品名か中わたの記載でダウンを判定（js/category.js の isDown）。並びはノース・フェイス→モンベル→その他。
 - 価格・在庫の毎日更新: `tools/refresh-offers.mjs`（取り込み時と同じ価格の読み方にそろえている）
 - サロモン・メレルは24社に含まれないため、`data/archive/` に退避した（サイトには出ない）。
 
@@ -112,9 +115,13 @@ Chrome で http://localhost:8000 を開く。
 これらは、公式サイトの許可を得た取得方法（楽天APIなど）が使えるようになってから追加する。
 
 ## 毎朝の記事写真と Instagram 投稿（.github/workflows/daily-image.yml）
-- 日本時間6:35ごろ（取りこぼしは12:35まで1時間ごとに再実行）に、今日の自動記事（content/auto-articles.json）の写真を作り、Instagram に投稿する。
-- 写真：商品マスターの公式画像（image.url、無ければ公式ページの og:image）→ 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
+- 日本時間6:35ごろ（取りこぼしは12:35まで1時間ごとに再実行）に、今日の自動記事（content/auto-articles.json）の写真を作り、7:00 に Instagram に投稿する（7時前に写真ができたら7時まで待つ）。
+- 参照画像：記事を書いたAIが公式ページで調べて選んだ `ref_images`（main＝商品全体1枚、detail＝記事で触れた部位の細部写真3枚まで）を優先。無ければ商品マスターの image.url、さらに無ければ公式ページの og:image。detail は細部確認用として画像生成に一緒に渡す。
+- 写真：参照画像 → 参照シート → プロンプト工房と同じ文面で OpenAI の画像生成（既定 gpt-image-2、1280×1600）。`img/articles/<slug>.jpg` に保存し、記事に「AIで作成したイメージ」と明記して載せる。
 - プロンプトの文面は `tools/kobo-core.js`（靴・ザック・ウェア）。変えたら `node tools/build-kobo.mjs --check` と `node tools/build-kobo.mjs` でアーティファクト用のページも作り直す。
-- 投稿：写真＋記事の要点＋記事URL＋楽天（A8）リンク＋#PR。記録は `data/ig-posts.json`。
+- 昼の投稿（noon-prep.yml 10:40／noon-post.yml 12:05〜）：今週の7選とは別の商品を1つ選び（data/noon-picks.json）、ChatGPT用の材料を noon-ref ブランチに置く。作成者が作った写真は `python3 tools/attach_image.py noon <画像>` で img/products/<id>.jpg と data/product-images.json に入れ、12:00 に Instagram へ。朝の写真は `python3 tools/attach_image.py morning <画像>`。
+- ChatGPT の使い方：固定の指示 `tools/fixed-prompt.txt` を ChatGPT のプロジェクトの指示に一度保存し、毎日は参照シート1枚を添付して送るだけ。参照シートと prompt.txt には、記事・公式の記載から作った「事前に確認した内容」（対象・載せる特徴6つ・向いている人・注意点・キャッチコピーの方向・使わない表現）を入れる（daily-image-post.mjs の factsFromArticle / factsFromProduct）。
+- 写真は商品の写真としても使う：`tools/build-products.mjs` が `data/product-images.json`（商品ID→写真）に記録し、products.json の ai_image / ai_article、商品ページ、一覧・検索・購入先の画面のサムネイルに出す。記事が翌週に入れ替わっても記録・写真（img/articles）は消さない。
+- 投稿：写真＋記事の要点＋記事URL＋#PR。楽天リンクは入れない。ハッシュタグはブランド（日本語・英語）＋商品名＋よく検索される登山タグ10個＋#ヤマフィット（tools/daily-image-post.mjs の hashtags）。記録は `data/ig-posts.json`。
 - 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。
 - 手動：Actions →「朝の記事写真とInstagram投稿」→ Run workflow（slug を入れるとその記事）。

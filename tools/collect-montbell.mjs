@@ -32,8 +32,15 @@ if (REFRESH) { // 収集済みの商品を、同じ取り出し方で取り直�
   process.exit(0);
 }
 for (const l of lists.split(",")) {
-  const { url, html } = await get(`https://webshop.montbell.jp/goods/list.php?category=${l}`);
-  const ids = [...new Set([...html.matchAll(/disp(?:_fo)?\.php\?product_id=(\d+)/g)].map((m) => m[1]))].slice(0, MAX * 3);
+  // "search:キーワード" なら公式ストアのキーワード検索（2ページまで）、それ以外は一覧の category 番号
+  let html = "";
+  if (l.startsWith("search:")) {
+    const kw = encodeURIComponent(l.slice(7));
+    for (let pg = 1; pg <= 3; pg++) html += (await get(`https://webshop.montbell.jp/goods/list.php?category=&s_trgt=3&top_sk=${kw}&od=0&page=${pg}`)).html;
+  } else html = (await get(`https://webshop.montbell.jp/goods/list.php?category=${l}`)).html;
+  const only = process.env.ONLY ? new RegExp(process.env.ONLY) : null; // 例: ONLY="ダウン" で商品名に「ダウン」を含むものだけ
+  const skip = process.env.SKIP ? new RegExp(process.env.SKIP) : null;
+  const ids = [...new Set([...html.matchAll(/disp(?:_fo)?\.php\?product_id=(\d+)/g)].map((m) => m[1]))].filter((id) => !out[id]).slice(0, MAX * 3);
   let got = 0;
   for (const id of ids) {
     if (got >= MAX) break;
@@ -41,6 +48,7 @@ for (const l of lists.split(",")) {
       const { url: pu, html: ph } = await get(`https://webshop.montbell.jp/goods/disp.php?product_id=${id}`);
       const title = (ph.match(/<title[^>]*>([^<]*)/i) || [])[1]?.split("｜").pop().trim();
       if (!title) continue;
+      if ((only && !only.test(title)) || (skip && skip.test(title))) continue;
       const key = title + "|" + cat; if (seenTitles.has(key)) continue; seenTitles.add(key);
       const lines = toText(ph);
       const priceIdx = lines.findIndex((l) => /¥[\d,]+（税込）/.test(l));
