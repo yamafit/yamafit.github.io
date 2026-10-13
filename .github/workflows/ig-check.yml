@@ -16,3 +16,5 @@ jobs:
         run: |
           r=$(curl -s "https://graph.instagram.com/v23.0/me?fields=user_id,username&access_token=$T")
           echo "$r" | grep -q '"username"' && echo "::notice::OK $(echo "$r" | grep -o '"username":"[^"]*"')" || { echo "::error::NG $(echo "$r" | sed 's/access_token=[^&\"]*//g' | head -c 400)"; exit 1; }
+          m=$(curl -s "https://graph.instagram.com/v23.0/me/media?fields=timestamp,caption&limit=3&access_token=$T" | grep -o '"timestamp":"[^"]*"' | tr "\n" " ")
+          echo "::notice::最近の投稿 $m"
