@@ -116,7 +116,9 @@ function ngWords(p, texts) {
 function factsFromArticle(a, p) {
   const SKIP = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ|導入|はじめに|概要|結論/;
   const feats = (a.sections || []).filter((x) => !SKIP.test(x.h)).map((x) => ({ h: x.h.replace(/^特徴とメリット$/, ""), b: firstSentence((x.p || [])[0]) })).filter((x) => x.h);
-  const merit = ((a.sections || []).find((x) => /メリット|特徴/.test(x.h) && !/デメリット/.test(x.h) && x.ul) || {}).ul || [];
+  const msec = (a.sections || []).find((x) => /メリット|特徴/.test(x.h) && !/デメリット/.test(x.h) && (x.ul || x.p)) || {};
+  const merit = msec.ul || [];
+  if (!msec.ul && msec.p) msec.p.forEach((t) => { const [h, ...rest] = String(t).split("。"); if (h && h.length <= 30 && feats.length < 6) feats.push({ h, b: clip(clean(rest.join("。")).split("。")[0], 60) }); });
   merit.forEach((m) => { if (feats.length < 6) feats.push({ h: String(m).split(/[、。：]/)[0].slice(0, 26), b: clip(clean(m), 60) }); });
   const spec = (a.sections || []).find((x) => x.table && /スペック|仕様/.test(x.h));
   if (spec) specFeats(spec.table.rows, spec.table.head).forEach((f) => { if (feats.length < 6 && !feats.some((x) => x.h === f.h)) feats.push(f); });
