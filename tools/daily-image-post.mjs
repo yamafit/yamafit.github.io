@@ -447,6 +447,8 @@ async function publishCarousel(imageUrl, videoFile, caption, p) {
 }
 // ストーリーズ（解説画像＋「プロフィールのリンクから」と URL の文字。API では押せるリンクを付けられない）
 async function publishStory(img, p, label, pageUrl) {
+  // 自動のストーリーズは止めている（API では押せるリンクを付けられないため、リンク付きは作成者が手動で載せる）。使うときは AUTO_STORY=1
+  if (process.env.AUTO_STORY !== "1" && process.argv[2] !== "story") return { skipped: true };
   try {
     fs.mkdirSync("out/story", { recursive: true });
     const file = `out/story/${label === "昼のおすすめ" ? "noon" : "morning"}-${today}.jpg`;
