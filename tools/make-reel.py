@@ -5,12 +5,12 @@
   python3 tools/make-reel.py <画像> <出力.mp4> --top "今日の登山ギア" --title "防水登山靴｜コロンビア" \
       --feat "防水と高グリップ" --feat "リップストップ素材" ... [--cta "詳しくはプロフィールのリンクから"]
 
-構成: 0〜2.6秒 商品に寄った画面から全体へ引く → 2.6〜8.4秒 特徴を1つずつ表示 → 最後 全体＋案内文。
+構成: 画面（解説画像）は動かさず、特徴をスライド形式で1枚ずつ表示（1枚2.6秒）→ 最後に案内文。
 """
 import argparse, math, subprocess, os, sys, shutil
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-W, H, FPS, DUR = 1080, 1920, 30, 10.0
+W, H, FPS = 1080, 1920, 30
 FONT_DIR = "/usr/share/fonts/opentype/noto/"
 for cand in [FONT_DIR, "/usr/share/fonts/opentype/noto-cjk/", "/usr/share/fonts/noto-cjk/"]:
     if os.path.exists(cand + "NotoSansCJK-Bold.ttc"):
@@ -72,64 +72,62 @@ def main():
     tmpdir = os.path.join(os.path.dirname(os.path.abspath(a.out)), "_reel_frames")
     shutil.rmtree(tmpdir, ignore_errors=True)
     os.makedirs(tmpdir)
-    n = int(DUR * FPS)
-    t_intro, t_end = 2.2, 8.6
+    # 時間割：最初1.0秒は全体だけ → 特徴を1枚ずつスライド（入る0.4秒・読む2.2秒・出る0.4秒）→ 最後2.0秒は案内文
+    t_intro, slide_in, hold, slide_out, t_cta = 1.0, 0.4, 2.2, 0.4, 2.0
+    per = slide_in + hold
+    t_end = t_intro + per * len(feats) + (slide_out if feats else 0)
+    dur = t_end + t_cta
+    n = int(dur * FPS)
+    # 画面は動かさない：画像は全体が入る大きさで固定
+    sw, sh = int(iw * base), int(ih * base)
+    still = bg.copy()
+    still.paste(src.resize((sw, sh), Image.LANCZOS), ((W - sw) // 2, area_y + (area_h - sh) // 2))
+    sd = ImageDraw.Draw(still)
+    sd.text((W / 2, 120), a.top, font=f_top, fill=(255, 196, 92), anchor="mm")
+    sd.text((W / 2, 215), a.title, font=f_title, fill=(255, 255, 255), anchor="mm", stroke_width=3, stroke_fill=(0, 0, 0))
+    f_cnt = font("Bold", 30)
+
+    def card(j, x_off, alpha):
+        text = feats[j]
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        od = ImageDraw.Draw(ov)
+        ff = fit_text(od, text, "Black", 64, W - 100 - 165 - 110)
+        bw, bh = W - 100, 170
+        bx0 = 50 + int(x_off)
+        by0 = area_y + int(area_h * 0.66)
+        A = lambda v: int(v * alpha)
+        od.rounded_rectangle((bx0, by0, bx0 + bw, by0 + bh), 34, fill=(20, 26, 22, A(235)))
+        od.rounded_rectangle((bx0, by0, bx0 + 16, by0 + bh), 8, fill=(240, 120, 30, A(255)))
+        od.ellipse((bx0 + 44, by0 + 40, bx0 + 134, by0 + 130), fill=(240, 120, 30, A(255)))
+        od.text((bx0 + 89, by0 + 86), str(j + 1), font=f_num, fill=(255, 255, 255, A(255)), anchor="mm")
+        od.text((bx0 + 165, by0 + bh / 2), text, font=ff, fill=(255, 255, 255, A(255)), anchor="lm")
+        od.text((bx0 + bw - 28, by0 + 26), f"{j + 1}/{len(feats)}", font=f_cnt, fill=(255, 196, 92, A(255)), anchor="ra")
+        return ov
+
     for i in range(n):
         t = i / FPS
-        # 倍率と中心：寄り→全体→商品へゆっくり寄る→最後に全体
-        fx, fy = a.focus
-        if t < t_intro:
-            k = ease(t / t_intro)
-            z = 1.75 + (1.0 - 1.75) * k
-            cx, cy = fx + (0.5 - fx) * k, fy + (0.5 - fy) * k
-        elif t < t_intro + 0.8:
-            z, cx, cy = 1.0, 0.5, 0.5
-        elif t < t_end:
-            k = ease((t - t_intro - 0.8) / (t_end - t_intro - 0.8))
-            z = 1.0 + 0.3 * k
-            cx, cy = 0.5 + (fx - 0.5) * k, 0.5 + (fy - 0.5) * k
-        else:
-            k = ease((t - t_end) / 0.6)
-            z = 1.3 + (1.0 - 1.3) * k
-            cx, cy = fx + (0.5 - fx) * k, fy + (0.5 - fy) * k
-        s = base * z
-        sw, sh = int(iw * s), int(ih * s)
-        im = src.resize((sw, sh), Image.BILINEAR)
-        # 表示範囲（画像を置く範囲）に合わせて切り出す
-        vx = int(cx * sw - W / 2)
-        vy = int(cy * sh - area_h / 2)
-        vx = max(0, min(vx, max(0, sw - W)))
-        vy = max(0, min(vy, max(0, sh - area_h)))
-        crop = im.crop((vx, vy, vx + min(W, sw), vy + min(area_h, sh)))
-        frame = bg.copy()
-        frame.paste(crop, ((W - crop.width) // 2, area_y + (area_h - crop.height) // 2))
-        d = ImageDraw.Draw(frame)
-
-        # 上の帯：小見出し＋タイトル
-        d.text((W / 2, 120), a.top, font=f_top, fill=(255, 196, 92), anchor="mm")
-        d.text((W / 2, 215), a.title, font=f_title, fill=(255, 255, 255), anchor="mm",
-               stroke_width=3, stroke_fill=(0, 0, 0))
-
-        # 特徴を1つずつ（画像の上に帯で重ねる）
+        frame = still.copy()
+        # 特徴をスライド形式で1枚ずつ（右から入って、読む時間止まり、左へ出る）
         if feats and t_intro <= t < t_end:
-            seg = (t_end - t_intro) / len(feats)
-            j = min(len(feats) - 1, int((t - t_intro) / seg))
-            lt = (t - t_intro) - j * seg
-            alpha = min(1.0, lt / 0.25, (seg - lt) / 0.2 if j < len(feats) - 1 else 1.0)
-            text = feats[j]
-            ff = fit_text(d, text, "Black", 62, W - 260)
-            tw = d.textlength(text, font=ff)
-            bw, bh = int(tw + 200), 132
-            bx0 = (W - bw) // 2
-            by0 = area_y + int(area_h * 0.70)
-            ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-            od = ImageDraw.Draw(ov)
-            od.rounded_rectangle((bx0, by0, bx0 + bw, by0 + bh), 30, fill=(20, 26, 22, int(230 * alpha)))
-            od.ellipse((bx0 + 28, by0 + 26, bx0 + 108, by0 + 106), fill=(240, 120, 30, int(255 * alpha)))
-            od.text((bx0 + 68, by0 + 66), str(j + 1), font=f_num, fill=(255, 255, 255, int(255 * alpha)), anchor="mm")
-            od.text((bx0 + 135, by0 + bh / 2), text, font=ff, fill=(255, 255, 255, int(255 * alpha)), anchor="lm")
-            frame = Image.alpha_composite(frame.convert("RGBA"), ov).convert("RGB")
-            d = ImageDraw.Draw(frame)
+            lt = t - t_intro
+            j = min(len(feats) - 1, int(lt / per))
+            u = lt - j * per
+            layers = []
+            if u < slide_in:  # 入ってくる
+                k = ease(u / slide_in)
+                layers.append((j, (1 - k) * W, k))
+                if j > 0:     # 前の札は左へ出ていく
+                    layers.append((j - 1, -k * W, 1 - k))
+            elif j == len(feats) - 1 and u > per:  # 最後の札が出ていく
+                k = ease((u - per) / slide_out)
+                layers.append((j, -k * W, 1 - k))
+            else:
+                layers.append((j, 0, 1.0))
+            fr = frame.convert("RGBA")
+            for (jj, xo, al) in layers:
+                fr = Image.alpha_composite(fr, card(jj, xo, al))
+            frame = fr.convert("RGB")
+        d = ImageDraw.Draw(frame)
 
         # 下の帯：案内文（最後は強調）
         if t >= t_end:
