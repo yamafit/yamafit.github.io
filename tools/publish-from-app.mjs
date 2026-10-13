@@ -100,22 +100,30 @@ const SKIP_H = /出典|参考|情報源|ソース|購入リンク/;
 function convert(md, title) {
   const lines = String(md).replace(/\r/g, "").split("\n");
   const secs = []; const leadParas = []; let cur = null; let para = []; let tbl = null;
-  const flushPara = () => { const t = plain(para.join("")); para = []; if (!t) return; if (cur) (cur.p ||= []).push(t); else leadParas.push(t); };
+  let head = ""; // 太字だけの行（小見出し）。次の段落の頭に「見出し。」として付ける
+  const flushPara = () => { let t = plain(para.join("")); para = []; if (head) { t = head + (t ? "。" + t : ""); head = ""; } if (!t) return; if (cur) (cur.p ||= []).push(t); else leadParas.push(t); };
+  const fitMode = (t) => (/^向いていない(人|方)/.test(t) ? "bad" : /^向いている(人|方)/.test(t) ? "good" : "");
   const flushTbl = () => { if (!tbl) return; if (cur && tbl.length >= 2) { const rows = tbl.filter((r) => !r.every((c) => /^:?-{2,}:?$/.test(c))); if (!cur.table && rows.length >= 2) cur.table = { head: rows[0], rows: rows.slice(1) }; else rows.forEach((r) => (cur.p ||= []).push(r.join("：")));} tbl = null; };
   for (const raw of lines) {
     const ln = raw.trim();
     if (/^#\s/.test(ln)) { flushPara(); flushTbl(); continue; }               // タイトル行は使わない
     const h = ln.match(/^#{2,4}\s+(.*)$/);
-    if (h) { flushPara(); flushTbl(); const ht = plain(h[1]).replace(/^\d+[.．、)]\s*/, ""); cur = { h: ht, skip: SKIP_H.test(ht) }; secs.push(cur); continue; }
+    if (h) { flushPara(); flushTbl(); const ht = plain(h[1]).replace(/^\d+[.．、)]\s*/, "");
+      if (cur && /向いて/.test(cur.h) && fitMode(ht) && ht.length <= 12) { cur.mode = fitMode(ht); continue; } // 「向いている人」「向いていない人」の小見出し
+      cur = { h: ht, skip: SKIP_H.test(ht) }; secs.push(cur); continue; }
+    const bold = ln.match(/^\*\*([^*]+)\*\*[：:]?$/);
+    if (bold && cur) { flushPara(); const bt = plain(bold[1]).replace(/[：:]$/, "");
+      if (/向いて/.test(cur.h) && fitMode(bt) && bt.length <= 12) { cur.mode = fitMode(bt); continue; }
+      head = bt; continue; }
     if (/^\|.*\|$/.test(ln)) { flushPara(); (tbl ||= []).push(ln.slice(1, -1).split("|").map((c) => plain(c))); continue; }
     flushTbl();
     const li = ln.match(/^(?:[-*・]|\d+[.)])\s+(.*)$/);
-    if (li) { flushPara(); const t = plain(li[1]); if (t) { if (cur) (cur.ul ||= []).push(t); else leadParas.push(t); } continue; }
+    if (li) { flushPara(); const t = plain(li[1]); if (t) { if (cur && cur.mode) (cur[cur.mode] ||= []).push(t); else if (cur) (cur.ul ||= []).push(t); else leadParas.push(t); } continue; }
     if (!ln) { flushPara(); continue; }
     para.push(ln);
   }
   flushPara(); flushTbl();
-  const sections = secs.filter((s) => !s.skip && (s.p || s.ul || s.table)).map(({ skip, ...s }) => s);
+  const sections = secs.filter((s) => !s.skip && (s.p || s.ul || s.table || s.good || s.bad)).map(({ skip, mode, ...s }) => s);
   const lead = leadParas.filter((t) => t && t !== plain(title)).join("") || (sections[0] && sections[0].p && sections[0].p[0]) || "";
   return { lead, sections };
 }

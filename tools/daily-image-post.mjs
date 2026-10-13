@@ -125,7 +125,7 @@ function factsFromArticle(a, p) {
   const con = (a.sections || []).find((x) => /デメリット|注意/.test(x.h)) || {};
   const cautions = (con.ul || con.p || []).map((t) => String(t).split("：")[0].slice(0, 40));
   const fit = (a.sections || []).find((x) => /向いて/.test(x.h)) || {};
-  const goodFor = (fit.ul || []).slice(0, 2).map((t) => String(t).slice(0, 40));
+  const goodFor = (fit.good || ((fit.p || [])[1] && /向いていない/.test(fit.p[1]) ? (fit.ul || []).slice(0, Math.ceil((fit.ul || []).length / 2)) : fit.ul) || []).slice(0, 2).map((t) => String(t).slice(0, 40));
   const texts = (a.sections || []).flatMap((x) => [...(x.p || []), ...(x.ul || [])]);
   return { target: GENDER_TXT[p.gender] || "", catch: (a.title.split("：")[1] || a.title).slice(0, 30), features: feats.slice(0, 6), cautions: cautions.slice(0, 3), goodFor, ng: ngWords(p, texts) };
 }

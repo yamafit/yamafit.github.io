@@ -572,3 +572,22 @@ img.photo { object-fit: cover; }
 .today-dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
 .today-dots span.is-on { background: var(--buy); width: 20px; border-radius: 4px; }
 .today-dots small { margin-left: 8px; color: var(--ink-sub); font-size: 12px; }
+
+/* 記事：向いている人・向いていない人（色分け） */
+.fit-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 720px) { .fit-grid { grid-template-columns: 1fr 1fr; } }
+.fit { border-radius: 12px; padding: 14px 16px; border: 1.5px solid; }
+.fit--good { background: #EAF6EE; border-color: #7CC59A; }
+.fit--bad { background: #FDF0EC; border-color: #EBA58F; }
+.fit-h { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; font-size: 16px; font-weight: 900; }
+.fit--good .fit-h { color: #1E7A46; }
+.fit--bad .fit-h { color: #B2462A; }
+.fit-ic { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; color: #fff; font-size: 14px; }
+.fit--good .fit-ic { background: #2E9A5C; }
+.fit--bad .fit-ic { background: #D2643F; }
+.fit ul { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; }
+.fit li { font-size: 15px; line-height: 1.7; color: var(--ink); }
+.fit--good li::marker { color: #2E9A5C; }
+.fit--bad li::marker { color: #D2643F; }
+
+.pt-h { display: block; font-size: 16px; font-weight: 900; margin-bottom: 4px; padding-left: 10px; border-left: 4px solid var(--buy); line-height: 1.5; }

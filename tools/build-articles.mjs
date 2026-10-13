@@ -9,9 +9,29 @@ for (const a of ARTICLES) {
   const c = chrome("../");
   // 見出しで見た目を変える：メリット＝✓、デメリット・注意＝！、まとめ＝囲み
   const listCls = (h) => /デメリット|注意|弱点/.test(h) ? "article-list article-list--con" : /メリット|特徴|ポイント|良い/.test(h) ? "article-list article-list--pro" : "article-list";
-  const body = a.sections.map((s) => `<section${/まとめ/.test(s.h) ? ' class="sec-summary"' : ""}>
+  // 「向いている人・向いていない人」は2つの色付きの枠に分ける（good / bad。古い書き方の記事も読み分ける）
+  const fitSplit = (s) => {
+    if (s.good || s.bad) return { good: s.good || [], bad: s.bad || [] };
+    const p = s.p || [], ul = s.ul || [];
+    if (ul.length && p.length === 2 && /向いている/.test(p[0]) && /向いていない/.test(p[1])) {
+      const n = s.split ?? Math.ceil(ul.length / 2);
+      return { good: ul.slice(0, n), bad: ul.slice(n) };
+    }
+    const good = p.filter((t) => /^向いている/.test(t)).map((t) => t.replace(/^向いているのは、?/, ""));
+    const bad = p.filter((t) => /^向いていない/.test(t)).map((t) => t.replace(/^向いていないのは、?/, ""));
+    if (good.length || bad.length) return { good: [...good, ...(ul.length ? ul : [])], bad };
+    return null;
+  };
+  const fitBox = (f) => `<div class="fit-grid">
+    <div class="fit fit--good"><h3 class="fit-h"><span class="fit-ic">◎</span>向いている人</h3><ul>${f.good.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>
+    <div class="fit fit--bad"><h3 class="fit-h"><span class="fit-ic">△</span>向いていない人</h3><ul>${f.bad.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>
+  </div>`;
+  const body = a.sections.map((s) => /向いて/.test(s.h) && fitSplit(s) ? `<section>
   <h2 class="article-h2">${esc(s.h)}</h2>
-  ${(s.p || []).map((t) => `<p class="body-text">${esc(t)}</p>`).join("\n  ")}
+  ${fitBox(fitSplit(s))}
+</section>` : `<section${/まとめ/.test(s.h) ? ' class="sec-summary"' : ""}>
+  <h2 class="article-h2">${esc(s.h)}</h2>
+  ${(s.p || []).map((t) => { const m = /特徴|メリット/.test(s.h) && !/デメリット/.test(s.h) && String(t).match(/^([^。]{2,30})。(.+)$/); return m ? `<p class="body-text"><b class="pt-h">${esc(m[1])}</b>${esc(m[2])}</p>` : `<p class="body-text">${esc(t)}</p>`; }).join("\n  ")}
   ${s.ul ? `<ul class="${listCls(s.h)}">${s.ul.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
   ${s.table ? `<div class="table-wrap"><table class="table"><thead><tr>${s.table.head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${s.table.rows.map((r) => `<tr>${r.map((d) => `<td>${esc(d)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
 </section>`).join("\n");
