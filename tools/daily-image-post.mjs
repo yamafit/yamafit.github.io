@@ -353,6 +353,7 @@ async function instagram() {
   log(`キャプション（${caption.length}字）を作りました`);
   if (DRY) { const f = makeVideo(article.image, videoFeatures(article, product), `morning-${today}`); return log("DRY_RUN: 投稿しません（動画 " + f + "）\n" + caption); }
   const r = await publishWithVideo(article.image, imageUrl, caption, product, article, `morning-${today}`);
+  r.story = await publishStory(article.image, product, "朝のおすすめ", `${SITE_URL}articles/${article.slug}.html`);
   if (process.env.CAROUSEL_NO_PUBLISH === "1") return log("テスト：" + JSON.stringify(r));
   posts[article.slug] = { ...r, posted_at: new Date().toISOString(), image: article.image, app_id: article.app_id || "" };
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
@@ -412,7 +413,8 @@ function makeVideo(img, feats, name) {
   execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
   return file;
 }
-async function hostVideo(file) { // 動画を公開URLに置く（reel-media ブランチ。毎回上書きするのでリポジトリは大きくならない）
+async function hostFile(file) { return hostVideo(file); }
+async function hostVideo(file) { // 動画・画像を公開URLに置く（reel-media ブランチ。毎回上書きするのでリポジトリは大きくならない）
   const name = path.basename(file);
   const blob = execSync(`git hash-object -w ${file}`).toString().trim();
   const tree = execSync("git mktree", { input: `100644 blob ${blob}\t${name}\n` }).toString().trim();
@@ -442,6 +444,29 @@ async function publishCarousel(imageUrl, videoFile, caption, p) {
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
   return { media_id: pub.id, permalink, account: me.username || "", tagged, carousel: true };
+}
+// ストーリーズ（解説画像＋「プロフィールのリンクから」と URL の文字。API では押せるリンクを付けられない）
+async function publishStory(img, p, label, pageUrl) {
+  try {
+    fs.mkdirSync("out/story", { recursive: true });
+    const file = `out/story/${label === "昼のおすすめ" ? "noon" : "morning"}-${today}.jpg`;
+    const q = (x) => `'${String(x).replace(/'/g, "'\\''")}'`;
+    const g = { mens: "（メンズ）", womens: "（レディース）" }[p.gender] || "";
+    execSync(`python3 tools/make-story.py ${q(img)} ${q(file)} --label ${q(label)} --title ${q(catKeyword(p) + g + "｜" + p.brand)} --url ${q(pageUrl.replace(/^https?:\/\//, ""))}`, { stdio: "inherit" });
+    const me = await ig("/me?fields=user_id,username", {});
+    const uid = me.user_id || me.id;
+    const url = await hostFile(file);
+    const c = await ig(`/${uid}/media`, { media_type: "STORIES", image_url: url }, "POST");
+    await waitContainer(c.id, 30, 5000);
+    if (process.env.CAROUSEL_NO_PUBLISH === "1") return { test: c.id };
+    const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+    log("ストーリーズに投稿しました:", pub.id);
+    return { media_id: pub.id, posted_at: new Date().toISOString() };
+  } catch (e) {
+    log("ストーリーズに投稿できませんでした:", e.message);
+    if (process.env.GITHUB_ACTIONS) console.log(`::warning::ストーリーズに投稿できませんでした: ${String(e.message).replace(/\n/g, " ")}`);
+    return { error: e.message };
+  }
 }
 // 動画つき（カルーセル）で投稿。動画づくりや動画の処理で失敗したら、画像1枚で投稿する
 async function publishWithVideo(img, imageUrl, caption, p, a, name) {
@@ -575,6 +600,7 @@ async function noonInstagram() {
   const caption = productCaption(p);
   if (DRY) { const f = makeVideo(img, videoFeatures(null, p), `noon-${today}`); return log("DRY_RUN: 投稿しません（動画 " + f + "）\n" + caption); }
   const r = await publishWithVideo(img, `${SITE_URL}${img}`, caption, p, null, `noon-${today}`);
+  r.story = await publishStory(img, p, "昼のおすすめ", `${SITE_URL}products/${p.id}.html`);
   if (process.env.CAROUSEL_NO_PUBLISH === "1") { const m = "テスト：" + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
   pick.posted = { ...r, posted_at: new Date().toISOString(), image: img };
   fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
