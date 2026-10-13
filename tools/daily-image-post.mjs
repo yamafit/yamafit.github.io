@@ -389,15 +389,20 @@ async function publishReel(file, caption, p) {
   if (!token) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
   const me = await ig("/me?fields=user_id,username", {});
   const uid = me.user_id || me.id;
-  const buf = fs.readFileSync(file);
+  // 動画を公開URLに置く（reel-media ブランチ。毎回上書きするのでリポジトリは大きくならない）
+  const name = path.basename(file);
+  const blob = execSync(`git hash-object -w ${file}`).toString().trim();
+  const tree = execSync("git mktree", { input: `100644 blob ${blob}\t${name}\n` }).toString().trim();
+  const commit = execSync(`git -c user.name=yamafit-bot -c user.email=bot@users.noreply.github.com commit-tree ${tree} -m "リール動画 ${name}"`).toString().trim();
+  execSync(`git push -f -q origin ${commit}:refs/heads/reel-media`, { stdio: "inherit" });
+  const repo = (process.env.GITHUB_REPOSITORY || "yamafit/yamafit.github.io");
+  const videoUrl = `https://raw.githubusercontent.com/${repo}/reel-media/${encodeURIComponent(name)}`;
+  for (let i = 0; i < 20; i++) { try { const r = await fetch(videoUrl, { method: "HEAD" }); if (r.ok) break; } catch {} await new Promise((r) => setTimeout(r, 6000)); }
   const tag = p ? brandIG(p) : "";
-  const base = { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true" };
+  const base = { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true" };
   let c, tagged = "";
   if (tag) { try { c = await ig(`/${uid}/media`, { ...base, user_tags: JSON.stringify([{ username: tag }]) }, "POST"); tagged = tag; } catch (e) { log("ブランドのタグ付けができませんでした:", e.message); } }
   if (!c) c = await ig(`/${uid}/media`, base, "POST");
-  const up = await fetch(c.uri || `https://rupload.facebook.com/ig-api-upload/${process.env.IG_API_VERSION || "v23.0"}/${c.id}`, { method: "POST", headers: { Authorization: `OAuth ${token}`, offset: "0", file_size: String(buf.length) }, body: buf });
-  const uj = await up.json().catch(() => ({}));
-  if (!up.ok || uj.success === false || uj.error) throw new Error("動画のアップロードに失敗しました: " + JSON.stringify(uj).slice(0, 300));
   log("動画をアップロードしました。Instagram の処理を待ちます");
   await waitContainer(c.id, 60, 10000);
   if (process.env.REEL_NO_PUBLISH === "1") return { media_id: "", permalink: "", account: me.username, tagged, test: c.id };
@@ -431,10 +436,11 @@ async function reel() {
   execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} --title ${q(title)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
   const r = await publishReel(file, caption, p);
-  if (process.env.REEL_NO_PUBLISH === "1") return log("テスト：アップロードと処理まで成功（投稿はしていません）", JSON.stringify(r));
+  if (process.env.REEL_NO_PUBLISH === "1") { const m = "テスト：アップロードと処理まで成功（投稿はしていません） " + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
   posts[key] = { ...r, posted_at: new Date().toISOString(), image: img, id: p.id };
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
   log("リールを投稿しました:", r.permalink || r.media_id);
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice::リール投稿 ${r.permalink} タグ:${r.tagged || "なし"}`);
 }
 
 // ---------- 昼の投稿（今週の7選とは別の商品を1つ。写真はその商品の写真としてサイトに残す） ----------
