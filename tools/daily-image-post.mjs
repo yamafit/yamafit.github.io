@@ -617,8 +617,14 @@ async function videoOnly() { // 確認用：今日の朝（VIDEO_FOR=noon なら
   }
   const feats = videoFeatures(article, product); log(feats.join("\n")); log(makeVideo(article.image, feats, `morning-${today}`));
 }
+async function storyOnly() { // ストーリーズだけ投稿（朝の記事。投稿済みの記録に追記）
+  if (!article || !article.image) return log("今日の朝の写真がありません");
+  const st = await publishStory(article.image, product, "朝のおすすめ", `${SITE_URL}articles/${article.slug}.html`);
+  if (posts[article.slug]) { posts[article.slug].story = st; fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n"); }
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice::ストーリーズ ${JSON.stringify(st)}`);
+}
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, video: videoOnly }[cmd];
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, video: videoOnly, story: storyOnly }[cmd];
 if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram|reel"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });
