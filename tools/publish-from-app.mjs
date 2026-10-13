@@ -165,30 +165,7 @@ for (const it of items) {
 auto.sort((a, b) => a.date.localeCompare(b.date) || (a.day ?? 0) - (b.day ?? 0));
 writeJson(AUTO_PATH, auto);
 
-// ホームの「今週のおすすめ」（ザック・アウター・シューズの3つ）を、最新の週に公開した記事の商品へ入れ替える。
-// その週にまだ公開していない枠は、前の週の記事の商品 → 今の data/featured.json の同じ種類の商品の順で残す。
-{
-  const FEAT = [["pack", ["pack"]], ["outer", ["rain", "wear"]], ["shoes", ["boots"]]];
-  const fpath = "data/featured.json";
-  const feat = readJson(fpath, { items: [] });
-  const ms = allMasters();
-  const weeks = auto.filter((a) => a.week).map((a) => a.week).sort();
-  const latest = weeks[weeks.length - 1];
-  const short = (s) => { const t = plain(s || ""); return t.length > 70 ? t.slice(0, 68) + "…" : t; };
-  const items = FEAT.map(([slot, cats]) => {
-    const cands = auto.filter((a) => a.slot === slot && a.week && ms[a.products[0]]).sort((a, b) => b.date.localeCompare(a.date));
-    const a = cands.find((x) => x.week === latest) || cands[0];
-    if (a) return { id: a.products[0], comment: short(a.desc), article: a.slug };
-    return (feat.items || []).find((x) => ms[x.id] && cats.includes(ms[x.id].category)) || null;
-  }).filter(Boolean);
-  const before = JSON.stringify((feat.items || []).map((x) => x.id));
-  if (items.length && JSON.stringify(items.map((x) => x.id)) !== before) {
-    feat.items = items;
-    feat.updated = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
-    feat._note = "ホームの「今週のおすすめ」。tools/publish-from-app.mjs が、最新の週に公開した記事の商品（ザック・アウター・シューズ）へ自動で入れ替える。items は表示順。";
-    writeJson(fpath, feat);
-  }
-}
+// ホームの「今週のおすすめ」は、記事の公開では入れ替えない（毎週日曜にまとめて切り替える。data/featured.json の weeks。tools/featured-week.mjs）
 
 // 3) ビルド
 const run = (f) => execFileSync("node", [f], { stdio: ["ignore", "inherit", "inherit"] });

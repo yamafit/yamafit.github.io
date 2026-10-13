@@ -591,3 +591,4 @@ img.photo { object-fit: cover; }
 .fit--bad li::marker { color: #D2643F; }
 
 .pt-h { display: block; font-size: 16px; font-weight: 900; margin-bottom: 4px; padding-left: 10px; border-left: 4px solid var(--buy); line-height: 1.5; }
+.feat-theme { display: inline-block; margin-left: 10px; padding: 2px 12px; border-radius: 999px; background: var(--buy); color: #fff; font-size: 14px; font-weight: 900; vertical-align: middle; }

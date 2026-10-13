@@ -1,5 +1,5 @@
 {
- "_note": "ホームの「今週のおすすめ」。tools/publish-from-app.mjs が、最新の週に公開した記事の商品（ザック・アウター・シューズ）へ自動で入れ替える。items は表示順。",
+ "_note": "ホームの「今週のおすすめ」。weeks のうち from（日曜日）が今日以前で一番新しいものを表示する（日曜〜土曜の1週間）。weeks が無い週は items を表示。記事の公開では入れ替えない。",
  "updated": "2026-10-14",
  "items": [
   {
@@ -15,6 +15,32 @@
   {
    "id": "columbia-peakfreak-titanium-mid-outdry-m",
    "comment": ""
+  }
+ ],
+ "weeks": [
+  {
+   "from": "2026-10-18",
+   "title": "アークテリクス特集",
+   "items": [
+    {
+     "id": "arcteryx-beta-ar-jacket-m",
+     "label": "ハードシェル",
+     "comment": "GORE-TEX PROを使ったアークテリクスのハードシェル。厳しい冬の登山からバックカントリーまで対応すると公式に記載されています。価格は11万円台と高め。",
+     "image": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000011062_023366_Beta_AR_Jacket_Nucleus_-_Larch_Men_M_Front-View_Lowres.webp?v=1787816233"
+    },
+    {
+     "id": "arcteryx-cerium-sl-hoody-m",
+     "label": "ダウンジャケット",
+     "comment": "コンパクトに収納できるダウンフーディ。休憩中や山小屋・テント場など、動きの少ない場面の保温着として作られています（公式の記載より）。",
+     "image": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/S26_X000011036_002291_Cerium_SL_Hoody_Black_Men_M_Front-View_Lowres.webp?v=1782710488"
+    },
+    {
+     "id": "arcteryx-aerios-35-backpack",
+     "label": "ザック",
+     "comment": "ハイキング向けに作られたアークテリクスの35Lクラスのバックパック。日帰りから荷物の多い山行まで使いやすい容量です。",
+     "image": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010705_002301_Aerios_35_Backpack_Nucleus_Neutral_REG_Front-View_Lowres.webp?v=1787816168"
+    }
+   ]
   }
  ]
 }
