@@ -39,6 +39,10 @@
   "carousel": true,
   "posted_at": "2026-10-13T22:01:41.767Z",
   "image": "img/articles/2026-10-14-millet-miv03255.jpg",
-  "app_id": "a-2026-10-12-2"
+  "app_id": "a-2026-10-12-2",
+  "story": {
+   "media_id": "18088078589289414",
+   "posted_at": "2026-10-13T22:22:27.993Z"
+  }
  }
 }
