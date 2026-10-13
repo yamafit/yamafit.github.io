@@ -18,3 +18,10 @@ jobs:
           echo "$r" | grep -q '"username"' && echo "::notice::OK $(echo "$r" | grep -o '"username":"[^"]*"')" || { echo "::error::NG $(echo "$r" | sed 's/access_token=[^&\"]*//g' | head -c 400)"; exit 1; }
           m=$(curl -s "https://graph.instagram.com/v23.0/me/media?fields=timestamp,caption&limit=3&access_token=$T" | grep -o '"timestamp":"[^"]*"' | tr "\n" " ")
           echo "::notice::最近の投稿 $m"
+      - name: ブランドのタグ付けの確認（入れ物を作るだけで投稿しない）
+        env:
+          T: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          uid=$(curl -s "https://graph.instagram.com/v23.0/me?fields=user_id&access_token=$T" | grep -o '"user_id":"[0-9]*"' | grep -o '[0-9]*')
+          r=$(curl -s -X POST "https://graph.instagram.com/v23.0/$uid/media" --data-urlencode "image_url=https://yamafit.github.io/img/products/columbia-steens-peak-2-outdry-m.jpg" --data-urlencode 'user_tags=[{"username":"columbia_jp","x":0.5,"y":0.06}]' --data-urlencode "caption=test" -d "access_token=$T")
+          echo "::notice::タグ確認 $(echo "$r" | head -c 300)"
