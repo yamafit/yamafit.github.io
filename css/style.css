@@ -556,3 +556,19 @@ img.photo { object-fit: cover; }
 .menu-sel { margin: 4px 0 6px; }
 .menu-sel .sr { position: absolute; left: -9999px; }
 .menu-sub { margin: 14px 0 2px; font-size: 13px; font-weight: 900; color: var(--green-deep); }
+
+/* 今日のおすすめ（朝⇄昼を横スワイプ） */
+.today-h { margin: 4px 0 8px; font-size: 16px; font-weight: 900; }
+.today-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.today-head .today-h { margin: 4px 0; }
+.today-tabs { display: inline-flex; background: var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.today-tab { border: 0; background: transparent; padding: 6px 16px; border-radius: 999px; font: inherit; font-size: 13px; font-weight: 800; color: var(--ink-sub); cursor: pointer; }
+.today-tab.is-on { background: var(--buy); color: #fff; }
+.today-swipe { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; gap: 0; margin-top: 8px; -webkit-overflow-scrolling: touch; }
+.today-swipe::-webkit-scrollbar { display: none; }
+.today-slide { flex: 0 0 100%; scroll-snap-align: start; padding: 0 2px; box-sizing: border-box; display: flex; }
+.today-slide > .feat { flex: 1; }
+.today-dots { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 8px; }
+.today-dots span { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.today-dots span.is-on { background: var(--buy); width: 20px; border-radius: 4px; }
+.today-dots small { margin-left: 8px; color: var(--ink-sub); font-size: 12px; }
