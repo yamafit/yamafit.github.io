@@ -14412,6 +14412,82 @@
      "light": "重量 128g と公式に記載されています。"
     }
    }
+  },
+  {
+   "id": "millet-miv03255",
+   "brand": "ミレー",
+   "name": "ティフォン ウォーム ジャケット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 39600,
+   "weight_g": 504,
+   "weight_note": "Mサイズ（公式記載）",
+   "capacity_l": null,
+   "material": "ティフォン®ウォーム ナイロン100％（裏起毛仕様）",
+   "waterproof": "耐水圧30,000mm・透湿性40,000g/m²/24h",
+   "waterproof_level": "waterproof",
+   "warmth": "裏起毛仕様",
+   "size_note": "XS・S・M・L・XL（ユーロサイズ）",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv03255",
+     "checked_at": "2026-10-14"
+    }
+   ],
+   "image": {
+    "url": "https://cdn.shopify.com/s/files/1/0948/6444/1628/files/MIV03255_N0062_01.jpg?v=1787621454",
+    "angle": "main",
+    "src_page": "https://www.millet.jp/products/miv03255",
+    "checked_at": "2026-10-14",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv03255",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-14"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-14",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "ユーロサイズ表記（公式記載）",
+    "summary": "耐水圧30,000mm・透湿性40,000g/m²/24hの防水透湿シェルに裏起毛を組み合わせ、雨・風・冷えに1着で備えるジャケット。",
+    "pros": [
+     "耐水圧30,000mm・透湿性40,000g/m²/24h（公式記載）",
+     "裏起毛仕様で保温性がある",
+     "ストレッチ素材と立体裁断Mont3D™",
+     "上下前後に調整できるバイザー付きフード",
+     "ハーネスに干渉しにくいハンドウォーマーポケット2つ",
+     "フードに収納できるパッカブル仕様"
+    ],
+    "cons": [
+     "重量504g（M）と薄手のレインウェアより重め",
+     "ベンチレーションはフロント上部のスナップボタンのみの記載"
+    ],
+    "good_for": [
+     "秋から初冬の冷える山で雨と寒さに備えたい人"
+    ],
+    "not_for": [
+     "軽さを優先した夏用レインウェアを探す人"
+    ],
+    "concern_reasons": {
+     "cold": "裏起毛仕様の防水透湿シェルです（公式記載）。"
+    }
+   }
   }
  ]
 }

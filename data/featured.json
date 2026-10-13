@@ -1,6 +1,6 @@
 {
  "_note": "ホームの「今週のおすすめ」。tools/publish-from-app.mjs が、最新の週に公開した記事の商品（ザック・アウター・シューズ）へ自動で入れ替える。items は表示順。",
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "items": [
   {
    "id": "gregory-zulu-30",
@@ -8,9 +8,9 @@
    "article": "2026-10-13-gregory-zulu-30"
   },
   {
-   "id": "tnf-climb-light-jacket-m",
-   "comment": "ザ・ノース・フェイスのクライムライトジャケット（NP12501）を紹介。約285g（Lサイズ）のGORE-TEX 3層シェルの特徴、デメ…",
-   "article": "2026-10-12-tnf-climb-light-jacket-m"
+   "id": "millet-miv03255",
+   "comment": "耐水圧30,000mmの防水透湿シェルに裏起毛を組み合わせたミレーのティフォン ウォーム ジャケット。雨・風・冷えに1着で備えられる一方…",
+   "article": "2026-10-14-millet-miv03255"
   },
   {
    "id": "columbia-peakfreak-titanium-mid-outdry-m",
