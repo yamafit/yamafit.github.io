@@ -56,7 +56,12 @@ jobs:
         run: |
           target=$(TZ=Asia/Tokyo date -d "07:00" +%s); now=$(date +%s)
           if [ "$now" -lt "$target" ]; then echo "$((target-now))秒待ちます"; sleep $((target-now)); fi
-      - name: Instagram に投稿
+      - name: 動画づくりの道具（日本語フォント・ffmpeg）を用意
+        if: steps.plan.outputs.need_ig == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
+      - name: Instagram に投稿（1枚目に動画、2枚目に解説画像）
         if: steps.plan.outputs.need_ig == 'true'
         run: |
           git pull --rebase -q || true

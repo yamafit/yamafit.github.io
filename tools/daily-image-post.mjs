@@ -341,7 +341,7 @@ async function waitLive(url) {
 }
 async function instagram() {
   if (!article) return log("記事がないので投稿しません");
-  if (posts[article.slug]) return log("この記事はもう投稿済みです:", posts[article.slug].permalink);
+  if (posts[article.slug] && process.env.CAROUSEL_NO_PUBLISH !== "1") return log("この記事はもう投稿済みです:", posts[article.slug].permalink);
   if (!article.image) throw new Error("記事に写真がまだありません（先に image を実行）");
   if (!product) throw new Error("記事の商品がマスターにありません");
   const caption = buildCaption(article, product);
@@ -349,8 +349,9 @@ async function instagram() {
   fs.mkdirSync("out/daily", { recursive: true });
   fs.writeFileSync(`out/daily/${article.slug}-caption.txt`, caption);
   log(`キャプション（${caption.length}字）を作りました`);
-  if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
-  const r = await publishIG(imageUrl, caption, product);
+  if (DRY) { const f = makeVideo(article.image, videoFeatures(article, product), `morning-${today}`); return log("DRY_RUN: 投稿しません（動画 " + f + "）\n" + caption); }
+  const r = await publishWithVideo(article.image, imageUrl, caption, product, article, `morning-${today}`);
+  if (process.env.CAROUSEL_NO_PUBLISH === "1") return log("テスト：" + JSON.stringify(r));
   posts[article.slug] = { ...r, posted_at: new Date().toISOString(), image: article.image, app_id: article.app_id || "" };
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
   log("Instagram に投稿しました:", r.permalink || r.media_id);
@@ -383,21 +384,81 @@ async function waitContainer(id, tries, ms) {
   throw new Error("Instagram の処理が終わりませんでした（時間切れ）");
 }
 
+// ---------- 投稿の1枚目の動画（画面は固定・特徴をスライドで表示）→ 2枚目に解説画像（カルーセル） ----------
+function videoFeatures(a, p) {
+  const seen = new Set();
+  const uniq = (list) => list.filter((x) => x.h && !seen.has(x.h) && seen.add(x.h)).slice(0, 5).map((x) => `${x.h}|${x.b === x.h ? "" : x.b}`);
+  if (a) return uniq(factsFromArticle(a, p).features.map((x) => ({ h: clip(String(x.h).replace(/[「」]/g, ""), 20), b: clip(clean(x.b || ""), 75) })));
+  // 商品だけのとき：評価のメリット（「〇〇で△△」は見出しと説明に分ける）＋重量・素材・防水
+  const e = p.evaluation || {};
+  const mat = String(p.material || "");
+  const list = (e.pros || []).filter((x) => !/^不明/.test(x)).map((x) => clean(x)).filter((t) => !(mat && t.replace(/(素材|生地)$/, "").split(/と|、|・|，/).every((w) => w && mat.includes(w)))).map((t) => {
+    const m = t.match(/^(.{3,16}?)(?:で|、)(.{4,})$/);
+    return m ? { h: m[1], b: m[2].replace(/[。]$/, "") } : { h: t.length <= 20 ? t : t.slice(0, 18) + "…", b: t.length <= 20 ? "" : t };
+  });
+  if (p.waterproof) list.push({ h: "防水透湿", b: p.waterproof });
+  if (p.weight_g) list.push({ h: "重量", b: `約${p.weight_g.toLocaleString()}g${p.weight_note && !/^約?[\d,.]+\s?g/.test(p.weight_note) ? "（" + p.weight_note.replace(/[（）()]/g, "") + "）" : ""}` });
+  if (mat) list.push({ h: "素材", b: mat });
+  if (p.capacity_l) list.push({ h: "容量", b: p.capacity_l + "L" });
+  if (p.warmth) list.push({ h: "保温", b: clip(p.warmth, 75) });
+  return uniq(list);
+}
+function makeVideo(img, feats, name) {
+  fs.mkdirSync("out/reel", { recursive: true });
+  const file = `out/reel/${name}.mp4`;
+  const q = (x) => `'${String(x).replace(/'/g, "'\\''")}'`;
+  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
+  return file;
+}
+async function hostVideo(file) { // 動画を公開URLに置く（reel-media ブランチ。毎回上書きするのでリポジトリは大きくならない）
+  const name = path.basename(file);
+  const blob = execSync(`git hash-object -w ${file}`).toString().trim();
+  const tree = execSync("git mktree", { input: `100644 blob ${blob}\t${name}\n` }).toString().trim();
+  const commit = execSync(`git -c user.name=yamafit-bot -c user.email=bot@users.noreply.github.com commit-tree ${tree} -m "動画 ${name}"`).toString().trim();
+  execSync(`git push -f -q origin ${commit}:refs/heads/reel-media`, { stdio: "inherit" });
+  const url = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || "yamafit/yamafit.github.io"}/reel-media/${encodeURIComponent(name)}`;
+  for (let i = 0; i < 20; i++) { try { const r = await fetch(url, { method: "HEAD" }); if (r.ok) return url; } catch {} await new Promise((r) => setTimeout(r, 6000)); }
+  return url;
+}
+async function publishCarousel(imageUrl, videoFile, caption, p) {
+  if (!process.env.INSTAGRAM_ACCESS_TOKEN) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
+  await waitLive(imageUrl);
+  const me = await ig("/me?fields=user_id,username", {});
+  const uid = me.user_id || me.id;
+  const videoUrl = await hostVideo(videoFile);
+  const v = await ig(`/${uid}/media`, { media_type: "VIDEO", is_carousel_item: "true", video_url: videoUrl }, "POST");
+  const tag = p ? brandIG(p) : "";
+  let im, tagged = "";
+  if (tag) { try { im = await ig(`/${uid}/media`, { image_url: imageUrl, is_carousel_item: "true", user_tags: JSON.stringify([{ username: tag, x: 0.5, y: 0.06 }]) }, "POST"); tagged = tag; } catch (e) { log("ブランドのタグ付けができませんでした:", e.message); } }
+  if (!im) im = await ig(`/${uid}/media`, { image_url: imageUrl, is_carousel_item: "true" }, "POST");
+  await waitContainer(v.id, 60, 10000);
+  await waitContainer(im.id, 30, 5000);
+  const c = await ig(`/${uid}/media`, { media_type: "CAROUSEL", children: `${v.id},${im.id}`, caption }, "POST");
+  await waitContainer(c.id, 30, 5000);
+  if (process.env.CAROUSEL_NO_PUBLISH === "1") return { media_id: "", permalink: "", account: me.username, tagged, test: c.id };
+  const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+  let permalink = "";
+  try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
+  return { media_id: pub.id, permalink, account: me.username || "", tagged, carousel: true };
+}
+// 動画つき（カルーセル）で投稿。動画づくりや動画の処理で失敗したら、画像1枚で投稿する
+async function publishWithVideo(img, imageUrl, caption, p, a, name) {
+  let file = "";
+  try { file = makeVideo(img, videoFeatures(a, p), name); } catch (e) { log("動画を作れませんでした（画像1枚で投稿します）:", e.message); }
+  if (file) {
+    try { return await publishCarousel(imageUrl, file, caption, p); }
+    catch (e) { log("動画つきの投稿ができませんでした（画像1枚で投稿します）:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::warning::動画つき投稿に失敗→画像1枚で投稿: ${e.message}`); }
+  }
+  return await publishIG(imageUrl, caption, p);
+}
+
 // ---------- リール（毎日19:00。その日の朝の商品の解説画像を動かした縦動画） ----------
 async function publishReel(file, caption, p) {
   const token = process.env.INSTAGRAM_ACCESS_TOKEN;
   if (!token) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
   const me = await ig("/me?fields=user_id,username", {});
   const uid = me.user_id || me.id;
-  // 動画を公開URLに置く（reel-media ブランチ。毎回上書きするのでリポジトリは大きくならない）
-  const name = path.basename(file);
-  const blob = execSync(`git hash-object -w ${file}`).toString().trim();
-  const tree = execSync("git mktree", { input: `100644 blob ${blob}\t${name}\n` }).toString().trim();
-  const commit = execSync(`git -c user.name=yamafit-bot -c user.email=bot@users.noreply.github.com commit-tree ${tree} -m "リール動画 ${name}"`).toString().trim();
-  execSync(`git push -f -q origin ${commit}:refs/heads/reel-media`, { stdio: "inherit" });
-  const repo = (process.env.GITHUB_REPOSITORY || "yamafit/yamafit.github.io");
-  const videoUrl = `https://raw.githubusercontent.com/${repo}/reel-media/${encodeURIComponent(name)}`;
-  for (let i = 0; i < 20; i++) { try { const r = await fetch(videoUrl, { method: "HEAD" }); if (r.ok) break; } catch {} await new Promise((r) => setTimeout(r, 6000)); }
+  const videoUrl = await hostVideo(file);
   const tag = p ? brandIG(p) : "";
   const base = { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true" };
   let c, tagged = "";
@@ -504,14 +565,15 @@ async function noonInstagram() {
   const picks = readJSON(NOON, {});
   const pick = picks[today];
   if (!pick) return log("今日の昼の商品はまだ決まっていません");
-  if (pick.posted) return log("今日の昼はもう投稿済みです:", pick.posted.permalink);
+  if (pick.posted && process.env.CAROUSEL_NO_PUBLISH !== "1") return log("今日の昼はもう投稿済みです:", pick.posted.permalink);
   const reg = readJSON(REG, {});
   const img = (reg[pick.id] && reg[pick.id].noon === today && reg[pick.id].image) || pick.image;
   if (!img || !fs.existsSync(img)) return log("昼の写真がまだありません（チャットに写真が貼られたら投稿します）");
   const p = masters.find((x) => x.id === pick.id);
   const caption = productCaption(p);
-  if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
-  const r = await publishIG(`${SITE_URL}${img}`, caption, p);
+  if (DRY) { const f = makeVideo(img, videoFeatures(null, p), `noon-${today}`); return log("DRY_RUN: 投稿しません（動画 " + f + "）\n" + caption); }
+  const r = await publishWithVideo(img, `${SITE_URL}${img}`, caption, p, null, `noon-${today}`);
+  if (process.env.CAROUSEL_NO_PUBLISH === "1") { const m = "テスト：" + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
   pick.posted = { ...r, posted_at: new Date().toISOString(), image: img };
   fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
   posts[`noon:${today}:${pick.id}`] = pick.posted;
@@ -519,8 +581,16 @@ async function noonInstagram() {
   log("昼の投稿をしました:", r.permalink || r.media_id);
 }
 
+async function videoOnly() { // 確認用：今日の朝（VIDEO_FOR=noon なら昼）の動画だけを作る
+  if (process.env.VIDEO_FOR === "noon") {
+    const pick = readJSON(NOON, {})[today]; const reg = readJSON(REG, {});
+    const p = masters.find((x) => x.id === pick.id); const img = (reg[pick.id] && reg[pick.id].image) || pick.image;
+    const feats = videoFeatures(null, p); log(feats.join("\n")); return log(makeVideo(img, feats, `noon-${today}`));
+  }
+  const feats = videoFeatures(article, product); log(feats.join("\n")); log(makeVideo(article.image, feats, `morning-${today}`));
+}
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel }[cmd];
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, video: videoOnly }[cmd];
 if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram|reel"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });
