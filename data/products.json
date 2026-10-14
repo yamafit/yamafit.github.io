@@ -22752,11 +22752,11 @@
    "brand": "マウンテンハードウェア",
    "name": "スクランブラー35",
    "gender": "unisex",
-   "spec": "1180g（S/Mサイズ（M/L 1,202g））",
+   "spec": "1180g（S/Mサイズ。M/Lは1,202g）",
    "price": 33000,
    "capacity_l": 35,
    "weight_g": 1180,
-   "weight_note": "S/Mサイズ（M/L 1,202g）",
+   "weight_note": "S/Mサイズ。M/Lは1,202g",
    "material": null,
    "waterproof": null,
    "warmth": null,
@@ -22767,8 +22767,7 @@
     "autumn"
    ],
    "features": [
-    "丈夫で水にも強いと記載",
-    "ALPINEカテゴリ"
+    "丈夫で水にも強いと記載"
    ],
    "cons": [
     "S/Mで約1,180gと、軽量パックより重い"

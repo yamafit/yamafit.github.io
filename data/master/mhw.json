@@ -503,7 +503,7 @@
    "gender": "unisex",
    "price": 33000,
    "weight_g": 1180,
-   "weight_note": "S/Mサイズ（M/L 1,202g）",
+   "weight_note": "S/Mサイズ。M/Lは1,202g",
    "capacity_l": 35,
    "material": null,
    "waterproof": null,
@@ -548,8 +548,7 @@
     "fit": "不明（公式にサイズ感の記載なし）",
     "summary": "丈夫で水にも強い、ブランドを代表するバックパックです。",
     "pros": [
-     "丈夫で水にも強いと記載",
-     "ALPINEカテゴリ"
+     "丈夫で水にも強いと記載"
     ],
     "cons": [
      "S/Mで約1,180gと、軽量パックより重い"
