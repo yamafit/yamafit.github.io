@@ -548,8 +548,9 @@ function noonPickFor(date, skip = new Set()) {
   const weekIds = new Set(articles.filter((a) => a.week && a.week === (article && article.week)).flatMap((a) => a.products || []));
   const morningSlot = article ? article.slot : "outer";
   const order = [...(NOON_CAT[morningSlot] || ["pack", "boots"]), "rain", "wear", "pack", "boots", "pants"];
+  const morningBrand = product ? product.brand : ""; // 朝の記事と同じブランドは避ける
   const brandsRecent = Object.entries(picks).sort((a, b) => b[0].localeCompare(a[0])).slice(0, 3).map(([, x]) => (masters.find((p) => p.id === x.id) || {}).brand);
-  const ok = (p) => p && !skip.has(p.id) && !used.has(p.id) && !weekIds.has(p.id) && p.image && p.image.url && p.price && !/^US /.test(p.name) && !brandsRecent.includes(p.brand);
+  const ok = (p) => p && !skip.has(p.id) && !used.has(p.id) && !weekIds.has(p.id) && p.image && p.image.url && p.price && !/^US /.test(p.name) && !brandsRecent.includes(p.brand) && p.brand !== morningBrand;
   for (const c of order) {
     const fromRec = ((rec.categories || {})[c] || []).map((x) => masters.find((p) => p.id === x.id)).find(ok);
     const any = fromRec || masters.filter((p) => p.category === c && ok(p)).sort((a, b) => (b.evaluation?.pros?.length || 0) - (a.evaluation?.pros?.length || 0))[0];
