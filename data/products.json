@@ -12636,6 +12636,75 @@
    }
   },
   {
+   "id": "caravan-grandking-gk85",
+   "category": "boots",
+   "brand": "キャラバン",
+   "name": "グランドキング GK85",
+   "gender": "unisex",
+   "spec": "ゴアテックス・メンブレン／705g（約705g（26.0cm・片足標準。公式記載））",
+   "price": 35200,
+   "capacity_l": null,
+   "weight_g": 705,
+   "weight_note": "約705g（26.0cm・片足標準。公式記載）",
+   "material": "2.0mmヌバックレザー（ランドラバー補強）、ミッドソール：EVA、アウトソール：ヴィブラムTSAVO",
+   "waterproof": "ゴアテックス・メンブレン",
+   "warmth": null,
+   "size_note": "22.5〜29.0cm、30.0cm（ワイズ3E）",
+   "season": [
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "2.0mmヌバックレザー（ランドラバー補強）のアッパー",
+    "ヴィブラムTSAVOアウトソール",
+    "ゴアテックス・メンブレンで防水",
+    "ワイズ3Eのアドバンスラスト（ウェッジトゥ）"
+   ],
+   "cons": [
+    "約705g（26.0cm片足）と重め"
+   ],
+   "for_whom": "山小屋泊やテント泊で重い荷物を背負って縦走する人・岩稜帯を含む3000m級の縦走をする人",
+   "not_for": "軽さを最優先したい人",
+   "terrain": [
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "北アルプス岩稜帯など3000m級の縦走や、山小屋・テント泊の重装備登山向けとされる本革のハイカット登山靴です。",
+   "fit": "ワイズ3E（アドバンスラスト／ウェッジトゥ。公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011850",
+     "checked_at": "2026-10-15"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011850",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-15"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "coleman-2253788",
    "category": "tent",
    "brand": "コールマン",
