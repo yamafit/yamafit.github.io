@@ -538,9 +538,10 @@ const NOON = "data/noon-picks.json"; // { "YYYY-MM-DD": { id, cat, image?, poste
 const REG = "data/product-images.json";
 const NOON_CAT = { outer: ["pack", "boots"], pack: ["boots", "rain"], shoes: ["rain", "wear"] }; // 朝の記事のカテゴリーと重ならないように
 const kobo = (c) => ({ boots: "shoes", pack: "pack" }[c] || "outer");
-function noonPickFor(date) {
+function noonPickFor(date, skip = new Set()) {
   const picks = readJSON(NOON, {});
-  if (picks[date]) return { picks, pick: picks[date] };
+  if (picks[date] && !skip.has(picks[date].id)) return { picks, pick: picks[date] };
+  delete picks[date];
   const reg = readJSON(REG, {});
   const rec = readJSON("data/recommendations.json", { categories: {} });
   const used = new Set([...Object.values(picks).map((x) => x.id), ...Object.keys(reg)]);
@@ -548,7 +549,7 @@ function noonPickFor(date) {
   const morningSlot = article ? article.slot : "outer";
   const order = [...(NOON_CAT[morningSlot] || ["pack", "boots"]), "rain", "wear", "pack", "boots", "pants"];
   const brandsRecent = Object.entries(picks).sort((a, b) => b[0].localeCompare(a[0])).slice(0, 3).map(([, x]) => (masters.find((p) => p.id === x.id) || {}).brand);
-  const ok = (p) => p && !used.has(p.id) && !weekIds.has(p.id) && p.image && p.image.url && p.price && !/^US /.test(p.name) && !brandsRecent.includes(p.brand);
+  const ok = (p) => p && !skip.has(p.id) && !used.has(p.id) && !weekIds.has(p.id) && p.image && p.image.url && p.price && !/^US /.test(p.name) && !brandsRecent.includes(p.brand);
   for (const c of order) {
     const fromRec = ((rec.categories || {})[c] || []).map((x) => masters.find((p) => p.id === x.id)).find(ok);
     const any = fromRec || masters.filter((p) => p.category === c && ok(p)).sort((a, b) => (b.evaluation?.pros?.length || 0) - (a.evaluation?.pros?.length || 0))[0];
@@ -574,13 +575,20 @@ export function productCaption(p) {
     "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。", "※価格・仕様はメーカー公式の記載です。", "", tags.join(" ")].join("\n").slice(0, 2200);
 }
 async function noonPrep() {
-  const { picks, pick } = noonPickFor(today);
-  if (!pick) return log("昼に紹介できる商品が見つかりませんでした");
+  // 公式画像が取れない商品は飛ばして、次の候補にする（最大6件）
+  const skip = new Set();
+  let picks, pick, p, cat, d, ref;
+  for (let i = 0; i < 6; i++) {
+    ({ picks, pick } = noonPickFor(today, skip));
+    if (!pick) return log("昼に紹介できる商品が見つかりませんでした");
+    p = masters.find((x) => x.id === pick.id);
+    cat = kobo(p.category);
+    d = inputForProduct(p, cat);
+    try { ref = await findReferenceImage({}, p); break; }
+    catch (e) { log(`公式画像が取れないので次の候補へ：${p.brand} ${p.name}`); skip.add(p.id); ref = null; }
+  }
+  if (!ref) throw new Error("昼の候補の公式画像がどれも取れませんでした");
   fs.writeFileSync(NOON, JSON.stringify(picks, null, 1) + "\n");
-  const p = masters.find((x) => x.id === pick.id);
-  const cat = kobo(p.category);
-  const d = inputForProduct(p, cat);
-  const ref = await findReferenceImage({}, p);
   const prompt = KOBO.plain(KOBO.buildPrompt(d, cat));
   const sheet = await renderSheet(d, cat, ref.buf);
   fs.mkdirSync("out/noon", { recursive: true });
