@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:19:05.193Z",
+  "updated": "2026-10-14T21:20:42.322Z",
   "season": "autumn",
   "categories": {
     "rain": [
@@ -21,9 +21,9 @@
     ],
     "wear": [
       {
-        "id": "arcteryx-ionia-merino-wool-arcword-logo-ss-m",
+        "id": "arcteryx-isogon-mx-hoody-m",
         "source": "rule",
-        "reason": "秋の山行に合うため。ウェア。Tシャツをワンランク上のウェアに。体温調節機能と耐臭性能を持つことで知られるメリノウールを、責任ある方法で調達。"
+        "reason": "秋の山行に合うため。ウェア。スポーツウェアのようなスタイルと、変わりやすい天候に対応できる機能性を組み合わせたソフトシェルフーディ。"
       },
       {
         "id": "aigle-zbhby27",
@@ -40,7 +40,7 @@
       {
         "id": "montbell-1133530",
         "source": "rule",
-        "reason": "秋の山行に合うため。80Lのトレッキングパック。軽量でシンプルな構造で、必要な機能を備えたバックパックです。"
+        "reason": "秋の山行に合うため。80Lの大型トレッキングパック。パックカバーを内蔵し、ピッケルストラップなど登山向けの装備を備えています。"
       },
       {
         "id": "millet-mis2363",
@@ -55,9 +55,9 @@
     ],
     "boots": [
       {
-        "id": "columbia-steens-peak-2-outdry-m",
+        "id": "columbia-peakfreak-titanium-mid-outdry-m",
         "source": "rule",
-        "reason": "秋の山行に合うため。防水と高グリップで、濡れた山道を安定して歩けるハイキングシューズです。"
+        "reason": "秋の山行に合うため。高い防水性と安定感で、悪路でも軽快に踏み出せる、ミッドカットのハイキングシューズです。"
       },
       {
         "id": "montbell-1129765",
