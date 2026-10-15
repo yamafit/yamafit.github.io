@@ -133,7 +133,8 @@ function factsFromProduct(p) {
   const e = p.evaluation || {};
   const pros = (e.pros || []).filter((x) => !/^不明|カテゴリ$|^[A-Z]+カテゴリ/.test(x));
   const feats = pros.slice(0, 6).map((x) => { const t = clean(x); const h = t.split(/[（(、。]/)[0].slice(0, 26); return { h, b: t === h ? "" : clip(t, 60) }; });
-  const add = (h, b) => { if (b && feats.length < 6 && !feats.some((x) => x.b.includes(b) || x.h.includes(h))) feats.push({ h, b }); };
+  const key = (t) => String(t).replace(/[\s,，、。約()（）]/g, "").slice(0, 10);
+  const add = (h, b) => { if (b && feats.length < 6 && !feats.some((x) => x.b.includes(b) || x.h.includes(h) || (x.h + x.b).includes(key(b)) || key(x.h).includes(key(b)))) feats.push({ h, b }); };
   add("重量", p.weight_g ? `約${p.weight_g.toLocaleString()}g${p.weight_note && !/^約?[\d,.]+\s?g/.test(p.weight_note) ? "（" + p.weight_note.replace(/[（）()]/g, "") + "）" : ""}` : "");
   add("素材", clip(p.material, 60));
   add("防水・撥水", p.waterproof || "");
