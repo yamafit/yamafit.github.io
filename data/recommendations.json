@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T21:20:42.322Z",
+  "updated": "2026-10-15T21:22:10.426Z",
   "season": "autumn",
   "categories": {
     "rain": [
@@ -11,7 +11,7 @@
       {
         "id": "marmot-chimera-ultimate-jacket-m",
         "source": "rule",
-        "reason": "秋の山行に合うため。耐水圧30,000mm以上、透湿性30,000g/㎡以上をうたう、3層の防水シェルジャケットです。"
+        "reason": "秋の山行に合うため。軽さと防水透湿性を両立した、3層の防水シェルジャケットです。"
       },
       {
         "id": "arcteryx-beta-sv-jacket-w",
@@ -89,9 +89,9 @@
     ],
     "tent": [
       {
-        "id": "coleman-2000034774",
+        "id": "coleman-2243845",
         "source": "rule",
-        "reason": "テント・寝具。パフォーマーⅢ／Ｃ５（オレンジ）の通販なら、コールマンの公式オンラインショップで！"
+        "reason": "テント・寝具。タフスピードドームの通販なら、コールマンの公式オンラインショップで！"
       },
       {
         "id": "nanga-drydrate-bag-430dx",
