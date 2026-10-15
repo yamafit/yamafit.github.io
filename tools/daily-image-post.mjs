@@ -392,7 +392,21 @@ async function waitContainer(id, tries, ms) {
 function videoFeatures(a, p) {
   const seen = new Set();
   const uniq = (list) => list.filter((x) => x.h && !seen.has(x.h) && seen.add(x.h)).slice(0, 5).map((x) => `${x.h}|${x.b === x.h ? "" : x.b}`);
-  if (a) return uniq(factsFromArticle(a, p).features.map((x) => ({ h: clip(String(x.h).replace(/[「」]/g, ""), 20), b: clip(clean(x.b || ""), 75) })));
+  // 説明文：見出しの繰り返し・「使った人の声では」などの前置きを外し、1文で読みやすく（途中で切るときは文の区切りで）
+  const vb = (h, b) => {
+    let t = clean(b || "").replace(/^.{0,30}?[：:]/, (m) => (h && m.replace(/[：:]$/, "").includes(h.slice(0, 6)) ? "" : m));
+    t = t.replace(/^(使った人の声|レビュー|口コミ)(では|で)[、,]?/, "").replace(/^(公式ページ|メーカー)(では|には|によると)[、,]?/, "").trim();
+    t = t.replace(/点[がは]、?複数の(メディア|レビュー|情報源)で(共通して)?(評価さ|挙げら)れています/g, "").replace(/、?(複数の)?(メディア|レビュー)で(共通して)?(評価さ|挙げら)れています/g, "");
+    const first = (t.split(/(?<=。)/)[0] || "").trim();
+    if (first.length <= 60) return first.replace(/。$/, "");
+    const c = first.slice(0, 60), i = Math.max(c.lastIndexOf("、"), c.lastIndexOf("。"));
+    return (i > 25 ? c.slice(0, i) : c).replace(/[、。]$/, "");
+  };
+  const fullB = (a, x) => { // 記事の特徴リスト（見出し：本文）から本文を取り直す
+    const li = ((a.sections || []).flatMap((s) => s.ul || [])).find((t) => String(t).startsWith(x.h));
+    return li ? String(li).slice(x.h.length).replace(/^[：:、]/, "") : x.b;
+  };
+  if (a) return uniq(factsFromArticle(a, p).features.map((x) => ({ h: clip(String(x.h).replace(/[「」]/g, ""), 20), b: vb(x.h, fullB(a, x)) })));
   // 商品だけのとき：評価のメリット（「〇〇で△△」は見出しと説明に分ける）＋重量・素材・防水
   const e = p.evaluation || {};
   const mat = String(p.material || "");
