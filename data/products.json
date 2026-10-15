@@ -48338,6 +48338,85 @@
    }
   },
   {
+   "id": "patagonia-nano-puff-jacket-m",
+   "category": "wear",
+   "brand": "パタゴニア",
+   "name": "ナノ・パフ・ジャケット",
+   "gender": "mens",
+   "spec": "DWR（耐久性撥水）加工／369g（メンズ）",
+   "price": 33550,
+   "capacity_l": null,
+   "weight_g": 369,
+   "weight_note": "メンズ",
+   "material": "表地・裏地：1.3オンスのリサイクル・ポリエステル100％リップストップ。中綿：60gプリマロフト・ゴールド・インサレーション・エコ（ポストコンシューマーリサイクル・ポリエステル100％）",
+   "waterproof": "DWR（耐久性撥水）加工",
+   "warmth": "化繊中綿 プリマロフト・ゴールド・インサレーション・エコ 60g",
+   "size_note": "XS〜3XL",
+   "season": [
+    "spring",
+    "autumn"
+   ],
+   "features": [
+    "化繊中綿（プリマロフト・ゴールド・インサレーション・エコ60g）",
+    "369gで、内側のチェストポケットに本体を収納できる",
+    "ジッパー式ハンドウォーマーポケット2つ",
+    "ドローコードで調節できるドロップテイルの裾"
+   ],
+   "cons": [
+    "防水ではなく、DWR撥水加工（雨具の代わりにはならない）",
+    "中綿60gで、厳冬期向けの厚い保温着ではない"
+   ],
+   "for_whom": "休憩時に羽織る保温着を探している人・シェルの下に着る中間着を探している人",
+   "not_for": "雨具を探している人・厳冬期の雪山で使う保温着を探している人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent",
+    "town"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "60gの化繊中綿を使った保温ジャケットです。",
+    "sweat": "中綿は化繊のプリマロフト・ゴールド・インサレーション・エコです。"
+   },
+   "default_reason": "60gの化繊中綿を使った、369gの保温ジャケットです。",
+   "fit": "レギュラー・フィット（公式表記）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "snowpeak-snp0126a0029",
    "category": "tent",
    "brand": "スノーピーク",

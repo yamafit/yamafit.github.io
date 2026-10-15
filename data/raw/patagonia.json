@@ -290,5 +290,18 @@
    "私のサイズは？"
   ],
   "checked_at": "2026-10-07"
+ },
+ "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwaf11483d/images/hi-res/84213_DRBN.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+  "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+  "category": "wear",
+  "name": "メンズ・ナノ・パフ・ジャケット",
+  "title": "メンズ・ナノ・パフ・ジャケット - パタゴニア公式オンラインショップ",
+  "price_min": 33550,
+  "price_max": 33550,
+  "checked_at": "2026-10-16"
  }
 }

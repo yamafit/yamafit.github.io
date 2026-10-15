@@ -520,6 +520,87 @@
      "light": "約105g（メンズ）と非常に軽いウインドブレーカーです。"
     }
    }
+  },
+  {
+   "id": "patagonia-nano-puff-jacket-m",
+   "brand": "パタゴニア",
+   "name": "ナノ・パフ・ジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 33550,
+   "weight_g": 369,
+   "weight_note": "メンズ",
+   "capacity_l": null,
+   "material": "表地・裏地：1.3オンスのリサイクル・ポリエステル100％リップストップ。中綿：60gプリマロフト・ゴールド・インサレーション・エコ（ポストコンシューマーリサイクル・ポリエステル100％）",
+   "waterproof": "DWR（耐久性撥水）加工",
+   "waterproof_level": "water_repellent",
+   "warmth": "化繊中綿 プリマロフト・ゴールド・インサレーション・エコ 60g",
+   "size_note": "XS〜3XL",
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwaf11483d/images/hi-res/84213_DRBN.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+    "checked_at": "2026-10-16",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-16",
+    "season": [
+     "spring",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut",
+     "tent",
+     "town"
+    ],
+    "concerns": [
+     "cold",
+     "sweat"
+    ],
+    "fit": "レギュラー・フィット（公式表記）",
+    "summary": "60gの化繊中綿を使った、369gの保温ジャケットです。",
+    "pros": [
+     "化繊中綿（プリマロフト・ゴールド・インサレーション・エコ60g）",
+     "369gで、内側のチェストポケットに本体を収納できる",
+     "ジッパー式ハンドウォーマーポケット2つ",
+     "ドローコードで調節できるドロップテイルの裾"
+    ],
+    "cons": [
+     "防水ではなく、DWR撥水加工（雨具の代わりにはならない）",
+     "中綿60gで、厳冬期向けの厚い保温着ではない"
+    ],
+    "good_for": [
+     "休憩時に羽織る保温着を探している人",
+     "シェルの下に着る中間着を探している人"
+    ],
+    "not_for": [
+     "雨具を探している人",
+     "厳冬期の雪山で使う保温着を探している人"
+    ],
+    "concern_reasons": {
+     "cold": "60gの化繊中綿を使った保温ジャケットです。",
+     "sweat": "中綿は化繊のプリマロフト・ゴールド・インサレーション・エコです。"
+    }
+   }
   }
  ]
 }

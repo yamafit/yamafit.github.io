@@ -169,5 +169,18 @@
   "day": 3,
   "slot": "shoes",
   "image": "img/articles/2026-10-15-caravan-grandking-gk85.jpg"
+ },
+ {
+  "slug": "2026-10-16-patagonia-nano-puff-jacket-m",
+  "title": "パタゴニア ナノ・パフ・ジャケット：濡れに強い369gの化繊保温着",
+  "category": "ウェア",
+  "date": "2026-10-16",
+  "desc": "パタゴニアの化繊保温着「メンズ・ナノ・パフ・ジャケット」を、秋山の休憩用の1枚として紹介。濡れや汗に強い中綿60g、369gで内ポケットに収納可。保温力やサイズ感の注意点も解説します。",
+  "cats": [
+   "wear"
+  ],
+  "week": "2026-10-12",
+  "day": 4,
+  "slot": "outer"
  }
 ]
