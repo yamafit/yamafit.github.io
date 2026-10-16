@@ -17439,6 +17439,75 @@
    }
   },
   {
+   "id": "karrimor-501205",
+   "category": "pack",
+   "brand": "カリマー",
+   "name": "ridge 40+",
+   "gender": "unisex",
+   "spec": "1460g（Mサイズ（公式記載。S 1,410g／L 1,520g））",
+   "price": 33550,
+   "capacity_l": 40,
+   "weight_g": 1460,
+   "weight_note": "Mサイズ（公式記載。S 1,410g／L 1,520g）",
+   "material": "210D 6X6 R/S NY（ナイロン100%）",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": "背面長 S 42cm／M 47cm／L 52cm",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "3Dバックパネルと立体構造のヒップベルト",
+    "背面長を3サイズから選べる",
+    "2気室構造と2段階に調整できる開口部",
+    "専用レインカバーが付属"
+   ],
+   "cons": [
+    "重量はMサイズで1,460g",
+    "素材表記は210Dナイロンのみ"
+   ],
+   "for_whom": "山小屋泊や1泊2日の縦走で荷物が増える人・2気室やポケットで荷物を整理したい人",
+   "not_for": "軽さを最優先したい人",
+   "terrain": [
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "背面とヒップベルトを再設計した、2気室・レインカバー付きの40L+ザック。",
+   "fit": "背面長はS 42cm／M 47cm／L 52cmの3サイズ（公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501205.html",
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501205.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-16"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "kavu-19822508",
    "category": "pants",
    "brand": "KAVU",

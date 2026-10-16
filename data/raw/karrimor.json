@@ -680,5 +680,20 @@
    "3シーズン対応のCRAFTEVO®AQUAX40D3L素材を採用(耐水圧30,000mm、透湿20,000g/m2/24h)"
   ],
   "checked_at": "2026-10-12"
+ },
+ "https://www.karrimor.jp/item/501205.html": {
+  "status": 200,
+  "price_text": [
+   "￥33,550 （税込）"
+  ],
+  "availability": [],
+  "image": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501205/501205-7610.jpg",
+  "url": "https://www.karrimor.jp/item/501205.html",
+  "category": "pack",
+  "name": "ridge 40+",
+  "title": "ridge 40+ | カリマー公式オンラインストア",
+  "price_min": 33550,
+  "price_max": 33550,
+  "checked_at": "2026-10-16"
  }
 }
