@@ -1,0 +1,13 @@
+name: Instagram投稿の削除（手動）
+on:
+  workflow_dispatch:
+    inputs:
+      media_id: { description: "削除する投稿のmedia_id", required: true }
+jobs:
+  del:
+    runs-on: ubuntu-latest
+    steps:
+      - env: { T: "${{ secrets.INSTAGRAM_ACCESS_TOKEN }}", M: "${{ github.event.inputs.media_id }}" }
+        run: |
+          r=$(curl -s -X DELETE "https://graph.instagram.com/v23.0/$M?access_token=$T")
+          echo "::notice::削除 $(echo "$r" | head -c 300)"
