@@ -140,7 +140,8 @@ function factsFromProduct(p) {
   add("防水・撥水", p.waterproof || "");
   add("容量", p.capacity_l ? p.capacity_l + "L" : "");
   add("保温", clip(p.warmth, 50));
-  return { target: GENDER_TXT[p.gender] || "", catch: clip(clean(e.summary || ""), 30), features: feats,
+  const sm = clean(e.summary || "").split("。")[0];
+  return { target: GENDER_TXT[p.gender] || "", catch: sm.length <= 32 ? sm : sm.slice(0, 32).replace(/[、,][^、,]*$/, ""), features: feats,
     cautions: (e.cons || []).filter((x) => !/^不明/.test(x)).slice(0, 3), goodFor: (e.good_for || []).slice(0, 2), ng: ngWords(p, [...(e.cons || []), ...(e.pros || []), e.summary || ""]) };
 }
 
