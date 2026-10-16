@@ -38,6 +38,17 @@ if mode == "morning":
 elif mode == "noon":
     picks = load("data/noon-picks.json", {})
     pick = picks.get(today)
+    # 作成者に送った参照シート（noon-ref の info.json）の商品を正とする。noon-picks と食い違っていたら合わせる
+    try:
+        import subprocess
+        subprocess.run(["git", "fetch", "-q", "origin", "+noon-ref:refs/remotes/origin/noon-ref"], check=False)
+        info = json.loads(subprocess.run(["git", "show", "origin/noon-ref:info.json"], capture_output=True, text=True).stdout or "{}")
+        if info.get("date") == today and info.get("id") and (not pick or pick.get("id") != info["id"]):
+            print("参照シートの商品に合わせます:", info["id"], "（noon-picks は", (pick or {}).get("id"), "）")
+            pick = {"id": info["id"], "cat": (pick or {}).get("cat", "")}
+            picks[today] = pick
+    except Exception as e:
+        print("参照シートの確認をとばしました:", e)
     if not pick: sys.exit("今日の昼の商品が決まっていません（data/noon-picks.json）")
     p = masters[pick["id"]]
     rel = f"img/products/{p['id']}.jpg"; to_jpeg(rel)
