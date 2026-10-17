@@ -1,13 +1,8 @@
 {
-  "updated": "2026-10-16T21:19:46.024Z",
+  "updated": "2026-10-17T21:15:49.199Z",
   "season": "autumn",
   "categories": {
     "rain": [
-      {
-        "id": "marmot-chimera-ultimate-jacket-m",
-        "source": "rule",
-        "reason": "秋の山行に合うため。軽さと防水透湿性を両立した、3層の防水シェルジャケットです。"
-      },
       {
         "id": "arcteryx-beta-sv-jacket-w",
         "source": "rule",
@@ -17,6 +12,11 @@
         "id": "patagonia-granite-crest-jacket-m",
         "source": "rule",
         "reason": "秋の山行に合うため。雨天のトレイルで1日中動きつづけるときに理想的と記載された、3層構造のシェルジャケットです。"
+      },
+      {
+        "id": "millet-miv10563",
+        "source": "rule",
+        "reason": "秋の山行に合うため。レインウェア・シェル。厳冬期登山からスキーツーリングまで、高い耐久性と防水透湿性を誇るマウンテニアリングジャケット。"
       }
     ],
     "wear": [
