@@ -17444,44 +17444,34 @@
    "brand": "カリマー",
    "name": "ridge 40+",
    "gender": "unisex",
-   "spec": "1460g（Mサイズ（公式記載。S 1,410g／L 1,520g））",
+   "spec": "ザック・バッグ。",
    "price": 33550,
-   "capacity_l": 40,
-   "weight_g": 1460,
-   "weight_note": "Mサイズ（公式記載。S 1,410g／L 1,520g）",
-   "material": "210D 6X6 R/S NY（ナイロン100%）",
+   "capacity_l": null,
+   "weight_g": null,
+   "weight_note": null,
+   "material": null,
    "waterproof": null,
    "warmth": null,
-   "size_note": "背面長 S 42cm／M 47cm／L 52cm",
+   "size_note": null,
    "season": [
     "spring",
-    "summer",
-    "autumn"
+    "autumn",
+    "summer"
    ],
    "features": [
-    "3Dバックパネルと立体構造のヒップベルト",
-    "背面長を3サイズから選べる",
-    "2気室構造と2段階に調整できる開口部",
-    "専用レインカバーが付属"
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
    "cons": [
-    "重量はMサイズで1,460g",
-    "素材表記は210Dナイロンのみ"
+    "不明（公式の記載から読み取れる弱点は限られます）"
    ],
-   "for_whom": "山小屋泊や1泊2日の縦走で荷物が増える人・2気室やポケットで荷物を整理したい人",
-   "not_for": "軽さを最優先したい人",
-   "terrain": [
-    "mid",
-    "hut"
-   ],
-   "uses": [
-    "mid",
-    "hut"
-   ],
+   "for_whom": "荷物を整理して背負いたい人",
+   "not_for": "",
+   "terrain": [],
+   "uses": [],
    "concerns": [],
    "reasons": {},
-   "default_reason": "背面とヒップベルトを再設計した、2気室・レインカバー付きの40L+ザック。",
-   "fit": "背面長はS 42cm／M 47cm／L 52cmの3サイズ（公式記載）",
+   "default_reason": "ザック・バッグ。",
+   "fit": "不明（公式にサイズ感の記載なし）",
    "image": "",
    "ai_image": "img/articles/2026-10-17-karrimor-501205.jpg",
    "ai_article": "2026-10-17-karrimor-501205",
