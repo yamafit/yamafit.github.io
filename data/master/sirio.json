@@ -1,0 +1,80 @@
+{
+ "brand": "シリオ",
+ "products": [
+  {
+   "id": "sirio-pf46-4",
+   "brand": "シリオ",
+   "name": "P.F.46-4",
+   "category": "boots",
+   "gender": "unisex",
+   "price": 30800,
+   "weight_g": 600,
+   "weight_note": "約600g（26.0cm・片足。公式記載）",
+   "capacity_l": null,
+   "material": "撥水加工済みアラミド繊維（デュポン™ ケブラー®）、撥水加工済みナイロン、TPUリブゲージ。ソール：シリオ・VIBRAM® ŌKAMI（張替え可）、シャンク：プラスチックソフトA",
+   "waterproof": null,
+   "waterproof_level": "water_repellent",
+   "warmth": null,
+   "size_note": "22.5〜29.0cm（ワイズ3E+）",
+   "sources": [
+    {
+     "url": "https://www.sirio.co.jp/catalog.pdf",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "image": {
+    "url": "https://cdnimg.gsmall.jp/res/up/kojitusanso/shp/1201a1/PF46-4_0000/1.jpg",
+    "angle": "main",
+    "src_page": "https://www.sirio.co.jp/catalog.pdf",
+    "checked_at": "2026-10-18",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.sirio.co.jp/catalog.pdf",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-18",
+    "season": [],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "ワイズ3E+（公式記載）",
+    "summary": "初級から中級向けとされる、ワイズ3E+で片足約600g（26.0cm）のライトトレッキングブーツです。",
+    "pros": [
+     "ワイズ3E+の幅広設計",
+     "片足約600g（26.0cm）と軽量",
+     "フレックスプレート内蔵の3Dアンクルパッド",
+     "フロントロングバンパー、ヒールバンパー、マッドガードで補強",
+     "シリオ・VIBRAM® ŌKAMIソール（張替え可）"
+    ],
+    "cons": [
+     "公式仕様に防水メンブレンの記載がない（アッパーは撥水加工）",
+     "シャンクはプラスチックソフトAで、初級〜中級向けの位置づけ",
+     "カラーはブラックのみ"
+    ],
+    "good_for": [
+     "足幅が広く、幅広の登山靴を探している人",
+     "日帰りの低山〜中級山岳でハイカットの靴を使いたい人"
+    ],
+    "not_for": [
+     "重い荷物を背負う縦走が中心の人",
+     "公式仕様で防水メンブレンを確認できる靴を選びたい人"
+    ],
+    "concern_reasons": {
+     "light": "片足約600g（26.0cm。公式記載）"
+    }
+   }
+  }
+ ]
+}
