@@ -46187,6 +46187,610 @@
    }
   },
   {
+   "id": "montbell-1102575",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "パウダーショット パーカ Men's",
+   "gender": "mens",
+   "spec": "ゴアテックス ファブリクス3レイヤー／449g（平均重量）",
+   "price": 52000,
+   "capacity_l": null,
+   "weight_g": 449,
+   "weight_note": "平均重量",
+   "material": "ゴアテックス ファブリクス3レイヤー［表：70デニール・アンチグリース・バリスティックナイロン・タフタ］",
+   "waterproof": "ゴアテックス ファブリクス3レイヤー",
+   "warmth": null,
+   "size_note": "XS〜XL",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "ゴアテックス ファブリクス3レイヤーで、蒸れを外へ逃がすと記載",
+    "平均重量449gと、今回のスノー用ジャケットで最も軽い部類",
+    "滑り止め付きパウダースカート、左袖のリフト券ポケット",
+    "ジャケット内のこもりを逃がすエアレーションシステム"
+   ],
+   "cons": [
+    "中綿がないので、寒い日は中間着の重ね着が必要",
+    "価格が5万円台と高め"
+   ],
+   "for_whom": "ハイクアップや運動量の多い滑りで、蒸れを抑えたい人・中間着で暖かさを調節したい人",
+   "not_for": "1枚で暖かさまで済ませたい人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "reasons": {
+    "sweat": "ゴアテックス ファブリクスが衣服内の蒸れを外へ逃がすと記載されています。",
+    "light": "平均重量449gと、スノー用ジャケットとしては軽めです。"
+   },
+   "default_reason": "ゴアテックス3レイヤーの一枚地で、運動量の多い滑りや冬山での行動に向くスノー用シェルです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102575",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102575",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102576",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "パウダーグライド パーカ Men's",
+   "gender": "mens",
+   "spec": "ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー／574g（平均重量）",
+   "price": 34100,
+   "capacity_l": null,
+   "weight_g": 574,
+   "weight_note": "平均重量",
+   "material": "表地：ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー［表：50デニール・アンチグリース・ポリエステル］／裏地：20デニール・バリスティックナイロン・タフタ［帯電防止加工］／保温材：エクセロフト［ポリエステル］",
+   "waterproof": "ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー",
+   "warmth": "保温材：エクセロフト（フードを含む全面に封入）",
+   "size_note": "S〜XXL",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "濡れても保温性を保つエクセロフトを、フードを含む全面に封入",
+    "風の侵入を防ぎ、汗の水蒸気を外へ逃がすと記載",
+    "滑り止め付きパウダースカート、左袖のリフト券ポケット",
+    "同じシリーズのパウダーグライド パンツと上下でそろえられる"
+   ],
+   "cons": [
+    "平均重量574gと、一枚地のシェルより重い",
+    "ピットジップの記載はない"
+   ],
+   "for_whom": "ゲレンデ中心で、寒さに強い1着が欲しい人・リフトで待つ時間が長い人",
+   "not_for": "ハイクアップなど汗をかく動きが多い人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "濡れても保温性を保つエクセロフトを全面に封入していると記載されています。"
+   },
+   "default_reason": "防水透湿性と保温材エクセロフトを組み合わせた、スキーやスノーボードで1枚で着やすい中綿入りパーカです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102576",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102576",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102582",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "パウダートラック パーカ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック3レイヤー／558g（平均重量）",
+   "price": 38000,
+   "capacity_l": null,
+   "weight_g": 558,
+   "weight_note": "平均重量",
+   "material": "スーパー ドライテック3レイヤー［表：40デニール・アンチグリース・ナイロン・タフタ］",
+   "waterproof": "スーパー ドライテック3レイヤー",
+   "warmth": null,
+   "size_note": "S〜XL",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "1WAYストレッチでソフトな風合いと記載",
+    "ピットジップでウエア内の熱気を逃がせる",
+    "滑り止め付きパウダースカート、左袖のリフト券ポケット",
+    "パウダートラック ビブと上下でそろえられる"
+   ],
+   "cons": [
+    "中綿がないので、寒い日は中間着が必要",
+    "平均重量558gと、同じ一枚地のパウダーショットより重い"
+   ],
+   "for_whom": "動きやすさを重視する人・中間着を変えて、初冬から春まで長く使いたい人",
+   "not_for": "1枚で暖かさまで済ませたい人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "ピットジップとエアレーションシステムで、ウエア内の熱気を逃がせます。"
+   },
+   "default_reason": "ストレッチ性のあるスーパー ドライテック3レイヤーの一枚地で、動きやすさとピットジップを備えたスノー用シェルです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102582",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102582",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1106790",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "パウダーシェッド パーカ Men's",
+   "gender": "mens",
+   "spec": "614g（平均重量）",
+   "price": 24000,
+   "capacity_l": null,
+   "weight_g": 614,
+   "weight_note": "平均重量",
+   "material": "クリマバリア［表地：ナイロン83%＋ポリウレタン17%〈はっ水加工〉／裏地：ポリエステル］",
+   "waterproof": null,
+   "warmth": "クリマバリア（防風・保温）",
+   "size_note": "S〜XXL",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "高い防風性と保温性を備えると記載",
+    "ヘルメットの上からも被れるフード",
+    "ピットジップで熱気を逃がせる",
+    "スノー用ジャケットの中では価格が手ごろ（2万円台）"
+   ],
+   "cons": [
+    "防水透湿素材の記載はない（表地ははっ水加工）",
+    "パウダースカートの記載はない"
+   ],
+   "for_whom": "晴れた日のゲレンデで、動きやすい1着が欲しい人・予算を抑えたい人",
+   "not_for": "雪や雨が強い日も着たい人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "budget"
+   ],
+   "reasons": {
+    "budget": "2万円台で、ヘルメット対応フードやピットジップを備えています。"
+   },
+   "default_reason": "防風性と保温性のあるクリマバリアを使った、スノースポーツ向けにゆとりと長めの着丈を持たせたパーカです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1106790",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1106790",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102551",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "シャルモパーカ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック2レイヤー／698g（平均重量）",
+   "price": 30250,
+   "capacity_l": null,
+   "weight_g": 698,
+   "weight_note": "平均重量",
+   "material": "表地：スーパー ドライテック2レイヤー［表：75デニール・アンチグリース・ポリエステル・タフタ］／裏地：30デニール・ポリエステル・タフタ／保温材（身頃、袖）：シンサレート",
+   "waterproof": "スーパー ドライテック2レイヤー",
+   "warmth": "保温材（身頃、袖）：シンサレート",
+   "size_note": "S〜XXL、M-R・L-R（ゆったり幅）",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "薄手でも保温力のあるシンサレートを封入と記載",
+    "ピットジップとパウダースカート",
+    "ゆったり幅（M-R・L-R）のサイズ展開",
+    "3万円台で防水透湿素材と中綿を両立"
+   ],
+   "cons": [
+    "平均重量698gと、今回のジャケットで最も重い",
+    "左袖のリフト券ポケットの記載はない"
+   ],
+   "for_whom": "冬山登山とスノーボードを1着で兼ねたい人・体格に合わせてゆったり幅を選びたい人",
+   "not_for": "軽さを重視する人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "薄手でも保温力のあるシンサレートを全面に封入していると記載されています。"
+   },
+   "default_reason": "スーパー ドライテックの表地とシンサレートの中綿を組み合わせた、冬山からスノースポーツまで使える中綿入りパーカです。",
+   "fit": "ゆったり幅の展開あり",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102551",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102551",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1106723",
+   "category": "wear",
+   "brand": "モンベル",
+   "name": "クリマバリア パーカ Men's",
+   "gender": "mens",
+   "spec": "447g（平均重量）",
+   "price": 21120,
+   "capacity_l": null,
+   "weight_g": 447,
+   "weight_note": "平均重量",
+   "material": "クリマバリア［表地：ポリエステル〈はっ水加工〉／裏地：ポリエステル］",
+   "waterproof": null,
+   "warmth": "クリマバリア（防風・保温）",
+   "size_note": "S〜XXL",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "高い防風性と保温性を備えると記載",
+    "柔らかくストレッチ性の高い生地",
+    "ピットジップで熱気を逃がせる",
+    "2万円台前半と手ごろ"
+   ],
+   "cons": [
+    "縫い目に防水処理は施していないと公式に記載",
+    "パウダースカートやリフト券ポケットの記載はない"
+   ],
+   "for_whom": "晴れた日の滑りや、インナー寄りの防寒着として使いたい人",
+   "not_for": "雪の多い日にアウター1枚で滑りたい人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "budget"
+   ],
+   "reasons": {
+    "budget": "2万円台前半で、防風・保温性のあるパーカです。"
+   },
+   "default_reason": "防風性と保温性のあるクリマバリアの、柔らかくストレッチ性の高いパーカです（縫い目の防水処理はなし）。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1106723",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1106723",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102560",
+   "category": "pants",
+   "brand": "モンベル",
+   "name": "ドライテック インシュレーテッド アルパインパンツ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック2レイヤー／532g（平均重量）",
+   "price": 24200,
+   "capacity_l": null,
+   "weight_g": 532,
+   "weight_note": "平均重量",
+   "material": "表地：スーパー ドライテック2レイヤー［表：75デニール・アンチグリース・ポリエステル・タフタ］［エッジガード：1260デニール・バリスティックナイロン］／裏地：30デニール・ポリエステル・タフタ／保温材：シンサレート",
+   "waterproof": "スーパー ドライテック2レイヤー",
+   "warmth": "保温材：シンサレート（お尻と膝）",
+   "size_note": "S〜XXL＋ショート丈・ロング丈",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "座ることの多いお尻と膝に保温材を封入と記載",
+    "裾のジッパーで裾幅を調節でき、スノーボードまで対応と記載",
+    "エッジガードとインナースパッツ",
+    "ショート丈・ロング丈の展開"
+   ],
+   "cons": [
+    "保温材はお尻と膝だけで、全体ではない",
+    "ビブではないため、胸まで雪を防ぐ形ではない"
+   ],
+   "for_whom": "雪の上に座ることが多いスノーボーダー・冬山登山とスノーボードを兼ねたい人",
+   "not_for": "脚全体を暖かくしたい人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "お尻と膝に薄手で保温力のあるシンサレートを封入していると記載されています。"
+   },
+   "default_reason": "雪面に触れやすいお尻と膝にシンサレートを入れた、登山靴にもスキーブーツにも合わせられるパンツです。",
+   "fit": "ショート丈・ロング丈の展開あり",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102560",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102560",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102585",
+   "category": "pants",
+   "brand": "モンベル",
+   "name": "パウダーグライド パンツ Men's",
+   "gender": "mens",
+   "spec": "ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー／539g（平均重量）",
+   "price": 27500,
+   "capacity_l": null,
+   "weight_g": 539,
+   "weight_note": "平均重量",
+   "material": "表地：ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー［表：50デニール・アンチグリース・ポリエステル］［エッジガード：1260デニール・バリスティックナイロン］／裏地身頃：20デニール・ナイロン・タフタ／保温材：シンサレート",
+   "waterproof": "ウィンドストッパー ファブリクス バイ ゴアテックス ラボ2レイヤー",
+   "warmth": "保温材：シンサレート",
+   "size_note": "S〜XXL＋ショート丈・ロング丈",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "風の侵入を防ぎ、汗の水蒸気を外へ逃がすと記載",
+    "薄手で保温性のあるシンサレートを使用",
+    "サイドベンチレーション（片開き）とエッジガード",
+    "パウダーグライド パーカと上下でそろえられる"
+   ],
+   "cons": [
+    "ビブではないため、胸まで雪を防ぐ形ではない"
+   ],
+   "for_whom": "ゲレンデ中心で暖かいパンツが欲しい人",
+   "not_for": "汗をかく動きが多く、一枚地を好む人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温材にシンサレートを使った中綿入りのパンツです。"
+   },
+   "default_reason": "ウィンドストッパー ファブリクスとシンサレートを組み合わせた、スキーやスノーボード向けの中綿入りパンツです。",
+   "fit": "ショート丈・ロング丈の展開あり",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102585",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102585",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "montbell-1102591",
+   "category": "pants",
+   "brand": "モンベル",
+   "name": "パウダートラック ビブ Men's",
+   "gender": "mens",
+   "spec": "スーパー ドライテック3レイヤー／644g（平均重量）",
+   "price": 30800,
+   "capacity_l": null,
+   "weight_g": 644,
+   "weight_note": "平均重量",
+   "material": "表地：スーパー ドライテック3レイヤー［表：70デニール・アンチグリース・ナイロン・タフタ］［エッジガード：1260デニール・バリスティックナイロン］",
+   "waterproof": "スーパー ドライテック3レイヤー",
+   "warmth": null,
+   "size_note": "S〜XXL＋ショート丈・ロング丈",
+   "season": [
+    "winter"
+   ],
+   "features": [
+    "胸の高さまで覆うので、転んだときや深い雪で雪が入りにくい形",
+    "1カ所のバックルでサスペンダーの長さを調節できる",
+    "サイドベンチレーション、エッジガード、インナースパッツ",
+    "ショート丈・ロング丈の展開"
+   ],
+   "cons": [
+    "中綿がないので、寒い日は下にタイツなどの重ね着が必要",
+    "トイレのときはパンツより手間がかかる"
+   ],
+   "for_whom": "パウダーや転倒が多く、雪の侵入を防ぎたい人・パウダートラック パーカと上下でそろえたい人",
+   "not_for": "脱ぎ着の手軽さを重視する人",
+   "terrain": [],
+   "uses": [
+    "winter"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "透湿性とストレッチ性に優れたスーパー ドライテックを採用と記載されています。"
+   },
+   "default_reason": "胸の高さまで覆うデザインで、ストレッチ性のあるスーパー ドライテック3レイヤーを使ったスノー用ビブです。",
+   "fit": "ショート丈・ロング丈の展開あり",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102591",
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1102591",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "nanga-aurora-tex-light-380dx",
    "category": "tent",
    "brand": "ナンガ",

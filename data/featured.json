@@ -41,6 +41,32 @@
      "image": "https://cdn.shopify.com/s/files/1/0507/4357/4723/files/F26_X000010705_002301_Aerios_35_Backpack_Nucleus_Neutral_REG_Front-View_Lowres.webp?v=1787816168"
     }
    ]
+  },
+  {
+   "from": "2026-10-25",
+   "title": "モンベル スノーボードウエア特集",
+   "until": "2027-01-31",
+   "page": "tokushu/montbell-snow.html",
+   "items": [
+    {
+     "id": "montbell-1102576",
+     "label": "中綿入りジャケット",
+     "comment": "濡れても保温性を保つエクセロフトをフードまで全面に封入。風を防いで蒸れを逃がすので、ゲレンデで1枚で暖かく滑りたい人に。同じシリーズのパンツと上下でそろえられます。",
+     "image": "img/feature/montbell-snow/1102576.jpg"
+    },
+    {
+     "id": "montbell-1102582",
+     "label": "一枚地シェル",
+     "comment": "ストレッチ性のあるスーパー ドライテック3レイヤーの一枚地。ピットジップと滑り止め付きパウダースカート付きで、中に着るもので暖かさを調節しながら長いシーズン使えます。",
+     "image": "img/feature/montbell-snow/1102582.jpg"
+    },
+    {
+     "id": "montbell-1102591",
+     "label": "ビブ",
+     "comment": "胸の高さまで覆うビブなので、転んだときや深い雪でも雪が入りにくい形。エッジガードとインナースパッツ付きで、ショート丈・ロング丈も選べます。",
+     "image": "img/feature/montbell-snow/1102591.jpg"
+    }
+   ]
   }
  ]
 }

@@ -125,7 +125,7 @@ ${c.bottom}`);
 }
 
 // sitemap / robots
-const pages = ["index.html", "articles.html", "weekly.html", "news.html", "about.html", "contact.html", "privacy.html", "products.html", ...JSON.parse(fs.readFileSync("data/product-pages.json", "utf8")).map((id) => `products/${id}.html`), ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
+const pages = ["index.html", "articles.html", "weekly.html", "news.html", "about.html", "contact.html", "privacy.html", "products.html", ...(fs.existsSync("tokushu") ? fs.readdirSync("tokushu").filter((f) => f.endsWith(".html")).map((f) => `tokushu/${f}`) : []), ...JSON.parse(fs.readFileSync("data/product-pages.json", "utf8")).map((id) => `products/${id}.html`), ...ARTICLES.map((a) => `articles/${a.slug}.html`), ...["boots", "pack", "poles", "rain", "wear", "pants", "tent"].map((k) => `category.html?c=${k}`)];
 if (SITE_URL) {
   fs.writeFileSync("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${pages.map((p) => `  <url><loc>${SITE_URL}${p === "index.html" ? "" : p}</loc></url>`).join("\n")}\n</urlset>\n`);
   fs.writeFileSync("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${SITE_URL}sitemap.xml\n`);
