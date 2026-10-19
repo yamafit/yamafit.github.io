@@ -132,16 +132,16 @@ function factsFromArticle(a, p) {
 function factsFromProduct(p) {
   const e = p.evaluation || {};
   const pros = (e.pros || []).filter((x) => !/^不明|カテゴリ$|^[A-Z]+カテゴリ/.test(x));
-  const feats = pros.slice(0, 6).map((x) => { const t = clean(x); const h = t.split(/[（(、。]/)[0].slice(0, 26); return { h, b: t === h ? "" : clip(t, 60) }; });
+  const feats = pros.slice(0, 6).map((x) => { const t = clean(x); if (t.length <= 40) return { h: t, b: "" }; const h = t.split(/[（(、。]/)[0].slice(0, 26); return { h, b: t === h ? "" : clip(t, 60) }; });
   const key = (t) => String(t).replace(/[\s,，、。約()（）]/g, "").slice(0, 10);
   const add = (h, b) => { if (b && feats.length < 6 && !feats.some((x) => x.b.includes(b) || x.h.includes(h) || (x.h + x.b).includes(key(b)) || key(x.h).includes(key(b)))) feats.push({ h, b }); };
   add("重量", p.weight_g ? `約${p.weight_g.toLocaleString()}g${p.weight_note && !/^約?[\d,.]+\s?g/.test(p.weight_note) ? "（" + p.weight_note.replace(/[（）()]/g, "") + "）" : ""}` : "");
-  add("素材", clip(p.material, 60));
+  if (!pros.some((x) => /素材|生地|ナイロン|ポリエステル|ダイニーマ|ゴアテックス|GORE/i.test(x))) add("素材", clip(p.material, 60));
   add("防水・撥水", p.waterproof || "");
   add("容量", p.capacity_l ? p.capacity_l + "L" : "");
   add("保温", clip(p.warmth, 50));
   const sm = clean(e.summary || "").split("。")[0];
-  return { target: GENDER_TXT[p.gender] || "", catch: sm.length <= 32 ? sm : sm.slice(0, 32).replace(/[、,][^、,]*$/, ""), features: feats,
+  return { target: GENDER_TXT[p.gender] || "", catch: (() => { const nd = (x) => x.replace(/(です|ます)$/, ""); const c = [sm, sm.split("、").pop()].map(nd).find((x) => x.length <= 32); return c || nd(sm).slice(0, 32).replace(/[、,][^、,]*$/, ""); })(), features: feats,
     cautions: (e.cons || []).filter((x) => !/^不明/.test(x)).slice(0, 3), goodFor: (e.good_for || []).slice(0, 2), ng: ngWords(p, [...(e.cons || []), ...(e.pros || []), e.summary || ""]) };
 }
 
