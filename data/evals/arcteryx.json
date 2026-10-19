@@ -7448,5 +7448,99 @@
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
   }
+ },
+ {
+  "key": "/products/norvan-softshell-jacket-w",
+  "id": "norvan-softshell-jacket-w",
+  "name": "ノーバン ソフトシェル ジャケット ウィメンズ",
+  "gender": "womens",
+  "category": "wear",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "素材のサーモマッピングにより、最適なバランスで保温性と通気性を両立",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ウェア。一年中、山で走りたくなるハイブリッドデザインのソフトシェルジャケット。",
+   "pros": [
+    "保温：素材のサーモマッピングにより、最適なバランスで保温性と通気性を両立",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "価格が5万円台と高め"
+   ],
+   "good_for": [
+    "季節に合わせて重ね着をしたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "cold": "保温材やフリースなど、保温を目的とした素材が記載されています。",
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/norvan-softshell-pant-w",
+  "id": "norvan-softshell-pant-w",
+  "name": "ノーバン ソフトシェル パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "サーモマッピングを採用した素材が、最適なバランスで保温性と通気性を両立し、寒い山でも思いっきり走ることができます",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。一年中、山で走りたくなるハイブリッドデザインのソフトシェルパンツ。",
+   "pros": [
+    "保温：サーモマッピングを採用した素材が、最適なバランスで保温性と通気性を両立し、寒い山",
+    "コンパクトに収納できると記載"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
  }
 ]
