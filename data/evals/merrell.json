@@ -1,0 +1,44 @@
+[
+ {
+  "id": "moab-3-mid-gore-tex-w",
+  "name": "モアブ 3 ミッド ゴアテックス ウィメンズ",
+  "gender": "womens",
+  "category": "boots",
+  "price": 25300,
+  "in_stock_unknown": true,
+  "weight_g": 400,
+  "weight_note": "約400g（24.0cm・片足。公式記載）",
+  "capacity_l": null,
+  "material": "アッパー：撥水ピッグスキンレザー、メッシュ。ミッドソール：EVA、メレル エアークッション。アウトソール：Vibram TC5+（ラグ5mm）。ナイロンシャンク",
+  "waterproof": "GORE-TEXメンブレン",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [],
+   "uses": [
+    "low"
+   ],
+   "concerns": [],
+   "fit": "",
+   "summary": "GORE-TEXメンブレンとベローズタンを備えた、女性向けの防水ミッドカットのハイキングシューズです。",
+   "pros": [
+    "GORE-TEXメンブレンで防水",
+    "ベローズタンで水や小石が入りにくい",
+    "Vibram TC5+アウトソール（ラグ5mm）",
+    "踵にメレル エアークッション"
+   ],
+   "cons": [
+    "2026年8月入荷分から一部仕様変更あり（公式記載）"
+   ],
+   "good_for": [
+    "日帰りの低山・里山ハイクで防水のミッドカットを使いたい女性"
+   ],
+   "not_for": [
+    "重い荷物を背負う縦走が中心の人"
+   ],
+   "concern_reasons": {}
+  },
+  "key": "https://merrell.jp/products/womens_moab-3-mid-gore-tex"
+ }
+]

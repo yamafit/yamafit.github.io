@@ -252,5 +252,18 @@
   "day": 2,
   "slot": "outer",
   "image": "img/articles/2026-10-21-arcteryx-atom-hoody-m.jpg"
+ },
+ {
+  "slug": "2026-10-22-merrell-moab-3-mid-gore-tex-w",
+  "title": "メレル モアブ 3 ミッド GTX：雨上がりのぬかるみ道に、女性向け防水ミッド",
+  "category": "登山靴",
+  "date": "2026-10-22",
+  "desc": "雨上がりのぬかるみや濡れた落ち葉の道に。GORE-TEXとベローズタンで水や小石が入りにくい、メレルの女性向け防水ミッド「モアブ 3 ミッド ゴアテックス」の長所と注意点を紹介します。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-10-19",
+  "day": 3,
+  "slot": "shoes"
  }
 ]
