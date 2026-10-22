@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T21:21:35.402Z",
+  "updated": "2026-10-22T21:22:42.990Z",
   "season": "autumn",
   "categories": {
     "rain": [
@@ -55,14 +55,14 @@
     ],
     "boots": [
       {
-        "id": "montbell-1129765",
-        "source": "rule",
-        "reason": "秋の山行に合うため。軽量で、低山ハイキングやキャンプに向く、ゴアテックスの全天候型シューズです。"
-      },
-      {
         "id": "mammut-sertig-3-mid-gtx-m",
         "source": "rule",
         "reason": "秋の山行に合うため。軽量で快適性と防水性に優れた、日帰りハイキング向けのミッドカットシューズです。"
+      },
+      {
+        "id": "montbell-1129743",
+        "source": "rule",
+        "reason": "秋の山行に合うため。夏場の長期縦走やトレッキングに向く、全天候型のゴアテックスブーツです。"
       },
       {
         "id": "caravan-grandking-gk85",
