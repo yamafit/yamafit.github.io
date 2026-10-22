@@ -266,5 +266,18 @@
   "day": 3,
   "slot": "shoes",
   "image": "img/articles/2026-10-22-merrell-moab-3-mid-gore-tex-w.jpg"
+ },
+ {
+  "slug": "2026-10-23-marmot-able-down-jacket-750fp-m",
+  "title": "マーモット 750FPエイブルダウン：朝の冷えに備える302gダウン",
+  "category": "ウェア",
+  "date": "2026-10-23",
+  "desc": "晩秋の山の朝の冷えに備える、マーモット「750FP Able Down Jacket」を紹介。Lサイズ302gの軽さ、750FP撥水ダウンと防風ナイロンの特徴、防水ではない点など購入前の注意点もまとめました。",
+  "cats": [
+   "wear"
+  ],
+  "week": "2026-10-19",
+  "day": 4,
+  "slot": "outer"
  }
 ]
