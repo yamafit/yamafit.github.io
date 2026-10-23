@@ -1,0 +1,50 @@
+[
+ {
+  "id": "kestrel-38",
+  "name": "ケストレル38",
+  "gender": "mens",
+  "category": "pack",
+  "price": 34100,
+  "in_stock_unknown": true,
+  "weight_g": 1920,
+  "weight_note": "L/XL（S/Mは1.84kg）公式記載",
+  "capacity_l": 38,
+  "material": "メイン：bluesign認証420Dリサイクルナイロン（PFASフリーDWR）、ボトム：bluesign認証500Dリサイクル高強度ナイロン（PFASフリーDWR）",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": "S/M（36L・背面長43〜53cm）・L/XL（38L・背面長48〜58cm）の2サイズ",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": "2サイズ展開で、背面長を調整できるエアスケープバックパネル（S/M 43〜53cm、L/XL 48〜58cm）",
+   "summary": "本体420D・底500Dのリサイクルナイロンを使い、1・2気室切り替えとレインカバーを備えた36〜38Lのザック。",
+   "pros": [
+    "背面長を調整できるエアスケープバックパネル（公式記載）",
+    "1・2気室切り替えとサイドアクセスジッパー（公式記載）",
+    "アイスアックスアタッチメント×2とトレッキングポールの一時固定（公式記載）",
+    "レインカバー標準装備、ヒップベルトジッパーポケット×2（公式記載）"
+   ],
+   "cons": [
+    "重量 1.92kg（L/XL）と重め"
+   ],
+   "good_for": [
+    "山小屋1泊や荷物の多い日帰り登山をする人",
+    "ピッケルやポールを外付けしたい人"
+   ],
+   "not_for": [
+    "軽さを最優先する人"
+   ],
+   "concern_reasons": {}
+  },
+  "key": "https://www.bluesheep.co.jp/store/g/gOS50383003006/"
+ }
+]
