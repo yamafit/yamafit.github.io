@@ -10,8 +10,8 @@ const loadProducts = () => (productsPromise ||= fetch(SITE_BASE + "data/products
 let overlay = null, lastFocus = null;
 function close() { if (!overlay) return; overlay.hidden = true; document.body.style.overflow = ""; if (lastFocus) lastFocus.focus(); }
 
-const SHOP_LABEL = { official: "公式サイト", amazon: "Amazon", rakuten: "楽天市場", yahoo: "Yahoo!ショッピング" };
-const SHOP_ORDER = { amazon: 0, rakuten: 1, yahoo: 2, official: 3 };
+const SHOP_LABEL = { official: "公式サイト", amazon: "Amazon", rakuten: "楽天市場", yahoo: "Yahoo!ショッピング", himaraya: "ヒマラヤ", alpen: "アルペン" };
+const SHOP_ORDER = { amazon: 0, rakuten: 1, yahoo: 2, himaraya: 3, alpen: 4, official: 5 };
 const arrowS = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>';
 // 写真：今週の7選で作ったAIの写真（ai_image）を優先。無ければ公式画像（許可が出たときだけ products.json に入る）
 const imgSrc = (p) => (p.ai_image ? SITE_BASE + p.ai_image : p.image || "");
@@ -27,6 +27,16 @@ function rankOffers(p) {
     const q = encodeURIComponent(`${p.brand} ${p.name}`.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス)\s*/g, " ").trim());
     const dest = `https://search.rakuten.co.jp/search/mall/${q}/`;
     offers.push({ shop: "rakuten", url: dest, affiliate_url: SITE.rakutenLink(dest), in_stock: null });
+  }
+  // ヒマラヤ・アルペン：その商品名で各公式通販を検索するアフィリエイトリンク（A8.net経由）
+  const kw = `${p.brand} ${p.name}`.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス)\s*/g, " ").trim();
+  if (SITE.himarayaLink && !offers.some((o) => o.shop === "himaraya")) {
+    const dest = "https://www.himaraya.co.jp/search?q=" + encodeURIComponent(kw).replace(/%20/g, "+");
+    offers.push({ shop: "himaraya", url: dest, affiliate_url: SITE.himarayaLink(dest), in_stock: null });
+  }
+  if (SITE.alpenLink && !offers.some((o) => o.shop === "alpen")) {
+    const dest = "https://store.alpen-group.jp/Form/Product/ProductList.aspx?swrd=" + encodeURIComponent(kw).replace(/%20/g, "+");
+    offers.push({ shop: "alpen", url: dest, affiliate_url: SITE.alpenLink(dest), in_stock: null });
   }
   return offers.sort((a, b) => state(a) - state(b) || (SHOP_ORDER[a.shop] ?? 9) - (SHOP_ORDER[b.shop] ?? 9));
 }

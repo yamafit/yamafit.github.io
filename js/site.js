@@ -11,6 +11,9 @@ const SITE = {
     const hb = "http://hb.afl.rakuten.co.jp/hgc/0ea62065.34400275.0ea62066.204f04c0/a26101169271_4BEE10_169SQA_2HOM_BW8O1?pc=" + pc + "&m=" + pc;
     return "https://rpx.a8.net/svt/ejp?a8mat=4BEE10+169SQA+2HOM+BW8O1&rakuten=y&a8ejpredirect=" + encodeURIComponent(hb);
   },
+  // ヒマラヤ・アルペン（A8.net経由）。飛び先は各公式通販サイト内のページだけ（プログラムの規約）
+  himarayaLink: (dest) => "https://px.a8.net/svt/ejp?a8mat=4BEE11+9E68DU+575I+BW8O2&a8ejpredirect=" + encodeURIComponent(dest),
+  alpenLink: (dest) => "https://px.a8.net/svt/ejp?a8mat=4BEET5+EXMG1E+3OSK+BW8O2&a8ejpredirect=" + encodeURIComponent(dest),
   instagramUrl: "https://www.instagram.com/yama_fit2026/", // InstagramのアカウントURL（空の間は導線を出さない）
   contactFormEmbed: "https://docs.google.com/forms/d/e/1FAIpQLSfvFy4hSFQVu8UjpPLeIzHWq9-jfRqji3tfP2HuQbCtkdDalw/viewform?embedded=true", // Googleフォームの「埋め込み」URL（https://docs.google.com/forms/d/e/…/viewform?embedded=true）。どちらか一方でOK
 };
