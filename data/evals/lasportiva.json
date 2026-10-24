@@ -1,0 +1,49 @@
+[
+ {
+  "id": "tx5-evo-mid-gtx",
+  "name": "TX5 エボ ミッド GTX",
+  "gender": "mens",
+  "category": "boots",
+  "price": 40700,
+  "in_stock_unknown": true,
+  "weight_g": 530,
+  "weight_note": "530g（1/2ペア。公式記載）",
+  "capacity_l": null,
+  "material": "アッパー：ヌバックレザー、ライニング：GORE-TEX ePE Extended Comfort、インソール：Ortholite Hybrid Mountain Hiking 5MM、ミッドソール：CM EVA、アウトソール：Vibram Megagrip（Impact Brake System）。リソール対応",
+  "waterproof": "GORE-TEX ePE",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": "EU40〜48",
+  "eval": {
+   "season": [],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": null,
+   "summary": "TX5の後継となる、GORE-TEX ePEライニングとVibram Megagripを備えたミッドカットのハイキングブーツです。",
+   "pros": [
+    "Vibram Megagrip（Impact Brake System）のアウトソール",
+    "GORE-TEX ePEライニングで防水透湿",
+    "3D Flex Evoで足首を支えつつ動かしやすい構造",
+    "リソール対応で張り替えて履き続けられる"
+   ],
+   "cons": [
+    "40,700円（税込）と価格が高め",
+    "公式の分類はハイキングで、積雪期の高山向けではない"
+   ],
+   "good_for": [
+    "岩の混じる登山道を日帰り〜小屋泊で歩く人",
+    "ソールを張り替えて長く使いたい人"
+   ],
+   "not_for": [
+    "積雪期の高山に行く人",
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {}
+  },
+  "key": "https://lasportiva.jp/product.html?color_id=b0291299-9893-4ebf-bf7b-726fd20dcb7a"
+ }
+]

@@ -294,5 +294,18 @@
   "day": 5,
   "slot": "pack",
   "image": "img/articles/2026-10-24-osprey-kestrel-38.jpg"
+ },
+ {
+  "slug": "2026-10-25-lasportiva-tx5-evo-mid-gtx",
+  "title": "ラ・スポルティバ TX5 エボ ミッド GTX：岩混じりの晩秋山行に",
+  "category": "登山靴",
+  "date": "2026-10-25",
+  "desc": "ラ・スポルティバの人気ブーツTX5の後継モデル。Vibram Megagripと泥詰まりしにくいソール、3D Flex Evo、GORE-TEX ePE、リソール対応で、岩混じりの晩秋の山を歩く経験者に向くミッドカットのハイキングブーツを解説します。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-10-19",
+  "day": 6,
+  "slot": "shoes"
  }
 ]
