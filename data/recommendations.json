@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-23T21:21:41.180Z",
+  "updated": "2026-10-24T21:16:33.850Z",
   "season": "autumn",
   "categories": {
     "rain": [
       {
-        "id": "arcteryx-sabre-jacket-m",
+        "id": "arcteryx-indisce-mx-blazer-m",
         "source": "rule",
-        "reason": "秋の山行に合うため。レインウェア・シェル。脇の高さまで埋まるパウダー、岩や木との接触、悪天候など、予測不能な状況に対応できるフリーライドジャケット。"
+        "reason": "秋の山行に合うため。レインウェア・シェル。すっきりとしたシルエットが魅力的な、通気性のある軽量デザインのブレザー。"
       },
       {
         "id": "marmot-gtx-frey-jacket-m",
@@ -21,14 +21,14 @@
     ],
     "wear": [
       {
-        "id": "millet-miv03262",
-        "source": "rule",
-        "reason": "秋の山行に合うため。ウェア。低温下での活動量の大きなアクティビティで一日中着たままでいられる優れた温度調節機能を備えた、軽量なハイブリッドインシュレーション。"
-      },
-      {
         "id": "arcteryx-corva-insulated-jacket-w",
         "source": "rule",
         "reason": "秋の山行に合うため。ウェア。さりげない機能性とクラシックスタイルの襟を備え、フロントファスナーにVISLON®を採用した定番インサレーテッドジャケット。"
+      },
+      {
+        "id": "millet-miv02173",
+        "source": "rule",
+        "reason": "秋の山行に合うため。ウェア。快適な着心地を提供するフード付きベースレイヤー。"
       },
       {
         "id": "tnf-light-heat-jacket-w",
