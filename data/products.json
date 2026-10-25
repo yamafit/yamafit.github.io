@@ -21115,7 +21115,7 @@
    "capacity_l": null,
    "weight_g": 323,
    "weight_note": "Lサイズ",
-   "material": null,
+   "material": "ナイロン100%（GORE-TEX ePEメンブレンをラミネート）",
    "waterproof": "GORE-TEX",
    "warmth": null,
    "size_note": null,
@@ -21125,13 +21125,14 @@
     "autumn"
    ],
    "features": [
-    "最も優れた透湿性をもつと記載（GORE-TEX C-KNIT Backer）",
-    "Lサイズで323gと軽量",
+    "GORE-TEX C-KNIT Backer で透湿性を高めた3層構造",
+    "GORE-TEX ePEメンブレンと40デニールのナイロン66タフタ",
     "立体裁断で動きにフィット",
     "スタッフサック付き"
    ],
    "cons": [
-    "価格が55,000円と高め"
+    "価格が55,000円と高め",
+    "逆開ファスナーで、閉めるときは2つのスライダーを下まで下ろす必要がある"
    ],
    "for_whom": "軽さと透湿性を重視する人",
    "not_for": "予算を抑えたい人",
@@ -21153,7 +21154,7 @@
     "light"
    ],
    "reasons": {
-    "sweat": "GORE-TEXの中でも最も優れた透湿性をもつ素材と記載されています。",
+    "sweat": "GORE-TEX C-KNIT Backer を使い、透湿性を高めたと記載されています。",
     "light": "Lサイズで323gです。"
    },
    "default_reason": "GORE-TEXの最軽量クラスの素材を使った、Marmotのフラッグシップ防水シェルジャケットです。",
