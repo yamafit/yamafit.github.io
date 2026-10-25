@@ -1,0 +1,63 @@
+[
+ {
+  "id": "everbreath-photon-jacket-w",
+  "name": "エバーブレスフォトンジャケット WOMEN'S",
+  "gender": "womens",
+  "category": "rain",
+  "price": 41690,
+  "weight_g": 280,
+  "weight_note": "ウィメンズ",
+  "capacity_l": null,
+  "material": "表地：15デニールナイロンリップストップ／中間層：エバーブレス®メンブレン／裏地：20デニールポリエステルニット",
+  "waterproof": "エバーブレス®ファブリック（防水透湿）",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": "S・M・L",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light",
+    "budget"
+   ],
+   "fit": "S・M・L（公式ページに平置きの実寸あり）",
+   "summary": "よく伸びる生地と止水ファスナーを使った、280gの防水透湿レインジャケットです。",
+   "pros": [
+    "タテ約107%・ヨコ約117%伸びる生地（JIS L 1096法）",
+    "フロントとベンチレーターに止水ファスナー「AquaGuard® Tightened」",
+    "表地・裏地の両面に耐久撥水加工",
+    "独自のベンチレーション「リンクベント®」",
+    "ヘルメット対応フード（後頭部に音抜き穴）",
+    "280gでスタッフバッグ付き"
+   ],
+   "cons": [
+    "ハンドポケットがなく、胸と内側の2つだけ",
+    "耐水圧・透湿性の数値が公式ページに記載されていない",
+    "アイロン・タンブラー乾燥ができない",
+    "税込41,690円と高め"
+   ],
+   "good_for": [
+    "雨の中でも登り下りを続ける人",
+    "ヘルメットを使う山行で雨具を着たまま動きたい人"
+   ],
+   "not_for": [
+    "ハンドポケットが欲しい人",
+    "予算を抑えたい人"
+   ],
+   "concern_reasons": {
+    "light": "重量は280g（公式記載）で、スタッフバッグで小さく収納できます。",
+    "budget": "税込41,690円と、レインジャケットとしては高めです。"
+   }
+  },
+  "key": "https://www.finetrack.com/c/wear-outershell/wear-everbreath-photon/wear-everbreath-photon-women/FAW0331"
+ }
+]

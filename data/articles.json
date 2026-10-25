@@ -308,5 +308,18 @@
   "day": 6,
   "slot": "shoes",
   "image": "img/articles/2026-10-25-lasportiva-tx5-evo-mid-gtx.jpg"
+ },
+ {
+  "slug": "2026-10-26-finetrack-everbreath-photon-jacket-w",
+  "title": "エバーブレスフォトン ウィメンズ：雨でも動ける280gストレッチレイン",
+  "category": "レインウェア",
+  "date": "2026-10-26",
+  "desc": "ファイントラック「エバーブレスフォトンジャケット（WOMEN'S）」を紹介。タテ約107%・ヨコ約117%伸びる生地とフラップのない止水ファスナーで、雨の中でも登り下りを続けたい女性に向く280gのレインジャケットです。",
+  "cats": [
+   "rain"
+  ],
+  "week": "2026-10-26",
+  "day": 0,
+  "slot": "outer"
  }
 ]

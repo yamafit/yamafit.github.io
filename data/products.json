@@ -15228,6 +15228,89 @@
    }
   },
   {
+   "id": "finetrack-everbreath-photon-jacket-w",
+   "category": "rain",
+   "brand": "ファイントラック",
+   "name": "エバーブレスフォトンジャケット WOMEN'S",
+   "gender": "womens",
+   "spec": "エバーブレス®ファブリック（防水透湿）／280g（ウィメンズ）",
+   "price": 41690,
+   "capacity_l": null,
+   "weight_g": 280,
+   "weight_note": "ウィメンズ",
+   "material": "表地：15デニールナイロンリップストップ／中間層：エバーブレス®メンブレン／裏地：20デニールポリエステルニット",
+   "waterproof": "エバーブレス®ファブリック（防水透湿）",
+   "warmth": null,
+   "size_note": "S・M・L",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "タテ約107%・ヨコ約117%伸びる生地（JIS L 1096法）",
+    "フロントとベンチレーターに止水ファスナー「AquaGuard® Tightened」",
+    "表地・裏地の両面に耐久撥水加工",
+    "独自のベンチレーション「リンクベント®」",
+    "ヘルメット対応フード（後頭部に音抜き穴）",
+    "280gでスタッフバッグ付き"
+   ],
+   "cons": [
+    "ハンドポケットがなく、胸と内側の2つだけ",
+    "耐水圧・透湿性の数値が公式ページに記載されていない",
+    "アイロン・タンブラー乾燥ができない",
+    "税込41,690円と高め"
+   ],
+   "for_whom": "雨の中でも登り下りを続ける人・ヘルメットを使う山行で雨具を着たまま動きたい人",
+   "not_for": "ハンドポケットが欲しい人・予算を抑えたい人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [
+    "light",
+    "budget"
+   ],
+   "reasons": {
+    "light": "重量は280g（公式記載）で、スタッフバッグで小さく収納できます。",
+    "budget": "税込41,690円と、レインジャケットとしては高めです。"
+   },
+   "default_reason": "よく伸びる生地と止水ファスナーを使った、280gの防水透湿レインジャケットです。",
+   "fit": "S・M・L（公式ページに平置きの実寸あり）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.finetrack.com/c/wear-outershell/wear-everbreath-photon/wear-everbreath-photon-women/FAW0331",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.finetrack.com/c/wear-outershell/wear-everbreath-photon/wear-everbreath-photon-women/FAW0331",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "gregory-zulu-30",
    "category": "pack",
    "brand": "グレゴリー",
