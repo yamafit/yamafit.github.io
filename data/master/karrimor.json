@@ -1094,6 +1094,79 @@
     "not_for": [],
     "concern_reasons": {}
    }
+  },
+  {
+   "id": "karrimor-501206",
+   "brand": "カリマー",
+   "name": "ridge 30+",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 31900,
+   "weight_g": 1360,
+   "weight_note": "S 1,360g / M 1,420g / L 1,460g",
+   "capacity_l": 30,
+   "material": "210Dナイロン",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": "背面長 S42cm / M47cm / L52cm の3サイズ",
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501206.html",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "image": {
+    "url": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501206/501206-0930.jpg",
+    "angle": "main",
+    "src_page": "https://www.karrimor.jp/item/501206.html",
+    "checked_at": "2026-10-27",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501206.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-27",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [],
+    "fit": "背面長を3サイズ（42/47/52cm）から選べる",
+    "summary": "巾着式の2段階開口部と延ばせる雨蓋で容量を広げられる、2気室構造の30L+ザック。",
+    "pros": [
+     "巾着式の2段階開口部と延ばせる雨蓋で、荷物が増えた日も詰め込める",
+     "2気室とボトムのファスナーで荷物を分けて出し入れできる",
+     "3Dバックパネルと立体構造のヒップベルトで荷物を体に近づけて支える",
+     "専用レインカバーが付属"
+    ],
+    "cons": [
+     "Sでも1,360gあり軽量ザックではない",
+     "生地は210Dナイロンのみ"
+    ],
+    "good_for": [
+     "防寒着が増える季節の日帰りロングや小屋泊",
+     "背面長を合わせて選びたい人"
+    ],
+    "not_for": [
+     "軽さを最優先したい人"
+    ],
+    "concern_reasons": {}
+   }
   }
  ]
 }

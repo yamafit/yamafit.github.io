@@ -17798,6 +17798,77 @@
    }
   },
   {
+   "id": "karrimor-501206",
+   "category": "pack",
+   "brand": "カリマー",
+   "name": "ridge 30+",
+   "gender": "unisex",
+   "spec": "1360g（S 1,360g / M 1,420g / L 1,460g）",
+   "price": 31900,
+   "capacity_l": 30,
+   "weight_g": 1360,
+   "weight_note": "S 1,360g / M 1,420g / L 1,460g",
+   "material": "210Dナイロン",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": "背面長 S42cm / M47cm / L52cm の3サイズ",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "巾着式の2段階開口部と延ばせる雨蓋で、荷物が増えた日も詰め込める",
+    "2気室とボトムのファスナーで荷物を分けて出し入れできる",
+    "3Dバックパネルと立体構造のヒップベルトで荷物を体に近づけて支える",
+    "専用レインカバーが付属"
+   ],
+   "cons": [
+    "Sでも1,360gあり軽量ザックではない",
+    "生地は210Dナイロンのみ"
+   ],
+   "for_whom": "防寒着が増える季節の日帰りロングや小屋泊・背面長を合わせて選びたい人",
+   "not_for": "軽さを最優先したい人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "巾着式の2段階開口部と延ばせる雨蓋で容量を広げられる、2気室構造の30L+ザック。",
+   "fit": "背面長を3サイズ（42/47/52cm）から選べる",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501206.html",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501206.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "kavu-19822508",
    "category": "pants",
    "brand": "KAVU",

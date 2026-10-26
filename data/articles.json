@@ -322,5 +322,18 @@
   "day": 0,
   "slot": "outer",
   "image": "img/articles/2026-10-26-finetrack-everbreath-photon-jacket-w.jpg"
+ },
+ {
+  "slug": "2026-10-27-karrimor-501206",
+  "title": "カリマー リッジ30+：寒気の晩秋に防寒着まで収まる、ちょうどいい30L",
+  "category": "ザック",
+  "date": "2026-10-27",
+  "desc": "カリマー「ridge 30+」を紹介。巾着式の2段階開口部と延ばせる雨蓋、2気室構造で、防寒着が増える晩秋の日帰りロングや小屋泊に合う30L+ザック。重量や生地の注意点も解説。",
+  "cats": [
+   "pack"
+  ],
+  "week": "2026-10-26",
+  "day": 1,
+  "slot": "pack"
  }
 ]

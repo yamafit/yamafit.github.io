@@ -695,5 +695,18 @@
   "price_min": 33550,
   "price_max": 33550,
   "checked_at": "2026-10-16"
+ },
+ "https://www.karrimor.jp/item/501206.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501206/501206-0930.jpg",
+  "url": "https://www.karrimor.jp/item/501206.html",
+  "category": "pack",
+  "name": "ridge 30+",
+  "title": "ridge 30+ | カリマー公式オンラインストア",
+  "price_min": 31900,
+  "price_max": 31900,
+  "checked_at": "2026-10-27"
  }
 }
