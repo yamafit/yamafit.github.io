@@ -1,13 +1,8 @@
 {
-  "updated": "2026-10-25T21:16:42.047Z",
+  "updated": "2026-10-26T21:23:48.685Z",
   "season": "autumn",
   "categories": {
     "rain": [
-      {
-        "id": "arcteryx-indisce-mx-blazer-m",
-        "source": "rule",
-        "reason": "秋の山行に合うため。レインウェア・シェル。すっきりとしたシルエットが魅力的な、通気性のある軽量デザインのブレザー。"
-      },
       {
         "id": "marmot-gtx-frey-jacket-m",
         "source": "rule",
@@ -17,13 +12,18 @@
         "id": "tnf-mountain-rounder-jacket",
         "source": "rule",
         "reason": "秋の山行に合うため。防水透湿性と耐久性のバランスがよい、GORE-TEX PRODUCTS 3層構造のシェルジャケットです。"
+      },
+      {
+        "id": "arcteryx-beta-sl-jacket-w",
+        "source": "rule",
+        "reason": "秋の山行に合うため。レインウェア・シェル。アルパインクライミングや山岳環境に対応できる、ベータ最軽量のジャケット。"
       }
     ],
     "wear": [
       {
-        "id": "arcteryx-corva-insulated-jacket-w",
+        "id": "arcteryx-atom-vest-w",
         "source": "rule",
-        "reason": "秋の山行に合うため。ウェア。さりげない機能性とクラシックスタイルの襟を備え、フロントファスナーにVISLON®を採用した定番インサレーテッドジャケット。"
+        "reason": "秋の山行に合うため。ウェア。アトム フーディの暖かさに加え、可動域をより広くして、二酸化炭素排出量を削減しました。"
       },
       {
         "id": "millet-miv02173",
