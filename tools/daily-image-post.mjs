@@ -374,10 +374,24 @@ async function publishIG(imageUrl, caption, p) {
   }
   if (!c) c = await ig(`/${uid}/media`, { image_url: imageUrl, caption }, "POST");
   await waitContainer(c.id, 30, 5000);
-  const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+  const pub = await publishSafe(uid, c.id);
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
   return { media_id: pub.id, permalink, account: me.username || "", tagged };
+}
+// media_publish は「Application request limit reached」などのエラーを返しても、実際には投稿されていることがある。
+// エラーのときは直近の投稿を確かめ、5分以内に投稿されていればそれを成功として扱う（試し直しによる重複投稿を防ぐ）
+async function publishSafe(uid, creationId) {
+  try { return await ig(`/${uid}/media_publish`, { creation_id: creationId }, "POST"); }
+  catch (e) {
+    await new Promise((r) => setTimeout(r, 20000));
+    try {
+      const m = await ig(`/${uid}/media`, { fields: "id,timestamp", limit: 1 });
+      const last = (m.data || [])[0];
+      if (last && Date.now() - Date.parse(last.timestamp) < 5 * 60 * 1000) { log("エラーが返ったが投稿は済んでいました:", last.id); return { id: last.id }; }
+    } catch {}
+    e.published_unknown = true; throw e;
+  }
 }
 async function waitContainer(id, tries, ms) {
   for (let i = 0; i < tries; i++) {
@@ -456,7 +470,7 @@ async function publishCarousel(imageUrl, videoFile, caption, p) {
   const c = await ig(`/${uid}/media`, { media_type: "CAROUSEL", children: `${v.id},${im.id}`, caption }, "POST");
   await waitContainer(c.id, 30, 5000);
   if (process.env.CAROUSEL_NO_PUBLISH === "1") return { media_id: "", permalink: "", account: me.username, tagged, test: c.id };
-  const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+  const pub = await publishSafe(uid, c.id);
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
   return { media_id: pub.id, permalink, account: me.username || "", tagged, carousel: true };
@@ -477,7 +491,7 @@ async function publishStory(img, p, label, pageUrl) {
     const c = await ig(`/${uid}/media`, { media_type: "STORIES", image_url: url }, "POST");
     await waitContainer(c.id, 30, 5000);
     if (process.env.CAROUSEL_NO_PUBLISH === "1") return { test: c.id };
-    const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+    const pub = await publishSafe(uid, c.id);
     log("ストーリーズに投稿しました:", pub.id);
     return { media_id: pub.id, posted_at: new Date().toISOString() };
   } catch (e) {
@@ -492,7 +506,10 @@ async function publishWithVideo(img, imageUrl, caption, p, a, name) {
   try { file = makeVideo(img, videoFeatures(a, p), name); } catch (e) { log("動画を作れませんでした（画像1枚で投稿します）:", e.message); }
   if (file) {
     try { return await publishCarousel(imageUrl, file, caption, p); }
-    catch (e) { log("動画つきの投稿ができませんでした（画像1枚で投稿します）:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::warning::動画つき投稿に失敗→画像1枚で投稿: ${e.message}`); }
+    catch (e) {
+      if (/media_publish/.test(e.message)) throw e; // 公開の段階のエラーは、投稿されている可能性があるので画像1枚での再投稿はしない（重複防止）
+      log("動画つきの投稿ができませんでした（画像1枚で投稿します）:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::warning::動画つき投稿に失敗→画像1枚で投稿: ${e.message}`);
+    }
   }
   return await publishIG(imageUrl, caption, p);
 }
@@ -512,7 +529,7 @@ async function publishReel(file, caption, p) {
   log("動画をアップロードしました。Instagram の処理を待ちます");
   await waitContainer(c.id, 60, 10000);
   if (process.env.REEL_NO_PUBLISH === "1") return { media_id: "", permalink: "", account: me.username, tagged, test: c.id };
-  const pub = await ig(`/${uid}/media_publish`, { creation_id: c.id }, "POST");
+  const pub = await publishSafe(uid, c.id);
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
   return { media_id: pub.id, permalink, account: me.username || "", tagged };
