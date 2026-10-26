@@ -7542,5 +7542,50 @@
     "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
    }
   }
+ },
+ {
+  "key": "/products/adze-pant-walk-gently",
+  "id": "adze-pant-walk-gently",
+  "name": "アズ パンツ - ウォーク ジェントリー",
+  "gender": "unisex",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": "通気性のあるOcta® Loftインサレーションが濡れた状態でも保温性を発揮",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。現在もコーストセイリッシュ地方の暮らしに欠かせない伝統的な道具と冬の収穫技術にオマージュを捧げるパンツ。",
+   "pros": [
+    "保温：通気性のあるOcta® Loftインサレーションが濡れた状態でも保温性を発揮"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
  }
 ]
