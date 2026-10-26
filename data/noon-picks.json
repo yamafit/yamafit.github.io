@@ -230,6 +230,12 @@
  "2026-10-26": {
   "id": "aigle-znhbr93",
   "cat": "pack",
-  "image": "img/products/aigle-znhbr93.jpg"
+  "image": "img/products/aigle-znhbr93.jpg",
+  "posted": {
+   "account": "yama_fit2026",
+   "note": "APIは上限エラーを返したが実際は投稿済み（3件重複。1件を残し作成者が削除）",
+   "posted_at": "2026-10-26T11:04:06Z",
+   "image": "img/products/aigle-znhbr93.jpg"
+  }
  }
 }
