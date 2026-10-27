@@ -725,52 +725,41 @@
   }
  },
  {
+  "key": "https://www.karrimor.jp/item/501206.html",
   "id": "501206",
   "name": "ridge 30+",
   "gender": "unisex",
   "category": "pack",
-  "price": 31900,
-  "weight_g": 1360,
-  "weight_note": "S 1,360g / M 1,420g / L 1,460g",
-  "capacity_l": 30,
-  "material": "210Dナイロン",
+  "price": null,
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
   "warmth": null,
-  "size_note": "背面長 S42cm / M47cm / L52cm の3サイズ",
+  "size_note": null,
   "eval": {
    "season": [
     "spring",
-    "summer",
-    "autumn"
+    "autumn",
+    "summer"
    ],
-   "uses": [
-    "low",
-    "mid",
-    "hut"
-   ],
+   "uses": [],
    "concerns": [],
-   "fit": "背面長を3サイズ（42/47/52cm）から選べる",
-   "summary": "巾着式の2段階開口部と延ばせる雨蓋で容量を広げられる、2気室構造の30L+ザック。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。",
    "pros": [
-    "巾着式の2段階開口部と延ばせる雨蓋で、荷物が増えた日も詰め込める",
-    "2気室とボトムのファスナーで荷物を分けて出し入れできる",
-    "3Dバックパネルと立体構造のヒップベルトで荷物を体に近づけて支える",
-    "専用レインカバーが付属"
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
    "cons": [
-    "Sでも1,360gあり軽量ザックではない",
-    "生地は210Dナイロンのみ"
+    "不明（公式の記載から読み取れる弱点は限られます）"
    ],
    "good_for": [
-    "防寒着が増える季節の日帰りロングや小屋泊",
-    "背面長を合わせて選びたい人"
+    "荷物を整理して背負いたい人"
    ],
-   "not_for": [
-    "軽さを最優先したい人"
-   ],
+   "not_for": [],
    "concern_reasons": {}
-  },
-  "key": "https://www.karrimor.jp/item/501206.html"
+  }
  }
 ]
