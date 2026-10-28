@@ -12922,6 +12922,66 @@
    }
   },
   {
+   "id": "caravan-grandking-gk-alt-hi",
+   "category": "boots",
+   "brand": "キャラバン",
+   "name": "グランドキング GK_ALT HI",
+   "gender": "unisex",
+   "spec": "ゴアテックス・メンブレン／605g（約605g（26.0cm・片足標準。公式記載））",
+   "price": 34650,
+   "capacity_l": null,
+   "weight_g": 605,
+   "weight_note": "約605g（26.0cm・片足標準。公式記載）",
+   "material": "アッパー：2.0〜2.2mmスエードレザー／合成皮革／メッシュポリエステル（ランドラバー補強）、ミッドソール：EVA（硬度の異なる2層構造）、アウトソール：ヴィブラムPEPE",
+   "waterproof": "ゴアテックス・メンブレン",
+   "warmth": null,
+   "size_note": "100グレー・131グラファイト：23.0〜29.0cm、30.0cm／688ミントブルー：23.0〜26.0cm（ワイズ3E）",
+   "season": [],
+   "features": [
+    "ヴィブラムPEPEアウトソール",
+    "硬度の異なる2層構造のEVAミッドソール",
+    "ゴアテックス・メンブレンで防水",
+    "ランドラバー補強のアッパー",
+    "ワイズ3Eのアドバンスラスト"
+   ],
+   "cons": [
+    "約605g（26.0cm片足）で軽量靴ではない",
+    "688ミントブルーは23.0〜26.0cmのみ"
+   ],
+   "for_whom": "岩場と土の道が混じる山道をハイカットで歩きたい人",
+   "not_for": "軽さを最優先したい人",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ヴィブラムPEPEソールと硬度の異なる2層EVAミッドソールを備えた、ゴアテックス・メンブレン採用のハイカットのトレッキングシューズです。",
+   "fit": "ワイズ3E（アドバンスラスト／スペシャルウェッジトゥ。公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "coleman-2253788",
    "category": "tent",
    "brand": "コールマン",

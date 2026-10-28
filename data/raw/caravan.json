@@ -11,5 +11,18 @@
   "price_min": 35200,
   "price_max": 35200,
   "checked_at": "2026-10-15"
+ },
+ "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://caravan.itembox.cloud/product/012/000000001251/000000001251-01.jpg?size=l&w=ODAw&t=20251015160248",
+  "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900",
+  "category": "boots",
+  "name": "グランドキング GK_ALT HI",
+  "title": "GK_ALT HI",
+  "price_min": 34650,
+  "price_max": 34650,
+  "checked_at": "2026-10-28"
  }
 }

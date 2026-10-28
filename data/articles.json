@@ -350,5 +350,18 @@
   "day": 2,
   "slot": "outer",
   "image": "img/articles/2026-10-28-millet-miv03261.jpg"
+ },
+ {
+  "slug": "2026-10-29-caravan-grandking-gk-alt-hi",
+  "title": "キャラバン GK_ALT HI：晩秋の晴れ間に、岩も土の道も歩ける1足",
+  "category": "登山靴",
+  "date": "2026-10-29",
+  "desc": "キャラバンのハイカット「GK_ALT HI」を紹介。ヴィブラムPEPEソールと2層EVAで岩場と土の道に対応。約605gの重さや通気性など注意点もまとめました。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-10-26",
+  "day": 3,
+  "slot": "shoes"
  }
 ]
