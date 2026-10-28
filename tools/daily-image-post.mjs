@@ -609,6 +609,8 @@ export function productCaption(p) {
     "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。", "※価格・仕様はメーカー公式の記載です。", "", tags.join(" ")].join("\n").slice(0, 2200);
 }
 async function noonPrep() {
+  // 今日の昼の写真がもう入っていれば、商品を選び直さない（定時の再実行で別の商品に替わるのを防ぐ）
+  { const cur = readJSON(NOON, {})[today]; if (cur && cur.image && !process.env.FORCE) return log("今日の昼の商品は写真まで入っています:", cur.id); }
   // 公式画像が取れない商品は飛ばして、次の候補にする（最大6件）
   const skip = new Set();
   let picks, pick, p, cat, d, ref;
