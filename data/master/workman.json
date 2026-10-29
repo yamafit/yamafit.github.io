@@ -19,7 +19,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068499029/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -34,8 +34,8 @@
      "shop": "official",
      "url": "https://workman.jp/shop/g/g2300068499029/",
      "affiliate_url": "",
-     "in_stock": true,
-     "checked_at": "2026-10-12"
+     "in_stock": false,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -85,7 +85,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068523021/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -101,7 +101,7 @@
      "url": "https://workman.jp/shop/g/g2300068523021/",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -151,7 +151,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068542039/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -166,8 +166,8 @@
      "shop": "official",
      "url": "https://workman.jp/shop/g/g2300068542039/",
      "affiliate_url": "",
-     "in_stock": true,
-     "checked_at": "2026-10-12"
+     "in_stock": false,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -217,7 +217,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068244032/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -232,8 +232,8 @@
      "shop": "official",
      "url": "https://workman.jp/shop/g/g2300068244032/",
      "affiliate_url": "",
-     "in_stock": true,
-     "checked_at": "2026-10-12"
+     "in_stock": false,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -284,7 +284,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068245039/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -299,8 +299,8 @@
      "shop": "official",
      "url": "https://workman.jp/shop/g/g2300068245039/",
      "affiliate_url": "",
-     "in_stock": true,
-     "checked_at": "2026-10-12"
+     "in_stock": false,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -355,7 +355,7 @@
    "sources": [
     {
      "url": "https://workman.jp/shop/g/g2300068247026/",
-     "checked_at": "2026-10-12"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -370,8 +370,8 @@
      "shop": "official",
      "url": "https://workman.jp/shop/g/g2300068247026/",
      "affiliate_url": "",
-     "in_stock": true,
-     "checked_at": "2026-10-12"
+     "in_stock": false,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {

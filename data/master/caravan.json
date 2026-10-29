@@ -19,7 +19,7 @@
    "sources": [
     {
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011850",
-     "checked_at": "2026-10-28"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -35,7 +35,7 @@
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011850",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-10-28"
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
@@ -90,7 +90,7 @@
    "sources": [
     {
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900",
-     "checked_at": "2026-10-28"
+     "checked_at": "2026-10-29"
     }
    ],
    "image": {
@@ -105,8 +105,8 @@
      "shop": "official",
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0011900",
      "affiliate_url": "",
-     "in_stock": null,
-     "checked_at": "2026-10-28"
+     "in_stock": true,
+     "checked_at": "2026-10-29"
     }
    ],
    "evaluation": {
