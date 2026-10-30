@@ -15013,13 +15013,13 @@
    "brand": "コロンビア",
    "name": "キャッスルロック20Lバックパック II",
    "gender": "unisex",
-   "spec": "650g（本体）",
+   "spec": "撥水（防水ではない）／650g",
    "price": 8800,
    "capacity_l": 20,
    "weight_g": 650,
-   "weight_note": "本体",
-   "material": null,
-   "waterproof": null,
+   "weight_note": null,
+   "material": "420D HD OXナイロン、N420D Nail Headナイロン（一部カラーは400D OXポリエステル）",
+   "waterproof": "撥水（防水ではない）",
    "warmth": null,
    "size_note": null,
    "season": [
@@ -15028,12 +15028,14 @@
     "autumn"
    ],
    "features": [
-    "通気背面と記載",
-    "650gと軽い",
-    "8,800円と手頃"
+    "通気性のある背面",
+    "420デニールのナイロン素材",
+    "撥水機能のある生地",
+    "容量20L"
    ],
    "cons": [
-    "容量が20L"
+    "公式の説明が短く、ポケットやベルトなどの仕様は記載されていない",
+    "防水ではない"
    ],
    "for_whom": "軽めの日帰りハイクの人",
    "not_for": "泊まり山行の人",
@@ -15049,8 +15051,8 @@
     "budget"
    ],
    "reasons": {
-    "light": "650gと軽量です。",
-    "budget": "8,800円と手頃です。"
+    "light": "重量は約650gです。",
+    "budget": "税込8,800円です。"
    },
    "default_reason": "20Lと通気背面で、軽めのハイクを快適にするバックパックです。",
    "fit": "不明（公式にサイズ感の記載なし）",

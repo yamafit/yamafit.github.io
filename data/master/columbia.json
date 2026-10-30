@@ -890,10 +890,10 @@
    "gender": "unisex",
    "price": 8800,
    "weight_g": 650,
-   "weight_note": "本体",
+   "weight_note": "",
    "capacity_l": 20,
-   "material": null,
-   "waterproof": null,
+   "material": "420D HD OXナイロン、N420D Nail Headナイロン（一部カラーは400D OXポリエステル）",
+   "waterproof": "撥水（防水ではない）",
    "waterproof_level": null,
    "warmth": null,
    "size_note": null,
@@ -938,12 +938,14 @@
     "fit": "不明（公式にサイズ感の記載なし）",
     "summary": "20Lと通気背面で、軽めのハイクを快適にするバックパックです。",
     "pros": [
-     "通気背面と記載",
-     "650gと軽い",
-     "8,800円と手頃"
+     "通気性のある背面",
+     "420デニールのナイロン素材",
+     "撥水機能のある生地",
+     "容量20L"
     ],
     "cons": [
-     "容量が20L"
+     "公式の説明が短く、ポケットやベルトなどの仕様は記載されていない",
+     "防水ではない"
     ],
     "good_for": [
      "軽めの日帰りハイクの人"
@@ -952,8 +954,8 @@
      "泊まり山行の人"
     ],
     "concern_reasons": {
-     "light": "650gと軽量です。",
-     "budget": "8,800円と手頃です。"
+     "light": "重量は約650gです。",
+     "budget": "税込8,800円です。"
     }
    }
   },
