@@ -11,5 +11,18 @@
   "price_min": 29700,
   "price_max": 29700,
   "checked_at": "2026-10-12"
+ },
+ "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.gregory.jp/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Gregory/default/dwd23f4374/images/gr-126879/hi-res/126879_1129_hi-res_FRONT34_1.jpg?sw=545&sh=750",
+  "url": "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html",
+  "category": "pack",
+  "name": "VAPORSPAN シトロ24",
+  "title": "VAPORSPAN シトロ24",
+  "price_min": 24200,
+  "price_max": 24200,
+  "checked_at": "2026-10-31"
  }
 }

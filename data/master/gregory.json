@@ -75,6 +75,83 @@
      "sweat": "背面メッシュと本体の間に空間ができる構造（公式記載）"
     }
    }
+  },
+  {
+   "id": "gregory-citro-24",
+   "brand": "グレゴリー",
+   "name": "VAPORSPAN シトロ24",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 24200,
+   "weight_g": 915,
+   "weight_note": "公式記載（0.915kg）",
+   "capacity_l": 24,
+   "material": "ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": "One size（背面サイズ調整可能）。寸法52.0×28.0×20.0cm",
+   "sources": [
+    {
+     "url": "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "image": {
+    "url": "https://www.gregory.jp/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Gregory/default/dwd23f4374/images/gr-126879/hi-res/126879_1129_hi-res_FRONT34_1.jpg?sw=545&sh=750",
+    "angle": "main",
+    "src_page": "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html",
+    "checked_at": "2026-10-31",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-10-31",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "One sizeのみ（背面サイズ調整可能）。背面長の数値は公式記載なし",
+    "summary": "吸湿発散性メッシュと合金製外周フレームの背面を備えた、24Lの日帰り向けザック。",
+    "pros": [
+     "ベイパースパン・サスペンション（吸湿発散性メッシュ＋合金製外周フレーム）の背面（公式記載）",
+     "3Dクレイドルパッド入りヒップベルトに大型ジッパーポケット（公式記載）",
+     "フロント・上部・内部セキュリティ・サイドとポケットが多い（公式記載）",
+     "ホイッスル付きスターナムストラップ、ハイドレーション・スリーブ、ポールアタッチメント（公式記載）"
+    ],
+    "cons": [
+     "重量0.915kgと24Lとしては軽くない",
+     "サイズはOne sizeのみ",
+     "レインカバーの公式記載なし"
+    ],
+    "good_for": [
+     "背中の蒸れや汗冷えが気になる人",
+     "低山・里山の日帰り登山をする人"
+    ],
+    "not_for": [
+     "軽さを最優先する人"
+    ],
+    "concern_reasons": {
+     "sweat": "吸湿発散性メッシュと外周フレームの背面構造（公式記載）"
+    }
+   }
   }
  ]
 }
