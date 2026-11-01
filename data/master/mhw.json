@@ -698,6 +698,84 @@
     ],
     "concern_reasons": {}
    }
+  },
+  {
+   "id": "mhw-kor-airshell-warm-hoody",
+   "brand": "マウンテンハードウェア",
+   "name": "コアエアシェルウォームフーディ",
+   "category": "wear",
+   "gender": "mens",
+   "price": 31900,
+   "weight_g": 350,
+   "weight_note": "Mサイズ",
+   "capacity_l": null,
+   "material": "表地：Pertex Quantum Air 20Dストレッチリップストップ、裏地：アクティブメッシュ（テイジン オクタ）",
+   "waterproof": null,
+   "waterproof_level": "water_repellent",
+   "warmth": "メッシュ裏地付きの薄手の行動保温着（中綿なし）",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/L/F26_OM0676_405_1.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+    "checked_at": "2026-11-02",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-02",
+    "season": [
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "sweat",
+     "light"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "Pertex Quantum Airの表地とメッシュ裏地を組み合わせた、通気性重視の軽い行動保温フーディです。",
+    "pros": [
+     "Mサイズで約350g",
+     "表地Pertex Quantum Airで熱や蒸気を逃がしやすい",
+     "テイジン オクタのメッシュ裏地",
+     "調節式フード・裾ドローコード",
+     "胸ポケット2・ハンドポケット2・内側ドロップポケット"
+    ],
+    "cons": [
+     "価格が31,900円と高め",
+     "防水ではないため雨具の代わりにはならない"
+    ],
+    "good_for": [
+     "登りで汗をかきやすく、脱ぎ着を減らしたい人",
+     "秋の低山で行動中に着る保温着を探す人"
+    ],
+    "not_for": [
+     "レインウェアとして使いたい人",
+     "予算を抑えたい人"
+    ],
+    "concern_reasons": {
+     "sweat": "表地にPertex Quantum Air、裏地にメッシュを使い、熱や蒸気を逃がしやすい作りです。",
+     "light": "Mサイズで約350gです。"
+    }
+   }
   }
  ]
 }

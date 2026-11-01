@@ -23841,6 +23841,80 @@
    }
   },
   {
+   "id": "mhw-kor-airshell-warm-hoody",
+   "category": "wear",
+   "brand": "マウンテンハードウェア",
+   "name": "コアエアシェルウォームフーディ",
+   "gender": "mens",
+   "spec": "350g（Mサイズ）",
+   "price": 31900,
+   "capacity_l": null,
+   "weight_g": 350,
+   "weight_note": "Mサイズ",
+   "material": "表地：Pertex Quantum Air 20Dストレッチリップストップ、裏地：アクティブメッシュ（テイジン オクタ）",
+   "waterproof": null,
+   "warmth": "メッシュ裏地付きの薄手の行動保温着（中綿なし）",
+   "size_note": null,
+   "season": [
+    "autumn"
+   ],
+   "features": [
+    "Mサイズで約350g",
+    "表地Pertex Quantum Airで熱や蒸気を逃がしやすい",
+    "テイジン オクタのメッシュ裏地",
+    "調節式フード・裾ドローコード",
+    "胸ポケット2・ハンドポケット2・内側ドロップポケット"
+   ],
+   "cons": [
+    "価格が31,900円と高め",
+    "防水ではないため雨具の代わりにはならない"
+   ],
+   "for_whom": "登りで汗をかきやすく、脱ぎ着を減らしたい人・秋の低山で行動中に着る保温着を探す人",
+   "not_for": "レインウェアとして使いたい人・予算を抑えたい人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "reasons": {
+    "sweat": "表地にPertex Quantum Air、裏地にメッシュを使い、熱や蒸気を逃がしやすい作りです。",
+    "light": "Mサイズで約350gです。"
+   },
+   "default_reason": "Pertex Quantum Airの表地とメッシュ裏地を組み合わせた、通気性重視の軽い行動保温フーディです。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "millet-mis0545",
    "category": "pack",
    "brand": "ミレー",

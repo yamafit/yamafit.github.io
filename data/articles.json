@@ -405,5 +405,18 @@
   "day": 6,
   "slot": "shoes",
   "image": "img/articles/2026-11-01-montbell-1129766.jpg"
+ },
+ {
+  "slug": "2026-11-02-mhw-kor-airshell-warm-hoody",
+  "title": "コアエアシェルウォームフーディ：秋の低山で脱ぎ着を減らす350g",
+  "category": "ウェア",
+  "date": "2026-11-02",
+  "desc": "晩秋の低山は登りで汗ばみ、休むと冷える寒暖差の季節。表地Pertex Quantum Airとメッシュ裏地で通気性を持たせた、重量350g（M）の行動保温着「コアエアシェルウォームフーディ」を紹介します。",
+  "cats": [
+   "wear"
+  ],
+  "week": "2026-11-02",
+  "day": 0,
+  "slot": "outer"
  }
 ]

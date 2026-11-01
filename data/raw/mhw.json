@@ -746,5 +746,18 @@
    "サイズ :"
   ],
   "checked_at": "2026-10-07"
+ },
+ "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.mountainhardwear.jp/img/goods/L/F26_OM0676_405_1.jpg",
+  "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+  "category": "wear",
+  "name": "コアエアシェルウォームフーディ",
+  "title": "コアエアシェルウォームフーディ（OM0676）",
+  "price_min": 31900,
+  "price_max": 31900,
+  "checked_at": "2026-11-02"
  }
 }
