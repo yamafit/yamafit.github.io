@@ -659,3 +659,35 @@ img.photo { object-fit: cover; }
 .tk-banner-text span { font-size: 12px; color: #DCE8F0; }
 .tk-banner-go { flex: 0 0 auto; padding: 8px 12px; border-radius: 999px; background: #fff; color: #0E2A3F; font-size: 12px; font-weight: 900; }
 .tk-btns .cta-pill { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 20px; white-space: nowrap; width: auto; flex: 1 1 140px; }
+
+/* ダウン特集（tokushu/down.html） */
+.tk-hero--down { background: linear-gradient(160deg, #3A1F12 0%, #8A3B12 55%, #D9822B 100%); }
+.tk-hero--down p { color: #F6E3D2; }
+.tk-hero-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+.tk-hero-chips a { padding: 7px 12px; border-radius: 999px; background: rgba(255,255,255,.16); color: #fff; font-size: 13px; font-weight: 700; text-decoration: none; }
+.tk-use-tag { align-self: flex-start; padding: 3px 10px; border-radius: 999px; background: #FBE6D4; color: #8A3B12; font-size: 12px; font-weight: 900; margin-bottom: -6px; }
+.tk-dspec { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #EADBD0; }
+.tk-dspec-cell { background: #FFF8F2; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; }
+.tk-dspec-cell small { font-size: 11px; font-weight: 700; color: #8A6A55; }
+.tk-dspec-cell b { font-size: 26px; font-weight: 900; color: #3A1F12; line-height: 1.2; }
+.tk-dspec-cell b span { font-size: 13px; margin-left: 2px; }
+.tk-dspec-cell b em { font-style: normal; font-size: 14px; color: #8A6A55; }
+.tk-dspec-cell:last-child { grid-column: 1 / -1; }
+.tk-dspec-shell { font-size: 14px !important; }
+.tk-dspec-cell--wp .tk-dspec-shell { color: #2F7FB5 !important; } .tk-dspec-cell--wind .tk-dspec-shell { color: #3C8D5F !important; }
+.tk-card-side { display: flex; flex-direction: column; background: #FFF8F2; }
+.tk-types--4 { display: grid; gap: 10px; }
+@media (min-width: 640px) { .tk-types--4 { grid-template-columns: repeat(2, 1fr); } }
+.tk-type--hood { border-color: #8A3B12; }
+.tk-card-side .tk-card-img img { max-width: 240px; }
+@media (min-width: 640px) { .tk-card-side { flex: 0 0 34%; } .tk-card-side .tk-dspec { flex: 0 0 auto; grid-template-columns: 1fr; } .tk-dspec-cell:last-child { grid-column: auto; } }
+.tk-sum { font-size: 14.5px; line-height: 1.8; }
+.tk-women { font-size: 13px; color: var(--ink-sub); line-height: 1.7; }
+.tk-table--down { min-width: 520px; }
+.tk-table--down tbody th small { display: block; font-size: 11px; color: var(--ink-sub); font-weight: 400; }
+.tk-more { align-self: flex-start; font-size: 14px; font-weight: 700; color: var(--green); }
+.tk-banner--down { background: linear-gradient(120deg, #3A1F12 0%, #8A3B12 60%, #D9822B 100%); }
+.tk-banner--down .tk-banner-text small { color: #F3CDA8; } .tk-banner--down .tk-banner-text span { color: #F6E3D2; }
+.tk-banner--down .tk-banner-go { color: #3A1F12; }
+.tk-banner-ic { width: 64px; height: 64px; flex: 0 0 auto; border-radius: 10px; background: rgba(255,255,255,.14); display: flex; align-items: center; justify-content: center; }
+.tk-card-side ~ .tk-card-body .tk-fit { grid-template-columns: 1fr; }

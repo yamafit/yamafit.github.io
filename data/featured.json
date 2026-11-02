@@ -67,6 +67,32 @@
      "image": "img/feature/montbell-snow/1102591.jpg"
     }
    ]
+  },
+  {
+   "from": "2026-11-08",
+   "title": "ダウンジャケット特集",
+   "until": "2027-02-28",
+   "page": "tokushu/down.html",
+   "items": [
+    {
+     "id": "montbell-1101661",
+     "label": "山小屋泊の防寒に",
+     "comment": "800フィルパワーのEXダウンを使い、平均重量190g（メンズ）と軽いフードなしのダウン。山小屋や休憩で着る防寒着として、ザックに入れて持ち歩けます。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101661_bgn.jpg"
+    },
+    {
+     "id": "tnf-zi-aconcagua-jacket-m",
+     "label": "テント泊・冬の低山に",
+     "comment": "20デニールのリップストップナイロンにはっ水加工をした、ノース・フェイスの定番ダウン（約410g・Lサイズ）。別売りのアウターと連結できるジップインジップ対応です。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001EMF/01_001.jpg"
+    },
+    {
+     "id": "montbell-1101706",
+     "label": "雪山・湿った雪の日に",
+     "comment": "防水透湿素材スーパー ドライテックで1000フィルパワーのEXダウンを包んだパーカ（平均281g）。シームテープ処理はなく、完全防水ではないと公式に記載されています。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101706_og.jpg"
+    }
+   ]
   }
  ]
 }

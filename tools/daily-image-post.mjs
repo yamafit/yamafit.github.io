@@ -276,7 +276,11 @@ export function hashtags(a, p) {
   const brandJa = tagify(p.brand), en = BRAND_EN[p.brand] || (/^[A-Za-z0-9 ]+$/.test(p.brand) ? p.brand.toLowerCase() : "");
   const name = p.name.replace(/\s*(Men's|Women's|メンズ|レディース|ユニセックス|ウィメンズ)\s*/gi, " ").replace(/[（(][^）)]*[）)]/g, "").trim();
   const slot = a.slot || CAT_SLOT[p.category] || "outer";
-  return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...POPULAR, ...(SLOT_POP[slot] || []), "#ヤマフィット"])].filter((t) => t.length > 1).slice(0, 15);
+  // 特集期間中は、テーマに合う商品に特集のタグを入れる（ダウンジャケット特集：2026-11-02〜2027-02-28）
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+  const isDown = /ダウン|\bdown\b|\d{3,4}\s?FP/i.test(p.name) || /フィルパワー|\d{3,4}\s?FP|ダウン\d+％|ダウン（|CLEAN ?DOWN|EXダウン/i.test(`${p.warmth || ""} ${p.material || ""}`);
+  const feature = today >= "2026-11-02" && today <= "2027-02-28" && isDown && !/パンツ|シュラフ|スリーピング|ソックス|ブーティ/.test(p.name) ? ["#ダウンジャケット", "#ヤマフィットダウン特集"] : [];
+  return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...feature, ...POPULAR, ...(SLOT_POP[slot] || []), "#ヤマフィット"])].filter((t) => t.length > 1).slice(0, 15);
 }
 
 // 1行目：検索されやすい言葉（カテゴリー＋ブランド＋商品名）。PR表記も先頭に入れる
