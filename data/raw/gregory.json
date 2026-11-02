@@ -24,5 +24,18 @@
   "price_min": 24200,
   "price_max": 24200,
   "checked_at": "2026-10-31"
+ },
+ "https://www.gregory.jp/outdoor/type/hiking/gr-145279-9975.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.gregory.jp/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Gregory/default/dwc0a31ab6/images/gr-145279/hi-res/145279-9975_hi-res_FRONT34.jpg?sw=545&sh=750",
+  "url": "https://www.gregory.jp/outdoor/type/hiking/gr-145279-9975.html",
+  "category": "pack",
+  "name": "BIOSYNC マヤ20",
+  "title": "BIOSYNC マヤ20",
+  "price_min": 24200,
+  "price_max": 24200,
+  "checked_at": "2026-11-03"
  }
 }

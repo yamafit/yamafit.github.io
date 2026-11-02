@@ -419,5 +419,18 @@
   "day": 0,
   "slot": "outer",
   "image": "img/articles/2026-11-02-mhw-kor-airshell-warm-hoody.jpg"
+ },
+ {
+  "slug": "2026-11-03-gregory-maya-20",
+  "title": "グレゴリー マヤ20：文化の日の低山に、体に沿う女性用20L",
+  "category": "ザック",
+  "date": "2026-11-03",
+  "desc": "体の動きに合わせて伸縮するバイオシンク・サスペンションを採用した、重量0.862kgのウィメンズ20L日帰りザック「BIOSYNC マヤ20」。紅葉が色づき始めた文化の日の低山に。",
+  "cats": [
+   "pack"
+  ],
+  "week": "2026-11-02",
+  "day": 1,
+  "slot": "pack"
  }
 ]

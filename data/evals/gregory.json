@@ -103,5 +103,58 @@
    }
   },
   "key": "https://www.gregory.jp/vaporspan/citro-24/gr-126879-1129.html"
+ },
+ {
+  "id": "maya-20",
+  "name": "BIOSYNC マヤ20",
+  "gender": "womens",
+  "category": "pack",
+  "price": 24200,
+  "weight_g": 862,
+  "weight_note": "",
+  "capacity_l": 20,
+  "material": "ナイロン100%",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": "One size（トルソー約89mm調節可能）。寸法48.9×28.0×22.9cm",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "ウィメンズのOne size。トルソーは約89mmの範囲で調節できる",
+   "summary": "体の動きに合わせて伸縮するハーネスとヒップベルトを備えた、ウィメンズの20L日帰りザックです。",
+   "pros": [
+    "バイオシンク・フレキシブルのハーネスとヒップベルトが体の動きに合わせて伸縮する",
+    "溝付き通気孔フォームの3Dバックパネル",
+    "携帯電話が入るヒップベルトのジッパーポケット",
+    "両サイドのストレッチメッシュポケット",
+    "ハイドレーションポケット、ポール用バンジーループ、反射式ライトアタッチメントループ"
+   ],
+   "cons": [
+    "トルソーの調節幅は約89mm",
+    "レインカバーの公式記載なし"
+   ],
+   "good_for": [
+    "低山・里山を日帰りで歩く女性",
+    "ヒップベルトのポケットに小物を入れて歩きたい人"
+   ],
+   "not_for": [
+    "小屋泊など荷物の多い山行をする人"
+   ],
+   "concern_reasons": {
+    "light": "20Lで重量0.862kg（公式記載）"
+   }
+  },
+  "key": "https://www.gregory.jp/outdoor/type/hiking/gr-145279-9975.html"
  }
 ]
