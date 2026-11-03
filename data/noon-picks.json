@@ -347,6 +347,18 @@
  "2026-11-03": {
   "id": "coleman-2000032974",
   "cat": "pack",
-  "image": "img/products/coleman-2000032974.jpg"
+  "image": "img/products/coleman-2000032974.jpg",
+  "posted": {
+   "media_id": "18174860791458888",
+   "permalink": "https://www.instagram.com/p/DfQ5QsEj6j9/",
+   "account": "yama_fit2026",
+   "tagged": "coleman_japan",
+   "carousel": true,
+   "story": {
+    "skipped": true
+   },
+   "posted_at": "2026-11-03T03:16:33.471Z",
+   "image": "img/products/coleman-2000032974.jpg"
+  }
  }
 }
