@@ -8,7 +8,7 @@ permissions:
   contents: read
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     steps:
       - name: /me を呼ぶ
         env:

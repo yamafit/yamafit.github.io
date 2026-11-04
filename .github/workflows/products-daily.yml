@@ -13,7 +13,7 @@ permissions:
   contents: write
 jobs:
   add:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     timeout-minutes: 60
     env:
       REL: "ジャケット|パンツ|シェル|フリース|ダウン|ベスト|パーカ|フーディ|プルオーバー|バックパック|ザック|リュック|パック|シューズ|ブーツ|テント|シュラフ|寝袋|スリーピング|ポール|インサレーション|レイン|ソフトシェル|ウインド|ウィンド|Jacket|Pant|Hood|Hoody|Pack|Shoe|Boot|Shell|Fleece|Down|Vest|Tent|Sleeping"

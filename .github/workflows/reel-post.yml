@@ -14,7 +14,7 @@ permissions:
   contents: write
 jobs:
   post:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     timeout-minutes: 45
     env:
       INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}

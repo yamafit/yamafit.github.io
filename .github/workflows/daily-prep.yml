@@ -22,7 +22,7 @@ permissions:
   contents: write
 jobs:
   prep:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     timeout-minutes: 20
     env:
       ARTICLE_SLUG: ${{ github.event.inputs.slug }}

@@ -7,7 +7,7 @@ permissions:
   contents: write
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
