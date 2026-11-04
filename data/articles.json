@@ -447,5 +447,18 @@
   "day": 2,
   "slot": "outer",
   "image": "img/articles/2026-11-04-patagonia-granite-crest-jacket-w.jpg"
+ },
+ {
+  "slug": "2026-11-05-caravan-c1-02s",
+  "title": "キャラバン C1_02S：雨の低山に、幅広3Eで履きやすい入門ブーツ",
+  "category": "登山靴",
+  "date": "2026-11-05",
+  "desc": "雨上がりの紅葉の低山に。キャラバンC1_02Sは、ゴアテックス メンブレン内蔵でワイズ3Eの入門向けトレッキングシューズ。付属のハーフインソールでフィットを調整でき、注意点や向き不向きも紹介します。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-11-02",
+  "day": 3,
+  "slot": "shoes"
  }
 ]

@@ -136,6 +136,71 @@
     ],
     "concern_reasons": {}
    }
+  },
+  {
+   "id": "caravan-c1-02s",
+   "brand": "キャラバン",
+   "name": "C1_02S",
+   "category": "boots",
+   "gender": "unisex",
+   "price": 20900,
+   "weight_g": 590,
+   "weight_note": "約590g（26.0cm・片足標準。公式記載）",
+   "capacity_l": null,
+   "material": "アッパー：メッシュポリエステル／合成皮革（トゥガード／TPU補強）、ミッドソール：EVA、アウトソール：キャラバントレックソール、インソール：EVAインソール（ハーフインソール付属）",
+   "waterproof": "ゴアテックス メンブレン",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": "22.5〜29.0cm、30.0cm（262デザートサンドは22.5〜26.0cm。ワイズ3E）",
+   "sources": [
+    {
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+     "checked_at": "2026-11-04"
+    }
+   ],
+   "image": {
+    "url": "https://caravan.itembox.cloud/product/000/000000000007/000000000007-01.jpg?size=l&w=ODAw&t=20250822184241",
+    "angle": "main",
+    "src_page": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+    "checked_at": "2026-11-04",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-04"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-04",
+    "season": [],
+    "uses": [],
+    "concerns": [],
+    "fit": "ワイズ3E（レギュラー。公式記載）。ハーフインソール付属",
+    "summary": "ゴアテックス メンブレンを内蔵した、ワイズ3Eのミッドカットのトレッキングシューズで。",
+    "pros": [
+     "ゴアテックス メンブレンで防水",
+     "ワイズ3E（レギュラー）",
+     "ハーフインソール付属",
+     "TPUで補強したトゥガード",
+     "¥20,900（税込）"
+    ],
+    "cons": [
+     "約590g（26.0cm片足）で軽量靴ではない",
+     "262デザートサンドは22.5〜26.0cmのみ"
+    ],
+    "good_for": [
+     "幅にゆとりのある靴を探している人"
+    ],
+    "not_for": [
+     "軽さを最優先したい人"
+    ],
+    "concern_reasons": {}
+   }
   }
  ]
 }

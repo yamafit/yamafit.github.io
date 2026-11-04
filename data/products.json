@@ -12982,6 +12982,66 @@
    }
   },
   {
+   "id": "caravan-c1-02s",
+   "category": "boots",
+   "brand": "キャラバン",
+   "name": "C1_02S",
+   "gender": "unisex",
+   "spec": "ゴアテックス メンブレン／590g（約590g（26.0cm・片足標準。公式記載））",
+   "price": 20900,
+   "capacity_l": null,
+   "weight_g": 590,
+   "weight_note": "約590g（26.0cm・片足標準。公式記載）",
+   "material": "アッパー：メッシュポリエステル／合成皮革（トゥガード／TPU補強）、ミッドソール：EVA、アウトソール：キャラバントレックソール、インソール：EVAインソール（ハーフインソール付属）",
+   "waterproof": "ゴアテックス メンブレン",
+   "warmth": null,
+   "size_note": "22.5〜29.0cm、30.0cm（262デザートサンドは22.5〜26.0cm。ワイズ3E）",
+   "season": [],
+   "features": [
+    "ゴアテックス メンブレンで防水",
+    "ワイズ3E（レギュラー）",
+    "ハーフインソール付属",
+    "TPUで補強したトゥガード",
+    "¥20,900（税込）"
+   ],
+   "cons": [
+    "約590g（26.0cm片足）で軽量靴ではない",
+    "262デザートサンドは22.5〜26.0cmのみ"
+   ],
+   "for_whom": "幅にゆとりのある靴を探している人",
+   "not_for": "軽さを最優先したい人",
+   "terrain": [],
+   "uses": [],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ゴアテックス メンブレンを内蔵した、ワイズ3Eのミッドカットのトレッキングシューズで。",
+   "fit": "ワイズ3E（レギュラー。公式記載）。ハーフインソール付属",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+     "checked_at": "2026-11-04"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-04"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "coleman-2253788",
    "category": "tent",
    "brand": "コールマン",

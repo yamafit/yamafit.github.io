@@ -24,5 +24,18 @@
   "price_min": 34650,
   "price_max": 34650,
   "checked_at": "2026-10-28"
+ },
+ "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://caravan.itembox.cloud/product/000/000000000007/000000000007-01.jpg?size=l&w=ODAw&t=20250822184241",
+  "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/0010106",
+  "category": "boots",
+  "name": "C1_02S",
+  "title": "C1_02S",
+  "price_min": 20900,
+  "price_max": 20900,
+  "checked_at": "2026-11-04"
  }
 }
