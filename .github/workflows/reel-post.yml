@@ -25,8 +25,8 @@ jobs:
         with: { node-version: 22 }
       - name: 動画づくりの道具（日本語フォント・ffmpeg）を用意
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
+          timeout 300 sudo apt-get update -qq
+          timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
       - name: 19時まで待つ
         if: env.REEL_NO_PUBLISH != '1'
         run: |
