@@ -550,5 +550,17 @@
   "posted_at": "2026-11-04T22:41:52.822Z",
   "image": "img/articles/2026-11-05-caravan-c1-02s.jpg",
   "app_id": "a-2026-11-02-3"
+ },
+ "noon:2026-11-05:millet-mis01345": {
+  "media_id": "18103138259381566",
+  "permalink": "https://www.instagram.com/p/DfWCz3zkbu2/",
+  "account": "yama_fit2026",
+  "tagged": "millet.japan.store",
+  "carousel": true,
+  "story": {
+   "skipped": true
+  },
+  "posted_at": "2026-11-05T03:15:57.972Z",
+  "image": "img/products/millet-mis01345.jpg"
  }
 }

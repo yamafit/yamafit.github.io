@@ -381,6 +381,18 @@
  "2026-11-05": {
   "id": "millet-mis01345",
   "cat": "pack",
-  "image": "img/products/millet-mis01345.jpg"
+  "image": "img/products/millet-mis01345.jpg",
+  "posted": {
+   "media_id": "18103138259381566",
+   "permalink": "https://www.instagram.com/p/DfWCz3zkbu2/",
+   "account": "yama_fit2026",
+   "tagged": "millet.japan.store",
+   "carousel": true,
+   "story": {
+    "skipped": true
+   },
+   "posted_at": "2026-11-05T03:15:57.972Z",
+   "image": "img/products/millet-mis01345.jpg"
+  }
  }
 }
