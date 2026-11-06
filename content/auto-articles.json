@@ -3881,6 +3881,12 @@
   "week": "2026-11-02",
   "day": 5,
   "slot": "pack",
-  "app_id": "a-2026-11-02-5"
+  "app_id": "a-2026-11-02-5",
+  "image": "img/articles/2026-11-07-tnf-tellus-35.jpg",
+  "image_w": 1280,
+  "image_h": 1600,
+  "image_alt": "ザ・ノース・フェイス テルス35の特徴をまとめたイメージ画像（AI生成）",
+  "image_by": "ChatGPT（作成者が生成）",
+  "image_at": "2026-11-06T22:54:33.486883+00:00"
  }
 ]
