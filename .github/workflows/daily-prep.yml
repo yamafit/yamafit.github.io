@@ -36,7 +36,7 @@ jobs:
       - name: 参照シート用のブラウザと日本語フォントを用意
         if: steps.plan.outputs.slug != ''
         run: |
-          timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk
+          sudo rm -f /var/lib/man-db/auto-update; timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk
           npm i --no-save --no-package-lock playwright@1.55.0
           npx playwright install --with-deps chromium
       - name: プロンプト・参照シート・投稿文を作る

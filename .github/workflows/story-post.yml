@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra python3-pil
+      - run: sudo rm -f /var/lib/man-db/auto-update; timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra python3-pil
       - run: node tools/daily-image-post.mjs story
       - run: |
           git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"

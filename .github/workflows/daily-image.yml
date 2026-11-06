@@ -38,7 +38,7 @@ jobs:
       - name: 参照シート用のブラウザと日本語フォントを用意
         if: steps.plan.outputs.need_image == 'true'
         run: |
-          timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk
+          sudo rm -f /var/lib/man-db/auto-update; timeout 300 sudo apt-get update -qq && timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk
           npm i --no-save --no-package-lock playwright@1.55.0
           npx playwright install --with-deps chromium
       - name: 記事の写真を作る（公式画像を調べて参照シート→画像生成）
@@ -59,7 +59,7 @@ jobs:
       - name: 動画づくりの道具（日本語フォント・ffmpeg）を用意
         if: steps.plan.outputs.need_ig == 'true'
         run: |
-          timeout 300 sudo apt-get update -qq
+          sudo rm -f /var/lib/man-db/auto-update; timeout 300 sudo apt-get update -qq
           timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
       - name: Instagram に投稿（1枚目に動画、2枚目に解説画像）
         if: steps.plan.outputs.need_ig == 'true'
