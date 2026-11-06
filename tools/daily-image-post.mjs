@@ -106,7 +106,7 @@ const specFeats = (rows, head = []) => rows.map((r) => {
 function ngWords(p, texts) {
   const t = texts.join(" ");
   const ng = [];
-  if (/重い|重め|重量がある|重さが(気|目立)|軽くない|軽いとは言えない|軽量ではない/.test(t)) ng.push("軽量", "軽い", "軽量設計", "超軽量");
+  if (/重い|重め|重量がある|重さが(気|目立)|軽くない|軽くはない|軽いとは言えない|軽量[^。、]{0,6}ではない/.test(t)) ng.push("軽量", "軽い", "軽量設計", "超軽量");
   if (p.gender && p.gender !== "unisex") ng.push("ユニセックス", "男女兼用");
   if (!p.waterproof && !/防水/.test(String(p.material || ""))) ng.push("防水");
   if (/レインカバー[^。]*(記載がな|付属な|別売|別に用意)/.test(t)) ng.push("レインカバー付き", "レインカバー内蔵");
