@@ -21682,7 +21682,7 @@
    "capacity_l": null,
    "weight_g": 263,
    "weight_note": "Mサイズ",
-   "material": null,
+   "material": "ナイロン100％（ePE〈ポリエチレン膜〉をラミネート）",
    "waterproof": "GORE-TEX",
    "warmth": null,
    "size_note": null,
@@ -21692,15 +21692,18 @@
     "autumn"
    ],
    "features": [
-    "最も優れた透湿性をもつと記載",
-    "Mサイズで263gと軽量",
-    "立体裁断で動きにフィット",
-    "スタッフサック付き"
+    "GORE-TEXの最軽量クラスに位置づけされるC-KNIT Backer Technologyを採用",
+    "GORE-TEX ePEメンブレンと40デニールのナイロン66タフタの表地",
+    "軽量でソフトなGORE C-KNITバッカーの裏地",
+    "体の動きにフィットする立体裁断パターン",
+    "スタッフサック付き",
+    "重量約263g（Mサイズ）"
    ],
    "cons": [
-    "価格が55,000円と高め"
+    "価格が55,000円と高め",
+    "逆開ファスナーで、閉めるときは2つのスライダーを下まで降ろしてから差し込む必要がある"
    ],
-   "for_whom": "軽さと透湿性を重視する人",
+   "for_whom": "軽さと透湿性を重視して雨具を選びたい人・街でも山でも着られるシェルを探している人",
    "not_for": "予算を抑えたい人",
    "terrain": [
     "low",
@@ -21720,10 +21723,10 @@
     "light"
    ],
    "reasons": {
-    "sweat": "GORE-TEXの中でも最も優れた透湿性をもつ素材と記載されています。",
-    "light": "Mサイズで263gです。"
+    "sweat": "GORE-TEX C-KNIT Backer Technologyを採用し、透湿性を高めていると記載されています。",
+    "light": "Mサイズで約263gです。"
    },
-   "default_reason": "GORE-TEXの最軽量クラスの素材を使った、Marmotのフラッグシップ防水シェルジャケット（ウィメンズ）です。",
+   "default_reason": "GORE-TEX C-KNIT Backer Technologyを採用した、Marmotのフラッグシップの防水シェルジャケット（ウィメンズ）です。",
    "fit": "不明（公式にサイズ感の記載なし）",
    "image": "",
    "ai_image": "",
