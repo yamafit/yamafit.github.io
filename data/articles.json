@@ -514,5 +514,18 @@
   "day": 6,
   "slot": "shoes",
   "image": "img/articles/2026-11-08-montbell-1129718.jpg"
+ },
+ {
+  "slug": "2026-11-09-arcteryx-beta-ar-jacket-m",
+  "title": "ベータ AR ジャケット：初冬の雨と雪を1枚で防ぐ460gの3層シェル",
+  "category": "レインウェア",
+  "date": "2026-11-09",
+  "desc": "GORE-TEX PRO ePEの3層構造で、初冬の冷たい雨や高所の雪を1枚で防ぐアークテリクスのベータ AR ジャケット。フードや換気の使い勝手と、重さや価格などの気になる点をまとめました。",
+  "cats": [
+   "rain"
+  ],
+  "week": "2026-11-09",
+  "day": 0,
+  "slot": "outer"
  }
 ]
