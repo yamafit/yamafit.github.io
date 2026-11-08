@@ -26,21 +26,25 @@ for (const a of ARTICLES) {
     <div class="fit fit--good"><h3 class="fit-h"><span class="fit-ic">◎</span>向いている人</h3><ul>${f.good.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>
     <div class="fit fit--bad"><h3 class="fit-h"><span class="fit-ic">△</span>向いていない人</h3><ul>${f.bad.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>
   </div>`;
+  // 表のセルは文字か {t, href}（記事内の見出しや商品ページへのリンク）
+  const cell = (d) => d && typeof d === "object" ? (d.href ? `<a href="${esc(d.href)}">${esc(d.t)}</a>` : esc(d.t)) : esc(d);
   const body = a.sections.map((s) => /向いて/.test(s.h) && fitSplit(s) ? `<section>
   <h2 class="article-h2">${esc(s.h)}</h2>
   ${fitBox(fitSplit(s))}
-</section>` : `<section${/まとめ/.test(s.h) ? ' class="sec-summary"' : ""}>
+</section>` : `<section${s.id ? ` id="${esc(s.id)}" style="scroll-margin-top: 72px"` : ""}${/まとめ/.test(s.h) ? ' class="sec-summary"' : ""}>
   <h2 class="article-h2">${esc(s.h)}</h2>
   ${(s.p || []).map((t) => { const m = /特徴|メリット/.test(s.h) && !/デメリット/.test(s.h) && String(t).match(/^([^。]{2,30})。(.+)$/); return m ? `<p class="body-text"><b class="pt-h">${esc(m[1])}</b>${esc(m[2])}</p>` : `<p class="body-text">${esc(t)}</p>`; }).join("\n  ")}
   ${s.ul ? `<ul class="${listCls(s.h)}">${s.ul.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
-  ${s.table ? `<div class="table-wrap"><table class="table"><thead><tr>${s.table.head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${s.table.rows.map((r) => `<tr>${r.map((d) => `<td>${esc(d)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
+  ${s.table ? `<div class="table-wrap"><table class="table"><thead><tr>${s.table.head.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${s.table.rows.map((r) => `<tr>${r.map((d) => `<td>${cell(d)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : ""}
+  ${s.note ? `<p class="sub">${esc(s.note)}</p>` : ""}
+  ${s.products && s.products.length ? `<div class="prod-list" data-products="${s.products.join(",")}"></div>` : ""}
 </section>`).join("\n");
   const ld = `<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Article", headline: a.title, datePublished: a.date, dateModified: a.date, author: { "@type": "Organization", name: AUTHOR }, publisher: { "@type": "Organization", name: "ヤマフィット" } })}</script>\n`;
   const related = (a.related || []).map((s) => bySlug[s]).filter(Boolean);
   // 記事の写真（毎朝の画像生成で入る。AIで作ったイメージであることを必ず添える）
   const hero = a.image ? `<figure style="margin: 0; display: flex; flex-direction: column; gap: 6px">
-    <img src="../${esc(a.image)}" alt="${esc(a.image_alt || a.title)}" width="${a.image_w || 1280}" height="${a.image_h || 1600}" style="width: 100%; max-width: 640px; height: auto; border-radius: 8px; align-self: center" loading="eager">
-    <figcaption class="sub" style="text-align: center">画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。</figcaption>
+    <img src="../${esc(a.image)}" alt="${esc(a.image_alt || a.title)}" width="${a.image_w || 1280}" height="${a.image_h || 1600}" style="width: 100%; max-width: ${(a.image_h || 1600) > (a.image_w || 1280) * 1.5 ? 400 : 640}px; height: auto; border-radius: 8px; align-self: center" loading="eager">
+    <figcaption class="sub" style="text-align: center">${esc(a.image_caption || "画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。")}</figcaption>
   </figure>` : "";
   const og = a.image && SITE_URL ? `<meta property="og:image" content="${SITE_URL}${esc(a.image)}">\n<meta name="twitter:card" content="summary_large_image">\n` : "";
   fs.writeFileSync(`articles/${a.slug}.html`, `${head(a.title, a.desc, `/articles/${a.slug}.html`, og + ld)}
