@@ -20694,12 +20694,12 @@
    "brand": "マムート",
    "name": "デュカン 3 ハイ レザー ゴアテックス",
    "gender": "womens",
-   "spec": "GORE-TEXメンブレン",
+   "spec": "GORE-TEXメンブレン／490g（UK5.5・片足）",
    "price": 38500,
    "capacity_l": null,
-   "weight_g": null,
-   "weight_note": null,
-   "material": null,
+   "weight_g": 490,
+   "weight_note": "UK5.5・片足",
+   "material": "アッパー：Mastrottoスエードレザー（TPU補強ランド）／アウトソール：Vibram XS TREK",
    "waterproof": "GORE-TEXメンブレン",
    "warmth": null,
    "size_note": null,
@@ -20709,15 +20709,18 @@
     "autumn"
    ],
    "features": [
-    "スエードレザーで柔軟なフィット感と記載",
-    "Flextron PRO推進プレートで安定性とサポート力を提供と記載",
-    "Vibram XS TREKアウトソール"
+    "持続可能な方法でなめしたMastrottoスエードレザーのアッパー",
+    "Flextron PRO推進プレートで安定性とサポート力を高める",
+    "一日中クッション性が続く高反発EVAフォーム",
+    "がれきから足を守るTPU補強ランド",
+    "Vibram XS TREKアウトソール",
+    "重量490g（UK5.5・片足）"
    ],
    "cons": [
-    "重量は公式ページに記載なし（不明）",
-    "価格が38,500円と高め"
+    "価格が38,500円と高め",
+    "サイズはUK表記（日本のcmと違うので試し履きがおすすめ）"
    ],
-   "for_whom": "泊まりがけのハイキングをする人",
+   "for_whom": "長時間のハイキングや泊まりがけの山行をする女性・雨の日の岩場や濡れた道を歩くことがある人",
    "not_for": "軽さを最優先する人",
    "terrain": [
     "mid",
@@ -20733,7 +20736,7 @@
    "reasons": {
     "knee": "Flextron PROが安定性とサポート力を提供し、足の疲れを軽減すると記載されています。"
    },
-   "default_reason": "Mastrottoスエードレザーを使った、長時間のハイキングや泊まりがけのツアー向けのハイカットGORE-TEXブーツ（ウィメンズ）です。",
+   "default_reason": "長時間のハイキングや泊まりがけのツアー向けの、スエードレザーのハイカットGORE-TEXブーツ（ウィメンズ）です。",
    "fit": "不明（公式の説明にサイズ感の記載なし）",
    "image": "",
    "ai_image": "",
