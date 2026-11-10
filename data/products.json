@@ -38595,6 +38595,82 @@
    }
   },
   {
+   "id": "millet-miv10730",
+   "category": "wear",
+   "brand": "ミレー",
+   "name": "セネカ ハイブリッド フーディ",
+   "gender": "mens",
+   "spec": "PFCフリー耐久撥水加工（公式記載）／428g（公式記載）",
+   "price": 27500,
+   "capacity_l": null,
+   "weight_g": 428,
+   "weight_note": "公式記載",
+   "material": "ドライエッジ ストレッチ プレーン 2層 ポリエステル100% × ハイロフト フリース リサイクルポリエステル100%",
+   "waterproof": "PFCフリー耐久撥水加工（公式記載）",
+   "warmth": "身頃はハイロフトフリース、肩・腕はグリッドフリースの裏地（公式記載）",
+   "size_note": "XS / S / M / L（EUROサイズ表記。S＝日本のM）",
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "保温：身頃ハイロフトフリース、肩・腕グリッドフリースの裏地（公式記載）",
+    "防風性のあるストレッチ2層素材（公式記載）",
+    "重量 428g（公式記載）",
+    "PFCフリー耐久撥水加工（公式記載）",
+    "チェストジップポケットとジップハンドポケット×2（公式記載）"
+   ],
+   "cons": [
+    "防水の雨具としての性能は記載されていない",
+    "EUROサイズ表記（S＝日本のM）で、スリムな作り"
+   ],
+   "for_whom": "冷え込む晴れの日に1枚で行動したい人・シェルとフリースの重ね着を減らしたい人",
+   "not_for": "雨具としても使いたい人・ゆったりしたシルエットが好みの人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "cold",
+    "sweat"
+   ],
+   "reasons": {
+    "cold": "身頃と腕にフリース裏地が使われていると記載されています。",
+    "sweat": "低温下で汗を多くかく活動を想定したアクティブサーマルジャケットと記載されています。"
+   },
+   "default_reason": "ウェア。ストレッチ性のある2層の防風素材に部位別のフリース裏地を組み合わせた、汗をかく行動中向けのアクティブサーマルジャケット。",
+   "fit": "EUROサイズ表記（S＝日本のM）。身体に沿うスリムなシルエット（公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.millet.jp/products/miv10730",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.millet.jp/products/miv10730",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "montbell-1101312",
    "category": "wear",
    "brand": "モンベル",

@@ -28145,5 +28145,18 @@
   ],
   "weight_labeled": null,
   "checked_at": "2026-10-23"
+ },
+ "https://www.millet.jp/products/miv10730": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.millet.jp/cdn/shop/files/MIV10730_N3536_01.jpg?v=1788939801&width=1600",
+  "url": "https://www.millet.jp/products/miv10730",
+  "category": "wear",
+  "name": "セネカ ハイブリッド フーディ",
+  "title": "セネカ ハイブリッド フーディ",
+  "price_min": 27500,
+  "price_max": 27500,
+  "checked_at": "2026-11-11"
  }
 }
