@@ -32,18 +32,18 @@ for cand in ["/usr/share/fonts/opentype/noto/", "/usr/share/fonts/opentype/noto-
 
 # テロップ: [y]…[/] は黄色、[r]…[/] は赤。1要素＝1行。
 # voice: (読み上げる文, その文と同時に出すテロップの行番号。None なら何も出さない)
-# clip: 元動画の (何秒目から, 何秒間)
+# clip: 元動画の (何秒目から, 何秒間)。speed: 0.6 なら元の0.6倍の速さ（ゆっくり）で流す
 SCENES = [
-    dict(dur=2.2, bg="rain_blue", clip=(0, 2.2), size=92, y=0.30, fx="rain", move=(1.00, 1.09, 0.0, 0.3),
+    dict(dur=2.2, bg="rain_blue", clip=(0, 2.2), size=92, y=0.15, fx="rain", move=(1.00, 1.09, 0.0, 0.3),
          telop=["その雨具、", "ゴアテックスの「[y]どれ[/]」？"],
          voice=[("その雨具、ゴアテックスの、どれ？", 0)], show=[0, 0]),
     dict(dur=3.4, bg="forest", clip=(0, 3.4), size=112, y=0.155, fx="rain", move=(1.08, 1.00, 0.0, -0.4),
          telop=["実は[y]12種類[/]ある", "高い＝正解、じゃない"], scale=[1, 0.62],
          voice=[("実は、12種類。", 0), ("高いほど良い、ではありません。", 1)]),
-    dict(dur=3.6, bg="snow_ridge", clip=(0, 3.6), size=88, y=0.22, fx="snow", move=(1.00, 1.10, -0.3, 0.5),
+    dict(dur=3.6, bg="snow_ridge", clip=(1.0, 3.6), size=88, y=0.22, fx="snow", move=(1.00, 1.10, -0.3, 0.5),
          telop=["雪山・岩場 → [y]PRO[/]", "とにかく丈夫"],
          voice=[("雪山や岩場には、プロ。", 0), ("とにかく丈夫。", 1)]),
-    dict(dur=3.8, bg="calm_green", clip=(0, 3.8), size=88, y=0.20, move=(1.10, 1.02, 0.2, 0.0),
+    dict(dur=3.8, bg="calm_green", clip=(0.4, 3.8), size=88, y=0.17, move=(1.10, 1.02, 0.2, 0.0),
          telop=["軽さ → [y]パックライト[/]", "小さくたためる"],
          voice=[("軽さなら、パックライト。", 0), ("小さくたためます。", 1)]),
     dict(dur=4.2, bg="wind", clip=(0, 4.2), size=88, y=0.63, move=(1.02, 1.10, 0.0, -0.6),
@@ -55,7 +55,7 @@ SCENES = [
     dict(dur=2.6, bg="snow_dark", clip=(0, 2.6), size=88, y=0.16, fx="snow", move=(1.09, 1.00, 0.3, 0.0),
          telop=["手袋もある", "これで[y]12種類[/]"],
          voice=[("手袋まで入れて、12種類。", 0)], show=[0, 0.7]),
-    dict(dur=6.0, bg="hut", clip=(0, 6.0), size=76, y=0.215, move=(1.00, 1.09, 0.4, 0.2),
+    dict(dur=6.0, bg="hut", clip=(0, 6.0), speed=0.6, size=72, y=0.215, move=(1.00, 1.09, 0.4, 0.2),
          telop=["迷ったら、この3つ", "日帰り → [y]標準GORE-TEX[/]", "縦走 → [y]C-ニット[/]", "雪山 → [y]PRO[/]"],
          voice=[("迷ったら、この3つ。", 0), ("日帰りは、標準のゴアテックス。", 1), ("縦走は、シーニット。", 2), ("雪山は、プロ。", 3)]),
     dict(dur=4.4, bg="sunset", clip=(0, 4.4), size=84, y=0.20, move=(1.10, 1.00, 0.0, -0.3),
@@ -311,8 +311,10 @@ class Painted:
 
 class Clip:
     """元動画から1枚ずつ読む（1080x1920に合わせて中央を切り出す）"""
-    def __init__(self, path, start, dur):
-        vf = f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
+    def __init__(self, path, start, dur, speed=1.0):
+        slow = f"setpts=PTS/{speed},minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:vsbmc=1," if speed != 1 else ""
+        dur = dur * speed
+        vf = f"{slow}fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
         self.p = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-ss", str(start), "-t", str(dur + 0.2), "-i", path,
                                    "-an", "-vf", vf, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
         self.last = None
@@ -470,7 +472,7 @@ def main():
             for i, sp in enumerate(sprites):
                 sp["t"] = i * sc["dur"] / (len(sprites) + 1)
         path = find_clip(clips, n + 1)
-        src = Still(end_img) if sc["bg"] == "end" else (Photo(path, sc, 7 + n) if path.lower().endswith(("png", "jpg", "jpeg")) else Clip(path, *sc["clip"])) if path else Painted(sc["bg"], 100 + n)
+        src = Still(end_img) if sc["bg"] == "end" else (Photo(path, sc, 7 + n) if path.lower().endswith(("png", "jpg", "jpeg")) else Clip(path, *sc["clip"], sc.get("speed", 1.0))) if path else Painted(sc["bg"], 100 + n)
         print(f"シーン{n + 1}: {'最後のカード' if sc['bg'] == 'end' else os.path.basename(path) if path else '描いた背景'}")
         nf = int(round(sc["dur"] * FPS))
         for i in range(nf):
