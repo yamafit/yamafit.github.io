@@ -174,6 +174,8 @@ const HAND_ARTICLES = [
  lead: "雨具や登山靴を選んでいると「ゴアテックス」という言葉をよく見かけます。けれど同じゴアテックスでも、丈夫さを優先したもの、軽さを優先したもの、風は防ぐけれど防水ではないものなど、一般向けだけで12種類あり、得意なことがまったく違います。この記事では、12種類の違いを早見表にまとめ、行く山に合わせた選び方と、当サイトで扱っている商品を紹介します。冬の雨・雪対策の雨具選びにも使ってください。",
  image: "img/articles/gore-tex-types.jpg", image_w: 1080, image_h: 1920, image_alt: "ゴアテックス12種類の早見表",
  image_caption: "ゴアテックス12種類の早見表（ヤマフィット作成）",
+ video: "img/articles/gore-tex-types-reel.mp4", video_poster: "img/articles/gore-tex-types-reel.jpg",
+ video_caption: "37秒でわかる動画（音声あり）。映像はAIで作成したイメージです。",
  sections: [
   { h: "12種類の早見表", p: ["名前を押すと、その種類の説明と商品へ移動します。"], table: { head: ["種類", "ひとことで", "向いている場面"], rows: [
    [{ t: "① スタンダード", href: "#gtx-standard" }, "防水・防風・透湿の基本形。2層と3層がある", "低山〜高山、キャンプ、街"],

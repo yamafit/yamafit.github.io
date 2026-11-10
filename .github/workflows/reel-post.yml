@@ -7,6 +7,18 @@ on:
         description: "1 にするとアップロードまでで投稿しない（テスト）"
         required: false
         default: ""
+      file:
+        description: "作ってある動画をそのまま投稿するとき：動画のパス（例 img/articles/gore-tex-types-reel.mp4）"
+        required: false
+        default: ""
+      caption_file:
+        description: "そのときの投稿文のファイル（例 content/reel/gore-tex-types.txt）"
+        required: false
+        default: ""
+      thumb_ms:
+        description: "表紙にする位置（ミリ秒。例 4600）"
+        required: false
+        default: ""
 concurrency:
   group: reel-post
   cancel-in-progress: false
@@ -19,6 +31,9 @@ jobs:
     env:
       INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
       REEL_NO_PUBLISH: ${{ github.event.inputs.no_publish }}
+      REEL_FILE: ${{ github.event.inputs.file }}
+      REEL_CAPTION_FILE: ${{ github.event.inputs.caption_file }}
+      REEL_THUMB_MS: ${{ github.event.inputs.thumb_ms }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -28,14 +43,14 @@ jobs:
           sudo rm -f /var/lib/man-db/auto-update; timeout 300 sudo apt-get update -qq
           timeout 900 sudo env DEBIAN_FRONTEND=noninteractive NEEDRESTART_MODE=a apt-get install -y -qq --no-install-recommends fonts-noto-cjk fonts-noto-cjk-extra ffmpeg python3-pil
       - name: 19時まで待つ
-        if: env.REEL_NO_PUBLISH != '1'
+        if: env.REEL_NO_PUBLISH != '1' && env.REEL_FILE == ''
         run: |
           target=$(TZ=Asia/Tokyo date -d "19:00" +%s); now=$(date +%s)
           if [ "$now" -lt "$target" ]; then echo "$((target-now))秒待ちます"; sleep $((target-now)); fi
       - name: リールを作って投稿
         run: |
           git pull --rebase -q || true
-          node tools/daily-image-post.mjs reel
+          if [ -n "$REEL_FILE" ]; then node tools/daily-image-post.mjs reel-file; else node tools/daily-image-post.mjs reel; fi
       - name: 投稿の記録を保存
         if: env.REEL_NO_PUBLISH != '1'
         run: |

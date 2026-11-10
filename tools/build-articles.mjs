@@ -46,6 +46,11 @@ for (const a of ARTICLES) {
     <img src="../${esc(a.image)}" alt="${esc(a.image_alt || a.title)}" width="${a.image_w || 1280}" height="${a.image_h || 1600}" style="width: 100%; max-width: ${(a.image_h || 1600) > (a.image_w || 1280) * 1.5 ? 400 : 640}px; height: auto; border-radius: 8px; align-self: center" loading="eager">
     <figcaption class="sub" style="text-align: center">${esc(a.image_caption || "画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。")}</figcaption>
   </figure>` : "";
+  // 記事の動画（縦長。押すまで読み込まない）
+  const video = a.video ? `<figure style="margin: 0; display: flex; flex-direction: column; gap: 6px">
+    <video src="../${esc(a.video)}" ${a.video_poster ? `poster="../${esc(a.video_poster)}" ` : ""}controls playsinline preload="none" width="1080" height="1920" style="width: 100%; max-width: 360px; height: auto; border-radius: 8px; align-self: center; background: #000"></video>
+    <figcaption class="sub" style="text-align: center">${esc(a.video_caption || "映像はAIで作成したイメージです。")}</figcaption>
+  </figure>` : "";
   const og = a.image && SITE_URL ? `<meta property="og:image" content="${SITE_URL}${esc(a.image)}">\n<meta name="twitter:card" content="summary_large_image">\n` : "";
   fs.writeFileSync(`articles/${a.slug}.html`, `${head(a.title, a.desc, `/articles/${a.slug}.html`, og + ld)}
 ${c.top}
@@ -56,6 +61,7 @@ ${c.top}
     <div class="meta"><strong>${AUTHOR}</strong><span class="mono">${a.date} 公開</span><span class="pr-badge">PR</span></div>
   </div>
   ${hero}
+  ${video}
   <p class="body-text">${esc(a.lead)}</p>
   ${a.week && a.products && a.products.length ? `<div class="top-pick"><span class="eyebrow">この記事で紹介する商品</span><div class="prod-list" data-products="${a.products[0]}"${a.image ? " data-noimg" : ""}></div></div>` : ""}
   ${body}
