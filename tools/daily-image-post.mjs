@@ -519,14 +519,14 @@ async function publishWithVideo(img, imageUrl, caption, p, a, name) {
 }
 
 // ---------- リール（毎日19:00。その日の朝の商品の解説画像を動かした縦動画） ----------
-async function publishReel(file, caption, p) {
+async function publishReel(file, caption, p, extra = {}) {
   const token = process.env.INSTAGRAM_ACCESS_TOKEN;
   if (!token) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
   const me = await ig("/me?fields=user_id,username", {});
   const uid = me.user_id || me.id;
   const videoUrl = await hostVideo(file);
   const tag = p ? brandIG(p) : "";
-  const base = { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true" };
+  const base = { media_type: "REELS", video_url: videoUrl, caption, share_to_feed: "true", ...extra };
   let c, tagged = "";
   if (tag) { try { c = await ig(`/${uid}/media`, { ...base, user_tags: JSON.stringify([{ username: tag }]) }, "POST"); tagged = tag; } catch (e) { log("ブランドのタグ付けができませんでした:", e.message); } }
   if (!c) c = await ig(`/${uid}/media`, base, "POST");
@@ -537,6 +537,24 @@ async function publishReel(file, caption, p) {
   let permalink = "";
   try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
   return { media_id: pub.id, permalink, account: me.username || "", tagged };
+}
+// 作ってある動画をそのままリールに投稿する（REEL_FILE＝動画、REEL_CAPTION_FILE＝投稿文、REEL_THUMB_MS＝表紙にする位置・ミリ秒）
+async function reelFile() {
+  const file = process.env.REEL_FILE, capFile = process.env.REEL_CAPTION_FILE;
+  if (!file || !fs.existsSync(file)) throw new Error("REEL_FILE の動画がありません: " + file);
+  if (!capFile || !fs.existsSync(capFile)) throw new Error("REEL_CAPTION_FILE の投稿文がありません: " + capFile);
+  const key = `reel-file:${path.basename(file)}`;
+  if (posts[key] && !process.env.REEL_NO_PUBLISH) return log("このリールはもう投稿済みです:", posts[key].permalink);
+  const caption = fs.readFileSync(capFile, "utf8").trim();
+  if (!/#PR/.test(caption)) throw new Error("投稿文に #PR がありません");
+  if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
+  const ms = parseInt(process.env.REEL_THUMB_MS || "", 10);
+  const r = await publishReel(file, caption, null, ms > 0 ? { thumb_offset: String(ms) } : {});
+  if (process.env.REEL_NO_PUBLISH === "1") { const m = "テスト：アップロードと処理まで成功（投稿はしていません） " + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
+  posts[key] = { ...r, posted_at: new Date().toISOString(), video: file };
+  fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
+  log("リールを投稿しました:", r.permalink || r.media_id);
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice::リール投稿 ${r.permalink}`);
 }
 async function reel() {
   const key = `reel:${today}`;
@@ -674,7 +692,7 @@ async function storyOnly() { // ストーリーズだけ投稿（朝の記事。
   if (process.env.GITHUB_ACTIONS) console.log(`::notice::ストーリーズ ${JSON.stringify(st)}`);
 }
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, video: videoOnly, story: storyOnly }[cmd];
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, "reel-file": reelFile, video: videoOnly, story: storyOnly }[cmd];
 if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram|reel"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });
