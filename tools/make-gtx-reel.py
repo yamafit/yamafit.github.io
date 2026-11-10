@@ -7,7 +7,7 @@
 
 --clips のフォルダには scene1 〜 scene9 を入れる。動画（.mp4 / .mov）でも写真（.png / .jpg）でもよい。
 写真はゆっくり寄ったり引いたりして動かす。無いシーンは描いた背景になる。
-同じフォルダに gtx-end.png があれば最後のカードに使う（無ければ記事の早見表の画像）。
+最後のカードはこの道具が描く（--end で画像を指定すればそれを使う）。
 使う部分（何秒目から何秒間）は下の SCENES の clip に書いてある。
 
 音声: Kokoro（kokoro-onnx）の日本語の声。--tts-dir に kokoro.onnx と voices.bin が必要。
@@ -55,9 +55,9 @@ SCENES = [
     dict(dur=2.6, bg="snow_dark", clip=(0, 2.6), size=88, y=0.16, fx="snow", move=(1.09, 1.00, 0.3, 0.0),
          telop=["手袋もある", "これで[y]12種類[/]"],
          voice=[("手袋まで入れて、12種類。", 0)], show=[0, 0.7]),
-    dict(dur=5.6, bg="hut", clip=(0, 5.6), size=76, y=0.215, move=(1.00, 1.09, 0.4, 0.2),
-         telop=["迷ったら、この3つ", "日帰り → [y]パックライト[/]", "縦走 → [y]C-ニット[/]", "雪山 → [y]PRO[/]"],
-         voice=[("迷ったら、この3つ。", 0), ("日帰りは、パックライト。", 1), ("縦走は、シーニット。", 2), ("雪山は、プロ。", 3)]),
+    dict(dur=6.0, bg="hut", clip=(0, 6.0), size=76, y=0.215, move=(1.00, 1.09, 0.4, 0.2),
+         telop=["迷ったら、この3つ", "日帰り → [y]標準GORE-TEX[/]", "縦走 → [y]C-ニット[/]", "雪山 → [y]PRO[/]"],
+         voice=[("迷ったら、この3つ。", 0), ("日帰りは、標準のゴアテックス。", 1), ("縦走は、シーニット。", 2), ("雪山は、プロ。", 3)]),
     dict(dur=4.4, bg="sunset", clip=(0, 4.4), size=84, y=0.20, move=(1.10, 1.00, 0.0, -0.3),
          telop=["12種類の違いと", "おすすめは記事で", "[y]プロフィールのリンクから[/]"],
          voice=[("12種類の違いと、おすすめは、", 0), ("プロフィールのリンクから。", 2)], show=[0, 0.7, None]),
@@ -381,6 +381,32 @@ class Still:
         return self.im.copy()
 
 
+def end_card(path):
+    """最後のカード（迷ったら、この3つ）を描いて保存する"""
+    top, bot = np.array((16, 34, 47), float), np.array((28, 62, 83), float)
+    g = np.linspace(0, 1, H)[:, None, None]
+    im = Image.fromarray(np.broadcast_to(top + (bot - top) * g, (H, W, 3)).astype(np.uint8))
+    d = ImageDraw.Draw(im)
+    fnt = lambda w, s: ImageFont.truetype(FONT.replace("Black", w), s, index=0)
+    d.polygon([(0, 1730), (180, 1590), (300, 1680), (470, 1490), (620, 1680), (760, 1620), (1080, 1790), (1080, H), (0, H)], fill=(44, 86, 112))
+    d.polygon([(430, 1510), (470, 1490), (512, 1540), (488, 1532), (470, 1550)], fill=(232, 240, 246))
+    d.polygon([(0, 1820), (240, 1700), (420, 1800), (620, 1660), (860, 1820), (1080, 1730), (1080, H), (0, H)], fill=(12, 28, 40))
+    d.text((80, 395), "迷ったら、この3つ", font=fnt("Bold", 46), fill=(143, 184, 214), anchor="lm")
+    d.text((80, 512), "あなたの山に", font=fnt("Black", 100), fill=WHITE, anchor="lm")
+    d.text((80, 626), "合う1着は？", font=fnt("Black", 100), fill=WHITE, anchor="lm")
+    d.rectangle((80, 728, 88, 970), fill=(255, 209, 102))
+    rows = [("日帰り登山 → ", "標準GORE-TEX"), ("縦走・テント泊 → ", "C-ニット"), ("雪山・岩場 → ", "PRO")]
+    for i, (a_, b_) in enumerate(rows):
+        y = 770 + 81 * i
+        d.text((120, y), a_, font=fnt("Regular", 46), fill=WHITE, anchor="lm")
+        d.text((120 + d.textlength(a_, font=fnt("Regular", 46)), y), b_, font=fnt("Bold", 46), fill=(255, 209, 102), anchor="lm")
+    d.rounded_rectangle((80, 1040, 1000, 1228), 22, fill=(255, 209, 102))
+    d.text((540, 1108), "おすすめは記事で", font=fnt("Black", 52), fill=(16, 34, 47), anchor="mm")
+    d.text((540, 1178), "プロフィールのリンクから", font=fnt("Bold", 34), fill=(16, 34, 47), anchor="mm")
+    im.save(path)
+    return path
+
+
 def find_clip(folder, n):
     if not folder:
         return None
@@ -412,8 +438,7 @@ def main():
         print("音声を作っています…")
         voices = make_voice(a.tts_dir, a.voice, a.speed)
 
-    end_img = a.end or next((p for p in [os.path.join(clips, "gtx-end.png")] if clips and os.path.exists(p)), "") \
-        or os.path.join(ROOT, "img", "articles", "gore-tex-types.jpg")
+    end_img = a.end or end_card(os.path.splitext(a.out)[0] + "-end.png")
 
     total = round(sum(s["dur"] for s in SCENES), 2)
     track = np.zeros(int(SR * total) + SR, np.float32)
