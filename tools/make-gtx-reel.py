@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ゴアテックス12種類のリール（1080x1920・縦・約37秒）を、テロップと読み上げ音声つきで作る。
+"""ゴアテックスとメンブレンのリール（1080x1920・縦・約50秒）を、テロップと読み上げ音声つきで作る。
 
 使い方:
   python3 tools/make-gtx-reel.py                      # 背景はこの道具が描く（雨・雪・風・夕日）
@@ -34,34 +34,42 @@ for cand in ["/usr/share/fonts/opentype/noto/", "/usr/share/fonts/opentype/noto-
 # voice: (読み上げる文, その文と同時に出すテロップの行番号。None なら何も出さない)
 # clip: 元動画の (何秒目から, 何秒間)。speed: 0.6 なら元の0.6倍の速さ（ゆっくり）で流す
 SCENES = [
-    dict(dur=2.2, bg="rain_blue", clip=(0, 2.2), size=92, y=0.15, fx="rain", move=(1.00, 1.09, 0.0, 0.3),
-         telop=["その雨具、", "ゴアテックスの「[y]どれ[/]」？"],
-         voice=[("その雨具、ゴアテックスの、どれ？", 0)], show=[0, 0]),
-    dict(dur=3.4, bg="forest", clip=(0, 3.4), size=112, y=0.155, fx="rain", move=(1.08, 1.00, 0.0, -0.4),
-         telop=["実は[y]12種類[/]ある", "高い＝正解、じゃない"], scale=[1, 0.62],
-         voice=[("実は、12種類。", 0), ("高いほど良い、ではありません。", 1)]),
-    dict(dur=3.6, bg="snow_ridge", clip=(1.0, 3.6), size=88, y=0.22, fx="snow", move=(1.00, 1.10, -0.3, 0.5),
-         telop=["雪山・岩場 → [y]PRO[/]", "とにかく丈夫"],
-         voice=[("雪山や岩場には、プロ。", 0), ("とにかく丈夫。", 1)]),
-    dict(dur=3.8, bg="calm_green", clip=(0.4, 3.8), size=88, y=0.17, move=(1.10, 1.02, 0.2, 0.0),
-         telop=["軽さ → [y]パックライト[/]", "小さくたためる"],
-         voice=[("軽さなら、パックライト。", 0), ("小さくたためます。", 1)]),
-    dict(dur=4.2, bg="wind", clip=(0, 4.2), size=88, y=0.63, move=(1.02, 1.10, 0.0, -0.6),
-         telop=["[y]WINDSTOPPER[/]", "風は防ぐ", "[r]でも防水ではない[/]"],
-         voice=[("ウインドストッパーは、風に強い。", 0), ("でも、防水ではありません。", 2)], show=[0, 0.9, None]),
-    dict(dur=4.0, bg="puddle", clip=(1.5, 4.0), size=88, y=0.22, move=(1.00, 1.06, 0.0, 0.3),
-         telop=["靴にも[y]4種類[/]", "蒸れにくさ・暖かさがちがう"],
-         voice=[("靴にも、よん種類。", 0), ("蒸れにくさや、暖かさがちがいます。", 1)]),
-    dict(dur=2.6, bg="snow_dark", clip=(0, 2.6), size=88, y=0.16, fx="snow", move=(1.09, 1.00, 0.3, 0.0),
-         telop=["手袋もある", "これで[y]12種類[/]"],
-         voice=[("手袋まで入れて、12種類。", 0)], show=[0, 0.7]),
-    dict(dur=6.0, bg="hut", clip=(0, 6.0), speed=0.6, size=72, y=0.215, move=(1.00, 1.09, 0.4, 0.2),
-         telop=["迷ったら、この3つ", "日帰り → [y]標準GORE-TEX[/]", "縦走 → [y]C-ニット[/]", "雪山 → [y]PRO[/]"],
-         voice=[("迷ったら、この3つ。", 0), ("日帰りは、標準のゴアテックス。", 1), ("縦走は、シーニット。", 2), ("雪山は、プロ。", 3)]),
-    dict(dur=4.4, bg="sunset", clip=(0, 4.4), size=84, y=0.20, move=(1.10, 1.00, 0.0, -0.3),
-         telop=["12種類の違いと", "おすすめは記事で", "[y]プロフィールのリンクから[/]"],
-         voice=[("12種類の違いと、おすすめは、", 0), ("プロフィールのリンクから。", 2)], show=[0, 0.7, None]),
-    dict(dur=3.2, bg="end", telop=[], voice=[("保存して、買う前に見返してね。", None)]),
+    dict(dur=2.2, src=1, bg="rain_blue", clip=(0, 2.2), size=96, y=0.15,
+         telop=["ゴアテックスって、", "結局[y]なに[/]？"],
+         voice=[("ゴアテックスって、結局なに？", 0)], show=[0, 0]),
+    dict(dur=3.5, src=2, bg="forest", clip=(0, 3.5), size=92, y=0.155,
+         telop=["正体は「[y]メンブレン[/]」", "生地の中のうすい膜"], scale=[1, 0.8],
+         voice=[("正体は、メンブレン。", 0), ("生地の中の、うすい膜です。", 1)]),
+    dict(dur=4.4, bg="diagram", size=84, y=0.20,
+         telop=["[r]雨と風[/]は通さない", "[y]汗の蒸れ[/]は外へ逃がす"],
+         voice=[("雨と風は通さず、", 0), ("汗の蒸れだけ、外へ逃がします。", 1)]),
+    dict(dur=3.7, src=3, bg="snow_ridge", clip=(0.6, 3.7), size=84, y=0.22,
+         telop=["ゴアテックスにも種類がある", "丈夫さ → [y]PRO[/]"],
+         voice=[("ゴアテックスにも、種類があります。", 0), ("丈夫さなら、プロ。", 1)]),
+    dict(dur=2.1, src=4, bg="calm_green", clip=(1.0, 2.1), size=88, y=0.17,
+         telop=["軽さ → [y]パックライト[/]"],
+         voice=[("軽さなら、パックライト。", 0)]),
+    dict(dur=4.5, src=5, bg="wind", clip=(0, 4.5), size=84, y=0.63,
+         telop=["[y]WINDSTOPPER[/]", "風は防ぐ", "[r]でも完全防水ではない[/]"],
+         voice=[("ウインドストッパーは、風に強い。", 0), ("でも、完全防水ではありません。", 2)], show=[0, 0.9, None]),
+    dict(dur=3.6, src=6, bg="puddle", clip=(1.5, 3.6), size=84, y=0.22,
+         telop=["ゴアテックス[y]以外[/]にも", "メンブレンはある"],
+         voice=[("実は、ゴアテックス以外にも、", 0), ("メンブレンはあります。", 1)]),
+    dict(dur=5.0, bg="card", size=80, y=0.42,
+         telop=["各社の防水透湿メンブレン", "モンベル：[y]DRYTEC[/]", "ミレー：[y]DRYEDGE[/]", "パタゴニア：[y]H2No[/]",
+                "ノースフェイス：[y]FUTURELIGHT[/]", "コロンビア：[y]OMNI-TECH[/]"],
+         voice=[("モンベル、ミレー、パタゴニアなど、", None), ("各社が、独自の膜を作っています。", None)],
+         show=[0, 0.3, 0.9, 1.5, 2.1, 2.7]),
+    dict(dur=2.3, src=7, bg="snow_dark", clip=(0, 2.3), size=84, y=0.16,
+         telop=["だから", "[y]名前だけ[/]で選ばない"],
+         voice=[("だから、名前だけで選ばない。", 0)], show=[0, 0.5]),
+    dict(dur=5.0, src=8, bg="hut", clip=(0, 5.0), speed=0.6, size=72, y=0.215,
+         telop=["見るのは、この5つ", "[y]防水性・透湿性[/]", "[y]耐久性[/]", "[y]重さ・収納性[/]"],
+         voice=[("見るのは、この、いつつ。", 0), ("防水、透湿、", 1), ("耐久、", 2), ("重さ、収納。", 3)]),
+    dict(dur=3.9, src=9, bg="sunset", clip=(0, 3.9), size=84, y=0.20,
+         telop=["くわしい違いと", "選び方は記事で", "[y]プロフィールのリンクから[/]"],
+         voice=[("くわしい違いと選び方は、", 0), ("プロフィールのリンクから。", 2)], show=[0, 0.7, None]),
+    dict(dur=2.8, bg="end", telop=[], voice=[("保存して、買う前に見返してね。", None)]),
 ]
 
 
@@ -383,16 +391,75 @@ class Still:
         return self.im.copy()
 
 
-def end_card(path):
-    """最後のカード（迷ったら、この3つ）を描いて保存する"""
+def navy_bg():
     top, bot = np.array((16, 34, 47), float), np.array((28, 62, 83), float)
     g = np.linspace(0, 1, H)[:, None, None]
     im = Image.fromarray(np.broadcast_to(top + (bot - top) * g, (H, W, 3)).astype(np.uint8))
     d = ImageDraw.Draw(im)
-    fnt = lambda w, s: ImageFont.truetype(FONT.replace("Black", w), s, index=0)
     d.polygon([(0, 1730), (180, 1590), (300, 1680), (470, 1490), (620, 1680), (760, 1620), (1080, 1790), (1080, H), (0, H)], fill=(44, 86, 112))
     d.polygon([(430, 1510), (470, 1490), (512, 1540), (488, 1532), (470, 1550)], fill=(232, 240, 246))
     d.polygon([(0, 1820), (240, 1700), (420, 1800), (620, 1660), (860, 1820), (1080, 1730), (1080, H), (0, H)], fill=(12, 28, 40))
+    return im
+
+
+class Card:
+    """紺色の背景だけのカード（文字はテロップで出す）"""
+    def __init__(self):
+        self.im = navy_bg()
+
+    def frame(self, t, u):
+        return self.im.copy()
+
+
+class Diagram:
+    """メンブレンの図解：外の雨と風ははね返り、内側の汗の蒸れは上へ抜ける"""
+    def __init__(self):
+        im = navy_bg()
+        d = ImageDraw.Draw(im)
+        fnt = lambda w, s: ImageFont.truetype(FONT.replace("Black", w), s, index=0)
+        self.y0 = 1000
+        d.text((70, 740), "外側（雨・風）", font=fnt("Bold", 50), fill=(143, 184, 214), anchor="lm")
+        d.text((70, 1470), "内側（汗の蒸れ）", font=fnt("Bold", 50), fill=(143, 184, 214), anchor="lm")
+        for (y1, y2, col, label, tc) in [(1000, 1120, (58, 104, 150), "表地", WHITE), (1120, 1200, (255, 209, 102), "メンブレン", (16, 34, 47)),
+                                         (1200, 1310, (196, 208, 216), "裏地", (16, 34, 47))]:
+            d.rectangle((40, y1, 1040, y2), fill=col)
+            d.text((70, (y1 + y2) // 2), label, font=fnt("Black", 56), fill=tc, anchor="lm")
+        self.im = im
+        rng = np.random.default_rng(5)
+        self.rx, self.rp = rng.uniform(420, 1000, 16), rng.uniform(0, 1, 16)
+        self.vx, self.vp = rng.uniform(440, 980, 8), rng.uniform(0, 1, 8)
+
+    def frame(self, t, u):
+        fr = self.im.copy()
+        ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(ov)
+        for x, p in zip(self.rx, self.rp):  # 雨：落ちて、表地ではね返る
+            k = (t * 1.1 + p) % 1
+            if k < 0.7:
+                y = 660 + (self.y0 - 660) * (k / 0.7)
+                d.line((x, max(660, y - 70), x, y), fill=(190, 222, 250, 240), width=12)
+            else:
+                e = (k - 0.7) / 0.3
+                for sgn in (-1, 1):
+                    bx, by = x + sgn * 80 * e, self.y0 - 90 * math.sin(math.pi * e) - 10
+                    d.ellipse((bx - 11, by - 11, bx + 11, by + 11), fill=(190, 222, 250, int(230 * (1 - e))))
+        for x, p in zip(self.vx, self.vp):  # 蒸れ：内側から外へ抜ける
+            k = (t * 0.45 + p) % 1
+            y = 1430 - (1430 - 720) * k
+            a = int(255 * min(1, k * 5, (1 - k) * 3))
+            for j in range(3):
+                yy = y + j * 40
+                xx = x + 20 * math.sin(yy * 0.03 + p * 6)
+                d.ellipse((xx - 15, yy - 15, xx + 15, yy + 15), fill=(255, 226, 150, max(0, a - j * 60)))
+        fr.paste(ov, (0, 0), ov)
+        return fr
+
+
+def end_card(path):
+    """最後のカード（迷ったら、この3つ）を描いて保存する"""
+    im = navy_bg()
+    d = ImageDraw.Draw(im)
+    fnt = lambda w, s: ImageFont.truetype(FONT.replace("Black", w), s, index=0)
     d.text((80, 395), "迷ったら、この3つ", font=fnt("Bold", 46), fill=(143, 184, 214), anchor="lm")
     d.text((80, 512), "あなたの山に", font=fnt("Black", 100), fill=WHITE, anchor="lm")
     d.text((80, 626), "合う1着は？", font=fnt("Black", 100), fill=WHITE, anchor="lm")
@@ -471,9 +538,9 @@ def main():
         elif not voices:
             for i, sp in enumerate(sprites):
                 sp["t"] = i * sc["dur"] / (len(sprites) + 1)
-        path = find_clip(clips, n + 1)
-        src = Still(end_img) if sc["bg"] == "end" else (Photo(path, sc, 7 + n) if path.lower().endswith(("png", "jpg", "jpeg")) else Clip(path, *sc["clip"], sc.get("speed", 1.0))) if path else Painted(sc["bg"], 100 + n)
-        print(f"シーン{n + 1}: {'最後のカード' if sc['bg'] == 'end' else os.path.basename(path) if path else '描いた背景'}")
+        path = find_clip(clips, sc["src"]) if sc.get("src") else None
+        src = Still(end_img) if sc["bg"] == "end" else Diagram() if sc["bg"] == "diagram" else Card() if sc["bg"] == "card" else (Photo(path, sc, 7 + n) if path.lower().endswith(("png", "jpg", "jpeg")) else Clip(path, *sc["clip"], sc.get("speed", 1.0))) if path else Painted(sc["bg"], 100 + n)
+        print(f"シーン{n + 1}: {'最後のカード' if sc['bg'] == 'end' else '図・カード' if sc['bg'] in ('diagram', 'card') else os.path.basename(path) if path else '描いた背景'}")
         nf = int(round(sc["dur"] * FPS))
         for i in range(nf):
             t = i / FPS
