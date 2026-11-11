@@ -41,16 +41,15 @@ function card(p) {
 </article>`;
 }
 
+const SHORT = { dry: "ドライ系", synthetic: "化繊", merino: "ウール" };
 const rows = GROUPS.flatMap((g) => byGroup(g.id)).map((p) =>
-  `<tr><th><a href="#p-${p.id}">${esc(p.name.replace(/ Men's$/, ""))}</a><small>${esc(p.brand)}</small></th><td>${yen(p.price)}</td><td class="tki-mat">${esc(p.material_short)}</td><td>${p.weight_g ? p.weight_g + "g" : "－"}</td><td>${esc(GROUPS.find((g) => g.id === p.group).title.replace(/（.*）/, ""))}</td></tr>`).join("");
+  `<tr><th><a href="#p-${p.id}">${esc(p.name.replace(/ Men's$/, ""))}</a><small>${esc(p.brand)}</small></th><td>${yen(p.price)}</td><td class="tki-mat">${esc(p.material_short)}</td><td>${p.weight_g ? p.weight_g + "g" : "－"}</td><td>${esc(SHORT[p.group])}</td></tr>`).join("");
 
 const n = P.length;
 const title = "山のインナー特集｜ベースレイヤー";
 const desc = "山で汗冷えしにくく、街でも毎日着られる、登山ブランドのベースレイヤー（肌着）を、素材・重さ・厚さ・価格から選べるように整理しました。";
 const c = chrome("../");
 const style = `<style>
-.tki-hero { background: linear-gradient(160deg, #10282B 0%, #1F5560 55%, #6FA3A8 100%); }
-.tki-hero p { color: #DDEBEC; }
 .tki-note { font-size: 12px; line-height: 1.6; color: var(--ink-sub); }
 .tki-spec { display: flex; flex-direction: column; gap: 0; margin: 2px 0; border-top: 1px solid var(--line); }
 .tki-spec > div { display: flex; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 1.6; }
@@ -60,16 +59,17 @@ const style = `<style>
 .tki-cau ul { list-style: disc; padding-left: 1.2em; font-size: 13px; line-height: 1.7; }
 .tki-steps { display: grid; gap: 10px; counter-reset: s; }
 @media (min-width: 640px) { .tki-steps { grid-template-columns: repeat(2, 1fr); } }
-.tki-mat { white-space: normal !important; min-width: 150px; text-align: left !important; }
-.tki-table { min-width: 640px; }
+.tki-mat { white-space: normal !important; min-width: 120px; text-align: left !important; }
+.tki-table { min-width: 0; table-layout: auto; }
+.tki-table th, .tki-table td { padding: 10px 6px; }
 .tki-table tbody th small { display: block; font-size: 11px; color: var(--ink-sub); font-weight: 400; }
-.tki-table tbody th { white-space: normal; min-width: 150px; }
+.tki-table tbody th { white-space: normal; min-width: 130px; }
 </style>
 `;
 const html = `${head(title, desc, "/tokushu/inner.html", style)}
 ${c.top}
 <main class="tk">
-  <section class="tk-hero tki-hero">
+  <section class="tk-hero">
     <div class="tk-hero-inner">
       <span class="tk-hero-tag">特集｜2026.11.12 — 2027.2.28</span>
       <h1>山のインナー特集<br><small style="font-size:16px;font-weight:700">ベースレイヤー</small></h1>
