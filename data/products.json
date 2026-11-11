@@ -4762,41 +4762,54 @@
    "brand": "アークテリクス",
    "name": "アロー 22 バックパック",
    "gender": "unisex",
-   "spec": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
+   "spec": "撥水加工（公式記載）／1080g",
    "price": 37400,
    "capacity_l": null,
-   "weight_g": null,
+   "weight_g": 1080,
    "weight_note": null,
-   "material": null,
-   "waterproof": null,
+   "material": "420Dコーデュラナイロン6.6（本体）",
+   "waterproof": "撥水加工（公式記載）",
    "warmth": null,
-   "size_note": null,
+   "size_note": "高さ55×幅30×奥行25cm",
    "season": [
     "spring",
+    "summer",
     "autumn",
-    "summer"
+    "winter"
    ],
    "features": [
-    "コンパクトに収納できると記載"
+    "15インチのノートPCが入るパッド入りスリーブ",
+    "止水ジッパー（WaterTight™）のカンガルーポケット",
+    "本体は420Dコーデュラナイロン6.6",
+    "ハイドレーション対応（リザーバーは別売り）",
+    "背負いやすい高めのバックパネル",
+    "重量 1,080g（公式記載）"
    ],
    "cons": [
-    "不明（公式の記載から読み取れる弱点は限られます）"
+    "防水ではない：主素材と裏地は撥水加工で、防水の記載はない",
+    "洗濯機で洗えない：手入れは表面の拭き洗いのみ",
+    "容量の数値は記載なし：商品名は22だが、公式に容量の記載はない"
    ],
-   "for_whom": "荷物を整理して背負いたい人",
-   "not_for": "",
-   "terrain": [],
-   "uses": [],
+   "for_whom": "通勤と日帰りハイキングを1つのザックで済ませたい人・ノートPCを持ち歩く人",
+   "not_for": "山小屋泊やテント泊など荷物の多い山行・防水のザックが欲しい人",
+   "terrain": [
+    "low"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
    "concerns": [],
    "reasons": {},
-   "default_reason": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
-   "fit": "不明（公式にサイズ感の記載なし）",
+   "default_reason": "通勤から日帰りハイキングまで使えるデイパック。約20年続くアローのデザインを新しくし、15インチのノートPCスリーブと止水ジッパーのポケットを備えます。",
+   "fit": "単一サイズ（NA）",
    "image": "",
    "ai_image": "",
    "ai_article": "",
    "sources": [
     {
      "url": "https://arcteryx.jp/products/arro-22-backpack",
-     "checked_at": "2026-11-10"
+     "checked_at": "2026-11-12"
     }
    ],
    "offers": [
@@ -4805,7 +4818,7 @@
      "url": "https://arcteryx.jp/products/arro-22-backpack",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-10"
+     "checked_at": "2026-11-12"
     }
    ],
    "related": [],
