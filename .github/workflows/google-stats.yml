@@ -1,0 +1,26 @@
+name: GA4とサーチコンソールの数字を集める（週次レポート用）
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "5 22 * * 0"   # 日本時間 月曜 7:05
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 数字を集める
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: node tools/google-stats.mjs
+      - name: 保存
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/google-stats.json
+          git diff --cached --quiet && exit 0
+          git commit -m "GA4とサーチコンソールの数字を記録"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done; exit 1
