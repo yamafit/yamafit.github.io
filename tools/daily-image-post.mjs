@@ -287,7 +287,9 @@ export function hashtags(a, p) {
 const BRANDS = readJSON("data/brands.json", []);
 export function brandIG(p) {
   const b = (Array.isArray(BRANDS) ? BRANDS : BRANDS.brands || []).find((x) => x.name === p.brand || (x.aliases || []).includes(p.brand));
-  return (b && b.instagram) || "";
+  if (b && b.instagram) return b.instagram;
+  const extra = readJSON("data/brand-ig-extra.json", {}); // brands.json に無いブランド（タグ付けだけに使う）
+  return (typeof extra[p.brand] === "string" && extra[p.brand]) || "";
 }
 export function catKeyword(p) {
   const n = p.name || "";
