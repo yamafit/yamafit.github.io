@@ -2481,49 +2481,34 @@
   "name": "アロー 22 バックパック",
   "gender": "unisex",
   "category": "pack",
-  "weight_g": 1080,
+  "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "420Dコーデュラナイロン6.6（本体）",
-  "waterproof": "撥水加工（公式記載）",
-  "waterproof_level": "water_repellent",
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
   "warmth": null,
-  "size_note": "高さ55×幅30×奥行25cm",
+  "size_note": null,
   "eval": {
    "season": [
     "spring",
-    "summer",
     "autumn",
-    "winter"
+    "summer"
    ],
-   "uses": [
-    "low",
-    "town"
-   ],
+   "uses": [],
    "concerns": [],
-   "fit": "単一サイズ（NA）",
-   "summary": "通勤から日帰りハイキングまで使えるデイパック。約20年続くアローのデザインを新しくし、15インチのノートPCスリーブと止水ジッパーのポケットを備えます。",
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "ザック・バッグ。20年近く、アークテリクスのシンボルとして活躍したアロー 22 バックパック。",
    "pros": [
-    "15インチのノートPCが入るパッド入りスリーブ",
-    "止水ジッパー（WaterTight™）のカンガルーポケット",
-    "本体は420Dコーデュラナイロン6.6",
-    "ハイドレーション対応（リザーバーは別売り）",
-    "背負いやすい高めのバックパネル",
-    "重量 1,080g（公式記載）"
+    "コンパクトに収納できると記載"
    ],
    "cons": [
-    "防水ではない：主素材と裏地は撥水加工で、防水の記載はない",
-    "洗濯機で洗えない：手入れは表面の拭き洗いのみ",
-    "容量の数値は記載なし：商品名は22だが、公式に容量の記載はない"
+    "不明（公式の記載から読み取れる弱点は限られます）"
    ],
    "good_for": [
-    "通勤と日帰りハイキングを1つのザックで済ませたい人",
-    "ノートPCを持ち歩く人"
+    "荷物を整理して背負いたい人"
    ],
-   "not_for": [
-    "山小屋泊やテント泊など荷物の多い山行",
-    "防水のザックが欲しい人"
-   ],
+   "not_for": [],
    "concern_reasons": {}
   }
  },
@@ -7596,6 +7581,98 @@
    ],
    "good_for": [
     "動きやすいパンツを探す人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/sidewinder-jacket-w-archive",
+  "id": "sidewinder-jacket-w-archive",
+  "name": "サイドワインダー ジャケット ウィメンズ - アーカイブ",
+  "gender": "womens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変更点：オリジナルモデルを忠実に再現しながら、発売以来初めてとなる素材の大幅改良を実施。PFASを意図的に添加することなく製造した、リサイクルナイロン表地のGORE-TEX® ePEを採用。捜索救助活動をサポートするRECCO®テクノロジーも搭載しています。",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": "Arc’teryx初の革新的な高機能ダウンヒルハードシェルはこうして誕生しました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。Arc’teryxが、スノースポーツ用GORE-TEX®シェルのフロント部に曲線的なWaterTight™ファスナーを初めて採用したのは、25年前。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "保温：Arc’teryx初の革新的な高機能ダウンヒルハードシェルはこうして誕生しました"
+   ],
+   "cons": [
+    "価格が16万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/sidewinder-jacket-m-archive",
+  "id": "sidewinder-jacket-m-archive",
+  "name": "サイドワインダー ジャケット メンズ - アーカイブ",
+  "gender": "mens",
+  "category": "rain",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": "変更点：オリジナルモデルを忠実に再現しながら、発売以来初めてとなる素材の大幅改良を実施。PFASを意図的に添加することなく製造した、リサイクルナイロン表地のGORE-TEX® ePEを採用。捜索救助活動をサポートするRECCO®テクノロジーも搭載しています。",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": "金具が顎にすれないよう熱成形によって丸い形状を出したファスナーを備えた、Arc’teryx初の革新的な高機能ダウンヒルハードシェルはこうして誕生しました",
+  "size_note": null,
+  "eval": {
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "レインウェア・シェル。Arc’teryxが、フリーライド用GORE-TEX®シェルのフロント部に曲線的なWaterTight™ファスナーを初めて採用したのは、25年前。",
+   "pros": [
+    "防水・撥水：GORE-TEX（公式記載）",
+    "保温：金具が顎にすれないよう熱成形によって丸い形状を出したファスナーを備えた、Arc’"
+   ],
+   "cons": [
+    "価格が16万円台と高め"
+   ],
+   "good_for": [
+    "雨や風に備えたい人"
    ],
    "not_for": [],
    "concern_reasons": {
