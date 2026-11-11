@@ -778,7 +778,7 @@ body { -webkit-font-smoothing: antialiased; }
 .tk-banner img, .tk-banner-ic { width: 56px; height: 56px; padding: 5px; border-radius: 8px; background: var(--wash); }
 .tk-banner-ic svg { width: 30px; height: 30px; stroke: var(--ink); }
 .tk-banner-text { gap: 3px; }
-.tk-banner-text b { font-size: 16px; font-weight: 700; line-height: 1.4; }
+.tk-banner-text b { font-size: 15.5px; font-weight: 700; line-height: 1.4; }
 .tk-banner-text small, .tk-banner--down .tk-banner-text small { order: 2; font-size: 12px; font-weight: 500; letter-spacing: 0; color: var(--ink-sub); }
 .tk-banner-text span, .tk-banner--down .tk-banner-text span { order: 1; font-size: 12.5px; color: var(--ink-sub); }
 .tk-banner-go, .tk-banner--down .tk-banner-go { padding: 0; background: none; color: var(--ink); display: flex; }

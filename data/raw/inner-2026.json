@@ -1,0 +1,116 @@
+{
+ "_note": "インナー（ベースレイヤー）特集（2026-11-12〜2027-02-28）用。各メーカーの公式商品ページを開いて確認した内容だけ。無い項目は null。価格は税込。",
+ "checked_at": "2026-11-11",
+ "products": [
+  {
+   "id": "ft-drylayer-basic-ls", "group": "dry", "brand": "ファイントラック",
+   "name": "ドライレイヤー ベーシック ロングスリーブ", "model": "FUM0421", "price": 6127, "price_note": null,
+   "material": "ポリエステル100%", "material_short": "ポリエステル100%（メッシュ）",
+   "weight_g": 56, "weight_note": "サイズの記載なし", "thickness": "薄手",
+   "features": ["肌に直接着て、上に重ねた速乾ウエアへ汗を移す、メッシュのアンダーウエア", "耐久撥水メッシュで、肌側への濡れ戻りを抑える", "手首まで覆うロングスリーブ。伸縮するニットメッシュ", "抗菌防臭に対応した薄手・軽量の生地"],
+   "cautions": ["上に吸汗速乾ウエアを重ねて使う（1枚では使わない）", "タンブラー乾燥は大きく縮むため、避ける"],
+   "url": "https://www.finetrack.com/c/wear-drylayer/wear-drylayer-basic/wear-drylayer-basic-men/FUM0421",
+   "image": "https://finetrack.itembox.cloud/product/004/000000000443/000000000443-01.jpg?size=l&w=NTUw&t=20240712092558",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "ft-drylayer-warm-ls", "group": "dry", "brand": "ファイントラック",
+   "name": "ドライレイヤー ウォーム ロングスリーブ", "model": "FUM0521", "price": 7161, "price_note": null,
+   "material": "ポリエステル90%、ポリウレタン7%、複合繊維（ポリエステル）3%", "material_short": "ポリエステル90%ほか（メッシュ）",
+   "weight_g": 96, "weight_note": "サイズの記載なし", "thickness": "中厚手",
+   "features": ["ドライレイヤーシリーズのうち、保温性を高めたウォームシリーズ", "空気をためるかさ高なニットメッシュで、ベーシックより暖かい", "上に重ねた速乾ウエアへ汗を移し、汗冷えやベタつきを抑える", "腕を上げても突っ張りにくい形。100洗80点の耐久撥水"],
+   "cautions": ["吸汗速乾ウエアとの重ね着が必要", "タンブラー乾燥は大きく縮むため、避ける"],
+   "url": "https://www.finetrack.com/c/wear-drylayer/wear-drylayer-warm/wear-drylayer-warm-men/FUM0521",
+   "image": "https://finetrack.itembox.cloud/product/004/000000000426/000000000426-01.jpg?size=l&w=NTUw&t=20241128165743",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "millet-drynamic-mesh-34", "group": "dry", "brand": "ミレー",
+   "name": "ドライナミック メッシュ 3/4 スリーブ クルー", "model": "MIV01356", "price": 7040, "price_note": "公式ページでセール価格の表示",
+   "material": "ポリプロピレン66%、ナイロン28%、ポリウレタン6%", "material_short": "ポリプロピレン66%ほか（メッシュ）",
+   "weight_g": 140, "weight_note": null, "thickness": null,
+   "features": ["水を含まないポリプロピレンを使い、汗をすばやく上のベースレイヤーへ移す", "メッシュの厚みで、肌と上に着たウエアを離して冷えを防ぐ", "七分丈のクルーネック", "消臭糸を使った、ストレッチの抗菌・消臭仕様"],
+   "cautions": ["ユーロサイズ表記（Sは日本のMにあたる）", "サイズ表は画像のみ。購入前に確認する"],
+   "url": "https://www.millet.jp/products/miv01356",
+   "image": "https://www.millet.jp/cdn/shop/files/MIV01356_N0247_01.jpg?v=1787807594&width=1000",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "montbell-geoline-lw-rn", "group": "synthetic", "brand": "モンベル",
+   "name": "ジオライン L.W. ラウンドネックシャツ Men's", "model": "1107732", "price": 3740, "price_note": null,
+   "material": "ジオライン（ポリエステル100%）", "material_short": "ポリエステル100%",
+   "weight_g": 120, "weight_note": "平均重量", "thickness": "薄手（ライトウエイト）",
+   "features": ["軽くて速乾性が高い。冬の激しい運動から夏のウォータースポーツまで使える", "締めつけが少なく、やわらかい風合い", "吸水拡散性と防臭機能に優れる", "袖口は縫い目を斜めにして、伸びを妨げない。主要な縫い目はフラットシーマー"],
+   "cautions": ["洗濯は液温40℃まで、ネットを使う", "塩素系漂白剤は使えない。柔軟剤は避ける"],
+   "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1107732",
+   "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1107732_lgy.jpg",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "ft-drought-largo-ls", "group": "synthetic", "brand": "ファイントラック",
+   "name": "ドラウト ラルゴ ロングスリーブ", "model": "FMM2101", "price": 8250, "price_note": null,
+   "material": "ポリエステル100%", "material_short": "ポリエステル100%",
+   "weight_g": 190, "weight_note": "サイズの記載なし", "thickness": "やや薄手（春・秋・冬向けの区分）",
+   "features": ["秋から初冬、残雪期の山行向けの化繊ベースレイヤー", "起毛に頼らず、特殊な3層の生地で適度な保温性をつくる", "ウール100%の一般的なベースレイヤーの約2倍の乾燥スピード（自社試験）", "グリッド状の生地で通気する。脇下のマチで腕を上げやすい"],
+   "cautions": ["繊細なニット生地。摩擦や面ファスナー、枝への引っかけで傷むことがある", "タンブラー乾燥は大きく縮むため、避ける"],
+   "url": "https://www.finetrack.com/c/wear-baselayer/wear-drought-largo/wear-drought-largo-men/FMM2101",
+   "image": "https://finetrack.itembox.cloud/product/012/000000001235/000000001235-01.jpg?size=l&w=NTUw&t=20260716143531",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "patagonia-capilene-thermal-crew", "group": "synthetic", "brand": "パタゴニア",
+   "name": "メンズ・キャプリーン・サーマルウェイト・クルー", "model": "43647", "price": 9625, "price_note": "公式ページで通常価格¥13,750から30%値下げの表示",
+   "material": "リサイクルポリエステル92%、ポリウレタン8%（ポーラテック パワーグリッド）。生地は129 g/m²", "material_short": "リサイクルポリエステル92%、ポリウレタン8%",
+   "weight_g": 147, "weight_note": "サイズの記載なし", "thickness": "サーマルウェイト（129 g/m²）",
+   "features": ["通気性とかさ（ロフト）があり、寒い日でも温かさを保つ", "体に沿うスリムフィット", "脇下のマチで動きやすい。肩の縫い目をずらし、ザックの肩ひもがこすれにくい", "親指を通せるサムループ付き。防臭加工"],
+   "cautions": ["洗濯は40℃まで。漂白剤・柔軟剤は使えない"],
+   "url": "https://www.patagonia.jp/product/mens-capilene-thermal-weight-crew/43647.html",
+   "image": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwcd2021fa/images/hi-res/43647_SBDY.jpg?sw=256&sh=256&sfrm=png&q=95&bgcolor=f3f4ef",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "montbell-merino-mw-rn", "group": "merino", "brand": "モンベル",
+   "name": "スーパーメリノウール M.W. ラウンドネックシャツ Men's", "model": "1107654", "price": 8800, "price_note": null,
+   "material": "スーパーメリノウール（ウール85%、ポリエステル15%）", "material_short": "ウール85%、ポリエステル15%",
+   "weight_g": 165, "weight_note": "平均重量", "thickness": "中厚手（ミドルウエイト）",
+   "features": ["吸湿して発熱する天然素材のウールを使い、保温性とストレッチ性がある", "登山、スノースポーツ、野外観察に向く", "袖口は縫い目を斜めにして、締めつけを抑える", "白いシャツに透けにくいライトグレーがある"],
+   "cautions": ["洗濯は液温30℃まで。中性洗剤を使い、他の衣類と分けて洗う", "タンブル乾燥とアイロンは不可。日陰のつり干し"],
+   "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1107654",
+   "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1107654_dknv.jpg",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "ft-merinospin-light-ls", "group": "merino", "brand": "ファイントラック",
+   "name": "メリノスピン ライト ロングスリーブ", "model": "FUM0721", "price": 9933, "price_note": null,
+   "material": "ポリエステル63%、ウール37%", "material_short": "ポリエステル63%、ウール37%",
+   "weight_g": 115, "weight_note": "サイズの記載なし", "thickness": "薄手（春・秋・冬向けの区分）",
+   "features": ["未防縮のメリノウールとポリエステルを組み合わせ、保温・調湿性と速乾性を両立", "薄手でも保温力があり、幅広い季節に使える", "抗菌・消臭加工を強化。長い山行や洗濯をくり返しても消臭効果が続く", "型くずれしにくく、手入れが簡単。トルネードスリーブで動きやすい"],
+   "cautions": ["繊細なニット生地。摩擦や引っかけで傷むことがある", "縮みやすい。タンブラー乾燥は避ける"],
+   "url": "https://www.finetrack.com/c/wear-baselayer/wear-merinospin-light/wear-merinospin-light-men/FUM0721",
+   "image": "https://finetrack.itembox.cloud/product/001/000000000146/000000000146-02.jpg?size=l&w=NTUw&t=20200820201026",
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "tnf-100-dry-wool-crew", "group": "merino", "brand": "ザ・ノース・フェイス",
+   "name": "ロングスリーブ 100 ドライウールクルー", "model": null, "price": 16500, "price_note": null,
+   "material": "身生地：毛67%、ポリプロピレン33%／肩部分：毛67%、ポリプロピレン33%", "material_short": "毛67%、ポリプロピレン33%",
+   "weight_g": null, "weight_note": null, "thickness": null,
+   "features": ["ウールと、熱を伝えにくくて冷たさを感じにくいポリプロピレンを混ぜた、保温重視のベースレイヤー", "大きなメッシュ構造の生地で、汗をすばやく表面へ移す", "肩はパックと干渉しやすいため、天竺素材にしている", "重ね着しても目立ちにくい広めのクルーネック。雪山登山やスキー向け"],
+   "cautions": ["重さと厚さの区分は記載なし", "洗い方は商品の洗濯表示で確認する"],
+   "url": "https://www.goldwin.co.jp/ap/item/i/m/NU62511",
+   "image": null,
+   "checked_at": "2026-11-11"
+  },
+  {
+   "id": "montbell-merino-exp-plus-rn", "group": "merino", "brand": "モンベル",
+   "name": "スーパーメリノウール EXP.プラス ラウンドネックシャツ Men's", "model": "1107832", "price": 12100, "price_note": null,
+   "material": "ウール92%、ナイロン7%、ポリウレタン1%", "material_short": "ウール92%、ナイロン7%、ポリウレタン1%",
+   "weight_g": 256, "weight_note": "平均重量", "thickness": "極厚手（エクスペディションプラス）",
+   "features": ["極厚手のメリノウールで、寒い時期向けに保温性を高めたモデル", "空気の層を保ち、起毛した肌面が体を包むような暖かさ", "ストレッチ性が高い", "裾が長めのロングテール"],
+   "cautions": ["洗濯は液温30℃まで。中性洗剤を使い、他の衣類と分けて洗う", "タンブル乾燥とアイロンは不可。日陰のつり干し"],
+   "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1107832",
+   "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1107832_bk.jpg",
+   "checked_at": "2026-11-11"
+  }
+ ]
+}

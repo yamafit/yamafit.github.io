@@ -280,7 +280,13 @@ export function hashtags(a, p) {
   const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
   const isDown = /ダウン|\bdown\b|\d{3,4}\s?FP/i.test(p.name) || /フィルパワー|\d{3,4}\s?FP|ダウン\d+％|ダウン（|CLEAN ?DOWN|EXダウン/i.test(`${p.warmth || ""} ${p.material || ""}`);
   const feature = today >= "2026-11-02" && today <= "2027-02-28" && isDown && !/パンツ|シュラフ|スリーピング|ソックス|ブーティ/.test(p.name) ? ["#ダウンジャケット", "#ヤマフィットダウン特集"] : [];
-  return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...feature, ...POPULAR, ...(SLOT_POP[slot] || []), "#ヤマフィット"])].filter((t) => t.length > 1).slice(0, 15);
+  // フリース特集（2026-11-12〜2027-02-28）：ウェアのフリースに特集のタグ
+  const isFleece = p.category === "wear" && /フリース|fleece|POLARTEC|ポーラテック/i.test(`${p.name} ${p.warmth || ""} ${p.material || ""}`) && !isDown;
+  const feature2 = today >= "2026-11-12" && today <= "2027-02-28" && isFleece ? ["#フリース", "#ヤマフィットフリース特集"] : [];
+  // 街でも着る人に届くタグ（2026-11-12〜）：ウェア・レインウェア・ザックに付ける。15個に収めるため、登山の定番タグは少し減らす
+  const town = ["wear", "rain", "pack"].includes(p.category) ? ["#アウトドアファッション", "#アウトドアミックス", "#シティボーイ"] : [];
+  const popular = town.length ? POPULAR.filter((t) => !["#山登り", "#山好きな人と繋がりたい", "#登山ギア"].includes(t)) : POPULAR;
+  return [...new Set([brandJa, ...(en ? ["#" + en.replace(/\s+/g, "")] : []), tagify(name), ...feature, ...feature2, "#ヤマフィット", ...town, ...popular, ...(SLOT_POP[slot] || [])])].filter((t) => t.length > 1).slice(0, 15);
 }
 
 // 1行目：検索されやすい言葉（カテゴリー＋ブランド＋商品名）。PR表記も先頭に入れる
