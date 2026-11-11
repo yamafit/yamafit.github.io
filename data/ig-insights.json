@@ -1,0 +1,657 @@
+{
+ "_note": "Instagramの反応の記録（tools/ig-insights.mjs が更新）",
+ "profile": [
+  {
+   "at": "2026-11-11T03:52:04.612Z",
+   "followers": 1,
+   "following": 24,
+   "media": 60
+  }
+ ],
+ "media": {
+  "17967294531219410": {
+   "permalink": "https://www.instagram.com/p/DflfmFRD3WJ/",
+   "timestamp": "2026-11-11T03:15:57+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜マウンテンハードウェア マウンテンライト25L＋5L",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18354464458269193": {
+   "permalink": "https://www.instagram.com/p/Dfk7osnlVbF/",
+   "timestamp": "2026-11-10T22:01:44+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ウェア（メンズ）｜ミレー セネカ ハイブリッド フーディ",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17990525189878671": {
+   "permalink": "https://www.instagram.com/reel/DfkNh0HDxPm/",
+   "timestamp": "2026-11-10T15:19:16+0000",
+   "type": "VIDEO",
+   "title": "ゴアテックスって、結局なに？☔️",
+   "insights": {
+    "reach": 118,
+    "likes": 3,
+    "comments": 0,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 4,
+    "views": 140
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18111368806918417": {
+   "permalink": "https://www.instagram.com/p/Dfi64QviOTF/",
+   "timestamp": "2026-11-10T03:16:41+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（レディース）｜マムート デュカン 3 ハイ レザー ゴアテックス",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17885856123526543": {
+   "permalink": "https://www.instagram.com/p/DfiYgcvlK4Q/",
+   "timestamp": "2026-11-09T22:16:18+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜モンベル トレッキングパック 35",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18063138209537062": {
+   "permalink": "https://www.instagram.com/p/DfgV6yQiUdk/",
+   "timestamp": "2026-11-09T03:15:15+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ミレー クーラ 30",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17917382370493084": {
+   "permalink": "https://www.instagram.com/p/Dffx_okEZ2A/",
+   "timestamp": "2026-11-08T22:01:22+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（メンズ）｜アークテリクス ベータ AR ジャケット",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 4
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18141008293713929": {
+   "permalink": "https://www.instagram.com/p/DfdxN2TACp1/",
+   "timestamp": "2026-11-08T03:16:01+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（レディース）｜マーモット W's GTX Frey Jacket",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18116300054582677": {
+   "permalink": "https://www.instagram.com/p/DfdWO-PjH0K/",
+   "timestamp": "2026-11-07T23:20:14+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（レディース）｜モンベル アルパインクルーザー 3000 ウィズ ゲーター",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17887043439514166": {
+   "permalink": "https://www.instagram.com/p/DfbMTCLggWK/",
+   "timestamp": "2026-11-07T03:15:05+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴｜エーグル チェルシーレイン ラバーブーツ",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18120323263779990": {
+   "permalink": "https://www.instagram.com/p/DfawnNVFcLR/",
+   "timestamp": "2026-11-06T23:13:04+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ザ・ノース・フェイス テルス35",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18424695904159339": {
+   "permalink": "https://www.instagram.com/p/DfYnqy3nDlJ/",
+   "timestamp": "2026-11-06T03:16:25+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜コロンビア キャッスルロック25LバックパックII",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17992113210081528": {
+   "permalink": "https://www.instagram.com/p/DfYFazDCfJA/",
+   "timestamp": "2026-11-05T22:17:08+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】ダウンジャケット（メンズ）｜モンベル イグニスダウン パーカ",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18103138259381566": {
+   "permalink": "https://www.instagram.com/p/DfWCz3zkbu2/",
+   "timestamp": "2026-11-05T03:15:53+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ミレー アラビス 30",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18127104559925150": {
+   "permalink": "https://www.instagram.com/p/DfVjcRWEQ1T/",
+   "timestamp": "2026-11-04T22:41:48+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴｜キャラバン C1_02S",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18134852293706315": {
+   "permalink": "https://www.instagram.com/p/DfTeCgOFQSs/",
+   "timestamp": "2026-11-04T03:16:02+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック（レディース）｜モンベル トレッキングパック 50",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18061180982799977": {
+   "permalink": "https://www.instagram.com/p/DfS7kz0iuUR/",
+   "timestamp": "2026-11-03T22:14:58+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（レディース）｜パタゴニア グラナイト・クレスト・レイン・ジャケット",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18174860791458888": {
+   "permalink": "https://www.instagram.com/p/DfQ5QsEj6j9/",
+   "timestamp": "2026-11-03T03:16:10+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック 42L｜コールマン トレックパック",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18384397279230206": {
+   "permalink": "https://www.instagram.com/p/DfQW2sUlRjN/",
+   "timestamp": "2026-11-02T22:15:36+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック（レディース）｜グレゴリー BIOSYNC マヤ20",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18173708530465526": {
+   "permalink": "https://www.instagram.com/p/DfOUwMDig5t/",
+   "timestamp": "2026-11-02T03:18:45+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜グレゴリー VAPORSPAN シトロ24",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18088825916296998": {
+   "permalink": "https://www.instagram.com/p/DfN5J6NDGtH/",
+   "timestamp": "2026-11-01T23:17:32+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ウェア（メンズ）｜マウンテンハードウェア コアエアシェルウォームフーディ",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18171307447422098": {
+   "permalink": "https://www.instagram.com/p/DfLvneeEd5R/",
+   "timestamp": "2026-11-01T03:15:46+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（メンズ）｜アークテリクス スペーロ SV ジャケット",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17998791909040175": {
+   "permalink": "https://www.instagram.com/p/DfLYBENjlm9/",
+   "timestamp": "2026-10-31T23:49:32+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（レディース）｜モンベル トレールウォーカー BOA",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18642542743043818": {
+   "permalink": "https://www.instagram.com/p/DfGmWmOGuFO/",
+   "timestamp": "2026-10-30T03:18:33+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ヘリーハンセン ステティンド20",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18091649420240738": {
+   "permalink": "https://www.instagram.com/p/DfGCFIkjtsC/",
+   "timestamp": "2026-10-29T22:01:36+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（メンズ）｜モンベル ストームクルーザー ジャケット",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18145902319594859": {
+   "permalink": "https://www.instagram.com/p/DfEBOIyjvGv/",
+   "timestamp": "2026-10-29T03:15:40+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ミレー パルマラン 45",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18040385504838580": {
+   "permalink": "https://www.instagram.com/p/DfDiboqgEYf/",
+   "timestamp": "2026-10-28T22:46:38+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴｜キャラバン グランドキング GK_ALT HI",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18146345839594544": {
+   "permalink": "https://www.instagram.com/p/DfBcbaiiOaD/",
+   "timestamp": "2026-10-28T03:15:40+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック（レディース）｜モンベル トレッキングパック 70",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 3
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18079310933406546": {
+   "permalink": "https://www.instagram.com/p/DfA4l92jqMx/",
+   "timestamp": "2026-10-27T22:02:30+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ウェア（レディース）｜ミレー セムノ インシュレーション ジャケット（ ）",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17920353954452282": {
+   "permalink": "https://www.instagram.com/p/De-33DolWYw/",
+   "timestamp": "2026-10-27T03:17:40+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（メンズ）｜コロンビア コノス ティーアールエス アウトドライ",
+   "insights": {
+    "reach": 1,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 1
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18148569340566617": {
+   "permalink": "https://www.instagram.com/p/De-XqmqIMeA/",
+   "timestamp": "2026-10-26T22:36:17+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜カリマー ridge 30+",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "17908236372657304": {
+   "permalink": "https://www.instagram.com/p/De9IceHCf0h/",
+   "timestamp": "2026-10-26T11:04:06+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜エーグル SEA 撥水 パッカブル 巾着バックパック 15L",
+   "insights": {
+    "reach": 2,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 5
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18109047992142109": {
+   "permalink": "https://www.instagram.com/p/De7u8QJFVYk/",
+   "timestamp": "2026-10-25T22:01:58+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（レディース）｜ファイントラック エバーブレスフォトンジャケット",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18139474624725222": {
+   "permalink": "https://www.instagram.com/p/De6TCFAALfv/",
+   "timestamp": "2026-10-25T08:38:51+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（メンズ）｜マーモット GTX Frey Jacket",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18095171573166128": {
+   "permalink": "https://www.instagram.com/p/De5guDWkSyL/",
+   "timestamp": "2026-10-25T01:19:11+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（メンズ）｜ラ・スポルティバ TX5 エボ ミッド GTX",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18193976737392443": {
+   "permalink": "https://www.instagram.com/p/De3HpvTk5JM/",
+   "timestamp": "2026-10-24T03:01:41+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】防水登山靴（メンズ）｜モンベル アルパインクルーザー800 ワイド",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18113099747603110": {
+   "permalink": "https://www.instagram.com/p/De28168gSl2/",
+   "timestamp": "2026-10-24T01:27:18+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック（メンズ）｜オスプレー ケストレル38",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18344948434252035": {
+   "permalink": "https://www.instagram.com/p/De1dupBDP48/",
+   "timestamp": "2026-10-23T11:36:10+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ザック｜ミレー トリロジー ジョラス 20+5",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18147084310560316": {
+   "permalink": "https://www.instagram.com/p/De0Aj6OlPK2/",
+   "timestamp": "2026-10-22T22:02:00+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】登山ウェア（メンズ）｜マーモット 750FP Able Down Jacket",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  },
+  "18121898878946121": {
+   "permalink": "https://www.instagram.com/p/Dex_YCBjgvt/",
+   "timestamp": "2026-10-22T03:13:16+0000",
+   "type": "CAROUSEL_ALBUM",
+   "title": "【PR】レインウェア（メンズ）｜アークテリクス セイバー ジャケット",
+   "insights": {
+    "reach": 0,
+    "likes": 0,
+    "comments": 0,
+    "saved": 0,
+    "shares": 0,
+    "total_interactions": 0,
+    "views": 0
+   },
+   "updated": "2026-11-11T03:52:04.612Z"
+  }
+ },
+ "last_run": {
+  "at": "2026-11-11T03:52:04.612Z",
+  "errors": []
+ }
+}
