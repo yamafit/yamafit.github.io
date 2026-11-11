@@ -316,14 +316,32 @@ export function keywordLine(p) {
   return `【PR】${catKeyword(p)}${g}｜${p.brand} ${name}`;
 }
 
+// 街での使い方の1行（2026-11-12〜・作成者の希望）。商品の性能は書かず、合わせ方・使う場面だけ。日付で文を入れ替える
+export function townLine(p) {
+  const n = `${p.name || ""} ${p.warmth || ""} ${p.material || ""}`;
+  const day = Number(new Date(Date.now() + 9 * 3600e3).toISOString().slice(8, 10));
+  let L = [];
+  if (p.category === "pack") L = (p.capacity_l || 0) > 35
+    ? ["街では、旅行や帰省の大きな荷物をまとめるバッグにも。", "山以外では、旅行のメインバッグとしても使えます。"]
+    : ["街では、通勤や週末のおでかけのバッグにも。", "山以外の日は、毎日のデイパックとしても使えます。"];
+  else if (p.category === "pants") L = ["街では、スニーカーと合わせて普段のパンツとしても。", "山以外の日は、きれいめのシャツと合わせても。"];
+  else if (p.category === "rain") L = ["街では、雨の日や風の強い日の上着にも。", "山以外では、通勤の雨の日の羽織りとしても使えます。"];
+  else if (p.category === "wear" && /ダウン|\d{3,4}\s?FP|フィルパワー/i.test(n)) L = ["街では、デニムやスウェットに羽織って冬の上着に。", "山以外では、通勤や旅行の冬の上着としても。"];
+  else if (p.category === "wear" && /フリース|POLARTEC|ポーラテック/i.test(n)) L = ["街では、シャツやデニムに重ねて1枚で着られます。", "山以外の日は、部屋着や近所へのおでかけにも。"];
+  else if (p.category === "wear") L = ["山だけでなく、街の普段着にも合わせやすい1着です。", "街では、デニムやチノパンと合わせて普段着にも。"];
+  return L.length ? L[day % L.length] : "";
+}
+
 export function buildCaption(a, p) {
   // ポイント：「メリット・特徴」のリスト（デメリットは除く）。無ければ、特徴を書いた見出しを使う
   const SKIP_H = /スペック|仕様|デメリット|注意|向いて|まとめ|基本|価格|サイズ/;
   const merits = ((a.sections || []).find((s) => /メリット|特徴/.test(s.h) && !/デメリット/.test(s.h) && s.ul) || {}).ul
     || (a.sections || []).filter((s) => !SKIP_H.test(s.h)).map((s) => s.h);
   const articleUrl = `${SITE_URL}articles/${a.slug}.html`;
+  const tl = townLine(p);
   return [
     keywordLine(p),
+    ...(tl ? [tl] : []),
     a.title,
     "",
     a.desc,
@@ -634,7 +652,8 @@ export function productCaption(p) {
   const url = `${SITE_URL}products/${p.id}.html`;
   const slot = kobo(p.category) === "shoes" ? "shoes" : kobo(p.category);
   const tags = hashtags({ slot }, p).filter((t) => t !== "#今週の7選");
-  return [keywordLine(p), "", e.summary || "", ...((e.pros || []).length ? ["", "【ポイント】", ...e.pros.slice(0, 3).map((m) => "・" + cut(String(m).replace(/\s+/g, " "), 70))] : []),
+  const tl = townLine(p);
+  return [keywordLine(p), ...(tl ? [tl] : []), "", e.summary || "", ...((e.pros || []).length ? ["", "【ポイント】", ...e.pros.slice(0, 3).map((m) => "・" + cut(String(m).replace(/\s+/g, " "), 70))] : []),
     ...(p.price ? ["", `価格：¥${p.price.toLocaleString()}（税込・公式サイトの表示）`] : []), "", "▼くわしくはプロフィールのリンクから", url, "",
     "※画像はAIで作成したイメージです。実際の商品とは細部が異なる場合があります。", "※価格・仕様はメーカー公式の記載です。", "", tags.join(" ")].join("\n").slice(0, 2200);
 }

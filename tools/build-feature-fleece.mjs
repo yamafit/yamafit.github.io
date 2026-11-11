@@ -184,7 +184,10 @@ const rows = all.map((id) => {
 }).join("");
 
 const STYLE = `<style>
-.tkf-gender { padding: 2px 9px; border-radius: 999px; background: var(--wash); color: var(--ink-sub); font-size: 11px; font-weight: 700; }
+.tk-hero.tkf-hero { background: linear-gradient(160deg, #1E2A1B 0%, #4A5A36 55%, #A8A27A 100%); }
+.tkf-hero p { color: #ECEBDD; }
+.tk-use-tag.tkf-tag { background: #E8EBD8; color: #3C4A2A; }
+.tkf-gender { padding: 2px 9px; border-radius: 999px; background: #EFEFE6; color: #4A5A36; font-size: 11px; font-weight: 700; }
 .tkf-txt { font-size: 14px !important; line-height: 1.6 !important; font-weight: 700 !important; }
 .tkf-hero + .tk-pr { margin-top: 14px; }
 .tkf-table { min-width: 680px; }

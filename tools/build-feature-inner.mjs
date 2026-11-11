@@ -50,6 +50,8 @@ const title = "山のインナー特集｜ベースレイヤー";
 const desc = "山で汗冷えしにくく、街でも毎日着られる、登山ブランドのベースレイヤー（肌着）を、素材・重さ・厚さ・価格から選べるように整理しました。";
 const c = chrome("../");
 const style = `<style>
+.tki-hero { background: linear-gradient(160deg, #10282B 0%, #1F5560 55%, #6FA3A8 100%); }
+.tki-hero p { color: #DDEBEC; }
 .tki-note { font-size: 12px; line-height: 1.6; color: var(--ink-sub); }
 .tki-spec { display: flex; flex-direction: column; gap: 0; margin: 2px 0; border-top: 1px solid var(--line); }
 .tki-spec > div { display: flex; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 1.6; }
@@ -69,7 +71,7 @@ const style = `<style>
 const html = `${head(title, desc, "/tokushu/inner.html", style)}
 ${c.top}
 <main class="tk">
-  <section class="tk-hero">
+  <section class="tk-hero tki-hero">
     <div class="tk-hero-inner">
       <span class="tk-hero-tag">特集｜2026.11.12 — 2027.2.28</span>
       <h1>山のインナー特集<br><small style="font-size:16px;font-weight:700">ベースレイヤー</small></h1>
