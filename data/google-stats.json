@@ -1,0 +1,189 @@
+{
+ "_note": "GA4とサーチコンソールの数字（tools/google-stats.mjs が毎週更新）",
+ "snapshots": [
+  {
+   "at": "2026-11-11T13:04:26.350Z",
+   "date": "2026-11-11",
+   "range": {
+    "start": "2026-11-04",
+    "end": "2026-11-10"
+   },
+   "prev_range": {
+    "start": "2026-10-28",
+    "end": "2026-11-03"
+   },
+   "ga4_total": {
+    "prev": {
+     "views": 54,
+     "sessions": 47,
+     "users": 45
+    },
+    "week": {
+     "views": 42,
+     "sessions": 38,
+     "users": 36
+    }
+   },
+   "ga4_pages": [
+    {
+     "pagePath": "/products/mammut-ducan-3-high-leather-gtx-w.html",
+     "pageTitle": "マムート デュカン 3 ハイ レザー ゴアテックス｜ヤマフィット",
+     "screenPageViews": 5,
+     "sessions": 5
+    },
+    {
+     "pagePath": "/index.html",
+     "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+     "screenPageViews": 4,
+     "sessions": 4
+    },
+    {
+     "pagePath": "/articles/2026-11-06-montbell-1101706.html",
+     "pageTitle": "イグニスダウン パーカ：濡れと風に強い281gの1000FPダウン｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-08-montbell-1129718.html",
+     "pageTitle": "アルパインクルーザー 3000 ウィズ ゲーター：初冬の高山へ保温冬靴｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-09-arcteryx-beta-ar-jacket-m.html",
+     "pageTitle": "ベータ AR ジャケット：初冬の雨と雪を1枚で防ぐ460gの3層シェル｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-10-montbell-1133524.html",
+     "pageTitle": "モンベル トレッキングパック 35：防寒着が増える初冬に選びたい35L｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/gore-tex-types.html",
+     "pageTitle": "ゴアテックスは12種類ある：種類ごとの違いと、用途別の選び方｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/products/marmot-gtx-frey-jacket-w.html",
+     "pageTitle": "マーモット W's GTX Frey Jacket｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/millet-mis01345.html",
+     "pageTitle": "ミレー アラビス 30｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-04-patagonia-granite-crest-jacket-w.html",
+     "pageTitle": "グラナイト・クレスト ウィメンズ：しなやかな357gの3層レイン｜ヤマフィット",
+     "screenPageViews": 2,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/articles/2026-11-07-tnf-tellus-35.html",
+     "pageTitle": "ザ・ノース・フェイス テルス35：冬型の週末に防寒着を出しやすい35L｜ヤマフィット",
+     "screenPageViews": 2,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/products/columbia-castle-rock-25l-2.html",
+     "pageTitle": "コロンビア キャッスルロック25LバックパックII｜ヤマフィット",
+     "screenPageViews": 2,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/products/millet-mis0545.html",
+     "pageTitle": "ミレー クーラ 30｜ヤマフィット",
+     "screenPageViews": 2,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/",
+     "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/articles/2026-11-05-caravan-c1-02s.html",
+     "pageTitle": "キャラバン C1_02S：雨の低山に、幅広3Eで履きやすい入門ブーツ｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/products/aigle-zzhnd76.html",
+     "pageTitle": "エーグル チェルシーレイン ラバーブーツ｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/products/montbell-1133529.html",
+     "pageTitle": "モンベル トレッキングパック 50 Women's｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    }
+   ],
+   "ga4_sources": [
+    {
+     "channel": "Organic Social",
+     "source": "facebook.com",
+     "sessions": 20
+    },
+    {
+     "channel": "Organic Social",
+     "source": "m.facebook.com",
+     "sessions": 12
+    },
+    {
+     "channel": "Direct",
+     "source": "(direct)",
+     "sessions": 4
+    },
+    {
+     "channel": "Organic Social",
+     "source": "ig",
+     "sessions": 1
+    },
+    {
+     "channel": "Organic Social",
+     "source": "l.facebook.com",
+     "sessions": 1
+    }
+   ],
+   "ga4_events": [],
+   "ga4_affiliate_items": null,
+   "ga4_note": "商品ごとのクリック（item_id）は、GA4 のカスタムディメンションに未登録のため未取得",
+   "gsc": {
+    "site": "https://yamafit.github.io/",
+    "range_week": {
+     "start": "2026-11-01",
+     "end": "2026-11-07"
+    },
+    "range_28d": {
+     "start": "2026-10-11",
+     "end": "2026-11-07"
+    },
+    "total_week": {
+     "clicks": 0,
+     "impressions": 0
+    },
+    "total_28d": {
+     "clicks": 0,
+     "impressions": 0
+    },
+    "queries_28d": [],
+    "pages_28d": []
+   },
+   "errors": []
+  }
+ ],
+ "last_run": {
+  "at": "2026-11-11T13:04:26.350Z",
+  "errors": []
+ }
+}
