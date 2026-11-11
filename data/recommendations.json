@@ -1,13 +1,8 @@
 {
-  "updated": "2026-11-10T03:08:23.640Z",
+  "updated": "2026-11-11T00:59:21.083Z",
   "season": "autumn",
   "categories": {
     "rain": [
-      {
-        "id": "finetrack-everbreath-photon-jacket-w",
-        "source": "rule",
-        "reason": "秋の山行に合うため。よく伸びる生地と止水ファスナーを使った、280gの防水透湿レインジャケットです。"
-      },
       {
         "id": "nanga-aurora-tex-stand-collar-down-vest",
         "source": "rule",
@@ -17,6 +12,11 @@
         "id": "llbean-p124317",
         "source": "rule",
         "reason": "秋の山行に合うため。レインウェア・シェル。耐久性のある3層構造の防水透湿素材ゴアテックス®ファブリックが、雨、風、雪に対して優れたプロテクションを発揮するジャケット。"
+      },
+      {
+        "id": "arcteryx-squamish-hoody-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。レインウェア・シェル。Tシャツの上に羽織ったり、フリースと重ね着したり。"
       }
     ],
     "wear": [
@@ -45,7 +45,7 @@
       {
         "id": "mhw-mountain-light-25l-5l",
         "source": "rule",
-        "reason": "秋の山行に合うため。MHWアスリート監修の、使いやすく仕上げた3シーズン用の中型パックです。"
+        "reason": "秋の山行に合うため。MHWアスリートが監修した、日帰りから小屋泊まりに使える3シーズン用の中型パックです。"
       },
       {
         "id": "arcteryx-arro-22-backpack",
