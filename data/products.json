@@ -50001,6 +50001,68 @@
    }
   },
   {
+   "id": "salomon-x-ultra-5-mid-gore-tex-m",
+   "category": "boots",
+   "brand": "サロモン",
+   "name": "X ULTRA 5 MID GORE-TEX",
+   "gender": "mens",
+   "spec": "GORE-TEX／440g（440g（公式記載））",
+   "price": 25300,
+   "capacity_l": null,
+   "weight_g": 440,
+   "weight_note": "440g（公式記載）",
+   "material": "アッパー：PU加工レザー、テキスタイル（Matryx®）。ミッドソール：EnergyCell™。アウトソール：All Terrain Contagrip®",
+   "waterproof": "GORE-TEX",
+   "warmth": null,
+   "size_note": "25.0〜29.0cm（0.5cm刻み）、30.0cm、31.0cm",
+   "season": [],
+   "features": [
+    "440gと軽量",
+    "GORE-TEXで防水",
+    "Active SupportとAdvanced Chassis™で横方向のブレを抑える",
+    "All Terrain Contagrip®アウトソールは濡れた路面・岩・泥を想定"
+   ],
+   "cons": [
+    "在庫はサイズによって異なる"
+   ],
+   "for_whom": "日帰りの低山・里山で、軽い防水ミッドカットを使いたい人",
+   "not_for": "重い荷物を背負う縦走や雪のある高山が中心の人",
+   "terrain": [
+    "low"
+   ],
+   "uses": [
+    "low"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "GORE-TEXの防水と横ブレを抑えるシャーシを備えた、440gの軽量なミッドカットのハイキングシューズです。",
+   "fit": null,
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "sirio-pf46-4",
    "category": "boots",
    "brand": "シリオ",

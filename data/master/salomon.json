@@ -1,0 +1,70 @@
+{
+ "brand": "サロモン",
+ "products": [
+  {
+   "id": "salomon-x-ultra-5-mid-gore-tex-m",
+   "brand": "サロモン",
+   "name": "X ULTRA 5 MID GORE-TEX",
+   "category": "boots",
+   "gender": "mens",
+   "price": 25300,
+   "weight_g": 440,
+   "weight_note": "440g（公式記載）",
+   "capacity_l": null,
+   "material": "アッパー：PU加工レザー、テキスタイル（Matryx®）。ミッドソール：EnergyCell™。アウトソール：All Terrain Contagrip®",
+   "waterproof": "GORE-TEX",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": "25.0〜29.0cm（0.5cm刻み）、30.0cm、31.0cm",
+   "sources": [
+    {
+     "url": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "image": {
+    "url": "https://salomon.jp/cdn/shop/files/L47754200_0_GHO_XULTRA5MIDGTXBlack_Asphalt_Castlerock.png?v=1737700894",
+    "angle": "main",
+    "src_page": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542",
+    "checked_at": "2026-11-11",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-11",
+    "season": [],
+    "uses": [
+     "low"
+    ],
+    "concerns": [],
+    "fit": "",
+    "summary": "GORE-TEXの防水と横ブレを抑えるシャーシを備えた、440gの軽量なミッドカットのハイキングシューズです。",
+    "pros": [
+     "440gと軽量",
+     "GORE-TEXで防水",
+     "Active SupportとAdvanced Chassis™で横方向のブレを抑える",
+     "All Terrain Contagrip®アウトソールは濡れた路面・岩・泥を想定"
+    ],
+    "cons": [
+     "在庫はサイズによって異なる"
+    ],
+    "good_for": [
+     "日帰りの低山・里山で、軽い防水ミッドカットを使いたい人"
+    ],
+    "not_for": [
+     "重い荷物を背負う縦走や雪のある高山が中心の人"
+    ],
+    "concern_reasons": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+[
+ {
+  "id": "x-ultra-5-mid-gore-tex-m",
+  "name": "X ULTRA 5 MID GORE-TEX",
+  "gender": "mens",
+  "category": "boots",
+  "price": 25300,
+  "in_stock_unknown": true,
+  "weight_g": 440,
+  "weight_note": "440g（公式記載）",
+  "capacity_l": null,
+  "material": "アッパー：PU加工レザー、テキスタイル（Matryx®）。ミッドソール：EnergyCell™。アウトソール：All Terrain Contagrip®",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": "25.0〜29.0cm（0.5cm刻み）、30.0cm、31.0cm",
+  "eval": {
+   "season": [],
+   "uses": [
+    "low"
+   ],
+   "concerns": [],
+   "fit": "",
+   "summary": "GORE-TEXの防水と横ブレを抑えるシャーシを備えた、440gの軽量なミッドカットのハイキングシューズです。",
+   "pros": [
+    "440gと軽量",
+    "GORE-TEXで防水",
+    "Active SupportとAdvanced Chassis™で横方向のブレを抑える",
+    "All Terrain Contagrip®アウトソールは濡れた路面・岩・泥を想定"
+   ],
+   "cons": [
+    "在庫はサイズによって異なる"
+   ],
+   "good_for": [
+    "日帰りの低山・里山で、軽い防水ミッドカットを使いたい人"
+   ],
+   "not_for": [
+    "重い荷物を背負う縦走や雪のある高山が中心の人"
+   ],
+   "concern_reasons": {}
+  },
+  "key": "https://salomon.jp/collections/x-ultra-5/products/x-ultra-5-mid-gore-tex-l477542"
+ }
+]
