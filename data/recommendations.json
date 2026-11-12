@@ -1,13 +1,8 @@
 {
-  "updated": "2026-11-11T00:59:21.083Z",
+  "updated": "2026-11-12T02:06:17.476Z",
   "season": "autumn",
   "categories": {
     "rain": [
-      {
-        "id": "nanga-aurora-tex-stand-collar-down-vest",
-        "source": "rule",
-        "reason": "秋の山行に合うため。レインウェア・シェル。重ね着しやすく、3シーズン活躍する万能ダウンベスト 防水透湿素材「AURORA TEX®」と760FPダックダウンを採用。"
-      },
       {
         "id": "llbean-p124317",
         "source": "rule",
@@ -17,6 +12,11 @@
         "id": "arcteryx-squamish-hoody-m",
         "source": "rule",
         "reason": "秋の山行に合うため。レインウェア・シェル。Tシャツの上に羽織ったり、フリースと重ね着したり。"
+      },
+      {
+        "id": "columbia-orange-forest-3-jacket-w",
+        "source": "rule",
+        "reason": "秋の山行に合うため。防水2.75層で、雨の山道に備えられる、ウィメンズのジャケットです。"
       }
     ],
     "wear": [
