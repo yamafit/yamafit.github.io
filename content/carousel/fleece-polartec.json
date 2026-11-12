@@ -1,7 +1,7 @@
 {
  "images": ["img/feature/fleece/polartec-1.jpg", "img/feature/fleece/polartec-2.jpg", "img/feature/fleece/polartec-3.jpg"],
  "caption_file": "content/carousel/fleece-polartec.txt",
- "publish": false,
+ "publish": true,
  "tags": [
   { "image": 3, "username": "thenorthfacejp", "x": 0.155, "y": 0.69 },
   { "image": 3, "username": "patagoniajp", "x": 0.38, "y": 0.69 },
