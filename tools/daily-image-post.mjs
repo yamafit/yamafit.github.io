@@ -6,6 +6,7 @@
 //   node tools/daily-image-post.mjs instagram   その写真と記事の内容・URLで Instagram に投稿し、data/ig-posts.json に記録
 //   node tools/daily-image-post.mjs noon-prep   昼の投稿用に、今週の7選とは別の商品を1つ選び、参照シート・プロンプト・投稿文を out/noon に作る（data/noon-picks.json に記録）
 //   node tools/daily-image-post.mjs noon-instagram  昼の写真（data/product-images.json に登録済み）で Instagram に投稿
+//   node tools/daily-image-post.mjs carousel    content/carousel/*.json の画像をカルーセルで投稿（.github/workflows/carousel-post.yml）
 //   node tools/daily-image-post.mjs reel        今日の朝（無ければ昼）の写真からリール動画を作って投稿（.github/workflows/reel-post.yml、19:00）
 //
 // 写真の作り方（プロンプト工房と同じ）:
@@ -718,8 +719,50 @@ async function storyOnly() { // ストーリーズだけ投稿（朝の記事。
   if (posts[article.slug]) { posts[article.slug].story = st; fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n"); }
   if (process.env.GITHUB_ACTIONS) console.log(`::notice::ストーリーズ ${JSON.stringify(st)}`);
 }
+// 作ってある画像を、そのままカルーセル（複数画像）で投稿する（.github/workflows/carousel-post.yml）。
+// content/carousel/<名前>.json：{ "images": ["img/..jpg", ...], "caption_file": "content/carousel/<名前>.txt", "publish": true,
+//   "tags": [{ "image": 3, "username": "...", "x": 0.5, "y": 0.5 }] }。publish が false なら入れ物を作るまで（テスト）。
+async function carouselFiles() {
+  const specs = fs.readdirSync("content/carousel").filter((f) => f.endsWith(".json"));
+  for (const f of specs) {
+    const name = f.replace(/\.json$/, ""), key = `carousel:${name}`;
+    const spec = readJSON(`content/carousel/${f}`, {});
+    if (posts[key]) { log("投稿済みです:", name, posts[key].permalink); continue; }
+    const caption = fs.readFileSync(spec.caption_file, "utf8").trim();
+    if (!/#PR/.test(caption)) throw new Error("投稿文に #PR がありません: " + spec.caption_file);
+    if (caption.length > 2200 || (caption.match(/#[^\s#]+/g) || []).length > 30) throw new Error("投稿文が長すぎるか、タグが30個を超えています");
+    const imgs = spec.images || [];
+    if (imgs.length < 2 || imgs.length > 10) throw new Error("カルーセルの画像は2〜10枚です");
+    for (const im of imgs) if (!fs.existsSync(im)) throw new Error("画像がありません: " + im);
+    if (DRY) { log("DRY_RUN:", name, imgs.join(", ")); log(caption); continue; }
+    if (!process.env.INSTAGRAM_ACCESS_TOKEN) throw new Error("INSTAGRAM_ACCESS_TOKEN が未設定です");
+    const me = await ig("/me?fields=user_id,username", {});
+    const uid = me.user_id || me.id;
+    const children = [], tagged = [];
+    for (let i = 0; i < imgs.length; i++) {
+      const url = `${SITE_URL}${imgs[i]}`;
+      await waitLive(url);
+      const tags = (spec.tags || []).filter((t) => t.image === i + 1).map(({ username, x, y }) => ({ username, x, y }));
+      let c = null;
+      if (tags.length) { try { c = await ig(`/${uid}/media`, { image_url: url, is_carousel_item: "true", user_tags: JSON.stringify(tags) }, "POST"); tagged.push(...tags.map((t) => t.username)); } catch (e) { log("タグ付けができませんでした（タグなしにします）:", e.message); } }
+      if (!c) c = await ig(`/${uid}/media`, { image_url: url, is_carousel_item: "true" }, "POST");
+      await waitContainer(c.id, 30, 5000);
+      children.push(c.id);
+    }
+    const c = await ig(`/${uid}/media`, { media_type: "CAROUSEL", children: children.join(","), caption }, "POST");
+    await waitContainer(c.id, 30, 5000);
+    if (spec.publish === false) { const m = `テスト：${name} の入れ物まで成功（投稿していません）タグ ${tagged.join(",") || "なし"}`; if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); log(m); continue; }
+    const pub = await publishSafe(uid, c.id);
+    let permalink = "";
+    try { permalink = (await ig(`/${pub.id}?fields=permalink`, {})).permalink || ""; } catch {}
+    posts[key] = { media_id: pub.id, permalink, account: me.username || "", tagged: tagged.join(","), carousel: true, images: imgs, posted_at: new Date().toISOString() };
+    fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");
+    log("カルーセルを投稿しました:", permalink || pub.id);
+    if (process.env.GITHUB_ACTIONS) console.log(`::notice::カルーセル投稿 ${permalink}`);
+  }
+}
 const cmd = process.argv[2];
-const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, "reel-file": reelFile, video: videoOnly, story: storyOnly }[cmd];
+const run = { plan, prep, image, instagram, "noon-prep": noonPrep, "noon-instagram": noonInstagram, reel, "reel-file": reelFile, carousel: carouselFiles, video: videoOnly, story: storyOnly }[cmd];
 if (!run) { console.error("使い方: node tools/daily-image-post.mjs plan|prep|image|instagram|noon-prep|noon-instagram|reel"); process.exit(1); }
 if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
   Promise.resolve().then(run).catch((e) => { console.error("失敗:", e.message); if (process.env.GITHUB_ACTIONS) console.log(`::error::失敗: ${String(e.message).replace(/\n/g, " ")}`); process.exit(1); });

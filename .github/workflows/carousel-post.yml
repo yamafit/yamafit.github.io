@@ -1,0 +1,29 @@
+name: カルーセル投稿（作ってある画像をそのまま）
+# content/carousel/<名前>.json を push すると、その画像と投稿文で Instagram にカルーセル投稿する。投稿済みのものは data/ig-posts.json を見て飛ばす。
+on:
+  push:
+    branches: [main]
+    paths: ["content/carousel/*.json"]
+  workflow_dispatch: {}
+concurrency:
+  group: carousel-post
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: カルーセルを投稿
+        run: node tools/daily-image-post.mjs carousel
+      - name: 投稿の記録を保存
+        run: |
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/ig-posts.json
+          git diff --cached --quiet || (git commit -m "カルーセルを投稿" && git pull --rebase --autostash && git push)

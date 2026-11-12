@@ -1,0 +1,11 @@
+{
+ "images": ["img/feature/fleece/polartec-1.jpg", "img/feature/fleece/polartec-2.jpg", "img/feature/fleece/polartec-3.jpg"],
+ "caption_file": "content/carousel/fleece-polartec.txt",
+ "publish": false,
+ "tags": [
+  { "image": 3, "username": "thenorthfacejp", "x": 0.155, "y": 0.69 },
+  { "image": 3, "username": "patagoniajp", "x": 0.38, "y": 0.69 },
+  { "image": 3, "username": "marmot_japan", "x": 0.61, "y": 0.69 },
+  { "image": 3, "username": "mountainhardwear.jp", "x": 0.835, "y": 0.69 }
+ ]
+}
