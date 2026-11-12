@@ -753,5 +753,18 @@
   },
   "posted_at": "2026-11-12T03:01:20.365Z",
   "image": "img/products/arcteryx-arro-22-backpack.jpg"
+ },
+ "carousel:fleece-polartec": {
+  "media_id": "18076540304767631",
+  "permalink": "https://www.instagram.com/p/DfpAsK1lUmV/",
+  "account": "yama_fit2026",
+  "tagged": "thenorthfacejp,patagoniajp,marmot_japan,mountainhardwear.jp",
+  "carousel": true,
+  "images": [
+   "img/feature/fleece/polartec-1.jpg",
+   "img/feature/fleece/polartec-2.jpg",
+   "img/feature/fleece/polartec-3.jpg"
+  ],
+  "posted_at": "2026-11-12T12:03:00.673Z"
  }
 }
