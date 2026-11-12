@@ -995,5 +995,51 @@
    "not_for": [],
    "concern_reasons": {}
   }
+ },
+ {
+  "key": "/products/mtfw25ufl041",
+  "id": "polartec-compass-fleece-jacket-pro",
+  "name": "POLARTEC Compass Fleece Jacket Pro",
+  "gender": "unisex",
+  "category": "wear",
+  "weight_g": 553,
+  "weight_note": "Lサイズ",
+  "material": "ポリエステル100％",
+  "warmth": "Polartec Thermal Pro（総裏仕様）",
+  "size_note": "ややオーバーサイズのシルエット（アジアフィット）",
+  "eval": {
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "fit": "タウンユースを意識した、ややオーバーサイズのシルエットと記載",
+   "summary": "軽量で保温性と通気性に優れたPolartec Thermal Proを使ったフリースジャケットです。",
+   "pros": [
+    "Polartec Thermal Proで保温性と通気性があると記載",
+    "総裏仕様で、暖かい空気を保持すると記載",
+    "同じ素材のパンツとセットアップにできる"
+   ],
+   "cons": [
+    "Lサイズで553gと、薄手のフリースより重い"
+   ],
+   "good_for": [
+    "休憩中や山小屋で暖かく過ごしたい人",
+    "街でも着やすいフリースを探している人"
+   ],
+   "not_for": [
+    "荷物を軽くしたい人"
+   ],
+   "concern_reasons": {
+    "cold": "保温性に優れたPolartec Thermal Proと、総裏仕様と記載されています。"
+   }
+  }
  }
 ]

@@ -303,5 +303,30 @@
   "price_min": 33550,
   "price_max": 33550,
   "checked_at": "2026-10-16"
+ },
+ "/product/mens-r1-fleece-midlayer-jacket/40129.html": {
+  "url": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
+  "category": "wear",
+  "status": 200,
+  "via": "webfetch（自動取り込みで記録できず、公式ページを読んで転記）",
+  "name": "メンズ・R1 ジャケット",
+  "title": "メンズ・R1 ジャケット - パタゴニア公式オンラインショップ",
+  "price_min": 24200,
+  "price_max": 24200,
+  "price_text": [
+   "¥ 24,200"
+  ],
+  "availability": [],
+  "image": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw3b0938ed/images/hi-res/40129_ATNO.jpg?sw=800&sh=800&sfrm=png&q=95&bgcolor=f3f4ef",
+  "desc": "軽量でコンパクトに収納可能なハイブリッドのR1 ジャケットは、山での涼しい日々に何をするにも多用途に使える中間着。テクニカルな万能型のフリースとして抜群の伸縮性と耐久性と通気性を提供するポーラテック・パワー・グリッド素材を使用。",
+  "weight_labeled": "343 g (12.1 oz)",
+  "material": [
+   "6.9オンス・ポーラテック・パワー・グリッド・リサイクル・ポリエステル93％／ポリウレタン７％のグリッド・フリース",
+   "縁取り：4.5オンス・ポーラテック・パワー・グリッド・リサイクル・ポリエステル92％／ポリウレタン８％のジャージー"
+  ],
+  "size": [
+   "スリム・フィット"
+  ],
+  "checked_at": "2026-11-12"
  }
 }

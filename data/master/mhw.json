@@ -778,6 +778,82 @@
      "light": "Mサイズで約350gです。"
     }
    }
+  },
+  {
+   "id": "mhw-polartec-power-grid-fz-hoody",
+   "brand": "マウンテンハードウェア",
+   "name": "ポーラテックパワーグリッドFZフーディ",
+   "category": "wear",
+   "gender": "mens",
+   "price": 22000,
+   "weight_g": 425,
+   "weight_note": "Mサイズの目安",
+   "capacity_l": null,
+   "material": "Polartec Power Grid",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "Polartec Power Grid（薄手のフリース）",
+   "size_note": null,
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "image": {
+    "url": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0793_219_C.jpg",
+    "angle": "main",
+    "src_page": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000",
+    "checked_at": "2026-11-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-12",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "winter"
+    ],
+    "concerns": [
+     "sweat"
+    ],
+    "fit": "ストレッチ性で身体にフィットしつつ動きやすいと記載",
+    "summary": "保温と通気のバランスがいい、Polartec Power Gridの薄手フリースのフーディです。",
+    "pros": [
+     "裏面のグリッド構造で汗を逃がしやすいと記載",
+     "夏の高所登山では羽織り、冬季登山では行動中のミッドレイヤーとして使えると記載",
+     "フードとサムホール付き"
+    ],
+    "cons": [
+     "薄手なので、真冬の主な防寒着には足りない"
+    ],
+    "good_for": [
+     "歩いている間も着ていたい人",
+     "フード付きの中間着がほしい人"
+    ],
+    "not_for": [
+     "休憩中の防寒着を探す人"
+    ],
+    "concern_reasons": {
+     "sweat": "裏面のグリッド構造で汗を逃がしやすいと記載されています。"
+    }
+   }
   }
  ]
 }

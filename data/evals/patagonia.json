@@ -380,5 +380,56 @@
    }
   },
   "key": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html"
+ },
+ {
+  "key": "/product/mens-r1-fleece-midlayer-jacket/40129.html",
+  "id": "r1-jacket-m",
+  "name": "メンズ・R1 ジャケット",
+  "gender": "mens",
+  "category": "wear",
+  "weight_g": 343,
+  "weight_note": "公式記載",
+  "material": "ポーラテック・パワー・グリッド（リサイクル・ポリエステル93％／ポリウレタン7％のグリッド・フリース）",
+  "warmth": "Polartec Power Grid",
+  "size_note": "スリム・フィット",
+  "in_stock_unknown": true,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "winter",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "fit": "スリム・フィットと記載",
+   "summary": "ポーラテック・パワー・グリッドを使った、山の涼しい日に多用途に使える中間着です。",
+   "pros": [
+    "伸縮性・耐久性・通気性があるポーラテック・パワー・グリッドと記載",
+    "343gと軽く、コンパクトに収納できると記載",
+    "ハイブリッドの中間着として多用途に使えると記載"
+   ],
+   "cons": [
+    "スリム・フィットなので、厚手の服の上には重ねにくい"
+   ],
+   "good_for": [
+    "歩いている間も着ていたい人",
+    "重ね着で温度を調整したい人"
+   ],
+   "not_for": [
+    "真冬の主な防寒着を探す人"
+   ],
+   "concern_reasons": {
+    "sweat": "通気性のあるポーラテック・パワー・グリッドと記載されています。",
+    "light": "343gと軽量です。"
+   }
+  }
  }
 ]

@@ -1633,6 +1633,80 @@
     "not_for": [],
     "concern_reasons": {}
    }
+  },
+  {
+   "id": "marmot-polartec-compass-fleece-jacket-pro",
+   "brand": "マーモット",
+   "name": "POLARTEC Compass Fleece Jacket Pro",
+   "category": "wear",
+   "gender": "unisex",
+   "price": 22000,
+   "weight_g": 553,
+   "weight_note": "Lサイズ",
+   "capacity_l": null,
+   "material": "ポリエステル100％",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "Polartec Thermal Pro（総裏仕様）",
+   "size_note": "ややオーバーサイズのシルエット（アジアフィット）",
+   "sources": [
+    {
+     "url": "https://marmot.jp/products/mtfw25ufl041",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "image": {
+    "url": "https://marmot.jp/cdn/shop/files/MTFW25UFL041_1_e229d5cb-b916-447a-961e-27ded3a85fc6.jpg?v=1790660653&width=1024",
+    "angle": "main",
+    "src_page": "https://marmot.jp/products/mtfw25ufl041",
+    "checked_at": "2026-11-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://marmot.jp/products/mtfw25ufl041",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "タウンユースを意識した、ややオーバーサイズのシルエットと記載",
+    "summary": "軽量で保温性と通気性に優れたPolartec Thermal Proを使ったフリースジャケットです。",
+    "pros": [
+     "Polartec Thermal Proで保温性と通気性があると記載",
+     "総裏仕様で、暖かい空気を保持すると記載",
+     "同じ素材のパンツとセットアップにできる"
+    ],
+    "cons": [
+     "Lサイズで553gと、薄手のフリースより重い"
+    ],
+    "good_for": [
+     "休憩中や山小屋で暖かく過ごしたい人",
+     "街でも着やすいフリースを探している人"
+    ],
+    "not_for": [
+     "荷物を軽くしたい人"
+    ],
+    "concern_reasons": {
+     "cold": "保温性に優れたPolartec Thermal Proと、総裏仕様と記載されています。"
+    }
+   }
   }
  ]
 }

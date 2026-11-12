@@ -601,6 +601,84 @@
      "sweat": "中綿は化繊のプリマロフト・ゴールド・インサレーション・エコです。"
     }
    }
+  },
+  {
+   "id": "patagonia-r1-jacket-m",
+   "brand": "パタゴニア",
+   "name": "メンズ・R1 ジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 343,
+   "weight_note": "公式記載",
+   "capacity_l": null,
+   "material": "ポーラテック・パワー・グリッド（リサイクル・ポリエステル93％／ポリウレタン7％のグリッド・フリース）",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "Polartec Power Grid",
+   "size_note": "スリム・フィット",
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "image": {
+    "url": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw3b0938ed/images/hi-res/40129_ATNO.jpg?sw=800&sh=800&sfrm=png&q=95&bgcolor=f3f4ef",
+    "angle": "main",
+    "src_page": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
+    "checked_at": "2026-11-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-12",
+    "season": [
+     "spring",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "winter",
+     "town"
+    ],
+    "concerns": [
+     "sweat",
+     "light"
+    ],
+    "fit": "スリム・フィットと記載",
+    "summary": "ポーラテック・パワー・グリッドを使った、山の涼しい日に多用途に使える中間着です。",
+    "pros": [
+     "伸縮性・耐久性・通気性があるポーラテック・パワー・グリッドと記載",
+     "343gと軽く、コンパクトに収納できると記載",
+     "ハイブリッドの中間着として多用途に使えると記載"
+    ],
+    "cons": [
+     "スリム・フィットなので、厚手の服の上には重ねにくい"
+    ],
+    "good_for": [
+     "歩いている間も着ていたい人",
+     "重ね着で温度を調整したい人"
+    ],
+    "not_for": [
+     "真冬の主な防寒着を探す人"
+    ],
+    "concern_reasons": {
+     "sweat": "通気性のあるポーラテック・パワー・グリッドと記載されています。",
+     "light": "343gと軽量です。"
+    }
+   }
   }
  ]
 }

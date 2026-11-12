@@ -23381,6 +23381,77 @@
    }
   },
   {
+   "id": "marmot-polartec-compass-fleece-jacket-pro",
+   "category": "wear",
+   "brand": "マーモット",
+   "name": "POLARTEC Compass Fleece Jacket Pro",
+   "gender": "unisex",
+   "spec": "553g（Lサイズ）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": 553,
+   "weight_note": "Lサイズ",
+   "material": "ポリエステル100％",
+   "waterproof": null,
+   "warmth": "Polartec Thermal Pro（総裏仕様）",
+   "size_note": "ややオーバーサイズのシルエット（アジアフィット）",
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "features": [
+    "Polartec Thermal Proで保温性と通気性があると記載",
+    "総裏仕様で、暖かい空気を保持すると記載",
+    "同じ素材のパンツとセットアップにできる"
+   ],
+   "cons": [
+    "Lサイズで553gと、薄手のフリースより重い"
+   ],
+   "for_whom": "休憩中や山小屋で暖かく過ごしたい人・街でも着やすいフリースを探している人",
+   "not_for": "荷物を軽くしたい人",
+   "terrain": [
+    "low",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "cold"
+   ],
+   "reasons": {
+    "cold": "保温性に優れたPolartec Thermal Proと、総裏仕様と記載されています。"
+   },
+   "default_reason": "軽量で保温性と通気性に優れたPolartec Thermal Proを使ったフリースジャケットです。",
+   "fit": "タウンユースを意識した、ややオーバーサイズのシルエットと記載",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://marmot.jp/products/mtfw25ufl041",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://marmot.jp/products/mtfw25ufl041",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "merrell-moab-3-mid-gore-tex-w",
    "category": "boots",
    "brand": "メレル",
@@ -24193,6 +24264,79 @@
     {
      "shop": "official",
      "url": "https://www.mountainhardwear.jp/shop/g/gOM0676405----S000/",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "mhw-polartec-power-grid-fz-hoody",
+   "category": "wear",
+   "brand": "マウンテンハードウェア",
+   "name": "ポーラテックパワーグリッドFZフーディ",
+   "gender": "mens",
+   "spec": "425g（Mサイズの目安）",
+   "price": 22000,
+   "capacity_l": null,
+   "weight_g": 425,
+   "weight_note": "Mサイズの目安",
+   "material": "Polartec Power Grid",
+   "waterproof": null,
+   "warmth": "Polartec Power Grid（薄手のフリース）",
+   "size_note": null,
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "features": [
+    "裏面のグリッド構造で汗を逃がしやすいと記載",
+    "夏の高所登山では羽織り、冬季登山では行動中のミッドレイヤーとして使えると記載",
+    "フードとサムホール付き"
+   ],
+   "cons": [
+    "薄手なので、真冬の主な防寒着には足りない"
+   ],
+   "for_whom": "歩いている間も着ていたい人・フード付きの中間着がほしい人",
+   "not_for": "休憩中の防寒着を探す人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "winter"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "reasons": {
+    "sweat": "裏面のグリッド構造で汗を逃がしやすいと記載されています。"
+   },
+   "default_reason": "保温と通気のバランスがいい、Polartec Power Gridの薄手フリースのフーディです。",
+   "fit": "ストレッチ性で身体にフィットしつつ動きやすいと記載",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000",
      "affiliate_url": "",
      "in_stock": true,
      "checked_at": "2026-11-12"
@@ -50132,6 +50276,81 @@
     {
      "shop": "official",
      "url": "https://www.patagonia.jp/product/mens-nano-puff-insulated-jacket/84213.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
+   "id": "patagonia-r1-jacket-m",
+   "category": "wear",
+   "brand": "パタゴニア",
+   "name": "メンズ・R1 ジャケット",
+   "gender": "mens",
+   "spec": "343g（公式記載）",
+   "price": 24200,
+   "capacity_l": null,
+   "weight_g": 343,
+   "weight_note": "公式記載",
+   "material": "ポーラテック・パワー・グリッド（リサイクル・ポリエステル93％／ポリウレタン7％のグリッド・フリース）",
+   "waterproof": null,
+   "warmth": "Polartec Power Grid",
+   "size_note": "スリム・フィット",
+   "season": [
+    "spring",
+    "autumn",
+    "winter"
+   ],
+   "features": [
+    "伸縮性・耐久性・通気性があるポーラテック・パワー・グリッドと記載",
+    "343gと軽く、コンパクトに収納できると記載",
+    "ハイブリッドの中間着として多用途に使えると記載"
+   ],
+   "cons": [
+    "スリム・フィットなので、厚手の服の上には重ねにくい"
+   ],
+   "for_whom": "歩いている間も着ていたい人・重ね着で温度を調整したい人",
+   "not_for": "真冬の主な防寒着を探す人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "winter",
+    "town"
+   ],
+   "concerns": [
+    "sweat",
+    "light"
+   ],
+   "reasons": {
+    "sweat": "通気性のあるポーラテック・パワー・グリッドと記載されています。",
+    "light": "343gと軽量です。"
+   },
+   "default_reason": "ポーラテック・パワー・グリッドを使った、山の涼しい日に多用途に使える中間着です。",
+   "fit": "スリム・フィットと記載",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-r1-fleece-midlayer-jacket/40129.html",
      "affiliate_url": "",
      "in_stock": null,
      "checked_at": "2026-11-12"
