@@ -1358,5 +1358,27 @@
    "サイズをお選びください"
   ],
   "checked_at": "2026-10-12"
+ },
+ "/ap/item/i/m/NA62650": {
+  "url": "https://www.goldwin.co.jp/ap/item/i/m/NA62650",
+  "category": "wear",
+  "status": 403,
+  "name": "Goldwin Online Store - ゴールドウインオンラインストア",
+  "title": "Goldwin Online Store - ゴールドウインオンラインストア",
+  "price_min": null,
+  "price_max": null,
+  "price_text": [],
+  "availability": null,
+  "image": null,
+  "og_image": null,
+  "desc": "",
+  "weight_labeled": null,
+  "weight": [],
+  "material": [],
+  "waterproof": [],
+  "warmth": [],
+  "stock_lines": [],
+  "size": [],
+  "checked_at": "2026-11-12"
  }
 }

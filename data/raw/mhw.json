@@ -759,5 +759,58 @@
   "price_min": 31900,
   "price_max": 31900,
   "checked_at": "2026-11-02"
+ },
+ "/shop/goods/goods.aspx?goods=OM0793219----S000&create_s_key=55e768fc71b6c0b583ce37d8dfdb82cc75804bcfa07d0e79591a0c9e4945693f&create_s_token=ca4fFgtwbuy4KsZhyUJ39u7Wvf6sTiGDYtJOLNMzz1aPXWkubjYTilWXudhQ2hPr": {
+  "url": "https://www.mountainhardwear.jp/shop/goods/goods.aspx?goods=OM0793219----S000&create_s_key=55e768fc71b6c0b583ce37d8dfdb82cc75804bcfa07d0e79591a0c9e4945693f&create_s_token=ca4fFgtwbuy4KsZhyUJ39u7Wvf6sTiGDYtJOLNMzz1aPXWkubjYTilWXudhQ2hPr",
+  "category": "wear",
+  "status": 200,
+  "name": "ポーラテックパワーグリッドFZフーディ",
+  "title": "ポーラテックパワーグリッドFZフーディ(S　Carob Heather)│マウンテンハードウェア(Mountain Hardwear)公式サイト",
+  "price_min": 22000,
+  "price_max": 22000,
+  "price_text": [
+   "￥22,000 税込",
+   "3,000円 以上無料",
+   "一回のご注文につき、全国一律550円(税込)の送料をいただいております。 ただし、一回のご注文の商品合計金額が5,000円（税込）以上の場合、送料無料となります。"
+  ],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0793_219_C.jpg",
+  "og_image": "https://www.mountainhardwear.jp/img/goods/S/F26_OM0793_219_C.jpg",
+  "desc": "保温と通気のバランスがいい高機能フリースジャケット",
+  "weight_labeled": null,
+  "weight": [
+   "重量(g) (目安)",
+   "425 g(Mサイズ)"
+  ],
+  "material": [
+   "ゴアテックスプロプロダクト",
+   "ゴアテックスアクティブプロダクト",
+   "ゴアテックスプロダクト",
+   "ゴアテックスグローブ",
+   "ゴアテックスインフィニアムプロダクト"
+  ],
+  "waterproof": [
+   "防水",
+   "ゴアテックスプロプロダクト",
+   "ゴアテックスアクティブプロダクト",
+   "ゴアテックスプロダクト"
+  ],
+  "warmth": [
+   "ダウン/中綿入りウェア",
+   "保温",
+   "プリマロフトインシュレーション"
+  ],
+  "stock_lines": [
+   "在庫あり"
+  ],
+  "size": [
+   "大型バックパック(40L～)",
+   "中型バックパック(30L～39L)",
+   "小型バックパック(～29L)",
+   "サイズ :"
+  ],
+  "checked_at": "2026-11-12"
  }
 }
