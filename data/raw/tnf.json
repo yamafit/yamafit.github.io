@@ -1362,23 +1362,91 @@
  "/ap/item/i/m/NA62650": {
   "url": "https://www.goldwin.co.jp/ap/item/i/m/NA62650",
   "category": "wear",
-  "status": 403,
-  "name": "Goldwin Online Store - ゴールドウインオンラインストア",
-  "title": "Goldwin Online Store - ゴールドウインオンラインストア",
-  "price_min": null,
-  "price_max": null,
-  "price_text": [],
-  "availability": null,
+  "status": 200,
+  "via": "作成者が送った公式ページのスクリーンショット（自動取得は403）",
+  "name": "デナリジャケット（メンズ）",
+  "title": "デナリジャケット（メンズ）｜ザ・ノース・フェイス公式ストア",
+  "price_min": 24200,
+  "price_max": 24200,
+  "price_text": [
+   "￥24,200 (税込)"
+  ],
+  "availability": [],
   "image": null,
   "og_image": null,
-  "desc": "",
-  "weight_labeled": null,
-  "weight": [],
-  "material": [],
+  "desc": "1989年、エクスペディション向けに開発された、THE NORTH FACEのヘリテージモデルであるフリースジャケット。保温性、イージーケア性に優れ、柔らかくなめらかな表面が特徴のPOLARTEC 300マイクロフリース。アイコニックな切り替えデザイン。",
+  "weight_labeled": "約710g（Lサイズ）",
+  "weight": [
+   "Weight",
+   "約710g（Lサイズ）"
+  ],
+  "material": [
+   "Fabric",
+   "＜身生地＞Polartec 300 Micro（ポリエステル100％）＜別布＞Recycled Taslan Nylon Cloth（ナイロン100％）",
+   "本体生地は保温力を維持しながらも通気性を備えたポリエステルのフリース素材",
+   "パックなどに干渉しやすい肩部分はナイロン生地を配置"
+  ],
   "waterproof": [],
-  "warmth": [],
+  "warmth": [
+   "保温性、イージーケア性に優れ、柔らかくなめらかな表面が特徴のPOLARTEC 300マイクロフリース"
+  ],
   "stock_lines": [],
-  "size": [],
-  "checked_at": "2026-11-12"
+  "size": [
+   "S、M、L、XL、XXL"
+  ],
+  "checked_at": "2026-11-12",
+  "extra": {
+   "origin": "ベトナム",
+   "colors": "フォッシルアイボリー×ブラック、サミットゴールド×ブラック、ブラック、ミックスグレー",
+   "features": [
+    "ZIP IN ZIP対応",
+    "左右サイドと左右胸にファスナーポケット",
+    "左胸にロゴ刺繍",
+    "左袖口にPOLARTECのロゴ刺繍",
+    "裾のドローコードでフィット感の調節が可能"
+   ],
+   "recommended_scene": [
+    "ライフスタイル",
+    "アウトドア"
+   ],
+   "size_cm": {
+    "S": [
+     69,
+     58,
+     47,
+     63,
+     10
+    ],
+    "M": [
+     71,
+     60,
+     49,
+     65,
+     10
+    ],
+    "L": [
+     73,
+     62,
+     51,
+     67,
+     10
+    ],
+    "XL": [
+     75,
+     64,
+     53,
+     69,
+     10
+    ],
+    "XXL": [
+     77,
+     66,
+     55,
+     71,
+     11
+    ]
+   },
+   "size_cols": "着丈・身幅・肩幅・袖丈・袖口幅（cm）"
+  }
  }
 }

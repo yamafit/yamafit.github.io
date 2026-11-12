@@ -2135,6 +2135,80 @@
      "cold": "ダウンと化繊わたを組み合わせた保温着です。"
     }
    }
+  },
+  {
+   "id": "tnf-denali-jacket-m-2026",
+   "brand": "ザ・ノース・フェイス",
+   "name": "デナリジャケット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 710,
+   "weight_note": "約710g（Lサイズ）",
+   "capacity_l": null,
+   "material": "身生地：Polartec 300 Micro（ポリエステル100％）／別布：Recycled Taslan Nylon Cloth（ナイロン100％）",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "POLARTEC 300マイクロフリース（保温性に優れ、通気性を備えると記載）",
+   "size_note": "公式にサイズ感の記載なし（サイズ表の実寸のみ）",
+   "sources": [
+    {
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/NA62650",
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "image": {
+    "url": "",
+    "angle": "main",
+    "src_page": "https://www.goldwin.co.jp/ap/item/i/m/NA62650",
+    "checked_at": "2026-11-12",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.goldwin.co.jp/ap/item/i/m/NA62650",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-12"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-12",
+    "season": [
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "hut",
+     "town"
+    ],
+    "concerns": [
+     "cold"
+    ],
+    "fit": "不明（公式にサイズ感の記載なし）",
+    "summary": "1989年にエクスペディション向けに開発されたヘリテージモデルの、POLARTEC 300マイクロフリースを使ったフリースジャケットです。",
+    "pros": [
+     "保温性に優れ、通気性を備えたPOLARTEC 300マイクロフリースと記載",
+     "パックなどに干渉しやすい肩部分はナイロン生地を配置",
+     "ZIP IN ZIP対応で、左右サイドと左右胸にファスナーポケット"
+    ],
+    "cons": [
+     "Lサイズで約710gと、薄手のフリースより重い"
+    ],
+    "good_for": [
+     "休憩中や山小屋で暖かく過ごしたい人",
+     "街でも山でも着られる定番のフリースがほしい人"
+    ],
+    "not_for": [
+     "荷物を軽くしたい人"
+    ],
+    "concern_reasons": {
+     "cold": "保温性に優れたPOLARTEC 300マイクロフリースと記載されています。"
+    }
+   }
   }
  ]
 }
