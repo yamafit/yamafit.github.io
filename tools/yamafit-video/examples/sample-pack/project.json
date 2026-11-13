@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "sample-pack-30",
+  "category": "pack",
+  "product": {
+    "name": "サンプルザック 30",
+    "maker": "サンプル（架空）",
+    "modelNumber": "SAMPLE-30",
+    "features": [
+      { "text": "サンプルの特徴1（背面パネル）", "focusPartId": "back_panel" },
+      { "text": "サンプルの特徴2（雨蓋）", "focusPartId": "top_lid" }
+    ],
+    "specs": [
+      { "label": "容量", "value": "30L（架空の値）" }
+    ],
+    "summary": "動作確認用の架空の商品です",
+    "sources": []
+  },
+  "images": [],
+  "model": {
+    "kind": "placeholder-pack",
+    "file": null,
+    "heightCm": 60,
+    "colors": { "main": "#2F6B4F", "sub": "#24523D", "strap": "#22262A" }
+  },
+  "parts": [
+    { "id": "main_compartment", "label": "メイン収納部", "role": "サンプルの説明文", "confirmed": true, "highlight": false },
+    { "id": "top_lid", "label": "雨蓋", "role": "サンプルの説明文", "confirmed": true, "highlight": true },
+    { "id": "shoulder_harness", "label": "ショルダーハーネス", "role": "サンプルの説明文", "confirmed": true, "highlight": true },
+    { "id": "back_panel", "label": "背面パネル", "role": "サンプルの説明文", "confirmed": true, "highlight": true },
+    { "id": "hip_belt", "label": "ヒップベルト", "role": "サンプルの説明文", "confirmed": true, "highlight": true },
+    { "id": "side_pocket", "label": "サイドポケット", "role": "サンプルの説明文", "confirmed": true, "highlight": false },
+    { "id": "chest_strap", "label": "チェストストラップ", "role": "サンプルの説明文", "confirmed": true, "highlight": false }
+  ]
+}

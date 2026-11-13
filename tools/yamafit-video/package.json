@@ -1,0 +1,28 @@
+{
+  "name": "yamafit-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YAMA FIT 商品紹介3D動画制作システム",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run tests/unit",
+    "test:e2e": "vitest run tests/e2e",
+    "export": "node server/cli.ts export",
+    "verify": "node server/cli.ts verify"
+  },
+  "dependencies": {
+    "three": "0.187.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/three": "0.187.0",
+    "playwright": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  }
+}

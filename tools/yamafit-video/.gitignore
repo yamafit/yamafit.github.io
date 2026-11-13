@@ -1,0 +1,7 @@
+# ビルド結果・書き出し結果・利用者のデータはGitに入れない
+dist/
+out/
+projects/
+node_modules/
+.env
+*.log
