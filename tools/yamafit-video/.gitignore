@@ -1,7 +1,12 @@
-# ビルド結果・書き出し結果・利用者のデータはGitに入れない
+# ビルド結果・書き出し結果はGitに入れない
 dist/
 out/
-projects/
 node_modules/
 .env
 *.log
+
+# プロジェクトのデータ（project.json）は入れるが、写真・音声・3Dモデルは入れない
+# （リポジトリが公開のため。権利のある素材を再配布しないようにする）
+projects/**/images/
+projects/**/audio/
+projects/**/models/

@@ -127,6 +127,7 @@ const HIGHLIGHT_TARGET_BIAS = 0.22; // 強調中のパーツへカメラを寄�
 const HIGHLIGHT_ZOOM = 0.05; // 強調中に近づく割合
 const FIT_MARGIN = { marginX: 0.86, marginY: 0.7 }; // 分解した全体を収める範囲（上下は文字のために空ける）
 const CLOSE_MARGIN = { marginX: 0.9, marginY: 0.74 }; // 接近したときにパーツを収める範囲
+const WIDE_MARGIN = { marginX: 0.96, marginY: 0.9 }; // 全体像で商品を収める範囲（はみ出し防止の下限）
 const FLOOR_CLEARANCE_M = 0.04;
 /** 役割テキストがこれより短い時間しか出ないときは注意を出す（秒） */
 export const MIN_ROLE_TEXT_SEC = 1.2;
@@ -272,10 +273,17 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
   };
 
   // --- カメラ ---
-  const wideD = dir.camera.wideDistance * H;
   const closeD = dir.camera.closeDistance * H;
   const elevWide = Math.atan((dir.camera.heightRatio - 0.5) / dir.camera.wideDistance) / DEG;
   const center: Vec3 = [0, H / 2, 0];
+  // 全体を映す距離：設定値（商品の高さの何倍か）を使う。ただし、背が低く横に広い商品では
+  // 回転中に画面からはみ出すので、どの向きでも全体が収まる距離より近くにはしない。
+  const assembledPoints = parts.flatMap((p) => allCorners(p.nodes, [0, 0, 0]));
+  let wideD = dir.camera.wideDistance * H;
+  for (let yawDeg = 0; yawDeg < 360; yawDeg += 10) {
+    const pts = assembledPoints.map((p) => rotateY(p, yawDeg * DEG));
+    wideD = Math.max(wideD, fitDistance(pts, center, elevWide, { fovDeg: dir.camera.fovDeg, aspect: WIDTH / HEIGHT, ...WIDE_MARGIN }));
+  }
   const distKeys: Key[] = [
     { t: 0, v: wideD * INTRO_PUSH_IN },
     { t: 4.5, v: wideD, ease: camEase },

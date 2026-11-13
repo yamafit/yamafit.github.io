@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "salomon-trailblazer-10",
+  "category": "pack",
+  "product": {
+    "name": "TRAILBLAZER 10",
+    "maker": "サロモン",
+    "modelNumber": "LC21829",
+    "features": [
+      { "text": "メインコンパートメントと両サイドのストレッチポケット", "focusPartId": "side_pocket" },
+      { "text": "パッド入りバックシステムとベルト、ショルダーストラップ", "focusPartId": "back_panel" }
+    ],
+    "specs": [
+      { "label": "容量", "value": "10L" },
+      { "label": "重量", "value": "323g" },
+      { "label": "寸法", "value": "47×24×18cm" },
+      { "label": "本体の素材", "value": "100% ナイロン" }
+    ],
+    "summary": "ショートハイクやシティーユースに最適",
+    "sources": [
+      { "url": "https://salomon.jp/products/trailblazer-10-lc21829", "checkedAt": "2026-11-13" }
+    ]
+  },
+  "images": [
+    { "file": "images/front.webp", "view": "front" },
+    { "file": "images/back.webp", "view": "back" }
+  ],
+  "model": {
+    "kind": "placeholder-pack",
+    "file": null,
+    "heightCm": 47,
+    "colors": { "main": "#333234", "sub": "#2B292B", "strap": "#29282A" }
+  },
+  "parts": [
+    { "id": "main_compartment", "label": "メインコンパートメント", "role": "", "confirmed": true, "highlight": false },
+    { "id": "side_pocket", "label": "サイドポケット", "role": "必要なアイテムが手の届くところに", "confirmed": true, "highlight": true },
+    { "id": "back_panel", "label": "バックパネル", "role": "パッド入りバックシステム", "confirmed": true, "highlight": true },
+    { "id": "hip_belt", "label": "ベルト", "role": "", "confirmed": true, "highlight": true },
+    { "id": "shoulder_harness", "label": "ショルダーストラップ", "role": "身体にぴったりとフィット", "confirmed": true, "highlight": true },
+    { "id": "chest_strap", "label": "チェストストラップ", "role": "", "confirmed": true, "highlight": false }
+  ]
+}

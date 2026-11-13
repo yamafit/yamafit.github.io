@@ -226,4 +226,28 @@ describe('画面への収まり', () => {
   it('再組み立てのあと（1回転とまとめ）も、商品全体が画面に収まる', () => {
     for (let t = reassembleEnd; t <= DURATION_SEC; t += 1 / FPS) inFrame(t, 1);
   });
+
+  it('雨蓋のない、背が低く横に広い商品でも、回転中に画面からはみ出さない', () => {
+    // 設定した距離（高さの3.1倍）では収まらない形。自動で必要な距離まで引く。
+    const input = sampleInput();
+    input.parts = input.parts.filter((p: { id: string }) => p.id !== 'top_lid');
+    input.product.features = [{ text: '特徴', focusPartId: 'back_panel' }];
+    input.model.heightCm = 47;
+    const squat = planFor(mustParse(input));
+    expect(squat.distKeys[1]!.v).toBeGreaterThan(3.1 * 0.47);
+    const check = (t: number) => {
+      const s = sampleTimeline(squat, t);
+      for (const c of worldCorners(squat, s)) {
+        const p = projectToScreen(s, c);
+        expect(Math.abs(p.x), `横 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
+        expect(Math.abs(p.y), `縦 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
+      }
+    };
+    for (let i = 0; i <= 5 * FPS; i++) check(frameToTime(i));
+    for (let t = squat.reassembleStart + squat.reassembleDur; t <= DURATION_SEC; t += 1 / FPS) check(t);
+  });
+
+  it('全体が収まる商品では、設定した距離（高さの3.1倍）をそのまま使う', () => {
+    expect(plan.distKeys[1]!.v).toBeCloseTo(3.1 * 0.6, 9);
+  });
 });

@@ -47,7 +47,7 @@ async function main(): Promise<void> {
   if (!parsed.ok) throw new Error(`プロジェクトの内容に誤りがあります：\n${parsed.errors.join('\n')}`);
 
   const out = document.getElementById('out') as HTMLCanvasElement;
-  const stage = await Stage.create(out, parsed.project);
+  const stage = await Stage.create(out, parsed.project, new URL('.', new URL(url, location.href)).href);
   api.glRenderer = stage.glRenderer;
   api.warnings = stage.plan.warnings;
   api.renderFrame = (i) => {

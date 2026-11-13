@@ -10,6 +10,7 @@
 | 30秒・900フレームの映像をMP4に書き出す（音声なし） | できる |
 | 書き出したMP4を自動で検証する（解像度・尺・コーデックなど） | できる |
 | 同じ入力から同じフレームが出ることを確かめる | できる |
+| 商品写真を「実物写真」のカードとして動画に表示する | できる |
 | 文字（商品名・特徴・パーツの説明）、ロゴ | Phase 2 |
 | ナレーション、BGM | Phase 3 |
 | 管理画面 | Phase 4 |
@@ -57,6 +58,35 @@ npm run typecheck   # 型チェック
 
 1商品＝1フォルダで、その中の `project.json` に商品情報・パーツ・演出の設定を書きます。
 書き方の見本は [examples/sample-pack/project.json](examples/sample-pack/project.json) です（架空の商品）。
+
+実在の商品のプロジェクトは `projects/<ID>/` に置きます。
+
+```
+projects/salomon-trailblazer-10/
+  project.json   商品情報・パーツ・色・演出の設定（Gitに入れる）
+  README.md      各項目の根拠（公式ページのどの記載から取ったか）
+  images/        商品写真（Gitには入れない）
+```
+
+### 商品写真の入れ方
+
+1. 写真を `projects/<ID>/images/` に置く（JPEG・PNG・WebP）。
+2. `project.json` の `images` に、ファイル名と向き（`front` 正面／`back` 背面／`side` 側面／`detail` 細部）を書く。
+
+```json
+"images": [
+  { "file": "images/front.webp", "view": "front" },
+  { "file": "images/back.webp", "view": "back" }
+]
+```
+
+写真は2つの使い方をします。
+
+- **色の参考**：写真から主要な色を取り出し、`model.colors` に入れます（いまは手作業。管理画面では自動になります）。
+- **実物写真のカード**：動画の中に「実物写真」と明記して表示します。3Dモデルには貼りません。表示したくないときは `"direction": { "showPhotos": false }` と書きます。
+
+写真は公開リポジトリに入れないよう、Gitの対象から外してあります。写真がない環境で書き出すと、カードは表示されず、注意が出ます。
+メーカーの公式画像を使う場合は、動画を公開する前に利用条件を確認してください。
 
 守っていること：
 

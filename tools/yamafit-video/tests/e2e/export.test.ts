@@ -1,6 +1,7 @@
 // 書き出しのE2Eテスト：実際にヘッドレスChromiumで描き、ffmpeg でMP4にして、ffprobe で確かめる。
 // 時間を短くするため、ここでは数フレームだけ書き出す（30秒の完全版は npm run export で行う）。
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
@@ -56,6 +57,29 @@ describe('書き出し', () => {
     for (const i of frames) expect(second.get(i), `フレーム${i}`).toBe(first.get(i));
     // 違う場面は違う絵になっている（何も描けていない、ということがない）
     expect(new Set(first.values()).size).toBe(frames.length);
+  }, TIMEOUT);
+
+  it('実物写真のカードが描かれる。写真が見つからなくても書き出しは止まらず、注意が出る', async () => {
+    // 写真つきのプロジェクトを作る（写真はテスト用の模様）
+    const dir = join(work, 'with-photo');
+    mkdirSync(join(dir, 'images'), { recursive: true });
+    const made = spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'lavfi', '-i', 'testsrc=size=300x400:rate=1', '-frames:v', '1', join(dir, 'images', 'front.png')]);
+    expect(made.status).toBe(0);
+    const input = sampleInput();
+    input.images = [
+      { file: 'images/front.png', view: 'front' },
+      { file: 'images/missing.png', view: 'back' },
+    ];
+    writeFileSync(join(dir, 'project.json'), JSON.stringify(input));
+
+    const report = await exportVideo({ projectDir: dir, outFile: join(work, 'photo.mp4'), frames: { start: 75, end: 77 }, skipBuild: true });
+    expect(report.ok).toBe(true);
+    expect(report.warnings).toHaveLength(1);
+    expect(report.warnings[0]).toContain('images/missing.png');
+
+    // 写真なしの同じフレームとは違う絵になっている（カードが描かれている）
+    const plain = await hashFrames(SAMPLE_DIR, [75]);
+    expect(report.frameHashes[0]).not.toBe(plain.get(75));
   }, TIMEOUT);
 
   it('内容に誤りのあるプロジェクトは、分かる文で止まる', async () => {

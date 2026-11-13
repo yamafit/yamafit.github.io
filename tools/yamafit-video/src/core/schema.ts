@@ -60,6 +60,8 @@ export const directionSchema = z.object({
     })
     .prefault({}),
   background: z.enum(['light', 'green', 'dark']).default('light'),
+  /** 実物の写真を動画の中にカードとして表示するか（images に写真があるときだけ表示される） */
+  showPhotos: z.boolean().default(true),
 });
 
 const partSchema = z.object({

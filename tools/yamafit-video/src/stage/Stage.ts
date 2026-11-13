@@ -3,6 +3,7 @@
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { HEIGHT, WIDTH } from '../core/constants.ts';
+import { photoCardsAt } from '../core/photoCards.ts';
 import type { Project } from '../core/schema.ts';
 import { buildTimeline, nodeOffset, sampleTimeline } from '../core/timeline.ts';
 import type { FrameState, TimelinePlan } from '../core/timeline.ts';
@@ -38,10 +39,12 @@ export class Stage {
   private readonly parts: PartRuntime[] = [];
   private readonly project: Project;
   private readonly model: ProductModel;
+  private readonly images: (ImageBitmap | null)[];
 
-  private constructor(out: HTMLCanvasElement, project: Project, model: ProductModel) {
+  private constructor(out: HTMLCanvasElement, project: Project, model: ProductModel, images: (ImageBitmap | null)[], imageWarnings: string[]) {
     this.project = project;
     this.model = model;
+    this.images = images;
     out.width = WIDTH;
     out.height = HEIGHT;
     const ctx = out.getContext('2d');
@@ -87,15 +90,34 @@ export class Stage {
       this.parts.push(runtime);
     }
     this.plan = buildTimeline(project, model.info);
+    this.plan.warnings.push(...imageWarnings);
   }
 
-  /** フォントとモデルを読み込み終えてから Stage を返す */
-  static async create(out: HTMLCanvasElement, project: Project): Promise<Stage> {
+  /**
+   * フォント・モデル・写真を読み込み終えてから Stage を返す。
+   * assetBase は、プロジェクトのフォルダを指すURL（写真の場所の基準）。
+   */
+  static async create(out: HTMLCanvasElement, project: Project, assetBase: string): Promise<Stage> {
     await loadFonts();
     if (project.model.kind !== 'placeholder-pack') {
       throw new Error('商品別の3Dモデル（glb）の読み込みは、まだ実装されていません');
     }
-    return new Stage(out, project, createPlaceholderPack(project));
+    // 写真は、読み込めなくても書き出しを止めない（カードを出さず、注意として知らせる）
+    const warnings: string[] = [];
+    const images = await Promise.all(
+      project.images.map(async (entry) => {
+        if (!project.direction.showPhotos) return null;
+        try {
+          const res = await fetch(new URL(entry.file, assetBase));
+          if (!res.ok) throw new Error(String(res.status));
+          return await createImageBitmap(await res.blob());
+        } catch {
+          warnings.push(`写真「${entry.file}」を読み込めませんでした。この写真のカードは表示されません。`);
+          return null;
+        }
+      }),
+    );
+    return new Stage(out, project, createPlaceholderPack(project), images, warnings);
   }
 
   /** スタジオ風の3灯（キー・フィル・リム）と、やわらかい映り込み用の環境 */
@@ -181,7 +203,7 @@ export class Stage {
     ctx.globalCompositeOperation = 'source-over';
     ctx.drawImage(this.background, 0, 0);
     ctx.drawImage(this.renderer.domElement, 0, 0);
-    drawOverlay(ctx, this.project);
+    drawOverlay(ctx, { project: this.project, photoCards: photoCardsAt(this.project, this.plan, state.t), images: this.images });
     return state;
   }
 }
