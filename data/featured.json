@@ -1,6 +1,6 @@
 {
  "_note": "ホームの「今週のおすすめ」。weeks のうち from（日曜日）が今日以前で一番新しいものを表示する（日曜〜土曜の1週間）。weeks が無い週は items を表示。記事の公開では入れ替えない。",
- "updated": "2026-10-14",
+ "updated": "2026-11-13",
  "items": [
   {
    "id": "gregory-zulu-30",
@@ -91,6 +91,32 @@
      "label": "雪山・湿った雪の日に",
      "comment": "防水透湿素材スーパー ドライテックで1000フィルパワーのEXダウンを包んだパーカ（平均281g）。シームテープ処理はなく、完全防水ではないと公式に記載されています。",
      "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101706_og.jpg"
+    }
+   ]
+  },
+  {
+   "from": "2026-11-15",
+   "title": "ダウンジャケット特集",
+   "until": "2027-02-28",
+   "page": "tokushu/down.html",
+   "items": [
+    {
+     "id": "montbell-1101606",
+     "label": "冬の低山のアウターに",
+     "comment": "800フィルパワーのEXダウンに、はっ水加工の表地。帯電防止加工で、スタッフバッグも付きます（平均約280〜360g）。アウターとして使いやすいダウンです。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101606_papri.jpg"
+    },
+    {
+     "id": "tnf-nuptse-jacket",
+     "label": "街でも山でも",
+     "comment": "1992年のエクスペディション向けモデルをもとにした定番ダウン。40デニールのリップストップナイロンははっ水加工で、アウトドアから街まで着られます。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWC/01_001.jpg"
+    },
+    {
+     "id": "montbell-1101493",
+     "label": "ザックに入れる保温着",
+     "comment": "1000フィルパワーのEXダウンを使い、平均重量は約120〜140g。スタッフバッグ付きで、中間着にもアウターにも使えます（フードなし・はっ水加工）。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101493_ltsv.jpg"
     }
    ]
   }
