@@ -11,6 +11,7 @@ import { loadFonts } from './fonts.ts';
 import type { ProductModel } from './model.ts';
 import { drawOverlay } from './overlay.ts';
 import { createPlaceholderPack } from './placeholderPack.ts';
+import { createProfilePack } from './profilePack.ts';
 
 /** 背景の色（サイトの配色に合わせた3種類）。上・中・下の順 */
 const BACKGROUNDS = {
@@ -99,9 +100,10 @@ export class Stage {
    */
   static async create(out: HTMLCanvasElement, project: Project, assetBase: string): Promise<Stage> {
     await loadFonts();
-    if (project.model.kind !== 'placeholder-pack') {
+    if (project.model.kind === 'glb') {
       throw new Error('商品別の3Dモデル（glb）の読み込みは、まだ実装されていません');
     }
+    const model = project.model.kind === 'profile-pack' ? createProfilePack(project) : createPlaceholderPack(project);
     // 写真は、読み込めなくても書き出しを止めない（カードを出さず、注意として知らせる）
     const warnings: string[] = [];
     const images = await Promise.all(
@@ -117,7 +119,7 @@ export class Stage {
         }
       }),
     );
-    return new Stage(out, project, createPlaceholderPack(project), images, warnings);
+    return new Stage(out, project, model, images, warnings);
   }
 
   /** スタジオ風の3灯（キー・フィル・リム）と、やわらかい映り込み用の環境 */

@@ -19,7 +19,12 @@ function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: numbe
 /** 透かし「検証用・公開不可」。仮モデルの動画を誤って公開しないための表示 */
 function drawWatermark(ctx: CanvasRenderingContext2D, project: Project): void {
   const title = '検証用・公開不可';
-  const note = project.model.kind === 'placeholder-pack' ? '仮の3Dモデルです（実物の形とは異なります）' : '確認用の書き出しです';
+  const note =
+    project.model.kind === 'placeholder-pack'
+      ? '仮の3Dモデルです（実物の形とは異なります）'
+      : project.model.kind === 'profile-pack'
+        ? '写真をもとにした近似モデルです（細部は実物と異なります）'
+        : '確認用の書き出しです';
   ctx.save();
   ctx.textBaseline = 'alphabetic';
   ctx.font = `900 40px "${FONT_JP}"`;

@@ -7,36 +7,309 @@
     "maker": "サロモン",
     "modelNumber": "LC21829",
     "features": [
-      { "text": "メインコンパートメントと両サイドのストレッチポケット", "focusPartId": "side_pocket" },
-      { "text": "パッド入りバックシステムとベルト、ショルダーストラップ", "focusPartId": "back_panel" }
+      {
+        "text": "メインコンパートメントと両サイドのストレッチポケット",
+        "focusPartId": "side_pocket"
+      },
+      {
+        "text": "パッド入りバックシステムとベルト、ショルダーストラップ",
+        "focusPartId": "back_panel"
+      }
     ],
     "specs": [
-      { "label": "容量", "value": "10L" },
-      { "label": "重量", "value": "323g" },
-      { "label": "寸法", "value": "47×24×18cm" },
-      { "label": "本体の素材", "value": "100% ナイロン" }
+      {
+        "label": "容量",
+        "value": "10L"
+      },
+      {
+        "label": "重量",
+        "value": "323g"
+      },
+      {
+        "label": "寸法",
+        "value": "47×24×18cm"
+      },
+      {
+        "label": "本体の素材",
+        "value": "100% ナイロン"
+      }
     ],
     "summary": "ショートハイクやシティーユースに最適",
     "sources": [
-      { "url": "https://salomon.jp/products/trailblazer-10-lc21829", "checkedAt": "2026-11-13" }
+      {
+        "url": "https://salomon.jp/products/trailblazer-10-lc21829",
+        "checkedAt": "2026-11-13"
+      }
     ]
   },
   "images": [
-    { "file": "images/front.webp", "view": "front" },
-    { "file": "images/back.webp", "view": "back" }
+    {
+      "file": "images/front.webp",
+      "view": "front"
+    },
+    {
+      "file": "images/back.webp",
+      "view": "back"
+    }
   ],
   "model": {
-    "kind": "placeholder-pack",
+    "kind": "profile-pack",
     "file": null,
     "heightCm": 47,
-    "colors": { "main": "#333234", "sub": "#2B292B", "strap": "#29282A" }
+    "colors": {
+      "main": "#333234",
+      "sub": "#2B292B",
+      "strap": "#29282A"
+    },
+    "shape": {
+      "profile": [
+        {
+          "y": 0,
+          "halfWidth": 6.8,
+          "depth": 9.5
+        },
+        {
+          "y": 0.8,
+          "halfWidth": 8.2,
+          "depth": 12.0
+        },
+        {
+          "y": 2.2,
+          "halfWidth": 10.0,
+          "depth": 14.2
+        },
+        {
+          "y": 3.5,
+          "halfWidth": 10.85,
+          "depth": 15.5
+        },
+        {
+          "y": 8,
+          "halfWidth": 11.8,
+          "depth": 16.9
+        },
+        {
+          "y": 14,
+          "halfWidth": 12.0,
+          "depth": 17.4
+        },
+        {
+          "y": 22,
+          "halfWidth": 12.0,
+          "depth": 17.0
+        },
+        {
+          "y": 30,
+          "halfWidth": 11.9,
+          "depth": 15.6
+        },
+        {
+          "y": 38,
+          "halfWidth": 11.6,
+          "depth": 13.0
+        },
+        {
+          "y": 41,
+          "halfWidth": 11.0,
+          "depth": 11.4
+        },
+        {
+          "y": 43.5,
+          "halfWidth": 9.8,
+          "depth": 9.4
+        },
+        {
+          "y": 45.5,
+          "halfWidth": 8.0,
+          "depth": 7.0
+        },
+        {
+          "y": 46.6,
+          "halfWidth": 6.2,
+          "depth": 5.0
+        },
+        {
+          "y": 47,
+          "halfWidth": 4.6,
+          "depth": 3.4
+        }
+      ],
+      "frontRoundness": 2.8,
+      "backRoundness": 5,
+      "backBulgeCm": 0.6,
+      "handle": {
+        "path": [
+          [
+            3.4,
+            46.6,
+            -0.6
+          ],
+          [
+            2.7,
+            50.4,
+            -0.8
+          ],
+          [
+            0,
+            52.0,
+            -0.8
+          ]
+        ],
+        "widthCm": 2.0,
+        "thicknessCm": 0.3
+      },
+      "backPanel": {
+        "bottomY": 2.5,
+        "topY": 44.5,
+        "widthRatio": 0.9,
+        "thicknessCm": 0.9
+      },
+      "harness": {
+        "pad": {
+          "path": [
+            [
+              6.5,
+              46.3,
+              -1.4
+            ],
+            [
+              8.0,
+              47.0,
+              -3.8
+            ],
+            [
+              10.0,
+              44.0,
+              -6.0
+            ],
+            [
+              11.5,
+              36.0,
+              -6.8
+            ],
+            [
+              12.2,
+              27.5,
+              -6.2
+            ],
+            [
+              12.6,
+              20.5,
+              -4.4
+            ]
+          ],
+          "widthTopCm": 6.2,
+          "widthBottomCm": 4.2,
+          "thicknessCm": 0.8
+        },
+        "webbing": {
+          "path": [
+            [
+              12.6,
+              20.2,
+              -4.3
+            ],
+            [
+              12.9,
+              14.5,
+              -2.6
+            ],
+            [
+              12.0,
+              9.0,
+              -1.0
+            ]
+          ],
+          "widthCm": 2.0,
+          "thicknessCm": 0.25
+        }
+      },
+      "chestStrap": {
+        "y": 31,
+        "halfSpanCm": 11.9,
+        "z": -7.4,
+        "widthCm": 1.5,
+        "buckleXCm": 3.2
+      },
+      "belt": {
+        "path": [
+          [
+            12.2,
+            5,
+            -0.8
+          ],
+          [
+            14.2,
+            5,
+            -5.5
+          ],
+          [
+            11.0,
+            5,
+            -12.0
+          ],
+          [
+            0,
+            5,
+            -14.5
+          ]
+        ],
+        "widthCm": 2.5,
+        "thicknessCm": 0.3,
+        "buckle": true
+      },
+      "sidePocket": {
+        "bottomY": 8,
+        "topYBack": 23.5,
+        "topYFront": 26,
+        "fromAngleDeg": -14,
+        "toAngleDeg": 38,
+        "thicknessCm": 0.45
+      }
+    }
   },
   "parts": [
-    { "id": "main_compartment", "label": "メインコンパートメント", "role": "", "confirmed": true, "highlight": false },
-    { "id": "side_pocket", "label": "サイドポケット", "role": "必要なアイテムが手の届くところに", "confirmed": true, "highlight": true },
-    { "id": "back_panel", "label": "バックパネル", "role": "パッド入りバックシステム", "confirmed": true, "highlight": true },
-    { "id": "hip_belt", "label": "ベルト", "role": "", "confirmed": true, "highlight": true },
-    { "id": "shoulder_harness", "label": "ショルダーストラップ", "role": "身体にぴったりとフィット", "confirmed": true, "highlight": true },
-    { "id": "chest_strap", "label": "チェストストラップ", "role": "", "confirmed": true, "highlight": false }
+    {
+      "id": "main_compartment",
+      "label": "メインコンパートメント",
+      "role": "",
+      "confirmed": true,
+      "highlight": false
+    },
+    {
+      "id": "side_pocket",
+      "label": "サイドポケット",
+      "role": "必要なアイテムが手の届くところに",
+      "confirmed": true,
+      "highlight": true
+    },
+    {
+      "id": "back_panel",
+      "label": "バックパネル",
+      "role": "パッド入りバックシステム",
+      "confirmed": true,
+      "highlight": true
+    },
+    {
+      "id": "hip_belt",
+      "label": "ベルト",
+      "role": "",
+      "confirmed": true,
+      "highlight": true
+    },
+    {
+      "id": "shoulder_harness",
+      "label": "ショルダーストラップ",
+      "role": "身体にぴったりとフィット",
+      "confirmed": true,
+      "highlight": true
+    },
+    {
+      "id": "chest_strap",
+      "label": "チェストストラップ",
+      "role": "",
+      "confirmed": true,
+      "highlight": false
+    }
   ]
 }

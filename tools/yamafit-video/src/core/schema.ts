@@ -64,6 +64,56 @@ export const directionSchema = z.object({
   showPhotos: z.boolean().default(true),
 });
 
+/** 道筋（+X側。左右一対のものは自動で左右に反転して作る）。単位はcm。上が+Y、正面が+Z、背面の面が z=0 */
+const pathSchema = z.array(vec3).min(2);
+
+/**
+ * 写真の輪郭に合わせた近似モデル（model.kind = "profile-pack"）の形。単位はすべてcm。
+ * 数値は、商品写真の輪郭と公式の寸法から決める。写真から読み取れない所は推定になる。
+ */
+export const shapeSchema = z.object({
+  /** 本体の輪郭。下から上へ。y は底からの高さ、halfWidth は幅の半分、depth は背面から前面までの奥行き */
+  profile: z
+    .array(z.object({ y: z.number().min(0), halfWidth: z.number().positive(), depth: z.number().positive() }))
+    .min(4)
+    .refine((a) => a.every((p, i) => i === 0 || p.y > a[i - 1]!.y), '輪郭は下から上へ、高さの順に並べてください'),
+  /** 断面の丸み（2 でだ円、大きいほど四角に近い） */
+  frontRoundness: z.number().min(2).max(8).default(2.4),
+  backRoundness: z.number().min(2).max(8).default(5),
+  /** 背面のふくらみ */
+  backBulgeCm: z.number().min(0).max(5).default(0.6),
+  /** 持ち手（本体の一部として作る） */
+  handle: z.object({ path: pathSchema, widthCm: z.number().positive(), thicknessCm: z.number().positive() }).optional(),
+  backPanel: z
+    .object({ bottomY: z.number(), topY: z.number(), widthRatio: z.number().min(0.3).max(1).default(0.9), thicknessCm: z.number().positive().default(0.9) })
+    .optional(),
+  harness: z
+    .object({
+      /** 肩に当たる幅の広い部分 */
+      pad: z.object({ path: pathSchema, widthTopCm: z.number().positive(), widthBottomCm: z.number().positive(), thicknessCm: z.number().positive() }),
+      /** その下の細いベルト（長さ調整の部分） */
+      webbing: z.object({ path: pathSchema, widthCm: z.number().positive(), thicknessCm: z.number().positive() }).optional(),
+    })
+    .optional(),
+  chestStrap: z
+    .object({ y: z.number(), halfSpanCm: z.number().positive(), z: z.number(), widthCm: z.number().positive().default(1.8), buckleXCm: z.number().default(0) })
+    .optional(),
+  belt: z.object({ path: pathSchema, widthCm: z.number().positive(), thicknessCm: z.number().positive(), buckle: z.boolean().default(true) }).optional(),
+  sidePocket: z
+    .object({
+      bottomY: z.number(),
+      /** 上の縁の高さ（背面側と正面側。斜めにできる） */
+      topYBack: z.number(),
+      topYFront: z.number(),
+      /** 横から見た範囲（度）。0 が真横、プラスが正面側、マイナスが背面側 */
+      fromAngleDeg: z.number().min(-60).max(60).default(-12),
+      toAngleDeg: z.number().min(-60).max(80).default(30),
+      thicknessCm: z.number().positive().default(0.45),
+    })
+    .optional(),
+});
+export type PackShape = z.infer<typeof shapeSchema>;
+
 const partSchema = z.object({
   /** パーツID（カテゴリーの候補から選ぶ） */
   id: z.string().min(1),
@@ -115,7 +165,8 @@ export const projectSchema = z
       .max(5)
       .default([]),
     model: z.object({
-      kind: z.enum(['placeholder-pack', 'glb']),
+      /** placeholder-pack：どの商品にも使う仮の形／profile-pack：写真の輪郭に合わせた近似モデル／glb：商品別の3Dモデル */
+      kind: z.enum(['placeholder-pack', 'profile-pack', 'glb']),
       file: z.string().nullable().default(null),
       heightCm: z.number().min(20).max(120).default(60),
       colors: z
@@ -125,6 +176,8 @@ export const projectSchema = z
           strap: hexColor.default('#22262A'),
         })
         .prefault({}),
+      /** profile-pack のときの形 */
+      shape: shapeSchema.optional(),
     }),
     parts: z.array(partSchema),
     direction: directionSchema.prefault({}),
@@ -176,6 +229,20 @@ export const projectSchema = z
         path: ['direction'],
         message: '「再組み立てにかける時間」と「1回転にかける時間」の合計が5秒を超えています。どちらかを短くしてください。',
       });
+    }
+    if (p.model.kind === 'profile-pack') {
+      if (!p.model.shape) {
+        ctx.addIssue({ code: 'custom', path: ['model', 'shape'], message: '近似モデル（profile-pack）には、形のデータ（shape）が必要です' });
+      } else {
+        const top = p.model.shape.profile[p.model.shape.profile.length - 1]!.y;
+        if (Math.abs(top - p.model.heightCm) > 1) {
+          ctx.addIssue({
+            code: 'custom',
+            path: ['model', 'shape', 'profile'],
+            message: `輪郭の高さ（${top}cm）が、商品の高さ（${p.model.heightCm}cm）と合っていません`,
+          });
+        }
+      }
     }
     if (p.model.kind === 'glb' && !p.model.file) {
       ctx.addIssue({ code: 'custom', path: ['model', 'file'], message: '3Dモデルのファイル（glb）を指定してください' });
