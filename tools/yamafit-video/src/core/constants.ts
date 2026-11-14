@@ -27,6 +27,3 @@ export function sceneAt(t: number): SceneId {
   }
   return 'summary';
 }
-
-/** 文字を置かない領域（px）。各SNSの画面に隠れないための目安 */
-export const SAFE_AREA = { top: 240, bottom: 400, left: 60, right: 140 } as const;

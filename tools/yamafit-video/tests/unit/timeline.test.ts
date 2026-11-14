@@ -3,7 +3,7 @@ import { DURATION_SEC, FPS, FRAME_COUNT, SCENES, frameToTime } from '../../src/c
 import { MIN_ROLE_TEXT_SEC, sampleTimeline, yawDegAt } from '../../src/core/timeline.ts';
 import { length, sub } from '../../src/core/vec.ts';
 import { createPlaceholderPack } from '../../src/stage/placeholderPack.ts';
-import { mustParse, planFor, projectToScreen, sampleInput, worldCorners } from '../helpers.ts';
+import { mustParse, planFor, sampleInput, screenBounds, worldCorners } from '../helpers.ts';
 
 const project = mustParse(sampleInput());
 const plan = planFor(project);
@@ -49,12 +49,12 @@ describe('タイムライン：動きのなめらかさ', () => {
   });
 
   it('1フレームで動く量が、常に上限より小さい（瞬間移動しない）', () => {
-    // いちばん速いのは、接近から分解の全景へ引くときのカメラ（1フレームで約13cm）。
+    // いちばん速いのは、接近から分解の全景へ引くときのカメラ。
     // 上限はそれに少し余裕を持たせた値で、境目での「飛び」を見つけるためのもの。
     let prev = sampleTimeline(plan, 0);
     for (let i = 1; i < FRAME_COUNT; i++) {
       const cur = sampleTimeline(plan, frameToTime(i));
-      expect(length(sub(cur.camera.position, prev.camera.position)), `カメラ frame=${i}`).toBeLessThan(0.16);
+      expect(length(sub(cur.camera.position, prev.camera.position)), `カメラ frame=${i}`).toBeLessThan(0.2);
       expect(Math.abs(cur.yawRad - prev.yawRad) * (180 / Math.PI), `向き frame=${i}`).toBeLessThan(14);
       cur.parts.forEach((p, k) => expect(length(sub(p.offset, prev.parts[k]!.offset)), `パーツ ${p.id} frame=${i}`).toBeLessThan(0.08));
       prev = cur;
@@ -200,54 +200,96 @@ describe('存在しないパーツを出さない', () => {
   });
 });
 
-describe('画面への収まり', () => {
-  const inFrame = (t: number, limit: number) => {
-    const s = sampleTimeline(plan, t);
-    for (const c of worldCorners(plan, s)) {
-      const p = projectToScreen(s, c);
-      expect(p.depth, `奥行き t=${t.toFixed(2)}`).toBeGreaterThan(0.05);
-      expect(Math.abs(p.x), `横 t=${t.toFixed(2)}`).toBeLessThanOrEqual(limit);
-      expect(Math.abs(p.y), `縦 t=${t.toFixed(2)}`).toBeLessThanOrEqual(limit);
+describe('画面への収まり（文字の場所を空けた配置）', () => {
+  // 画面は 1080×1920。文字のカードは上（セーフエリアの上端 240px から）、
+  // ロゴは下（セーフエリアの下端 1520px の手前）に置くので、3Dはその間に収める。
+  const boundsOver = (p: typeof plan, from: number, to: number) => {
+    const b = { left: Infinity, right: -Infinity, top: Infinity, bottom: -Infinity, minDepth: Infinity };
+    for (let t = from; t <= to + 1e-9; t += 1 / FPS) {
+      const s = screenBounds(p, sampleTimeline(p, t));
+      b.left = Math.min(b.left, s.left);
+      b.right = Math.max(b.right, s.right);
+      b.top = Math.min(b.top, s.top);
+      b.bottom = Math.max(b.bottom, s.bottom);
+      b.minDepth = Math.min(b.minDepth, s.minDepth);
     }
+    return b;
   };
 
   it('仮モデルの高さは、指定した商品の高さ（60cm）になる', () => {
     expect(plan.heightM).toBeCloseTo(0.6, 9);
   });
 
-  it('全体像（0〜5秒）では、どの向きでも商品全体が画面に収まる', () => {
-    for (let i = 0; i <= 5 * FPS; i++) inFrame(frameToTime(i), 1);
+  it('全体像（0〜5秒）：どの向きでも商品全体が画面に収まり、上の商品名にかからない', () => {
+    const b = boundsOver(plan, 0, 5);
+    expect(b.minDepth).toBeGreaterThan(0.05);
+    expect(b.left).toBeGreaterThanOrEqual(0);
+    expect(b.right).toBeLessThanOrEqual(1080);
+    expect(b.top).toBeGreaterThanOrEqual(480);
+    expect(b.bottom).toBeLessThanOrEqual(1540);
   });
 
-  it('分解している間（〜22秒）、すべてのパーツが画面に収まる', () => {
-    for (let t = plan.explodeStart + plan.explodeDur; t <= 22; t += 1 / FPS) inFrame(t, 1);
+  it('分解している間（〜22秒）：すべてのパーツが画面に収まり、上の説明のカードにかからない', () => {
+    const b = boundsOver(plan, plan.explodeCameraArrive, 22);
+    expect(b.left).toBeGreaterThanOrEqual(0);
+    expect(b.right).toBeLessThanOrEqual(1080);
+    expect(b.top).toBeGreaterThanOrEqual(500);
+    expect(b.bottom).toBeLessThanOrEqual(1580);
   });
 
-  it('再組み立てのあと（1回転とまとめ）も、商品全体が画面に収まる', () => {
-    for (let t = reassembleEnd; t <= DURATION_SEC; t += 1 / FPS) inFrame(t, 1);
+  it('パーツが開ききってからカメラが定位置に着くまでの間も、パーツが画面の外に出ない', () => {
+    // （分解の始めは接近した状態なので、商品の一部は画面の外にある。それは意図どおり）
+    const b = boundsOver(plan, plan.explodeStart + plan.explodeDur, plan.explodeCameraArrive);
+    expect(b.left).toBeGreaterThanOrEqual(0);
+    expect(b.right).toBeLessThanOrEqual(1080);
+    expect(b.top).toBeGreaterThanOrEqual(0);
+    expect(b.bottom).toBeLessThanOrEqual(1920);
+  });
+
+  it('再組み立てのあとの1回転：商品全体が画面に収まる', () => {
+    const b = boundsOver(plan, reassembleEnd, 27);
+    expect(b.left).toBeGreaterThanOrEqual(0);
+    expect(b.right).toBeLessThanOrEqual(1080);
+    expect(b.top).toBeGreaterThanOrEqual(470);
+    expect(b.bottom).toBeLessThanOrEqual(1560);
+  });
+
+  it('まとめ（28秒〜最後）：まとめの文（上）とロゴ（下）の間に商品が収まる', () => {
+    const b = boundsOver(plan, 28, DURATION_SEC);
+    expect(b.top).toBeGreaterThanOrEqual(541);
+    expect(b.bottom).toBeLessThanOrEqual(1398);
   });
 
   it('雨蓋のない、背が低く横に広い商品でも、回転中に画面からはみ出さない', () => {
-    // 設定した距離（高さの3.1倍）では収まらない形。自動で必要な距離まで引く。
+    // 設定した距離（高さの3.8倍）では収まらない形。自動で必要な距離まで引く。
     const input = sampleInput();
     input.parts = input.parts.filter((p: { id: string }) => p.id !== 'top_lid');
     input.product.features = [{ text: '特徴', focusPartId: 'back_panel' }];
     input.model.heightCm = 47;
     const squat = planFor(mustParse(input));
-    expect(squat.distKeys[1]!.v).toBeGreaterThan(3.1 * 0.47);
-    const check = (t: number) => {
-      const s = sampleTimeline(squat, t);
-      for (const c of worldCorners(squat, s)) {
-        const p = projectToScreen(s, c);
-        expect(Math.abs(p.x), `横 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
-        expect(Math.abs(p.y), `縦 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
-      }
-    };
-    for (let i = 0; i <= 5 * FPS; i++) check(frameToTime(i));
-    for (let t = squat.reassembleStart + squat.reassembleDur; t <= DURATION_SEC; t += 1 / FPS) check(t);
+    expect(squat.distKeys[1]!.v).toBeGreaterThan(3.8 * 0.47);
+    for (const [from, to] of [
+      [0, 5],
+      [squat.reassembleStart + squat.reassembleDur, DURATION_SEC],
+    ] as const) {
+      const b = boundsOver(squat, from, to);
+      expect(b.left).toBeGreaterThanOrEqual(0);
+      expect(b.right).toBeLessThanOrEqual(1080);
+      expect(b.top).toBeGreaterThanOrEqual(0);
+      expect(b.bottom).toBeLessThanOrEqual(1920);
+    }
   });
 
-  it('全体が収まる商品では、設定した距離（高さの3.1倍）をそのまま使う', () => {
-    expect(plan.distKeys[1]!.v).toBeCloseTo(3.1 * 0.6, 9);
+  it('全体が収まる商品では、設定した距離（高さの3.8倍）をそのまま使う', () => {
+    expect(plan.distKeys[1]!.v).toBeCloseTo(3.8 * 0.6, 9);
+  });
+
+  it('画面の中で3Dをずらす量は、シーンの境目でも急に変わらない', () => {
+    let prev = sampleTimeline(plan, 0).camera.shiftYPx;
+    for (let i = 1; i < FRAME_COUNT; i++) {
+      const cur = sampleTimeline(plan, frameToTime(i)).camera.shiftYPx;
+      expect(Math.abs(cur - prev), `frame=${i}`).toBeLessThan(8);
+      prev = cur;
+    }
   });
 });

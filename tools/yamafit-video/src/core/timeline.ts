@@ -40,9 +40,9 @@ export interface PlanPart {
   /** 分解しきったときの移動量（+X側の部品用。−X側は左右を反転して使う） */
   fullOffset: Vec3;
   nodes: NodeBox[];
-  /** カメラが注目する点（分解前） */
+  /** カメラが注目する点（分解前。特徴の紹介で寄るときに使う） */
   focus: Vec3;
-  /** カメラが注目する点（分解後） */
+  /** カメラが注目する点（分解しきった後の位置。パーツの紹介と引き出し線に使う） */
   explodedFocus: Vec3;
   explodeStart: number;
   explodeDur: number;
@@ -81,6 +81,8 @@ export interface TimelinePlan {
   liftMax: number;
   explodeStart: number;
   explodeDur: number;
+  /** 分解の全景でカメラが定位置に着く時刻 */
+  explodeCameraArrive: number;
   reassembleStart: number;
   reassembleDur: number;
   /** 分解後の全体の中心（モデル座標） */
@@ -89,6 +91,7 @@ export interface TimelinePlan {
   distKeys: Key[];
   elevKeys: Key[];
   targetKeys: [Key[], Key[], Key[]];
+  shiftKeys: Key[];
   /** 利用者に知らせる注意（時間に収まらない など） */
   warnings: string[];
 }
@@ -110,7 +113,8 @@ export interface FrameState {
   yawRad: number;
   /** モデル全体を持ち上げる量（m） */
   liftM: number;
-  camera: { position: Vec3; target: Vec3; fovDeg: number };
+  /** shiftYPx：画面の中で3D全体を下へずらす量（px）。上に文字の場所を空けるために使う */
+  camera: { position: Vec3; target: Vec3; fovDeg: number; shiftYPx: number };
   parts: PartState[];
 }
 
@@ -120,14 +124,24 @@ const SCENE = Object.fromEntries(SCENES.map((s) => [s.id, s])) as Record<SceneId
 const INTRO_DECEL_SEC = 1.0; // 冒頭の回転が止まるまでの時間
 const DRIFT_DEG_PER_SEC = 3; // 特徴・分解シーンのゆっくりした回転
 const INTRO_PUSH_IN = 1.12; // 冒頭は少し遠くから近づく
-const SUMMARY_PULL_BACK = 1.06; // 最後は少し引く
+const SUMMARY_PULL_BACK = 1.3; // 最後は引いて、まとめの文（上）とロゴ（下）の場所を空ける
 const SUMMARY_TURN_DEG = 8;
+const SUMMARY_SETTLE_SEC = 0.9; // まとめのシーンで、カメラが定位置に着くまでの時間
 const HIGHLIGHT_LEAD_SEC = 0.15; // 分解の直後・再組み立ての直前に空ける時間
-const HIGHLIGHT_TARGET_BIAS = 0.22; // 強調中のパーツへカメラを寄せる割合
-const HIGHLIGHT_ZOOM = 0.05; // 強調中に近づく割合
-const FIT_MARGIN = { marginX: 0.86, marginY: 0.7 }; // 分解した全体を収める範囲（上下は文字のために空ける）
-const CLOSE_MARGIN = { marginX: 0.9, marginY: 0.74 }; // 接近したときにパーツを収める範囲
-const WIDE_MARGIN = { marginX: 0.96, marginY: 0.9 }; // 全体像で商品を収める範囲（はみ出し防止の下限）
+const HIGHLIGHT_TARGET_BIAS = 0.08; // 強調中のパーツへカメラを寄せる割合（大きくすると、文字の場所に3Dがかかる）
+const HIGHLIGHT_ZOOM = 0.03; // 強調中に近づく割合
+const FIT_MARGIN = { marginX: 0.86, marginY: 0.52 }; // 分解した全体を収める範囲（上は説明の文字、下はSNSの表示のために空ける）
+const CLOSE_MARGIN = { marginX: 0.9, marginY: 0.62 }; // 接近したときにパーツを収める範囲
+const WIDE_MARGIN = { marginX: 0.96, marginY: 0.56 }; // 全体像で商品を収める範囲（はみ出し防止の下限。上は商品名の場所）
+// 画面の中で3Dを下へずらす量（px）。上の文字の場所（セーフエリアの上端から約240px）を空ける
+const SHIFT_WIDE_PX = 50;
+const SHIFT_CLOSE_PX = 100;
+const SHIFT_EXPLODE_PX = 60;
+const SHIFT_SUMMARY_PX = -10;
+// 再組み立て後の1回転で、実物写真のカード（左下・右下）を出すときの配置。
+// 回る商品がカードに隠れないよう、少し引いて上に寄せる。
+const TURN_WITH_PHOTOS = { pullBack: 1.22, shiftPx: -150 };
+const EXPLODE_CAMERA_SETTLE_SEC = 0.5; // 分解が終わってから、カメラが全景の位置に着くまでの時間
 const FLOOR_CLEARANCE_M = 0.04;
 /** 役割テキストがこれより短い時間しか出ないときは注意を出す（秒） */
 export const MIN_ROLE_TEXT_SEC = 1.2;
@@ -142,11 +156,15 @@ function allCorners(nodes: readonly NodeBox[], offset: Vec3): Vec3[] {
   return nodes.flatMap((n) => boxCorners(add(n.center, nodeOffset(offset, n.center[0])), n.size));
 }
 
-/** カメラが注目する点。左右一対で左右に開くパーツは +X 側の部品を見る */
-function focusPoint(nodes: readonly NodeBox[], offset: Vec3, applied: Vec3): Vec3 {
-  if (offset[0] !== 0) {
-    const plusSide = [...nodes].sort((a, b) => b.center[0] - a.center[0])[0];
-    if (plusSide) return add(plusSide.center, nodeOffset(applied, plusSide.center[0]));
+/**
+ * カメラが注目する点。左右一対で左右に開くパーツは、モデルを viewYawDeg に向けたときに
+ * カメラに近い側（＝本体の陰に隠れない側）の部品を見る。
+ */
+function focusPoint(nodes: readonly NodeBox[], offset: Vec3, applied: Vec3, viewYawDeg: number, nearestAlways = false): Vec3 {
+  if (nodes.length > 1 && (offset[0] !== 0 || nearestAlways)) {
+    const yawRad = viewYawDeg * DEG;
+    const placed = nodes.map((n) => add(n.center, nodeOffset(applied, n.center[0])));
+    return placed.reduce((near, p) => (rotateY(p, yawRad)[2] > rotateY(near, yawRad)[2] ? p : near));
   }
   return boundsCenter(allCorners(nodes, applied));
 }
@@ -208,8 +226,9 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
       body,
       fullOffset,
       nodes: e.nodes,
-      focus: focusPoint(e.nodes, fullOffset, [0, 0, 0]),
-      explodedFocus: focusPoint(e.nodes, fullOffset, fullOffset),
+      focus: focusPoint(e.nodes, fullOffset, [0, 0, 0], e.def.viewYawDeg),
+      // 引き出し線は、左右一対のパーツでも必ずどちらか一方の部品を指す（2つの間の何もない所を指さない）
+      explodedFocus: focusPoint(e.nodes, fullOffset, fullOffset, category.explodeViewYawDeg, true),
       explodeStart: explodeStart + Math.max(k, 0) * stagger,
       explodeDur: perExplode,
       reassembleStart: reassembleStart + Math.max(m - 1 - k, 0) * staggerR,
@@ -297,10 +316,15 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
     { t: 0, v: center[i]! },
     { t: SCENE.overview.end, v: center[i]! },
   ]) as [Key[], Key[], Key[]];
-  const pushPose = (arrive: number, holdUntil: number, dist: number, elev: number, target: Vec3, e: EasingKind) => {
+  const shiftKeys: Key[] = [
+    { t: 0, v: SHIFT_WIDE_PX },
+    { t: SCENE.overview.end, v: SHIFT_WIDE_PX },
+  ];
+  const pushPose = (arrive: number, holdUntil: number, dist: number, elev: number, target: Vec3, shift: number, e: EasingKind) => {
     distKeys.push({ t: arrive, v: dist, ease: e }, { t: holdUntil, v: dist });
     elevKeys.push({ t: arrive, v: elev, ease: e }, { t: holdUntil, v: elev });
     targetKeys.forEach((keys, i) => keys.push({ t: arrive, v: target[i]!, ease: e }, { t: holdUntil, v: target[i]! }));
+    shiftKeys.push({ t: arrive, v: shift, ease: e }, { t: holdUntil, v: shift });
   };
 
   // 特徴ごとに、関係するパーツへ寄る。
@@ -322,7 +346,7 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
     }
     turnTo(viewYaw, (f.arrive + f.end) / 2);
     moveKeys.push({ t: f.arrive, v: move, ease: camEase }, { t: f.end, v: move });
-    pushPose(f.arrive, f.end, Math.min(dist, wideD), viewElev, target, camEase);
+    pushPose(f.arrive, f.end, Math.min(dist, wideD), viewElev, target, SHIFT_CLOSE_PX, camEase);
   }
 
   // 分解：全体が収まる距離まで引く
@@ -342,7 +366,9 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
     });
     explodedD = Math.max(explodedD, need);
   }
-  pushPose(explodeArrive, SCENE.explode.end, explodedD, category.explodeViewElevationDeg, explodedCenter, camEase);
+  // カメラは、パーツが開ききった少しあとに定位置に着く（接近から全景まで一気に引くと速すぎるため）
+  const explodeCameraArrive = explodeArrive + EXPLODE_CAMERA_SETTLE_SEC;
+  pushPose(explodeCameraArrive, SCENE.explode.end, explodedD, category.explodeViewElevationDeg, explodedCenter, SHIFT_EXPLODE_PX, camEase);
 
   // 再組み立て：冒頭と同じ向き・距離に戻し、そのあと1回転する
   const reassembleArrive = reassembleStart + reassembleDur;
@@ -351,12 +377,22 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
   moveKeys.push({ t: reassembleArrive, v: move, ease: camEase }, { t: Math.max(turnStart, reassembleArrive), v: move });
   move += 360;
   moveKeys.push({ t: SCENE.reassemble.end, v: move, ease: 'easeInOutSine' });
-  pushPose(reassembleArrive, SCENE.reassemble.end, wideD, elevWide, center, camEase);
+  const withPhotos = dir.showPhotos && project.images.length > 0;
+  pushPose(
+    reassembleArrive,
+    SCENE.reassemble.end,
+    withPhotos ? wideD * TURN_WITH_PHOTOS.pullBack : wideD,
+    elevWide,
+    center,
+    withPhotos ? TURN_WITH_PHOTOS.shiftPx : SHIFT_WIDE_PX,
+    camEase,
+  );
 
-  // まとめ：少し引きながら、ゆっくり止まる
+  // まとめ：引きながら、ゆっくり止まる（上にまとめの文、下にロゴが入る）
   move += SUMMARY_TURN_DEG;
   moveKeys.push({ t: DURATION_SEC, v: move, ease: 'easeInOutSine' });
-  pushPose(DURATION_SEC, DURATION_SEC, wideD * SUMMARY_PULL_BACK, elevWide, center, 'easeInOutSine');
+  // カメラは早めに定位置に着かせる（まとめの文がはっきり出るころには、商品が文字の下にかからない位置にいる）
+  pushPose(SCENE.summary.start + SUMMARY_SETTLE_SEC, DURATION_SEC, wideD * SUMMARY_PULL_BACK, elevWide, center, SHIFT_SUMMARY_PX, 'easeInOutSine');
 
   return {
     heightM: H,
@@ -368,6 +404,7 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
     liftMax,
     explodeStart,
     explodeDur,
+    explodeCameraArrive,
     reassembleStart,
     reassembleDur,
     explodedCenter,
@@ -375,6 +412,7 @@ export function buildTimeline(project: Project, model: ModelInfo): TimelinePlan 
     distKeys,
     elevKeys,
     targetKeys,
+    shiftKeys,
     warnings,
   };
 }
@@ -387,7 +425,7 @@ export function yawDegAt(plan: TimelinePlan, t: number): number {
 }
 
 /** 強調の度合い（0〜1）。次のパーツへは重なりながら切り替わる */
-function emphasisAt(plan: TimelinePlan, h: Highlight, t: number): number {
+export function emphasisAt(plan: TimelinePlan, h: Highlight, t: number): number {
   const fade = plan.highlightFade;
   if (fade <= 0) return t >= h.start && t < h.fadeOutStart ? 1 : 0;
   return smoothstep((t - h.start) / fade) * (1 - smoothstep((t - h.fadeOutStart) / fade));
@@ -438,7 +476,7 @@ export function sampleTimeline(plan: TimelinePlan, time: number): FrameState {
     scene: sceneAt(t),
     yawRad,
     liftM,
-    camera: { position: cameraPosition(target, distance, elevation), target, fovDeg: plan.fovDeg },
+    camera: { position: cameraPosition(target, distance, elevation), target, fovDeg: plan.fovDeg, shiftYPx: sampleTrack(plan.shiftKeys, t) },
     parts,
   };
 }

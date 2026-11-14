@@ -1,6 +1,7 @@
 // 書き出し専用ページ。管理画面は持たず、外（Playwright）から呼ばれて1枚ずつ描く。
 import { FPS, FRAME_COUNT, frameToTime } from './core/constants.ts';
 import { parseProject } from './core/schema.ts';
+import type { LayoutBox } from './stage/overlay.ts';
 import { Stage } from './stage/Stage.ts';
 
 interface RenderApi {
@@ -14,6 +15,8 @@ interface RenderApi {
   renderFrame(i: number): void;
   /** フレーム番号 i を描き、PNGにして url へ送る */
   captureFrame(i: number, url: string): Promise<void>;
+  /** フレーム番号 i を描き、文字や写真の位置を返す（配置の確認用） */
+  layoutAt(i: number): LayoutBox[];
 }
 
 declare global {
@@ -35,6 +38,9 @@ const api: RenderApi = {
   async captureFrame() {
     throw new Error('まだ準備ができていません');
   },
+  layoutAt() {
+    throw new Error('まだ準備ができていません');
+  },
 };
 window.__yf = api;
 
@@ -47,7 +53,7 @@ async function main(): Promise<void> {
   if (!parsed.ok) throw new Error(`プロジェクトの内容に誤りがあります：\n${parsed.errors.join('\n')}`);
 
   const out = document.getElementById('out') as HTMLCanvasElement;
-  const stage = await Stage.create(out, parsed.project, new URL('.', new URL(url, location.href)).href);
+  const stage = await Stage.create(out, parsed.project, new URL('.', new URL(url, location.href)).href, { guides: params.get('guides') === '1' });
   api.glRenderer = stage.glRenderer;
   api.warnings = stage.plan.warnings;
   api.renderFrame = (i) => {
@@ -59,6 +65,10 @@ async function main(): Promise<void> {
     if (!blob) throw new Error(`フレーム${i}を画像にできませんでした`);
     const r = await fetch(postUrl, { method: 'POST', body: blob });
     if (!r.ok) throw new Error(`フレーム${i}を送れませんでした（${r.status}）`);
+  };
+  api.layoutAt = (i) => {
+    stage.renderAt(frameToTime(i));
+    return stage.lastLayout;
   };
   stage.renderAt(0);
   api.ready = true;

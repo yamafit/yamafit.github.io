@@ -1,5 +1,5 @@
 // コマンドライン
-//   node server/cli.ts export <プロジェクトのフォルダ> [--out ファイル] [--frames 0-900] [--stills 2.5,8,14] [--skip-build]
+//   node server/cli.ts export <プロジェクトのフォルダ> [--out ファイル] [--frames 0-900] [--stills 2.5,8,14] [--guides] [--skip-build]
 //   node server/cli.ts verify <プロジェクトのフォルダ> [--frames 0-900] [--samples 12]
 import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
@@ -57,6 +57,7 @@ async function runExport(projectDir: string, flags: Map<string, string>): Promis
     frames: parseRange(flags.get('frames')),
     stills: stillsText ? { times: stillsText.split(',').map(Number), dir: outFile.replace(/\.mp4$/, '') + '_stills' } : undefined,
     skipBuild: flags.has('skip-build'),
+    guides: flags.has('guides'),
     onProgress: (done, total) => {
       const now = Date.now();
       if (done === total || now - lastShown > 10_000) {
@@ -112,7 +113,7 @@ async function main(): Promise<number> {
   const { positional, flags } = parseArgs(process.argv.slice(2));
   const [command, dir] = positional;
   if ((command !== 'export' && command !== 'verify') || !dir) {
-    console.log('使い方：\n  node server/cli.ts export <プロジェクトのフォルダ> [--out ファイル] [--frames 0-900] [--stills 2.5,8,14] [--skip-build]\n  node server/cli.ts verify <プロジェクトのフォルダ> [--frames 0-900] [--samples 12]');
+    console.log('使い方：\n  node server/cli.ts export <プロジェクトのフォルダ> [--out ファイル] [--frames 0-900] [--stills 2.5,8,14] [--guides] [--skip-build]\n  node server/cli.ts verify <プロジェクトのフォルダ> [--frames 0-900] [--samples 12]');
     return 2;
   }
   const projectDir = resolve(dir);

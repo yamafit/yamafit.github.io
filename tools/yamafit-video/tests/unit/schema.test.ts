@@ -10,7 +10,9 @@ function errorsOf(input: unknown): string[] {
 describe('project.json の検証', () => {
   it('サンプルは合格し、省略した演出パラメータには初期値が入る', () => {
     const p = mustParse(sampleInput());
-    expect(p.direction.camera.wideDistance).toBe(3.1);
+    expect(p.direction.camera.wideDistance).toBe(3.8);
+    expect(p.direction.safeArea).toEqual({ top: 240, bottom: 400, left: 60, right: 140 });
+    expect(p.direction.showPhotos).toBe(true);
     expect(p.direction.camera.fovDeg).toBe(30);
     expect(p.direction.rotation.introSpeedDegPerSec).toBe(36);
     expect(p.direction.explode.distanceCm).toBe(35);
@@ -54,6 +56,25 @@ describe('project.json の検証', () => {
     const input = sampleInput();
     input.parts.find((p: { id: string }) => p.id === 'back_panel').confirmed = false;
     expect(errorsOf(input).join('\n')).toContain('登録・確認されていません');
+  });
+
+  it('入力の誤りは、項目の名前つきの分かる日本語で知らせる', () => {
+    const input = sampleInput();
+    input.product.name = 'あ'.repeat(41);
+    input.product.features[0].text = 'い'.repeat(29);
+    input.parts[1].role = 'う'.repeat(25);
+    input.product.sources = [{ url: 'not-a-url', checkedAt: '2026-11-14' }];
+    input.model.heightCm = 'abc';
+    input.direction = { camera: { fovDeg: 90 }, explode: { distanceCm: 5 } };
+    expect(errorsOf(input)).toEqual([
+      '商品名：40文字以内で入力してください',
+      '特徴1：28文字以内で入力してください',
+      '情報源1のURL：URLの形が正しくありません（https:// から始まるURLを入力してください）',
+      '商品の高さ：数値を入力してください',
+      'パーツ2の役割：24文字以内で入力してください',
+      '演出の設定（camera.fovDeg）：45以下の数値にしてください',
+      '演出の設定（explode.distanceCm）：10以上の数値にしてください',
+    ]);
   });
 
   it('範囲の外の演出パラメータは受け付けない', () => {

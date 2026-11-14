@@ -1,5 +1,6 @@
 // カメラの位置と「画面に収まる距離」の計算（three.js に依存しない）
-import { DEG, add, dot, rotateY, scale, sub } from './vec.ts';
+import { HEIGHT, WIDTH } from './constants.ts';
+import { DEG, add, dot, normalize, rotateY, scale, sub } from './vec.ts';
 import type { Vec3 } from './vec.ts';
 
 /** 注視点から見たカメラの方向（見下ろし角 el 度。カメラは +Z 側に置く） */
@@ -74,4 +75,33 @@ export function boundsCenter(points: readonly Vec3[]): Vec3 {
 export function rotatePointsY(points: readonly Vec3[], yawDeg: number): Vec3[] {
   const rad = yawDeg * DEG;
   return points.map((p) => rotateY(p, rad));
+}
+
+function cross(a: Vec3, b: Vec3): Vec3 {
+  return [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]];
+}
+
+export interface CameraPose {
+  position: Vec3;
+  target: Vec3;
+  fovDeg: number;
+  /** 画面の中で3D全体を下へずらす量（px） */
+  shiftYPx: number;
+}
+
+/**
+ * 3Dの点が、画面のどこ（px。左上が原点）に映るかを求める。three.js のカメラと同じ計算。
+ * depth はカメラからの奥行き（0以下ならカメラの後ろ）。
+ */
+export function projectToPixels(camera: CameraPose, point: Vec3): { x: number; y: number; depth: number } {
+  const forward = normalize(sub(camera.target, camera.position));
+  const right = normalize(cross(forward, [0, 1, 0]));
+  const up = cross(right, forward);
+  const rel = sub(point, camera.position);
+  const depth = dot(rel, forward);
+  const tanV = Math.tan((camera.fovDeg * DEG) / 2);
+  const tanH = tanV * (WIDTH / HEIGHT);
+  const ndcX = dot(rel, right) / (depth * tanH);
+  const ndcY = dot(rel, up) / (depth * tanV);
+  return { x: ((ndcX + 1) / 2) * WIDTH, y: ((1 - ndcY) / 2) * HEIGHT + camera.shiftYPx, depth };
 }

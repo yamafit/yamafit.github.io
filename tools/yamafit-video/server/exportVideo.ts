@@ -16,6 +16,8 @@ export interface ExportOptions {
   stills?: { times: number[]; dir: string };
   /** すでにビルド済みならビルドを省く */
   skipBuild?: boolean;
+  /** セーフエリアの枠を描く（確認用） */
+  guides?: boolean;
   onProgress?: (done: number, total: number) => void;
   signal?: AbortSignal;
 }
@@ -60,7 +62,7 @@ export async function exportVideo(opts: ExportOptions): Promise<ExportReport> {
     for (const sec of opts.stills.times) stillFrames.set(Math.min(Math.round(sec * FPS), FRAME_COUNT - 1), sec);
   }
 
-  const session = await openRenderSession(opts.projectDir);
+  const session = await openRenderSession(opts.projectDir, { guides: opts.guides });
   const encoder = startVideoEncoder(opts.outFile);
   let encoderError = '';
   encoder.stderr.on('data', (d: Buffer) => (encoderError += d.toString()));

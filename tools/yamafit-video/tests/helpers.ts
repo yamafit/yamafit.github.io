@@ -1,14 +1,13 @@
 // テスト用の共通部品
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { HEIGHT, WIDTH } from '../src/core/constants.ts';
 import { parseProject } from '../src/core/schema.ts';
 import type { Project } from '../src/core/schema.ts';
 import { buildTimeline, nodeOffset } from '../src/core/timeline.ts';
 import type { FrameState, ModelInfo, TimelinePlan } from '../src/core/timeline.ts';
-import { DEG, add, dot, normalize, rotateY, sub } from '../src/core/vec.ts';
+import { add, rotateY } from '../src/core/vec.ts';
 import type { Vec3 } from '../src/core/vec.ts';
-import { boxCorners } from '../src/core/camera.ts';
+import { boxCorners, projectToPixels } from '../src/core/camera.ts';
 import { createPlaceholderPack } from '../src/stage/placeholderPack.ts';
 
 export const SAMPLE_DIR = join(import.meta.dirname, '..', 'examples', 'sample-pack');
@@ -33,20 +32,23 @@ export function planFor(project: Project): TimelinePlan {
   return buildTimeline(project, modelInfoFor(project));
 }
 
-function cross(a: Vec3, b: Vec3): Vec3 {
-  return [a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0]];
+/** 点が画面のどこ（px）に映るか。画面の中なら x は 0〜1080、y は 0〜1920 */
+export function screenPoint(state: FrameState, point: Vec3): { x: number; y: number; depth: number } {
+  return projectToPixels(state.camera, point);
 }
 
-/** 点を画面の座標（−1〜1 が画面内）に直す。three.js のカメラと同じ計算 */
-export function projectToScreen(state: FrameState, point: Vec3): { x: number; y: number; depth: number } {
-  const forward = normalize(sub(state.camera.target, state.camera.position));
-  const right = normalize(cross(forward, [0, 1, 0]));
-  const up = cross(right, forward);
-  const rel = sub(point, state.camera.position);
-  const depth = dot(rel, forward);
-  const tanV = Math.tan((state.camera.fovDeg * DEG) / 2);
-  const tanH = tanV * (WIDTH / HEIGHT);
-  return { x: dot(rel, right) / (depth * tanH), y: dot(rel, up) / (depth * tanV), depth };
+/** その時刻に、商品（すべての部品）が画面の中で占める範囲（px） */
+export function screenBounds(plan: TimelinePlan, state: FrameState): { left: number; right: number; top: number; bottom: number; minDepth: number } {
+  const b = { left: Infinity, right: -Infinity, top: Infinity, bottom: -Infinity, minDepth: Infinity };
+  for (const c of worldCorners(plan, state)) {
+    const p = projectToPixels(state.camera, c);
+    b.left = Math.min(b.left, p.x);
+    b.right = Math.max(b.right, p.x);
+    b.top = Math.min(b.top, p.y);
+    b.bottom = Math.max(b.bottom, p.y);
+    b.minDepth = Math.min(b.minDepth, p.depth);
+  }
+  return b;
 }
 
 /** その時刻の、すべての部品の角の位置（ワールド座標） */

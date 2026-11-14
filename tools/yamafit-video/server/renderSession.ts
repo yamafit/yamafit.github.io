@@ -7,6 +7,7 @@ import { build } from 'vite';
 import { FRAME_COUNT } from '../src/core/constants.ts';
 import { parseProject } from '../src/core/schema.ts';
 import type { Project } from '../src/core/schema.ts';
+import type { LayoutBox } from '../src/stage/overlay.ts';
 import { DIST_DIR, ROOT } from './paths.ts';
 import { startRenderServer } from './renderServer.ts';
 import type { RenderServer } from './renderServer.ts';
@@ -38,10 +39,17 @@ export interface RenderSession {
   frameCount: number;
   /** フレーム番号 i を描かせ、PNGを受け取る */
   capture(index: number): Promise<Buffer>;
+  /** フレーム番号 i を描かせ、文字や写真の位置を受け取る（配置の確認用） */
+  layout(index: number): Promise<LayoutBox[]>;
   close(): Promise<void>;
 }
 
-export async function openRenderSession(projectDir: string): Promise<RenderSession> {
+export interface RenderSessionOptions {
+  /** セーフエリアの枠を描く（確認用） */
+  guides?: boolean;
+}
+
+export async function openRenderSession(projectDir: string, options: RenderSessionOptions = {}): Promise<RenderSession> {
   if (!existsSync(join(DIST_DIR, 'render.html'))) {
     throw new Error('書き出しページがビルドされていません。先に npm run build を実行してください。');
   }
@@ -66,7 +74,7 @@ export async function openRenderSession(projectDir: string): Promise<RenderSessi
     page.setDefaultTimeout(120_000);
     const pageErrors: string[] = [];
     page.on('pageerror', (e) => pageErrors.push(e.message));
-    await page.goto(`${server.origin}/render.html`);
+    await page.goto(`${server.origin}/render.html${options.guides ? '?guides=1' : ''}`);
     await page.waitForFunction(() => window.__yf && (window.__yf.ready || window.__yf.error !== null));
     const status = await page.evaluate(() => ({
       error: window.__yf.error,
@@ -91,6 +99,7 @@ export async function openRenderSession(projectDir: string): Promise<RenderSessi
         if (pageErrors.length > 0) throw new Error(`描画中にエラーが起きました：${pageErrors.join(' / ')}`);
         return got;
       },
+      layout: (index) => page.evaluate((i) => window.__yf.layoutAt(i), index),
       close: async () => {
         await b.close();
         await server.close();

@@ -7,7 +7,8 @@ import { join } from 'node:path';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { exportVideo, hashFrames } from '../../server/exportVideo.ts';
 import { isFastStart, probe } from '../../server/ffmpeg.ts';
-import { buildRenderPage } from '../../server/renderSession.ts';
+import { buildRenderPage, openRenderSession } from '../../server/renderSession.ts';
+import type { LayoutBox } from '../../src/stage/overlay.ts';
 import { SAMPLE_DIR, sampleInput } from '../helpers.ts';
 
 const TIMEOUT = 240_000;
@@ -80,6 +81,70 @@ describe('書き出し', () => {
     // 写真なしの同じフレームとは違う絵になっている（カードが描かれている）
     const plain = await hashFrames(SAMPLE_DIR, [75]);
     expect(report.frameHashes[0]).not.toBe(plain.get(75));
+  }, TIMEOUT);
+
+  it('文字・写真・ロゴは、セーフエリアの中にあり、互いに重ならず、枠からはみ出さない', async () => {
+    const SAFE = { left: 60, right: 1080 - 140, top: 240, bottom: 1920 - 400 };
+    const overlaps = (a: LayoutBox, b: LayoutBox) => a.x < b.x + b.width && b.x < a.x + a.width && a.y < b.y + b.height && b.y < a.y + a.height;
+
+    // いちばん長い文字数を入れたプロジェクト（商品名40文字、特徴28文字、役割24文字、まとめ42文字、紹介するパーツ7個、写真2枚）
+    const dir = join(work, 'longest');
+    mkdirSync(join(dir, 'images'), { recursive: true });
+    for (const name of ['front.png', 'back.png']) {
+      spawnSync('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'lavfi', '-i', 'testsrc=size=300x400:rate=1', '-frames:v', '1', join(dir, 'images', name)]);
+    }
+    const input = sampleInput();
+    input.product.name = 'とても長い商品名のサンプルザック フリーフロート ウルトラライト 30 SM/M';
+    input.product.maker = 'とても長いメーカー名のサンプル株式会社（架空）';
+    input.product.features = [
+      { text: 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふ', focusPartId: 'back_panel' },
+      { text: 'GORE-TEX 3L、耐水圧20,000mm（架空）', focusPartId: 'top_lid' },
+      { text: '短い特徴' },
+    ];
+    input.product.summary = 'まとめの文は最大で四十二文字まで入力できるので、三行に収まるかを確かめるための文です';
+    for (const p of input.parts) {
+      p.highlight = true;
+      p.role = '役割の説明文は最大で二十四文字まで入力できます。';
+    }
+    input.images = [
+      { file: 'images/front.png', view: 'front' },
+      { file: 'images/back.png', view: 'back' },
+    ];
+    writeFileSync(join(dir, 'project.json'), JSON.stringify(input));
+
+    for (const projectDir of [SAMPLE_DIR, dir]) {
+      const session = await openRenderSession(projectDir);
+      try {
+        const seen = new Set<string>();
+        // 0.5秒おきに、30秒ぶんの配置を調べる
+        for (let frame = 0; frame < 900; frame += 15) {
+          const boxes = await session.layout(frame);
+          for (const box of boxes) {
+            seen.add(box.kind);
+            const where = `${box.kind}（フレーム${frame}）`;
+            expect(box.overflow ?? false, `${where}の文字が枠に収まっていない`).toBe(false);
+            expect(box.x, `${where}の左`).toBeGreaterThanOrEqual(SAFE.left);
+            expect(box.x + box.width, `${where}の右`).toBeLessThanOrEqual(SAFE.right);
+            expect(box.y, `${where}の上`).toBeGreaterThanOrEqual(SAFE.top);
+            expect(box.y + box.height, `${where}の下`).toBeLessThanOrEqual(SAFE.bottom);
+          }
+          for (let a = 0; a < boxes.length; a++) {
+            for (let b = a + 1; b < boxes.length; b++) {
+              // 同じ場所で写真を切り替えている途中（正面→背面）は、重なっていてよい
+              const swapping = boxes[a]!.kind === 'photo' && boxes[b]!.kind === 'photo' && boxes[a]!.x === boxes[b]!.x;
+              if (swapping) continue;
+              expect(overlaps(boxes[a]!, boxes[b]!), `${boxes[a]!.kind} と ${boxes[b]!.kind} が重なっている（フレーム${frame}）`).toBe(false);
+            }
+          }
+        }
+        const expected = ['feature', 'logo', 'name', 'part', 'summary', 'title'];
+        if (projectDir === dir) expected.push('photo');
+        expect([...seen].sort()).toEqual(expected.sort());
+        expect(session.warnings).toEqual([]);
+      } finally {
+        await session.close();
+      }
+    }
   }, TIMEOUT);
 
   it('内容に誤りのあるプロジェクトは、分かる文で止まる', async () => {

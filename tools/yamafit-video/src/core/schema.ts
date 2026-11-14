@@ -3,6 +3,9 @@ import { z } from 'zod';
 import { CATEGORIES } from './categories/pack.ts';
 import { EASING_KINDS } from './easing.ts';
 
+// 入力の誤りは日本語の文で知らせる
+z.config(z.locales.ja());
+
 export const SCHEMA_VERSION = 1;
 
 const hexColor = z.string().regex(/^#[0-9A-Fa-f]{6}$/, '色は #RRGGBB の形で指定してください');
@@ -12,8 +15,11 @@ const vec3 = z.tuple([z.number(), z.number(), z.number()]);
 export const directionSchema = z.object({
   camera: z
     .object({
-      /** 全体を映す距離（商品の高さの何倍か） */
-      wideDistance: z.number().min(1.8).max(4.0).default(3.1),
+      /**
+       * 全体を映す距離（商品の高さの何倍か）。
+       * 上の文字にかからず、回転中もはみ出さない距離より近くにはならない（自動で必要な距離まで引く）。
+       */
+      wideDistance: z.number().min(1.8).max(6.0).default(3.8),
       /** 接近したときの距離 */
       closeDistance: z.number().min(0.7).max(2.0).default(1.3),
       /** 画角（度・縦方向） */
@@ -62,6 +68,15 @@ export const directionSchema = z.object({
   background: z.enum(['light', 'green', 'dark']).default('light'),
   /** 実物の写真を動画の中にカードとして表示するか（images に写真があるときだけ表示される） */
   showPhotos: z.boolean().default(true),
+  /** 文字を置かない余白（px）。各SNSのボタンや説明文に隠れないための目安 */
+  safeArea: z
+    .object({
+      top: z.number().min(0).max(600).default(240),
+      bottom: z.number().min(0).max(700).default(400),
+      left: z.number().min(0).max(300).default(60),
+      right: z.number().min(0).max(300).default(140),
+    })
+    .prefault({}),
 });
 
 /** 道筋（+X側。左右一対のものは自動で左右に反転して作る）。単位はcm。上が+Y、正面が+Z、背面の面が z=0 */
@@ -254,6 +269,59 @@ export type ProjectInput = z.input<typeof projectSchema>;
 export type Direction = z.infer<typeof directionSchema>;
 export type ProjectPart = Project['parts'][number];
 
+/** 項目の場所（例：product.features.0.text）を、画面に出せる名前（例：特徴1）に直す */
+function fieldLabel(path: readonly PropertyKey[]): string {
+  const key = path.map((p) => (typeof p === 'number' ? '#' : String(p))).join('.');
+  const n = path.find((p) => typeof p === 'number');
+  const no = typeof n === 'number' ? String(n + 1) : '';
+  const labels: Record<string, string> = {
+    'product.name': '商品名',
+    'product.maker': 'メーカー',
+    'product.modelNumber': '型番',
+    'product.features': '特徴',
+    'product.features.#.text': `特徴${no}`,
+    'product.features.#.focusPartId': `特徴${no}のパーツ`,
+    'product.summary': 'まとめ',
+    'product.specs.#.label': `スペック${no}の項目名`,
+    'product.specs.#.value': `スペック${no}の値`,
+    'product.sources.#.url': `情報源${no}のURL`,
+    parts: 'パーツ',
+    'parts.#.id': `パーツ${no}`,
+    'parts.#.label': `パーツ${no}の名前`,
+    'parts.#.role': `パーツ${no}の役割`,
+    'images.#.file': `画像${no}`,
+    'model.heightCm': '商品の高さ',
+    'model.shape': '形のデータ',
+    'model.shape.profile': '形のデータ（輪郭）',
+    direction: '演出の設定',
+  };
+  return labels[key] ?? (key.startsWith('direction.') ? `演出の設定（${path.slice(1).join('.')}）` : path.join('.'));
+}
+
+/** 入力の誤りを、初めての人にも分かる文にする（この定義で独自の文を付けたものは、そのまま使う） */
+function friendlyMessage(issue: z.core.$ZodIssue): string {
+  // 独自の文を付けていない場合だけ、決まり文句に置き換える
+  if (!/^(大きすぎる値|小さすぎる値|無効な)/.test(issue.message)) return issue.message;
+  switch (issue.code) {
+    case 'too_big':
+      if (issue.origin === 'string') return `${issue.maximum}文字以内で入力してください`;
+      if (issue.origin === 'array') return `${issue.maximum}件までにしてください`;
+      return `${issue.maximum}以下の数値にしてください`;
+    case 'too_small':
+      if (issue.origin === 'string') return Number(issue.minimum) <= 1 ? '入力してください' : `${issue.minimum}文字以上で入力してください`;
+      if (issue.origin === 'array') return `${issue.minimum}件以上入力してください`;
+      return `${issue.minimum}以上の数値にしてください`;
+    case 'invalid_type':
+      return issue.expected === 'number' ? '数値を入力してください' : '入力の形が正しくありません';
+    case 'invalid_format':
+      return issue.format === 'url' ? 'URLの形が正しくありません（https:// から始まるURLを入力してください）' : '入力の形が正しくありません';
+    case 'invalid_value':
+      return '選べる値の中から選んでください';
+    default:
+      return issue.message;
+  }
+}
+
 /** 検証の結果。エラーは画面にそのまま出せる日本語の文にする */
 export type ParseResult = { ok: true; project: Project } | { ok: false; errors: string[] };
 
@@ -261,8 +329,8 @@ export function parseProject(input: unknown): ParseResult {
   const r = projectSchema.safeParse(input);
   if (r.success) return { ok: true, project: r.data };
   const errors = r.error.issues.map((issue) => {
-    const where = issue.path.length > 0 ? `${issue.path.join('.')}：` : '';
-    return `${where}${issue.message}`;
+    const where = issue.path.length > 0 ? `${fieldLabel(issue.path)}：` : '';
+    return `${where}${friendlyMessage(issue)}`;
   });
   return { ok: false, errors };
 }

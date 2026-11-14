@@ -2,11 +2,11 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as THREE from 'three';
 import { describe, expect, it } from 'vitest';
-import { DURATION_SEC, FPS, frameToTime } from '../../src/core/constants.ts';
+import { DURATION_SEC, FPS } from '../../src/core/constants.ts';
 import { parseProject } from '../../src/core/schema.ts';
 import { buildTimeline, sampleTimeline } from '../../src/core/timeline.ts';
 import { BodySurface, createProfilePack, monotoneInterpolator } from '../../src/stage/profilePack.ts';
-import { mustParse, projectToScreen, worldCorners } from '../helpers.ts';
+import { mustParse, screenBounds } from '../helpers.ts';
 
 const TRAILBLAZER = join(import.meta.dirname, '..', '..', 'projects', 'salomon-trailblazer-10', 'project.json');
 const input = () => JSON.parse(readFileSync(TRAILBLAZER, 'utf8'));
@@ -97,20 +97,41 @@ describe('写真の輪郭に合わせた近似モデル（TRAILBLAZER 10）', ()
     expect((pocket.max.x - body.max.x) * 100).toBeLessThan(0.6);
   });
 
-  it('30秒を通して、商品全体が画面に収まる（全体像・分解・1回転・まとめ）', () => {
+  it('30秒を通して、商品が画面に収まり、文字・写真・ロゴの場所にかからない', () => {
     const plan = buildTimeline(project, model.info);
     expect(plan.warnings).toEqual([]);
-    const check = (t: number) => {
-      const s = sampleTimeline(plan, t);
-      for (const c of worldCorners(plan, s)) {
-        const p = projectToScreen(s, c);
-        expect(Math.abs(p.x), `横 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
-        expect(Math.abs(p.y), `縦 t=${t.toFixed(2)}`).toBeLessThanOrEqual(1);
+    const boundsOver = (from: number, to: number) => {
+      const b = { left: Infinity, right: -Infinity, top: Infinity, bottom: -Infinity };
+      for (let t = from; t <= to + 1e-9; t += 1 / FPS) {
+        const s = screenBounds(plan, sampleTimeline(plan, t));
+        b.left = Math.min(b.left, s.left);
+        b.right = Math.max(b.right, s.right);
+        b.top = Math.min(b.top, s.top);
+        b.bottom = Math.max(b.bottom, s.bottom);
       }
+      return b;
     };
-    for (let i = 0; i <= 5 * FPS; i++) check(frameToTime(i));
-    for (let t = plan.explodeStart + plan.explodeDur; t <= 22; t += 1 / FPS) check(t);
-    for (let t = plan.reassembleStart + plan.reassembleDur; t <= DURATION_SEC; t += 1 / FPS) check(t);
+    const turnStart = plan.reassembleStart + plan.reassembleDur;
+    // 全体像：上の商品名にかからない
+    const overview = boundsOver(0, 5);
+    expect(overview.left).toBeGreaterThanOrEqual(0);
+    expect(overview.right).toBeLessThanOrEqual(1080);
+    expect(overview.top).toBeGreaterThanOrEqual(480);
+    expect(overview.bottom).toBeLessThanOrEqual(1540);
+    // 分解：上の説明のカードにかからない
+    const exploded = boundsOver(plan.explodeCameraArrive, 22);
+    expect(exploded.left).toBeGreaterThanOrEqual(0);
+    expect(exploded.right).toBeLessThanOrEqual(1080);
+    expect(exploded.top).toBeGreaterThanOrEqual(500);
+    expect(exploded.bottom).toBeLessThanOrEqual(1580);
+    // 1回転：写真のカード（上端 1188px）にほとんどかからない位置まで、上に寄せて小さくしている
+    const turn = boundsOver(turnStart, 27);
+    expect(turn.top).toBeGreaterThanOrEqual(370);
+    expect(turn.bottom).toBeLessThanOrEqual(1260);
+    // まとめ（28秒〜最後）：まとめの文とロゴの間
+    const last = boundsOver(28, DURATION_SEC);
+    expect(last.top).toBeGreaterThanOrEqual(541);
+    expect(last.bottom).toBeLessThanOrEqual(1398);
   });
 });
 
