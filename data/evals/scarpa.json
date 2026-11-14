@@ -1,0 +1,52 @@
+[
+ {
+  "id": "zodiac-tech-gtx-wmn",
+  "name": "ゾディアックテックGTX WMN",
+  "gender": "womens",
+  "category": "boots",
+  "price": 59400,
+  "in_stock_unknown": true,
+  "weight_g": 570,
+  "weight_note": "570g（#38、1/2ペア。公式記載）",
+  "capacity_l": null,
+  "material": "アッパー：ペルワンガー耐水スエード（1.6〜1.8mm）＋ファブリック、ライニング：GORE-TEX、ソール：ビブラムABSプレシジョンクランプ。ソール貼り替え可能。イタリア製",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": null,
+  "size_note": "37〜42（EU）",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "fit": null,
+   "summary": "岩場や岩稜を含む登山向けの、GORE-TEXライニングを備えた女性用テクニカル3シーズンブーツです。",
+   "pros": [
+    "つま先内側の広いクライミングゾーンで細かいステップに立ち込みやすい",
+    "耐水スエードとGORE-TEXライニングで雨の山行に備えられる",
+    "セミワンタッチクランポンに対応",
+    "ソールの貼り替えが可能"
+   ],
+   "cons": [
+    "59,400円（税込）と価格が高い",
+    "570g（#38、1/2ペア）とハイキング靴より重め"
+   ],
+   "good_for": [
+    "岩場や鎖場のある山を歩く人",
+    "雨の岩稜歩きに備えたい人"
+   ],
+   "not_for": [
+    "予算を抑えたい人",
+    "軽さを重視して低山を長く歩く人"
+   ],
+   "concern_reasons": {}
+  },
+  "key": "https://www.bluesheep.co.jp/store/g/gSC22118001370"
+ }
+]

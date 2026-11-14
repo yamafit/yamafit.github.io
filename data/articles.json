@@ -598,5 +598,18 @@
   "day": 5,
   "slot": "pack",
   "image": "img/articles/2026-11-14-millet-mis0756.jpg"
+ },
+ {
+  "slug": "2026-11-15-scarpa-zodiac-tech-gtx-wmn",
+  "title": "ゾディアックテックGTX WMN：雨上がりの岩稜へ女性用テクニカル靴",
+  "category": "登山靴",
+  "date": "2026-11-15",
+  "desc": "スカルパの女性用テクニカルブーツ。つま先のクライミングゾーンで岩に立ち込みやすく、耐水スエードとGORE-TEXで雨の岩稜に備えられます。重さや幅広めの作りなど注意点も紹介。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-11-09",
+  "day": 6,
+  "slot": "shoes"
  }
 ]

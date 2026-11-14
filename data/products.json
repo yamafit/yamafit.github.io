@@ -50427,6 +50427,75 @@
    }
   },
   {
+   "id": "scarpa-zodiac-tech-gtx-wmn",
+   "category": "boots",
+   "brand": "スカルパ",
+   "name": "ゾディアックテックGTX WMN",
+   "gender": "womens",
+   "spec": "GORE-TEX／570g（570g（#38、1/2ペア。公式記載））",
+   "price": 59400,
+   "capacity_l": null,
+   "weight_g": 570,
+   "weight_note": "570g（#38、1/2ペア。公式記載）",
+   "material": "アッパー：ペルワンガー耐水スエード（1.6〜1.8mm）＋ファブリック、ライニング：GORE-TEX、ソール：ビブラムABSプレシジョンクランプ。ソール貼り替え可能。イタリア製",
+   "waterproof": "GORE-TEX",
+   "warmth": null,
+   "size_note": "37〜42（EU）",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "つま先内側の広いクライミングゾーンで細かいステップに立ち込みやすい",
+    "耐水スエードとGORE-TEXライニングで雨の山行に備えられる",
+    "セミワンタッチクランポンに対応",
+    "ソールの貼り替えが可能"
+   ],
+   "cons": [
+    "59,400円（税込）と価格が高い",
+    "570g（#38、1/2ペア）とハイキング靴より重め"
+   ],
+   "for_whom": "岩場や鎖場のある山を歩く人・雨の岩稜歩きに備えたい人",
+   "not_for": "予算を抑えたい人・軽さを重視して低山を長く歩く人",
+   "terrain": [
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "mid",
+    "hut"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "岩場や岩稜を含む登山向けの、GORE-TEXライニングを備えた女性用テクニカル3シーズンブーツです。",
+   "fit": null,
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.bluesheep.co.jp/store/g/gSC22118001370",
+     "checked_at": "2026-11-15"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.bluesheep.co.jp/store/g/gSC22118001370",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-15"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "sirio-pf46-4",
    "category": "boots",
    "brand": "シリオ",
