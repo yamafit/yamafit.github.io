@@ -539,5 +539,17 @@
   "id": "columbia-pepper-rock-30l",
   "cat": "pack",
   "image": "img/products/columbia-pepper-rock-30l.jpg"
+ },
+ "2026-11-16": {
+  "id": "tnf-denali-jacket-m-2026",
+  "cat": "wear"
+ },
+ "2026-11-17": {
+  "id": "arcteryx-covert-1-2-zip-m",
+  "cat": "wear"
+ },
+ "2026-11-18": {
+  "id": "arcteryx-consola-fleece-midlayer-m",
+  "cat": "wear"
  }
 }
