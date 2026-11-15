@@ -1,6 +1,9 @@
 // 使い方: node tools/build-products.mjs（画像も含めるなら PRODUCT_IMAGES=1 node tools/build-products.mjs）   data/master/*.json → data/products.json（サイトが読む形）
 import fs from "node:fs";
 const out = [];
+// ヒマラヤ・アルペンの商品ページ直リンク（作成者がA8.netで作ったリンク）。data/offers-override.json: { "<商品id>": { "himaraya": {"url":"商品ページ","affiliate_url":"A8のリンク"}, "alpen": {…} } }
+const OVR = "data/offers-override.json";
+const ovr = fs.existsSync(OVR) ? JSON.parse(fs.readFileSync(OVR, "utf8")) : {};
 // 今週の7選で作った記事の写真（AIで作成）を、その商品の写真として使う。
 // data/product-images.json に記録し、記事が入れ替わっても消さない（新しい写真が来たら差し替える）。
 const REG = "data/product-images.json";
@@ -29,7 +32,8 @@ for (const f of fs.readdirSync("data/master").filter((x) => x.endsWith(".json"))
       image: process.env.PRODUCT_IMAGES === "1" && p.image && p.image.ok !== false ? p.image.url : "", // 公式画像の直リンクは権利確認ができるまで出さない（出すときは PRODUCT_IMAGES=1）
       ai_image: reg[p.id] && fs.existsSync(reg[p.id].image) ? reg[p.id].image : "", ai_article: reg[p.id] ? reg[p.id].article : "",
       sources: p.sources,
-      offers: p.offers.map((o) => ({ shop: o.shop, url: o.url, affiliate_url: o.affiliate_url || "", in_stock: o.in_stock, checked_at: o.checked_at })),
+      offers: [...p.offers.filter((o) => !(ovr[p.id] && ovr[p.id][o.shop])).map((o) => ({ shop: o.shop, url: o.url, affiliate_url: o.affiliate_url || "", in_stock: o.in_stock, checked_at: o.checked_at })),
+        ...Object.entries(ovr[p.id] || {}).map(([shop, o]) => ({ shop, url: o.url, affiliate_url: o.affiliate_url || "", in_stock: null, checked_at: o.checked_at || "" }))],
       related: [],
       affiliate: { amazon: aff("amazon"), rakuten: aff("rakuten"), yahoo: aff("yahoo") },
     });
