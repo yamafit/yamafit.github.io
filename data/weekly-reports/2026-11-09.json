@@ -1,0 +1,130 @@
+{
+ "week": {
+  "start": "2026-11-09",
+  "end": "2026-11-15",
+  "report_date": "2026-11-16"
+ },
+ "prev_week": {
+  "start": "2026-11-02",
+  "end": "2026-11-08"
+ },
+ "instagram": {
+  "followers": {
+   "2026-11-11": 1,
+   "2026-11-16": 1
+  },
+  "posts": {
+   "week": 15,
+   "prev": 14
+  },
+  "week_total": {
+   "reach": 132,
+   "views": 168,
+   "likes": 3,
+   "saved": 1,
+   "shares": 0
+  },
+  "prev_total": {
+   "reach": 5,
+   "views": 5,
+   "likes": 0,
+   "saved": 0,
+   "shares": 0
+  },
+  "carousel_week": {
+   "n": 14,
+   "reach": 9,
+   "views": 15,
+   "likes": 0,
+   "saved": 0
+  },
+  "carousel_prev": {
+   "n": 14,
+   "reach": 5,
+   "views": 5,
+   "likes": 0,
+   "saved": 0
+  },
+  "reel": {
+   "title": "ゴアテックスって、結局なに？",
+   "posted": "2026-11-11 00:19 JST",
+   "reach": 123,
+   "views": 153,
+   "likes": 3,
+   "saved": 1
+  },
+  "morning_vs_noon_carousel": {
+   "morning": {
+    "n": 7,
+    "reach": 5,
+    "views": 10
+   },
+   "noon": {
+    "n": 6,
+    "reach": 4,
+    "views": 5
+   }
+  },
+  "blur_comparison_carousel": {
+   "blur_11_10_to_11_12": {
+    "n": 7,
+    "reach": 7,
+    "views": 10
+   },
+   "no_blur_11_13_to_11_15": {
+    "n": 5,
+    "reach": 1,
+    "views": 1
+   },
+   "note": "数が少なすぎて比較できない。11/13以降の投稿は公開から日が浅く、数字が伸びる途中の可能性もある"
+  }
+ },
+ "site_ga4": {
+  "week": {
+   "views": 86,
+   "sessions": 63,
+   "users": 50
+  },
+  "prev": {
+   "views": 44,
+   "sessions": 39,
+   "users": 37
+  },
+  "sources_sessions": {
+   "facebook.com": 28,
+   "m.facebook.com": 13,
+   "(direct)": 18,
+   "ig": 3,
+   "bing": 1,
+   "(not set)": 1
+  },
+  "affiliate_click": 4,
+  "affiliate_click_pages": {
+   "/products/columbia-pepper-rock-30l.html": 2,
+   "/articles/2026-11-11-millet-miv10730.html": 1,
+   "/articles/2026-11-14-millet-mis0756.html": 1
+  },
+  "select_item": 2,
+  "diagnosis_result": 0
+ },
+ "search_console": {
+  "range": "2026-11-06..2026-11-12",
+  "impressions": 4,
+  "clicks": 0,
+  "queries": [
+   "site:github.io"
+  ],
+  "note": "検索語は自分で確認した「site:」検索のみ"
+ },
+ "a8_link_check": {
+  "2026-11-16": {
+   "matched": 2,
+   "mismatched": 0,
+   "items": [
+    "tnf-denali-jacket-m-2026 himaraya",
+    "tnf-denali-jacket-m-2026 alpen"
+   ]
+  }
+ },
+ "artifact_url": "https://claude.ai/artifact/7uYARKHLkBqo7L47DDXkao"
+}
