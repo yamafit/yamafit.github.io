@@ -182,7 +182,7 @@
    "errors": []
   },
   {
-   "at": "2026-11-15T23:07:57.843Z",
+   "at": "2026-11-16T01:36:06.527Z",
    "date": "2026-11-16",
    "range": {
     "start": "2026-11-09",
@@ -194,9 +194,9 @@
    },
    "ga4_total": {
     "week": {
-     "views": 86,
-     "sessions": 63,
-     "users": 50
+     "views": 90,
+     "sessions": 67,
+     "users": 53
     },
     "prev": {
      "views": 44,
@@ -220,8 +220,8 @@
     {
      "pagePath": "/",
      "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
-     "screenPageViews": 9,
-     "sessions": 9
+     "screenPageViews": 11,
+     "sessions": 11
     },
     {
      "pagePath": "/articles/2026-11-11-millet-miv10730.html",
@@ -296,6 +296,12 @@
      "sessions": 2
     },
     {
+     "pagePath": "/articles/2026-11-13-montbell-1101660.html",
+     "pageTitle": "スペリオダウン パーカ Women's：休憩に羽織る202gの軽量ダウン｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
      "pagePath": "/articles/gore-tex-types.html",
      "pageTitle": "ゴアテックスは12種類ある：種類ごとの違いと、用途別の選び方｜ヤマフィット",
      "screenPageViews": 1,
@@ -316,6 +322,12 @@
     {
      "pagePath": "/freetext.html",
      "pageTitle": "装備診断 2/2｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/products/millet-mis2418.html",
+     "pageTitle": "ミレー ウビック 30｜ヤマフィット",
      "screenPageViews": 1,
      "sessions": 1
     },
@@ -342,7 +354,7 @@
     {
      "channel": "Organic Social",
      "source": "facebook.com",
-     "sessions": 28
+     "sessions": 29
     },
     {
      "channel": "Direct",
@@ -352,12 +364,12 @@
     {
      "channel": "Organic Social",
      "source": "m.facebook.com",
-     "sessions": 13
+     "sessions": 15
     },
     {
      "channel": "Organic Social",
      "source": "ig",
-     "sessions": 3
+     "sessions": 4
     },
     {
      "channel": "Organic Search",
@@ -444,7 +456,7 @@
   }
  ],
  "last_run": {
-  "at": "2026-11-15T23:07:57.843Z",
+  "at": "2026-11-16T01:36:06.527Z",
   "errors": []
  }
 }
