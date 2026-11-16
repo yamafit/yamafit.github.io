@@ -555,7 +555,19 @@
  "2026-11-16": {
   "id": "tnf-denali-jacket-m-2026",
   "cat": "wear",
-  "image": "img/products/tnf-denali-jacket-m-2026.jpg"
+  "image": "img/products/tnf-denali-jacket-m-2026.jpg",
+  "posted": {
+   "media_id": "17871750390659693",
+   "permalink": "https://www.instagram.com/p/DfyV88DESYV/",
+   "account": "yama_fit2026",
+   "tagged": "thenorthfacejp",
+   "carousel": true,
+   "story": {
+    "skipped": true
+   },
+   "posted_at": "2026-11-16T03:02:00.760Z",
+   "image": "img/products/tnf-denali-jacket-m-2026.jpg"
+  }
  },
  "2026-11-17": {
   "id": "arcteryx-covert-1-2-zip-m",
