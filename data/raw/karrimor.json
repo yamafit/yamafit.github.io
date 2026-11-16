@@ -708,5 +708,18 @@
   "price_min": 31900,
   "price_max": 31900,
   "checked_at": "2026-10-27"
+ },
+ "https://www.karrimor.jp/item/501208.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://www.karrimor.jp/client_info/KARRIMOR/itemimage/501208/501208-0140.jpg",
+  "url": "https://www.karrimor.jp/item/501208.html",
+  "category": "pack",
+  "name": "cleave 30",
+  "title": "cleave 30 | カリマー公式オンラインストア",
+  "price_min": 31350,
+  "price_max": 31350,
+  "checked_at": "2026-11-16"
  }
 }

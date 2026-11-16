@@ -761,5 +761,60 @@
    "not_for": [],
    "concern_reasons": {}
   }
+ },
+ {
+  "id": "501208",
+  "name": "cleave 30",
+  "gender": "unisex",
+  "category": "pack",
+  "price": 31350,
+  "weight_g": 940,
+  "weight_note": "Sサイズ（Mサイズは950g）・公式記載",
+  "capacity_l": 30,
+  "material": "N100D X-GRID R/S NY（ナイロン89%、ポリエチレン11%）",
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": "S（背面長42cm）・M（背面長48cm）。本体 H57×W29×D23cm",
+  "eval": {
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "fit": "S（背面長42cm）とM（背面長48cm）の2サイズ",
+   "summary": "ロールトップで容量を調整できる、Sサイズ940gの軽量な30Lザック。",
+   "pros": [
+    "重量 S 940g・M 950g（公式記載）",
+    "ロールトップで荷物の量に合わせて容量を調整できる",
+    "フロントアクセスジッパーでロールトップを開けずに出し入れできる",
+    "ワンドポケットにナルゲンボトル500ml/1Lや山専ボトルが入る",
+    "ヒップベルトを取り外せる"
+   ],
+   "cons": [
+    "30Lのため荷物の厳選が必要",
+    "ロールトップは雨蓋式に比べ小物の整理に工夫がいる",
+    "サイズはS・Mの2展開のみ"
+   ],
+   "good_for": [
+    "日帰りの低山を軽快に歩きたい人",
+    "歩きながら給水や行動食をとりたい人"
+   ],
+   "not_for": [
+    "小屋泊やテント泊で荷物が多い人",
+    "雨蓋で小物を細かく整理したい人"
+   ],
+   "concern_reasons": {
+    "light": "重量 S 940g と公式に記載されています。"
+   }
+  },
+  "key": "https://www.karrimor.jp/item/501208.html"
  }
 ]

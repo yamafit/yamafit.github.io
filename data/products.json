@@ -18278,6 +18278,81 @@
    }
   },
   {
+   "id": "karrimor-501208",
+   "category": "pack",
+   "brand": "カリマー",
+   "name": "cleave 30",
+   "gender": "unisex",
+   "spec": "940g（Sサイズ（Mサイズは950g）・公式記載）",
+   "price": 31350,
+   "capacity_l": 30,
+   "weight_g": 940,
+   "weight_note": "Sサイズ（Mサイズは950g）・公式記載",
+   "material": "N100D X-GRID R/S NY（ナイロン89%、ポリエチレン11%）",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": "S（背面長42cm）・M（背面長48cm）。本体 H57×W29×D23cm",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量 S 940g・M 950g（公式記載）",
+    "ロールトップで荷物の量に合わせて容量を調整できる",
+    "フロントアクセスジッパーでロールトップを開けずに出し入れできる",
+    "ワンドポケットにナルゲンボトル500ml/1Lや山専ボトルが入る",
+    "ヒップベルトを取り外せる"
+   ],
+   "cons": [
+    "30Lのため荷物の厳選が必要",
+    "ロールトップは雨蓋式に比べ小物の整理に工夫がいる",
+    "サイズはS・Mの2展開のみ"
+   ],
+   "for_whom": "日帰りの低山を軽快に歩きたい人・歩きながら給水や行動食をとりたい人",
+   "not_for": "小屋泊やテント泊で荷物が多い人・雨蓋で小物を細かく整理したい人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量 S 940g と公式に記載されています。"
+   },
+   "default_reason": "ロールトップで容量を調整できる、Sサイズ940gの軽量な30Lザック。",
+   "fit": "S（背面長42cm）とM（背面長48cm）の2サイズ",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.karrimor.jp/item/501208.html",
+     "checked_at": "2026-11-16"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.karrimor.jp/item/501208.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-16"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "kavu-19822508",
    "category": "pants",
    "brand": "KAVU",
