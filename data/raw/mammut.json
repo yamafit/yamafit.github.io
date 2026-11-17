@@ -1290,5 +1290,20 @@
    "※UKサイズ"
   ],
   "checked_at": "2026-10-06"
+ },
+ "/items/1014-08140": {
+  "status": 200,
+  "price_text": [],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://mammt.store-image.jp/img01/101/1014-08140/o/trim_fce_item6a5c48456c479.jpg",
+  "url": "https://www.mammut.jp/items/1014-08140",
+  "category": "wear",
+  "name": "エナジー ミッドレイヤー エア ジャケット アジアンフィット（Aenergy ML Air Jacket AF Men）",
+  "title": "エナジー ミッドレイヤー エア ジャケット アジアンフィット（Aenergy ML Air Jacket AF Men）（1014-08140）|MOUNTAINEERING（マウンテニアリング）|men（メンズ）|MAMMUT - マムート - 公式オンラインストア",
+  "price_min": 24200,
+  "price_max": 24200,
+  "checked_at": "2026-11-18"
  }
 }

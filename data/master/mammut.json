@@ -1167,6 +1167,87 @@
      "cold": "保温性の高いAbsolute Aluminia Thermal Insulationライニングを備えた冬用ブーツと記載されています。"
     }
    }
+  },
+  {
+   "id": "mammut-aenergy-ml-air-jacket-af-m",
+   "brand": "マムート",
+   "name": "エナジー ミッドレイヤー エア ジャケット アジアンフィット",
+   "category": "wear",
+   "gender": "mens",
+   "price": 24200,
+   "weight_g": 220,
+   "weight_note": "公式記載（サイズの記載なし）",
+   "capacity_l": null,
+   "material": "面材：リサイクルポリエステル78%・ポリエステル22%、保温材：Polartec Alpha Direct（ライニングなし）",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": "Polartec Alpha Direct（通気しながら保温すると記載）",
+   "size_note": "XS〜XXL（EUROサイズ表記。XXLはblackのみ）",
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/1014-08140",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/101/1014-08140/o/trim_fce_item6a5c48456c479.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/1014-08140",
+    "checked_at": "2026-11-18",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/1014-08140",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-18",
+    "season": [
+     "autumn",
+     "winter",
+     "spring"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [
+     "cold",
+     "light"
+    ],
+    "fit": "レギュラーフィット・アジアンフィット（公式記載）",
+    "summary": "裏地のないPolartec Alpha Directで、行動中に熱と汗を逃がしながら保温する220gのミッドレイヤーです。",
+    "pros": [
+     "重量220gと軽い",
+     "ライニングなしのPolartec Alpha Directで通気しながら保温すると記載",
+     "単体でもミッドレイヤーとしても使える",
+     "両開きYKK VISLONファスナーで温度調節しやすい",
+     "ファスナー付き胸ポケット、伸縮素材の袖口と裾"
+    ],
+    "cons": [
+     "フードがない",
+     "防水・防風の記載はなく、雨や強風ではシェルが必要",
+     "XXLはblackのみ"
+    ],
+    "good_for": [
+     "寒い日に脱ぎ着を減らして歩きたい人",
+     "シェルの下に入れる軽い中間着がほしい人"
+    ],
+    "not_for": [
+     "1枚で雨や強風を防ぎたい人",
+     "フード付きの保温着がほしい人"
+    ],
+    "concern_reasons": {
+     "cold": "Polartec Alpha Directの保温材で、行動中も保温すると記載されています。",
+     "light": "重量220gと公式に記載されています。"
+    }
+   }
   }
  ]
 }

@@ -21805,6 +21805,83 @@
    }
   },
   {
+   "id": "mammut-aenergy-ml-air-jacket-af-m",
+   "category": "wear",
+   "brand": "マムート",
+   "name": "エナジー ミッドレイヤー エア ジャケット アジアンフィット",
+   "gender": "mens",
+   "spec": "220g（公式記載（サイズの記載なし））",
+   "price": 24200,
+   "capacity_l": null,
+   "weight_g": 220,
+   "weight_note": "公式記載（サイズの記載なし）",
+   "material": "面材：リサイクルポリエステル78%・ポリエステル22%、保温材：Polartec Alpha Direct（ライニングなし）",
+   "waterproof": null,
+   "warmth": "Polartec Alpha Direct（通気しながら保温すると記載）",
+   "size_note": "XS〜XXL（EUROサイズ表記。XXLはblackのみ）",
+   "season": [
+    "autumn",
+    "winter",
+    "spring"
+   ],
+   "features": [
+    "重量220gと軽い",
+    "ライニングなしのPolartec Alpha Directで通気しながら保温すると記載",
+    "単体でもミッドレイヤーとしても使える",
+    "両開きYKK VISLONファスナーで温度調節しやすい",
+    "ファスナー付き胸ポケット、伸縮素材の袖口と裾"
+   ],
+   "cons": [
+    "フードがない",
+    "防水・防風の記載はなく、雨や強風ではシェルが必要",
+    "XXLはblackのみ"
+   ],
+   "for_whom": "寒い日に脱ぎ着を減らして歩きたい人・シェルの下に入れる軽い中間着がほしい人",
+   "not_for": "1枚で雨や強風を防ぎたい人・フード付きの保温着がほしい人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [
+    "cold",
+    "light"
+   ],
+   "reasons": {
+    "cold": "Polartec Alpha Directの保温材で、行動中も保温すると記載されています。",
+    "light": "重量220gと公式に記載されています。"
+   },
+   "default_reason": "裏地のないPolartec Alpha Directで、行動中に熱と汗を逃がしながら保温する220gのミッドレイヤーです。",
+   "fit": "レギュラーフィット・アジアンフィット（公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/1014-08140",
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/1014-08140",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-18"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "marmot-gtx-frey-jacket-m",
    "category": "rain",
    "brand": "マーモット",

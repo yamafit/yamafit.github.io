@@ -640,5 +640,18 @@
   "day": 1,
   "slot": "pack",
   "image": "img/articles/2026-11-17-karrimor-501208.jpg"
+ },
+ {
+  "slug": "2026-11-18-mammut-aenergy-ml-air-jacket-af-m",
+  "title": "マムート エナジー ML エア ジャケット：寒気の日に歩きながら着る220gの通気保温着",
+  "category": "ウェア",
+  "date": "2026-11-18",
+  "desc": "マムートの「エナジー ミッドレイヤー エア ジャケット」を紹介。裏地のないPolartec Alpha Directで熱と汗を逃がしながら保温する220gの行動保温着。良い点と注意点、向いている人をまとめました。",
+  "cats": [
+   "wear"
+  ],
+  "week": "2026-11-16",
+  "day": 2,
+  "slot": "outer"
  }
 ]
