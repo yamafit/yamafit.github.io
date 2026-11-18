@@ -1,0 +1,54 @@
+[
+ {
+  "id": "tahoe-winter-gtx-m",
+  "name": "タホ ウインター GTX Men's",
+  "gender": "mens",
+  "category": "boots",
+  "price": 33000,
+  "in_stock_unknown": true,
+  "weight_g": 490,
+  "weight_note": "490g（K8.0・片足。公式記載）",
+  "capacity_l": null,
+  "material": "アッパー：撥水スエード、ポリエステル、TPU、ライニング：ゴアテックス インシュレーテッド コンフォート、ミッドソール：EVA（AS Tech）、アウトソール：アゾロクロス",
+  "waterproof": "GORE-TEX",
+  "waterproof_level": "waterproof",
+  "warmth": "断熱材入りライニング（ゴアテックス インシュレーテッド コンフォート）。快適使用温度-15°C（アゾロ社表記）",
+  "size_note": "25.0〜29.5cm（0.5cm刻み・レギュラー）",
+  "eval": {
+   "season": [
+    "winter"
+   ],
+   "uses": [
+    "low",
+    "winter"
+   ],
+   "concerns": [
+    "cold",
+    "light"
+   ],
+   "fit": null,
+   "summary": "断熱材入りのゴアテックスライニングを備えた、片足490gの冬用トレッキングブーツです。",
+   "pros": [
+    "断熱材入りのゴアテックス インシュレーテッド コンフォートで、快適使用温度は-15°C（アゾロ社表記）",
+    "片足490g（K8.0）と冬靴としては軽い",
+    "ミッドソール側面のTPUパーツ「AS Tech」で不整地のぐらつきを抑える"
+   ],
+   "cons": [
+    "公式ページにアイゼン装着可否の記載がない",
+    "カラーはブラック×ブラックのみ"
+   ],
+   "good_for": [
+    "雪の積もった低山や林道を日帰りで歩きたい人",
+    "スノーシューハイク用に暖かく軽い靴を探している人"
+   ],
+   "not_for": [
+    "アイゼンを付けて高山の雪稜や凍結した急斜面に行きたい人"
+   ],
+   "concern_reasons": {
+    "cold": "断熱材入りライニングで快適使用温度-15°C（アゾロ社表記）",
+    "light": "片足490g（K8.0）"
+   }
+  },
+  "key": "https://webshop.montbell.jp/goods/disp.php?product_id=1829699"
+ }
+]

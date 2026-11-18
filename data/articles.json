@@ -654,5 +654,18 @@
   "day": 2,
   "slot": "outer",
   "image": "img/articles/2026-11-18-mammut-aenergy-ml-air-jacket-af-m.jpg"
+ },
+ {
+  "slug": "2026-11-19-asolo-tahoe-winter-gtx-m",
+  "title": "アゾロ タホ ウインター GTX：大雪の寒気に備える、軽い断熱入り冬靴",
+  "category": "登山靴",
+  "date": "2026-11-19",
+  "desc": "アゾロの冬用トレッキングブーツ「タホ ウインター GTX」を紹介。断熱材入りのゴアテックスで快適使用温度-15°C、片足490gの軽さ。良い点と注意点、向いている人をまとめました。",
+  "cats": [
+   "boots"
+  ],
+  "week": "2026-11-16",
+  "day": 3,
+  "slot": "shoes"
  }
 ]
