@@ -12,6 +12,10 @@ on:
         description: "記事のslug（空なら今日の記事）"
         required: false
         default: ""
+      date:
+        description: "対象の日付 YYYY-MM-DD（空なら今日。前日の夜に翌日の分を作るときに指定）"
+        required: false
+        default: ""
   push:
     branches: [main]
     paths: [".github/workflows/daily-prep.yml"]
@@ -26,6 +30,7 @@ jobs:
     timeout-minutes: 20
     env:
       ARTICLE_SLUG: ${{ github.event.inputs.slug }}
+      TODAY: ${{ github.event.inputs.date }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

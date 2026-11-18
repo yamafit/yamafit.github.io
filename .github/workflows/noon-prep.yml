@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: "40 1 * * *"   # 日本時間 10:40
     - cron: "10 2 * * *"   # 日本時間 11:10（取りこぼしの再実行。決まっていれば同じ商品）
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "対象の日付 YYYY-MM-DD（空なら今日。前日の夜に翌日の分を作るときに指定）"
+        required: false
+        default: ""
 concurrency:
   group: noon-prep
   cancel-in-progress: false
@@ -14,6 +19,8 @@ jobs:
   prep:
     runs-on: ubuntu-24.04   # ubuntu-latest が 26.04 になり Playwright が動かなくなったため固定（2026-11-05）
     timeout-minutes: 20
+    env:
+      TODAY: ${{ github.event.inputs.date }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
