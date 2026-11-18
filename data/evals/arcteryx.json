@@ -4949,20 +4949,15 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ラグビースタイルの襟を採用したフリースミッドレイヤーです。",
+   "summary": "ウェア。機能性の高いニットデザインとラグビースタイルの襟を採用し、定番スタイルに新しさをプラスしたフリースミッドレイヤー。",
    "pros": [
-    "機能性の高いニットデザイン",
-    "ラグビースタイルの襟",
-    "丈夫なワープニット構造",
-    "2本針ステッチ",
-    "bluesign認定素材"
+    "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
    "cons": [
-    "重量・素材の混率は公式に記載がない"
+    "不明（公式の記載から読み取れる弱点は限られます）"
    ],
    "good_for": [
-    "ミッドレイヤーとして重ね着したい人",
-    "定番スタイルのフリースがほしい人"
+    "季節に合わせて重ね着をしたい人"
    ],
    "not_for": [],
    "concern_reasons": {
@@ -7678,6 +7673,51 @@
    ],
    "good_for": [
     "雨や風に備えたい人"
+   ],
+   "not_for": [],
+   "concern_reasons": {
+    "sweat": "通気・透湿・ベンチレーションに関する記載があります。"
+   }
+  }
+ },
+ {
+  "key": "/products/gamma-mx-pant-w",
+  "id": "gamma-mx-pant-w",
+  "name": "ガンマ MX パンツ ウィメンズ",
+  "gender": "womens",
+  "category": "pants",
+  "weight_g": null,
+  "weight_note": null,
+  "capacity_l": null,
+  "material": null,
+  "waterproof": null,
+  "waterproof_level": null,
+  "warmth": null,
+  "size_note": null,
+  "eval": {
+   "season": [
+    "spring",
+    "autumn",
+    "summer"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "sweat"
+   ],
+   "fit": "不明（公式にサイズ感の記載なし）",
+   "summary": "パンツ。透湿性に優れたこのストレッチパンツは、コンディションが異なる複数のルートや、長時間のアプローチ、冬のハイキングでの風雨から守ってくれます。",
+   "pros": [
+    "ストレッチ性の記載あり"
+   ],
+   "cons": [
+    "不明（公式の記載から読み取れる弱点は限られます）"
+   ],
+   "good_for": [
+    "動きやすいパンツを探す人"
    ],
    "not_for": [],
    "concern_reasons": {
