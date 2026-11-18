@@ -64,6 +64,7 @@ def main():
     ap.add_argument("--cta", default="スライドで解説画像 ▶ 詳しくはプロフィールのリンクから")
     ap.add_argument("--title", default="")  # 互換のため（使わない）
     ap.add_argument("--top", default="")
+    ap.add_argument("--outro", default="", help="最後に出す「いいね・フォローをお願いします」の画像（縦長でもよい）")
     ap.add_argument("--focus", type=float, nargs=2, default=[0.5, 0.5])
     a = ap.parse_args()
 
@@ -115,11 +116,26 @@ def main():
         od.text((W / 2, y0 + 55), a.cta, font=ff, fill=(255, 255, 255, int(255 * alpha)), anchor="mm")
         return ov
 
+    # 最後の画像（いいね・フォロー）。縦長の画像は、高さを合わせて中央に置き、左右は同じ画像のぼかしで埋める
+    outro = None
+    if a.outro and os.path.exists(a.outro):
+        from PIL import ImageFilter
+        o = Image.open(a.outro).convert("RGB")
+        ow, oh = o.size
+        sc = max(W / ow, H / oh)
+        bg = o.resize((int(ow * sc), int(oh * sc)), Image.LANCZOS)
+        bg = bg.crop(((bg.width - W) // 2, (bg.height - H) // 2, (bg.width - W) // 2 + W, (bg.height - H) // 2 + H)).filter(ImageFilter.GaussianBlur(28))
+        sc2 = min(W / ow, H / oh)
+        fg = o.resize((int(ow * sc2), int(oh * sc2)), Image.LANCZOS)
+        bg.paste(fg, ((W - fg.width) // 2, (H - fg.height) // 2))
+        outro = bg.convert("RGBA")
+    t_outro, t_fade = (2.6 if outro else 0.0), 0.4
+
     # 時間割
     t_intro, slide_in, hold, slide_out, t_cta = 1.0, 0.5, 4.2, 0.5, 2.5
     per = slide_in + hold
     t_end = t_intro + per * len(feats) + (slide_out if feats else 0)
-    n = int((t_end + t_cta) * FPS)
+    n = int((t_end + t_cta + t_outro) * FPS)
 
     tmpdir = os.path.join(os.path.dirname(os.path.abspath(a.out)), "_reel_frames")
     shutil.rmtree(tmpdir, ignore_errors=True)
@@ -143,6 +159,8 @@ def main():
                 fr = Image.alpha_composite(fr, card(j, 0, 1.0))
         elif t >= t_end:
             fr = Image.alpha_composite(fr, cta(ease((t - t_end) / 0.4)))
+        if outro and t >= t_end + t_cta:
+            fr = Image.blend(fr, outro, ease((t - t_end - t_cta) / t_fade))
         fr.convert("RGB").save(os.path.join(tmpdir, f"{i:04d}.jpg"), quality=92)
 
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", os.path.join(tmpdir, "%04d.jpg"),
@@ -151,7 +169,7 @@ def main():
            "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", a.out]
     subprocess.run(cmd, check=True)
     shutil.rmtree(tmpdir, ignore_errors=True)
-    print("動画を作りました:", a.out, f"{t_end + t_cta:.1f}秒")
+    print("動画を作りました:", a.out, f"{t_end + t_cta + t_outro:.1f}秒")
 
 
 if __name__ == "__main__":

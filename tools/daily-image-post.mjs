@@ -471,7 +471,7 @@ function makeVideo(img, feats, name) {
   fs.mkdirSync("out/reel", { recursive: true });
   const file = `out/reel/${name}.mp4`;
   const q = (x) => `'${String(x).replace(/'/g, "'\\''")}'`;
-  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
+  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} --outro img/outro-follow.png ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
   return file;
 }
 async function hostFile(file) { return hostVideo(file); }
@@ -605,7 +605,7 @@ async function reel() {
   fs.mkdirSync("out/reel", { recursive: true });
   const file = `out/reel/${today}.mp4`;
   const q = (x) => `'${String(x).replace(/'/g, "'\\''")}'`;
-  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} --title ${q(title)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
+  execSync(`python3 tools/make-reel.py ${q(img)} ${q(file)} --outro img/outro-follow.png --title ${q(title)} ${feats.map((f) => "--feat " + q(f)).join(" ")}`, { stdio: "inherit" });
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
   const r = await publishReel(file, caption, p);
   if (process.env.REEL_NO_PUBLISH === "1") { const m = "テスト：アップロードと処理まで成功（投稿はしていません） " + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
