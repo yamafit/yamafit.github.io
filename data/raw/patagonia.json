@@ -328,5 +328,18 @@
    "スリム・フィット"
   ],
   "checked_at": "2026-11-12"
+ },
+ "https://www.patagonia.jp/product/mens-down-sweater/84675.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [],
+  "image": "https://dis.patagonia.jp/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dwb13e145d/images/hi-res/84675_TLGR.jpg?sw=768&sh=768&sfrm=png&q=95&bgcolor=f3f4ef",
+  "url": "https://www.patagonia.jp/product/mens-down-sweater/84675.html",
+  "category": "wear",
+  "name": "メンズ・ダウン・セーター",
+  "title": "メンズ・ダウン・セーター",
+  "price_min": 39600,
+  "price_max": 39600,
+  "checked_at": "2026-11-19"
  }
 }

@@ -50656,6 +50656,84 @@
    }
   },
   {
+   "id": "patagonia-down-sweater-m",
+   "category": "wear",
+   "brand": "パタゴニア",
+   "name": "メンズ・ダウン・セーター",
+   "gender": "mens",
+   "spec": "DWR（耐久性撥水）加工／369g（メンズ）",
+   "price": 39600,
+   "capacity_l": null,
+   "weight_g": 369,
+   "weight_note": "メンズ",
+   "material": "表地：20デニールのリサイクル・ナイロン100%リップストップ（DWR加工、PFAS不使用）。中わた：800フィルパワーのダウン100%（RDS認証）",
+   "waterproof": "DWR（耐久性撥水）加工",
+   "warmth": "800フィルパワーのダウン100%（RDS認証）",
+   "size_note": null,
+   "season": [
+    "autumn",
+    "winter"
+   ],
+   "features": [
+    "800フィルパワーのダウン100%（RDS認証）",
+    "369gで、内側のチェストポケットに本体を収納できる",
+    "ストームフラップとあご当て付きのフロントジッパー、コードロックで調節できる裾",
+    "洗濯機で洗える（公式の取り扱い表示）"
+   ],
+   "cons": [
+    "フードがない",
+    "防水ではなく、DWR撥水加工（雨具の代わりにはならない）",
+    "フェザーやダウンが抜け出てくる場合がある（公式の注記）"
+   ],
+   "for_whom": "休憩時に羽織る保温着を探している人・山と街の両方で着られるダウンを探している人",
+   "not_for": "フード付きで頭まで保温したい人・雨具を探している人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut",
+    "town"
+   ],
+   "concerns": [
+    "cold",
+    "light"
+   ],
+   "reasons": {
+    "cold": "800フィルパワーのダウン100%を使った保温ジャケットです。",
+    "light": "重量369gで、内ポケットに本体を収納できます。"
+   },
+   "default_reason": "800フィルパワーのダウンを使った、369gのフードなしダウンジャケットです。",
+   "fit": "レギュラー・フィット（公式表記）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.patagonia.jp/product/mens-down-sweater/84675.html",
+     "checked_at": "2026-11-19"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.patagonia.jp/product/mens-down-sweater/84675.html",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-19"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "salomon-x-ultra-5-mid-gore-tex-m",
    "category": "boots",
    "brand": "サロモン",
