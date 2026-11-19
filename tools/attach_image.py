@@ -10,7 +10,7 @@ from PIL import Image
 
 W, H = 1280, 1600
 mode, src = sys.argv[1], sys.argv[2]
-today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")
+today = os.environ.get("TODAY") or (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")  # TODAY=YYYY-MM-DD で対象日を指定（前日の夜に翌日の分を入れるとき）
 now = datetime.datetime.now(datetime.timezone.utc).isoformat()
 load = lambda p, d: json.load(open(p)) if os.path.exists(p) else d
 def save(p, v): json.dump(v, open(p, "w"), ensure_ascii=False, indent=1); open(p, "a").write("\n")

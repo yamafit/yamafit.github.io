@@ -15620,7 +15620,7 @@
    "default_reason": "30L設計で、日帰りから小屋泊まで対応するバックパックです。",
    "fit": "不明（公式にサイズ感の記載なし）",
    "image": "",
-   "ai_image": "",
+   "ai_image": "img/products/columbia-wildwood-heights-30l.jpg",
    "ai_article": "",
    "sources": [
     {
@@ -50709,8 +50709,8 @@
    "default_reason": "800フィルパワーのダウンを使った、369gのフードなしダウンジャケットです。",
    "fit": "レギュラー・フィット（公式表記）",
    "image": "",
-   "ai_image": "",
-   "ai_article": "",
+   "ai_image": "img/articles/2026-11-20-patagonia-down-sweater-m.jpg",
+   "ai_article": "2026-11-20-patagonia-down-sweater-m",
    "sources": [
     {
      "url": "https://www.patagonia.jp/product/mens-down-sweater/84675.html",
