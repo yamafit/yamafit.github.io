@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T02:43:09.317Z",
+  "updated": "2026-11-19T02:14:26.718Z",
   "season": "autumn",
   "categories": {
     "rain": [
@@ -21,11 +21,6 @@
     ],
     "wear": [
       {
-        "id": "montbell-1101661",
-        "source": "rule",
-        "reason": "秋の山行に合うため。800フィルパワーのEXダウンを使った、1年を通して使える軽量なダウンジャケットです。"
-      },
-      {
         "id": "arcteryx-sima-shirt-ls-w",
         "source": "rule",
         "reason": "秋の山行に合うため。ウェア。シーマ シャツで、次のハイキングでは涼しさをキープ。"
@@ -34,6 +29,11 @@
         "id": "snowpeak-snp0126a1878",
         "source": "rule",
         "reason": "秋の山行に合うため。ウェア。毎日着用してほしいという思いから生まれたダウンアウターシリーズ。"
+      },
+      {
+        "id": "patagonia-nano-puff-jacket-m",
+        "source": "rule",
+        "reason": "秋の山行に合うため。60gの化繊中綿を使った、369gの保温ジャケットです。"
       }
     ],
     "pack": [
