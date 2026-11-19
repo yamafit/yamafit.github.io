@@ -19,7 +19,7 @@
    "sources": [
     {
      "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1829699",
-     "checked_at": "2026-11-18"
+     "checked_at": "2026-11-19"
     }
    ],
    "image": {
@@ -34,8 +34,8 @@
      "shop": "official",
      "url": "https://webshop.montbell.jp/goods/disp.php?product_id=1829699",
      "affiliate_url": "",
-     "in_stock": null,
-     "checked_at": "2026-11-18"
+     "in_stock": true,
+     "checked_at": "2026-11-19"
     }
    ],
    "evaluation": {
