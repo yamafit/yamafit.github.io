@@ -119,6 +119,32 @@
      "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101493_ltsv.jpg"
     }
    ]
+  },
+  {
+   "from": "2026-11-22",
+   "title": "ダウンジャケット特集",
+   "until": "2027-02-28",
+   "page": "tokushu/down.html",
+   "items": [
+    {
+     "id": "tnf-baltro-jacket",
+     "label": "風の強い日の防寒に",
+     "comment": "防風素材GORE-TEX WINDSTOPPERの表地に、光電子ダウンを封入。風を通しにくい表地で、冷たい風が当たる場面で使いやすいダウンです。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KWA/01_001.jpg"
+    },
+    {
+     "id": "tnf-thunder-jacket-m",
+     "label": "行動中にも着られる",
+     "comment": "ザックでつぶれやすい肩に化繊わたを配置したミドラーダウン。はっ水加工のダウンを使い、305gと軽く、胸の内ポケットに収納できます。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001L4W/01_001.jpg"
+    },
+    {
+     "id": "montbell-1101673",
+     "label": "街でも着やすい",
+     "comment": "800フィルパワーのEXダウンを、光沢を抑えた生地で包んだパーカ。フィット感を調節できるフード付きで、街でも着やすいアウターです。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101673_bl.jpg"
+    }
+   ]
   }
  ]
 }
