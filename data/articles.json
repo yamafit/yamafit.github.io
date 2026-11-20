@@ -682,5 +682,18 @@
   "day": 4,
   "slot": "outer",
   "image": "img/articles/2026-11-20-patagonia-down-sweater-m.jpg"
+ },
+ {
+  "slug": "2026-11-21-arcteryx-mantis-26-backpack",
+  "title": "アークテリクス マンティス 26：紅葉の低山にも通勤にも使える840gの26L",
+  "category": "ザック",
+  "date": "2026-11-21",
+  "desc": "アークテリクス「マンティス 26」を紹介。26L・840gで、大きく開くドローブリッジ式の開口部、フレームシートとアルミ製ステイ入りの背面、PCスリーブを備え、紅葉の低山の日帰りにも通勤にも使えるデイパック。",
+  "cats": [
+   "pack"
+  ],
+  "week": "2026-11-16",
+  "day": 5,
+  "slot": "pack"
  }
 ]
