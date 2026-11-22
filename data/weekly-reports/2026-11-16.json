@@ -1,0 +1,309 @@
+{
+ "week": {
+  "start": "2026-11-16",
+  "end": "2026-11-22",
+  "report_date": "2026-11-23"
+ },
+ "prev_week": {
+  "start": "2026-11-09",
+  "end": "2026-11-15"
+ },
+ "instagram": {
+  "followers": {
+   "2026-11-16": 1,
+   "2026-11-23": 2
+  },
+  "posts": {
+   "week": 19,
+   "prev": 15
+  },
+  "week_total": {
+   "reach": 649,
+   "views": 704,
+   "likes": 2,
+   "saved": 1,
+   "shares": 0
+  },
+  "prev_total": {
+   "reach": 137,
+   "views": 178,
+   "likes": 3,
+   "saved": 1,
+   "shares": 0
+  },
+  "by_type": {
+   "VIDEO": {
+    "n": 5,
+    "reach": 648,
+    "views": 695,
+    "likes": 2,
+    "saved": 1,
+    "shares": 0,
+    "ti": 3,
+    "avg_reach": 129.6
+   },
+   "CAROUSEL_ALBUM": {
+    "n": 14,
+    "reach": 1,
+    "views": 9,
+    "likes": 0,
+    "saved": 0,
+    "shares": 0,
+    "ti": 0,
+    "avg_reach": 0.1
+   }
+  },
+  "by_slot": {
+   "朝": {
+    "n": 10,
+    "reach": 390,
+    "views": 425,
+    "likes": 0,
+    "saved": 0,
+    "shares": 0,
+    "ti": 0,
+    "avg_reach": 39.0
+   },
+   "昼": {
+    "n": 9,
+    "reach": 259,
+    "views": 279,
+    "likes": 2,
+    "saved": 1,
+    "shares": 0,
+    "ti": 3,
+    "avg_reach": 28.8
+   }
+  },
+  "top": [
+   {
+    "date": "2026-11-19",
+    "title": "【PR】ダウンジャケット、見た目だけで選んでいませんか？⛰",
+    "reach": 150,
+    "permalink": "https://www.instagram.com/reel/Df5bX_mDlsD/"
+   },
+   {
+    "date": "2026-11-18",
+    "title": "レインウェア、耐水圧の数字だけで選んでいませんか？⛰",
+    "reach": 137,
+    "permalink": "https://www.instagram.com/reel/Df4wB7tjn_g/"
+   },
+   {
+    "date": "2026-11-21",
+    "title": "ダウンとフリース、どっちを着る日？⛰",
+    "reach": 129,
+    "permalink": "https://www.instagram.com/reel/Df-jYSyDD83/"
+   }
+  ],
+  "bottom": [
+   {
+    "date": "2026-11-17",
+    "title": "【PR】登山ウェア（メンズ）｜アークテリクス コバート ハーフジップネック",
+    "reach": 0,
+    "permalink": "https://www.instagram.com/p/Df06wimFdcn/"
+   },
+   {
+    "date": "2026-11-17",
+    "title": "【PR】登山ザック｜カリマー cleave 30",
+    "reach": 0,
+    "permalink": "https://www.instagram.com/p/Df0YnRVDAt8/"
+   },
+   {
+    "date": "2026-11-16",
+    "title": "【PR】登山ウェア（メンズ）｜ザ・ノース・フェイス デナリジャケット",
+    "reach": 0,
+    "permalink": "https://www.instagram.com/p/DfyV88DESYV/"
+   }
+  ],
+  "blur_comparison": {
+   "blur_11_10_to_11_12": {
+    "n": 8,
+    "reach": 133,
+    "views": 169,
+    "likes": 3,
+    "saved": 1,
+    "shares": 0,
+    "ti": 4,
+    "avg_reach": 16.6
+   },
+   "no_blur_11_13_to_11_22": {
+    "n": 24,
+    "reach": 652,
+    "views": 709,
+    "likes": 2,
+    "saved": 1,
+    "shares": 0,
+    "ti": 3,
+    "avg_reach": 27.2
+   },
+   "note": "リーチのほとんどは解説リール。商品カルーセルはぼかしの有無にかかわらずほぼ0。差は見られない"
+  }
+ },
+ "site_ga4": {
+  "week": {
+   "views": 82,
+   "sessions": 60,
+   "users": 51
+  },
+  "prev": {
+   "views": 90,
+   "sessions": 67,
+   "users": 53
+  },
+  "sources_sessions": {
+   "facebook.com": 29,
+   "m.facebook.com": 17,
+   "(direct)": 12,
+   "ig": 1,
+   "(not set)": 1
+  },
+  "affiliate_click": 11,
+  "affiliate_click_prev": 4,
+  "select_item": 7,
+  "pages": [
+   {
+    "pagePath": "/index.html",
+    "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+    "screenPageViews": 9,
+    "sessions": 8
+   },
+   {
+    "pagePath": "/products/arcteryx-norvan-jacket-m.html",
+    "pageTitle": "アークテリクス ノーバン ジャケット メンズ｜ヤマフィット",
+    "screenPageViews": 7,
+    "sessions": 6
+   },
+   {
+    "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+    "pageTitle": "トレントフライヤー Women's：荒天前に備える209gのストレッチ3層レイン｜ヤマフィット",
+    "screenPageViews": 6,
+    "sessions": 6
+   },
+   {
+    "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+    "pageTitle": "カリマー クリーブ30：冷え込む紅葉の低山を軽快に歩く940gの30L｜ヤマフィット",
+    "screenPageViews": 6,
+    "sessions": 4
+   },
+   {
+    "pagePath": "/products/millet-mis0757.html",
+    "pageTitle": "ミレー サースフェー NX 30+5 W｜ヤマフィット",
+    "screenPageViews": 5,
+    "sessions": 5
+   },
+   {
+    "pagePath": "/tokushu/montbell-snow.html",
+    "pageTitle": "モンベルのスノーボードウエア特集｜ヤマフィット",
+    "screenPageViews": 5,
+    "sessions": 4
+   },
+   {
+    "pagePath": "/",
+    "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+    "screenPageViews": 4,
+    "sessions": 4
+   },
+   {
+    "pagePath": "/articles/2026-11-20-patagonia-down-sweater-m.html",
+    "pageTitle": "パタゴニア ダウン・セーター：山の休憩にも街にも合う369gのダウン｜ヤマフィット",
+    "screenPageViews": 4,
+    "sessions": 4
+   }
+  ],
+  "events": [
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/articles/2026-11-15-scarpa-zodiac-tech-gtx-wmn.html",
+    "eventCount": 3
+   },
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/tokushu/montbell-snow.html",
+    "eventCount": 3
+   },
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+    "eventCount": 2
+   },
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/articles/2026-11-12-salomon-x-ultra-5-mid-gore-tex-m.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "affiliate_click",
+    "pagePath": "/tokushu/down.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/articles/2026-11-12-salomon-x-ultra-5-mid-gore-tex-m.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/articles/2026-11-15-scarpa-zodiac-tech-gtx-wmn.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/index.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/tokushu/down.html",
+    "eventCount": 1
+   },
+   {
+    "eventName": "select_item",
+    "pagePath": "/tokushu/montbell-snow.html",
+    "eventCount": 1
+   }
+  ]
+ },
+ "search_console": {
+  "total_week": {
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 30
+  },
+  "total_28d": {
+   "clicks": 0,
+   "impressions": 6,
+   "ctr": 0,
+   "position": 11.2
+  },
+  "queries_28d": [
+   {
+    "query": "site:github.io",
+    "clicks": 0,
+    "impressions": 4,
+    "ctr": 0,
+    "position": 1.8
+   }
+  ]
+ },
+ "proposals": [
+  "商品の投稿をリール形式で試す（1枠・3日）",
+  "解説リールを週4本に増やし記事・特集に誘導",
+  "GA4にitem_idを登録して商品ごとのクリックを見る"
+ ]
+}
