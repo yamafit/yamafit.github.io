@@ -22031,6 +22031,84 @@
    }
   },
   {
+   "id": "mammut-microlayer-3-hs-hooded-jacket-af-m",
+   "category": "rain",
+   "brand": "マムート",
+   "name": "マイクロレイヤー 3.0 ハードシェル フーデッド ジャケット アジアンフィット",
+   "gender": "mens",
+   "spec": "2.5層 Mammut DRY Tour（耐水圧10,000mm・透湿性10,000g/m²/24h、PFCフリー耐久撥水加工）／301g（公式記載（サイズの記載なし））",
+   "price": 29700,
+   "capacity_l": null,
+   "weight_g": 301,
+   "weight_note": "公式記載（サイズの記載なし）",
+   "material": "2.5層 Mammut DRY Tour（面材：リサイクルポリアミド100%、メンブレン：ポリウレタン100%、50D）",
+   "waterproof": "2.5層 Mammut DRY Tour（耐水圧10,000mm・透湿性10,000g/m²/24h、PFCフリー耐久撥水加工）",
+   "warmth": null,
+   "size_note": "XS〜XXL（EUROサイズ表記）",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "重量301gと軽く、付属の袋に収納できる",
+    "耐水圧10,000mm・透湿性10,000g/m²/24hの2.5層 Mammut DRY Tour",
+    "フラップ付きの両開きフロントファスナー",
+    "2点調節式フード、面ファスナーの袖口、ドローコードの裾",
+    "撥水ファスナー付きサイドポケット2つ",
+    "bluesign PRODUCT・リサイクル素材"
+   ],
+   "cons": [
+    "ベンチレーションの記載がない",
+    "保温性はない",
+    "ポケットはサイドの2つのみ"
+   ],
+   "for_whom": "軽い雨具をザックに常備したい人・低山の雨・風よけがほしい人",
+   "not_for": "長時間の荒天や雪山で使いたい人・保温も1枚で済ませたい人",
+   "terrain": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "uses": [
+    "low",
+    "mid",
+    "hut"
+   ],
+   "concerns": [
+    "light"
+   ],
+   "reasons": {
+    "light": "重量301gで、付属の袋に収納できると公式に記載されています。"
+   },
+   "default_reason": "301gで付属の袋に収納できる、耐水圧10,000mmの2.5層ハードシェルです。",
+   "fit": "レギュラーフィット・アジアンフィット（公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/1010-28652",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/1010-28652",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "marmot-gtx-frey-jacket-m",
    "category": "rain",
    "brand": "マーモット",

@@ -1305,5 +1305,20 @@
   "price_min": 24200,
   "price_max": 24200,
   "checked_at": "2026-11-18"
+ },
+ "/items/1010-28652": {
+  "status": 200,
+  "price_text": [],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://mammt.store-image.jp/img01/201/1010-28652/o/trim_fce_item695b7a8f14647.jpg",
+  "url": "https://www.mammut.jp/items/1010-28652",
+  "category": "rain",
+  "name": "マイクロレイヤー 3.0 ハードシェル フーデッド ジャケット アジアンフィット（Microlayer 3.0 HS Hooded Jacket AF Men）",
+  "title": "マイクロレイヤー 3.0 ハードシェル フーデッド ジャケット アジアンフィット（Microlayer 3.0 HS Hooded Jacket AF Men）（1010-28652）|HIKING（ハイキング）|men（メンズ）|MAMMUT - マムート - 公式オンラインストア",
+  "price_min": 29700,
+  "price_max": 29700,
+  "checked_at": "2026-11-22"
  }
 }

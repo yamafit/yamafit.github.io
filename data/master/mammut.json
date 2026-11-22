@@ -1248,6 +1248,87 @@
      "light": "重量220gと公式に記載されています。"
     }
    }
+  },
+  {
+   "id": "mammut-microlayer-3-hs-hooded-jacket-af-m",
+   "brand": "マムート",
+   "name": "マイクロレイヤー 3.0 ハードシェル フーデッド ジャケット アジアンフィット",
+   "category": "rain",
+   "gender": "mens",
+   "price": 29700,
+   "weight_g": 301,
+   "weight_note": "公式記載（サイズの記載なし）",
+   "capacity_l": null,
+   "material": "2.5層 Mammut DRY Tour（面材：リサイクルポリアミド100%、メンブレン：ポリウレタン100%、50D）",
+   "waterproof": "2.5層 Mammut DRY Tour（耐水圧10,000mm・透湿性10,000g/m²/24h、PFCフリー耐久撥水加工）",
+   "waterproof_level": "waterproof",
+   "warmth": null,
+   "size_note": "XS〜XXL（EUROサイズ表記）",
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/1010-28652",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "image": {
+    "url": "https://mammt.store-image.jp/img01/201/1010-28652/o/trim_fce_item695b7a8f14647.jpg",
+    "angle": "main",
+    "src_page": "https://www.mammut.jp/items/1010-28652",
+    "checked_at": "2026-11-22",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/1010-28652",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-22",
+    "season": [
+     "spring",
+     "summer",
+     "autumn"
+    ],
+    "uses": [
+     "low",
+     "mid",
+     "hut"
+    ],
+    "concerns": [
+     "light"
+    ],
+    "fit": "レギュラーフィット・アジアンフィット（公式記載）",
+    "summary": "301gで付属の袋に収納できる、耐水圧10,000mmの2.5層ハードシェルです。",
+    "pros": [
+     "重量301gと軽く、付属の袋に収納できる",
+     "耐水圧10,000mm・透湿性10,000g/m²/24hの2.5層 Mammut DRY Tour",
+     "フラップ付きの両開きフロントファスナー",
+     "2点調節式フード、面ファスナーの袖口、ドローコードの裾",
+     "撥水ファスナー付きサイドポケット2つ",
+     "bluesign PRODUCT・リサイクル素材"
+    ],
+    "cons": [
+     "ベンチレーションの記載がない",
+     "保温性はない",
+     "ポケットはサイドの2つのみ"
+    ],
+    "good_for": [
+     "軽い雨具をザックに常備したい人",
+     "低山の雨・風よけがほしい人"
+    ],
+    "not_for": [
+     "長時間の荒天や雪山で使いたい人",
+     "保温も1枚で済ませたい人"
+    ],
+    "concern_reasons": {
+     "light": "重量301gで、付属の袋に収納できると公式に記載されています。"
+    }
+   }
   }
  ]
 }
