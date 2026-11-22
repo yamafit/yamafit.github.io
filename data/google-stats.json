@@ -453,10 +453,336 @@
     ]
    },
    "errors": []
+  },
+  {
+   "at": "2026-11-22T23:08:25.628Z",
+   "date": "2026-11-23",
+   "range": {
+    "start": "2026-11-16",
+    "end": "2026-11-22"
+   },
+   "prev_range": {
+    "start": "2026-11-09",
+    "end": "2026-11-15"
+   },
+   "ga4_total": {
+    "prev": {
+     "views": 90,
+     "sessions": 67,
+     "users": 53
+    },
+    "week": {
+     "views": 82,
+     "sessions": 60,
+     "users": 51
+    }
+   },
+   "ga4_pages": [
+    {
+     "pagePath": "/index.html",
+     "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+     "screenPageViews": 9,
+     "sessions": 8
+    },
+    {
+     "pagePath": "/products/arcteryx-norvan-jacket-m.html",
+     "pageTitle": "アークテリクス ノーバン ジャケット メンズ｜ヤマフィット",
+     "screenPageViews": 7,
+     "sessions": 6
+    },
+    {
+     "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+     "pageTitle": "トレントフライヤー Women's：荒天前に備える209gのストレッチ3層レイン｜ヤマフィット",
+     "screenPageViews": 6,
+     "sessions": 6
+    },
+    {
+     "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+     "pageTitle": "カリマー クリーブ30：冷え込む紅葉の低山を軽快に歩く940gの30L｜ヤマフィット",
+     "screenPageViews": 6,
+     "sessions": 4
+    },
+    {
+     "pagePath": "/products/millet-mis0757.html",
+     "pageTitle": "ミレー サースフェー NX 30+5 W｜ヤマフィット",
+     "screenPageViews": 5,
+     "sessions": 5
+    },
+    {
+     "pagePath": "/tokushu/montbell-snow.html",
+     "pageTitle": "モンベルのスノーボードウエア特集｜ヤマフィット",
+     "screenPageViews": 5,
+     "sessions": 4
+    },
+    {
+     "pagePath": "/",
+     "pageTitle": "ヤマフィット｜登山装備の選び方と、条件に合う装備の診断",
+     "screenPageViews": 4,
+     "sessions": 4
+    },
+    {
+     "pagePath": "/articles/2026-11-20-patagonia-down-sweater-m.html",
+     "pageTitle": "パタゴニア ダウン・セーター：山の休憩にも街にも合う369gのダウン｜ヤマフィット",
+     "screenPageViews": 4,
+     "sessions": 4
+    },
+    {
+     "pagePath": "/articles/2026-11-18-mammut-aenergy-ml-air-jacket-af-m.html",
+     "pageTitle": "マムート エナジー ML エア ジャケット：寒気の日に歩きながら着る220gの通気保温着｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-19-asolo-tahoe-winter-gtx-m.html",
+     "pageTitle": "アゾロ タホ ウインター GTX：大雪の寒気に備える、軽い断熱入り冬靴｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-21-arcteryx-mantis-26-backpack.html",
+     "pageTitle": "アークテリクス マンティス 26：紅葉の低山にも通勤にも使える840gの26L｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/articles/2026-11-22-montbell-1129793.html",
+     "pageTitle": "トレールウォーカー ウィズ ゲーター Women's：泥と落ち葉の低山へ｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/arcteryx-covert-1-2-zip-m.html",
+     "pageTitle": "アークテリクス コバート ハーフジップネック メンズ｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/columbia-wildwood-heights-30l.html",
+     "pageTitle": "コロンビア ワイルドウッドハイツ30Lバックパック｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/montbell-1129690.html",
+     "pageTitle": "モンベル アルパインクルーザー800 BOA Men's｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/tnf-denali-jacket-m-2026.html",
+     "pageTitle": "ザ・ノース・フェイス デナリジャケット｜ヤマフィット",
+     "screenPageViews": 3,
+     "sessions": 3
+    },
+    {
+     "pagePath": "/products/arcteryx-consola-fleece-midlayer-m.html",
+     "pageTitle": "アークテリクス コンソラ フリース ミッドレイヤー メンズ｜ヤマフィット",
+     "screenPageViews": 2,
+     "sessions": 2
+    },
+    {
+     "pagePath": "/articles.html",
+     "pageTitle": "記事一覧｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/articles/2026-11-12-salomon-x-ultra-5-mid-gore-tex-m.html",
+     "pageTitle": "X ULTRA 5 MID GORE-TEX：紅葉の低山を軽快に歩く防水ミッド｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/articles/2026-11-14-millet-mis0756.html",
+     "pageTitle": "ミレー サースフェー NX 30+5：雨の週末も中身を守る撥水30L｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/articles/2026-11-15-scarpa-zodiac-tech-gtx-wmn.html",
+     "pageTitle": "ゾディアックテックGTX WMN：雨上がりの岩稜へ女性用テクニカル靴｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/news.html",
+     "pageTitle": "最新記事｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/privacy.html",
+     "pageTitle": "プライバシーポリシー｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/products/arcteryx-beta-sv-jacket-m.html",
+     "pageTitle": "アークテリクス ベータ SV ジャケット メンズ｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/products/montbell-1102551.html",
+     "pageTitle": "モンベル シャルモパーカ Men's｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/question.html",
+     "pageTitle": "装備診断 1/2｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    },
+    {
+     "pagePath": "/tokushu/down.html",
+     "pageTitle": "ダウンジャケット特集｜ヤマフィット",
+     "screenPageViews": 1,
+     "sessions": 1
+    }
+   ],
+   "ga4_sources": [
+    {
+     "channel": "Organic Social",
+     "source": "facebook.com",
+     "sessions": 29
+    },
+    {
+     "channel": "Organic Social",
+     "source": "m.facebook.com",
+     "sessions": 17
+    },
+    {
+     "channel": "Direct",
+     "source": "(direct)",
+     "sessions": 12
+    },
+    {
+     "channel": "Organic Social",
+     "source": "ig",
+     "sessions": 1
+    },
+    {
+     "channel": "Unassigned",
+     "source": "(not set)",
+     "sessions": 1
+    }
+   ],
+   "ga4_events": [
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/articles/2026-11-15-scarpa-zodiac-tech-gtx-wmn.html",
+     "eventCount": 3
+    },
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/tokushu/montbell-snow.html",
+     "eventCount": 3
+    },
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+     "eventCount": 2
+    },
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/articles/2026-11-12-salomon-x-ultra-5-mid-gore-tex-m.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "affiliate_click",
+     "pagePath": "/tokushu/down.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/articles/2026-11-12-salomon-x-ultra-5-mid-gore-tex-m.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/articles/2026-11-15-scarpa-zodiac-tech-gtx-wmn.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/articles/2026-11-16-montbell-1128783.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/articles/2026-11-17-karrimor-501208.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/index.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/tokushu/down.html",
+     "eventCount": 1
+    },
+    {
+     "eventName": "select_item",
+     "pagePath": "/tokushu/montbell-snow.html",
+     "eventCount": 1
+    }
+   ],
+   "ga4_affiliate_items": null,
+   "ga4_note": "商品ごとのクリック（item_id）は、GA4 のカスタムディメンションに未登録のため未取得",
+   "gsc": {
+    "site": "https://yamafit.github.io/",
+    "range_week": {
+     "start": "2026-11-13",
+     "end": "2026-11-19"
+    },
+    "range_28d": {
+     "start": "2026-10-23",
+     "end": "2026-11-19"
+    },
+    "total_week": {
+     "clicks": 0,
+     "impressions": 2,
+     "ctr": 0,
+     "position": 30
+    },
+    "total_28d": {
+     "clicks": 0,
+     "impressions": 6,
+     "ctr": 0,
+     "position": 11.2
+    },
+    "queries_28d": [
+     {
+      "query": "site:github.io",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 1.8
+     }
+    ],
+    "pages_28d": [
+     {
+      "page": "https://yamafit.github.io/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 11.2
+     }
+    ]
+   },
+   "errors": []
   }
  ],
  "last_run": {
-  "at": "2026-11-16T01:36:06.527Z",
+  "at": "2026-11-22T23:08:25.628Z",
   "errors": []
  }
 }
