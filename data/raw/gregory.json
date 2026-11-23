@@ -37,5 +37,20 @@
   "price_min": 24200,
   "price_max": 24200,
   "checked_at": "2026-11-03"
+ },
+ "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html": {
+  "status": 200,
+  "price_text": [],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://www.gregory.jp/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Gregory/default/dw1e5f7e80/images/gr-149374/hi-res/149374-2038_hi-res_FRONT34.jpg?sw=545&sh=750",
+  "url": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+  "category": "pack",
+  "name": "TRAILFLEX スタウト35",
+  "title": "スタウト35 サンドストーン",
+  "price_min": 30800,
+  "price_max": 30800,
+  "checked_at": "2026-11-23"
  }
 }

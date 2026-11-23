@@ -230,6 +230,80 @@
      "light": "20Lで重量0.862kg（公式記載）"
     }
    }
+  },
+  {
+   "id": "gregory-stout-35",
+   "brand": "グレゴリー",
+   "name": "TRAILFLEX スタウト35",
+   "category": "pack",
+   "gender": "unisex",
+   "price": 30800,
+   "weight_g": 1310,
+   "weight_note": "公式記載",
+   "capacity_l": 35,
+   "material": "ナイロン100%",
+   "waterproof": null,
+   "waterproof_level": null,
+   "warmth": null,
+   "size_note": "ワンサイズ（背面長調節可）",
+   "sources": [
+    {
+     "url": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "image": {
+    "url": "https://www.gregory.jp/dw/image/v2/AAWQ_PRD/on/demandware.static/-/Sites-Gregory/default/dw1e5f7e80/images/gr-149374/hi-res/149374-2038_hi-res_FRONT34.jpg?sw=545&sh=750",
+    "angle": "main",
+    "src_page": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+    "checked_at": "2026-11-23",
+    "ok": null
+   },
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "evaluation": {
+    "by": "claude",
+    "at": "2026-11-23",
+    "season": [
+     "spring",
+     "summer",
+     "autumn",
+     "winter"
+    ],
+    "uses": [
+     "low",
+     "mid"
+    ],
+    "concerns": [],
+    "fit": "ワンサイズで背面長を調節できる（公式記載）",
+    "summary": "背面長を調節できるワンサイズの35L、日帰り〜一泊向けのザック。",
+    "pros": [
+     "背面長を調節できるワンサイズ（公式記載）",
+     "ウィッシュボーン合金フレームとパッド入りヒップベルト（公式記載）",
+     "ヒップベルトの大きなジッパーポケットなどポケットが多い（公式記載）"
+    ],
+    "cons": [
+     "重量1.31kgで軽量ではない",
+     "レインカバーの公式記載なし",
+     "背面はフォームパネルで、背中から浮かせる構造ではない"
+    ],
+    "good_for": [
+     "荷物が増える冬の日帰りで防寒着まで持ちたい人",
+     "背面長を調整して使いたい人"
+    ],
+    "not_for": [
+     "軽さを最優先する人",
+     "レインカバー付属のザックを探している人"
+    ],
+    "concern_reasons": {}
+   }
   }
  ]
 }

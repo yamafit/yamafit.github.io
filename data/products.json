@@ -16015,6 +16015,76 @@
    }
   },
   {
+   "id": "gregory-stout-35",
+   "category": "pack",
+   "brand": "グレゴリー",
+   "name": "TRAILFLEX スタウト35",
+   "gender": "unisex",
+   "spec": "1310g（公式記載）",
+   "price": 30800,
+   "capacity_l": 35,
+   "weight_g": 1310,
+   "weight_note": "公式記載",
+   "material": "ナイロン100%",
+   "waterproof": null,
+   "warmth": null,
+   "size_note": "ワンサイズ（背面長調節可）",
+   "season": [
+    "spring",
+    "summer",
+    "autumn",
+    "winter"
+   ],
+   "features": [
+    "背面長を調節できるワンサイズ（公式記載）",
+    "ウィッシュボーン合金フレームとパッド入りヒップベルト（公式記載）",
+    "ヒップベルトの大きなジッパーポケットなどポケットが多い（公式記載）"
+   ],
+   "cons": [
+    "重量1.31kgで軽量ではない",
+    "レインカバーの公式記載なし",
+    "背面はフォームパネルで、背中から浮かせる構造ではない"
+   ],
+   "for_whom": "荷物が増える冬の日帰りで防寒着まで持ちたい人・背面長を調整して使いたい人",
+   "not_for": "軽さを最優先する人・レインカバー付属のザックを探している人",
+   "terrain": [
+    "low",
+    "mid"
+   ],
+   "uses": [
+    "low",
+    "mid"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "背面長を調節できるワンサイズの35L、日帰り〜一泊向けのザック。",
+   "fit": "ワンサイズで背面長を調節できる（公式記載）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.gregory.jp/trailflex/stout-35/gr-149374-2038.html",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "hellyhansen-ho12554",
    "category": "rain",
    "brand": "ヘリーハンセン",
