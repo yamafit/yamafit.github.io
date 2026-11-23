@@ -641,7 +641,7 @@ function noonPickFor(date, skip = new Set()) {
   return { picks, pick: null };
 }
 function inputForProduct(p, cat) {
-  const rows = [p.price ? `価格：${p.price.toLocaleString()}円（税込・公式サイトの表示）` : "", p.weight_g ? `重量：${p.weight_note || p.weight_g + "g"}` : "", p.material ? `素材：${p.material}` : "", p.waterproof ? `防水・撥水：${p.waterproof}` : "", p.warmth ? `保温：${p.warmth}` : "", p.capacity_l ? `容量：${p.capacity_l}L` : "", p.size_note ? `サイズ：${p.size_note}` : ""].filter(Boolean);
+  const rows = [p.price ? `価格：${p.price.toLocaleString()}円（税込・公式サイトの表示）` : "", p.weight_g ? `重量：${p.weight_note && /\d\s*g/.test(p.weight_note) ? p.weight_note : p.weight_g + "g" + (p.weight_note ? `（${p.weight_note}）` : "")}` : "", p.material ? `素材：${p.material}` : "", p.waterproof ? `防水・撥水：${p.waterproof}` : "", p.warmth ? `保温：${p.warmth}` : "", p.capacity_l ? `容量：${p.capacity_l}L` : "", p.size_note ? `サイズ：${p.size_note}` : ""].filter(Boolean);
   const official = (p.image && p.image.src_page) || ((p.sources || [])[0] || {}).url || "";
   const d = { brand: p.brand, model: p.name, modelJa: "", color: "", source: [official, ...rows].filter(Boolean).join("\n"), reader: "", usage: "", aspect: SIZE.aspect, attach: "sheet", fixed: true, full: false };
   for (const [id] of KOBO.CATS[cat].specs) d[id] = "";
