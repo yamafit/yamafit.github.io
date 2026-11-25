@@ -724,6 +724,7 @@
  },
  "2026-11-26": {
   "id": "marmot-all-weather-parka",
-  "cat": "rain"
+  "cat": "rain",
+  "image": "img/products/marmot-all-weather-parka.jpg"
  }
 }
