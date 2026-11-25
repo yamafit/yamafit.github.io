@@ -55684,6 +55684,79 @@
     "rakuten": "",
     "yahoo": ""
    }
+  },
+  {
+   "id": "zamberlan-fujiyama-nw-gt",
+   "category": "boots",
+   "brand": "ザンバラン",
+   "name": "フジヤマ NW GT",
+   "gender": "mens",
+   "spec": "GORE-TEX／950g（約950g（EUR42・片足。公式記載））",
+   "price": 24640,
+   "capacity_l": null,
+   "weight_g": 950,
+   "weight_note": "約950g（EUR42・片足。公式記載）",
+   "material": "アッパー：ハイドロブロック・スエードワックスドレザー（2.2〜2.4mm）、ライニング：ゴアテックス・パフォーマンスコンフォート、ミッドソール：PU、ソール：ヴィブラム NorTrack",
+   "waterproof": "GORE-TEX",
+   "warmth": null,
+   "size_note": "EUR40〜47（約25.0〜28.5cm）",
+   "season": [
+    "spring",
+    "summer",
+    "autumn"
+   ],
+   "features": [
+    "スクイ縫いとダシ縫いの2方向で縫うノルウェージャン製法",
+    "ハイドロブロック加工のワックスドレザーとゴアテックスのライニング",
+    "足首周りは柔らかいレザーで、ストッパー付きフックで締め具合を保ちやすい",
+    "溝付きのヴィブラム NorTrack で着地の衝撃をやわらげる"
+   ],
+   "cons": [
+    "片足約950g（EUR42）と重い",
+    "保温材の記載がない",
+    "カラーは440ブラウンの1色のみ",
+    "公式ページにワイズの記載がない"
+   ],
+   "for_whom": "小屋泊・テント泊の重い荷物で縦走する人・革の手入れをしながら長く履きたい人",
+   "not_for": "軽い靴で日帰りの低山を歩きたい人・雪山で使える保温靴を探している人",
+   "terrain": [
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "uses": [
+    "mid",
+    "hut",
+    "tent"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "ワックスドレザーとゴアテックスのライニングを、ノルウェージャン製法で縫い上げた片足約950gの革ブーツです。",
+   "fit": null,
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/1120146",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/1120146",
+     "affiliate_url": "",
+     "in_stock": null,
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
   }
  ]
 }
