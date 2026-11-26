@@ -19,7 +19,7 @@
    "sources": [
     {
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/1120146",
-     "checked_at": "2026-11-25"
+     "checked_at": "2026-11-26"
     }
    ],
    "image": {
@@ -34,8 +34,8 @@
      "shop": "official",
      "url": "https://www.caravan-web.com/c/category/shoes/shoes-trekking/1120146",
      "affiliate_url": "",
-     "in_stock": null,
-     "checked_at": "2026-11-25"
+     "in_stock": true,
+     "checked_at": "2026-11-26"
     }
    ],
    "evaluation": {
