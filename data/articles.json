@@ -766,5 +766,18 @@
   "day": 3,
   "slot": "shoes",
   "image": "img/articles/2026-11-26-zamberlan-fujiyama-nw-gt.jpg"
+ },
+ {
+  "slug": "2026-11-27-arcteryx-beta-jacket-m",
+  "title": "ベータ ジャケット：雨の低山にも街にも使える375gの3層シェル",
+  "category": "レインウェア",
+  "date": "2026-11-27",
+  "desc": "アークテリクスのベータ ジャケット（375g・3層GORE-TEX ePE）を、雨の低山と街の両方で使う視点で紹介。雨への強さやフード、ポケットの長所と、脇下ベンチレーションがない点や価格などの注意点もまとめます。",
+  "cats": [
+   "rain"
+  ],
+  "week": "2026-11-23",
+  "day": 4,
+  "slot": "outer"
  }
 ]
