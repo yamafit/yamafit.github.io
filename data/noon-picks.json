@@ -725,6 +725,18 @@
  "2026-11-26": {
   "id": "marmot-all-weather-parka",
   "cat": "rain",
-  "image": "img/products/marmot-all-weather-parka.jpg"
+  "image": "img/products/marmot-all-weather-parka.jpg",
+  "posted": {
+   "media_id": "18080278202759606",
+   "permalink": "https://www.instagram.com/p/DgMF8lQmSJn/",
+   "account": "yama_fit2026",
+   "tagged": "marmot_japan",
+   "carousel": true,
+   "story": {
+    "skipped": true
+   },
+   "posted_at": "2026-11-26T03:02:19.589Z",
+   "image": "img/products/marmot-all-weather-parka.jpg"
+  }
  }
 }
