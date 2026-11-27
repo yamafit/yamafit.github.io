@@ -145,6 +145,32 @@
      "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101673_bl.jpg"
     }
    ]
+  },
+  {
+   "from": "2026-11-29",
+   "title": "ダウンジャケット特集",
+   "until": "2027-02-28",
+   "page": "tokushu/down.html",
+   "items": [
+    {
+     "id": "montbell-1101713",
+     "label": "雪や湿気が気になる日に",
+     "comment": "防水透湿素材スーパー ドライテックで800フィルパワーのEXダウンを包んだパーカ。止水性の高いジッパー付きで、雨や雪、湿気からダウンを守ります（平均384g）。",
+     "image": "https://webshop.montbell.jp/common/images/product/prod_c/c_1101713_dgn.jpg"
+    },
+    {
+     "id": "tnf-light-heat-jacket-m",
+     "label": "重ね着のインナーに",
+     "comment": "10デニールの軽いナイロンに光電子ダウンを封入したインナーダウン。はっ水加工つきで、ポケットに本体を収納できます。シェルの下に重ねる1枚に。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW0001KW8/01_001.jpg"
+    },
+    {
+     "id": "tnf-belayer-parka",
+     "label": "休憩や待ち時間の防寒に",
+     "comment": "GORE-TEX WINDSTOPPERの表地に光電子プロダウンを封入した防寒パーカ。内側もはっ水素材で、濡れたシェルの上から着られます（約760g）。",
+     "image": "https://itemimg.goldwin.co.jp/itemimg/GDW01/A0GDW00011KO/01_001.jpg"
+    }
+   ]
   }
  ]
 }
