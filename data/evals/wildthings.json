@@ -8,7 +8,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "撥水ナイロン生地を使用したSTAND UP PATNS。",
+  "material": "ナイロン",
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
   "warmth": null,
@@ -26,7 +26,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。撥水ナイロン生地を使用したSTAND UP PATNS。",
+   "summary": "撥水のパンツ",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）"
    ],
@@ -49,7 +49,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "通年で使用できる1枚仕立てのライトなナイロンパーカー。",
+  "material": "ナイロン",
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
   "warmth": null,
@@ -67,7 +67,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。通年で使用できる1枚仕立てのライトなナイロンパーカー。",
+   "summary": "撥水のパーカー",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "コンパクトに収納できると記載"
@@ -91,10 +91,10 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+  "warmth": "PRIMALOFT",
   "size_note": null,
   "eval": {
    "season": [
@@ -112,9 +112,9 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT ACTIVE EVOLVEを使用したフーディ。",
+   "summary": "PRIMALOFTのフーディ",
    "pros": [
-    "保温：保温性、通気性、速乾性に優れた温度調整機能を持つメッシュ素材、PRIMALOFT"
+    "保温：PRIMALOFT"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -138,7 +138,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "撥水ナイロン生地を使用したMASSIF JACKETは、シティとフィールドを行",
+  "material": "ナイロン",
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
   "warmth": null,
@@ -158,7 +158,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。撥水ナイロン生地を使用したMASSIF JACKETは、シティとフィールドを行 き来するためにCHAMONIX JACKETをベースにアップグレードしたモデル。",
+   "summary": "撥水のジャケット",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "ベンチレーション（換気用の開閉部）の記載あり"
@@ -184,10 +184,10 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "撥水ナイロン生地と、裏地にフリースを使用したジャケット。",
+  "material": "ナイロン",
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
-  "warmth": "中綿やダウンといったヘビーアウターにはない気軽さ・手軽さと、秋から春先まで長く活躍する汎用性がポイント",
+  "warmth": "中綿・ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -204,10 +204,10 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。撥水ナイロン生地と、裏地にフリースを使用したジャケット。",
+   "summary": "撥水・中綿のジャケット",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
-    "保温：中綿やダウンといったヘビーアウターにはない気軽さ・手軽さと、秋から春先まで長く活"
+    "保温：中綿・ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -248,7 +248,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。程よいゆとりを持たせたリラックスフィットのイージーパンツ。",
+   "summary": "フリース",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -291,7 +291,7 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。90年代のフリースアイテムからインスピレーションを得たベスト。",
+   "summary": "ベスト",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -336,7 +336,7 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。90年代のフリースアイテムからインスピレーションを得たジャケット。",
+   "summary": "ジャケット",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -381,7 +381,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "レインウェア・シェル。タクティカルラインのアーカイブであるアルピニストハードシェルジャケットをベースに、現代のテクノロジーとバランス感で再構築した一着。",
+   "summary": "防水のジャケット",
    "pros": [
     "防水・撥水：eVent（公式記載）",
     "ベンチレーション（換気用の開閉部）の記載あり"
@@ -407,7 +407,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "本来はクラシックなアウトドアギアであるモデルをベースにしながらも、エッジの効いたテクニカルな印象を放つシームディテールを採用。さらに、ブランドの本国タクティカルラインで採用されている実戦仕様のソフトシェルをインスピレーションとしたタフな素材感を落とし込むことで、質実剛健なミリタリーウエアへと見事に転",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
   "warmth": null,
@@ -425,7 +425,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。WILD THINGSのアーカイブピースであるマウンテンガイドジャケットを着想源に、現代的なアプローチで再構築したソフトシェルジャケット。",
+   "summary": "ジャケット",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -448,7 +448,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "後ろのベンツは通常より深めに設定し動きやすさをサポート。生地は抜群の通気性を誇るリップストップ調のクールドッツを使用。素材のもつ防しわ性を活かしてパッカブル仕様に。（内側のファスナーポケット）",
+  "material": null,
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
   "warmth": null,
@@ -468,7 +468,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。25SSで新登場し、好評だったBREATHABLE BOOSTER JACKETが公式オンラインストア限定で再登場。",
+   "summary": "撥水のジャケット",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "ストレッチ性の記載あり",
@@ -495,7 +495,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "24SSで新登場し、好評だったMASSIF JACKETの3層素材を使用。",
+  "material": null,
   "waterproof": "耐水圧20000mm",
   "waterproof_level": "waterproof",
   "warmth": null,
@@ -515,7 +515,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "レインウェア・シェル。24SSで新登場し、好評だったMASSIF JACKETの3層素材を使用。",
+   "summary": "防水のジャケット",
    "pros": [
     "防水・撥水：耐水圧20000mm（公式記載）",
     "ベンチレーション（換気用の開閉部）の記載あり"
@@ -559,7 +559,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。F/CE. × WILD THINGS コラボレーション第二弾 ミリタリー由来の機能性と都市的な洗練を融合させた、バギーシルエットのテクニカルパンツ。",
+   "summary": "パンツ",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -602,7 +602,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。本国タクティカルラインに存在するアルピニストパンツをベースに、最高峰の透湿防水3レイヤー生地eVent®を採用して復刻したハードシェルパンツ。",
+   "summary": "防水のパンツ",
    "pros": [
     "防水・撥水：eVent（公式記載）",
     "ベンチレーション（換気用の開閉部）の記載あり"
@@ -628,7 +628,7 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
   "warmth": null,
@@ -646,7 +646,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。優れた機能性と耐久性を備えたソフトシェル素材を使用したソフトシェルガイドパンツ。",
+   "summary": "パンツ",
    "pros": [
     "コンパクトに収納できると記載"
    ],
@@ -689,7 +689,7 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。25SSで新登場し、好評だったBREATHABLE BOOSTER PANTSが公式オンラインストア限定で再登場。",
+   "summary": "撥水のパンツ",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "ストレッチ性の記載あり",
@@ -719,7 +719,7 @@
   "material": "内襟には首回りの保温性を高める起毛素材を配し携行に便利なポケッタブル仕様の収納袋が付属する。",
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "内襟には首回りの保温性を高める起毛素材を配し携行に便利なポケッタブル仕様の収納袋が付属する。",
+  "warmth": null,
   "size_note": null,
   "eval": {
    "season": [
@@ -736,9 +736,8 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。クラシックなボリュームのステッチや各部のディテールにより、どこか素朴でノスタルジックな佇まいを残しつつ、現代的な仕様へとアップデートを施している。",
+   "summary": "ベスト",
    "pros": [
-    "保温：内襟には首回りの保温性を高める起毛素材を配し携行に便利なポケッタブル仕様の収納袋",
     "コンパクトに収納できると記載"
    ],
    "cons": [
@@ -762,10 +761,10 @@
   "weight_g": null,
   "weight_note": null,
   "capacity_l": null,
-  "material": "WILD THINGSのシグネチャーアイテムであるデナリジャケットをベースにし、表地にはSIERRA DESIGNSを代表する素材である米国産の60/40クロス生地を採用。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "また、通常デナリジャケットには中綿にプリマロフトを使用するが、本コラボにおいては製品の重量を軽減するため、ALLIED社のダウンを使用。",
+  "warmth": "中綿・プリマロフトを使用するが・ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -783,9 +782,9 @@
     "sweat"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。アメリカ発のアウトドアブランド SIERRA DESIGNSとコラボしたダウンジャケット。",
+   "summary": "中綿のダウンジャケット",
    "pros": [
-    "保温：また、通常デナリジャケットには中綿にプリマロフトを使用するが、本コラボにおいては"
+    "保温：中綿・プリマロフトを使用するが・ダウン"
    ],
    "cons": [
     "価格が7万円台と高め"

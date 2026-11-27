@@ -29,5 +29,14 @@ for (const e of evals) {
     evaluation: { by: "claude", at: r.checked_at, ...e.eval },
   });
 }
+// 手で直した内容（data/master-overrides.json：商品id → 項目）は、毎日の作り直しで消えないように最後に上書きする
+const overrides = fs.existsSync("data/master-overrides.json") ? JSON.parse(fs.readFileSync("data/master-overrides.json", "utf8")) : {};
+for (const p of products) {
+  const o = overrides[p.id];
+  if (!o) continue;
+  const { evaluation, ...top } = o;
+  Object.assign(p, top);
+  if (evaluation) p.evaluation = { ...p.evaluation, ...evaluation };
+}
 fs.writeFileSync(`data/master/${slug}.json`, JSON.stringify({ brand: brandName, products }, null, 1));
 console.log(`${slug}: ${products.length}件`);

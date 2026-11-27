@@ -13,7 +13,7 @@
   "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -28,9 +28,9 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "レインウェア・シェル。",
+   "summary": "ダウンのレインウェア",
    "pros": [
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -56,7 +56,7 @@
   "material": "表側（ナイロン100％）",
   "waterproof": "GORE-TEX",
   "waterproof_level": "waterproof",
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -71,11 +71,11 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "レインウェア・シェル。",
+   "summary": "ゴアテックス・ダウンのレインウェア",
    "pros": [
     "防水・撥水：GORE-TEX（公式記載）",
     "重量 460g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -101,7 +101,7 @@
   "material": "WTX™ 2.5L（ナイロン 100%）",
   "waterproof": "防水（公式記載）",
   "waterproof_level": "waterproof",
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -118,11 +118,11 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。",
+   "summary": "防水・ダウンのウェア",
    "pros": [
     "防水・撥水：防水（公式記載）（公式記載）",
     "重量 265g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -147,10 +147,10 @@
   "weight_g": 420,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "ウエスト内側に吸水速乾素材採用",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -165,10 +165,10 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。",
+   "summary": "ダウン・約420gのパンツ",
    "pros": [
     "重量 420g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -191,10 +191,10 @@
   "weight_g": 530,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "ウエスト内側に吸水速乾素材採用",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -209,10 +209,10 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。",
+   "summary": "ダウン・約530gのパンツ",
    "pros": [
     "重量 530g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -235,10 +235,10 @@
   "weight_g": 450,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "適度な厚みでタテヨコ2wayストレッチ素材を採用した通年モデルの定番マルチポケットパンツ。収納に便利な計7箇所の大小様々なポケットを配置。ウエストはシャーリング＋アジャスト＋ベルトループを搭載。ライフシーンでも活躍する一着。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -253,10 +253,10 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。",
+   "summary": "ダウン・約450gのパンツ",
    "pros": [
     "重量 450g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -279,10 +279,10 @@
   "weight_g": 381,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "・中肉でほどよい厚みのはっ水素材",
+  "material": "中肉でほどよい厚みのはっ水素材",
   "waterproof": "撥水加工（公式記載）",
   "waterproof_level": "water_repellent",
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -297,11 +297,11 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。",
+   "summary": "撥水・ダウンのパンツ",
    "pros": [
     "防水・撥水：撥水加工（公式記載）（公式記載）",
     "重量 381g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -324,10 +324,10 @@
   "weight_g": 350,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "〈 2024SSモデル 〉フィールド LW パンツ 軽量ストレッチ素材を採用したアクティブ向けパンツ。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -342,10 +342,10 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "パンツ。",
+   "summary": "ダウン・約350gのパンツ",
    "pros": [
     "重量 350g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -371,7 +371,7 @@
   "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -388,9 +388,9 @@
     "cold"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。",
+   "summary": "ダウンのウェア",
    "pros": [
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -415,10 +415,10 @@
   "weight_g": 260,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "通年使用可能な軽量・コンパクト性に優れたダウンジャケット。ポーランド産900FPダウンを封入したパッカブルモデル。フロントはレイヤリング時のジッパーの重なりを考慮したアシンメトリー設計。ダブルジッパーに加えてスナップボタンを追加する事で様々なシーンに適用。腰ポケット内側には抗菌加工素材を採用。",
+  "material": "ダウン",
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -435,10 +435,10 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。",
+   "summary": "ダウン・約260gのウェア",
    "pros": [
     "重量 260g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -482,7 +482,7 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "25L・約620gのザック",
    "pros": [
     "重量 620g（公式記載）",
     "容量 25L"
@@ -510,7 +510,7 @@
   "weight_g": 205,
   "weight_note": "公式記載",
   "capacity_l": 15,
-  "material": "シリコン加工を施した50デニールリップストップナイロンを使用した、パッカブル仕様の軽量小型ロールトップリュックサック。",
+  "material": "ナイロン",
   "waterproof": null,
   "waterproof_level": null,
   "warmth": null,
@@ -529,7 +529,7 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "15L・約205gのザック",
    "pros": [
     "重量 205g（公式記載）",
     "容量 15L"
@@ -557,7 +557,7 @@
   "weight_g": 450,
   "weight_note": "公式記載",
   "capacity_l": 20,
-  "material": "カリマーのアーカイブをモチーフに、素材・機能・使い勝手を現代仕様へとアップデート。",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
   "warmth": null,
@@ -576,7 +576,7 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "20L・約450gのザック",
    "pros": [
     "重量 450g（公式記載）",
     "容量 20L"
@@ -604,10 +604,10 @@
   "weight_g": 280,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "・表地には程よい通気をもたらすPERTEXQUANTUMAIRの中でも耐摩耗性に優れたDIAMONDFUSEを採用",
+  "material": null,
   "waterproof": null,
   "waterproof_level": null,
-  "warmth": "副素材:PRIMALOFT Evolve（ポリエステル100%）",
+  "warmth": "PRIMALOFT",
   "size_note": null,
   "eval": {
    "season": [
@@ -624,10 +624,10 @@
     "light"
    ],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ウェア。",
+   "summary": "PRIMALOFT・約280gのウェア",
    "pros": [
     "重量 280g（公式記載）",
-    "保温：副素材:PRIMALOFT Evolve（ポリエステル100%）"
+    "保温：PRIMALOFT"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -652,10 +652,10 @@
   "weight_g": 420,
   "weight_note": "公式記載",
   "capacity_l": null,
-  "material": "3シーズン対応のCRAFTEVO®AQUAX40D3L素材を採用(耐水圧30,000mm、透湿20,000g/m2/24h)",
+  "material": null,
   "waterproof": "耐水圧30,000mm",
   "waterproof_level": "waterproof",
-  "warmth": "ダウンジャケット・ダウンベスト",
+  "warmth": "ダウン",
   "size_note": null,
   "eval": {
    "season": [
@@ -670,11 +670,11 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "レインウェア・シェル。",
+   "summary": "防水・ダウンのレインウェア",
    "pros": [
     "防水・撥水：耐水圧30,000mm（公式記載）",
     "重量 420g（公式記載）",
-    "保温：ダウンジャケット・ダウンベスト"
+    "保温：ダウン"
    ],
    "cons": [
     "不明（公式の記載から読み取れる弱点は限られます）"
@@ -710,7 +710,7 @@
    "uses": [],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "ザック",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -748,7 +748,7 @@
    "uses": [],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "ザック",
    "pros": [
     "公式ページに仕様の詳しい記載が少ないため、特徴は商品ページで確認してください"
    ],
@@ -789,7 +789,7 @@
    ],
    "concerns": [],
    "fit": "不明（公式にサイズ感の記載なし）",
-   "summary": "ザック・バッグ。",
+   "summary": "30Lのザック",
    "pros": [
     "容量 30L"
    ],

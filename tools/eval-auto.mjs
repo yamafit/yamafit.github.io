@@ -50,6 +50,18 @@ const idOf = (key) => {
   return seg.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
 };
 
+// 一言の説明：公式の宣伝文をそのまま使わず、事実（容量・防水・保温・重量）から短く作る
+const TYPE_WORDS = ["ダウンジャケット","ダウンパーカ","ダウンベスト","レインジャケット","レインパンツ","ジャケット","パーカー","パーカ","フーディ","ベスト","シャツ","プルオーバー","フリース","パンツ","ショーツ","タイツ","バックパック","ザック","リュック","パック","バッグ","ブーツ","シューズ","サンダル","テント","タープ","シェルター","スリーピングバッグ","シュラフ","マット","ポール"];
+const CAT_TYPE = { boots: "登山靴", pack: "ザック", pants: "パンツ", rain: "レインウェア", wear: "ウェア", tent: "テント・寝具", poles: "ポール" };
+const factSummary = ({ name, category, capacity_l, weight_g, waterproof, warmthWords }) => {
+  const type = TYPE_WORDS.find((w) => name.includes(w)) || CAT_TYPE[category] || "アイテム";
+  const f = [];
+  if (capacity_l) f.push(`${capacity_l}L`);
+  if (waterproof && /GORE|ゴア/i.test(waterproof)) f.push("ゴアテックス"); else if (waterproof && /防水|耐水圧|eVent|OUTDRY|アウトドライ/i.test(waterproof)) f.push("防水"); else if (waterproof) f.push("撥水");
+  if (warmthWords && f.length < 2) f.push(warmthWords.split("・")[0]);
+  if (weight_g && weight_g < 3000 && f.length < 2) f.push(`約${weight_g.toLocaleString()}g`);
+  return f.length ? `${f.join("・")}の${type}` : type;
+};
 const out = [];
 const seen = new Set();
 const seenNames = new Set();
@@ -92,9 +104,15 @@ for (const [key, r] of Object.entries(raw)) {
   if (category === "wear" && waterproof_level === "waterproof" && (/GORE|ゴア|eVent|OUTDRY/i.test(waterproof) || Number((waterproof.match(/耐水圧\s*([\d,]+)/) || [])[1]?.replace(/,/g, "")) >= 10000)) category = "rain";
   if (category === "rain" && !waterproof && !/レイン|雨|RAIN|ポンチョ/i.test(name)) category = "wear";
   const mat = (r.material || []).find((l) => l.length >= 4 && l.length < 160 && /[：:]|表地|素材|アッパー|ナイロン|ポリエステル|綿|コットン|ウール|レザー/.test(l)) || lines.find((l) => /^(素材|表地|アッパー)[：:\s]/.test(l));
-  const material = mat ? mat.replace(/\s+/g, " ").slice(0, 150) : null;
+  // 素材：公式の宣伝文をそのまま載せない。宣伝の言い回しが入っていたら、素材名と混率だけを抜き出す
+  const MAT_AD = /使用|登場|活躍|好評|環境に配慮|感触|アップデート|モチーフ|安心|ふさわしい|仕立て|懸念|変更点|ながら|兼ね備|実現|魅力|焦点|最適|快適|適した|優れ|抜群|こだわ|デザイン|叶え|発揮|追求|採用|使用し|ことで/;
+  const MAT_WORD = /(?:\d+\s?D\s?)?(?:リサイクル)?(?:ナイロン|ポリエステル|ポリウレタン|メリノウール|ウール|コットン|綿|レザー|スエード|ダウン|フェザー|アクリル|ポリプロピレン|スパンデックス|エラスタン|UHMWPE|ダイニーマ|ゴアテックス|GORE-?TEX)(?:\s?\d+\s?[%％])?/gi;
+  const matClean = (t) => { const s0 = t.replace(/\s+/g, " ").replace(/^[・\s]+/, "").trim(); if (/^素材(について|：?)$/.test(s0)) return null; if (!MAT_AD.test(s0)) return s0.slice(0, 150); const w = [...new Set(s0.match(MAT_WORD) || [])]; return w.length ? w.slice(0, 4).join("、") : null; };
+  const material = mat ? matClean(mat) : null;
   const wm2 = lines.find((l) => /(中綿|ダウン(?!ロード)|フィルパワー|\d+\s?FP|プリマロフト|PRIMALOFT|シンサレート|保温|ウール)/i.test(l) && l.length < 120);
   const warmth = (["wear", "pants", "rain"].includes(category) || (category === "tent" && /オフトン|シュラフ|寝袋|スリーピング|バッグ|SleepingBag/i.test(name + (r.product_type || "")))) && wm2 && /中綿|ダウン(?!ロード)|フィルパワー|FP|プリマロフト|PRIMALOFT|シンサレート|保温/i.test(wm2) ? wm2.replace(/\s+/g, " ") : null;
+  // 保温：公式の文章ではなく、保温材の名前と数値だけにする（例：「800フィルパワーのダウン」「プリマロフト」）
+  const warmthWords = warmth ? [...new Set((warmth.match(/\d{3,4}\s?(?:FP|フィルパワー)|ダウン(?!ロード)|中綿|プリマロフト[^\s、。,（(]*|PRIMALOFT[^\s、。,（(]*|シンサレート|フリース|ウール/gi) || []))].slice(0, 3).join("・") : null;
 
   // 評価（記載から導ける範囲）
   const text = `${name} ${r.desc || ""}`;
@@ -111,7 +129,7 @@ for (const [key, r] of Object.entries(raw)) {
   if (waterproof) pros.push(`防水・撥水：${waterproof}（公式記載）`);
   if (weight_g) pros.push(`重量 ${weight_g.toLocaleString()}g（公式記載）`);
   if (capacity_l) pros.push(`容量 ${capacity_l}L`);
-  if (warmth) pros.push(`保温：${warmth.slice(0, 40)}`);
+  if (warmth && warmthWords) pros.push(`保温：${warmthWords}`);
   if (/ベンチレーション|ピットジップ/.test(text)) pros.push("ベンチレーション（換気用の開閉部）の記載あり");
   if (/ストレッチ/.test(text)) pros.push("ストレッチ性の記載あり");
   if (/ポケッタブル|パッカブル|収納/.test(text)) pros.push("コンパクトに収納できると記載");
@@ -126,8 +144,8 @@ for (const [key, r] of Object.entries(raw)) {
   if (concerns.includes("sweat")) concern_reasons.sweat = "通気・透湿・ベンチレーションに関する記載があります。";
   catCount[category] = (catCount[category] || 0) + 1;
   out.push({
-    key, id, name, in_stock_unknown: stockUnknown || undefined, in_stock: (r.stock_lines || []).length ? (r.stock_lines.some((l) => /在庫あり|在庫わずか/.test(l)) ? true : false) : undefined, gender: gender(name), category, price: priceMode === "first" ? (((r.price_text || [])[0] || "").match(/[¥￥]\s?([\d,]{3,})/) || [])[1] ? Number(((r.price_text || [])[0].match(/[¥￥]\s?([\d,]{3,})/))[1].replace(/,/g, "")) : null : priceMode === "ld" ? (r.price_min ?? null) : priceMode === "max" ? (r.price_max ?? r.price_min ?? null) : undefined, weight_g, weight_note, capacity_l, material, waterproof, waterproof_level, warmth, size_note: null,
-    eval: { season, uses, concerns, fit: "不明（公式にサイズ感の記載なし）", summary: `${CAT_WORD[category]}。${firstSentence(r.desc)}`.slice(0, 140), pros: pros.slice(0, 4), cons, good_for, not_for: [], concern_reasons },
+    key, id, name, in_stock_unknown: stockUnknown || undefined, in_stock: (r.stock_lines || []).length ? (r.stock_lines.some((l) => /在庫あり|在庫わずか/.test(l)) ? true : false) : undefined, gender: gender(name), category, price: priceMode === "first" ? (((r.price_text || [])[0] || "").match(/[¥￥]\s?([\d,]{3,})/) || [])[1] ? Number(((r.price_text || [])[0].match(/[¥￥]\s?([\d,]{3,})/))[1].replace(/,/g, "")) : null : priceMode === "ld" ? (r.price_min ?? null) : priceMode === "max" ? (r.price_max ?? r.price_min ?? null) : undefined, weight_g, weight_note, capacity_l, material, waterproof, waterproof_level, warmth: warmthWords || null, size_note: null,
+    eval: { season, uses, concerns, fit: "不明（公式にサイズ感の記載なし）", summary: factSummary({ name, category, capacity_l, weight_g, waterproof, warmthWords }), pros: pros.slice(0, 4), cons, good_for, not_for: [], concern_reasons },
   });
 }
 fs.writeFileSync(`data/evals/${slug}.json`, JSON.stringify(out, null, 1));

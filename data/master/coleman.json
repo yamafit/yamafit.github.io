@@ -11,7 +11,7 @@
    "weight_g": 18000,
    "weight_note": "公式記載",
    "capacity_l": null,
-   "material": "■ルーフフライにダークルームテクノロジーを採用​、遮光性に優れた素材を生地に施し、光を90％以上ブロック",
+   "material": null,
    "waterproof": "防水（公式記載）",
    "waterproof_level": "waterproof",
    "warmth": null,
@@ -19,7 +19,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2253788.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -34,8 +34,8 @@
      "shop": "official",
      "url": "https://ec.coleman.co.jp/category/234/2253788.html",
      "affiliate_url": "",
-     "in_stock": false,
-     "checked_at": "2026-11-27"
+     "in_stock": true,
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -47,7 +47,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。タフスピードドーム DRルーフの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：防水（公式記載）（公式記載）",
      "重量 18,000g（公式記載）"
@@ -72,7 +72,7 @@
    "weight_g": 9500,
    "weight_note": "公式記載",
    "capacity_l": null,
-   "material": "遮光性に優れた素材を生地に施し、光をブロックします。",
+   "material": null,
    "waterproof": "耐水圧1500mm",
    "waterproof_level": "waterproof",
    "warmth": null,
@@ -80,7 +80,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2157660.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -96,7 +96,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2157660.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -108,7 +108,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。キャンプ・アウトドア・外遊びの暑さ対策に！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：耐水圧1500mm（公式記載）",
      "重量 9,500g（公式記載）"
@@ -141,7 +141,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2287657.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -157,7 +157,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2287657.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -169,7 +169,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。【一般販売】50 リミテッド コクーンIIIの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "テント・寝具",
     "pros": [
      "重量 34,000g（公式記載）"
     ],
@@ -201,7 +201,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2260387.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -217,7 +217,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2260387.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -229,7 +229,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。キャンプ・アウトドア・外遊びの暑さ対策に！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：防水（公式記載）（公式記載）",
      "重量 20,000g（公式記載）"
@@ -262,7 +262,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2000038774.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -277,9 +277,8 @@
      "shop": "official",
      "url": "https://ec.coleman.co.jp/category/234/2000038774.html",
      "affiliate_url": "",
-     "in_stock": false,
-     "checked_at": "2026-11-27",
-     "note": "公式ページが見つからない（取り扱い終了の可能性）"
+     "in_stock": true,
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -291,7 +290,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。クリアウォールの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "約1,800gのテント・寝具",
     "pros": [
      "重量 1,800g（公式記載）"
     ],
@@ -323,7 +322,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2207040.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -339,7 +338,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2207040.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -351,7 +350,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。タフ2ルーム DX/3025（グレージュ）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：防水（公式記載）（公式記載）",
      "重量 18,000g（公式記載）"
@@ -384,7 +383,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2243185.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -400,7 +399,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2243185.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -412,7 +411,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。ツーリングドーム/LDXの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：防水（公式記載）（公式記載）",
      "重量 5,600g（公式記載）"
@@ -445,7 +444,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2243845.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -461,7 +460,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2243845.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -473,7 +472,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。タフスピードドームの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "防水のテント・寝具",
     "pros": [
      "防水・撥水：防水（公式記載）（公式記載）",
      "重量 17,000g（公式記載）"
@@ -506,7 +505,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/234/2249251.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -522,7 +521,7 @@
      "url": "https://ec.coleman.co.jp/category/234/2249251.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -534,7 +533,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。テントシートセット/タフスピードドームの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "約2,600gのテント",
     "pros": [
      "重量 2,600g（公式記載）"
     ],
@@ -566,7 +565,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000036153.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -581,8 +580,8 @@
      "shop": "official",
      "url": "https://ec.coleman.co.jp/category/206/2000036153.html",
      "affiliate_url": "",
-     "in_stock": false,
-     "checked_at": "2026-11-27"
+     "in_stock": true,
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -594,7 +593,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。キャンパーインフレーターマットハイピーク/シングルの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "約2,700gのマット",
     "pros": [
      "重量 2,700g（公式記載）"
     ],
@@ -626,7 +625,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000036154.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -642,7 +641,7 @@
      "url": "https://ec.coleman.co.jp/category/206/2000036154.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -654,7 +653,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。キャンパーインフレーターマットハイピーク/ダブルの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "マット",
     "pros": [
      "重量 5,000g（公式記載）"
     ],
@@ -681,12 +680,12 @@
    "material": "●材質：表地／ポリエステル 裏地／ポリエステル 中綿／ポリエステル",
    "waterproof": null,
    "waterproof_level": null,
-   "warmth": "●材質：表地／ポリエステル 裏地／ポリエステル 中綿／ポリエステル",
+   "warmth": "中綿",
    "size_note": null,
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000034777.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -702,7 +701,7 @@
      "url": "https://ec.coleman.co.jp/category/206/2000034777.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -714,10 +713,10 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。マルチレイヤースリーピングバッグの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "中綿のバッグ",
     "pros": [
      "重量 4,900g（公式記載）",
-     "保温：●材質：表地／ポリエステル 裏地／ポリエステル 中綿／ポリエステル"
+     "保温：中綿"
     ],
     "cons": [
      "不明（公式の記載から読み取れる弱点は限られます）"
@@ -747,7 +746,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000034774.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -763,7 +762,7 @@
      "url": "https://ec.coleman.co.jp/category/206/2000034774.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -775,7 +774,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。パフォーマーⅢ／Ｃ５（オレンジ）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "約1,400gのテント・寝具",
     "pros": [
      "重量 1,400g（公式記載）"
     ],
@@ -807,7 +806,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000032353.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -823,7 +822,7 @@
      "url": "https://ec.coleman.co.jp/category/206/2000032353.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -835,7 +834,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。キャンパーインフレーターマット／ＷセットⅡの通販なら、コールマンの公式オンラインショップで！",
+    "summary": "マット",
     "pros": [
      "重量 3,500g（公式記載）"
     ],
@@ -867,7 +866,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/206/2000034772.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -883,7 +882,7 @@
      "url": "https://ec.coleman.co.jp/category/206/2000034772.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -895,7 +894,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "テント・寝具。コージーⅡ／Ｃ５（オレンジ）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "約2,000gのテント・寝具",
     "pros": [
      "重量 2,000g（公式記載）"
     ],
@@ -919,7 +918,7 @@
    "weight_g": 700,
    "weight_note": "公式記載",
    "capacity_l": 33,
-   "material": "背面パネルとショルダーベルトにはメッシュ素材を使用",
+   "material": null,
    "waterproof": null,
    "waterproof_level": null,
    "warmth": null,
@@ -927,7 +926,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/258_32/2205756.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -943,7 +942,7 @@
      "url": "https://ec.coleman.co.jp/category/258_32/2205756.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -962,7 +961,7 @@
      "light"
     ],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "ザック・バッグ。ウォーカー33（ヘリンボーン）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "33L・約700gのザック",
     "pros": [
      "重量 700g（公式記載）",
      "容量 33L"
@@ -989,7 +988,7 @@
    "weight_g": 570,
    "weight_note": "公式記載",
    "capacity_l": 25,
-   "material": "背面パネルとショルダーベルトにはメッシュ素材を使用",
+   "material": null,
    "waterproof": null,
    "waterproof_level": null,
    "warmth": null,
@@ -997,7 +996,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/258_32/2000038978.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -1013,7 +1012,7 @@
      "url": "https://ec.coleman.co.jp/category/258_32/2000038978.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -1032,7 +1031,7 @@
      "light"
     ],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "ザック・バッグ。ウォーカー 25 (ブラック)の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "25L・約570gのザック",
     "pros": [
      "重量 570g（公式記載）",
      "容量 25L"
@@ -1059,7 +1058,7 @@
    "weight_g": 1000,
    "weight_note": "公式記載",
    "capacity_l": 43,
-   "material": "背面パネルとショルダーベルトにはメッシュ素材を使用",
+   "material": null,
    "waterproof": null,
    "waterproof_level": null,
    "warmth": null,
@@ -1067,7 +1066,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/258_33/2234492.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -1083,7 +1082,7 @@
      "url": "https://ec.coleman.co.jp/category/258_33/2234492.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -1100,7 +1099,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "ザック・バッグ。アトラス43（グレー）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "43L・約1,000gのザック",
     "pros": [
      "重量 1,000g（公式記載）",
      "容量 43L"
@@ -1133,7 +1132,7 @@
    "sources": [
     {
      "url": "https://ec.coleman.co.jp/category/258_33/2000032974.html",
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "image": {
@@ -1149,7 +1148,7 @@
      "url": "https://ec.coleman.co.jp/category/258_33/2000032974.html",
      "affiliate_url": "",
      "in_stock": true,
-     "checked_at": "2026-11-27"
+     "checked_at": "2026-10-12"
     }
    ],
    "evaluation": {
@@ -1166,7 +1165,7 @@
     ],
     "concerns": [],
     "fit": "不明（公式にサイズ感の記載なし）",
-    "summary": "ザック・バッグ。トレックパック（ブラック）の通販なら、コールマンの公式オンラインショップで！",
+    "summary": "42L・約830gのパック",
     "pros": [
      "重量 830g（公式記載）",
      "容量 42L"
