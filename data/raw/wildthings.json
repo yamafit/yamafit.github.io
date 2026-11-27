@@ -2861,5 +2861,40 @@
   "size": [],
   "weight_labeled": null,
   "checked_at": "2026-11-20"
+ },
+ "/products/wt26450sk-avr": {
+  "url": "https://wildthings.jp/products/wt26450sk-avr",
+  "category": "auto",
+  "status": 200,
+  "name": "エピックアンドプリマロフトフーデッドジャケット｜EPIC & PRIMALOFT HOODED JACKET",
+  "title": "エピックアンドプリマロフトフーデッドジャケット｜EPIC & PRIMALOFT HOODED JACKET",
+  "product_type": "",
+  "tags": [
+   "26FW",
+   "NEW",
+   "new-arrival",
+   "tpl-regular-updated",
+   "コラボレーション",
+   "メンズ"
+  ],
+  "price_min": 59400,
+  "price_max": 59400,
+  "price_text": [],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0765/0541/5912/files/7837152027-020_0001.jpg?v=1795670011",
+  "og_image": null,
+  "desc": "HAPPY JACKETをベースに、AVIREXとのコラボレーションで仕立てたフード付きの中綿ジャケット。 表地には、米軍のレイヤリングシステムECWCS LEVEL7にも使われていたEPIC®素材を採用。 繊維の内側にシリコンバリアを施すシリコンカプセル化技術により、耐久撥水を備えています。 アウトドアから街まで頼れる一着に仕上げています。 中綿にはプリマロフトの中でも最上位の機能性を誇るPrimaloft® Goldを封入。",
+  "body": "HAPPY JACKETをベースに、AVIREXとのコラボレーションで仕立てたフード付きの中綿ジャケット。\n表地には、米軍のレイヤリングシステムECWCS LEVEL7にも使われていたEPIC®素材を採用。\n繊維の内側にシリコンバリアを施すシリコンカプセル化技術により、耐久撥水を備えています。\nアウトドアから街まで頼れる一着に仕上げています。\n中綿にはプリマロフトの中でも最上位の機能性を誇るPrimaloft® Goldを封入。",
+  "weight": [],
+  "material": [
+   "表地には、米軍のレイヤリングシステムECWCS LEVEL7にも使われていたEPIC®素材を採用。"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "size": [],
+  "weight_labeled": null,
+  "checked_at": "2026-11-27"
  }
 }
