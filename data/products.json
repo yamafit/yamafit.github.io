@@ -22185,6 +22185,70 @@
    }
   },
   {
+   "id": "mammut-alto-22",
+   "category": "pack",
+   "brand": "マムート",
+   "name": "アルト 22",
+   "gender": "mens",
+   "spec": "PFCフリー耐久撥水（DWR）加工のリップストップ",
+   "price": 17600,
+   "capacity_l": 22,
+   "weight_g": null,
+   "weight_note": "国内公式に記載なし（グローバル公式では640g）",
+   "material": null,
+   "waterproof": "PFCフリー耐久撥水（DWR）加工のリップストップ",
+   "warmth": null,
+   "size_note": "22L（実寸 幅約34×高さ約48×マチ約8.5cm、国内公式）",
+   "season": [],
+   "features": [
+    "耐久性と耐水性に優れたリップストップ素材で、小雨に降られても安心と記載",
+    "PFCフリー耐久撥水（DWR）加工",
+    "メッシュのワイドなフロントポケットと両サイドのウォーターボトルホルダー",
+    "本体内側に仕切りポケット"
+   ],
+   "cons": [
+    "防水ではなく撥水のため、強い雨ではカバーなどの併用が必要",
+    "内装は仕切りポケットのみ"
+   ],
+   "for_whom": "街歩きや通勤にも使えるザックがほしい人・近場の低山を軽く歩く人",
+   "not_for": "本格的な山行や泊まりの山行に行く人",
+   "terrain": [
+    "low"
+   ],
+   "uses": [
+    "low",
+    "town"
+   ],
+   "concerns": [],
+   "reasons": {},
+   "default_reason": "普段使いと軽めのハイキング向けの、撥水リップストップの22Lデイパックです。",
+   "fit": "不明（公式に背面長などサイズ感の記載なし）",
+   "image": "",
+   "ai_image": "",
+   "ai_article": "",
+   "sources": [
+    {
+     "url": "https://www.mammut.jp/items/2570-00300",
+     "checked_at": "2026-11-27"
+    }
+   ],
+   "offers": [
+    {
+     "shop": "official",
+     "url": "https://www.mammut.jp/items/2570-00300",
+     "affiliate_url": "",
+     "in_stock": true,
+     "checked_at": "2026-11-27"
+    }
+   ],
+   "related": [],
+   "affiliate": {
+    "amazon": "",
+    "rakuten": "",
+    "yahoo": ""
+   }
+  },
+  {
    "id": "marmot-gtx-frey-jacket-m",
    "category": "rain",
    "brand": "マーモット",

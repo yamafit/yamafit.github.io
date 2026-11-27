@@ -1320,5 +1320,20 @@
   "price_min": 29700,
   "price_max": 29700,
   "checked_at": "2026-11-22"
+ },
+ "/items/2570-00300": {
+  "status": 200,
+  "price_text": [],
+  "availability": [
+   "InStock"
+  ],
+  "image": "https://static.mammut.com/cdn-cgi/image/width=4096,quality=85,f=auto,metadata=none/master/2570-00300-0001_main-grey_275104.jpg",
+  "url": "https://www.mammut.jp/items/2570-00300",
+  "category": "pack",
+  "name": "アルト 22, black",
+  "title": "アルト 22（Alto 22）（2570-00300）|MAMMUT - マムート - 公式オンラインストア",
+  "price_min": 17600,
+  "price_max": 17600,
+  "checked_at": "2026-11-27"
  }
 }
