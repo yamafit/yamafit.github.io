@@ -576,7 +576,15 @@ async function reelFile() {
   if (!/#PR/.test(caption)) throw new Error("投稿文に #PR がありません");
   if (DRY) return log("DRY_RUN: 投稿しません\n" + caption);
   const ms = parseInt(process.env.REEL_THUMB_MS || "", 10);
-  const r = await publishReel(file, caption, null, ms > 0 ? { thumb_offset: String(ms) } : {});
+  const extra = ms > 0 ? { thumb_offset: String(ms) } : {};
+  const cov = process.env.REEL_COVER_FILE; // 表紙にする画像（リポジトリ内のjpg。main に置いて公開URLで渡す）
+  if (cov) {
+    if (!fs.existsSync(cov)) throw new Error("REEL_COVER_FILE の画像がありません: " + cov);
+    const covUrl = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY || "yamafit/yamafit.github.io"}/main/${cov.split("/").map(encodeURIComponent).join("/")}`;
+    await waitLive(covUrl);
+    extra.cover_url = covUrl;
+  }
+  const r = await publishReel(file, caption, null, extra);
   if (process.env.REEL_NO_PUBLISH === "1") { const m = "テスト：アップロードと処理まで成功（投稿はしていません） " + JSON.stringify(r); if (process.env.GITHUB_ACTIONS) console.log("::notice::" + m); return log(m); }
   posts[key] = { ...r, posted_at: new Date().toISOString(), video: file };
   fs.writeFileSync(POSTS, JSON.stringify(posts, null, 1) + "\n");

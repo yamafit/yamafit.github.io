@@ -15,6 +15,10 @@ on:
         description: "そのときの投稿文のファイル（例 content/reel/gore-tex-types.txt）"
         required: false
         default: ""
+      cover_file:
+        description: "表紙にする画像のパス（例 img/reels/arcteryx-history-cover.jpg）"
+        required: false
+        default: ""
       thumb_ms:
         description: "表紙にする位置（ミリ秒。例 4600）"
         required: false
@@ -34,6 +38,7 @@ jobs:
       REEL_FILE: ${{ github.event.inputs.file }}
       REEL_CAPTION_FILE: ${{ github.event.inputs.caption_file }}
       REEL_THUMB_MS: ${{ github.event.inputs.thumb_ms }}
+      REEL_COVER_FILE: ${{ github.event.inputs.cover_file }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
