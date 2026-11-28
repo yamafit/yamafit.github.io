@@ -125,3 +125,13 @@ Chrome で http://localhost:8000 を開く。
 - 投稿：写真＋記事の要点＋記事URL＋#PR。楽天リンクは入れない。ハッシュタグはブランド（日本語・英語）＋商品名＋よく検索される登山タグ10個＋#ヤマフィット（tools/daily-image-post.mjs の hashtags）。記録は `data/ig-posts.json`。
 - 必要な Secrets：`OPENAI_API_KEY`、`INSTAGRAM_ACCESS_TOKEN`。未登録なら警告を出して何もしない。
 - 手動：Actions →「朝の記事写真とInstagram投稿」→ Run workflow（slug を入れるとその記事）。
+
+## TikTok投稿（.github/workflows/tiktok-post.yml、手動）
+Instagram のリールと同じ縦動画を TikTok に投稿する（`tools/tiktok.mjs`）。
+1. [TikTok for Developers](https://developers.tiktok.com/) でアプリを作り、**Content Posting API** を追加。スコープは `video.publish`（そのまま投稿）または `video.upload`（下書き）。
+2. 自分のアカウントで認可し、リフレッシュトークンを取得。
+3. Secrets に `TIKTOK_CLIENT_KEY` / `TIKTOK_CLIENT_SECRET` / `TIKTOK_REFRESH_TOKEN` を登録。
+4. Actions の「TikTok投稿」で動画・投稿文を指定して実行（最初は dry_run=1 で確認）。
+- **審査（Audit）が通るまでは、公開の投稿はできない**（`SELF_ONLY`＝自分だけ、のみ）。公開したい場合は審査後に privacy を変える。
+- 投稿文には `#PR` が必須（Instagram と同じ）。広告・タイアップ申告が必要なときは `TIKTOK_BRAND_CONTENT=1`。
+- リフレッシュトークンが新しくなったときは警告が出る。Secrets を更新すること。

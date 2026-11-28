@@ -1,0 +1,62 @@
+name: TikTok投稿（手動のみ）
+# 作ってある縦動画（Instagramのリールと同じもの）を TikTok に投稿する。
+# 事前に TikTok for Developers のアプリ作成と、Secrets（TIKTOK_CLIENT_KEY / TIKTOK_CLIENT_SECRET / TIKTOK_REFRESH_TOKEN）の登録が必要。
+# 手順は README の「TikTok投稿」を参照。審査（Audit）が通るまでは privacy を SELF_ONLY のままにする。
+on:
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "動画のパス（例 img/reels/arcteryx-history.mp4）"
+        required: true
+      caption_file:
+        description: "投稿文のファイル（例 content/reel/arcteryx-history.txt。#PR を含めること）"
+        required: true
+      mode:
+        description: "direct＝そのまま投稿 / inbox＝下書きとして受信箱へ送る"
+        required: false
+        default: "direct"
+      privacy:
+        description: "公開範囲（SELF_ONLY / PUBLIC_TO_EVERYONE など。審査前は SELF_ONLY）"
+        required: false
+        default: "SELF_ONLY"
+      cover_ms:
+        description: "表紙にする位置（ミリ秒。例 4600）"
+        required: false
+        default: ""
+      dry_run:
+        description: "1 にすると投稿せず、内容の確認だけ"
+        required: false
+        default: ""
+concurrency:
+  group: tiktok-post
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+      TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+      TIKTOK_FILE: ${{ github.event.inputs.file }}
+      TIKTOK_CAPTION_FILE: ${{ github.event.inputs.caption_file }}
+      TIKTOK_MODE: ${{ github.event.inputs.mode }}
+      TIKTOK_PRIVACY: ${{ github.event.inputs.privacy }}
+      TIKTOK_COVER_MS: ${{ github.event.inputs.cover_ms }}
+      DRY_RUN: ${{ github.event.inputs.dry_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: TikTokに投稿
+        run: |
+          git pull --rebase -q || true
+          node tools/tiktok.mjs
+      - name: 投稿の記録を保存
+        if: env.DRY_RUN != '1'
+        run: |
+          git config user.name "yamafit-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/tiktok-posts.json
+          git diff --cached --quiet || (git commit -m "TikTokに投稿" && git pull --rebase --autostash && git push)
