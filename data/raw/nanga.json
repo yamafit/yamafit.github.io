@@ -9869,5 +9869,132 @@
   "size": [],
   "weight_labeled": null,
   "checked_at": "2026-11-20"
+ },
+ "/products/nanga-wacko-maria-leopard-down-jacket-コピー": {
+  "url": "https://store.nanga.jp/products/nanga-wacko-maria-leopard-down-jacket-コピー",
+  "category": "auto",
+  "status": 200,
+  "name": "NANGA×WACKO MARIA LEOPARD DOWN JACKET",
+  "title": "NANGA×WACKO MARIA LEOPARD DOWN JACKET",
+  "product_type": "collaboration",
+  "tags": [
+   "COLLABORATION",
+   "Down Wear",
+   "SPECIALCOLLABORATION",
+   "コラボレーション"
+  ],
+  "price_min": 117700,
+  "price_max": 117700,
+  "price_text": [],
+  "availability": [
+   "OutOfStock"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/26fw_wackomaria_downjk_7.jpg?v=1795693088",
+  "og_image": null,
+  "desc": "⚠ ご注文に関する注意事項 ・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。 ※ご購入前に、上記内容を必ずご確認ください。 WACKO MARIAとのコラボレーションダウンジャケット スタンドカラーのダウンジャケットをベースに、フロントにはワコマリアのブランドロゴの刺繍。左袖にはナンガのロゴを配置。フロントのシルバーのスナップがアクセントにもなっています。 生地にはワコマリアオリジナルのファブリックを使用し、存在感のあるデザインに。",
+  "body": "⚠ ご注文に関する注意事項\n・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。\n※ご購入前に、上記内容を必ずご確認ください。\nWACKO MARIAとのコラボレーションダウンジャケット\nスタンドカラーのダウンジャケットをベースに、フロントにはワコマリアのブランドロゴの刺繍。左袖にはナンガのロゴを配置。フロントのシルバーのスナップがアクセントにもなっています。\n生地にはワコマリアオリジナルのファブリックを使用し、存在感のあるデザインに。",
+  "weight": [],
+  "material": [],
+  "waterproof": [],
+  "warmth": [],
+  "size": [],
+  "weight_labeled": null,
+  "checked_at": "2026-11-28"
+ },
+ "/products/wacko-maria-nanga-fur-stand-down-jk": {
+  "url": "https://store.nanga.jp/products/wacko-maria-nanga-fur-stand-down-jk",
+  "category": "auto",
+  "status": 200,
+  "name": "WACKO MARIA×NANGA FAUX FUR STAND DOWN JACKET",
+  "title": "WACKO MARIA×NANGA FAUX FUR STAND DOWN JACKET",
+  "product_type": "collaboration",
+  "tags": [
+   "COLLABORATION",
+   "Down Wear",
+   "SPECIALCOLLABORATION",
+   "コラボレーション"
+  ],
+  "price_min": 140800,
+  "price_max": 140800,
+  "price_text": [],
+  "availability": [
+   "OutOfStock"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/26fw_wackomaria_downjk_1.jpg?v=1795693088",
+  "og_image": null,
+  "desc": "⚠ ご注文に関する注意事項 ・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。 ※ご購入前に、上記内容を必ずご確認ください。 WACKO MARIAとのコラボレーションダウンジャケット 継続してタッグを組むワコマリアとナンガのコラボレーションアイテム。 艶のある毛並みが際立つレオパード柄のファーを使用し、ダウンのふっくらとしたボリューム感を組み合わせた存在感のある1着に。生地の厚みに合わせてパターンを調整し、首元はスタンドカラーに仕上げています。",
+  "body": "⚠ ご注文に関する注意事項\n・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。\n※ご購入前に、上記内容を必ずご確認ください。\nWACKO MARIAとのコラボレーションダウンジャケット\n継続してタッグを組むワコマリアとナンガのコラボレーションアイテム。\n艶のある毛並みが際立つレオパード柄のファーを使用し、ダウンのふっくらとしたボリューム感を組み合わせた存在感のある1着に。生地の厚みに合わせてパターンを調整し、首元はスタンドカラーに仕上げています。",
+  "weight": [],
+  "material": [],
+  "waterproof": [],
+  "warmth": [],
+  "size": [],
+  "weight_labeled": null,
+  "checked_at": "2026-11-28"
+ },
+ "/products/wacko-maria-nanga-leopard-cotton-blanket": {
+  "url": "https://store.nanga.jp/products/wacko-maria-nanga-leopard-cotton-blanket",
+  "category": "auto",
+  "status": 200,
+  "name": "WACKO MARIA×NANGA LEOPARD COTTON BLANKET",
+  "title": "WACKO MARIA×NANGA LEOPARD COTTON BLANKET",
+  "product_type": "collaboration",
+  "tags": [
+   "Accessory",
+   "COLLABORATION",
+   "GOOD SLEEPING",
+   "ギフト",
+   "ブランケット"
+  ],
+  "price_min": 28600,
+  "price_max": 28600,
+  "price_text": [],
+  "availability": [
+   "OutOfStock"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/26fw_wackomaria_blanket_1.jpg?v=1795693088",
+  "og_image": null,
+  "desc": "⚠ ご注文に関する注意事項 ・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。 ※ご購入前に、上記内容を必ずご確認ください。 WACKO MARIAとのコラボレーションブランケット 存在感のあるレオパードパターンが目を惹くコットンブランケットです。ふっくらとした柔らかな肌触りで、ソファやベッド周りなど日常の空間からアウトドアまで幅広く活躍します。端には両ブランドのロゴが施され、シンプルながらもエクスクルーシブな佇まいに。日常に取り入れやすく、空間をさりげなく引き立ててくれる一枚です。",
+  "body": "⚠ ご注文に関する注意事項\n・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。\n※ご購入前に、上記内容を必ずご確認ください。\nWACKO MARIAとのコラボレーションブランケット\n存在感のあるレオパードパターンが目を惹くコットンブランケットです。ふっくらとした柔らかな肌触りで、ソファやベッド周りなど日常の空間からアウトドアまで幅広く活躍します。端には両ブランドのロゴが施され、シンプルながらもエクスクルーシブな佇まいに。日常に取り入れやすく、空間をさりげなく引き立ててくれる一枚です。",
+  "weight": [],
+  "material": [],
+  "waterproof": [],
+  "warmth": [],
+  "size": [],
+  "weight_labeled": null,
+  "checked_at": "2026-11-28"
+ },
+ "/products/wacko-maria-nanga-stand-down-jk": {
+  "url": "https://store.nanga.jp/products/wacko-maria-nanga-stand-down-jk",
+  "category": "auto",
+  "status": 200,
+  "name": "WACKO MARIA×NANGA STAND DOWN JACKET",
+  "title": "WACKO MARIA×NANGA STAND DOWN JACKET",
+  "product_type": "collaboration",
+  "tags": [
+   "COLLABORATION",
+   "Down Wear",
+   "SPECIALCOLLABORATION",
+   "コラボレーション"
+  ],
+  "price_min": 99000,
+  "price_max": 99000,
+  "price_text": [],
+  "availability": [
+   "OutOfStock"
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0033/7428/4867/files/26fw_wackomaria_downjk_3.jpg?v=1795693088",
+  "og_image": null,
+  "desc": "⚠ ご注文に関する注意事項 ・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。 ※ご購入前に、上記内容を必ずご確認ください。 WACKO MARIAとのコラボレーションダウンジャケット AURORA TEX®を使用したエクスクルーシブなダウンジャケット。 生地には、 NANGA 独自開発ファブリックの防水透素材である オーロラテックス®を使い、耐水圧20000mmで、雨などの侵入を防ぎます。",
+  "body": "⚠ ご注文に関する注意事項\n・ご注文が集中した場合、在庫の反映に時間差が生じ、商品をご用意できずキャンセルとさせていただく場合がございます。\n※ご購入前に、上記内容を必ずご確認ください。\nWACKO MARIAとのコラボレーションダウンジャケット\nAURORA TEX®を使用したエクスクルーシブなダウンジャケット。\n生地には、 NANGA 独自開発ファブリックの防水透素材である オーロラテックス®を使い、耐水圧20000mmで、雨などの侵入を防ぎます。",
+  "weight": [],
+  "material": [
+   "生地には、 NANGA 独自開発ファブリックの防水透素材である オーロラテックス®を使い、耐水圧20000mmで、雨などの侵入を防ぎます。"
+  ],
+  "waterproof": [],
+  "warmth": [],
+  "size": [],
+  "weight_labeled": null,
+  "checked_at": "2026-11-28"
  }
 }
